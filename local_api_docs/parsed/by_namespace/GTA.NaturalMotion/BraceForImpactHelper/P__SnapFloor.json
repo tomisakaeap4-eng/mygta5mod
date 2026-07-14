@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.SnapFloor",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BraceForImpactHelper",
-  "memberName": "SnapFloor",
-  "summary": "Exaggeration amount of the impact with the floor after falling off of car +ve fold with floor impact (as if pushed at hips in the impact normal direction).  -ve fold away from car impact.",
-  "remarks": "Default value = 7.0f.\n            Min value = -20.0f.\n            Max value = 20.0f."
-}

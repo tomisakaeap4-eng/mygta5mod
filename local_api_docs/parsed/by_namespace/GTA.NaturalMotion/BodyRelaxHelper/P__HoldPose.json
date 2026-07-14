@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyRelaxHelper.HoldPose",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyRelaxHelper",
-  "memberName": "HoldPose",
-  "summary": "Automatically hold the current pose as the character relaxes - can be used to avoid relaxing into a t-pose.",
-  "remarks": "Default value = False."
-}

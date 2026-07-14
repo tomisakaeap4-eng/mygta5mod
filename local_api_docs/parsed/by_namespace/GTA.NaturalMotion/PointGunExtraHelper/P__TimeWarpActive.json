@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunExtraHelper.TimeWarpActive",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunExtraHelper",
-  "memberName": "TimeWarpActive",
-  "summary": "Is timeWarpActive enabled?.",
-  "remarks": "Default value = False."
-}

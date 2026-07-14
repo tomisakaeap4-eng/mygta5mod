@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.NaturalMotion.SetMuscleStiffnessHelper",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "NaturalMotion",
-  "memberName": "SetMuscleStiffnessHelper",
-  "summary": "Use this message to manually set the muscle stiffness values -before using Active Pose to drive to an animated pose, for example."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.World.InteriorProxyCapacity",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "World",
-  "memberName": "InteriorProxyCapacity",
-  "summary": "The total number of"
-}

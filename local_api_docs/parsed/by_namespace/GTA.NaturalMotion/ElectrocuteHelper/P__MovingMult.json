@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ElectrocuteHelper.MovingMult",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ElectrocuteHelper",
-  "memberName": "MovingMult",
-  "summary": "MovingMult*stunMag = The magnitude of the reaction if moving(comVelMag) faster than movingThresh.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 20.0f."
-}

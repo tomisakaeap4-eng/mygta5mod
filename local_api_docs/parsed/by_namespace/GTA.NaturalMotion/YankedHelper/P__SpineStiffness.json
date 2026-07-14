@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.YankedHelper.SpineStiffness",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "YankedHelper",
-  "memberName": "SpineStiffness",
-  "summary": "Spine stiffness when upright.",
-  "remarks": "Default value = 10.0f.\n            Min value = 6.0f.\n            Max value = 16.0f."
-}

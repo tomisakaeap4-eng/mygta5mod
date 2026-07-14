@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotFromBehindHelper.SfbPeriod",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotFromBehindHelper",
-  "memberName": "SfbPeriod",
-  "summary": "ShotFromBehind reaction period after being shot.",
-  "remarks": "Default value = 0.7f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

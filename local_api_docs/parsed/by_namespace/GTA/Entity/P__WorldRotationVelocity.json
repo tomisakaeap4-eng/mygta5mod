@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Entity.WorldRotationVelocity",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "WorldRotationVelocity",
-  "summary": "Gets or sets the rotation velocity of this"
-}

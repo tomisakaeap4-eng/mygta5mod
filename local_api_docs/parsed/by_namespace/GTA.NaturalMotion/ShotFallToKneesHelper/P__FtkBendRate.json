@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkBendRate",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotFallToKneesHelper",
-  "memberName": "FtkBendRate",
-  "summary": "Rate at which the legs are bent to go from standing to on knees.",
-  "remarks": "Default value = 0.7f.\n            Min value = 0.0f.\n            Max value = 4.0f."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.BlipSprite.SafehouseForSale",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "BlipSprite",
-  "memberName": "SafehouseForSale",
-  "summary": "The default English text for this value is \"Property For Sale\"."
-}

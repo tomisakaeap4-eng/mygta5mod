@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.World.VehicleCapacity",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "World",
-  "memberName": "VehicleCapacity",
-  "summary": "The total number of",
-  "remarks": "The game will crash when the number of"
-}

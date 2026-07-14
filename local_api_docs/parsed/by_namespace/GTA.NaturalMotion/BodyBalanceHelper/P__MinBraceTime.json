@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.MinBraceTime",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyBalanceHelper",
-  "memberName": "MinBraceTime",
-  "summary": "Minimum bracing time so the character doesn't look twitchy.",
-  "remarks": "Default value = 0.3f.\n            Min value = 0.0f.\n            Max value = 3.0f."
-}

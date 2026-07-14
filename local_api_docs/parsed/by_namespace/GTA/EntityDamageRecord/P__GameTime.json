@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.EntityDamageRecord.GameTime",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "EntityDamageRecord",
-  "memberName": "GameTime",
-  "summary": "Gets the game time when the"
-}

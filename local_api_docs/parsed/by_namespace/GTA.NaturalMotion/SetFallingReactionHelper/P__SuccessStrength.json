@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SetFallingReactionHelper.SuccessStrength",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SetFallingReactionHelper",
-  "memberName": "SuccessStrength",
-  "summary": "When bodyStrength is less than successStrength send a success feedback - DO NOT GO OUTSIDE MIN/MAX PARAMETER VALUES OTHERWISE NO SUCCESS FEEDBACK WILL BE SENT.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.3f.\n            Max value = 1.0f."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.UI.CustomSprite",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "UI",
-  "memberName": "CustomSprite",
-  "summary": "A sprite element using a custom image texture."
-}

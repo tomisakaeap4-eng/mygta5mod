@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.NaturalMotion.ForceToBodyPartHelper",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "NaturalMotion",
-  "memberName": "ForceToBodyPartHelper",
-  "summary": "Apply an impulse to a named body part."
-}

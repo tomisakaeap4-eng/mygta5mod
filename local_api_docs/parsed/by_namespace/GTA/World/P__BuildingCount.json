@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.World.BuildingCount",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "World",
-  "memberName": "BuildingCount",
-  "summary": "A fast way to get the total number of"
-}

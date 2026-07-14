@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.NaturalMotion.ShotFromBehindHelper",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "NaturalMotion",
-  "memberName": "ShotFromBehindHelper",
-  "summary": "Configure the shot from behind reaction."
-}

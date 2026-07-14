@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyFoetalHelper.Asymmetry",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyFoetalHelper",
-  "memberName": "Asymmetry",
-  "summary": "A value between 0-1 that controls how asymmetric the results are by varying stiffness across the body.",
-  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

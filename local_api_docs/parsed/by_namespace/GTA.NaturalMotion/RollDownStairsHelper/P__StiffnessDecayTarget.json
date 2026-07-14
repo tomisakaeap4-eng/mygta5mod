@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.StiffnessDecayTarget",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RollDownStairsHelper",
-  "memberName": "StiffnessDecayTarget",
-  "summary": "The target linear velocity used to start the rolling.",
-  "remarks": "Default value = 9.0f.\n            Min value = 0.0f.\n            Max value = 20.0f."
-}

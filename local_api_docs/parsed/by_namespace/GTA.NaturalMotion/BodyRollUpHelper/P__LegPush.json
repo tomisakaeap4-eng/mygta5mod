@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyRollUpHelper.LegPush",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyRollUpHelper",
-  "memberName": "LegPush",
-  "summary": "Used to keep rolling down slope, 1 is full (kicks legs out when pointing upwards).",
-  "remarks": "Default value = 0.0f.\n            Min value = -1.0f.\n            Max value = 2.0f."
-}

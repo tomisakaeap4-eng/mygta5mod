@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Math.Matrix.HasInverse",
-  "kind": "P",
-  "namespace": "GTA.Math",
-  "typeName": "Matrix",
-  "memberName": "HasInverse",
-  "summary": "Gets a value indicating whether this instance has an inverse matrix."
-}

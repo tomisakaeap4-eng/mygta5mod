@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ArmsWindmillAdaptiveHelper.BendLeftElbow",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ArmsWindmillAdaptiveHelper",
-  "memberName": "BendLeftElbow",
-  "summary": "If true, bend the left elbow to give a stunt man type scramble look.",
-  "remarks": "Default value = False."
-}

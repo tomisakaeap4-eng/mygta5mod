@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Ped.TimeOfDeath",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Ped",
-  "memberName": "TimeOfDeath",
-  "summary": "Gets the time when this"
-}

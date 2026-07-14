@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ArmsWindmillHelper.ShoulderDamping",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ArmsWindmillHelper",
-  "memberName": "ShoulderDamping",
-  "summary": "Damping applied to the shoulders.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

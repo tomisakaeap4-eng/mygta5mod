@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Entity.Model",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "Model",
-  "summary": "Gets the model of the current"
-}

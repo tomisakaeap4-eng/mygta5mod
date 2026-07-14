@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.YankedHelper.TurnThresholdMax",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "YankedHelper",
-  "memberName": "TurnThresholdMax",
-  "summary": "Max angle at which the turn with toggle to the other direction (actual toggle angle is chosen randomly in range min to max).\n            If it is 1 then it will never toggle.\n            If negative then no turn is applied.",
-  "remarks": "Default value = 0.6f.\n            Min value = -0.1f.\n            Max value = 1.0f."
-}

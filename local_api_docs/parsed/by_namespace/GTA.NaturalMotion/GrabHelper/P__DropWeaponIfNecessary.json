@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.GrabHelper.DropWeaponIfNecessary",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "GrabHelper",
-  "memberName": "DropWeaponIfNecessary",
-  "summary": "If hasn't grabbed when weapon carrying hand is close to target, grab anyway.",
-  "remarks": "Default value = False."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.UI.IElement.Enabled",
-  "kind": "P",
-  "namespace": "GTA.UI",
-  "typeName": "IElement",
-  "memberName": "Enabled",
-  "summary": "Gets or sets a value indicating whether this"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.HighFallHelper.UseZeroPose_withFowardRoll",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "HighFallHelper",
-  "memberName": "UseZeroPose_withFowardRoll",
-  "summary": "Blend to a zero pose when forward roll is attempted.",
-  "remarks": "Default value = False."
-}

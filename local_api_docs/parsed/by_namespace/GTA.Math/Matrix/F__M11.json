@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.Math.Matrix.M11",
-  "kind": "F",
-  "namespace": "GTA.Math",
-  "typeName": "Matrix",
-  "memberName": "M11",
-  "summary": "Gets or sets the element of the matrix that exists in the first row and first column."
-}

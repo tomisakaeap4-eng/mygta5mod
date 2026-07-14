@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.VehicleDrivingFlags.DrivingModePloughThrough",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleDrivingFlags",
-  "memberName": "DrivingModePloughThrough",
-  "summary": "Smashes through everything."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.FallOverWallHelper.MaxForceDist",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "FallOverWallHelper",
-  "memberName": "MaxForceDist",
-  "summary": "Maximum distance between hitPoint and body part at which forces are applied to part.",
-  "remarks": "Default value = 0.8f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

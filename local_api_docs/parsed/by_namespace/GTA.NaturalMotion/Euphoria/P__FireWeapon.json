@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.FireWeapon",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "FireWeapon",
-  "summary": "Gets a FireWeapon Helper class for sending FireWeapon",
-  "remarks": "One shot message apply a force to the hand as we fire the gun that should be in this hand"
-}

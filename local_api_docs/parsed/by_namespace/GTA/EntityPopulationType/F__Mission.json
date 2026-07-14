@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.EntityPopulationType.Mission",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "EntityPopulationType",
-  "memberName": "Mission",
-  "summary": "This value is set when entities are created via native functions or when SET_ENTITY_AS_MISSION_ENTITY is called.\n            The game does not automatically delete entities when this value is set."
-}

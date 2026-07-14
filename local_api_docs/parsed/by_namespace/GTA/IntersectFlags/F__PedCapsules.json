@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.IntersectFlags.PedCapsules",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "IntersectFlags",
-  "memberName": "PedCapsules",
-  "summary": "Detect"
-}

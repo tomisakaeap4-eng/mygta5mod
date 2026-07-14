@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.ForceLeanToPosition",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "ForceLeanToPosition",
-  "summary": "Gets a ForceLeanToPosition Helper class for sending ForceLeanToPosition"
-}

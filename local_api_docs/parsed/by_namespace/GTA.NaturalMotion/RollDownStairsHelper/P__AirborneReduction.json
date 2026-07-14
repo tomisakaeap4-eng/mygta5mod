@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.AirborneReduction",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RollDownStairsHelper",
-  "memberName": "AirborneReduction",
-  "summary": "Ordinarily keep at 0.85.  Make this lower if you want spinning in the air.",
-  "remarks": "Default value = 0.9f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

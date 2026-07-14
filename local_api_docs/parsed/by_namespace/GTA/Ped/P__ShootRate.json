@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.Ped.ShootRate",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Ped",
-  "memberName": "ShootRate",
-  "summary": "Sets the rate this",
-  "value": "The shoot rate from 0.0f to 1000.0f, 100.0f is the default value."
-}

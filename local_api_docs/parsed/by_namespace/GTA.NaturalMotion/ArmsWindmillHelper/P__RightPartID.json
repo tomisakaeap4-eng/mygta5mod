@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ArmsWindmillHelper.RightPartID",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ArmsWindmillHelper",
-  "memberName": "RightPartID",
-  "summary": "ID of part that the circle uses as local space for positioning.",
-  "remarks": "Default value = 10.\n            Min value = 0.\n            Max value = 21."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.ResistAcc",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBalanceHelper",
-  "memberName": "ResistAcc",
-  "summary": "Level of cheat force added to character to resist the effect of floorAcceleration (anti-Acceleration) - added to upperbody.",
-  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.World.BuildingCapacity",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "World",
-  "memberName": "BuildingCapacity",
-  "summary": "The total number of"
-}

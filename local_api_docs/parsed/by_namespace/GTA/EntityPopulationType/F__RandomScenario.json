@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.EntityPopulationType.RandomScenario",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "EntityPopulationType",
-  "memberName": "RandomScenario",
-  "summary": "This value is set when scenario peds are created."
-}

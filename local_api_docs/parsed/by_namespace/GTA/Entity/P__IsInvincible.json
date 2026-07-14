@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Entity.IsInvincible",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "IsInvincible",
-  "summary": "Gets or sets a value indicating whether this"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.VehicleDrivingFlags.UseWanderFallbackInsteadOfStraightLine",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleDrivingFlags",
-  "memberName": "UseWanderFallbackInsteadOfStraightLine",
-  "summary": "If pathfinding fails, cruise randomly instead of going on a straight line."
-}

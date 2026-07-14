@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.HandlingData.SuspensionCompressionDamping",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "HandlingData",
-  "memberName": "SuspensionCompressionDamping",
-  "summary": "Gets or sets the damping during strut compression.\n            This value will be set to the equivalent value in the",
-  "value": "The damping during strut compression."
-}

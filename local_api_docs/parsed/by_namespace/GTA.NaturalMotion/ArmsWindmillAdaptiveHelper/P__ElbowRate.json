@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ArmsWindmillAdaptiveHelper.ElbowRate",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ArmsWindmillAdaptiveHelper",
-  "memberName": "ElbowRate",
-  "summary": "Rate at which elbow tries to match *ElbowAngle.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 6.0f."
-}

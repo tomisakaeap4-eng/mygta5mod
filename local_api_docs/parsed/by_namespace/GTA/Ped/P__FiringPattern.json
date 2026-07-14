@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Ped.FiringPattern",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Ped",
-  "memberName": "FiringPattern",
-  "summary": "Gets of sets the pattern this"
-}

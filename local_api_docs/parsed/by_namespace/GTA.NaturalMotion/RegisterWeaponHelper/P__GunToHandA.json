@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RegisterWeaponHelper.GunToHandA",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RegisterWeaponHelper",
-  "memberName": "GunToHandA",
-  "summary": "A vector of the gunToHand matrix.  The gunToHandMatrix is the desired gunToHandMatrix in the aimingPose. (The gunToHandMatrix when pointGun starts can be different so will be blended to this desired one).",
-  "remarks": "Default value = Vector3(1.0f, 0.0f, 0.0f).\n            Min value = 0.0f."
-}

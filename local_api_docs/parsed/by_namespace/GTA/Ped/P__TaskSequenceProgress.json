@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Ped.TaskSequenceProgress",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Ped",
-  "memberName": "TaskSequenceProgress",
-  "summary": "Gets the stage of the"
-}

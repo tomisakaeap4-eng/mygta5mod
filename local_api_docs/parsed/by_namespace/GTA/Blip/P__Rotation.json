@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.Blip.Rotation",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Blip",
-  "memberName": "Rotation",
-  "summary": "Gets or sets the rotation of this",
-  "value": "The rotation as an"
-}

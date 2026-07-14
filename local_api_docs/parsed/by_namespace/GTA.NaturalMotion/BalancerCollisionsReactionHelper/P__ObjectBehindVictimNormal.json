@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.ObjectBehindVictimNormal",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BalancerCollisionsReactionHelper",
-  "memberName": "ObjectBehindVictimNormal",
-  "summary": "The normal of a detected object behind a shot victim in the direction of a bullet.",
-  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f).\n            Min value = -1.0f.\n            Max value = 1.0f."
-}

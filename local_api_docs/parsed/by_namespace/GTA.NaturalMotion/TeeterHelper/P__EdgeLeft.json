@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.TeeterHelper.EdgeLeft",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "TeeterHelper",
-  "memberName": "EdgeLeft",
-  "summary": "Defines the left edge point (left of character facing edge).",
-  "remarks": "Default value = Vector3(39.5f, 38.9f, 21.1f).\n            Min value = 0.0f."
-}

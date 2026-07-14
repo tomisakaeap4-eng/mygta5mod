@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureShotInjuredLegHelper.LegForceStep",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureShotInjuredLegHelper",
-  "memberName": "LegForceStep",
-  "summary": "Force a step to be taken whether pushed out of balance or not.",
-  "remarks": "Default value = True."
-}

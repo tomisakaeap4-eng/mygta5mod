@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.UI.TextElement.Font",
-  "kind": "P",
-  "namespace": "GTA.UI",
-  "typeName": "TextElement",
-  "memberName": "Font",
-  "summary": "Gets or sets the font of this",
-  "value": "The GTA Font use when drawing."
-}

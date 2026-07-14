@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ApplyBulletImpulseHelper.ExtraShare",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ApplyBulletImpulseHelper",
-  "memberName": "ExtraShare",
-  "summary": "If not 0.0 then have an extra bullet applied to spine0 (approximates the COM).  Uses setup from configureBulletsExtra.  0-1 shared 0.0 = no extra bullet, 0.5 = impulse split equally between extra and bullet,  1.0 only extra bullet.  LT 0.0 then bullet + scaled extra bullet.  Eg.-0.5 = bullet + 0.5 impulse extra bullet.",
-  "remarks": "Default value = 0.0f.\n            Min value = -2.0f.\n            Max value = 1.0f."
-}

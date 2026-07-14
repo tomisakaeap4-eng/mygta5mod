@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.Native.GlobalVariable",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "Native",
-  "memberName": "GlobalVariable",
-  "summary": "A value class which handles access to global script variables."
-}

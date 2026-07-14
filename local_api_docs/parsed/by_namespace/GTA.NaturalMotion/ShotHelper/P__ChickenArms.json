@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotHelper.ChickenArms",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotHelper",
-  "memberName": "ChickenArms",
-  "summary": "Type of reaction.",
-  "remarks": "Default value = False."
-}

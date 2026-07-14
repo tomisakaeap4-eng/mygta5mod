@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.DampSpinThresh",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BraceForImpactHelper",
-  "memberName": "DampSpinThresh",
-  "summary": "Angular velocity above which we start damping.",
-  "remarks": "Default value = 4.0f.\n            Min value = 0.0f.\n            Max value = 20.0f."
-}

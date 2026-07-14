@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.StaggerFallHelper.AlwaysBendForwards",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "StaggerFallHelper",
-  "memberName": "AlwaysBendForwards",
-  "summary": "Bend forwards at the hip (hipBendMult) whether moving backwards or forwards.",
-  "remarks": "Default value = False."
-}

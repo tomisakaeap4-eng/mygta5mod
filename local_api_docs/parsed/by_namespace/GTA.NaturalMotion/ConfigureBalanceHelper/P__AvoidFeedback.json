@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.AvoidFeedback",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBalanceHelper",
-  "memberName": "AvoidFeedback",
-  "summary": "NB. Very sensitive. Avoid tries to not step across a line of the inside of the stance leg's foot. Avoid doesn't allow the desired stepping foot to cross the line.  avoidFeedback = how much of the actual crossing of that line is fedback as an error.",
-  "remarks": "Default value = 0.6f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

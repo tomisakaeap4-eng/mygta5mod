@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.LimitSpinReduction",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RollDownStairsHelper",
-  "memberName": "LimitSpinReduction",
-  "summary": "Scale zAxisSpinReduction back when rotating end-over-end (somersault) to give the body a chance to align with the axis of rotation.",
-  "remarks": "Default value = False."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.Carried",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "Carried",
-  "summary": "Gets a Carried Helper class for sending Carried",
-  "remarks": "Carried"
-}

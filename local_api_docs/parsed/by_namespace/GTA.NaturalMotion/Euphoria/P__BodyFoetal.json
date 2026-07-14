@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.BodyFoetal",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "BodyFoetal",
-  "summary": "Gets a BodyFoetal Helper class for sending BodyFoetal"
-}

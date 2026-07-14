@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.NaturalMotion.SetCharacterHealthHelper",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "NaturalMotion",
-  "memberName": "SetCharacterHealthHelper",
-  "summary": "Sets character's health on the dead-to-alive scale: [0..1]."
-}

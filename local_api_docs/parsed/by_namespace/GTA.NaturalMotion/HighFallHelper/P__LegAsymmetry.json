@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.HighFallHelper.LegAsymmetry",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "HighFallHelper",
-  "memberName": "LegAsymmetry",
-  "summary": "0.0 for stuntman.  Random offset applied per leg to the angular speed to desynchronize the pedaling - set to 0 to disable, otherwise should be set to less than the angularSpeed value.",
-  "remarks": "Default value = 4.0f.\n            Min value = -10.0f.\n            Max value = 10.0f."
-}

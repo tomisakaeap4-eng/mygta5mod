@@ -1,9 +1,0 @@
-{
-  "name": "F:GTA.AnimationFlags.TagSyncIn",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "AnimationFlags",
-  "memberName": "TagSyncIn",
-  "summary": "Sync the anim whilst blending in (use for seamless transitions from walk / run into a full body anim).",
-  "remarks": "Tag synchronizer flags are for syncing the anim against ped movement (walking / running / etc)."
-}

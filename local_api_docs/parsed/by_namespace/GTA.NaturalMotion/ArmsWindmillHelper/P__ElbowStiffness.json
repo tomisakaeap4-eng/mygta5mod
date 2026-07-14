@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ArmsWindmillHelper.ElbowStiffness",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ArmsWindmillHelper",
-  "memberName": "ElbowStiffness",
-  "summary": "Stiffness applied to the elbows.",
-  "remarks": "Default value = 12.0f.\n            Min value = 1.0f.\n            Max value = 16.0f."
-}

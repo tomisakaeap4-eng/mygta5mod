@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Vehicle.GetAllLoadedModelsAppropriateForAmbientVehicles",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "GetAllLoadedModelsAppropriateForAmbientVehicles",
-  "summary": "Gets an"
-}

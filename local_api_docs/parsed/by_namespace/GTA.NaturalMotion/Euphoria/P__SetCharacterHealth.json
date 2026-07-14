@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.SetCharacterHealth",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "SetCharacterHealth",
-  "summary": "Gets a SetCharacterHealth Helper class for sending SetCharacterHealth",
-  "remarks": "Sets character's health on the dead-to-alive scale: [0..1]"
-}

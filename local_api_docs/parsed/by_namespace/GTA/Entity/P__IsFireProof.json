@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Entity.IsFireProof",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "IsFireProof",
-  "summary": "Gets or sets a value indicating whether this"
-}

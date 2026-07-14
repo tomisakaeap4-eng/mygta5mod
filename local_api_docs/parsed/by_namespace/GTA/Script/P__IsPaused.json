@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Script.IsPaused",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Script",
-  "memberName": "IsPaused",
-  "summary": "Checks if this"
-}

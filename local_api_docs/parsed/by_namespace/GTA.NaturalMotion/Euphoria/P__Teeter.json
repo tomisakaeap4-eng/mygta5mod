@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.Teeter",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "Teeter",
-  "summary": "Gets a Teeter Helper class for sending Teeter"
-}

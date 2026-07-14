@@ -1,9 +1,0 @@
-{
-  "name": "F:GTA.Math.Vector2.X",
-  "kind": "F",
-  "namespace": "GTA.Math",
-  "typeName": "Vector2",
-  "memberName": "X",
-  "summary": "Gets or sets the X component of the vector.",
-  "value": "The X component of the vector."
-}

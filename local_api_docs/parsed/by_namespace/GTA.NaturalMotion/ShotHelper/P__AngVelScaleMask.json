@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotHelper.AngVelScaleMask",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotHelper",
-  "memberName": "AngVelScaleMask",
-  "summary": "Parts to scale the initial angular velocity by angVelScale (otherwize scale by 1.0).",
-  "remarks": "Default value = \"fb\"."
-}

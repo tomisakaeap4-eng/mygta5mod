@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Checkpoint.MemoryAddress",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Checkpoint",
-  "memberName": "MemoryAddress",
-  "summary": "Gets the memory address of this"
-}

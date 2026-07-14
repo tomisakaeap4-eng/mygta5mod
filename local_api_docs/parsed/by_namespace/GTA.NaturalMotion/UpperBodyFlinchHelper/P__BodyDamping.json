@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.UpperBodyFlinchHelper.BodyDamping",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "UpperBodyFlinchHelper",
-  "memberName": "BodyDamping",
-  "summary": "Damping value used for upper body.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

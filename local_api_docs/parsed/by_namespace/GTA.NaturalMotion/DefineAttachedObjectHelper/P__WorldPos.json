@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.DefineAttachedObjectHelper.WorldPos",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "DefineAttachedObjectHelper",
-  "memberName": "WorldPos",
-  "summary": "World position of attached object's center of mass. Must be updated each frame.",
-  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
-}

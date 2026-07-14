@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterAfterMagReached",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBulletsExtraHelper",
-  "memberName": "CounterAfterMagReached",
-  "summary": "Applies the counter impulse counterImpulseDelay(secs) after counterImpulseMag of the Impulse has been applied.",
-  "remarks": "Default value = False."
-}

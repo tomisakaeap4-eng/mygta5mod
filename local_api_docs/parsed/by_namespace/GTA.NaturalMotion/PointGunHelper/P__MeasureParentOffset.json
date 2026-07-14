@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunHelper.MeasureParentOffset",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunHelper",
-  "memberName": "MeasureParentOffset",
-  "summary": "If useIncomingTransforms = true and measureParentOffset=true then measure the Pointing-from offset from parent effector, using itms - this should point the barrel of the gun to the target.  This is added to the rightHandParentOffset. NB NOT used if rightHandParentEffector LT 0.",
-  "remarks": "Default value = True."
-}

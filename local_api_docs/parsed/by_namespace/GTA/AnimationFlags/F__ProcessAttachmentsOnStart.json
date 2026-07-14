@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.AnimationFlags.ProcessAttachmentsOnStart",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "AnimationFlags",
-  "memberName": "ProcessAttachmentsOnStart",
-  "summary": "Force the attachments to be processed at the start of the clip."
-}

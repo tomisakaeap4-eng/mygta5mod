@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.MaxBraking",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "MaxBraking",
-  "summary": "Gets the maximum brake power of this"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Blip.Color",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Blip",
-  "memberName": "Color",
-  "summary": "Gets or sets the color of this"
-}

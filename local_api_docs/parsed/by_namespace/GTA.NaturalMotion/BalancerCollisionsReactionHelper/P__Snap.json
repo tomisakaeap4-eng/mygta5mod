@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.Snap",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BalancerCollisionsReactionHelper",
-  "memberName": "Snap",
-  "summary": "Add a Snap to when you hit a wall to emphasize the hit.",
-  "remarks": "Default value = False."
-}

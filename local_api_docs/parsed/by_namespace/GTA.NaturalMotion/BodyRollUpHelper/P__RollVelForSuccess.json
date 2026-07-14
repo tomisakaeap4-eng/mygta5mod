@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyRollUpHelper.RollVelForSuccess",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyRollUpHelper",
-  "memberName": "RollVelForSuccess",
-  "summary": "Lower threshold for roll velocity at which success message can be sent.",
-  "remarks": "Default value = 0.2f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

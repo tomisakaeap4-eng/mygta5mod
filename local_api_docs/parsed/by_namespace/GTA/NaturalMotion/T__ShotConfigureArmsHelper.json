@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.NaturalMotion.ShotConfigureArmsHelper",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "NaturalMotion",
-  "memberName": "ShotConfigureArmsHelper",
-  "summary": "Configure the arm reactions in shot."
-}

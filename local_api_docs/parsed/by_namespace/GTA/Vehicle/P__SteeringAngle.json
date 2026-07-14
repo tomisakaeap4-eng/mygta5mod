@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.SteeringAngle",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "SteeringAngle",
-  "summary": "Gets or sets the steering angle of this",
-  "value": "The steering angle in degrees."
-}

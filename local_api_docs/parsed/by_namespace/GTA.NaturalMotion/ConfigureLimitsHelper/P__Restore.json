@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureLimitsHelper.Restore",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureLimitsHelper",
-  "memberName": "Restore",
-  "summary": "Return to cached defaults?.",
-  "remarks": "Default value = False."
-}

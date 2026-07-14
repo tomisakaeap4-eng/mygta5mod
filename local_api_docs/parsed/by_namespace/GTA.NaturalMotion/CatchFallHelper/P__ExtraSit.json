@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.CatchFallHelper.ExtraSit",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "CatchFallHelper",
-  "memberName": "ExtraSit",
-  "summary": "Scale extra-sit value 0..1. Setting to 0 helps with arched-back issues.  Set to 1 for a more alive-looking finish.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Entity.DetachFragmentPart(System.Int32)",
-  "kind": "M",
-  "namespace": "GTA.Entity",
-  "typeName": "DetachFragmentPart(System",
-  "memberName": "Int32)",
-  "summary": "Detachs a fragment part of this"
-}

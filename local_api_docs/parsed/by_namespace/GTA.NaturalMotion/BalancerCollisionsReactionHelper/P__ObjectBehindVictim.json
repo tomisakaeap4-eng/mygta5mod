@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.ObjectBehindVictim",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BalancerCollisionsReactionHelper",
-  "memberName": "ObjectBehindVictim",
-  "summary": "Detected an object behind a shot victim in the direction of a bullet?.",
-  "remarks": "Default value = False."
-}

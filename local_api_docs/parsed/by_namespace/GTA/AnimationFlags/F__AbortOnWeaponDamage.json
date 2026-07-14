@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.AnimationFlags.AbortOnWeaponDamage",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "AnimationFlags",
-  "memberName": "AbortOnWeaponDamage",
-  "summary": "Allow aborting from damage events (including non-ragdoll damage events) even when blocking other ai events using"
-}

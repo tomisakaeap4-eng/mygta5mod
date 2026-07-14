@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.NumStepsTillSlump",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BalancerCollisionsReactionHelper",
-  "memberName": "NumStepsTillSlump",
-  "summary": "Begin slump and stop stepping after this many steps.",
-  "remarks": "Default value = 4.\n            Min value = 0."
-}

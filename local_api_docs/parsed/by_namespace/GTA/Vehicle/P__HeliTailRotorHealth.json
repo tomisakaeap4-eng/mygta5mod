@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.HeliTailRotorHealth",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "HeliTailRotorHealth",
-  "summary": "Gets or sets the tail rotor health for this heli."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.ParticleEffectAsset.op_Implicit(GTA.ParticleEffectAsset)~GTA.Native.InputArgument",
-  "kind": "M",
-  "namespace": "GTA.ParticleEffectAsset.op_Implicit(GTA.ParticleEffectAsset)~GTA",
-  "typeName": "Native",
-  "memberName": "InputArgument",
-  "summary": "Converts a"
-}

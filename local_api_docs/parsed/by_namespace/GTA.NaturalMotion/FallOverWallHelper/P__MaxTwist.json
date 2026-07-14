@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.FallOverWallHelper.MaxTwist",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "FallOverWallHelper",
-  "memberName": "MaxTwist",
-  "summary": "Max angle the character can twist before twsit helper torques are turned off.",
-  "remarks": "Default value = 3.1f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

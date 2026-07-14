@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.PedBoneCollection.LastDamaged",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "PedBoneCollection",
-  "memberName": "LastDamaged",
-  "summary": "Gets the last damaged bone for this"
-}

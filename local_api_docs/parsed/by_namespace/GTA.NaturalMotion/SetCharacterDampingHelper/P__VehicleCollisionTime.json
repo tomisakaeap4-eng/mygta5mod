@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SetCharacterDampingHelper.VehicleCollisionTime",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SetCharacterDampingHelper",
-  "memberName": "VehicleCollisionTime",
-  "summary": "Time after impact with a vehicle to apply characterDamping. -ve values mean always apply whether collided with vehicle or not. =0.0 never apply. =timestep apply for only that frame.  A typical roll from being hit by a car lasts about 4secs.",
-  "remarks": "Default value = 0.0f.\n            Min value = -1.0f.\n            Max value = 1000.0f."
-}

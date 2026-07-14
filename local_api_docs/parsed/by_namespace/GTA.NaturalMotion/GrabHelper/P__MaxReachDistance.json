@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.GrabHelper.MaxReachDistance",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "GrabHelper",
-  "memberName": "MaxReachDistance",
-  "summary": "Distance to reach out towards the grab point.",
-  "remarks": "Default value = 0.7f.\n            Min value = 0.0f.\n            Max value = 4.0f."
-}

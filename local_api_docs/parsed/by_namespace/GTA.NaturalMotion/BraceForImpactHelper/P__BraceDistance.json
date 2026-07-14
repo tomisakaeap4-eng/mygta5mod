@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.BraceDistance",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BraceForImpactHelper",
-  "memberName": "BraceDistance",
-  "summary": "Distance from object at which to raise hands to brace 0.5 good if newBrace=true - otherwise 0.65.",
-  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

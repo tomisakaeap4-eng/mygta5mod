@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.UI.Sprite",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "UI",
-  "memberName": "Sprite",
-  "summary": "A sprite element using a built-in texture."
-}

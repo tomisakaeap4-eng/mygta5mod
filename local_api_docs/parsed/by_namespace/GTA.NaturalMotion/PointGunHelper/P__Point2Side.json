@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunHelper.Point2Side",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunHelper",
-  "memberName": "Point2Side",
-  "summary": "Side, up, back) side is left for left arm, right for right arm mmmmtodo.",
-  "remarks": "Default value = Vector3(5.0f, -5.0f, -2.0f)."
-}

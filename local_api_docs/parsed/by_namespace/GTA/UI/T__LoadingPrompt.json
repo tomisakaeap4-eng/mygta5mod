@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.UI.LoadingPrompt",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "UI",
-  "memberName": "LoadingPrompt",
-  "summary": "Methods to manage the display of a loading spinner prompt."
-}

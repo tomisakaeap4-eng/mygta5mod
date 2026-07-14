@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.UI.ContainerElement.Centered",
-  "kind": "P",
-  "namespace": "GTA.UI",
-  "typeName": "ContainerElement",
-  "memberName": "Centered",
-  "summary": "Gets or sets a value indicating whether this"
-}

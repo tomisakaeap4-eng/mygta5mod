@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapLeftArm",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BalancerCollisionsReactionHelper",
-  "memberName": "SnapLeftArm",
-  "summary": "Snap the leftArm.",
-  "remarks": "Default value = False."
-}

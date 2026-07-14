@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SmartFallHelper.Arms2LegsSync",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SmartFallHelper",
-  "memberName": "Arms2LegsSync",
-  "summary": "Syncs the arms angle to what the leg angle is.",
-  "remarks": "Default value ="
-}

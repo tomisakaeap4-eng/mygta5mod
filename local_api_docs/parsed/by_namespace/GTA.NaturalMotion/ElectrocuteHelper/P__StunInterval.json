@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ElectrocuteHelper.StunInterval",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ElectrocuteHelper",
-  "memberName": "StunInterval",
-  "summary": "Direction flips every stunInterval.",
-  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

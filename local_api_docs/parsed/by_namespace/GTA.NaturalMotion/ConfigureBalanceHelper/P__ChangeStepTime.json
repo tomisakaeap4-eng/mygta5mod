@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.ChangeStepTime",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBalanceHelper",
-  "memberName": "ChangeStepTime",
-  "summary": "Time not in contact (airborne) before step is changed. If -ve don't change step.",
-  "remarks": "Default value = -1.0f.\n            Min value = -1.0f.\n            Max value = 5.0f."
-}

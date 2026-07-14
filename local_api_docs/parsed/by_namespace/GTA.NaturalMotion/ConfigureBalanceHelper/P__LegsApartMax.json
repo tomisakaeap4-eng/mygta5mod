@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.LegsApartMax",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBalanceHelper",
-  "memberName": "LegsApartMax",
-  "summary": "FRICTION WORKAROUND: if the legs end up more than (legsApartMax + hipwidth) apart when balanced, adjust the feet positions to slide back so they are legsApartMax + hipwidth apart.  Needs to be less than legsApartRestep to see any effect.",
-  "remarks": "Default value = 2.0f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Model.Request",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Model",
-  "memberName": "Request",
-  "summary": "Attempts to load this"
-}

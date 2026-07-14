@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.GrabHelper.ArmStiffness",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "GrabHelper",
-  "memberName": "ArmStiffness",
-  "summary": "Stiffness of the arm.",
-  "remarks": "Default value = 14.0f.\n            Min value = 6.0f.\n            Max value = 16.0f."
-}

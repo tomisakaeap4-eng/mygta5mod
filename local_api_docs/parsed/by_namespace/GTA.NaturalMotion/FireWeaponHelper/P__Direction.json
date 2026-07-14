@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.FireWeaponHelper.Direction",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "FireWeaponHelper",
-  "memberName": "Direction",
-  "summary": "Direction of impulse in gun frame.",
-  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotSnapHelper.SnapHitPart",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotSnapHelper",
-  "memberName": "SnapHitPart",
-  "summary": "Snap only around the wounded part//mmmmtodo check whether bodyPart doesn't have to be remembered for unSnap.",
-  "remarks": "Default value = False."
-}

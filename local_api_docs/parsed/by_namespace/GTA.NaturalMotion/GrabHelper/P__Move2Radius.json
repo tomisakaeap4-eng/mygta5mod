@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.GrabHelper.Move2Radius",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "GrabHelper",
-  "memberName": "Move2Radius",
-  "summary": "Relative distance (additional to grabDistance - doesn't try to move inside grabDistance)at which the grab tries to use the balancer to move to the grab point.",
-  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 14.0f."
-}

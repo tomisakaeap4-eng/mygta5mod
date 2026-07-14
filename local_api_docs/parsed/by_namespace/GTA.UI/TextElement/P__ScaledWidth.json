@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.UI.TextElement.ScaledWidth",
-  "kind": "P",
-  "namespace": "GTA.UI",
-  "typeName": "TextElement",
-  "memberName": "ScaledWidth",
-  "summary": "Measures how many pixels in the horizontal axis this"
-}

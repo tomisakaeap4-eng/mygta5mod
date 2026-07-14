@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.ResistAccMax",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBalanceHelper",
-  "memberName": "ResistAccMax",
-  "summary": "Max floorAcceleration allowed for anti-Acceleration. If  GT 20.0 then it is probably in a crash.",
-  "remarks": "Default value = 3.0f.\n            Min value = 0.0f.\n            Max value = 20.0f."
-}

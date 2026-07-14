@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Game.DisableAllControlsThisFrame",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Game",
-  "memberName": "DisableAllControlsThisFrame",
-  "summary": "Disables all"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.InjuredOnGroundHelper.StrongRollForce",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "InjuredOnGroundHelper",
-  "memberName": "StrongRollForce",
-  "remarks": "Default value = False."
-}

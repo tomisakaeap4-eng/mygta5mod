@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ArmsWindmillAdaptiveHelper.LeftElbowAngle",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ArmsWindmillAdaptiveHelper",
-  "memberName": "LeftElbowAngle",
-  "summary": "If not negative then left arm will blend to this angle.",
-  "remarks": "Default value = -1.0f.\n            Min value = -1.0f.\n            Max value = 6.0f."
-}

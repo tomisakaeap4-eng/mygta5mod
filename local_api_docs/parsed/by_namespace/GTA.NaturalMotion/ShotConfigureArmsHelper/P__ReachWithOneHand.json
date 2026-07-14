@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotConfigureArmsHelper.ReachWithOneHand",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotConfigureArmsHelper",
-  "memberName": "ReachWithOneHand",
-  "summary": "Force character to reach for wound with only one hand.\n            0 = allow two-handed reach,\n            1 = left only if two-handed possible,\n            2 = right only if two-handed possible.",
-  "remarks": "Default value = 0.\n            Min value = 0.\n            Max value = 2."
-}

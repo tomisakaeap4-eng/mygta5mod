@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.GrabHelper.JustBrace",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "GrabHelper",
-  "memberName": "JustBrace",
-  "summary": "Flag to toggle between grabbing and bracing.",
-  "remarks": "Default value = False."
-}

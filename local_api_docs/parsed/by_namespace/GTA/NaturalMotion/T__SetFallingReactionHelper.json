@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.NaturalMotion.SetFallingReactionHelper",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "NaturalMotion",
-  "memberName": "SetFallingReactionHelper",
-  "summary": "Sets the type of reaction if catchFall is called."
-}

@@ -1,20 +1,22 @@
 <#
 .SYNOPSIS
   Tear apart local_api_docs/ScriptHookVDotNet3.xml (SHVDN v3 .NET XML doc) into
-  per-member JSON files under <SourceDir>\parsed\, organized by namespace+type,
-  plus a root index.json for quick member-name lookups.
+  REAL sub-XML files (NOT a JSON reformat) that mirror the original XML structure
+  one-to-one:
+    - <assembly>  -> assembly.xml                  (the original <assembly> element)
+    - <members>   -> members\                      (a directory mirroring <members>)
+        - <member> -> members\<K>__<Name>.xml      (one file per <member>, with the
+                                                  original <member> element verbatim)
+    - index.json                                   (member-name -> relative-path)
 
 .DESCRIPTION
-  Output layout:
-    <OutDir>\
-    ├── index.json
-    └── by_namespace\
-        └── <NS>\
-            └── <TypeName>\
-                └── <Kind>__<MemberName>.json   (one file per <member>)
+  This is deliberately NOT modeled after the parse_natives.ps1 / gen.json layout
+  (which used by_namespace/<NS>/<name>.json). Here the folder structure IS the
+  XML structure: 1 dir for <assembly>, 1 dir for <members>, 1 file per <member>.
+  The agent can read these files directly with any XML parser.
 
-  The OutDir is cleaned (existing files removed) before writing, so re-runs are
-  deterministic. Use -KeepOut to merge into an existing parsed tree.
+  Each .xml file is a valid standalone XML document with a `<?xml ?>` declaration
+  and the <member> element pretty-printed with 4-space indent (matches source).
 
 .PARAMETER Source
   Path to SHVDN v3 XML doc. Default: <project root>\local_api_docs\ScriptHookVDotNet3.xml
@@ -43,17 +45,6 @@ $DefaultOutDir = Join-Path (Split-Path -Parent $DefaultSource) 'parsed'
 if (-not $PSBoundParameters.ContainsKey('Source')) { $Source = $DefaultSource }
 if (-not $PSBoundParameters.ContainsKey('OutDir')) { $OutDir = $DefaultOutDir }
 
-function ConvertTo-SafeName([string]$s, [int]$MaxLen = 120) {
-    if ([string]::IsNullOrWhiteSpace($s)) { return $null }
-    $s = $s.Trim() -replace '[<>:"/\\|?*]', '_'
-    if ($s.Length -gt $MaxLen) {
-        $hash = [System.Security.Cryptography.MD5]::HashData([System.Text.Encoding]::UTF8.GetBytes($s))
-        $hashStr = -join ($hash[0..3] | ForEach-Object { $_.ToString('x2') })
-        $s = $s.Substring(0, $MaxLen - 9) + '_' + $hashStr
-    }
-    return $s
-}
-
 if (-not (Test-Path -LiteralPath $Source -PathType Leaf)) {
     throw "Không tìm thấy source file: '$Source'."
 }
@@ -68,15 +59,39 @@ Write-Host "Parsing $Source -> $OutDir"
 
 # Load + parse XML
 $xml = [xml](Get-Content -LiteralPath $Source -Raw -Encoding utf8)
+
+# XmlWriter settings: pretty-print with 4-space indent, no BOM, include XML decl
+$settings = New-Object System.Xml.XmlWriterSettings
+$settings.Indent = $true
+$settings.IndentChars = '    '
+$settings.Encoding = New-Object System.Text.UTF8Encoding $false
+$settings.OmitXmlDeclaration = $false
+$settings.NewLineHandling = [System.Xml.NewLineHandling]::Replace
+
+# --- <assembly> -> assembly.xml ----------------------------------------------
+if ($xml.doc.assembly) {
+    $asmPath = Join-Path $OutDir 'assembly.xml'
+    $asmDoc = New-Object System.Xml.XmlDocument
+    [void]$asmDoc.AppendChild($asmDoc.ImportNode($xml.doc.assembly, $true))
+    $writer = [System.Xml.XmlWriter]::Create($asmPath, $settings)
+    $asmDoc.Save($writer)
+    $writer.Close()
+    Write-Host "  assembly.xml: wrote <assembly> element"
+}
+
+# --- <members> -> members\<K>__<Name>.xml -----------------------------------
 $members = $xml.doc.members
 if ($null -eq $members) {
     throw "Không tìm thấy <members> element trong $Source."
 }
 
+$membersDir = Join-Path $OutDir 'members'
+New-Item -ItemType Directory -Force -Path $membersDir | Out-Null
+
 $index = [ordered]@{}
+$seen = @{}
 $count = 0
 $skipped = 0
-$seen = @{}
 
 foreach ($m in $members.member) {
     $name = $m.name
@@ -84,73 +99,46 @@ foreach ($m in $members.member) {
     if ($name -notmatch '^([TMPFE]):(.+)$') { $skipped++; continue }
     $kind = $matches[1]
     $rest = $matches[2]
-    $parts = $rest -split '\.'
-    if ($parts.Count -lt 2) { $skipped++; continue }
-    $memberName = $parts[-1]
+
+    # Split "Namespace.TypeName.MemberName[(Params)]" on the LAST '.'
+    $lastDot = $rest.LastIndexOf('.')
+    if ($lastDot -le 0) { $skipped++; continue }
+
+    $memberName = $rest.Substring($lastDot + 1)
     if ($kind -eq 'M') {
         $parenIdx = $memberName.IndexOf('(')
         if ($parenIdx -gt 0) { $memberName = $memberName.Substring(0, $parenIdx) }
     }
-    $typeParts = $parts[0..($parts.Count - 2)]
-    $typeName = $typeParts[-1]
-    $ns = if ($typeParts.Count -gt 1) { ($typeParts[0..($typeParts.Count - 2)] -join '.') } else { '' }
+    # Sanitize generic backticks: ``Call`1`` -> ``Call_1``
+    $memberName = $memberName -replace '`', '_'
 
-    $nsSafe = ConvertTo-SafeName $ns; if (-not $nsSafe) { $nsSafe = '_root' }
-    $typeSafe = ConvertTo-SafeName $typeName; if (-not $typeSafe) { $typeSafe = '_anon' }
-    $memberSafe = ConvertTo-SafeName $memberName; if (-not $memberSafe) { $memberSafe = '_anon' }
-
-    $relDir = "by_namespace/$nsSafe/$typeSafe"
-    $base = "${kind}__${memberSafe}"
-    $collisionKey = "$relDir/$base"
-    if ($seen.ContainsKey($collisionKey)) {
-        $hash = [System.Security.Cryptography.MD5]::HashData([System.Text.Encoding]::UTF8.GetBytes($name))
+    $base = "${kind}__${memberName}"
+    if ($seen.ContainsKey($base)) {
+        # Use MD5.Create() (works on PS 5.1 with .NET Framework 4.8 + PS 7+ with .NET 5+).
+        # MD5.HashData (static) is .NET 5+ only and would throw on PS 5.1.
+        $md5 = [System.Security.Cryptography.MD5]::Create()
+        try {
+            $hash = $md5.ComputeHash([System.Text.Encoding]::UTF8.GetBytes($name))
+        } finally {
+            $md5.Dispose()
+        }
         $hashStr = -join ($hash[0..3] | ForEach-Object { $_.ToString('x2') })
         $base = "${base}_${hashStr}"
     }
-    $seen[$collisionKey] = $true
+    $seen[$base] = $true
 
-    $relPath = "$relDir/$base.json"
-    $outFile = Join-Path $OutDir $relPath
-    New-Item -ItemType Directory -Force -Path (Split-Path -Parent $outFile) | Out-Null
+    $outFile = Join-Path $membersDir "${base}.xml"
+    $memberDoc = New-Object System.Xml.XmlDocument
+    [void]$memberDoc.AppendChild($memberDoc.ImportNode($m, $true))
+    $writer = [System.Xml.XmlWriter]::Create($outFile, $settings)
+    $memberDoc.Save($writer)
+    $writer.Close()
 
-    $entry = [ordered]@{
-        name = $name
-        kind = $kind
-        namespace = $ns
-        typeName = $typeName
-        memberName = $memberName
-    }
-    if ($m.summary)   { $entry.summary   = [string]$m.summary }
-    if ($m.remarks)   { $entry.remarks   = [string]$m.remarks }
-    if ($m.returns)   { $entry.returns   = [string]$m.returns }
-    if ($m.value)     { $entry.value     = [string]$m.value }
-    if ($m.param) {
-        $params = @()
-        foreach ($p in $m.param) {
-            $params += [ordered]@{
-                name = $p.name
-                description = [string]$p
-            }
-        }
-        $entry.params = $params
-    }
-    if ($m.exception) {
-        $exceptions = @()
-        foreach ($e in $m.exception) {
-            $exceptions += [ordered]@{
-                cref = $e.cref
-                description = [string]$e
-            }
-        }
-        $entry.exceptions = $exceptions
-    }
-
-    $entryJson = $entry | ConvertTo-Json -Depth 10
-    [System.IO.File]::WriteAllText($outFile, $entryJson, (New-Object System.Text.UTF8Encoding $false))
-    $index[$name] = $relPath
+    $index[$name] = "members/${base}.xml"
     $count++
 }
 
+# --- index.json (auxiliary; the .xml files are the source of truth) ----------
 $indexPath = Join-Path $OutDir 'index.json'
 $indexJson = $index | ConvertTo-Json -Depth 5
 [System.IO.File]::WriteAllText($indexPath, $indexJson, (New-Object System.Text.UTF8Encoding $false))

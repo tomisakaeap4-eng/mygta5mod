@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.FallOverWallHelper.AngleDirWithWallNormal",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "FallOverWallHelper",
-  "memberName": "AngleDirWithWallNormal",
-  "summary": "Maximum angle in degrees (between the direction of the velocity of the COM and the wall normal) to start to apply forces and torques to fall over the wall.",
-  "remarks": "Default value = 180.0f.\n            Min value = 0.0f.\n            Max value = 180.0f."
-}

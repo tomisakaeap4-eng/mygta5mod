@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.HandlingData.SuspensionForce",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "HandlingData",
-  "memberName": "SuspensionForce",
-  "summary": "Gets or sets the suspension force.\n            Lower limit for zero force at full extension is calculated using (1.0f / (force * number of wheels)).",
-  "value": "The suspension force."
-}

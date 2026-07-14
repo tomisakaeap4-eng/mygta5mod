@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Entity.IsUpsideDown",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "IsUpsideDown",
-  "summary": "Gets a value indicating whether this"
-}

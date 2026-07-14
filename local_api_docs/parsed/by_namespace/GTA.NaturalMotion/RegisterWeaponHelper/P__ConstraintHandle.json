@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RegisterWeaponHelper.ConstraintHandle",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RegisterWeaponHelper",
-  "memberName": "ConstraintHandle",
-  "summary": "Pointer to the hand-gun constraint handle.",
-  "remarks": "Default value = -1.\n            Min value = -1."
-}

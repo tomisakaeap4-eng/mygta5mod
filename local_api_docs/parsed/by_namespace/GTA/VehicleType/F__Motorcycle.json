@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.VehicleType.Motorcycle",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleType",
-  "memberName": "Motorcycle",
-  "summary": "The motorcycle type."
-}

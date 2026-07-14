@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.SpinWhenInAir",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RollDownStairsHelper",
-  "memberName": "SpinWhenInAir",
-  "summary": "Applied cheat forces to spin the character when in the air, the forces are 40% of the forces applied when touching the ground.  Be careful little bunny rabbits, the character could spin unnaturally in the air.",
-  "remarks": "Default value = False."
-}

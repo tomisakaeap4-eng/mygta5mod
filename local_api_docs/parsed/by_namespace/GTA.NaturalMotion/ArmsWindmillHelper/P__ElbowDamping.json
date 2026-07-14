@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ArmsWindmillHelper.ElbowDamping",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ArmsWindmillHelper",
-  "memberName": "ElbowDamping",
-  "summary": "Damping applied to the elbows.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

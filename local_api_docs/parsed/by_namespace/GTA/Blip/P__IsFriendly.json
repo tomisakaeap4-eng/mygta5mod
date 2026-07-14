@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Blip.IsFriendly",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Blip",
-  "memberName": "IsFriendly",
-  "summary": "Sets a value indicating whether this"
-}

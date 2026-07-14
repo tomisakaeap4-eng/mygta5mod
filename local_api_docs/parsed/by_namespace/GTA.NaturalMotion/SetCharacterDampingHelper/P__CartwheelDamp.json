@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SetCharacterDampingHelper.CartwheelDamp",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SetCharacterDampingHelper",
-  "memberName": "CartwheelDamp",
-  "summary": "Amount to damp somersaulting by (spinning around front/back axis) - try 0.8.",
-  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

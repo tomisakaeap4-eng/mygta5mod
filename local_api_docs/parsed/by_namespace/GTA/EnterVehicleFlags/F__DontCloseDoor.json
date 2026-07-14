@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.EnterVehicleFlags.DontCloseDoor",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "EnterVehicleFlags",
-  "memberName": "DontCloseDoor",
-  "summary": "Dont close the vehicle door."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.NextGear",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "NextGear",
-  "summary": "Gets or sets the next gear value of this"
-}

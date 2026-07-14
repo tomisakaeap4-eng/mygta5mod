@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureSoftLimitHelper.Index",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureSoftLimitHelper",
-  "memberName": "Index",
-  "summary": "Select limb that the soft limit is going to be applied to.",
-  "remarks": "Default value = 0.\n            Min value = 0.\n            Max value = 3."
-}

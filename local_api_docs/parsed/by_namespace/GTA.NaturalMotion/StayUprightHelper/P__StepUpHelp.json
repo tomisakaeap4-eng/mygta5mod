@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.StayUprightHelper.StepUpHelp",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "StayUprightHelper",
-  "memberName": "StepUpHelp",
-  "summary": "Strength of cheat force applied upwards to spine3 to help the character up steps/slopes.",
-  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 16.0f."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Camera.Delete",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Camera",
-  "memberName": "Delete",
-  "summary": "Destroys this"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkOnKneesArmType",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotFallToKneesHelper",
-  "memberName": "FtkOnKneesArmType",
-  "summary": "Type of arm response when on knees falling forward 0=useFallArms (from RollDownstairs or catchFall), 1= armsIn, 2=armsOut.",
-  "remarks": "Default value = 2.\n            Min value = 0.\n            Max value = 2."
-}

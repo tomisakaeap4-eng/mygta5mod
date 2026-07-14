@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.WindowTitle.MessageTooLong",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "WindowTitle",
-  "memberName": "MessageTooLong",
-  "summary": "\"Message too long. Try again (MAX 500 characters)\""
-}

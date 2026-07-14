@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.FireWeaponHelper.ApplyFireGunForceAtClavicle",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "FireWeaponHelper",
-  "memberName": "ApplyFireGunForceAtClavicle",
-  "summary": "Should we apply some of the force at the shoulder. Force double handed weapons (Ak47 etc).",
-  "remarks": "Default value = False."
-}

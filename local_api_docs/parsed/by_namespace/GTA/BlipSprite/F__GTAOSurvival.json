@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.BlipSprite.GTAOSurvival",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "BlipSprite",
-  "memberName": "GTAOSurvival",
-  "summary": "The default English text for this value is \"Horde\"."
-}

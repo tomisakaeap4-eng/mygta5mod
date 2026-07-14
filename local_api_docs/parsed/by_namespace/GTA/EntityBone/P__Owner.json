@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.EntityBone.Owner",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "EntityBone",
-  "memberName": "Owner",
-  "summary": "Gets the owner"
-}

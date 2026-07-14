@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.SomersaultAngle",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyBalanceHelper",
-  "memberName": "SomersaultAngle",
-  "summary": "Multiplier of the somersault 'angle' (lean forward/back) for arms out (lean2).",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

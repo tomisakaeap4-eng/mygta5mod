@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.HighFallHelper.BodyStiffness",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "HighFallHelper",
-  "memberName": "BodyStiffness",
-  "summary": "Stiffness of body. Value feeds through to bodyBalance (synced with defaults), to armsWindmill (14 for this value at default ), legs pedal, head look and roll down stairs directly.",
-  "remarks": "Default value = 11.0f.\n            Min value = 6.0f.\n            Max value = 16.0f."
-}

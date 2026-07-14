@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SetCharacterUnderwaterHelper.LinearStroke",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SetCharacterUnderwaterHelper",
-  "memberName": "LinearStroke",
-  "summary": "Swimming force (linearStroke=true,False) = (f(v),f(v*v)).",
-  "remarks": "Default value = False."
-}

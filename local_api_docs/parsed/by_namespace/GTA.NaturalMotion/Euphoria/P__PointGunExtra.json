@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.PointGunExtra",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "PointGunExtra",
-  "summary": "Gets a PointGunExtra Helper class for sending PointGunExtra",
-  "remarks": "Seldom set parameters for pointGun - just to keep number of parameters in any message less than or equal to 64"
-}

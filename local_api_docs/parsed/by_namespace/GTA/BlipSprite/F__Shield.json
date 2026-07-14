@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.BlipSprite.Shield",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "BlipSprite",
-  "memberName": "Shield",
-  "summary": "The sprite image is a shield, but the default English text for this value is \"Beast\"."
-}

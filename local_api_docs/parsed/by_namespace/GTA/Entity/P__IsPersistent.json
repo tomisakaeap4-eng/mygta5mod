@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.Entity.IsPersistent",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "IsPersistent",
-  "summary": "Gets or sets a value indicating whether this",
-  "remarks": "If this"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.BlipSprite.PoliceCarDot",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "BlipSprite",
-  "memberName": "PoliceCarDot",
-  "summary": "The default English text for this value is \"Police Chase\"."
-}

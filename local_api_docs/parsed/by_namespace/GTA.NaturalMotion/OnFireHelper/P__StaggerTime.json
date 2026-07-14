@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.OnFireHelper.StaggerTime",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "OnFireHelper",
-  "memberName": "StaggerTime",
-  "summary": "Max time for stumbling around before falling to ground.",
-  "remarks": "Default value = 2.5f.\n            Min value = 0.0f.\n            Max value = 30.0f."
-}

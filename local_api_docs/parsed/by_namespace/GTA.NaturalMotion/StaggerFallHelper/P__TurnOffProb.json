@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.StaggerFallHelper.TurnOffProb",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "StaggerFallHelper",
-  "memberName": "TurnOffProb",
-  "summary": "Weighted probability that turn will be off.\n            This is one of six turn type weights.",
-  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

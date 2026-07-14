@@ -1,9 +1,0 @@
-{
-  "name": "M:GTA.ShapeTestHandle.GetResult",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "ShapeTestHandle",
-  "memberName": "GetResult",
-  "summary": "If status returned is",
-  "remarks": "The shape test request is destroyed by this call if"
-}

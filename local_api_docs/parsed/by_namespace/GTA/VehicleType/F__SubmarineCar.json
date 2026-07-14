@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.VehicleType.SubmarineCar",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleType",
-  "memberName": "SubmarineCar",
-  "summary": "The submarine car type for the submarine cars, which can travel underwater like submarines."
-}

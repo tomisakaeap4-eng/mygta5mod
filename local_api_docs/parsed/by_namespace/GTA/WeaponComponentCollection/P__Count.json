@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.WeaponComponentCollection.Count",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "WeaponComponentCollection",
-  "memberName": "Count",
-  "summary": "Gets the number of compatible components."
-}

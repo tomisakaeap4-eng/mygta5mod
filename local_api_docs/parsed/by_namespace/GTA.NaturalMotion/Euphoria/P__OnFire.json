@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.OnFire",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "OnFire",
-  "summary": "Gets a OnFire Helper class for sending OnFire"
-}

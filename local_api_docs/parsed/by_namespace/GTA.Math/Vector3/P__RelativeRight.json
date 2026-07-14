@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Math.Vector3.RelativeRight",
-  "kind": "P",
-  "namespace": "GTA.Math",
-  "typeName": "Vector3",
-  "memberName": "RelativeRight",
-  "summary": "Returns the relative Right vector. (1,0,0)"
-}

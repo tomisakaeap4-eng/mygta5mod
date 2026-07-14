@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.AnimPoseHelper.MuscleStiffness",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "AnimPoseHelper",
-  "memberName": "MuscleStiffness",
-  "summary": "Muscle stiffness of masked joints. -values mean don't apply (just use defaults or ones applied by behaviors - safer if you are going to return to a behavior).",
-  "remarks": "Default value = -1.0f.\n            Min value = -1.1f.\n            Max value = 10.0f."
-}

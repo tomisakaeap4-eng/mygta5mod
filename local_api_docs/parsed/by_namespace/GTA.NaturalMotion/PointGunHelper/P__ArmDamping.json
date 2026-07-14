@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunHelper.ArmDamping",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunHelper",
-  "memberName": "ArmDamping",
-  "summary": "Damping.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.1f.\n            Max value = 5.0f."
-}

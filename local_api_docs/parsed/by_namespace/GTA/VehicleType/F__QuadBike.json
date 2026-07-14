@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.VehicleType.QuadBike",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleType",
-  "memberName": "QuadBike",
-  "summary": "The non-special quad bike type. Also includes tricycles, such as"
-}

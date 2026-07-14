@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.AnimationFlags.ExitAfterInterrupted",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "AnimationFlags",
-  "memberName": "ExitAfterInterrupted",
-  "summary": "Exit the animation task if it is interrupted by another task (ie Natural Motion).\n            Without this flag bing set looped animations will restart ofter the NM task"
-}

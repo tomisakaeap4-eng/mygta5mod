@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.BlipSprite.GunCar",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "BlipSprite",
-  "memberName": "GunCar",
-  "summary": "The default English text for this value is \"Insurgent\"."
-}

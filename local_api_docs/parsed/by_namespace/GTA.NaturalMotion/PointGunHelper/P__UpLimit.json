@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunHelper.UpLimit",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunHelper",
-  "memberName": "UpLimit",
-  "summary": "Max aiming angle(deg) upwards from body midline measured from chest forward that the character will try to point.",
-  "remarks": "Default value = 90.0f.\n            Min value = 0.0f.\n            Max value = 180.0f."
-}

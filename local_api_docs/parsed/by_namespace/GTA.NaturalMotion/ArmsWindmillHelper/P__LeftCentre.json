@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ArmsWindmillHelper.LeftCentre",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ArmsWindmillHelper",
-  "memberName": "LeftCentre",
-  "summary": "Centre of circle in the space of partID.",
-  "remarks": "Default value = Vector3(0.0f, 0.5f, -0.1f)."
-}

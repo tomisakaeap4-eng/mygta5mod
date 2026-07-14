@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.BlipSprite.Rockets",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "BlipSprite",
-  "memberName": "Rockets",
-  "summary": "The default English text for this value is \"Missiles\"."
-}

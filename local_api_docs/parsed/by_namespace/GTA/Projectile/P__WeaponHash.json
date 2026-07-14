@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Projectile.WeaponHash",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Projectile",
-  "memberName": "WeaponHash",
-  "summary": "Gets the"
-}

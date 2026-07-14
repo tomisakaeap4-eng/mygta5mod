@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Ped.IsJumpingOutOfVehicle",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Ped",
-  "memberName": "IsJumpingOutOfVehicle",
-  "summary": "Gets a value indicating whether this"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotConfigureArmsHelper.CupSize",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotConfigureArmsHelper",
-  "memberName": "CupSize",
-  "summary": "Amount reach target to bust (spine2) will be offset forward by.",
-  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Blip.SecondaryColor",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Blip",
-  "memberName": "SecondaryColor",
-  "summary": "Gets or sets the secondary color of this"
-}

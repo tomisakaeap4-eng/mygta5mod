@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.Entity.MaterialCollidingWith",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "MaterialCollidingWith",
-  "summary": "Gets the material this",
-  "value": "A material hash if this"
-}

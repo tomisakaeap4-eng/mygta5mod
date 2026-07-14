@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SetFallingReactionHelper.ResistRolling",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SetFallingReactionHelper",
-  "memberName": "ResistRolling",
-  "summary": "For rds catchFall only: True to resist rolling motion (rolling motion is set off by ub contact and a sliding velocity), false to allow more of a continuous rolling  (rolling motion is set off at a sliding velocity).",
-  "remarks": "Default value = False."
-}

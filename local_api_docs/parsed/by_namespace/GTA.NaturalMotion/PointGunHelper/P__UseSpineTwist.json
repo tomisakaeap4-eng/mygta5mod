@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunHelper.UseSpineTwist",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunHelper",
-  "memberName": "UseSpineTwist",
-  "summary": "Use spine twist to orient chest?.",
-  "remarks": "Default value = True."
-}

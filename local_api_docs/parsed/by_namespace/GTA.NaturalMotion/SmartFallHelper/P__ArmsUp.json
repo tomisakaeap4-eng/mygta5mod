@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SmartFallHelper.ArmsUp",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SmartFallHelper",
-  "memberName": "ArmsUp",
-  "summary": "Where to put the arms when preparing to land.\n            Approx 1 = above head, 0 = head height, -1 = down.\n            LT -2.0 use catchFall arms, LT -3.0 use prepare for landing pose if Agent is due to land vertically, feet first.",
-  "remarks": "Default value = -3.1f.\n            Min value = -4.0f.\n            Max value = 2.0f."
-}

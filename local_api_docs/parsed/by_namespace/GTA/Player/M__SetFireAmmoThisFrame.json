@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Player.SetFireAmmoThisFrame",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Player",
-  "memberName": "SetFireAmmoThisFrame",
-  "summary": "Makes this"
-}

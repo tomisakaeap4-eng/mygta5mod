@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ArmsWindmillAdaptiveHelper.Amplitude",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ArmsWindmillAdaptiveHelper",
-  "memberName": "Amplitude",
-  "summary": "Controls how large the motion is, higher values means the character waves his arms in a massive arc.",
-  "remarks": "Default value = 0.6f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

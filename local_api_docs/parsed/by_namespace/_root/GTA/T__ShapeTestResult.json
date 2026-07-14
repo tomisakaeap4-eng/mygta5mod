@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.ShapeTestResult",
-  "kind": "T",
-  "namespace": "",
-  "typeName": "GTA",
-  "memberName": "ShapeTestResult",
-  "summary": "Represents a shape test result."
-}

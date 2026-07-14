@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMultStart",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBulletsExtraHelper",
-  "memberName": "ImpulseOneLegMultStart",
-  "summary": "If impulse is above this value scale it by impulseOneLegMult.",
-  "remarks": "Default value = 100.0f.\n            Min value = 0.0f."
-}

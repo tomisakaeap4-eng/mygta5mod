@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.MinAngVel",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RollDownStairsHelper",
-  "memberName": "MinAngVel",
-  "summary": "Only used if applyNewRollingCheatingTorques or applyHelPerTorqueToAlign defined to true : minimal angular velocity of the roll to apply cheating torques.",
-  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.ConfigureBalanceReset",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "ConfigureBalanceReset",
-  "summary": "Gets a ConfigureBalanceReset Helper class for sending ConfigureBalanceReset",
-  "remarks": "reset the values configurable by the Configure Balance message to their defaults."
-}

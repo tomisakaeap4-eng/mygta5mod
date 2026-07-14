@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.VehicleDrivingFlags.DrivingModeStopForVehiclesIgnoreLights",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleDrivingFlags",
-  "memberName": "DrivingModeStopForVehiclesIgnoreLights",
-  "summary": "Drives normally except for the fact that it ignores lights."
-}

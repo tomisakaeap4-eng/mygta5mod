@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.WindowTitle.SubjectTooLong",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "WindowTitle",
-  "memberName": "SubjectTooLong",
-  "summary": "\"Subject too long. Try again (MAX 60 characters)\""
-}

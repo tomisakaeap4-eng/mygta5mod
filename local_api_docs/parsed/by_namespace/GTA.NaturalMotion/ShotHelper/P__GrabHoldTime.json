@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotHelper.GrabHoldTime",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotHelper",
-  "memberName": "GrabHoldTime",
-  "summary": "How long to hold for before returning to relaxed arm position.",
-  "remarks": "Default value = 2.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

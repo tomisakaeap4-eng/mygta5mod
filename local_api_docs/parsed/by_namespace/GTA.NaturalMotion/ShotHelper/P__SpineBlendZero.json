@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotHelper.SpineBlendZero",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotHelper",
-  "memberName": "SpineBlendZero",
-  "summary": "Spine is always blended with zero pose this much and up to 1 as the character become stationary.  If negative no blend is ever applied.",
-  "remarks": "Default value = 0.6f.\n            Min value = -0.1f.\n            Max value = 1.0f."
-}

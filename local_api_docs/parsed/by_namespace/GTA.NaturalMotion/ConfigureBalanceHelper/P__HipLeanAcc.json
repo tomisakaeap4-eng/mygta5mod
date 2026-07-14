@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.HipLeanAcc",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBalanceHelper",
-  "memberName": "HipLeanAcc",
-  "summary": "Multiplier on the floorAcceleration added to the leanHips.",
-  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

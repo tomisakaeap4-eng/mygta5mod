@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.GlanceSpinTime",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BalancerCollisionsReactionHelper",
-  "memberName": "GlanceSpinTime",
-  "summary": "Duration that the glance torque is applied for.",
-  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

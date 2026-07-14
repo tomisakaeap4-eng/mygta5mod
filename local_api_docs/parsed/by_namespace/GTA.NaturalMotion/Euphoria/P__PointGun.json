@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.PointGun",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "PointGun",
-  "summary": "Gets a PointGun Helper class for sending PointGun"
-}

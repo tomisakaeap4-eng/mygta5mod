@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Entity.ForwardVector",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "ForwardVector",
-  "summary": "Gets the vector that points in front of this"
-}

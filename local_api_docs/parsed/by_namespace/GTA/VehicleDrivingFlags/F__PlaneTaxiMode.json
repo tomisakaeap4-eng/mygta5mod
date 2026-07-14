@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.VehicleDrivingFlags.PlaneTaxiMode",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleDrivingFlags",
-  "memberName": "PlaneTaxiMode",
-  "summary": "Only works for planes using"
-}

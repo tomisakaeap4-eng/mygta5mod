@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.LeaveVehicleFlags.WarpOut",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "LeaveVehicleFlags",
-  "memberName": "WarpOut",
-  "summary": "Warp the ped out of the vehicle."
-}

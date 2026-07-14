@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.LeanTowardsObjectHelper.InstanceIndex",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "LeanTowardsObjectHelper",
-  "memberName": "InstanceIndex",
-  "summary": "LevelIndex of object to lean towards.",
-  "remarks": "Default value = -1.\n            Min value = -1."
-}

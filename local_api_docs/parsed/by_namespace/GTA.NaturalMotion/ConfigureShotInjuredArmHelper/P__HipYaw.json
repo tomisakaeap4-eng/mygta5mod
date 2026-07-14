@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureShotInjuredArmHelper.HipYaw",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureShotInjuredArmHelper",
-  "memberName": "HipYaw",
-  "summary": "Amount of hip twist.  (Negative values twist into bullet direction - probably not what is wanted).",
-  "remarks": "Default value = 0.8f.\n            Min value = -2.0f.\n            Max value = 2.0f."
-}

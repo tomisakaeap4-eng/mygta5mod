@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.HeadLookHelper.InstanceIndex",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "HeadLookHelper",
-  "memberName": "InstanceIndex",
-  "summary": "LevelIndex of object to be looked at. Vel parameters are ignored if this is non -1.",
-  "remarks": "Default value = -1.\n            Min value = -1."
-}

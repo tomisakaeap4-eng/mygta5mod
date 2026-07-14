@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Blip.op_Implicit(GTA.Blip)~GTA.Native.InputArgument",
-  "kind": "M",
-  "namespace": "GTA.Blip.op_Implicit(GTA.Blip)~GTA",
-  "typeName": "Native",
-  "memberName": "InputArgument",
-  "summary": "Converts a"
-}

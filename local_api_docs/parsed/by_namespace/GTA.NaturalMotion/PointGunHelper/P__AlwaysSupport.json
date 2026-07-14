@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunHelper.AlwaysSupport",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunHelper",
-  "memberName": "AlwaysSupport",
-  "summary": "Support a non pointing gunHand i.e. if in zero pose (constrain as well  if constraint possible).",
-  "remarks": "Default value = False."
-}

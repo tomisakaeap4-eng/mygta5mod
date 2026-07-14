@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.UpperBodyFlinchHelper.HandDistanceVertical",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "UpperBodyFlinchHelper",
-  "memberName": "HandDistanceVertical",
-  "summary": "Vertical distance between the hands.",
-  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

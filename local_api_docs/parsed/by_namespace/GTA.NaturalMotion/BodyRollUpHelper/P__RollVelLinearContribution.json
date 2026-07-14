@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyRollUpHelper.RollVelLinearContribution",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyRollUpHelper",
-  "memberName": "RollVelLinearContribution",
-  "summary": "Contribution of linear COM velocity to roll Velocity (if 0, roll velocity equal to COM angular velocity).",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

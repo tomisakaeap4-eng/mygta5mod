@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.DefineAttachedObjectHelper.ObjectMass",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "DefineAttachedObjectHelper",
-  "memberName": "ObjectMass",
-  "summary": "Mass of the attached object.",
-  "remarks": "Default value = 0.0f.\n            Min value = 0.0f."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.UpperBodyFlinchHelper.TurnTowards",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "UpperBodyFlinchHelper",
-  "memberName": "TurnTowards",
-  "summary": "Ve balancer turn Towards, negative balancer turn Away, 0 balancer won't turn.\n            There is a 50% chance that the character will not turn even if this parameter is set to turn.",
-  "remarks": "Default value = 1.\n            Min value = -2.\n            Max value = 2."
-}

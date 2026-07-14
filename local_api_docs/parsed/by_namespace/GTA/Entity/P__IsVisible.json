@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Entity.IsVisible",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "IsVisible",
-  "summary": "Gets or sets a value indicating whether this"
-}

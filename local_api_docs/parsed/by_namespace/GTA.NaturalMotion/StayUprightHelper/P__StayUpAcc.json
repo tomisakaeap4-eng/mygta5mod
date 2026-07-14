@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.StayUprightHelper.StayUpAcc",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "StayUprightHelper",
-  "memberName": "StayUpAcc",
-  "summary": "How much the cheat force takes into account the acceleration of moving platforms.",
-  "remarks": "Default value = 0.7f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

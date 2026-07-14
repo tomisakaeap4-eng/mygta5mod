@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.UI.Hud",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "UI",
-  "memberName": "Hud",
-  "summary": "Methods to manipulate the HUD (heads-up-display) of the game."
-}

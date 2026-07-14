@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyRelaxHelper.Damping",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyRelaxHelper",
-  "memberName": "Damping",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

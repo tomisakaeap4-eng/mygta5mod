@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.ShotFallToKnees",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "ShotFallToKnees",
-  "summary": "Gets a ShotFallToKnees Helper class for sending ShotFallToKnees",
-  "remarks": "configure the fall to knees shot."
-}

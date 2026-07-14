@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.BlipSprite.Music",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "BlipSprite",
-  "memberName": "Music",
-  "summary": "The default English text for this value is \"Music Venue\"."
-}

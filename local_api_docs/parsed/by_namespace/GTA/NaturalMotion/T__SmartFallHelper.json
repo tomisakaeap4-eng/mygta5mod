@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.NaturalMotion.SmartFallHelper",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "NaturalMotion",
-  "memberName": "SmartFallHelper",
-  "summary": "Clone of High Fall with a wider range of operating conditions."
-}

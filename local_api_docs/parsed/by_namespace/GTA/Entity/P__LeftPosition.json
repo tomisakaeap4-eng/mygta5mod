@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Entity.LeftPosition",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "LeftPosition",
-  "summary": "Gets a position directly to the left of this"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotFromBehindHelper.SfbNoiseGain",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotFromBehindHelper",
-  "memberName": "SfbNoiseGain",
-  "summary": "Controls additional independent randomized bending of left/right elbows.",
-  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

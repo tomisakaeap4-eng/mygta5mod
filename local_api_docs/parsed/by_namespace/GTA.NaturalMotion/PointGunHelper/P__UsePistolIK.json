@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunHelper.UsePistolIK",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunHelper",
-  "memberName": "UsePistolIK",
-  "summary": "Enable new ik for pistol pointing.",
-  "remarks": "Default value = True."
-}

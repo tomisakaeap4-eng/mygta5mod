@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Math.Vector2.RandomXY",
-  "kind": "M",
-  "namespace": "GTA.Math",
-  "typeName": "Vector2",
-  "memberName": "RandomXY",
-  "summary": "Returns a new normalized vector with random X and Y components."
-}

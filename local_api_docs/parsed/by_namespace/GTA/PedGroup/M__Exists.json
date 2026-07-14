@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.PedGroup.Exists",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "PedGroup",
-  "memberName": "Exists",
-  "summary": "Determines if this"
-}

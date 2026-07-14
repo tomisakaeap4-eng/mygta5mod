@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Pickup.IsCollected",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Pickup",
-  "memberName": "IsCollected",
-  "summary": "Gets if this"
-}

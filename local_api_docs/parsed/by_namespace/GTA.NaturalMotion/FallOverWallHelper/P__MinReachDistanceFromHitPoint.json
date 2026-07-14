@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.FallOverWallHelper.MinReachDistanceFromHitPoint",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "FallOverWallHelper",
-  "memberName": "MinReachDistanceFromHitPoint",
-  "summary": "Minimal distance from predicted hitpoint where each hands will try to reach the wall. Used if the hand target is outside the wall Edge.",
-  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

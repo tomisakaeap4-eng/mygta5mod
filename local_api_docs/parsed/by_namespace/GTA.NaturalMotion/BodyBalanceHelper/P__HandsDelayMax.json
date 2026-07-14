@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.HandsDelayMax",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyBalanceHelper",
-  "memberName": "HandsDelayMax",
-  "summary": "If bracing with 2 hands delay one hand by at most this amount of time to introduce some asymmetry.",
-  "remarks": "Default value = 0.7f.\n            Min value = 0.0f.\n            Max value = 3.0f."
-}

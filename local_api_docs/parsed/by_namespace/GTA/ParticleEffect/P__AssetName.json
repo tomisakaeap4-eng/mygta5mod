@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.ParticleEffect.AssetName",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "ParticleEffect",
-  "memberName": "AssetName",
-  "summary": "Gets the name of the asset used for this"
-}

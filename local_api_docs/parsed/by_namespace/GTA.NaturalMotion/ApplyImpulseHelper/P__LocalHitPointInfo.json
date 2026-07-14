@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ApplyImpulseHelper.LocalHitPointInfo",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ApplyImpulseHelper",
-  "memberName": "LocalHitPointInfo",
-  "summary": "Hit point in local coordinates of body part.",
-  "remarks": "Default value = False."
-}

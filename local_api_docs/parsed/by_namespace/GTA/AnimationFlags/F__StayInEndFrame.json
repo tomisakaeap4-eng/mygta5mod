@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.AnimationFlags.StayInEndFrame",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "AnimationFlags",
-  "memberName": "StayInEndFrame",
-  "summary": "Hold on the last frame of the animation."
-}

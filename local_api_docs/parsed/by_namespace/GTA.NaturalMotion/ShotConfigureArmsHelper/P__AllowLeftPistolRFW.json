@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotConfigureArmsHelper.AllowLeftPistolRFW",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotConfigureArmsHelper",
-  "memberName": "AllowLeftPistolRFW",
-  "summary": "Allow character to reach for wound with left hand if holding a pistol.\n            It never will for a rifle.\n            If pointGun is running this will only happen if the hand cannot point and pointGun:poseUnusedGunArm = false.",
-  "remarks": "Default value = True."
-}

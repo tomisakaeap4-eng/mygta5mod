@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Camera.Exists",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Camera",
-  "memberName": "Exists",
-  "summary": "Determines if this"
-}

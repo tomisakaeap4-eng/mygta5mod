@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.TeeterHelper.UseExclusionZone",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "TeeterHelper",
-  "memberName": "UseExclusionZone",
-  "summary": "Stop stepping across the line defined by edgeLeft and edgeRight.",
-  "remarks": "Default value = True."
-}

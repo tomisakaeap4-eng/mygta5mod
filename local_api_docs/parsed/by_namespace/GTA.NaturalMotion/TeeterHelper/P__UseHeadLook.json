@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.TeeterHelper.UseHeadLook",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "TeeterHelper",
-  "memberName": "UseHeadLook",
-  "remarks": "Default value = True."
-}

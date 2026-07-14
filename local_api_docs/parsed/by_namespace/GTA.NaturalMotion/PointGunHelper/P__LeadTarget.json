@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunHelper.LeadTarget",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunHelper",
-  "memberName": "LeadTarget",
-  "summary": "NB: Only Applied to single handed weapons (some more work is required to have this tech on two handed weapons). Amount to lead target based on target velocity relative to the chest.",
-  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

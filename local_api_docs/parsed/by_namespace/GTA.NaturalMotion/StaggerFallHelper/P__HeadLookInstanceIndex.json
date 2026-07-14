@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.StaggerFallHelper.HeadLookInstanceIndex",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "StaggerFallHelper",
-  "memberName": "HeadLookInstanceIndex",
-  "summary": "Level index of thing to look at.",
-  "remarks": "Default value = -1.\n            Min value = -1."
-}

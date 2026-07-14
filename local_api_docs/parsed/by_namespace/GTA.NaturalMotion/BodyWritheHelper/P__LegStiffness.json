@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyWritheHelper.LegStiffness",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyWritheHelper",
-  "memberName": "LegStiffness",
-  "summary": "The stiffness of the character will determine how 'determined' a writhe this is - high values will make him thrash about wildly.",
-  "remarks": "Default value = 13.0f.\n            Min value = 6.0f.\n            Max value = 16.0f."
-}

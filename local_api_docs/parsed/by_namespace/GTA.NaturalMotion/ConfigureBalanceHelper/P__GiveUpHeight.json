@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.GiveUpHeight",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBalanceHelper",
-  "memberName": "GiveUpHeight",
-  "summary": "Height between lowest foot and COM below which balancer will give up.",
-  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 1.5f."
-}

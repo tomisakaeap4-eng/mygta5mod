@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Blip.Scale",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Blip",
-  "memberName": "Scale",
-  "summary": "Sets the scale of this"
-}

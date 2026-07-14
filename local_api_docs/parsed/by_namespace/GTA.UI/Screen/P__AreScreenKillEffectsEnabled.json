@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.UI.Screen.AreScreenKillEffectsEnabled",
-  "kind": "P",
-  "namespace": "GTA.UI",
-  "typeName": "Screen",
-  "memberName": "AreScreenKillEffectsEnabled",
-  "summary": "Gets a value indicating whether screen kill effects are enabled."
-}

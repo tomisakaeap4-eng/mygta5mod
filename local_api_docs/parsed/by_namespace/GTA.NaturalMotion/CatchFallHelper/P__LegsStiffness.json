@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.CatchFallHelper.LegsStiffness",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "CatchFallHelper",
-  "memberName": "LegsStiffness",
-  "summary": "Stiffness of legs.",
-  "remarks": "Default value = 6.0f.\n            Min value = 4.0f.\n            Max value = 16.0f."
-}

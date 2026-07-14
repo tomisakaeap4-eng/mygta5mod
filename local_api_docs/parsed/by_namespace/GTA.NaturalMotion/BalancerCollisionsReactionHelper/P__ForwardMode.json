@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.ForwardMode",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BalancerCollisionsReactionHelper",
-  "memberName": "ForwardMode",
-  "summary": "0=slump, 1=fallToKnees if shot is running, otherwise slump.",
-  "remarks": "Default value = 0.\n            Min value = 0.\n            Max value = 1."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.GrabHelper.OneSideReachAngle",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "GrabHelper",
-  "memberName": "OneSideReachAngle",
-  "summary": "Angle at which we will only reach with one hand.",
-  "remarks": "Default value = 1.4f.\n            Min value = 0.0f.\n            Max value = 3.0f."
-}

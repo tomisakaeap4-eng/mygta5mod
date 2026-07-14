@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotFromBehindHelper.SfbArmsOnset",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotFromBehindHelper",
-  "memberName": "SfbArmsOnset",
-  "summary": "Amount of time before applying spread out arms pose.",
-  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

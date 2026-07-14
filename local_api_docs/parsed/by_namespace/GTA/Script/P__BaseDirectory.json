@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Script.BaseDirectory",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Script",
-  "memberName": "BaseDirectory",
-  "summary": "Gets the Directory where this"
-}

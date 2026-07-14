@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.UI.TextElement.Draw",
-  "kind": "M",
-  "namespace": "GTA.UI",
-  "typeName": "TextElement",
-  "memberName": "Draw",
-  "summary": "Draws the"
-}

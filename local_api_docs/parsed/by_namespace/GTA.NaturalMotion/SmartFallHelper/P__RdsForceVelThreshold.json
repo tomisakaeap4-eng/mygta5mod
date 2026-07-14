@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SmartFallHelper.RdsForceVelThreshold",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SmartFallHelper",
-  "memberName": "RdsForceVelThreshold",
-  "summary": "Velocity threshold under which RDS force mag will be applied.",
-  "remarks": "Default value = 10.0f.\n            Min value = 0.0f.\n            Max value = 100.0f."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.BlendToZeroPose",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyBalanceHelper",
-  "memberName": "BlendToZeroPose",
-  "summary": "Blend upper body to zero pose as the character comes to rest. If false blend to a stored pose.",
-  "remarks": "Default value = False."
-}

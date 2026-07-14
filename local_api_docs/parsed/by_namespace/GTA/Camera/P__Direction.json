@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Camera.Direction",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Camera",
-  "memberName": "Direction",
-  "summary": "Gets or sets the direction this"
-}

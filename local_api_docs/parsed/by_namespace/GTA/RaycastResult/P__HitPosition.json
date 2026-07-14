@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.RaycastResult.HitPosition",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "RaycastResult",
-  "memberName": "HitPosition",
-  "summary": "Gets the world coordinates where this ray cast collided."
-}

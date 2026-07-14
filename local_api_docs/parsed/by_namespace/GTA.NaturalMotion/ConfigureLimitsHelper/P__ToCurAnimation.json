@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureLimitsHelper.ToCurAnimation",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureLimitsHelper",
-  "memberName": "ToCurAnimation",
-  "summary": "If true, set limits to the current animated limits.",
-  "remarks": "Default value = False."
-}

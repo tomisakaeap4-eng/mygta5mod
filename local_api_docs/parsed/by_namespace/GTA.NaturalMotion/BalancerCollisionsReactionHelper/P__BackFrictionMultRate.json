@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.BackFrictionMultRate",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BalancerCollisionsReactionHelper",
-  "memberName": "BackFrictionMultRate",
-  "summary": "Friction multiplier reduced by this amount every second after slump starts (only if character is not slumping).",
-  "remarks": "Default value = 2.0f.\n            Min value = 0.0f.\n            Max value = 50.0f."
-}

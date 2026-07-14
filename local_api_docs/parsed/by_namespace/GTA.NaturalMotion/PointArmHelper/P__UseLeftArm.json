@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointArmHelper.UseLeftArm",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointArmHelper",
-  "memberName": "UseLeftArm",
-  "remarks": "Default value = False."
-}

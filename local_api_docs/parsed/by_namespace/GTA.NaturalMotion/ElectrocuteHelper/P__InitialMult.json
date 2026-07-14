@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ElectrocuteHelper.InitialMult",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ElectrocuteHelper",
-  "memberName": "InitialMult",
-  "summary": "InitialMult*stunMag = The magnitude of the 1st snap reaction (other multipliers are applied after this).",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 20.0f."
-}

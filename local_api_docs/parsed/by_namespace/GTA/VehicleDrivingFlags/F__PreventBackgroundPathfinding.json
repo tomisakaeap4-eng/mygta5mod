@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.VehicleDrivingFlags.PreventBackgroundPathfinding",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleDrivingFlags",
-  "memberName": "PreventBackgroundPathfinding",
-  "summary": "Only works when the car mission is set to MISSION_CRUISE."
-}

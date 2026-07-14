@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureSelfAvoidanceHelper.SelfAvoidIfInSpineBoundsOnly",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureSelfAvoidanceHelper",
-  "memberName": "SelfAvoidIfInSpineBoundsOnly",
-  "summary": "Restrict self avoidance to operate on targets that are within character torso bounds only.",
-  "remarks": "Default value = False."
-}

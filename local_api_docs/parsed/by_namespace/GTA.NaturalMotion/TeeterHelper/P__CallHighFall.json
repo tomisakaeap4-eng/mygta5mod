@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.TeeterHelper.CallHighFall",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "TeeterHelper",
-  "memberName": "CallHighFall",
-  "summary": "Call highFall if fallen over the edge.\n            If false just call blended writhe (to go over the top of the fall behavior of the underlying behavior e.g. bodyBalance).",
-  "remarks": "Default value = True."
-}

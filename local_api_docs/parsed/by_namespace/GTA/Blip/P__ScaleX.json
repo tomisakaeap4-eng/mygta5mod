@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Blip.ScaleX",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Blip",
-  "memberName": "ScaleX",
-  "summary": "Gets or sets the x-axis scale of this"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Ped.StaysInVehicleWhenJacked",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Ped",
-  "memberName": "StaysInVehicleWhenJacked",
-  "summary": "Sets a value indicating whether this"
-}

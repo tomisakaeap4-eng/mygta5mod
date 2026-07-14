@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.OilLevel",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "OilLevel",
-  "summary": "Gets or sets this"
-}

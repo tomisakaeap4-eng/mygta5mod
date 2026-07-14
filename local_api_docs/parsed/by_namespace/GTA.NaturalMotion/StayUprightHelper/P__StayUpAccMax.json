@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.StayUprightHelper.StayUpAccMax",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "StayUprightHelper",
-  "memberName": "StayUpAccMax",
-  "summary": "The maximum floorAcceleration (of a moving platform) that the cheat force takes into account.",
-  "remarks": "Default value = 5.0f.\n            Min value = 0.0f.\n            Max value = 15.0f."
-}

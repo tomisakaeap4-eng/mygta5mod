@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PedalLegsHelper.Ellipse",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PedalLegsHelper",
-  "memberName": "Ellipse",
-  "summary": "Turn the circle into an ellipse.  Ellipse has horizontal radius a and vertical radius b.  If ellipse is +ve then a=radius*ellipse and b=radius.  If ellipse is -ve then a=radius and b = radius*ellipse.  0.0 = vertical line of length 2*radius, 0.0:1.0 circle squashed horizontally (vertical radius = radius), 1.0=circle.  -0.001 = horizontal line of length 2*radius, -0.0:-1.0 circle squashed vertically (horizontal radius = radius), -1.0 = circle.",
-  "remarks": "Default value = 1.0f.\n            Min value = -1.0f.\n            Max value = 1.0f."
-}

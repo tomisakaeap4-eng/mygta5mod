@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.UI.Font",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "UI",
-  "memberName": "Font",
-  "summary": "An enumeration of fonts the game supports."
-}

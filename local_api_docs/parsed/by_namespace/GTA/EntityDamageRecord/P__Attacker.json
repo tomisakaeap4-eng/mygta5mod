@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.EntityDamageRecord.Attacker",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "EntityDamageRecord",
-  "memberName": "Attacker",
-  "summary": "Gets the attacker"
-}

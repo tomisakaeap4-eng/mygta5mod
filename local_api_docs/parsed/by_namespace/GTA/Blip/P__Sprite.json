@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Blip.Sprite",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Blip",
-  "memberName": "Sprite",
-  "summary": "Gets or sets the sprite of this"
-}

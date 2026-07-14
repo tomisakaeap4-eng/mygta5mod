@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Projectile.OwnerEntity",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Projectile",
-  "memberName": "OwnerEntity",
-  "summary": "Gets the"
-}

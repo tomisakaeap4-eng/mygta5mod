@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Math.Matrix.IsIdentity",
-  "kind": "P",
-  "namespace": "GTA.Math",
-  "typeName": "Matrix",
-  "memberName": "IsIdentity",
-  "summary": "Gets a value indicating whether this instance is an identity matrix."
-}

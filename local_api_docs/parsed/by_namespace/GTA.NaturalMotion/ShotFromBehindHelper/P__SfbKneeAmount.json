@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotFromBehindHelper.SfbKneeAmount",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotFromBehindHelper",
-  "memberName": "SfbKneeAmount",
-  "summary": "Knee bend.",
-  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

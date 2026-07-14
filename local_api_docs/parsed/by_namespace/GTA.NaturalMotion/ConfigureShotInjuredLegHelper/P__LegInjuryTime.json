@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureShotInjuredLegHelper.LegInjuryTime",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureShotInjuredLegHelper",
-  "memberName": "LegInjuryTime",
-  "summary": "Leg injury duration (reaction to being shot in leg).",
-  "remarks": "Default value = 0.4f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

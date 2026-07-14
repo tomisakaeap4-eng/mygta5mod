@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.World.NextWeather",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "World",
-  "memberName": "NextWeather",
-  "summary": "Gets or sets the next weather.",
-  "value": "The next weather."
-}

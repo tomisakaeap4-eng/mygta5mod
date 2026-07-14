@@ -1,7 +1,0 @@
-{
-  "name": "F:GTA.LeaveVehicleFlags.DontDefaultWarpIfDoorBlocked",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "LeaveVehicleFlags",
-  "memberName": "DontDefaultWarpIfDoorBlocked"
-}

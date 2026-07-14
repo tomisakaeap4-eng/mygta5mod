@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.VehicleDrivingFlags.DrivingModeStopForVehicles",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleDrivingFlags",
-  "memberName": "DrivingModeStopForVehicles",
-  "summary": "Standard driving mode. stops for cars, peds, and lights, goes around stationary obstructions, and obey lights."
-}

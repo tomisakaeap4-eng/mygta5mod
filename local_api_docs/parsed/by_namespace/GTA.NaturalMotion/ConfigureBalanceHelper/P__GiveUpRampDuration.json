@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.GiveUpRampDuration",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBalanceHelper",
-  "memberName": "GiveUpRampDuration",
-  "summary": "Duration of ramp from start of behavior for above two parameters. If smaller than 0, no ramp is applied.",
-  "remarks": "Default value = -1.0f.\n            Min value = -1.0f.\n            Max value = 10.0f."
-}

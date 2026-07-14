@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkReleaseReachForWound",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotFallToKneesHelper",
-  "memberName": "FtkReleaseReachForWound",
-  "summary": "Release the reachForWound this amount of time after the knees have hit.\n            If LT 0.0 then keep reaching for wound regardless of fall/onground state.",
-  "remarks": "Default value = -1.0f.\n            Min value = -1.0f.\n            Max value = 5.0f."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureShotInjuredLegHelper.LegInjuryHipPitch",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureShotInjuredLegHelper",
-  "memberName": "LegInjuryHipPitch",
-  "summary": "Leg injury bend forwards amount when not lifting leg.",
-  "remarks": "Default value = 0.0f.\n            Min value = -1.0f.\n            Max value = 1.0f."
-}

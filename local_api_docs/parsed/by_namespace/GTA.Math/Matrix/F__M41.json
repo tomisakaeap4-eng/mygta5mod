@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.Math.Matrix.M41",
-  "kind": "F",
-  "namespace": "GTA.Math",
-  "typeName": "Matrix",
-  "memberName": "M41",
-  "summary": "Gets or sets the element of the matrix that exists in the fourth row and first column."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.ArmsOutMinLean2",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyBalanceHelper",
-  "memberName": "ArmsOutMinLean2",
-  "summary": "Minimum desiredLean2 applied to shoulder (to stop arms going above shoulder height or not).",
-  "remarks": "Default value = -9.9f.\n            Min value = -10.0f.\n            Max value = 0.0f."
-}

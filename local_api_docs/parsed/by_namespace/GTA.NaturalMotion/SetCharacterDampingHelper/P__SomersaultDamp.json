@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SetCharacterDampingHelper.SomersaultDamp",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SetCharacterDampingHelper",
-  "memberName": "SomersaultDamp",
-  "summary": "Amount to damp somersaulting by (spinning around left/right axis) - try 0.45.",
-  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

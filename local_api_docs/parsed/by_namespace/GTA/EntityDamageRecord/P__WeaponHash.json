@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.EntityDamageRecord.WeaponHash",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "EntityDamageRecord",
-  "memberName": "WeaponHash",
-  "summary": "Gets the weapon hash what the"
-}

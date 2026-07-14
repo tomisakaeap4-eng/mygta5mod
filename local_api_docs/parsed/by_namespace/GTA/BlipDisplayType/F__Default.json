@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.BlipDisplayType.Default",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "BlipDisplayType",
-  "memberName": "Default",
-  "summary": "The default value on blip creation. Works in the same way as"
-}

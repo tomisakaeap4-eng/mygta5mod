@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.YankedHelper.GroundLegStiffness",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "YankedHelper",
-  "memberName": "GroundLegStiffness",
-  "summary": "Leg Stiffness when on the ground.",
-  "remarks": "Default value = 11.0f.\n            Min value = 0.0f.\n            Max value = 16.0f."
-}

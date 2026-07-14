@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.StayUprightHelper.ForceInAirShare",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "StayUprightHelper",
-  "memberName": "ForceInAirShare",
-  "summary": "Share of the feet force to the airborne foot.",
-  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

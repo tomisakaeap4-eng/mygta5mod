@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunExtraHelper.TimeWarpStrengthScale",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunExtraHelper",
-  "memberName": "TimeWarpStrengthScale",
-  "summary": "Scale for arm and helper strength when timewarp is enabled. 1 = normal compensation.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.1f.\n            Max value = 2.0f."
-}

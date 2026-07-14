@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Script.Yield",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Script",
-  "memberName": "Yield",
-  "summary": "Yields the execution of the script for 1 frame."
-}

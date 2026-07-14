@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.HandlingData.InitialDriveGears",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "HandlingData",
-  "memberName": "InitialDriveGears",
-  "summary": "Gets or sets the number of gears (excluding reverse).",
-  "value": "The number of gears (excluding reverse)."
-}

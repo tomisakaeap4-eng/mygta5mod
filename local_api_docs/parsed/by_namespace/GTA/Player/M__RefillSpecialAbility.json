@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Player.RefillSpecialAbility",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Player",
-  "memberName": "RefillSpecialAbility",
-  "summary": "Refills the special ability for this"
-}

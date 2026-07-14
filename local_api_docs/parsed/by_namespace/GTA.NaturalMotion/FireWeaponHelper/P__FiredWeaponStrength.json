@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.FireWeaponHelper.FiredWeaponStrength",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "FireWeaponHelper",
-  "memberName": "FiredWeaponStrength",
-  "summary": "The force of the gun.",
-  "remarks": "Default value = 1000.0f.\n            Min value = 0.0f.\n            Max value = 10000.0f."
-}

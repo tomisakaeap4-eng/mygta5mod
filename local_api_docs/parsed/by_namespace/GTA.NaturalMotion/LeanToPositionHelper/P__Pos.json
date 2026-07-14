@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.LeanToPositionHelper.Pos",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "LeanToPositionHelper",
-  "memberName": "Pos",
-  "summary": "Position to head towards.",
-  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
-}

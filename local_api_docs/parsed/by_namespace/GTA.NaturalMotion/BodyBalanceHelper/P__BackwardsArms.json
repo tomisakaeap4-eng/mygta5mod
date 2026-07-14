@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.BackwardsArms",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyBalanceHelper",
-  "memberName": "BackwardsArms",
-  "summary": "Bend elbows, relax shoulders and inhibit spine twist when moving backwards.",
-  "remarks": "Default value = False."
-}

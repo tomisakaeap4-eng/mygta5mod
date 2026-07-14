@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.StaggerFallHelper.LeanHipsMaxF",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "StaggerFallHelper",
-  "memberName": "LeanHipsMaxF",
-  "summary": "Max of leanInDirectionHips magnitude when going forwards.",
-  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

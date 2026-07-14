@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.OnFireHelper.MaxRollOverTime",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "OnFireHelper",
-  "memberName": "MaxRollOverTime",
-  "summary": "Rolling torque is ramped down over time. At this time in seconds torque value converges to zero. Use this parameter to restrict time the character is rolling.",
-  "remarks": "Default value = 8.0f.\n            Min value = 0.0f.\n            Max value = 60.0f."
-}

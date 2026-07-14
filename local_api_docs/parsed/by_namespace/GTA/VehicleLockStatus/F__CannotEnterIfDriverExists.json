@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.VehicleLockStatus.CannotEnterIfDriverExists",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleLockStatus",
-  "memberName": "CannotEnterIfDriverExists",
-  "summary": "For players, the"
-}

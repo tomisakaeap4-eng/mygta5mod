@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.VehicleType.AmphibiousAutomobile",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleType",
-  "memberName": "AmphibiousAutomobile",
-  "summary": "The amphibious automobile type."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.MinKneeAngle",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBalanceHelper",
-  "memberName": "MinKneeAngle",
-  "summary": "Minimum knee angle (-ve value will mean this functionality is not applied).  0.4 seems a good value.",
-  "remarks": "Default value = -0.5f.\n            Min value = -0.5f.\n            Max value = 1.5f."
-}

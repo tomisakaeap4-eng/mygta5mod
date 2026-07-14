@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.BlipColor.WhiteNotPure",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "BlipColor",
-  "memberName": "WhiteNotPure",
-  "summary": "The default RGB value of this color is the same as HUD_COLOUR_WHITE, whose default RGB value is #F0F0F0."
-}

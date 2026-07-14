@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.ShapeTestResult.HitPosition",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "ShapeTestResult",
-  "memberName": "HitPosition",
-  "summary": "Gets the world coordinates where this shape test hit."
-}

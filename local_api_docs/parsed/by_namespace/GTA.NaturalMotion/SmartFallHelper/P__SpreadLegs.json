@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SmartFallHelper.SpreadLegs",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SmartFallHelper",
-  "memberName": "SpreadLegs",
-  "summary": "Spread legs amount for pedal during fall.",
-  "remarks": "Default value = 0.1f.\n            Min value = -1.0f.\n            Max value = 1.0f."
-}

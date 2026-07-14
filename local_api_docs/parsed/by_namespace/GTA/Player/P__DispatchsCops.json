@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Player.DispatchsCops",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Player",
-  "memberName": "DispatchsCops",
-  "summary": "Sets a value indicating whether cops will be dispatched for this"
-}

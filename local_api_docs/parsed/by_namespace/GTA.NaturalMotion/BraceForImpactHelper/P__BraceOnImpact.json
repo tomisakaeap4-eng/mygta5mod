@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.BraceOnImpact",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BraceForImpactHelper",
-  "memberName": "BraceOnImpact",
-  "summary": "If true then if a shin or thigh is in contact with the car then brace. NB: newBrace must be true.  For those situations where the car has pushed the ped backwards (at the same speed as the car) before the behavior has been started and so doesn't predict an impact.",
-  "remarks": "Default value = False."
-}

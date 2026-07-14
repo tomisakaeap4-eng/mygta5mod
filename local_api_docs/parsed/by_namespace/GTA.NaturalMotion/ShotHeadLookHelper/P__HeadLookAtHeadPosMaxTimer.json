@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotHeadLookHelper.HeadLookAtHeadPosMaxTimer",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotHeadLookHelper",
-  "memberName": "HeadLookAtHeadPosMaxTimer",
-  "summary": "Min time to look headLook or if zero - forward or in velocity direction.",
-  "remarks": "Default value = 1.7f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

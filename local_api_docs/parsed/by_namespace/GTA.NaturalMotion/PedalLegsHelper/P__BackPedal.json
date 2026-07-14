@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PedalLegsHelper.BackPedal",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PedalLegsHelper",
-  "memberName": "BackPedal",
-  "summary": "Pedal forwards or backwards.",
-  "remarks": "Default value = False."
-}

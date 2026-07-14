@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.ArmStiffness",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyBalanceHelper",
-  "memberName": "ArmStiffness",
-  "summary": "NB. WAS m_bodyStiffness ClaviclesStiffness=9.0f.",
-  "remarks": "Default value = 9.0f.\n            Min value = 6.0f.\n            Max value = 16.0f."
-}

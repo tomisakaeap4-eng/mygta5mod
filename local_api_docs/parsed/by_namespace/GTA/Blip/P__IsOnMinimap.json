@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Blip.IsOnMinimap",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Blip",
-  "memberName": "IsOnMinimap",
-  "summary": "Gets a value indicating whether this"
-}

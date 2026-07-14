@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.Native.Function",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "Native",
-  "memberName": "Function",
-  "summary": "A static class which handles script function execution."
-}

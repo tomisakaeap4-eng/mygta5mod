@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotHelper.CpainDuration",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotHelper",
-  "memberName": "CpainDuration",
-  "summary": "Conscious pain duration at cpainMag/cpainTwistMag after cpainSmooth2Time.",
-  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

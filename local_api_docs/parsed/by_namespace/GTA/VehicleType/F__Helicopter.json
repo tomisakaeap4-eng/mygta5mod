@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.VehicleType.Helicopter",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleType",
-  "memberName": "Helicopter",
-  "summary": "The helicopter type."
-}

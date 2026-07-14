@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.ConfigureSelfAvoidance",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "ConfigureSelfAvoidance",
-  "summary": "Gets a ConfigureSelfAvoidance Helper class for sending ConfigureSelfAvoidance",
-  "remarks": "this single message allows to configure self avoidance for the character.BBDD Self avoidance tech."
-}

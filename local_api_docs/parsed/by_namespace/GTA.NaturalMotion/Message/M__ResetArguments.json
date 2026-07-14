@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.NaturalMotion.Message.ResetArguments",
-  "kind": "M",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Message",
-  "memberName": "ResetArguments",
-  "summary": "Resets all arguments to their default values."
-}

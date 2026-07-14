@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.MaxSteps",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBalanceHelper",
-  "memberName": "MaxSteps",
-  "summary": "Maximum number of steps that the balancer will take.",
-  "remarks": "Default value = 100.\n            Min value = 1."
-}

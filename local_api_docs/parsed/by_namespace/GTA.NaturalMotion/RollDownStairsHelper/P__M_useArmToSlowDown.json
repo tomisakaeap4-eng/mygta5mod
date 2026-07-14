@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.M_useArmToSlowDown",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RollDownStairsHelper",
-  "memberName": "M_useArmToSlowDown",
-  "summary": "The degree to which the character will try to stop a barrel roll with his arms.",
-  "remarks": "Default value = -1.9f.\n            Min value = -3.0f.\n            Max value = 3.0f."
-}

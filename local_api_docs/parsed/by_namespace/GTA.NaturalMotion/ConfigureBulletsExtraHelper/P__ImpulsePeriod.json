@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulsePeriod",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBulletsExtraHelper",
-  "memberName": "ImpulsePeriod",
-  "summary": "Duration that impulse is spread over (triangular shaped).",
-  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

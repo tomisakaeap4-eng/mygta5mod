@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.BodyWrithe",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "BodyWrithe",
-  "summary": "Gets a BodyWrithe Helper class for sending BodyWrithe"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.Look",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BraceForImpactHelper",
-  "memberName": "Look",
-  "summary": "Position to look at, e.g. the driver.",
-  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.OnFireHelper.ArmsWindmillWritheBlend",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "OnFireHelper",
-  "memberName": "ArmsWindmillWritheBlend",
-  "summary": "Blend armsWindmill with the bodyWrithe arms when character is upright.",
-  "remarks": "Default value = 0.4f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.WeaponAsset.IsValidAsWeaponHash",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "WeaponAsset",
-  "memberName": "IsValidAsWeaponHash",
-  "summary": "Gets a value indicating whether this"
-}

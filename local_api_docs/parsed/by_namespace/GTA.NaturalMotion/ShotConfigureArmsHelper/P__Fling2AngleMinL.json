@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinL",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotConfigureArmsHelper",
-  "memberName": "Fling2AngleMinL",
-  "summary": "Minimum fling angle for left arm.\n            Fling angle is random in the range fling2AngleMin:fling2AngleMax.\n            Angle of fling in radians measured from the body horizontal sideways from shoulder.\n            Positive is up, 0 shoulder level, negative down.",
-  "remarks": "Default value = -1.5f.\n            Min value = -1.5f.\n            Max value = 1.0f."
-}

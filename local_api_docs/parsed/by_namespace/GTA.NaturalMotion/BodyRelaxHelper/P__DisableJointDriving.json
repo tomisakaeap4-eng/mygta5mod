@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyRelaxHelper.DisableJointDriving",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyRelaxHelper",
-  "memberName": "DisableJointDriving",
-  "summary": "Sets the drive state to free - this reduces drifting on the ground.",
-  "remarks": "Default value = False."
-}

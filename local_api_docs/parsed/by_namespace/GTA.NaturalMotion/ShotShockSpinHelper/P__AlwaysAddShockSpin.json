@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotShockSpinHelper.AlwaysAddShockSpin",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotShockSpinHelper",
-  "memberName": "AlwaysAddShockSpin",
-  "summary": "If true, apply the shock spin no matter which body component was hit. Otherwise only apply if the spine or clavicles get hit.",
-  "remarks": "Default value = False."
-}

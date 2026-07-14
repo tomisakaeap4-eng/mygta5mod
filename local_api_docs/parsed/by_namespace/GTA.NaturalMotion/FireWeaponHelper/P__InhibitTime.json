@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.FireWeaponHelper.InhibitTime",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "FireWeaponHelper",
-  "memberName": "InhibitTime",
-  "summary": "Minimum time before next fire impulse.",
-  "remarks": "Default value = 0.4f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

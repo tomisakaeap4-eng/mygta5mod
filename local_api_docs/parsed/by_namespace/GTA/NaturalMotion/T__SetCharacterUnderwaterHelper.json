@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.NaturalMotion.SetCharacterUnderwaterHelper",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "NaturalMotion",
-  "memberName": "SetCharacterUnderwaterHelper",
-  "summary": "Sets viscosity applied to damping limbs."
-}

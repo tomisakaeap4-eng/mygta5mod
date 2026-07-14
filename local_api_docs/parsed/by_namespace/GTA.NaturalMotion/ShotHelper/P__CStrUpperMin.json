@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotHelper.CStrUpperMin",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotHelper",
-  "memberName": "CStrUpperMin",
-  "summary": "Proportions to what the strength would be normally.",
-  "remarks": "Default value = 0.1f.\n            Min value = 0.1f.\n            Max value = 1.0f."
-}

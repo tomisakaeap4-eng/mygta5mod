@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.ParticleEffectAsset.MarkAsNoLongerNeeded",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "ParticleEffectAsset",
-  "memberName": "MarkAsNoLongerNeeded",
-  "summary": "Tells the game we have finished using this"
-}

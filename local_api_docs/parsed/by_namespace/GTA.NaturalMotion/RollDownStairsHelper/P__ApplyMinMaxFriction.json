@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.ApplyMinMaxFriction",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RollDownStairsHelper",
-  "memberName": "ApplyMinMaxFriction",
-  "summary": "Pass-through to Roll Up. Controls whether or not behavior enforces min/max friction.",
-  "remarks": "Default value = True."
-}

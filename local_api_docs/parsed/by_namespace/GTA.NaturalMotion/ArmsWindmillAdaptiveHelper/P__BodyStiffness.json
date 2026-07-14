@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ArmsWindmillAdaptiveHelper.BodyStiffness",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ArmsWindmillAdaptiveHelper",
-  "memberName": "BodyStiffness",
-  "summary": "Controls how stiff the rest of the body is.",
-  "remarks": "Default value = 11.0f.\n            Min value = 6.0f.\n            Max value = 16.0f."
-}

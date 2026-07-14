@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.Game.TimeScale",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Game",
-  "memberName": "TimeScale",
-  "summary": "Gets or Sets the time scale of the game.",
-  "value": "The time scale, only accepts values in range 0.0f to 1.0f."
-}

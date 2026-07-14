@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.Native.InputArgument",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "Native",
-  "memberName": "InputArgument",
-  "summary": "An input argument passed to a script function."
-}

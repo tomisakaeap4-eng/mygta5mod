@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.UI.ContainerElement.Draw",
-  "kind": "M",
-  "namespace": "GTA.UI",
-  "typeName": "ContainerElement",
-  "memberName": "Draw",
-  "summary": "Draws this"
-}

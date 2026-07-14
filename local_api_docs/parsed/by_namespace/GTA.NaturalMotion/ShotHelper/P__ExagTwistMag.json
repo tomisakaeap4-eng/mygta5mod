@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotHelper.ExagTwistMag",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotHelper",
-  "memberName": "ExagTwistMag",
-  "summary": "Exaggerate bullet spine Twist magnitude.",
-  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

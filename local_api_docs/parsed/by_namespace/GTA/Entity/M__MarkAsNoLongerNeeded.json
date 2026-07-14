@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Entity.MarkAsNoLongerNeeded",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "MarkAsNoLongerNeeded",
-  "summary": "Marks this"
-}

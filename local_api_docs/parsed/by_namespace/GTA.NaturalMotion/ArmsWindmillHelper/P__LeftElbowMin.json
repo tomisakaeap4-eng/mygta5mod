@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ArmsWindmillHelper.LeftElbowMin",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ArmsWindmillHelper",
-  "memberName": "LeftElbowMin",
-  "summary": "Minimum left elbow bend.",
-  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 1.7f."
-}

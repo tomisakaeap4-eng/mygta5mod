@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.AnimPoseHelper.GravCompLeftLeg",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "AnimPoseHelper",
-  "memberName": "GravCompLeftLeg",
-  "summary": "Gravity compensation applied to left leg (applied after gravityCompensation). If -ve then not applied (use current setting).",
-  "remarks": "Default value = -1.0f.\n            Min value = -1.0f.\n            Max value = 14.0f."
-}

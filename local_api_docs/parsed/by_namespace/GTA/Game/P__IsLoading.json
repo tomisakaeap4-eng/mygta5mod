@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Game.IsLoading",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Game",
-  "memberName": "IsLoading",
-  "summary": "Gets a value indicating whether there is a loading screen being displayed."
-}

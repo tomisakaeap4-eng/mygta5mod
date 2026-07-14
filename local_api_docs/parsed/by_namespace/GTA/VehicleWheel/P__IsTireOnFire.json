@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.VehicleWheel.IsTireOnFire",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "VehicleWheel",
-  "memberName": "IsTireOnFire",
-  "summary": "Gets or sets a value indicating whether this"
-}

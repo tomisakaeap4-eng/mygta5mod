@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.IsRightIndicatorLightOn",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "IsRightIndicatorLightOn",
-  "summary": "Gets or sets a value indicating whether this"
-}

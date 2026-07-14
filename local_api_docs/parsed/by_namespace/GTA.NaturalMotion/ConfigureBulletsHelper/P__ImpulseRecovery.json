@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBulletsHelper.ImpulseRecovery",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBulletsHelper",
-  "memberName": "ImpulseRecovery",
-  "summary": "Recovery rate of impulse strength per second (impulse strength from 0.0:1.0).  At 60fps a impulseRecovery=60.0 will recover in 1 frame.",
-  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 60.0f."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.ParachuteLandingType.Invalid",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "ParachuteLandingType",
-  "memberName": "Invalid",
-  "summary": "Ped is not in a valid parachute landing state."
-}

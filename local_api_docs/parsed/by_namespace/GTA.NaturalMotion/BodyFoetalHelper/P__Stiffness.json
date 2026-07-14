@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyFoetalHelper.Stiffness",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyFoetalHelper",
-  "memberName": "Stiffness",
-  "summary": "The stiffness of the body determines how fast the character moves into the position, and how well that they hold it.",
-  "remarks": "Default value = 9.0f.\n            Min value = 6.0f.\n            Max value = 16.0f."
-}

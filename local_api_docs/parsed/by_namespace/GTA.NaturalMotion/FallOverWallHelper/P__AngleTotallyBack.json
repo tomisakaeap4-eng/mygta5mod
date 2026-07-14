@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.FallOverWallHelper.AngleTotallyBack",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "FallOverWallHelper",
-  "memberName": "AngleTotallyBack",
-  "summary": "Max angle in degrees (between 1.the vector between two hips and 2. WallEdge) to try to reach the wall just behind his pelvis with his arms when the character is back to the wall.",
-  "remarks": "Default value = 15.0f.\n            Min value = 0.0f.\n            Max value = 180.0f."
-}

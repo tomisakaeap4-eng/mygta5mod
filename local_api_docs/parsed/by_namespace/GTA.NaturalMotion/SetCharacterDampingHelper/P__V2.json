@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SetCharacterDampingHelper.V2",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SetCharacterDampingHelper",
-  "memberName": "V2",
-  "summary": "If true damping is proportional to Angular momentum squared.  If false proportional to Angular momentum.",
-  "remarks": "Default value = False."
-}

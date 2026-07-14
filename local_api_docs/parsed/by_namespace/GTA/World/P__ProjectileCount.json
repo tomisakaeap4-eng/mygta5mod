@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.World.ProjectileCount",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "World",
-  "memberName": "ProjectileCount",
-  "summary": "A fast way to get the total number of"
-}

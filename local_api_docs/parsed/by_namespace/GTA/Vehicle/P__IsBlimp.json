@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.IsBlimp",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "IsBlimp",
-  "summary": "Gets a value indicating whether this"
-}

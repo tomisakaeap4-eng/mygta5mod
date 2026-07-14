@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureLimitsHelper.Index",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureLimitsHelper",
-  "memberName": "Index",
-  "summary": "Index of effector to configure.  Set to -1 to use mask.",
-  "remarks": "Default value = -1.\n            Min value = -1."
-}

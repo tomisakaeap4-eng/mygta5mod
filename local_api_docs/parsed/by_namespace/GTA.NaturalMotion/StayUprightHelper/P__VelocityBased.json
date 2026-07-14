@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.StayUprightHelper.VelocityBased",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "StayUprightHelper",
-  "memberName": "VelocityBased",
-  "summary": "Make strength of constraint function of COM velocity.  Uses -1 for forceDamping if the damping is positive.",
-  "remarks": "Default value = False."
-}

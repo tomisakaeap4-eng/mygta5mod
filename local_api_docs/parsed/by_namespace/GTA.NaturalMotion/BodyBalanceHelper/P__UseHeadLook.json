@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.UseHeadLook",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyBalanceHelper",
-  "memberName": "UseHeadLook",
-  "summary": "Enable and provide a look-at target to make the character's head turn to face it while balancing.",
-  "remarks": "Default value = False."
-}

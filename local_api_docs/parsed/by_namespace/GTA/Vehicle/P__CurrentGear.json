@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.CurrentGear",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "CurrentGear",
-  "summary": "Gets or sets the current gear this"
-}

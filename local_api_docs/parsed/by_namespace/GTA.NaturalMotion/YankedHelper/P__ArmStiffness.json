@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.YankedHelper.ArmStiffness",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "YankedHelper",
-  "memberName": "ArmStiffness",
-  "summary": "Stiffness of arms when upright.",
-  "remarks": "Default value = 11.0f.\n            Min value = 6.0f.\n            Max value = 16.0f."
-}

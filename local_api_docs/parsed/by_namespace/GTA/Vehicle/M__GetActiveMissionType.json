@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Vehicle.GetActiveMissionType",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "GetActiveMissionType",
-  "summary": "Gets active vehicle mission type."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Game.IsMissionActive",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Game",
-  "memberName": "IsMissionActive",
-  "summary": "Gets or sets a value informing the engine if a mission is in progress."
-}

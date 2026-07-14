@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Pickup.ObjectExists",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Pickup",
-  "memberName": "ObjectExists",
-  "summary": "Determines if the object of this"
-}

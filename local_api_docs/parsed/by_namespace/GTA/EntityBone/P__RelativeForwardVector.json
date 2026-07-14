@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.EntityBone.RelativeForwardVector",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "EntityBone",
-  "memberName": "RelativeForwardVector",
-  "summary": "Gets the vector that points in front of this"
-}

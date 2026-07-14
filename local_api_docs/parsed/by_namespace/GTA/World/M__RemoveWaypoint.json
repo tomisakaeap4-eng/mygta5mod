@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.World.RemoveWaypoint",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "World",
-  "memberName": "RemoveWaypoint",
-  "summary": "Removes the waypoint."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.NaturalMotion.ConfigureBalanceResetHelper",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "NaturalMotion",
-  "memberName": "ConfigureBalanceResetHelper",
-  "summary": "Reset the values configurable by the Configure Balance message to their defaults."
-}

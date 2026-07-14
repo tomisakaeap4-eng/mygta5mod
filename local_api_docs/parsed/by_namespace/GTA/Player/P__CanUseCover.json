@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Player.CanUseCover",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Player",
-  "memberName": "CanUseCover",
-  "summary": "Sets a value indicating whether this"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ArmsWindmillAdaptiveHelper.DisableOnImpact",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ArmsWindmillAdaptiveHelper",
-  "memberName": "DisableOnImpact",
-  "summary": "If true, each arm will stop windmilling if it hits the ground.",
-  "remarks": "Default value = True."
-}

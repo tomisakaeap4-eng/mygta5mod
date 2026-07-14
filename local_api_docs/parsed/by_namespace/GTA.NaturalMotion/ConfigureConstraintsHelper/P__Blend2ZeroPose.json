@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureConstraintsHelper.Blend2ZeroPose",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureConstraintsHelper",
-  "memberName": "Blend2ZeroPose",
-  "summary": "Blend Arms to zero pose.",
-  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

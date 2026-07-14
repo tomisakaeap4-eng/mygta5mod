@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.InteriorInstance.Handle",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "InteriorInstance",
-  "memberName": "Handle",
-  "summary": "The handle of this"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotHelper.NeckStiffness",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotHelper",
-  "memberName": "NeckStiffness",
-  "summary": "Stiffness of neck.",
-  "remarks": "Default value = 14.0f.\n            Min value = 3.0f.\n            Max value = 16.0f."
-}

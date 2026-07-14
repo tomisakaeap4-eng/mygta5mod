@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Checkpoint.IconColor",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Checkpoint",
-  "memberName": "IconColor",
-  "summary": "Gets or sets the color of the icon in this"
-}

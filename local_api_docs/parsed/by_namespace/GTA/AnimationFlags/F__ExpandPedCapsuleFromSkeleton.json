@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.AnimationFlags.ExpandPedCapsuleFromSkeleton",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "AnimationFlags",
-  "memberName": "ExpandPedCapsuleFromSkeleton",
-  "summary": "Expands the capsule to the extents of the skeleton."
-}

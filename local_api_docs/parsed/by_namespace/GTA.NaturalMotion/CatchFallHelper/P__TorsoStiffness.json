@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.CatchFallHelper.TorsoStiffness",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "CatchFallHelper",
-  "memberName": "TorsoStiffness",
-  "summary": "Stiffness of torso.",
-  "remarks": "Default value = 9.0f.\n            Min value = 6.0f.\n            Max value = 16.0f."
-}

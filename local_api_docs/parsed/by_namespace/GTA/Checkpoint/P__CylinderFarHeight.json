@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Checkpoint.CylinderFarHeight",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Checkpoint",
-  "memberName": "CylinderFarHeight",
-  "summary": "Gets or sets the far height of the cylinder of this"
-}

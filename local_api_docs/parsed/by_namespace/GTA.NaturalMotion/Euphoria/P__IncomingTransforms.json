@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.IncomingTransforms",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "IncomingTransforms",
-  "summary": "Gets a IncomingTransforms Helper class for sending IncomingTransforms"
-}

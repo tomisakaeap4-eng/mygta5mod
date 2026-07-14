@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotHelper.ArmStiffness",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotHelper",
-  "memberName": "ArmStiffness",
-  "summary": "Arm stiffness.",
-  "remarks": "Default value = 10.0f.\n            Min value = 6.0f.\n            Max value = 16.0f."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SetFallingReactionHelper.ReachLengthMultiplier",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SetFallingReactionHelper",
-  "memberName": "ReachLengthMultiplier",
-  "summary": "Reach length multiplier that scales characters arm topological length, value in range from (0, 1 GT  where 1.0 means reach length is maximum.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.3f.\n            Max value = 1.0f."
-}

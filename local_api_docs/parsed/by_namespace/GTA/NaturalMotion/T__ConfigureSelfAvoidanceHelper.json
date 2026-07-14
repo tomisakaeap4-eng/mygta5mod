@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.NaturalMotion.ConfigureSelfAvoidanceHelper",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "NaturalMotion",
-  "memberName": "ConfigureSelfAvoidanceHelper",
-  "summary": "This single message allows to configure self avoidance for the character.BBDD Self avoidance tech."
-}

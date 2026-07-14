@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SmartFallHelper.RdsUseStartingFriction",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SmartFallHelper",
-  "memberName": "RdsUseStartingFriction",
-  "summary": "Start Catch Fall/RDS state with specified friction.\n            Catch fall will overwrite based on setFallingReaction.",
-  "remarks": "Default value = False."
-}

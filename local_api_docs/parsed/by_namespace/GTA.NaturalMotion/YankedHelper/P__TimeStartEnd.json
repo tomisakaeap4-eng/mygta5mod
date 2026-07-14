@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.YankedHelper.TimeStartEnd",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "YankedHelper",
-  "memberName": "TimeStartEnd",
-  "summary": "Time from start of behavior before lowerBodyStiffness starts ramping down by perStepReduction1.",
-  "remarks": "Default value = 100.0f.\n            Min value = 0.0f.\n            Max value = 100.0f."
-}

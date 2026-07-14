@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.Clutch",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "Clutch",
-  "summary": "Gets or sets the current clutch of this"
-}

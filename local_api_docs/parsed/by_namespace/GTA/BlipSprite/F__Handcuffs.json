@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.BlipSprite.Handcuffs",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "BlipSprite",
-  "memberName": "Handcuffs",
-  "summary": "The default English text for this value is \"Biker Handcuffs Closed\"."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.VehicleDrivingFlags.ForceStraightLine",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleDrivingFlags",
-  "memberName": "ForceStraightLine",
-  "summary": "Force to go to the target directly instead of following the nodes regardless of the distance config for driving or vehicle mission tasks at which the ai switches to heading for the target directly."
-}

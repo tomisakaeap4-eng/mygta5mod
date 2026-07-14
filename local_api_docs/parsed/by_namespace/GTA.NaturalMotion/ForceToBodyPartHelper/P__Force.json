@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ForceToBodyPartHelper.Force",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ForceToBodyPartHelper",
-  "memberName": "Force",
-  "summary": "Force to apply.",
-  "remarks": "Default value = Vector3(0.0f, -50.0f, 0.0f).\n            Min value = -100000.0f.\n            Max value = 100000.0f."
-}

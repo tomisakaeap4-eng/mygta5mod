@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.YankedHelper.FootFriction",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "YankedHelper",
-  "memberName": "FootFriction",
-  "summary": "Foot friction when standing/stepping.  0.5 gives a good slide sometimes.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

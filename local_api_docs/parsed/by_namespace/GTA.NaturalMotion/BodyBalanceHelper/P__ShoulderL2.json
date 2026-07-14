@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.ShoulderL2",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyBalanceHelper",
-  "memberName": "ShoulderL2",
-  "summary": "Mmmmdrunk = 0.7 shoulder lean2 offset.",
-  "remarks": "Default value = 0.5f.\n            Min value = -3.0f.\n            Max value = 3.0f."
-}

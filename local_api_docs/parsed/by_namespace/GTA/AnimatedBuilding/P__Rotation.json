@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.AnimatedBuilding.Rotation",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "AnimatedBuilding",
-  "memberName": "Rotation",
-  "summary": "Gets the rotation of this",
-  "value": "The yaw, pitch, roll rotation values in degree."
-}

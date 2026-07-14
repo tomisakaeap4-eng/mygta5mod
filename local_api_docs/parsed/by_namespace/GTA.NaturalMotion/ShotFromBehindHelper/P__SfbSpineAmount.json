@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotFromBehindHelper.SfbSpineAmount",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotFromBehindHelper",
-  "memberName": "SfbSpineAmount",
-  "summary": "SpineBend.",
-  "remarks": "Default value = 4.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

@@ -1,7 +1,0 @@
-{
-  "name": "F:GTA.VehicleLockStatus.StickPlayerInside",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleLockStatus",
-  "memberName": "StickPlayerInside"
-}

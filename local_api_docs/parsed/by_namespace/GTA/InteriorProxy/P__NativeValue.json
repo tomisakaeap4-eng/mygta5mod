@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.InteriorProxy.NativeValue",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "InteriorProxy",
-  "memberName": "NativeValue",
-  "summary": "The handle of this"
-}

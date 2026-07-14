@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.OnFireHelper.ArmsPoseWritheBlend",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "OnFireHelper",
-  "memberName": "ArmsPoseWritheBlend",
-  "summary": "Blend the bodyWrithe arms with the current desired pose from on fire behavior when character is on the floor.",
-  "remarks": "Default value = 0.7f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

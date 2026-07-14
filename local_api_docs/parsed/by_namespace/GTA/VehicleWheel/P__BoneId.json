@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.VehicleWheel.BoneId",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "VehicleWheel",
-  "memberName": "BoneId",
-  "summary": "Gets the bone id this"
-}

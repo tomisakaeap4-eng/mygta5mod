@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.BlipSprite.GTAOMission",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "BlipSprite",
-  "memberName": "GTAOMission",
-  "summary": "The default English text for this value is \"UGC Mission\"."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SmartFallHelper.ChangeExtremityFriction",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SmartFallHelper",
-  "memberName": "ChangeExtremityFriction",
-  "summary": "Allow friction changes to be applied to the hands and feet.",
-  "remarks": "Default value = False."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.ShotHeadLook",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "ShotHeadLook",
-  "summary": "Gets a ShotHeadLook Helper class for sending ShotHeadLook"
-}

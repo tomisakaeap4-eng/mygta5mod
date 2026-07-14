@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunHelper.UseIncomingTransforms",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunHelper",
-  "memberName": "UseIncomingTransforms",
-  "summary": "Use the incoming transforms to inform the pointGun of the primaryWeaponDistance, poleVector for the arm.",
-  "remarks": "Default value = True."
-}

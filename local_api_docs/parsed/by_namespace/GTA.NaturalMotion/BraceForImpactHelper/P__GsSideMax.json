@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.GsSideMax",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BraceForImpactHelper",
-  "memberName": "GsSideMax",
-  "summary": "ID for glancing spin. Max depth to be considered on the side of a car (+ve is outside the car area).",
-  "remarks": "Default value = 0.5f.\n            Min value = -10.0f.\n            Max value = 1.0f."
-}

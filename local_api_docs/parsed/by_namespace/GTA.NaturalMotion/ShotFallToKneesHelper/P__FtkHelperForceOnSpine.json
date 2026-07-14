@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkHelperForceOnSpine",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotFallToKneesHelper",
-  "memberName": "FtkHelperForceOnSpine",
-  "summary": "Helper force applied to spine3 as well.",
-  "remarks": "Default value = True."
-}

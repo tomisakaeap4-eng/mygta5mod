@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.HandlingData.SuspensionRaise",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "HandlingData",
-  "memberName": "SuspensionRaise",
-  "summary": "Gets or sets the adjustment from artist positioning.",
-  "value": "The suspension raise."
-}

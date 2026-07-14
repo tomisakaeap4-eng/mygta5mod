@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.FallOverWallHelper.MaxAngVel",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "FallOverWallHelper",
-  "memberName": "MaxAngVel",
-  "summary": "If the angular velocity is higher than maxAngVel, the torques and forces are not applied.",
-  "remarks": "Default value = 2.0f.\n            Min value = -1.0f.\n            Max value = 30.0f."
-}

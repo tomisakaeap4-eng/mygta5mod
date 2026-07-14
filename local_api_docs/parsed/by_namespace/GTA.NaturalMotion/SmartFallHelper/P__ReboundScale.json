@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SmartFallHelper.ReboundScale",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SmartFallHelper",
-  "memberName": "ReboundScale",
-  "summary": "Scale for rebound assistance.\n            0 = off,\n            1 = very bouncy,\n            2 = jbone crazy.",
-  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ElectrocuteHelper.Spine",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ElectrocuteHelper",
-  "memberName": "Spine",
-  "summary": "Vibrate the spine.",
-  "remarks": "Default value = True."
-}

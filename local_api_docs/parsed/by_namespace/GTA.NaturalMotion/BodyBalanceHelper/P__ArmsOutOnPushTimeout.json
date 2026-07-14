@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.ArmsOutOnPushTimeout",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyBalanceHelper",
-  "memberName": "ArmsOutOnPushTimeout",
-  "summary": "Number of seconds before turning off the armsOutOnPush response only for Arms out based on lean2 of the legs (NOT for the angle or angular velocity).",
-  "remarks": "Default value = 1.1f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

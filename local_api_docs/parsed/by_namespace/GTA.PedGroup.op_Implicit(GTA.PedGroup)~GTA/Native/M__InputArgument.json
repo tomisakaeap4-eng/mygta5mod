@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.PedGroup.op_Implicit(GTA.PedGroup)~GTA.Native.InputArgument",
-  "kind": "M",
-  "namespace": "GTA.PedGroup.op_Implicit(GTA.PedGroup)~GTA",
-  "typeName": "Native",
-  "memberName": "InputArgument",
-  "summary": "Converts a"
-}

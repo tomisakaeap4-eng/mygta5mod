@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.PedHash.JIOCutscene",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "PedHash",
-  "memberName": "JIOCutscene",
-  "summary": "The first cutscene model of Jimmy Iovine."
-}

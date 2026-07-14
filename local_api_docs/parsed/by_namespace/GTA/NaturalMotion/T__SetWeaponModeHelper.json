@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.NaturalMotion.SetWeaponModeHelper",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "NaturalMotion",
-  "memberName": "SetWeaponModeHelper",
-  "summary": "Use this message to set the character's weapon mode.  This is an alternativeto the setWeaponMode public function."
-}

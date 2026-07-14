@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Entity.IsUpright",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "IsUpright",
-  "summary": "Gets a value indicating whether this"
-}

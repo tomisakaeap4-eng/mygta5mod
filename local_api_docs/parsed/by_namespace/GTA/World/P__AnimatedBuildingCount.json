@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.World.AnimatedBuildingCount",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "World",
-  "memberName": "AnimatedBuildingCount",
-  "summary": "A fast way to get the total number of"
-}

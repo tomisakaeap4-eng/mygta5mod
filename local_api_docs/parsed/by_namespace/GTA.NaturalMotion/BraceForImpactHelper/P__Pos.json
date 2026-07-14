@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.Pos",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BraceForImpactHelper",
-  "memberName": "Pos",
-  "summary": "Location of the front part of the object to brace against. This should be the center of where his hands should meet the object.",
-  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
-}

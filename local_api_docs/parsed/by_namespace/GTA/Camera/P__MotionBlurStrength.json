@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Camera.MotionBlurStrength",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Camera",
-  "memberName": "MotionBlurStrength",
-  "summary": "Sets the strength of the motion blur for this"
-}

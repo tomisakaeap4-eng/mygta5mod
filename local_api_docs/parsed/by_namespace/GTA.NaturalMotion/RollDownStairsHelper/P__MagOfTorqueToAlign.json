@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.MagOfTorqueToAlign",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RollDownStairsHelper",
-  "memberName": "MagOfTorqueToAlign",
-  "summary": "Only used if applyHelPerTorqueToAlign defined to true : magnitude of the torque to align orthogonally the body.",
-  "remarks": "Default value = 50.0f.\n            Min value = 0.0f.\n            Max value = 500.0f."
-}

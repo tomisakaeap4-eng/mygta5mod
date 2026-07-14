@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.WeaponComponentCollection.BarrelVariationsCount",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "WeaponComponentCollection",
-  "memberName": "BarrelVariationsCount",
-  "summary": "Gets the number of compatible barrel components."
-}

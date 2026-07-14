@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunHelper.FireWeaponRelaxDistance",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunHelper",
-  "memberName": "FireWeaponRelaxDistance",
-  "summary": "Range of motion for ik-based recoil.",
-  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 0.3f."
-}

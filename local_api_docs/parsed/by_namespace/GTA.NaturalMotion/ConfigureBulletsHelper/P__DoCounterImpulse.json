@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBulletsHelper.DoCounterImpulse",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBulletsHelper",
-  "memberName": "DoCounterImpulse",
-  "summary": "Add a counter impulse to the pelvis.",
-  "remarks": "Default value = False."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureShotInjuredArmHelper.VelScales",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureShotInjuredArmHelper",
-  "memberName": "VelScales",
-  "summary": "Use the velocity scaling parameters.\n            Tune for standing still then use velocity scaling to make sure a running character stays balanced (the turning tends to make the character fall over more at speed).",
-  "remarks": "Default value = True."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.FallType",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBalanceHelper",
-  "memberName": "FallType",
-  "summary": "How to fall after maxSteps or maxBalanceTime.",
-  "remarks": "Default value ="
-}

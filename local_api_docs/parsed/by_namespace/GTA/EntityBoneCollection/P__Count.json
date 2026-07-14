@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.EntityBoneCollection.Count",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "EntityBoneCollection",
-  "memberName": "Count",
-  "summary": "Gets the number of bones that this"
-}

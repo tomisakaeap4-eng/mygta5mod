@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.YankedHelper.MaxRelaxPeriod",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "YankedHelper",
-  "memberName": "MaxRelaxPeriod",
-  "summary": "Wriggle relaxes for a maximum of maxRelaxPeriod (if it is negative it is a multiplier on the time previously spent wriggling).",
-  "remarks": "Default value = 1.5f.\n            Min value = -5.0f.\n            Max value = 5.0f."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Math.Vector3.UnitZ",
-  "kind": "P",
-  "namespace": "GTA.Math",
-  "typeName": "Vector3",
-  "memberName": "UnitZ",
-  "summary": "The Z unit"
-}

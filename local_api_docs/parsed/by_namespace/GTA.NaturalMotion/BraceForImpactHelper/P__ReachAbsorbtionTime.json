@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.ReachAbsorbtionTime",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BraceForImpactHelper",
-  "memberName": "ReachAbsorbtionTime",
-  "summary": "Larger values and he absorbs the impact more.",
-  "remarks": "Default value = 0.2f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

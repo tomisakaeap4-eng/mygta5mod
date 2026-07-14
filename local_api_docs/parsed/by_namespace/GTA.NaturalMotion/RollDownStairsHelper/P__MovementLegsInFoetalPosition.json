@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.MovementLegsInFoetalPosition",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RollDownStairsHelper",
-  "memberName": "MovementLegsInFoetalPosition",
-  "summary": "Only used if applyFoetalToLegs = true : define the variation of angles for the joints of the legs.",
-  "remarks": "Default value = 1.3f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

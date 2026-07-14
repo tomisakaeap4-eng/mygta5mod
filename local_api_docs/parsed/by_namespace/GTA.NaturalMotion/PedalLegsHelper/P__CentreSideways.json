@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PedalLegsHelper.CentreSideways",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PedalLegsHelper",
-  "memberName": "CentreSideways",
-  "summary": "Move the center of the pedal for both legs sideways (+ve = right).  NB: not applied to hula.",
-  "remarks": "Default value = 0.0f.\n            Min value = -1.0f.\n            Max value = 1.0f."
-}

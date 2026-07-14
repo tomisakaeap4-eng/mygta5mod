@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.RaycastResult.Result",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "RaycastResult",
-  "memberName": "Result",
-  "summary": "Gets the result code."
-}

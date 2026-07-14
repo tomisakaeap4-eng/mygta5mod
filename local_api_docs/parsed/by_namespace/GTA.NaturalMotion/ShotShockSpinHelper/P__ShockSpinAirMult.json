@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotShockSpinHelper.ShockSpinAirMult",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotShockSpinHelper",
-  "memberName": "ShockSpinAirMult",
-  "summary": "ShockSpin's torque is multipied by this value when both the character's feet are not in contact.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

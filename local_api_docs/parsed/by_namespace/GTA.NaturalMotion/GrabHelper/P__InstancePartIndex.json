@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.GrabHelper.InstancePartIndex",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "GrabHelper",
-  "memberName": "InstancePartIndex",
-  "summary": "BoundIndex of part on instance to grab (0 = just use instance coordinates).",
-  "remarks": "Default value = 0.\n            Min value = 0."
-}

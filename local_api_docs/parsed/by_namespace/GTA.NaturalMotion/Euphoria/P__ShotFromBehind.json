@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.ShotFromBehind",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "ShotFromBehind",
-  "summary": "Gets a ShotFromBehind Helper class for sending ShotFromBehind",
-  "remarks": "configure the shot from behind reaction"
-}

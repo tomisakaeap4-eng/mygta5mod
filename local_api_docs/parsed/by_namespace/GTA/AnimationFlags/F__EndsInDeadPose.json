@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.AnimationFlags.EndsInDeadPose",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "AnimationFlags",
-  "memberName": "EndsInDeadPose",
-  "summary": "When the anim ends, kill the ped and use the currently playing anim as the dead pose."
-}

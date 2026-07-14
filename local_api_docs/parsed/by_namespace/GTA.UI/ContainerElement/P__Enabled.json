@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.UI.ContainerElement.Enabled",
-  "kind": "P",
-  "namespace": "GTA.UI",
-  "typeName": "ContainerElement",
-  "memberName": "Enabled",
-  "summary": "Gets or sets a value indicating whether this"
-}

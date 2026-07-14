@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Game.IsVibrationEnabled",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Game",
-  "memberName": "IsVibrationEnabled",
-  "summary": "Gets a value indicating whether the controller vibration is enabled."
-}

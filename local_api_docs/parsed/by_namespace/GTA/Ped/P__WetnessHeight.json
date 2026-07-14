@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.Ped.WetnessHeight",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Ped",
-  "memberName": "WetnessHeight",
-  "summary": "Sets how high up on this",
-  "value": "The height ranges from 0.0f to 1.99f, 0.0f being no water visible, 1.99f being covered in water."
-}

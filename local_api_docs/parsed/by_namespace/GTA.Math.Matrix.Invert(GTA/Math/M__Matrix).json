@@ -1,9 +1,0 @@
-{
-  "name": "M:GTA.Math.Matrix.Invert(GTA.Math.Matrix)",
-  "kind": "M",
-  "namespace": "GTA.Math.Matrix.Invert(GTA",
-  "typeName": "Math",
-  "memberName": "Matrix)",
-  "summary": "Calculates the inverse of a matrix if it exists.",
-  "returns": "The inverse of the matrix."
-}

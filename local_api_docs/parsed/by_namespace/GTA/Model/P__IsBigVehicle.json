@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Model.IsBigVehicle",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Model",
-  "memberName": "IsBigVehicle",
-  "summary": "Gets a value indicating whether this"
-}

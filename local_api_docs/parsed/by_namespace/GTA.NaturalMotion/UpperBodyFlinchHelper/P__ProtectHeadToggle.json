@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.UpperBodyFlinchHelper.ProtectHeadToggle",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "UpperBodyFlinchHelper",
-  "memberName": "ProtectHeadToggle",
-  "summary": "Always protect head.\n            Note if false then character flinches if target is in front, protects head if target is behind.",
-  "remarks": "Default value = False."
-}

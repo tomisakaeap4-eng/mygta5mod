@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SetFallingReactionHelper.StopManual",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SetFallingReactionHelper",
-  "memberName": "StopManual",
-  "summary": "Override slope value to manually force stopping on flat ground.  Encourages character to come to rest face down or face up.",
-  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

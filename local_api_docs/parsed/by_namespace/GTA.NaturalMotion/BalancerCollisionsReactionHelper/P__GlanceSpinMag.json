@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.GlanceSpinMag",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BalancerCollisionsReactionHelper",
-  "memberName": "GlanceSpinMag",
-  "summary": "Magnitude of the glance torque.",
-  "remarks": "Default value = 50.0f.\n            Min value = 0.0f.\n            Max value = 1000.0f."
-}

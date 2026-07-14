@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.StaggerFallHelper.MaxPushoffVel",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "StaggerFallHelper",
-  "memberName": "MaxPushoffVel",
-  "summary": "Stance leg will only pushOff to increase momentum if the vertical hip velocity is less than this value. 0.4 seems like a good value.\n            The higher it is the less this functionality is applied.\n            If it is very low or negative this can stop the pushOff altogether.",
-  "remarks": "Default value = 20.0f.\n            Min value = -20.0f.\n            Max value = 20.0f."
-}

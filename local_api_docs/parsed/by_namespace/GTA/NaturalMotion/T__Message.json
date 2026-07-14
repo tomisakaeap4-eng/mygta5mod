@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.NaturalMotion.Message",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "NaturalMotion",
-  "memberName": "Message",
-  "summary": "A base class for manually building a"
-}

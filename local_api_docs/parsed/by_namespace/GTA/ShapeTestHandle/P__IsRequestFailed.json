@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.ShapeTestHandle.IsRequestFailed",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "ShapeTestHandle",
-  "memberName": "IsRequestFailed",
-  "summary": "Gets if the request of"
-}

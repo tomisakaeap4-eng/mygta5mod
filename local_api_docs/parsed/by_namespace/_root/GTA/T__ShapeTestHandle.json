@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.ShapeTestHandle",
-  "kind": "T",
-  "namespace": "",
-  "typeName": "GTA",
-  "memberName": "ShapeTestHandle",
-  "summary": "Represents a shape test handle.\n            You need to call"
-}

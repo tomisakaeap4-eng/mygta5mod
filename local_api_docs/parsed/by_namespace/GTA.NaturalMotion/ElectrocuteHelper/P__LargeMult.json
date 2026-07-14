@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ElectrocuteHelper.LargeMult",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ElectrocuteHelper",
-  "memberName": "LargeMult",
-  "summary": "LargeMult*stunMag = The magnitude of a random large snap reaction (other multipliers are applied after this).",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 20.0f."
-}

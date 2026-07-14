@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.VehicleWheel.IsPunctured",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "VehicleWheel",
-  "memberName": "IsPunctured",
-  "summary": "Sets a value indicating whether this"
-}

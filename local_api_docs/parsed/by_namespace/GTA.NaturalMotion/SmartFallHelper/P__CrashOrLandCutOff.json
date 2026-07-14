@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SmartFallHelper.CrashOrLandCutOff",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SmartFallHelper",
-  "memberName": "CrashOrLandCutOff",
-  "summary": "0.52angle is 0.868 dot//A threshold for deciding how far away from upright the character needs to be before bailing out (going into a foetal) instead of trying to land (keeping stretched out).\n            NB: never does bailout if ignorWorldCollisions true.",
-  "remarks": "Default value = 0.9f.\n            Min value = -1.0f.\n            Max value = 1.0f."
-}

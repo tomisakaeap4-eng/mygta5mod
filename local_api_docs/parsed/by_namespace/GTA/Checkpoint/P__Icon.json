@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Checkpoint.Icon",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Checkpoint",
-  "memberName": "Icon",
-  "summary": "Gets or sets the icon drawn in this"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Player.op_Implicit(GTA.Player)~GTA.Native.InputArgument",
-  "kind": "M",
-  "namespace": "GTA.Player.op_Implicit(GTA.Player)~GTA",
-  "typeName": "Native",
-  "memberName": "InputArgument",
-  "summary": "Converts a"
-}

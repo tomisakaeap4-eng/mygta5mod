@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.SteeringScale",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "SteeringScale",
-  "summary": "Gets or sets the steering scale of this"
-}

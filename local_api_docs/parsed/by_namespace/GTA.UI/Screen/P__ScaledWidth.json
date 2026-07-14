@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.UI.Screen.ScaledWidth",
-  "kind": "P",
-  "namespace": "GTA.UI",
-  "typeName": "Screen",
-  "memberName": "ScaledWidth",
-  "summary": "Gets the screen width scaled against a 720pixel height base."
-}

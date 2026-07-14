@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.StaggerFallHelper.StepsTillStartEnd",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "StaggerFallHelper",
-  "memberName": "StepsTillStartEnd",
-  "summary": "Steps taken before lowerBodyStiffness starts ramping down by perStepReduction1.",
-  "remarks": "Default value = 2.\n            Min value = 0.\n            Max value = 100."
-}

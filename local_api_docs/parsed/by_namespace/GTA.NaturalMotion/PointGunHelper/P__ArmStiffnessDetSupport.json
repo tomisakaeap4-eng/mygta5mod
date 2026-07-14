@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunHelper.ArmStiffnessDetSupport",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunHelper",
-  "memberName": "ArmStiffnessDetSupport",
-  "summary": "Stiffness of the arm on pointing arm when a support arm is detached from a two-handed weapon.",
-  "remarks": "Default value = 8.0f.\n            Min value = 2.0f.\n            Max value = 15.0f."
-}

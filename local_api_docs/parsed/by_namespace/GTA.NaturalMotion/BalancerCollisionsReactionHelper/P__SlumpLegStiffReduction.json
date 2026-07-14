@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.SlumpLegStiffReduction",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BalancerCollisionsReactionHelper",
-  "memberName": "SlumpLegStiffReduction",
-  "summary": "Reduce the stiffness of the legs by this much as soon as slump starts.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 16.0f."
-}

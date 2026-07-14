@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.VehicleType.Blimp",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleType",
-  "memberName": "Blimp",
-  "summary": "The blimp type."
-}

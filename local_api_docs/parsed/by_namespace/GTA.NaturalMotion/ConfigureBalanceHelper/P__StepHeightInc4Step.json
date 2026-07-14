@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.StepHeightInc4Step",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBalanceHelper",
-  "memberName": "StepHeightInc4Step",
-  "summary": "Added to stepHeight if going up steps.",
-  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 0.4f."
-}

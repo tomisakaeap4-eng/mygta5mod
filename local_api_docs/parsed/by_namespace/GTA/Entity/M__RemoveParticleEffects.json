@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Entity.RemoveParticleEffects",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "RemoveParticleEffects",
-  "summary": "Stops all particle effects attached to this"
-}

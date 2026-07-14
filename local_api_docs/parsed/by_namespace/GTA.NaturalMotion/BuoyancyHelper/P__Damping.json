@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BuoyancyHelper.Damping",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BuoyancyHelper",
-  "memberName": "Damping",
-  "summary": "Damping for submerged parts.",
-  "remarks": "Default value = 40.0f.\n            Min value = 0.0f."
-}

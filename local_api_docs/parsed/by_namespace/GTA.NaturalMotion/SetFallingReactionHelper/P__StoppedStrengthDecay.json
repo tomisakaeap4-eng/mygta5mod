@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SetFallingReactionHelper.StoppedStrengthDecay",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SetFallingReactionHelper",
-  "memberName": "StoppedStrengthDecay",
-  "summary": "Speed at which strength reduces when stopped.",
-  "remarks": "Default value = 5.0f.\n            Min value = 0.0f.\n            Max value = 20.0f."
-}

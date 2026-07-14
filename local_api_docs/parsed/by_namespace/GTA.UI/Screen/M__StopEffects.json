@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.UI.Screen.StopEffects",
-  "kind": "M",
-  "namespace": "GTA.UI",
-  "typeName": "Screen",
-  "memberName": "StopEffects",
-  "summary": "Stops all currently running effects."
-}

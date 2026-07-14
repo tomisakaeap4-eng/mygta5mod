@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.AnimPoseHelper.DampenSideMotionInstanceIndex",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "AnimPoseHelper",
-  "memberName": "DampenSideMotionInstanceIndex",
-  "summary": "LevelIndex of object to dampen side motion relative to. -1 means not used.",
-  "remarks": "Default value = -1.\n            Min value = -1."
-}

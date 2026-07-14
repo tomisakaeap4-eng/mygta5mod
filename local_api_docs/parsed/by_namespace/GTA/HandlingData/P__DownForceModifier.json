@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.HandlingData.DownForceModifier",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "HandlingData",
-  "memberName": "DownForceModifier",
-  "summary": "Gets or sets the amount of downforce applied to the vehicle.",
-  "value": "The amount of downforce applied to the vehicle."
-}

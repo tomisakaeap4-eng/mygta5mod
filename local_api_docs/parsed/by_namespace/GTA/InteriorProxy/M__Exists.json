@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.InteriorProxy.Exists",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "InteriorProxy",
-  "memberName": "Exists",
-  "summary": "Determines if this"
-}

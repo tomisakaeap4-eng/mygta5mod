@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.InteriorProxy.CurrentInteriorInstance",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "InteriorProxy",
-  "memberName": "CurrentInteriorInstance",
-  "summary": "Gets the current",
-  "remarks": "returns"
-}

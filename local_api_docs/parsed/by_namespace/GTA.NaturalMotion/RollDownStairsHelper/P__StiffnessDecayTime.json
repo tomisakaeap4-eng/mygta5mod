@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.StiffnessDecayTime",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RollDownStairsHelper",
-  "memberName": "StiffnessDecayTime",
-  "summary": "Time, in seconds, to decay stiffness down to the stiffnessDecayTarget value (or -1 to disable).",
-  "remarks": "Default value = -1.0f.\n            Min value = -1.0f.\n            Max value = 10.0f."
-}

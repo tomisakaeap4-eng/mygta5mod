@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureConstraintsHelper.HandCuffs",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureConstraintsHelper",
-  "memberName": "HandCuffs",
-  "remarks": "Default value = False."
-}

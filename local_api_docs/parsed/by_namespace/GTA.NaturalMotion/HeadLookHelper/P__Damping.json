@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.HeadLookHelper.Damping",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "HeadLookHelper",
-  "memberName": "Damping",
-  "summary": "Damping of the muscles.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 3.0f."
-}

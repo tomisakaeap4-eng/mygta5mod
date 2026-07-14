@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Game.GameTime",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Game",
-  "memberName": "GameTime",
-  "summary": "Gets how many milliseconds the game has been open in this session"
-}

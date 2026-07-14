@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.DampSpin",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BraceForImpactHelper",
-  "memberName": "DampSpin",
-  "summary": "Amount to damp spinning by (cartwheeling and somersaulting).",
-  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 40.0f."
-}

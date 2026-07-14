@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SetCharacterUnderwaterHelper.Underwater",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SetCharacterUnderwaterHelper",
-  "memberName": "Underwater",
-  "summary": "Is character underwater?.",
-  "remarks": "Default value = False."
-}

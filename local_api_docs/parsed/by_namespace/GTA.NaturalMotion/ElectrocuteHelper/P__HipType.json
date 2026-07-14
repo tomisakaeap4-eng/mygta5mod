@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ElectrocuteHelper.HipType",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ElectrocuteHelper",
-  "memberName": "HipType",
-  "summary": "Type of hip reaction 0=none, 1=side2side 2=steplike.",
-  "remarks": "Default value = 2.\n            Min value = 0.\n            Max value = 2."
-}

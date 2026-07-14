@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.DefineAttachedObjectHelper.PartIndex",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "DefineAttachedObjectHelper",
-  "memberName": "PartIndex",
-  "summary": "Index of part to attach to.",
-  "remarks": "Default value = -1.\n            Min value = -1.\n            Max value = 21."
-}

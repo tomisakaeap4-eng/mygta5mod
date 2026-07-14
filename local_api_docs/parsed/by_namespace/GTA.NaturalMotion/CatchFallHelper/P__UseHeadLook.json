@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.CatchFallHelper.UseHeadLook",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "CatchFallHelper",
-  "memberName": "UseHeadLook",
-  "summary": "Toggle to use the head look in this behavior.",
-  "remarks": "Default value = True."
-}

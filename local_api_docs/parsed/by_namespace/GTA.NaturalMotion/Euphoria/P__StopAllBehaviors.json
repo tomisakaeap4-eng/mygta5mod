@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.StopAllBehaviors",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "StopAllBehaviors",
-  "summary": "Gets a StopAllBehaviors Helper class for sending StopAllBehaviors",
-  "remarks": "Send this message to immediately stop all behaviors from executing."
-}

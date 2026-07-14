@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.PoolObject.Handle",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "PoolObject",
-  "memberName": "Handle",
-  "summary": "The handle of the object."
-}

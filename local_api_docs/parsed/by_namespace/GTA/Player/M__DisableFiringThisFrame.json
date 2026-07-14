@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Player.DisableFiringThisFrame",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Player",
-  "memberName": "DisableFiringThisFrame",
-  "summary": "Prevents this"
-}

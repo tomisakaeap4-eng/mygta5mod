@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.HandlingData.TractionBiasFront",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "HandlingData",
-  "memberName": "TractionBiasFront",
-  "summary": "Gets or sets the value that determines the distribution of traction from front to rear.\n            This value will be set to the equivalent value in the",
-  "value": "The value that determines distribution of traction from front to rear."
-}

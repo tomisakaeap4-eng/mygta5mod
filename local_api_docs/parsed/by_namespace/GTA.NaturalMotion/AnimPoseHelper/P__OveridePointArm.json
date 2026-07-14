@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.AnimPoseHelper.OveridePointArm",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "AnimPoseHelper",
-  "memberName": "OveridePointArm",
-  "summary": "Overide PointArm behavior (if animPose includes the arm/arms).",
-  "remarks": "Default value = False."
-}

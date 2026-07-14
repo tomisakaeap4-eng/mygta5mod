@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.UpperBodyFlinchHelper.HeadLookAwayFromTarget",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "UpperBodyFlinchHelper",
-  "memberName": "HeadLookAwayFromTarget",
-  "summary": "Look away from target (unless protecting head then look between feet).",
-  "remarks": "Default value = False."
-}

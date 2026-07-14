@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Camera.DepthOfFieldStrength",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Camera",
-  "memberName": "DepthOfFieldStrength",
-  "summary": "Sets the depth of field strength for this"
-}

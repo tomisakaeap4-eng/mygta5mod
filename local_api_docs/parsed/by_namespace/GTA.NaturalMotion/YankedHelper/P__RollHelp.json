@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.YankedHelper.RollHelp",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "YankedHelper",
-  "memberName": "RollHelp",
-  "summary": "Amount of cheat torque applied to turn the character over.",
-  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

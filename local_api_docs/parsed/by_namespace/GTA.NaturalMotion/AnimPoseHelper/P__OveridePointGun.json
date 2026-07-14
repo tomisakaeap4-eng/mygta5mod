@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.AnimPoseHelper.OveridePointGun",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "AnimPoseHelper",
-  "memberName": "OveridePointGun",
-  "summary": "Overide PointGun behavior (if animPose includes the arm/arms)//mmmmtodo not used at moment.",
-  "remarks": "Default value = False."
-}

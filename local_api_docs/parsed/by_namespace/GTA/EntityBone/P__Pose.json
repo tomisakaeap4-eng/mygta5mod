@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.EntityBone.Pose",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "EntityBone",
-  "memberName": "Pose",
-  "summary": "Gets or sets the current pose offset (dynamic position) of this"
-}

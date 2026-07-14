@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.CheckpointCustomIcon.Number",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "CheckpointCustomIcon",
-  "memberName": "Number",
-  "summary": "Gets or sets the number to display inside the icon.",
-  "value": "If"
-}

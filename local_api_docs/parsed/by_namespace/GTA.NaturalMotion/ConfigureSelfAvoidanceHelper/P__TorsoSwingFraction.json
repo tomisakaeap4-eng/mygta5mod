@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureSelfAvoidanceHelper.TorsoSwingFraction",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureSelfAvoidanceHelper",
-  "memberName": "TorsoSwingFraction",
-  "summary": "Place the adjusted target this much along the arc between effector (wrist) and target, value in range [0,1].",
-  "remarks": "Default value = 0.8f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

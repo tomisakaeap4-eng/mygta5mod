@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointArmHelper.ArmStraightnessLeft",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointArmHelper",
-  "memberName": "ArmStraightnessLeft",
-  "summary": "Values less than 1 can give the arm a more bent look.",
-  "remarks": "Default value = 0.8f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SetCharacterCollisionsHelper.ApplyToThighs",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SetCharacterCollisionsHelper",
-  "memberName": "ApplyToThighs",
-  "remarks": "Default value = True."
-}

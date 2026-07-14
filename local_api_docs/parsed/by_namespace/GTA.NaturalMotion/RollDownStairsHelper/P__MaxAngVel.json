@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.MaxAngVel",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RollDownStairsHelper",
-  "memberName": "MaxAngVel",
-  "summary": "Only used if applyNewRollingCheatingTorques defined to true : maximal angular velocity of the roll to apply cheating torque.",
-  "remarks": "Default value = 5.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

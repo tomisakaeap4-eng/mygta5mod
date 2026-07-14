@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.Throttle",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "Throttle",
-  "summary": "Gets or sets the current throttle of this"
-}

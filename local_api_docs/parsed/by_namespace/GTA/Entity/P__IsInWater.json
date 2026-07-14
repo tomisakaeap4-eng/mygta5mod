@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Entity.IsInWater",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "IsInWater",
-  "summary": "Gets a value indicating whether this"
-}

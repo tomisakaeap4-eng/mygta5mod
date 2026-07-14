@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Camera.Matrix",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Camera",
-  "memberName": "Matrix",
-  "summary": "Gets the matrix of this"
-}

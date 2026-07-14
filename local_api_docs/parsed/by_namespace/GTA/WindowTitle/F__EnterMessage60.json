@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.WindowTitle.EnterMessage60",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "WindowTitle",
-  "memberName": "EnterMessage60",
-  "summary": "\"Enter Message (MAX 60 characters)\""
-}

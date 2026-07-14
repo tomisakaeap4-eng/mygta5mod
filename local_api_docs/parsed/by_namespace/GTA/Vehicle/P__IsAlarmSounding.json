@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.IsAlarmSounding",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "IsAlarmSounding",
-  "summary": "Gets a value indicating whether this"
-}

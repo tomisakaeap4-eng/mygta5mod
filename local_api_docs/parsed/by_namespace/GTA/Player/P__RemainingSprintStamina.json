@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Player.RemainingSprintStamina",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Player",
-  "memberName": "RemainingSprintStamina",
-  "summary": "Gets how much sprint stamina this"
-}

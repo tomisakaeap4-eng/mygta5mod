@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureShotInjuredArmHelper.VelMultiplierEnd",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureShotInjuredArmHelper",
-  "memberName": "VelMultiplierEnd",
-  "summary": "End velocity of ramp where parameters are scaled to zero.",
-  "remarks": "Default value = 5.0f.\n            Min value = 1.0f.\n            Max value = 40.0f."
-}

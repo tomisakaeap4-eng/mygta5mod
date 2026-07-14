@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunHelper.ElbowAttitude",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunHelper",
-  "memberName": "ElbowAttitude",
-  "summary": "Controls arm twist. (except in pistolIK).",
-  "remarks": "Default value = 0.3f.\n            Min value = -1.0f.\n            Max value = 1.0f."
-}

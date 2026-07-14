@@ -1,7 +1,0 @@
-{
-  "name": "F:GTA.VehicleLockStatus.PlayerCannotLeaveCanBeBrokenIntoPersist",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleLockStatus",
-  "memberName": "PlayerCannotLeaveCanBeBrokenIntoPersist"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.IsAmphibiousQuadBike",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "IsAmphibiousQuadBike",
-  "summary": "Gets a value indicating whether this"
-}

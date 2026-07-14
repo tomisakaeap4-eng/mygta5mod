@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.HandlingData.DriveBiasFront",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "HandlingData",
-  "memberName": "DriveBiasFront",
-  "value": "The percent the vehicle gives rear axles force (between 0.0 to 2.0)."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArmAirborne",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBulletsExtraHelper",
-  "memberName": "RbMaxBroomMomentArmAirborne",
-  "summary": "If Airborne: Maximum broom((everything but the twist) arm moment of bullet applied.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

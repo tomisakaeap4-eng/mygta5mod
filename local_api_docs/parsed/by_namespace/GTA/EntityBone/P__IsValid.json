@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.EntityBone.IsValid",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "EntityBone",
-  "memberName": "IsValid",
-  "summary": "Determines if this"
-}

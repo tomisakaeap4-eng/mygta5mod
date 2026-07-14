@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.StayUprightHelper.ForceStrength",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "StayUprightHelper",
-  "memberName": "ForceStrength",
-  "summary": "Strength of constraint.",
-  "remarks": "Default value = 3.0f.\n            Min value = 0.0f.\n            Max value = 16.0f."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.StaggerFallHelper.TimeStartEnd",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "StaggerFallHelper",
-  "memberName": "TimeStartEnd",
-  "summary": "Time from start of behavior before lowerBodyStiffness starts ramping down for rampTimeToEndValues to endValues.",
-  "remarks": "Default value = 100.0f.\n            Min value = 0.0f.\n            Max value = 100.0f."
-}

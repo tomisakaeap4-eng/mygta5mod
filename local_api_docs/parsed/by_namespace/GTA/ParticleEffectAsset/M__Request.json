@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.ParticleEffectAsset.Request",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "ParticleEffectAsset",
-  "memberName": "Request",
-  "summary": "Attempts to load this"
-}

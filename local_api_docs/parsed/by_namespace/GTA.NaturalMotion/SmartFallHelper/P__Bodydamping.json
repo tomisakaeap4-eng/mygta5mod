@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SmartFallHelper.Bodydamping",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SmartFallHelper",
-  "memberName": "Bodydamping",
-  "summary": "The damping of the joints.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 3.0f."
-}

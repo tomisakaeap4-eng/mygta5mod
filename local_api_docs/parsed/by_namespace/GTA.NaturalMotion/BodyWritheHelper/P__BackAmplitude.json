@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyWritheHelper.BackAmplitude",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyWritheHelper",
-  "memberName": "BackAmplitude",
-  "summary": "Scales the amount of writhe. 0 = no writhe.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 3.0f."
-}

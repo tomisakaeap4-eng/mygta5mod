@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.TeeterHelper.LeanAwayScale",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "TeeterHelper",
-  "memberName": "LeanAwayScale",
-  "summary": "Scales stay upright lean and hip pitch.",
-  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

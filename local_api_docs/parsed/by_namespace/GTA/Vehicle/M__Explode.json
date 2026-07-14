@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Vehicle.Explode",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "Explode",
-  "summary": "Explode this"
-}

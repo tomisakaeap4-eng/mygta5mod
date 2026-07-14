@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Player.SetMayNotEnterAnyVehicleThisFrame",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Player",
-  "memberName": "SetMayNotEnterAnyVehicleThisFrame",
-  "summary": "Blocks this"
-}

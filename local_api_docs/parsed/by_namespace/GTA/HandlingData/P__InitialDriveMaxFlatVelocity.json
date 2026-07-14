@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.HandlingData.InitialDriveMaxFlatVelocity",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "HandlingData",
-  "memberName": "InitialDriveMaxFlatVelocity",
-  "summary": "Determines the speed at redline in high gear; Controls the final drive of the vehicle's gearbox.\n            Setting this value does not guarantee the vehicle will reach this speed.",
-  "value": "the speed at redline in high gear."
-}

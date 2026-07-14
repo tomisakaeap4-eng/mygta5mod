@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureSelfAvoidanceHelper.OverwriteTwist",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureSelfAvoidanceHelper",
-  "memberName": "OverwriteTwist",
-  "summary": "Overwrite desired IK twist with self avoidance procedural twist.",
-  "remarks": "Default value = False."
-}

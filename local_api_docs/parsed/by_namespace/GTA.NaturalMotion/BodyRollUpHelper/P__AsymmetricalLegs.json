@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyRollUpHelper.AsymmetricalLegs",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyRollUpHelper",
-  "memberName": "AsymmetricalLegs",
-  "summary": "0 is no leg asymmetry in 'foetal' position.  greater than 0 a asymmetricalLegs-rand(30%), added/minus each joint of the legs in radians.  Random number changes about once every roll.  0.4 gives a lot of asymmetry.",
-  "remarks": "Default value = 0.0f.\n            Min value = -2.0f.\n            Max value = 2.0f."
-}

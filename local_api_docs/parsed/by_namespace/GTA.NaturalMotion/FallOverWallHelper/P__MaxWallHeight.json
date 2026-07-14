@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.FallOverWallHelper.MaxWallHeight",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "FallOverWallHelper",
-  "memberName": "MaxWallHeight",
-  "summary": "Maximum height (from the lowest foot) to start to apply forces and torques to fall over the wall.",
-  "remarks": "Default value = -1.0f.\n            Min value = -1.0f.\n            Max value = 3.0f."
-}

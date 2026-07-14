@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.RollDownStairs",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "RollDownStairs",
-  "summary": "Gets a RollDownStairs Helper class for sending RollDownStairs"
-}

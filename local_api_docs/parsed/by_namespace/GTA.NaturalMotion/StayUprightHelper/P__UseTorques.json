@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.StayUprightHelper.UseTorques",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "StayUprightHelper",
-  "memberName": "UseTorques",
-  "summary": "Enable torque based constraint.",
-  "remarks": "Default value = False."
-}

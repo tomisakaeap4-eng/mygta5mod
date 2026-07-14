@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.PredictionTimeVariance",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBalanceHelper",
-  "memberName": "PredictionTimeVariance",
-  "summary": "Variance in predictionTime every step. If negative only takes away from predictionTime.",
-  "remarks": "Default value = 0.0f.\n            Min value = -1.0f.\n            Max value = 1.0f."
-}

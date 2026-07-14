@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.DelayToAlignBody",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RollDownStairsHelper",
-  "memberName": "DelayToAlignBody",
-  "summary": "Only used if applyHelPerTorqueToAlign defined to true : delay to start to apply torques.",
-  "remarks": "Default value = 0.2f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

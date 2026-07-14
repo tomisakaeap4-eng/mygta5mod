@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.YankedHelper.HeadLookAtVelProb",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "YankedHelper",
-  "memberName": "HeadLookAtVelProb",
-  "summary": "Probability [0-1] that headLook will be looking in the direction of velocity when stepping.",
-  "remarks": "Default value = -1.0f.\n            Min value = -1.0f.\n            Max value = 1.0f."
-}

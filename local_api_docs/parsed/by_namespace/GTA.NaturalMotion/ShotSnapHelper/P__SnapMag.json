@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotSnapHelper.SnapMag",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotSnapHelper",
-  "memberName": "SnapMag",
-  "summary": "The magnitude of the reaction.",
-  "remarks": "Default value = 0.4f.\n            Min value = -10.0f.\n            Max value = 10.0f."
-}

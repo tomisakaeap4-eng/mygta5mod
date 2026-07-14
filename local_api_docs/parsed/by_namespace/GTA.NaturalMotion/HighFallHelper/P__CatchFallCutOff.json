@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.HighFallHelper.CatchFallCutOff",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "HighFallHelper",
-  "memberName": "CatchFallCutOff",
-  "summary": "0.5angle is 0.878 dot. Cutoff to go to the catchFall ( internal) //mmmtodo do like crashOrLandCutOff.",
-  "remarks": "Default value = 0.9f.\n            Min value = -1.0f.\n            Max value = 1.0f."
-}

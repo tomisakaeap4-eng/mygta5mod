@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Blip.ResetName",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Blip",
-  "memberName": "ResetName",
-  "summary": "Sets the name of this"
-}

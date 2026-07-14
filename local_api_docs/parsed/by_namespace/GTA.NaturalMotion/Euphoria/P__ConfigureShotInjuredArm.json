@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.ConfigureShotInjuredArm",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "ConfigureShotInjuredArm",
-  "summary": "Gets a ConfigureShotInjuredArm Helper class for sending ConfigureShotInjuredArm",
-  "remarks": "This single message allows you to configure the injured arm reaction during shot"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.GameplayCamera.RelativePitch",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "GameplayCamera",
-  "memberName": "RelativePitch",
-  "summary": "Gets or sets the relative pitch of the"
-}

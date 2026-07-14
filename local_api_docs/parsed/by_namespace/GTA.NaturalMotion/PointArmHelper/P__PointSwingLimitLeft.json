@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointArmHelper.PointSwingLimitLeft",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointArmHelper",
-  "memberName": "PointSwingLimitLeft",
-  "summary": "Swing limit.",
-  "remarks": "Default value = 1.5f.\n            Min value = 0.0f.\n            Max value = 3.0f."
-}

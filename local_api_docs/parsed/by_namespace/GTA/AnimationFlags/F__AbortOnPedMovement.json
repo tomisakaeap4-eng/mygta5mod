@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.AnimationFlags.AbortOnPedMovement",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "AnimationFlags",
-  "memberName": "AbortOnPedMovement",
-  "summary": "Ends the animation early if the ped attemps to move e.g. if the player tries to move using the controller.\n            Can also be used to blend out automatically when an AI ped starts moving by combining it with the"
-}

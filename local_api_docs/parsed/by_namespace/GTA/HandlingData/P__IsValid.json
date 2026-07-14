@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.HandlingData.IsValid",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "HandlingData",
-  "memberName": "IsValid",
-  "summary": "Returns true if this"
-}

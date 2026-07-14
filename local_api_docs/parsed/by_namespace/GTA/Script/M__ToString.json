@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Script.ToString",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Script",
-  "memberName": "ToString",
-  "summary": "Returns a string that represents this"
-}

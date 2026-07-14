@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.StaggerFallHelper.UseBodyTurn",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "StaggerFallHelper",
-  "memberName": "UseBodyTurn",
-  "summary": "Enable and provide a positive bodyTurnTimeout and provide a look-at target to make the character turn to face it while balancing.",
-  "remarks": "Default value = False."
-}

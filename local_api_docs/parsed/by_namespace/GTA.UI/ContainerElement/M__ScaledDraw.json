@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.UI.ContainerElement.ScaledDraw",
-  "kind": "M",
-  "namespace": "GTA.UI",
-  "typeName": "ContainerElement",
-  "memberName": "ScaledDraw",
-  "summary": "Draws this"
-}

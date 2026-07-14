@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.UI.HudComponent",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "UI",
-  "memberName": "HudComponent",
-  "summary": "An enumeration of all possible component of the HUD."
-}

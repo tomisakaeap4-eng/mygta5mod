@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SetFallingReactionHelper.ComVelRDSThresh",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SetFallingReactionHelper",
-  "memberName": "ComVelRDSThresh",
-  "summary": "ComVel above which rollDownstairs will start - prevents excessive sliding in catchFall.",
-  "remarks": "Default value = 2.0f.\n            Min value = 0.0f.\n            Max value = 20.0f."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Player.SetExplosiveAmmoThisFrame",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Player",
-  "memberName": "SetExplosiveAmmoThisFrame",
-  "summary": "Makes this"
-}

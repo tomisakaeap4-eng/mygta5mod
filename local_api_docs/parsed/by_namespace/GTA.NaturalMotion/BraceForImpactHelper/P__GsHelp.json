@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.GsHelp",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BraceForImpactHelper",
-  "memberName": "GsHelp",
-  "summary": "Enhance a glancing spin with the side of the car by modulating body friction.",
-  "remarks": "Default value = False."
-}

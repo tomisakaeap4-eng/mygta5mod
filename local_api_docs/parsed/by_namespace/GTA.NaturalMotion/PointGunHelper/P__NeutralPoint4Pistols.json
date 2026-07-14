@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunHelper.NeutralPoint4Pistols",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunHelper",
-  "memberName": "NeutralPoint4Pistols",
-  "summary": "NOT IMPLEMENTED YET KEEP=false - use pointing for neutral targets in pistol modes.",
-  "remarks": "Default value = False."
-}

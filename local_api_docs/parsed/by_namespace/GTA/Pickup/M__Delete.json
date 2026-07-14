@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Pickup.Delete",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Pickup",
-  "memberName": "Delete",
-  "summary": "Destroys this"
-}

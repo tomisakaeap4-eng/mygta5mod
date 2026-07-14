@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkHelperForce",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotFallToKneesHelper",
-  "memberName": "FtkHelperForce",
-  "summary": "Hip helper force magnitude - to help character lean over balance point of line between toes.",
-  "remarks": "Default value = 200.0f.\n            Min value = 0.0f.\n            Max value = 2000.0f."
-}

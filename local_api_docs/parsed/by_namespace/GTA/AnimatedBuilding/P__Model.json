@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.AnimatedBuilding.Model",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "AnimatedBuilding",
-  "memberName": "Model",
-  "summary": "Gets the model of this"
-}

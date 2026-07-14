@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SmartFallHelper.Hula",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SmartFallHelper",
-  "memberName": "Hula",
-  "summary": "With stunt man type fall.  Hula reaction if can't see floor and not rotating fast.",
-  "remarks": "Default value = True."
-}

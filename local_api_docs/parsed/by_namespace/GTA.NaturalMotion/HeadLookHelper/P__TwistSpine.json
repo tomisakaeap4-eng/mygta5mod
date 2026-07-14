@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.HeadLookHelper.TwistSpine",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "HeadLookHelper",
-  "memberName": "TwistSpine",
-  "summary": "Allow head look to twist spine.",
-  "remarks": "Default value = True."
-}

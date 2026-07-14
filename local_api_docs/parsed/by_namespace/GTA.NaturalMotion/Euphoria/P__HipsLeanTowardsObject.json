@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.HipsLeanTowardsObject",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "HipsLeanTowardsObject",
-  "summary": "Gets a HipsLeanTowardsObject Helper class for sending HipsLeanTowardsObject"
-}

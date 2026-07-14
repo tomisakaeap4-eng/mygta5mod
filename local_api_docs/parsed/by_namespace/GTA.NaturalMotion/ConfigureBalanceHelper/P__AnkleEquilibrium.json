@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.AnkleEquilibrium",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBalanceHelper",
-  "memberName": "AnkleEquilibrium",
-  "summary": "Ankle equilibrium angle used when static balancing.",
-  "remarks": "Default value = 0.0f.\n            Min value = -1.0f.\n            Max value = 1.0f."
-}

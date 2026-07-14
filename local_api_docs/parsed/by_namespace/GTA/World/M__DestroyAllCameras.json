@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.World.DestroyAllCameras",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "World",
-  "memberName": "DestroyAllCameras",
-  "summary": "Destroys all user created"
-}

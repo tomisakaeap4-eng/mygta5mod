@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.LocalizedName",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "LocalizedName",
-  "summary": "Gets the localized name of this"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SetCharacterCollisionsHelper.ApplyToSpine",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SetCharacterCollisionsHelper",
-  "memberName": "ApplyToSpine",
-  "remarks": "Default value = True."
-}

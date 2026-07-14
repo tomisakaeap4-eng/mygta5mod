@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SetStiffnessHelper.Damping",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SetStiffnessHelper",
-  "memberName": "Damping",
-  "summary": "Damping amount, less is underdamped.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 3.0f."
-}

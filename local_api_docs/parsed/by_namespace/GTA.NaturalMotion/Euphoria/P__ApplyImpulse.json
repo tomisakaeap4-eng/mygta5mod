@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.ApplyImpulse",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "ApplyImpulse",
-  "summary": "Gets a ApplyImpulse Helper class for sending ApplyImpulse"
-}

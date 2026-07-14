@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Ped.MovementAnimationSet",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Ped",
-  "memberName": "MovementAnimationSet",
-  "summary": "Sets the animation dictionary or set this"
-}

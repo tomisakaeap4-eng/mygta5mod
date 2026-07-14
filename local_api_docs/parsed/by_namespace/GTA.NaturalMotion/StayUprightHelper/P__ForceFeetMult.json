@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.StayUprightHelper.ForceFeetMult",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "StayUprightHelper",
-  "memberName": "ForceFeetMult",
-  "summary": "Multiplier to the force applied to the feet.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

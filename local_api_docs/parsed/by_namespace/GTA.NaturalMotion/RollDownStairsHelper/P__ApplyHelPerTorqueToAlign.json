@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.ApplyHelPerTorqueToAlign",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RollDownStairsHelper",
-  "memberName": "ApplyHelPerTorqueToAlign",
-  "summary": "Apply torque to align the body orthogonally to the direction of the roll.",
-  "remarks": "Default value = False."
-}

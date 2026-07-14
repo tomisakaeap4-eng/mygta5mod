@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.VehicleWheel.Temperature",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "VehicleWheel",
-  "memberName": "Temperature",
-  "summary": "Gets or sets the temperature of"
-}

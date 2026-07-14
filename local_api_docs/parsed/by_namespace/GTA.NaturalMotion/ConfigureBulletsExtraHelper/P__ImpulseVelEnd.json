@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelEnd",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBulletsExtraHelper",
-  "memberName": "ImpulseVelEnd",
-  "summary": "100% LE Start to impulseVelMult*100% GT End. NB: Start LT End.",
-  "remarks": "Default value = 4.0f.\n            Min value = 0.0f.\n            Max value = 100.0f."
-}

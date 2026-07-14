@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotHelper.ExagSmooth2Zero",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotHelper",
-  "memberName": "ExagSmooth2Zero",
-  "summary": "Exaggerate bullet duration ramping to zero after exagDuration.",
-  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

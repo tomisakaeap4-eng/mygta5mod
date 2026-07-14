@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.EntityDamageRecordCollection.GetAllDamageRecords",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "EntityDamageRecordCollection",
-  "memberName": "GetAllDamageRecords",
-  "summary": "Gets all the"
-}

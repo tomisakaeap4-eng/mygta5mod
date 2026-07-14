@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Math.Vector3.Around(System.Single)",
-  "kind": "M",
-  "namespace": "GTA.Math.Vector3",
-  "typeName": "Around(System",
-  "memberName": "Single)",
-  "summary": "Creates a random vector inside the circle around this position."
-}

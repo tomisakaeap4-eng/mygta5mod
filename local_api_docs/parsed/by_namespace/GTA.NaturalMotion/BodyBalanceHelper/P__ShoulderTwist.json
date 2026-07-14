@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.ShoulderTwist",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyBalanceHelper",
-  "memberName": "ShoulderTwist",
-  "summary": "Mmmmdrunk = 0.0 shoulder twist.",
-  "remarks": "Default value = -0.4f.\n            Min value = -3.0f.\n            Max value = 3.0f."
-}

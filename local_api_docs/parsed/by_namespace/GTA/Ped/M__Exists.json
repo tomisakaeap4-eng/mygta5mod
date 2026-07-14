@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Ped.Exists",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Ped",
-  "memberName": "Exists",
-  "summary": "Determines if this"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotConfigureArmsHelper.CupBust",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotConfigureArmsHelper",
-  "memberName": "CupBust",
-  "summary": "All reach targets above or on the bust will cause a reach below the bust.\n            (specifically moves spine3 and spine2 targets to spine1).\n            BustElbowLift and cupSize are ignored.",
-  "remarks": "Default value = False."
-}

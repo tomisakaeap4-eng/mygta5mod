@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.OnFireHelper.PredictTime",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "OnFireHelper",
-  "memberName": "PredictTime",
-  "summary": "Character pose depends on character facing direction that is evaluated from its COMTM orientation.\n            Set this value to 0 to use no orientation prediction i.e. current character COMTM orientation will be used to determine character facing direction and finally the pose bodyWrithe is blending to.\n            Set this value to  GT  0 to predict character COMTM orientation this amount of time in seconds to the future.",
-  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

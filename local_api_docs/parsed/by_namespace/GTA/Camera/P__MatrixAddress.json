@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Camera.MatrixAddress",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Camera",
-  "memberName": "MatrixAddress",
-  "summary": "Gets the memory address of the matrix for this"
-}

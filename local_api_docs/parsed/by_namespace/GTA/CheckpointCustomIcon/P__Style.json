@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.CheckpointCustomIcon.Style",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "CheckpointCustomIcon",
-  "memberName": "Style",
-  "summary": "Gets or sets the icon style."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.EntityBone.RelativeRightVector",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "EntityBone",
-  "memberName": "RelativeRightVector",
-  "summary": "Gets the vector that points to the right of this"
-}

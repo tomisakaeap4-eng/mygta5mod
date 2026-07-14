@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Camera.FarClip",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Camera",
-  "memberName": "FarClip",
-  "summary": "Gets or sets the far clip of this"
-}

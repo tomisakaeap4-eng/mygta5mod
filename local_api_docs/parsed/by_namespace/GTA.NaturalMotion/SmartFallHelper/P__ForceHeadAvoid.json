@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SmartFallHelper.ForceHeadAvoid",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SmartFallHelper",
-  "memberName": "ForceHeadAvoid",
-  "summary": "Force head avoid to be active during Catch Fall even when character is not on the ground.",
-  "remarks": "Default value = False."
-}

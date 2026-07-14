@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Math.Vector3.UnitX",
-  "kind": "P",
-  "namespace": "GTA.Math",
-  "typeName": "Vector3",
-  "memberName": "UnitX",
-  "summary": "The X unit"
-}

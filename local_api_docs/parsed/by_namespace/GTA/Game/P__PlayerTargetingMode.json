@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Game.PlayerTargetingMode",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Game",
-  "memberName": "PlayerTargetingMode",
-  "summary": "Gets the current targeting mode of the local player."
-}

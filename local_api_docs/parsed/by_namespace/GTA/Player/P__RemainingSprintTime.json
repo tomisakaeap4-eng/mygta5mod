@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Player.RemainingSprintTime",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Player",
-  "memberName": "RemainingSprintTime",
-  "summary": "Gets how long this"
-}

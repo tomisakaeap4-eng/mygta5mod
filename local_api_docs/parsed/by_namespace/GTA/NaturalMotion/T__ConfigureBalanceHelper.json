@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.NaturalMotion.ConfigureBalanceHelper",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "NaturalMotion",
-  "memberName": "ConfigureBalanceHelper",
-  "summary": "This single message allows you to configure various parameters used on any behavior that uses the dynamic balance."
-}

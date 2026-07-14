@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Entity.IsOnScreen",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "IsOnScreen",
-  "summary": "Gets a value indicating whether this"
-}

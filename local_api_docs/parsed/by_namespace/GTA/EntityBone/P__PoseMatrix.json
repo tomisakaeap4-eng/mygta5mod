@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.EntityBone.PoseMatrix",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "EntityBone",
-  "memberName": "PoseMatrix",
-  "summary": "Gets or sets the dynamic"
-}

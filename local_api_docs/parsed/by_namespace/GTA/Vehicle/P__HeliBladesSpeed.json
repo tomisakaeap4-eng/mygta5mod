@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.HeliBladesSpeed",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "HeliBladesSpeed",
-  "summary": "Gets or sets the blades speed for this heli."
-}

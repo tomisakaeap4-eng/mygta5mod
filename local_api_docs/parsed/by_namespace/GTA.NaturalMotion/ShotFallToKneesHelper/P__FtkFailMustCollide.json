@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkFailMustCollide",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotFallToKneesHelper",
-  "memberName": "FtkFailMustCollide",
-  "summary": "The upper body of the character must be colliding and other failure conditions met to fail.",
-  "remarks": "Default value = True."
-}

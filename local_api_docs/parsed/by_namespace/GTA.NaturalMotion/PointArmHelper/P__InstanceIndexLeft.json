@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointArmHelper.InstanceIndexLeft",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointArmHelper",
-  "memberName": "InstanceIndexLeft",
-  "summary": "Level index of thing to point at, or -1 for none. if -1, target is specified in world space, otherwise it is an offset from the object specified by this index.",
-  "remarks": "Default value = -1.\n            Min value = -1."
-}

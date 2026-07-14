@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyWritheHelper.RollOverFlag",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyWritheHelper",
-  "memberName": "RollOverFlag",
-  "summary": "Flag to set trying to rollOver.",
-  "remarks": "Default value = False."
-}

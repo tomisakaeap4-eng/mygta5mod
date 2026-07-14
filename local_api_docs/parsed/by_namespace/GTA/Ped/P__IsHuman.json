@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Ped.IsHuman",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Ped",
-  "memberName": "IsHuman",
-  "summary": "Gets a value indicating whether this"
-}

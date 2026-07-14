@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.FallReduceGravityComp",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBalanceHelper",
-  "memberName": "FallReduceGravityComp",
-  "summary": "Reduce gravity compensation as the legs weaken on falling.",
-  "remarks": "Default value = False."
-}

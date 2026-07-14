@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.AnimationFlags.ForceStart",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "AnimationFlags",
-  "memberName": "ForceStart",
-  "summary": "Force the anim task to start even if the ped is falling / ragdolling / etc.\n            Can fix issues with peds not playing their anims immediately after a warp / etc."
-}

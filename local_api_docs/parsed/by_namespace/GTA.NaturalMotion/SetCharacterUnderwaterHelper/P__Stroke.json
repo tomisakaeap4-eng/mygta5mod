@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SetCharacterUnderwaterHelper.Stroke",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SetCharacterUnderwaterHelper",
-  "memberName": "Stroke",
-  "summary": "Swimming force applied to character as a function of handVelocity and footVelocity.",
-  "remarks": "Default value = 0.0f.\n            Min value = -1000.0f.\n            Max value = 1000.0f."
-}

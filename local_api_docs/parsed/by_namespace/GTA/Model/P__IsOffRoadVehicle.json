@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Model.IsOffRoadVehicle",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Model",
-  "memberName": "IsOffRoadVehicle",
-  "summary": "Gets a value indicating whether this"
-}

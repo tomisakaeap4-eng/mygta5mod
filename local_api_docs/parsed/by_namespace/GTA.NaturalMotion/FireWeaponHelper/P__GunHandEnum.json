@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.FireWeaponHelper.GunHandEnum",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "FireWeaponHelper",
-  "memberName": "GunHandEnum",
-  "summary": "Which hand is the gun in.",
-  "remarks": "Default value ="
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBulletsHelper.ImpulseBalStabStart",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBulletsHelper",
-  "memberName": "ImpulseBalStabStart",
-  "summary": "100% LE Start to impulseBalStabMult*100% GT End. NB: Start LT End.",
-  "remarks": "Default value = 3.0f.\n            Min value = 0.0f.\n            Max value = 100.0f."
-}

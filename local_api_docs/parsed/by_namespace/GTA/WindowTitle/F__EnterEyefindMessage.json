@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.WindowTitle.EnterEyefindMessage",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "WindowTitle",
-  "memberName": "EnterEyefindMessage",
-  "summary": "\"Enter your Eyefind message (MAX 500 characters)\""
-}

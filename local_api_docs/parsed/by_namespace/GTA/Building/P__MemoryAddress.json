@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Building.MemoryAddress",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Building",
-  "memberName": "MemoryAddress",
-  "summary": "Gets the memory address where the"
-}

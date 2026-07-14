@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.HandlingData.SuspensionLowerLimit",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "HandlingData",
-  "memberName": "SuspensionLowerLimit",
-  "summary": "Gets or sets how far the wheels can move down from their original position.",
-  "value": "The suspension lower limit."
-}

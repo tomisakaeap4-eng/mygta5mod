@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.StaggerFallHelper.SpineBendMult",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "StaggerFallHelper",
-  "memberName": "SpineBendMult",
-  "summary": "Spine bend scaled with velocity.",
-  "remarks": "Default value = 0.4f.\n            Min value = -10.0f.\n            Max value = 10.0f."
-}

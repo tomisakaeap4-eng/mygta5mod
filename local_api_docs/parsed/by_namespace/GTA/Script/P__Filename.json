@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Script.Filename",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Script",
-  "memberName": "Filename",
-  "summary": "Gets the filename of this"
-}

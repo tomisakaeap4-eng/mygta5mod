@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.GrabHelper.ReachAngle",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "GrabHelper",
-  "memberName": "ReachAngle",
-  "summary": "Angle from front at which the grab activates. If the point is outside this angle from front will not try to grab.",
-  "remarks": "Default value = 2.8f.\n            Min value = 0.0f.\n            Max value = 3.0f."
-}

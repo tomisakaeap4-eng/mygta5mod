@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.AnimationFlags.NotInterruptable",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "AnimationFlags",
-  "memberName": "NotInterruptable",
-  "summary": "The task cannot be interupted by extenal events."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.StayUprightHelper.LastStandMode",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "StayUprightHelper",
-  "memberName": "LastStandMode",
-  "summary": "Uses position/orientation control on the spine and drifts in the direction of bullets.  This ignores all other stayUpright settings.",
-  "remarks": "Default value = False."
-}

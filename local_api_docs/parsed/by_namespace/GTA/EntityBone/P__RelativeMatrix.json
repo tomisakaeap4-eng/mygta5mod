@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.EntityBone.RelativeMatrix",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "EntityBone",
-  "memberName": "RelativeMatrix",
-  "summary": "Gets the"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Model.IsTank",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Model",
-  "memberName": "IsTank",
-  "summary": "Gets a value indicating whether this"
-}

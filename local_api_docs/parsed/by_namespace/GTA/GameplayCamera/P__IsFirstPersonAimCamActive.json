@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.GameplayCamera.IsFirstPersonAimCamActive",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "GameplayCamera",
-  "memberName": "IsFirstPersonAimCamActive",
-  "summary": "Gets a value indicating whether the first person aiming camera is rendering."
-}

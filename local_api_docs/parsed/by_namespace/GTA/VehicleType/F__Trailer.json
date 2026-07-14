@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.VehicleType.Trailer",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleType",
-  "memberName": "Trailer",
-  "summary": "The trailer type."
-}

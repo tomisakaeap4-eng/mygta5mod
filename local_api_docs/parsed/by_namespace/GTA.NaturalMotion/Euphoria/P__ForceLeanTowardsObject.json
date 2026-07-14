@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.ForceLeanTowardsObject",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "ForceLeanTowardsObject",
-  "summary": "Gets a ForceLeanTowardsObject Helper class for sending ForceLeanTowardsObject"
-}

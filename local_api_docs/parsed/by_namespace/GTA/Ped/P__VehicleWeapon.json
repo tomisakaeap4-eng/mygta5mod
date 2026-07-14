@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Ped.VehicleWeapon",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Ped",
-  "memberName": "VehicleWeapon",
-  "summary": "Gets the vehicle weapon this"
-}

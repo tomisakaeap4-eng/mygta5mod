@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.NaturalMotion.CustomHelper.Start",
-  "kind": "M",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "CustomHelper",
-  "memberName": "Start",
-  "summary": "Starts this Natural Motion behavior on the"
-}

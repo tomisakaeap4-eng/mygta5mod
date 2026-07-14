@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkBalanceAbortThreshold",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotFallToKneesHelper",
-  "memberName": "FtkBalanceAbortThreshold",
-  "summary": "When the character gives up and goes into a fall.",
-  "remarks": "Default value = 2.0f.\n            Min value = 0.0f.\n            Max value = 4.0f."
-}

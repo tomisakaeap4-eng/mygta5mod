@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.AngVelMultiplier",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyBalanceHelper",
-  "memberName": "AngVelMultiplier",
-  "summary": "Somersault, twist, sideSomersault) multiplier of the angular velocity  for arms out (lean2) (somersault, twist, sideSomersault).",
-  "remarks": "Default value = Vector3(4.0f, 1.0f, 4.0f).\n            Min value = 0.0f.\n            Max value = 20.0f."
-}

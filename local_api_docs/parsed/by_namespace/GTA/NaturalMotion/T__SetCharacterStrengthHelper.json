@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.NaturalMotion.SetCharacterStrengthHelper",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "NaturalMotion",
-  "memberName": "SetCharacterStrengthHelper",
-  "summary": "Sets character's strength on the dead-granny-to-healthy-terminator scale: [0..1]."
-}

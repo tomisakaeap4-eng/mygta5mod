@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.NaturalMotion.FireWeaponHelper",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "NaturalMotion",
-  "memberName": "FireWeaponHelper",
-  "summary": "One shot message apply a force to the hand as we fire the gun that should be in this hand."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunHelper.RightHandParentEffector",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunHelper",
-  "memberName": "RightHandParentEffector",
-  "summary": "1 = Use rightShoulder.. Effector from which the right hand pointing originates. Ie, point from this part to the target. -1 causes default offset for active weapon mode to be applied.",
-  "remarks": "Default value = -1.\n            Min value = -1.\n            Max value = 21."
-}

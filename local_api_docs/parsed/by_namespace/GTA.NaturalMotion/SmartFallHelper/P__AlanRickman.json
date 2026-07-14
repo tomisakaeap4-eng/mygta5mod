@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SmartFallHelper.AlanRickman",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SmartFallHelper",
-  "memberName": "AlanRickman",
-  "summary": "If true then orientate the character to face the point from where it started falling.\n            High fall like the one in \"Die Hard\" with Alan Rickman.",
-  "remarks": "Default value = False."
-}

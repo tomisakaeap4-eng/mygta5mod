@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.Entity.HealthFloat",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "HealthFloat",
-  "summary": "Gets or sets the health of this",
-  "value": "The health as a"
-}

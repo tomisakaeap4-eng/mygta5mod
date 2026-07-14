@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirOn",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBulletsExtraHelper",
-  "memberName": "ImpulseAirOn",
-  "summary": "Scale and/or clamp impulse if the character is airborne and dynamicBalance is OK.",
-  "remarks": "Default value = False."
-}

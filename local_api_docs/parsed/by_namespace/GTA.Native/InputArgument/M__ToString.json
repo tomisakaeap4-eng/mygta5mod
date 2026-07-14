@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Native.InputArgument.ToString",
-  "kind": "M",
-  "namespace": "GTA.Native",
-  "typeName": "InputArgument",
-  "memberName": "ToString",
-  "summary": "Converts the internal value of the argument to its equivalent string representation."
-}

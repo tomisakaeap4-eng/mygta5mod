@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.BlipSprite.ChatBubble",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "BlipSprite",
-  "memberName": "ChatBubble",
-  "summary": "The default English text for this value is \"Snitch\"."
-}

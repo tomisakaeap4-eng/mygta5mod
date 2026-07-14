@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.LeaveVehicleFlags.LeaveDoorOpen",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "LeaveVehicleFlags",
-  "memberName": "LeaveDoorOpen",
-  "summary": "Dont close the vehicle door."
-}

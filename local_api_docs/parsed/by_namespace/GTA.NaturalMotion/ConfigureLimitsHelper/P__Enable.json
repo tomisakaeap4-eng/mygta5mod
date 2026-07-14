@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureLimitsHelper.Enable",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureLimitsHelper",
-  "memberName": "Enable",
-  "summary": "If false, disable (set all to PI, -PI) limits.",
-  "remarks": "Default value = True."
-}

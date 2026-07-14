@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.HighFallHelper.LegAngSpeed",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "HighFallHelper",
-  "memberName": "LegAngSpeed",
-  "summary": "In pedal.",
-  "remarks": "Default value = 7.9f.\n            Min value = 0.0f.\n            Max value = 15.0f."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.AnimationFlags.OverridePhysics",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "AnimationFlags",
-  "memberName": "OverridePhysics",
-  "summary": "Do not apply any physics forces whilst the anim is playing.\n            Automatically turns off collision, extracts any initial offset provided in the clip and uses per frame mover extraction."
-}

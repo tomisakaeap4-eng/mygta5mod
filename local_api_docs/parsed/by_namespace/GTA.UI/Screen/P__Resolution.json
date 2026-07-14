@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.UI.Screen.Resolution",
-  "kind": "P",
-  "namespace": "GTA.UI",
-  "typeName": "Screen",
-  "memberName": "Resolution",
-  "summary": "Gets the actual screen resolution the game is being rendered at"
-}

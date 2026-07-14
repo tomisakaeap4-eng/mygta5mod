@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBulletsHelper.ImpulseSpreadOverParts",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBulletsHelper",
-  "memberName": "ImpulseSpreadOverParts",
-  "summary": "Spreads impulse across parts. Currently only for spine parts, not limbs.",
-  "remarks": "Default value = False."
-}

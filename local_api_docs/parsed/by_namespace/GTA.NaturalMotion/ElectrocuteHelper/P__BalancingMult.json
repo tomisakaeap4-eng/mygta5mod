@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ElectrocuteHelper.BalancingMult",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ElectrocuteHelper",
-  "memberName": "BalancingMult",
-  "summary": "BalancingMult*stunMag = The magnitude of the reaction if balancing = (not lying on the floor/ not upper body not collided) and not airborne.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 20.0f."
-}

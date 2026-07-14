@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.IsHandbrakeForcedOn",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "IsHandbrakeForcedOn",
-  "summary": "Sets a value indicating whether the Handbrake on this"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.BlipSprite.Testosterone",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "BlipSprite",
-  "memberName": "Testosterone",
-  "summary": "The default English text for this value is \"Raging\"."
-}

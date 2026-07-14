@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Math.Vector2.UnitY",
-  "kind": "P",
-  "namespace": "GTA.Math",
-  "typeName": "Vector2",
-  "memberName": "UnitY",
-  "summary": "The Y unit"
-}

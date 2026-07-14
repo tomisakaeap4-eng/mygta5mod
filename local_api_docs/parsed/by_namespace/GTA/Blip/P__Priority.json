@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Blip.Priority",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Blip",
-  "memberName": "Priority",
-  "summary": "Gets or sets the priority of this"
-}

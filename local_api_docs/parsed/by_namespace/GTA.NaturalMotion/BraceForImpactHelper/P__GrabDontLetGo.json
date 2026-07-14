@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.GrabDontLetGo",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BraceForImpactHelper",
-  "memberName": "GrabDontLetGo",
-  "summary": "Once a constraint is made, keep reaching with whatever hand is allowed.",
-  "remarks": "Default value = False."
-}

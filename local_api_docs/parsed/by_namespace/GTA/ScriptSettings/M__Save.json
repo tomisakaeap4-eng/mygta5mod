@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.ScriptSettings.Save",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "ScriptSettings",
-  "memberName": "Save",
-  "summary": "Saves this"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.EntityBone.FragmentGroupIndex",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "EntityBone",
-  "memberName": "FragmentGroupIndex",
-  "summary": "Gets the fragment group index of this"
-}

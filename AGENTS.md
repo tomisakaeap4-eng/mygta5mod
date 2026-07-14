@@ -28,7 +28,7 @@ không khớp version NGHIÊM túc kiểm chứng bằng corpus.
 | — | `scripts/copy_gta_logs.ps1` | Copy `ScriptHookVDotNet.log` + `ScriptHookV.log` từ GTA V vào `inputs/logs` |
 | — | `scripts/parse_natives.sh` | Bash: tách `natives.json` (legacy) ra `by_namespace/<NS>/<name>.json` + `index.json` |
 | — | `scripts/parse_natives.ps1` | PowerShell: tương đương cho Windows |
-| — | `scripts/parse_local_api_docs.sh` | Bash: tách `local_api_docs/ScriptHookVDotNet3.xml` ra `by_namespace/<NS>/<Type>/<K>__<Member>.json` + `index.json` |
+| — | `scripts/parse_local_api_docs.sh` | Bash: tách `local_api_docs/ScriptHookVDotNet3.xml` ra `assembly.xml` + `members/<K>__<Name>.xml` (literal mirror của XML gốc) + `index.json` |
 | — | `scripts/parse_local_api_docs.ps1` | PowerShell: tương đương cho Windows |
 
 Sau khi chạy, cây thư mục chuẩn là:

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.BodyRollUp",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "BodyRollUp",
-  "summary": "Gets a BodyRollUp Helper class for sending BodyRollUp"
-}

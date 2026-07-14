@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.PedBoneCollection.ClearLastDamaged",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "PedBoneCollection",
-  "memberName": "ClearLastDamaged",
-  "summary": "Clears the last damage a bone on this"
-}

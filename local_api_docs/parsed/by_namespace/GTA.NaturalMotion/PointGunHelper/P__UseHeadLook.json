@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunHelper.UseHeadLook",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunHelper",
-  "memberName": "UseHeadLook",
-  "summary": "Use head look to drive head?.",
-  "remarks": "Default value = True."
-}

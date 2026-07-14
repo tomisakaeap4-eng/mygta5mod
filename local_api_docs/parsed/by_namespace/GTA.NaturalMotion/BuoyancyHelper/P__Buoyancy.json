@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BuoyancyHelper.Buoyancy",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BuoyancyHelper",
-  "memberName": "Buoyancy",
-  "summary": "Buoyancy multiplier.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Entity.AddBlip",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "AddBlip",
-  "summary": "Creates a"
-}

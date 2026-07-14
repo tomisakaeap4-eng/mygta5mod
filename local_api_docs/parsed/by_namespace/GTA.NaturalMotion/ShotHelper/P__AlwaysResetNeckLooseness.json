@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotHelper.AlwaysResetNeckLooseness",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotHelper",
-  "memberName": "AlwaysResetNeckLooseness",
-  "summary": "Neck looseness always reset on shotNewBullet even if previous looseness ramp still running.",
-  "remarks": "Default value = True."
-}

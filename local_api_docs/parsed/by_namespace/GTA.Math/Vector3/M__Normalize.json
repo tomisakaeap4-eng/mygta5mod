@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Math.Vector3.Normalize",
-  "kind": "M",
-  "namespace": "GTA.Math",
-  "typeName": "Vector3",
-  "memberName": "Normalize",
-  "summary": "Converts the vector into a unit vector."
-}

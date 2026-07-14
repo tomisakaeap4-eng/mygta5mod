@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Math.Quaternion.Axis",
-  "kind": "P",
-  "namespace": "GTA.Math",
-  "typeName": "Quaternion",
-  "memberName": "Axis",
-  "summary": "Gets the axis components of the quaternion."
-}

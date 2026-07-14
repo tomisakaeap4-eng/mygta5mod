@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ApplyImpulseHelper.LocalImpulseInfo",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ApplyImpulseHelper",
-  "memberName": "LocalImpulseInfo",
-  "summary": "Impulse in local coordinates of body part.",
-  "remarks": "Default value = False."
-}

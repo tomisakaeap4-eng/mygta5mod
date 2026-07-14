@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.LeaveVehicleFlags.BailOut",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "LeaveVehicleFlags",
-  "memberName": "BailOut",
-  "summary": "Jump out of the vehicle regardness of its speed."
-}

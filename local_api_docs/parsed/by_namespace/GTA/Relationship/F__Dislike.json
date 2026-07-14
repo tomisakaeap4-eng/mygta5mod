@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.Relationship.Dislike",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "Relationship",
-  "memberName": "Dislike",
-  "summary": "The correct relationship name for this enum would be"
-}

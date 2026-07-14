@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunHelper.GravOppDetachedSupport",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunHelper",
-  "memberName": "GravOppDetachedSupport",
-  "summary": "Amount of gravity opposition on pointing arm when a support arm is detached from a two-handed weapon.",
-  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

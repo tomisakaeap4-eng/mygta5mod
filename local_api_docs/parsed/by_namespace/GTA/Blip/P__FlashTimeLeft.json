@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.Blip.FlashTimeLeft",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Blip",
-  "memberName": "FlashTimeLeft",
-  "summary": "Gets or sets the flash time left in ms before this",
-  "remarks": "returns"
-}

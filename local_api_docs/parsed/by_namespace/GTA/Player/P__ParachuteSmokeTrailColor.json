@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.Player.ParachuteSmokeTrailColor",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Player",
-  "memberName": "ParachuteSmokeTrailColor",
-  "summary": "Gets or sets the color of the parachute smoke trail for this",
-  "value": "The color of the parachute smoke trail for this"
-}

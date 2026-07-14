@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.VehicleLockStatus.PlayerCannotEnter",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleLockStatus",
-  "memberName": "PlayerCannotEnter",
-  "summary": "Players cannot enter the"
-}

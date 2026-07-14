@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.EntityPopulationType.RandomParked",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "EntityPopulationType",
-  "memberName": "RandomParked",
-  "summary": "This value is set when parked vehicles are created."
-}

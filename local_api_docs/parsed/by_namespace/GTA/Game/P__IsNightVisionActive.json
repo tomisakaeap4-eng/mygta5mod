@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Game.IsNightVisionActive",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Game",
-  "memberName": "IsNightVisionActive",
-  "summary": "Gets or sets a value indicating whether to render the world with a night vision filter."
-}

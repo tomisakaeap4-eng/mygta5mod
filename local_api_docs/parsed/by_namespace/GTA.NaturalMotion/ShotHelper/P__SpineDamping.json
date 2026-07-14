@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotHelper.SpineDamping",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotHelper",
-  "memberName": "SpineDamping",
-  "summary": "Stiffness of body. Feeds through to roll_up.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.1f.\n            Max value = 2.0f."
-}

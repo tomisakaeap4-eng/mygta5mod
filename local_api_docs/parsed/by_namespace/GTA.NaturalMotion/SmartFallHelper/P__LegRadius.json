@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SmartFallHelper.LegRadius",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SmartFallHelper",
-  "memberName": "LegRadius",
-  "summary": "Radius of legs on pedal.",
-  "remarks": "Default value = 0.4f.\n            Min value = 0.0f.\n            Max value = 0.5f."
-}

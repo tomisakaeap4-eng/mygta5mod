@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Math.Vector2.Angle(GTA.Math.Vector2,GTA.Math.Vector2)",
-  "kind": "M",
-  "namespace": "GTA.Math.Vector2.Angle(GTA.Math.Vector2,GTA",
-  "typeName": "Math",
-  "memberName": "Vector2)",
-  "summary": "Returns the angle in degrees between from and to.\n            The angle returned is always the acute angle between the two vectors."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Script.IsRunning",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Script",
-  "memberName": "IsRunning",
-  "summary": "Checks if this"
-}

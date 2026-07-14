@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.BendElbowsGait",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyBalanceHelper",
-  "memberName": "BendElbowsGait",
-  "summary": "Minimum desired angle of elbow during non contact arm swing.",
-  "remarks": "Default value = 0.7f.\n            Min value = -3.0f.\n            Max value = 3.0f."
-}

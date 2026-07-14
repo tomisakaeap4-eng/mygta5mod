@@ -1,7 +1,0 @@
-{
-  "name": "M:GTA.Ped.ClearTimeOfDeathRecord",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Ped",
-  "memberName": "ClearTimeOfDeathRecord"
-}

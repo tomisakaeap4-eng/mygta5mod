@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.FallOverWallHelper.MoveLegs",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "FallOverWallHelper",
-  "memberName": "MoveLegs",
-  "summary": "Move the legs if true.  Do nothing with the legs if false (eg when using dynamicBalancer etc).",
-  "remarks": "Default value = True."
-}

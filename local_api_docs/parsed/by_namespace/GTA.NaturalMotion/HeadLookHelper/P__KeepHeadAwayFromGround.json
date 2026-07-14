@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.HeadLookHelper.KeepHeadAwayFromGround",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "HeadLookHelper",
-  "memberName": "KeepHeadAwayFromGround",
-  "remarks": "Default value = False."
-}

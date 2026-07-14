@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Blip.IsShortRange",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Blip",
-  "memberName": "IsShortRange",
-  "summary": "Gets or sets a value indicating whether this"
-}

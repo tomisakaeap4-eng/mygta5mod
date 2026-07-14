@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SmartFallHelper.RdsForceMag",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SmartFallHelper",
-  "memberName": "RdsForceMag",
-  "remarks": "Default value = 0.8f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

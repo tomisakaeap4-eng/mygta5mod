@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Entity.AbovePosition",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "AbovePosition",
-  "summary": "Gets a position directly above this"
-}

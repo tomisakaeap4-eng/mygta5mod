@@ -70,7 +70,7 @@ where you invoke them from.
 | — | `scripts/copy_gta_logs.ps1` | Copy `ScriptHookVDotNet.log` + `ScriptHookV.log` from GTA V install into `inputs/logs/` |
 | — | `scripts/parse_natives.sh` | Tear apart `natives.json` (legacy) into `by_namespace/<NS>/<name>.json` + `index.json` |
 | — | `scripts/parse_natives.ps1` | PowerShell equivalent |
-| — | `scripts/parse_local_api_docs.sh` | Tear apart `ScriptHookVDotNet3.xml` into `by_namespace/<NS>/<Type>/<K>__<Member>.json` + `index.json` |
+| — | `scripts/parse_local_api_docs.sh` | Tear apart `ScriptHookVDotNet3.xml` into `assembly.xml` + `members/<K>__<Name>.xml` (literal mirror of original XML) + `index.json` |
 | — | `scripts/parse_local_api_docs.ps1` | PowerShell equivalent |
 
 Run any script with `-h` / `--help` for usage. Most scripts support
@@ -115,9 +115,11 @@ api_docs/
 
 local_api_docs/
 ├── ScriptHookVDotNet3.xml      # Offline SHVDN v3 .NET XML doc
-└── parsed/                     # Produced by parse_local_api_docs
+└── parsed/                     # Produced by parse_local_api_docs (literal mirror of XML)
+    ├── assembly.xml            # <assembly>...</assembly> element from source
     ├── index.json              # member-name -> relative path entries
-    └── by_namespace/<NS>/<Type>/<K>__<Member>.json
+    └── members/                # 1 sub-XML per <member> element
+        └── <K>__<Name>.xml
 ```
 
 ## Agent workflow

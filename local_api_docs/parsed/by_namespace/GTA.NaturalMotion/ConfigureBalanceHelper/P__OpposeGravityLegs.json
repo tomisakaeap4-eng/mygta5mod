@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.OpposeGravityLegs",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBalanceHelper",
-  "memberName": "OpposeGravityLegs",
-  "summary": "Gravity opposition applied to hips and knees.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 4.0f."
-}

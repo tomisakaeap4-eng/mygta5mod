@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.DangleHelper.DoGrab",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "DangleHelper",
-  "memberName": "DoGrab",
-  "remarks": "Default value = True."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.VehicleDrivingFlags.TryToAvoidHighways",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleDrivingFlags",
-  "memberName": "TryToAvoidHighways",
-  "summary": "Avoid the highway unless the"
-}

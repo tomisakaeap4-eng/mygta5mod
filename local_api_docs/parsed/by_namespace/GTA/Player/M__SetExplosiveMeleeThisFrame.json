@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Player.SetExplosiveMeleeThisFrame",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Player",
-  "memberName": "SetExplosiveMeleeThisFrame",
-  "summary": "Makes this"
-}

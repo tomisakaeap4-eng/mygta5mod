@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Math.Vector2.Zero",
-  "kind": "P",
-  "namespace": "GTA.Math",
-  "typeName": "Vector2",
-  "memberName": "Zero",
-  "summary": "Returns a null vector. (0,0)"
-}

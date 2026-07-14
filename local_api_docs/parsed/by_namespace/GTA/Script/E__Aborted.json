@@ -1,8 +1,0 @@
-{
-  "name": "E:GTA.Script.Aborted",
-  "kind": "E",
-  "namespace": "GTA",
-  "typeName": "Script",
-  "memberName": "Aborted",
-  "summary": "An event that is raised when this"
-}

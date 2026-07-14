@@ -1,9 +1,0 @@
-{
-  "name": "F:GTA.AnimationFlags.TagSyncContinuous",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "AnimationFlags",
-  "memberName": "TagSyncContinuous",
-  "summary": "Sync all the time (Only usefull to synchronize a partial anim e.g. an upper body).",
-  "remarks": "Tag synchronizer flags are for syncing the anim against ped movement (walking / running / etc)."
-}

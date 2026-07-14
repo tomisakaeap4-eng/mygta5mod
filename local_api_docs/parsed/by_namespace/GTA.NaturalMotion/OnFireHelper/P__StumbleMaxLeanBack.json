@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.OnFireHelper.StumbleMaxLeanBack",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "OnFireHelper",
-  "memberName": "StumbleMaxLeanBack",
-  "summary": "Max the character leans hips back when staggering.",
-  "remarks": "Default value = 0.4f.\n            Min value = 0.0f.\n            Max value = 1.5f."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ElectrocuteHelper.RightLeg",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ElectrocuteHelper",
-  "memberName": "RightLeg",
-  "summary": "Vibrate the rightLeg.",
-  "remarks": "Default value = True."
-}

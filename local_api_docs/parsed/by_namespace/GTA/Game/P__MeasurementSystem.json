@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Game.MeasurementSystem",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Game",
-  "memberName": "MeasurementSystem",
-  "summary": "Gets the measurement system the game uses to display."
-}

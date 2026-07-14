@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PedalLegsHelper.LegAngleVariance",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PedalLegsHelper",
-  "memberName": "LegAngleVariance",
-  "summary": "0-1 value used to vary the angle of the legs from the hips during the pedal.",
-  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

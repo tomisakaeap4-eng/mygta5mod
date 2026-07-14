@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.IsEngineStarting",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "IsEngineStarting",
-  "summary": "Gets or sets a value indicating whether this"
-}

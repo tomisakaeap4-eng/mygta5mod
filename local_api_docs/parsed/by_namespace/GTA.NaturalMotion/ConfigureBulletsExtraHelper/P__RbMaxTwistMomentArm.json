@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArm",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBulletsExtraHelper",
-  "memberName": "RbMaxTwistMomentArm",
-  "summary": "Maximum twist arm moment of bullet applied.",
-  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

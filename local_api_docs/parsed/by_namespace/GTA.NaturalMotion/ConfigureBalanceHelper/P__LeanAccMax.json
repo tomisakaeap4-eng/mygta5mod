@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.LeanAccMax",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBalanceHelper",
-  "memberName": "LeanAccMax",
-  "summary": "Max floorAcceleration allowed for lean and leanHips.",
-  "remarks": "Default value = 5.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

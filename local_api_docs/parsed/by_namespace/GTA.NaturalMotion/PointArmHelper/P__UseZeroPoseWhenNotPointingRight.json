@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointArmHelper.UseZeroPoseWhenNotPointingRight",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointArmHelper",
-  "memberName": "UseZeroPoseWhenNotPointingRight",
-  "remarks": "Default value = False."
-}

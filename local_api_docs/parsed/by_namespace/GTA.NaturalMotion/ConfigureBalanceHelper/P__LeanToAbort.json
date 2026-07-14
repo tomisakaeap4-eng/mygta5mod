@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.LeanToAbort",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBalanceHelper",
-  "memberName": "LeanToAbort",
-  "summary": "Lean at which to send abort message when maxSteps or maxBalanceTime is reached.",
-  "remarks": "Default value = 0.6f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

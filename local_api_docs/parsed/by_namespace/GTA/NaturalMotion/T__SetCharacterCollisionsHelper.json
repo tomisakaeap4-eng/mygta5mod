@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.NaturalMotion.SetCharacterCollisionsHelper",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "NaturalMotion",
-  "memberName": "SetCharacterCollisionsHelper",
-  "summary": "SetCharacterCollisions:."
-}

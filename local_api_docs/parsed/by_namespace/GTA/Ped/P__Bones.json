@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Ped.Bones",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Ped",
-  "memberName": "Bones",
-  "summary": "Gets a collection of the"
-}

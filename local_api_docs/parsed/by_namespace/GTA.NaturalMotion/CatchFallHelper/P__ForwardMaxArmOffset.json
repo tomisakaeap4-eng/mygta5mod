@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.CatchFallHelper.ForwardMaxArmOffset",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "CatchFallHelper",
-  "memberName": "ForwardMaxArmOffset",
-  "summary": "0 will point arms down with angled body, 0.45 will point arms forward a bit to catch nearer the head.",
-  "remarks": "Default value = 0.4f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

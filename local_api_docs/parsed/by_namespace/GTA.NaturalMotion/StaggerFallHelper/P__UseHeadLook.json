@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.StaggerFallHelper.UseHeadLook",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "StaggerFallHelper",
-  "memberName": "UseHeadLook",
-  "summary": "Enable and provide a look-at target to make the character's head turn to face it while balancing, balancer default is 0.2.",
-  "remarks": "Default value = True."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.GrabHelper.PointsX4grab",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "GrabHelper",
-  "memberName": "PointsX4grab",
-  "summary": "Use 2 point.",
-  "remarks": "Default value = False."
-}

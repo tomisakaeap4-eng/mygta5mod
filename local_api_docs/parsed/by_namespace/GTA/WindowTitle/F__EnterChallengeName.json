@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.WindowTitle.EnterChallengeName",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "WindowTitle",
-  "memberName": "EnterChallengeName",
-  "summary": "\"Enter your Challenge name (MAX 30 characters)\""
-}

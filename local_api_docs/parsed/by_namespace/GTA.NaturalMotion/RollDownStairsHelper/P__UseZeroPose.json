@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.UseZeroPose",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RollDownStairsHelper",
-  "memberName": "UseZeroPose",
-  "summary": "Blends between a zeroPose and the Rollup, Faster the character is rotating the less the zeroPose.",
-  "remarks": "Default value = False."
-}

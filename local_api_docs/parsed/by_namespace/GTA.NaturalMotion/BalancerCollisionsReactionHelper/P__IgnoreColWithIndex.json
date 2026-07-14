@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.IgnoreColWithIndex",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BalancerCollisionsReactionHelper",
-  "memberName": "IgnoreColWithIndex",
-  "summary": "Used so impact with the character that is pushing you over doesn't set off the behavior.",
-  "remarks": "Default value = -2.\n            Min value = -2."
-}

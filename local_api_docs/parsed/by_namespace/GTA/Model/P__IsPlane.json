@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Model.IsPlane",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Model",
-  "memberName": "IsPlane",
-  "summary": "Gets a value indicating whether this"
-}

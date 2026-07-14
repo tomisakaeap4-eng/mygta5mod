@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureLimitsHelper.ToDesired",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureLimitsHelper",
-  "memberName": "ToDesired",
-  "summary": "If true, set limits to accommodate current desired angles.",
-  "remarks": "Default value = False."
-}

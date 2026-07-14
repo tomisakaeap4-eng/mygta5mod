@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotHelper.UseCStrModulation",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotHelper",
-  "memberName": "UseCStrModulation",
-  "summary": "If enabled upper and lower body strength scales with character strength, using the range given by parameters below.",
-  "remarks": "Default value = False."
-}

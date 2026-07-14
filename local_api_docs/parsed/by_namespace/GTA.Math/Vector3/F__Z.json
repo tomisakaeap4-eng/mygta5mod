@@ -1,9 +1,0 @@
-{
-  "name": "F:GTA.Math.Vector3.Z",
-  "kind": "F",
-  "namespace": "GTA.Math",
-  "typeName": "Vector3",
-  "memberName": "Z",
-  "summary": "Gets or sets the Z component of the vector.",
-  "value": "The Z component of the vector."
-}

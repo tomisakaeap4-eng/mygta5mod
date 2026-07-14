@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.HighFallHelper.FowardVelRotation",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "HighFallHelper",
-  "memberName": "FowardVelRotation",
-  "summary": "Scale to add/subtract from aimAngle based on forward speed (Internal).",
-  "remarks": "Default value = 0.0f.\n            Min value = -1.0f.\n            Max value = 1.0f."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.MaxAngVelAroundFrontwardAxis",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RollDownStairsHelper",
-  "memberName": "MaxAngVelAroundFrontwardAxis",
-  "summary": "Only used if applyNewRollingCheatingTorques or applyHelPerTorqueToAlign defined to true : maximal angular velocity around frontward axis of the pelvis to apply cheating torques.",
-  "remarks": "Default value = 2.0f.\n            Min value = -1.0f.\n            Max value = 10.0f."
-}

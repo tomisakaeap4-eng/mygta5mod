@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Math.Vector2.Left",
-  "kind": "P",
-  "namespace": "GTA.Math",
-  "typeName": "Vector2",
-  "memberName": "Left",
-  "summary": "Returns the left vector. (-1,0)"
-}

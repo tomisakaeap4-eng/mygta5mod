@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.IsInteriorLightOn",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "IsInteriorLightOn",
-  "summary": "Gets or sets a value indicating whether this"
-}

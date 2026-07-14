@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.VehicleType.Automobile",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleType",
-  "memberName": "Automobile",
-  "summary": "The non-special automobile type, such as general cars, taxis, trucks, and tanks."
-}

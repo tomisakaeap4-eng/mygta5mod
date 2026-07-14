@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.HandlingData.SuspensionReboundDamping",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "HandlingData",
-  "memberName": "SuspensionReboundDamping",
-  "summary": "Gets or sets the damping during strut rebound.\n            This value will be set to the equivalent value in the",
-  "value": "The damping during strut rebound."
-}

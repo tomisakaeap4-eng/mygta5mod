@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SetFallingReactionHelper.HkHeadAvoid",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SetFallingReactionHelper",
-  "memberName": "HkHeadAvoid",
-  "summary": "Enable head ground avoidance when handsAndKnees is true.",
-  "remarks": "Default value = True."
-}

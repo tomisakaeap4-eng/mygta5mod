@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunExtraHelper.ConstraintThresh",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunExtraHelper",
-  "memberName": "ConstraintThresh",
-  "summary": "For supportConstraint = 2:  Like makeConstraintDistance. Force starts acting when the hands are  LT  3.0*thresh apart but is maximum strength  LT  thresh. For comparison: 0.1 is used for reachForWound in shot, 0.25 is used in grab.",
-  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

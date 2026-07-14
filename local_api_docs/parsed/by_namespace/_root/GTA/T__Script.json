@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.Script",
-  "kind": "T",
-  "namespace": "",
-  "typeName": "GTA",
-  "memberName": "Script",
-  "summary": "A base class for all user scripts to inherit.\n            Only scripts that inherit directly from this class and have a default (parameterless) public constructor will be detected and started."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.ExclusionZone",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BalancerCollisionsReactionHelper",
-  "memberName": "ExclusionZone",
-  "summary": "Steps are ihibited to not go closer to the wall than this (after impact).",
-  "remarks": "Default value = 0.2f.\n            Min value = 0.0f."
-}

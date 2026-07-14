@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.World.Weather",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "World",
-  "memberName": "Weather",
-  "summary": "Gets or sets the weather.",
-  "value": "The weather."
-}

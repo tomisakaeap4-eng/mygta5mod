@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotNewBulletHelper.BodyPart",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotNewBulletHelper",
-  "memberName": "BodyPart",
-  "summary": "Part ID on the body where the bullet hit.",
-  "remarks": "Default value = 0.\n            Min value = 0.\n            Max value = 21."
-}

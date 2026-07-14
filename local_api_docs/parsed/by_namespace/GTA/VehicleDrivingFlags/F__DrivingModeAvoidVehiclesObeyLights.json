@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.VehicleDrivingFlags.DrivingModeAvoidVehiclesObeyLights",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleDrivingFlags",
-  "memberName": "DrivingModeAvoidVehiclesObeyLights",
-  "summary": "Try to swerve around everything, but stop for lights if necessary."
-}

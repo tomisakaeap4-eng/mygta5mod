@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.AnimatedBuilding.Matrix",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "AnimatedBuilding",
-  "memberName": "Matrix",
-  "summary": "Gets this"
-}

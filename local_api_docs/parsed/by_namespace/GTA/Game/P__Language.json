@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Game.Language",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Game",
-  "memberName": "Language",
-  "summary": "Gets the current game language."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.EnterVehicleFlags.UseRightEntry",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "EnterVehicleFlags",
-  "memberName": "UseRightEntry",
-  "summary": "Use entry/exit point on the right hand side."
-}

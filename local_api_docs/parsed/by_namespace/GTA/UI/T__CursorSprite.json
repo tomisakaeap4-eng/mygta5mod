@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.UI.CursorSprite",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "UI",
-  "memberName": "CursorSprite",
-  "summary": "An enumeration of all possible cursor sprites."
-}

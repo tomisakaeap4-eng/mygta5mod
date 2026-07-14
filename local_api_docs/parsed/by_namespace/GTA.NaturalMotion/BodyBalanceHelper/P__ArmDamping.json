@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.ArmDamping",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BodyBalanceHelper",
-  "memberName": "ArmDamping",
-  "summary": "NB. WAS m_damping NeckDamping=1 ClaviclesDamping=1.",
-  "remarks": "Default value = 0.7f.\n            Min value = 0.0f.\n            Max value = 2.0f."
-}

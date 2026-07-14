@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ForceLeanTowardsObjectHelper.LeanAmount",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ForceLeanTowardsObjectHelper",
-  "memberName": "LeanAmount",
-  "summary": "Amount of lean, 0 to about 0.5. -ve will move away from the target.",
-  "remarks": "Default value = 0.2f.\n            Min value = -0.5f.\n            Max value = 0.5f."
-}

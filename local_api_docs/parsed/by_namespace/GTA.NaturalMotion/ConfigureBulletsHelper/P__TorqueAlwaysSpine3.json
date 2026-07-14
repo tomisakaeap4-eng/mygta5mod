@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBulletsHelper.TorqueAlwaysSpine3",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBulletsHelper",
-  "memberName": "TorqueAlwaysSpine3",
-  "summary": "Always apply torques to spine3 instead of actual part hit.",
-  "remarks": "Default value = True."
-}

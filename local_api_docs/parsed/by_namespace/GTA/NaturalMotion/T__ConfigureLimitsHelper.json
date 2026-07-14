@@ -1,8 +1,0 @@
-{
-  "name": "T:GTA.NaturalMotion.ConfigureLimitsHelper",
-  "kind": "T",
-  "namespace": "GTA",
-  "typeName": "NaturalMotion",
-  "memberName": "ConfigureLimitsHelper",
-  "summary": "Enable/disable/edit character limits in real time.  This adjusts limits in RAGE-native space and will *not* reorient the joint."
-}

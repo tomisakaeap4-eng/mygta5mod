@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Pickup.op_Implicit(GTA.Pickup)~GTA.Native.InputArgument",
-  "kind": "M",
-  "namespace": "GTA.Pickup.op_Implicit(GTA.Pickup)~GTA",
-  "typeName": "Native",
-  "memberName": "InputArgument",
-  "summary": "Converts a"
-}

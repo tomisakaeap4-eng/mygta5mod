@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.InjuredOnGroundHelper.AttackerPos",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "InjuredOnGroundHelper",
-  "memberName": "AttackerPos",
-  "remarks": "Default value = Vector3(1.0f, 0.0f, 0.0f).\n            Min value = 0.0f."
-}

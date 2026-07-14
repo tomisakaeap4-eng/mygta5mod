@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.World.CreateAmbientPickup(GTA.PickupType,GTA.Math.Vector3,GTA.Model,System.Int32)",
-  "kind": "M",
-  "namespace": "GTA.World.CreateAmbientPickup(GTA.PickupType,GTA.Math.Vector3,GTA",
-  "typeName": "Model,System",
-  "memberName": "Int32)",
-  "summary": "Spawns a pickup"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.YankedHelper.ComVelRDSThresh",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "YankedHelper",
-  "memberName": "ComVelRDSThresh",
-  "summary": "For handsAndKnees catchfall ONLY: comVel above which rollDownstairs will start.",
-  "remarks": "Default value = 2.0f.\n            Min value = 0.0f.\n            Max value = 20.0f."
-}

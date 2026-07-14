@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Rope.ActivatePhysics",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Rope",
-  "memberName": "ActivatePhysics",
-  "summary": "Activates physics interactions for this"
-}

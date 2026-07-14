@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.EntityPopulationType.RandomAmbient",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "EntityPopulationType",
-  "memberName": "RandomAmbient",
-  "summary": "This value is set when ambient entities are created or when SET_ENTITY_AS_NO_LONGER_NEEDED is called."
-}

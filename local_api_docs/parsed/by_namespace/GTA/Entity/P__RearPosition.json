@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Entity.RearPosition",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "RearPosition",
-  "summary": "Gets a position directly behind this"
-}

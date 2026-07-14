@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.M_armReachAmount",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RollDownStairsHelper",
-  "memberName": "M_armReachAmount",
-  "summary": "How much the character reaches with his arms to brace against the ground.",
-  "remarks": "Default value = 1.4f.\n            Min value = 0.0f.\n            Max value = 3.0f."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.MoveAway",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BraceForImpactHelper",
-  "memberName": "MoveAway",
-  "summary": "Move away from the car (if in reaching zone).",
-  "remarks": "Default value = False."
-}

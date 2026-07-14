@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.SetCharacterDamping",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "SetCharacterDamping",
-  "summary": "Gets a SetCharacterDamping Helper class for sending SetCharacterDamping",
-  "remarks": "Damp out cartwheeling and somersaulting above a certain threshold"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Entity.LodDistance",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "LodDistance",
-  "summary": "Gets or sets the level of detail distance of this"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "M:GTA.Math.Vector3.Length",
-  "kind": "M",
-  "namespace": "GTA.Math",
-  "typeName": "Vector3",
-  "memberName": "Length",
-  "summary": "Calculates the length of the vector.",
-  "returns": "The length of the vector."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.UI.TextElement.ScaledDraw",
-  "kind": "M",
-  "namespace": "GTA.UI",
-  "typeName": "TextElement",
-  "memberName": "ScaledDraw",
-  "summary": "Draws the"
-}

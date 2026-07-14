@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Entity.op_Implicit(GTA.Entity)~GTA.Native.InputArgument",
-  "kind": "M",
-  "namespace": "GTA.Entity.op_Implicit(GTA.Entity)~GTA",
-  "typeName": "Native",
-  "memberName": "InputArgument",
-  "summary": "Converts an"
-}

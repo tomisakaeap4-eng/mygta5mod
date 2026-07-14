@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.RaycastResult.MaterialHash",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "RaycastResult",
-  "memberName": "MaterialHash",
-  "summary": "Gets a hash indicating the material type of what this ray cast collided with."
-}

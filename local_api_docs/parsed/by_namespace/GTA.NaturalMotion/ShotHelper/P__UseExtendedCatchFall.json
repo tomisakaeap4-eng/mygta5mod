@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotHelper.UseExtendedCatchFall",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotHelper",
-  "memberName": "UseExtendedCatchFall",
-  "summary": "Keep the character active instead of relaxing at the end of the catch fall.",
-  "remarks": "Default value = False."
-}

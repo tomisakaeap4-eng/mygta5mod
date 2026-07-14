@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.IsHelicopter",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "IsHelicopter",
-  "summary": "Gets a value indicating whether this"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ActivePoseHelper.AnimSource",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ActivePoseHelper",
-  "memberName": "AnimSource",
-  "summary": "Animation source."
-}

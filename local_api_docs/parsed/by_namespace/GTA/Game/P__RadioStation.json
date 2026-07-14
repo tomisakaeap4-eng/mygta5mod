@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Game.RadioStation",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Game",
-  "memberName": "RadioStation",
-  "summary": "Gets or sets the current radio station."
-}

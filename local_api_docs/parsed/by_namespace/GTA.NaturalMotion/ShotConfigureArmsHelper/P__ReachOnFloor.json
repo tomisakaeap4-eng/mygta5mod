@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotConfigureArmsHelper.ReachOnFloor",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotConfigureArmsHelper",
-  "memberName": "ReachOnFloor",
-  "summary": "ReachForWound when on floor - 0 = false, 1 = true, 2 = once per shot performance.",
-  "remarks": "Default value = 0.\n            Min value = 0.\n            Max value = 2."
-}

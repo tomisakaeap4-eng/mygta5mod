@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Blip.Position",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Blip",
-  "memberName": "Position",
-  "summary": "Gets or sets the position of this"
-}

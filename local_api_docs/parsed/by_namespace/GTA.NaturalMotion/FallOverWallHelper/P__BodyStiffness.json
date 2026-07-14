@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.FallOverWallHelper.BodyStiffness",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "FallOverWallHelper",
-  "memberName": "BodyStiffness",
-  "summary": "Stiffness of the body, roll up stiffness scales with this and defaults at this default value.",
-  "remarks": "Default value = 9.0f.\n            Min value = 6.0f.\n            Max value = 16.0f."
-}

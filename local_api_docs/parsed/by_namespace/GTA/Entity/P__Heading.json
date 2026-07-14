@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.Entity.Heading",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "Heading",
-  "summary": "Gets or sets the heading of this",
-  "value": "The heading in degrees."
-}

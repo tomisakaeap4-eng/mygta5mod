@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.AnimationFlags.ExtractInitialOffset",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "AnimationFlags",
-  "memberName": "ExtractInitialOffset",
-  "summary": "Extract an initial offset from the playback position authored by the animator.\n            Use this flag when playing back anims on different peds which have been authored to sync with each other."
-}

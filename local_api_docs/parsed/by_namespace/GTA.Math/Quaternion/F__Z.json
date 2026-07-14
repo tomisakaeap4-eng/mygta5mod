@@ -1,9 +1,0 @@
-{
-  "name": "F:GTA.Math.Quaternion.Z",
-  "kind": "F",
-  "namespace": "GTA.Math",
-  "typeName": "Quaternion",
-  "memberName": "Z",
-  "summary": "Gets or sets the Z component of the quaternion.",
-  "value": "The Z component of the quaternion."
-}

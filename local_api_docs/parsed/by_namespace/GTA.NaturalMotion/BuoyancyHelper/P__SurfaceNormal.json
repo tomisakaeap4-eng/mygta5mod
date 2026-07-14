@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.BuoyancyHelper.SurfaceNormal",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "BuoyancyHelper",
-  "memberName": "SurfaceNormal",
-  "summary": "Normal to surface of water.",
-  "remarks": "Default value = Vector3(0.0f, 0.0f, 1.0f).\n            Min value = 0.0f."
-}

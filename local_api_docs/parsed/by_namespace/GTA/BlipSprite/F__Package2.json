@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.BlipSprite.Package2",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "BlipSprite",
-  "memberName": "Package2",
-  "summary": "The default English text for this value is \"Package\", whose label text hash is used in Biker Business missions in GTA Online."
-}

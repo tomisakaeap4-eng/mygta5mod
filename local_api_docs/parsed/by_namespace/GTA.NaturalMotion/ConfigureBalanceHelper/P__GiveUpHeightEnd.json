@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.GiveUpHeightEnd",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBalanceHelper",
-  "memberName": "GiveUpHeightEnd",
-  "summary": "If this value is different from giveUpHeight, actual giveUpHeight will be ramped toward this value.",
-  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 1.5f."
-}

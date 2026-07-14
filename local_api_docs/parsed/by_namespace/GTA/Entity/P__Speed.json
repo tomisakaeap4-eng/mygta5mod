@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.Entity.Speed",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Entity",
-  "memberName": "Speed",
-  "summary": "Gets or sets this",
-  "value": "The speed in m/s."
-}

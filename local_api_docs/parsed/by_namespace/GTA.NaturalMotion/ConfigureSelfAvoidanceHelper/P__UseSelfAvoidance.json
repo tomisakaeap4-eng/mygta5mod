@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureSelfAvoidanceHelper.UseSelfAvoidance",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureSelfAvoidanceHelper",
-  "memberName": "UseSelfAvoidance",
-  "summary": "Enable or disable self avoidance tech.",
-  "remarks": "Default value = False."
-}

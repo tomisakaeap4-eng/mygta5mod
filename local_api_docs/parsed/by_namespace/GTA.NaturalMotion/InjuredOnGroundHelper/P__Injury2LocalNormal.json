@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.InjuredOnGroundHelper.Injury2LocalNormal",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "InjuredOnGroundHelper",
-  "memberName": "Injury2LocalNormal",
-  "remarks": "Default value = Vector3(1.0f, 0.0f, 0.0f).\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

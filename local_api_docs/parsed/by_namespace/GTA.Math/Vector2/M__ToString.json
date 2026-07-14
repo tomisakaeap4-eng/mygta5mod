@@ -1,9 +1,0 @@
-{
-  "name": "M:GTA.Math.Vector2.ToString",
-  "kind": "M",
-  "namespace": "GTA.Math",
-  "typeName": "Vector2",
-  "memberName": "ToString",
-  "summary": "Converts the value of the object to its equivalent string representation.",
-  "returns": "The string representation of the value of this instance."
-}

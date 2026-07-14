@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.ArmsWindmillAdaptive",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "ArmsWindmillAdaptive",
-  "summary": "Gets a ArmsWindmillAdaptive Helper class for sending ArmsWindmillAdaptive"
-}

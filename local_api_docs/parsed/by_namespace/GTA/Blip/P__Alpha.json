@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Blip.Alpha",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Blip",
-  "memberName": "Alpha",
-  "summary": "Gets or sets the alpha of this"
-}

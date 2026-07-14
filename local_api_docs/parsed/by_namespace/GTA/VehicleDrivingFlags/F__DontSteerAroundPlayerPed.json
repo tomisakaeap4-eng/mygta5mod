@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.VehicleDrivingFlags.DontSteerAroundPlayerPed",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleDrivingFlags",
-  "memberName": "DontSteerAroundPlayerPed",
-  "summary": "Don't steer around the player ped even if"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "M:GTA.Math.Vector2.GetHashCode",
-  "kind": "M",
-  "namespace": "GTA.Math",
-  "typeName": "Vector2",
-  "memberName": "GetHashCode",
-  "summary": "Returns the hash code for this instance.",
-  "returns": "A 32-bit signed integer hash code."
-}

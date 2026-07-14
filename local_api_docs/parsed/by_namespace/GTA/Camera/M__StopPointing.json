@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Camera.StopPointing",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "Camera",
-  "memberName": "StopPointing",
-  "summary": "Stops this"
-}

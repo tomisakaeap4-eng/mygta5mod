@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.Native.OutputArgument.GetResult``1",
-  "kind": "M",
-  "namespace": "GTA.Native",
-  "typeName": "OutputArgument",
-  "memberName": "GetResult``1",
-  "summary": "Gets the value of data stored in this"
-}

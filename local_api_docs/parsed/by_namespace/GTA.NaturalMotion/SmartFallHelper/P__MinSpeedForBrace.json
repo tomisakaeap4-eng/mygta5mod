@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SmartFallHelper.MinSpeedForBrace",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SmartFallHelper",
-  "memberName": "MinSpeedForBrace",
-  "summary": "Character needs to be moving at least this fast horizontally to start bracing for impact if there is an object along its trajectory.",
-  "remarks": "Default value = 10.0f.\n            Min value = 0.0f.\n            Max value = 100.0f."
-}

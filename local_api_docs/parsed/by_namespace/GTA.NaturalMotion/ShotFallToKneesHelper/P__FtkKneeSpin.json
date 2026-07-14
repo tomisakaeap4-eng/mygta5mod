@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkKneeSpin",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotFallToKneesHelper",
-  "memberName": "FtkKneeSpin",
-  "summary": "When on knees allow some spinning of the character.\n            If false then the balancers' footSlipCompensation remains on and tends to keep the character facing the same way as when it was balancing.",
-  "remarks": "Default value = False."
-}

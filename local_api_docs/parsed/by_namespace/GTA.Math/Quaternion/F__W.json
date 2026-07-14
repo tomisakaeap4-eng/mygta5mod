@@ -1,9 +1,0 @@
-{
-  "name": "F:GTA.Math.Quaternion.W",
-  "kind": "F",
-  "namespace": "GTA.Math",
-  "typeName": "Quaternion",
-  "memberName": "W",
-  "summary": "Gets or sets the W component of the quaternion.",
-  "value": "The W component of the quaternion."
-}

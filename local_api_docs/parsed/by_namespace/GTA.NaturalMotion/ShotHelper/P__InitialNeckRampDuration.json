@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotHelper.InitialNeckRampDuration",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotHelper",
-  "memberName": "InitialNeckRampDuration",
-  "summary": "Duration of the ramp to bring the neck stiffness/damping back to normal levels.",
-  "remarks": "Default value = 0.4f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

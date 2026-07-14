@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotShockSpinHelper.AddShockSpin",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotShockSpinHelper",
-  "memberName": "AddShockSpin",
-  "summary": "If enabled, add a short 'shock' of torque to the character's spine to exaggerate bullet impact.",
-  "remarks": "Default value = False."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.EnterVehicleFlags.BlockSeatShuffling",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "EnterVehicleFlags",
-  "memberName": "BlockSeatShuffling",
-  "summary": "Disable shuffling, forcing ped to use direct door only."
-}

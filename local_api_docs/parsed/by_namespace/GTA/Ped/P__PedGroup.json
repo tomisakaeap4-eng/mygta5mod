@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Ped.PedGroup",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Ped",
-  "memberName": "PedGroup",
-  "summary": "Gets the PedGroup this"
-}

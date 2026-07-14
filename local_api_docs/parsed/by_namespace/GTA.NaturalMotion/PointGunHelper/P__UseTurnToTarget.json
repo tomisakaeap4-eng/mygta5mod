@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunHelper.UseTurnToTarget",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunHelper",
-  "memberName": "UseTurnToTarget",
-  "summary": "Turn balancer to help gun point at target.",
-  "remarks": "Default value = False."
-}

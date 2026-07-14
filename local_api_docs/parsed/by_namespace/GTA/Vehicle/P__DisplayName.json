@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.DisplayName",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "DisplayName",
-  "summary": "Gets the display name of this"
-}

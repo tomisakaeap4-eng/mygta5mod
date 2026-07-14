@@ -1,8 +1,0 @@
-{
-  "name": "F:GTA.AnimationFlags.HideWeapon",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "AnimationFlags",
-  "memberName": "HideWeapon",
-  "summary": "Indicates that the ped's weapon should be hidden while this animation is playing."
-}

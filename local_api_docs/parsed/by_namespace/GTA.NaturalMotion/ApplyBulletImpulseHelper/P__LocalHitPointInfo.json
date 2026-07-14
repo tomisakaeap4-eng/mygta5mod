@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ApplyBulletImpulseHelper.LocalHitPointInfo",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ApplyBulletImpulseHelper",
-  "memberName": "LocalHitPointInfo",
-  "summary": "True = hitPoint is in local coordinates of bodyPart, false = hit point is in world coordinates.",
-  "remarks": "Default value = False."
-}

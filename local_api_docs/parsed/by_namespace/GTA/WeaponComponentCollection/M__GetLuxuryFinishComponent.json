@@ -1,9 +1,0 @@
-{
-  "name": "M:GTA.WeaponComponentCollection.GetLuxuryFinishComponent",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "WeaponComponentCollection",
-  "memberName": "GetLuxuryFinishComponent",
-  "summary": "Gets the first component of all the components for",
-  "returns": "The"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.YankedHelper.SpineBend",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "YankedHelper",
-  "memberName": "SpineBend",
-  "summary": "Bend/Twist the spine amount.",
-  "remarks": "Default value = 0.7f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

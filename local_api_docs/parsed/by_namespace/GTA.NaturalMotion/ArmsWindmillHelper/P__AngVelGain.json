@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ArmsWindmillHelper.AngVelGain",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ArmsWindmillHelper",
-  "memberName": "AngVelGain",
-  "summary": "Multiplies angular speed of character to get speed of arms.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

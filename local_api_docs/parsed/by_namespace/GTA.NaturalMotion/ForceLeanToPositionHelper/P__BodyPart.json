@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ForceLeanToPositionHelper.BodyPart",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ForceLeanToPositionHelper",
-  "memberName": "BodyPart",
-  "summary": "Body part that the force is applied to.",
-  "remarks": "Default value = 0.\n            Min value = 0.\n            Max value = 21."
-}

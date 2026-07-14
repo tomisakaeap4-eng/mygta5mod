@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkHipAngleFall",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotFallToKneesHelper",
-  "memberName": "FtkHipAngleFall",
-  "summary": "Apply this hip angle when the character starts to fall backwards when on knees.",
-  "remarks": "Default value = 0.5f.\n            Min value = -1.0f.\n            Max value = 1.0f."
-}

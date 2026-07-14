@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.GameplayCamera.IsLookingBehind",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "GameplayCamera",
-  "memberName": "IsLookingBehind",
-  "summary": "Gets a value indicating whether the"
-}

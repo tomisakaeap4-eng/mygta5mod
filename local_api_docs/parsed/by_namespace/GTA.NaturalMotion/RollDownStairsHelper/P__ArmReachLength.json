@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.ArmReachLength",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RollDownStairsHelper",
-  "memberName": "ArmReachLength",
-  "summary": "The length that the arm reaches and so how much it straightens.",
-  "remarks": "Default value = 0.4f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.LeanTowardsObjectHelper.Offset",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "LeanTowardsObjectHelper",
-  "memberName": "Offset",
-  "summary": "Offset from instance position added when calculating position to lean to.",
-  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f).\n            Min value = -100.0f.\n            Max value = 100.0f."
-}

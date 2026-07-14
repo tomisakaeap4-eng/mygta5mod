@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.StaggerFallHelper.UpperBodyReaction",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "StaggerFallHelper",
-  "memberName": "UpperBodyReaction",
-  "summary": "Enable upper body reaction i.e. blindBrace and armswindmill.",
-  "remarks": "Default value = True."
-}

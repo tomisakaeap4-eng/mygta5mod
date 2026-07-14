@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.InteriorProxy.Model",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "InteriorProxy",
-  "memberName": "Model",
-  "summary": "Gets the model this"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.Player.LockedOnEntity",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Player",
-  "memberName": "LockedOnEntity",
-  "summary": "Gets the",
-  "returns": "The"
-}

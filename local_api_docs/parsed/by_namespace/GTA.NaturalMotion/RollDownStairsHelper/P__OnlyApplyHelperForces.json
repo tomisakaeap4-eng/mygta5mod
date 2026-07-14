@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.OnlyApplyHelperForces",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RollDownStairsHelper",
-  "memberName": "OnlyApplyHelperForces",
-  "summary": "Don't use rollup if true.",
-  "remarks": "Default value = False."
-}

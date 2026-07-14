@@ -1,7 +1,0 @@
-{
-  "name": "F:GTA.VehicleLockStatus.CanBeBrokenInto",
-  "kind": "F",
-  "namespace": "GTA",
-  "typeName": "VehicleLockStatus",
-  "memberName": "CanBeBrokenInto"
-}

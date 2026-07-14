@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.YankedHelper.StepsTillStartEnd",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "YankedHelper",
-  "memberName": "StepsTillStartEnd",
-  "summary": "Steps taken before lowerBodyStiffness starts ramping down.",
-  "remarks": "Default value = 2.\n            Min value = 0.\n            Max value = 100."
-}

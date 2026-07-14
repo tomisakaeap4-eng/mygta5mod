@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.HasForks",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "HasForks",
-  "summary": "Gets a value indicating whether this"
-}

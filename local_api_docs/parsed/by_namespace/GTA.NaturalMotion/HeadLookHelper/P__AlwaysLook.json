@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.HeadLookHelper.AlwaysLook",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "HeadLookHelper",
-  "memberName": "AlwaysLook",
-  "summary": "Flag to force always to look.",
-  "remarks": "Default value = False."
-}

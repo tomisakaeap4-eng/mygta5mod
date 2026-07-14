@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkAlwaysChangeFall",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotFallToKneesHelper",
-  "memberName": "FtkAlwaysChangeFall",
-  "summary": "Always change fall behavior.  If false only change when falling forward.",
-  "remarks": "Default value = False."
-}

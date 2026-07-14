@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.SetFallingReactionHelper.StopOnSlopes",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "SetFallingReactionHelper",
-  "memberName": "StopOnSlopes",
-  "summary": "Apply tactics to help stop on slopes.",
-  "remarks": "Default value = False."
-}

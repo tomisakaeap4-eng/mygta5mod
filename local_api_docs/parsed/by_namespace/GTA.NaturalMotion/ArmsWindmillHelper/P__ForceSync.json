@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ArmsWindmillHelper.ForceSync",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ArmsWindmillHelper",
-  "memberName": "ForceSync",
-  "summary": "Toggles phase synchronization.",
-  "remarks": "Default value = True."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.FallOverWallHelper.Damping",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "FallOverWallHelper",
-  "memberName": "Damping",
-  "summary": "Damping in the effectors.",
-  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 3.0f."
-}

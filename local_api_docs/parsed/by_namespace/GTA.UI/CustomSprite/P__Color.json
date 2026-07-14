@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.UI.CustomSprite.Color",
-  "kind": "P",
-  "namespace": "GTA.UI",
-  "typeName": "CustomSprite",
-  "memberName": "Color",
-  "summary": "Gets or sets the color of this",
-  "value": "The color."
-}

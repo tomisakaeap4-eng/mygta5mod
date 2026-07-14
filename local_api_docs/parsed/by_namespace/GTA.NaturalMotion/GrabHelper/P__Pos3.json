@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.GrabHelper.Pos3",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "GrabHelper",
-  "memberName": "Pos3",
-  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
-}

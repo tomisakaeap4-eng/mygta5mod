@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.Euphoria.RegisterWeapon",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "Euphoria",
-  "memberName": "RegisterWeapon",
-  "summary": "Gets a RegisterWeapon Helper class for sending RegisterWeapon",
-  "remarks": "Use this message to register weapon. This is an alternative to the registerWeapon public function."
-}

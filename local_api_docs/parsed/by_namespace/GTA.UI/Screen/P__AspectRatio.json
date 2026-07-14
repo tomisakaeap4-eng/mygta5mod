@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.UI.Screen.AspectRatio",
-  "kind": "P",
-  "namespace": "GTA.UI",
-  "typeName": "Screen",
-  "memberName": "AspectRatio",
-  "summary": "Gets the current screen aspect ratio"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotShockSpinHelper.RandomizeShockSpinDirection",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotShockSpinHelper",
-  "memberName": "RandomizeShockSpinDirection",
-  "summary": "For use with close-range shotgun blasts, or similar.",
-  "remarks": "Default value = False."
-}

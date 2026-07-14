@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.UpperBodyFlinchHelper.NewHit",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "UpperBodyFlinchHelper",
-  "memberName": "NewHit",
-  "summary": "Relaxes the character for 1 frame if set.",
-  "remarks": "Default value = True."
-}

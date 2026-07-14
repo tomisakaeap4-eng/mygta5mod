@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.StepHeight",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureBalanceHelper",
-  "memberName": "StepHeight",
-  "summary": "Maximum height that character steps vertically (above 0.2 is high ... But OK underwater).",
-  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 0.4f."
-}

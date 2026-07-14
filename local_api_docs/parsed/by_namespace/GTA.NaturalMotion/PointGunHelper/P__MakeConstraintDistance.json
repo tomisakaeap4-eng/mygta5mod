@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PointGunHelper.MakeConstraintDistance",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PointGunHelper",
-  "memberName": "MakeConstraintDistance",
-  "summary": "For supportConstraint = 1:  Minimum distance within which support hand constraint will be made.",
-  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 3.0f."
-}

@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.TargetLinearVelocity",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "RollDownStairsHelper",
-  "memberName": "TargetLinearVelocity",
-  "summary": "Helper torques are applied to match the spin of the character to the max of targetLinearVelocity and COMVelMag.",
-  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
-}

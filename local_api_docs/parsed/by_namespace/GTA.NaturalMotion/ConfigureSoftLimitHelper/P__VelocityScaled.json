@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ConfigureSoftLimitHelper.VelocityScaled",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ConfigureSoftLimitHelper",
-  "memberName": "VelocityScaled",
-  "summary": "Scale stiffness based on character angular velocity.",
-  "remarks": "Default value = False."
-}

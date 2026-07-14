@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkFallBelowStab",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotFallToKneesHelper",
-  "memberName": "FtkFallBelowStab",
-  "summary": "Balancer instability below which the character starts to bend legs even if it isn't going to fall on to it's knees (i.e. if going backwards).\n            0.3 almost ensures a fall to knees but means the character will keep stepping backward until it slows down enough.",
-  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 15.0f."
-}

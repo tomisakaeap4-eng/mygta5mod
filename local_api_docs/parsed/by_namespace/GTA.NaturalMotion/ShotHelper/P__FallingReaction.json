@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.ShotHelper.FallingReaction",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "ShotHelper",
-  "memberName": "FallingReaction",
-  "summary": "0=Rollup, 1=Catchfall, 2=rollDownStairs, 3=smartFall.",
-  "remarks": "Default value = 0.\n            Min value = 0.\n            Max value = 3."
-}

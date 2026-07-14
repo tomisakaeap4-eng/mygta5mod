@@ -1,8 +1,0 @@
-{
-  "name": "M:GTA.World.GetAllPickupObjects",
-  "kind": "M",
-  "namespace": "GTA",
-  "typeName": "World",
-  "memberName": "GetAllPickupObjects",
-  "summary": "Gets an"
-}

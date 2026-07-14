@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.FallOverWallHelper.ForceAngleAbort",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "FallOverWallHelper",
-  "memberName": "ForceAngleAbort",
-  "summary": "The angle abort threshold.",
-  "remarks": "Default value = -0.2f."
-}

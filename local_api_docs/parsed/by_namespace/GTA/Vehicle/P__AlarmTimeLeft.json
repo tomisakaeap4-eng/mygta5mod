@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.Vehicle.AlarmTimeLeft",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "Vehicle",
-  "memberName": "AlarmTimeLeft",
-  "summary": "Gets or sets time left before this",
-  "value": "The time left before this"
-}

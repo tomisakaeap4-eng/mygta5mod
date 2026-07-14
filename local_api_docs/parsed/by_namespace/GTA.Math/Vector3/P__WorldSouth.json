@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.Math.Vector3.WorldSouth",
-  "kind": "P",
-  "namespace": "GTA.Math",
-  "typeName": "Vector3",
-  "memberName": "WorldSouth",
-  "summary": "Returns the world South vector. (0,-1,0)"
-}

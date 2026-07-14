@@ -1,8 +1,0 @@
-{
-  "name": "P:GTA.RaycastResult.HitEntity",
-  "kind": "P",
-  "namespace": "GTA",
-  "typeName": "RaycastResult",
-  "memberName": "HitEntity",
-  "summary": "Gets the"
-}

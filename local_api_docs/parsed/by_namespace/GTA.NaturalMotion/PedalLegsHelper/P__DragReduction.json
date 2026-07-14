@@ -1,9 +1,0 @@
-{
-  "name": "P:GTA.NaturalMotion.PedalLegsHelper.DragReduction",
-  "kind": "P",
-  "namespace": "GTA.NaturalMotion",
-  "typeName": "PedalLegsHelper",
-  "memberName": "DragReduction",
-  "summary": "How much to account for the target moving through space rather than being static.",
-  "remarks": "Default value = 0.3f.\n            Min value = 0.0f.\n            Max value = 1.0f."
-}
