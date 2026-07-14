@@ -110,6 +110,7 @@ api_docs/
 │   └── natives_parsed/         # Produced by parse_natives
 │       ├── index.json          # hash -> relative path entries
 │       └── by_namespace/<NS>/<name>.json
+└── gtav-legacy-scripts/        # acidlabsdev/gtav-legacy-scripts (C# SHVDN samples)
 └── ...
 
 local_api_docs/

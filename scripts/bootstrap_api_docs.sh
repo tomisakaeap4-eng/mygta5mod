@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Bootstrap corpus cho agent: clone shallow 3 repo tham khảo vào api_docs/.
+# Bootstrap corpus cho agent: clone shallow 4 repo tham khảo vào api_docs/.
 # Tương đương bootstrap_api_docs.ps1 (PowerShell, Windows), nhưng chạy được
 # trên Linux / WSL / macOS — phù hợp với dev box của agent.
 #
@@ -52,9 +52,10 @@ clone_or_update() {
   fi
 }
 
-# --- Clone 3 repo tham khảo cho agent ------------------------------------
+# --- Clone 4 repo tham khảo cho agent ------------------------------------
 clone_or_update "https://github.com/scripthookvdotnet/scripthookvdotnet.git"      "$ApiDocsRoot/scripthookvdotnet"      "main"
 clone_or_update "https://github.com/scripthookvdotnet/scripthookvdotnet.wiki.git" "$ApiDocsRoot/scripthookvdotnet.wiki" "master"
 clone_or_update "https://github.com/alloc8or/gta5-nativedb-data.git"            "$ApiDocsRoot/gta5-nativedb-data"      "master"
+clone_or_update "https://github.com/acidlabsdev/gtav-legacy-scripts.git"   "$ApiDocsRoot/gtav-legacy-scripts"   "main"
 
 note "Done. Corpus ở: $ApiDocsRoot"

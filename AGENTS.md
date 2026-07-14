@@ -21,9 +21,9 @@ không khớp version NGHIÊM túc kiểm chứng bằng corpus.
 
 | Lần đầu | Mỗi lần cần | Mục đích |
 | --- | --- | --- |
-| `scripts/bootstrap_api_docs.ps1` | — | Clone shallow 3 repo tham khảo vào `api_docs/` |
+| `scripts/bootstrap_api_docs.ps1` | — | Clone shallow 4 repo tham khảo vào `api_docs/` |
 | — | `scripts/update_api_docs.ps1` | `git pull --ff-only` các repo trong `api_docs/` |
-| `scripts/bootstrap_api_docs.sh` | — | Bash tương đương (Linux / WSL / macOS) |
+| `scripts/bootstrap_api_docs.sh` | — | Bash tương đương (Linux / WSL / macOS) — clone 4 repo |
 | — | `scripts/update_api_docs.sh` | Bash tương đương (Linux / WSL / macOS) |
 | — | `scripts/copy_gta_logs.ps1` | Copy `ScriptHookVDotNet.log` + `ScriptHookV.log` từ GTA V vào `inputs/logs` |
 | — | `scripts/parse_natives.sh` | Bash: tách `natives.json` (legacy) ra `by_namespace/<NS>/<name>.json` + `index.json` |
@@ -37,7 +37,8 @@ Sau khi chạy, cây thư mục chuẩn là:
 api_docs/
 ├── scripthookvdotnet/          # Source SHVDN v3 + XML API docs (commit/version chính thức)
 ├── scripthookvdotnet.wiki/     # Wiki chính thức (Home.md, script examples, tutorials)
-└── gta5-nativedb-data/         # natives.json + hash (NativeDB Legacy)
+├── gta5-nativedb-data/         # natives.json + hash (NativeDB Legacy)
+└── gtav-legacy-scripts/        # acidlabsdev/gtav-legacy-scripts (C# SHVDN samples + patterns)
 ```
 
 Toàn bộ thư mục `api_docs/` đã được `.gitignore` để không push lên git — mỗi máy

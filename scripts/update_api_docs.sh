@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Cập nhật corpus: git pull --ff-only cho 3 repo trong api_docs/.
+# Cập nhật corpus: git pull --ff-only cho 4 repo trong api_docs/.
 # Chạy sau bootstrap_api_docs.sh lần đầu; tương đương update_api_docs.ps1
 # (PowerShell, Windows), nhưng chạy được trên Linux / WSL / macOS.
 #
@@ -28,7 +28,7 @@ done
 [ -n "$ApiDocsRoot" ] || ApiDocsRoot="$(cd "$(dirname "$0")/.." && pwd)/api_docs"
 
 # --- Vòng cập nhật cho từng repo ----------------------------------------
-Repos=(scripthookvdotnet scripthookvdotnet.wiki gta5-nativedb-data)
+Repos=(scripthookvdotnet scripthookvdotnet.wiki gta5-nativedb-data gtav-legacy-scripts)
 for r in "${Repos[@]}"; do
   dest="$ApiDocsRoot/$r"
   if [ ! -d "$dest/.git" ]; then
