@@ -14,6 +14,7 @@ import os
 import re
 import shutil
 import sys
+import time
 import unicodedata
 import uuid
 import xml.etree.ElementTree as ET
@@ -23,6 +24,7 @@ from typing import Any, Callable, Dict, List, Optional, Tuple
 
 
 FORMAT_VERSION = 2
+LOCAL_XML_FORMAT_VERSION = 3
 WINDOWS_RESERVED_NAMES = {
     "CON", "PRN", "AUX", "NUL",
     *(f"COM{i}" for i in range(1, 10)),
@@ -93,18 +95,28 @@ def write_xml(path: Path, element: ET.Element) -> None:
 
 def replace_output(staging: Path, output: Path, keep_out: bool) -> Optional[Path]:
     """Install a fully written staging tree and restore the old tree on failure."""
+    def rename_with_retry(source: Path, destination: Path) -> None:
+        for attempt in range(10):
+            try:
+                source.rename(destination)
+                return
+            except OSError:
+                if attempt == 9:
+                    raise
+                time.sleep(0.25)
+
     output.parent.mkdir(parents=True, exist_ok=True)
     backup: Optional[Path] = None
     if output.exists():
         timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
         backup = output.with_name(f"{output.name}.backup-{timestamp}-{uuid.uuid4().hex[:8]}")
-        output.rename(backup)
+        rename_with_retry(output, backup)
 
     try:
-        staging.rename(output)
+        rename_with_retry(staging, output)
     except Exception:
         if backup is not None and backup.exists() and not output.exists():
-            backup.rename(output)
+            rename_with_retry(backup, output)
         raise
 
     if backup is not None and not keep_out:
@@ -237,6 +249,20 @@ def member_details(canonical_name: str) -> Tuple[str, str, str, Optional[str]]:
     return kind, body, member_name, signature
 
 
+def member_owner_name(kind: str, body: str) -> str:
+    """Return the type/owner name used to shard local XML member lookups."""
+    body_without_signature = body.split("(", 1)[0]
+    if kind == "T":
+        return body_without_signature or "member"
+    if "." not in body_without_signature:
+        return body_without_signature or "member"
+    return body_without_signature.rsplit(".", 1)[0] or body_without_signature
+
+
+def add_count(counts: Dict[str, int], key: str) -> None:
+    counts[key] = counts.get(key, 0) + 1
+
+
 def local_xml_parser(source: Path, output: Path, keep_out: bool) -> Tuple[Dict[str, Any], Optional[Path]]:
     try:
         root = ET.parse(source).getroot()
@@ -248,6 +274,7 @@ def local_xml_parser(source: Path, output: Path, keep_out: bool) -> Tuple[Dict[s
     members_parent = root.find("members")
     if assembly is None or members_parent is None:
         raise ValueError("The XML document must contain both <assembly> and <members>.")
+    assembly_name = (assembly.findtext("name") or "").strip() or None
 
     members = list(members_parent.findall("member"))
     source_hash = sha256_file(source)
@@ -256,11 +283,14 @@ def local_xml_parser(source: Path, output: Path, keep_out: bool) -> Tuple[Dict[s
         write_xml(staging / "assembly.xml", assembly)
         records: Dict[str, Dict[str, Any]] = {}
         by_canonical_name: Dict[str, List[str]] = {}
-        by_kind: Dict[str, List[str]] = {}
+        by_kind_counts: Dict[str, int] = {}
+        type_groups: Dict[str, Dict[str, Any]] = {}
+        kind_groups: Dict[str, Dict[str, Dict[str, Any]]] = {}
 
         for sequence, member in enumerate(members, start=1):
             canonical_name = member.get("name") or ""
             kind, body, member_name, signature = member_details(canonical_name)
+            owner_name = member_owner_name(kind, body)
             kind_segment = safe_segment(kind, "X", 8)
             readable_name = safe_segment(body.split("(", 1)[0], "member")
             stable_suffix = hashlib.sha256(canonical_name.encode("utf-8")).hexdigest()[:12]
@@ -270,7 +300,9 @@ def local_xml_parser(source: Path, output: Path, keep_out: bool) -> Tuple[Dict[s
 
             record = {
                 "canonicalName": canonical_name or None,
+                "id": record_id,
                 "kind": kind,
+                "ownerName": owner_name,
                 "qualifiedName": body or None,
                 "memberName": member_name,
                 "signature": signature,
@@ -278,24 +310,116 @@ def local_xml_parser(source: Path, output: Path, keep_out: bool) -> Tuple[Dict[s
             }
             records[record_id] = record
             by_canonical_name.setdefault(canonical_name, []).append(record_id)
-            by_kind.setdefault(kind, []).append(record_id)
+            add_count(by_kind_counts, kind)
+
+            type_group = type_groups.setdefault(
+                owner_name,
+                {
+                    "byCanonicalName": {},
+                    "counts": {"members": 0, "byKind": {}},
+                    "records": {},
+                },
+            )
+            type_group["records"][record_id] = record
+            type_group["byCanonicalName"].setdefault(canonical_name, []).append(record_id)
+            type_group["counts"]["members"] += 1
+            add_count(type_group["counts"]["byKind"], kind)
+
+            kind_groups.setdefault(kind, {})[record_id] = record
+
+        type_shards: Dict[str, Dict[str, Any]] = {}
+        for owner_name, type_group in type_groups.items():
+            owner_suffix = hashlib.sha256(owner_name.encode("utf-8")).hexdigest()[:12]
+            owner_segment = safe_segment(owner_name, "member-type")
+            shard_path = Path("lookup") / "by_type" / f"{owner_segment}__{owner_suffix}.json"
+            type_document = {
+                "formatVersion": LOCAL_XML_FORMAT_VERSION,
+                "kind": "scripthookvdotnet-xml-type-shard",
+                "assemblyName": assembly_name,
+                "ownerName": owner_name,
+                "counts": type_group["counts"],
+                "records": type_group["records"],
+                "byCanonicalName": type_group["byCanonicalName"],
+            }
+            write_json(staging / shard_path, type_document)
+            type_shards[owner_name] = {
+                "path": shard_path.as_posix(),
+                "members": type_group["counts"]["members"],
+                "byKind": type_group["counts"]["byKind"],
+            }
+
+        type_index_path = Path("lookup") / "by_type" / "index.json"
+        type_index = {
+            "formatVersion": LOCAL_XML_FORMAT_VERSION,
+            "kind": "scripthookvdotnet-xml-type-index",
+            "assemblyName": assembly_name,
+            "counts": {"members": len(records), "types": len(type_shards)},
+            "shards": type_shards,
+        }
+        write_json(staging / type_index_path, type_index)
+
+        kind_shards: Dict[str, Dict[str, Any]] = {}
+        for kind_name, kind_records in kind_groups.items():
+            kind_segment = safe_segment(kind_name, "X", 8)
+            shard_path = Path("lookup") / "by_kind" / f"{kind_segment}.json"
+            kind_document = {
+                "formatVersion": LOCAL_XML_FORMAT_VERSION,
+                "kind": "scripthookvdotnet-xml-kind-shard",
+                "assemblyName": assembly_name,
+                "memberKind": kind_name,
+                "counts": {"members": len(kind_records)},
+                "records": kind_records,
+            }
+            write_json(staging / shard_path, kind_document)
+            kind_shards[kind_name] = {
+                "path": shard_path.as_posix(),
+                "members": len(kind_records),
+            }
 
         index = {
-            "formatVersion": FORMAT_VERSION,
+            "formatVersion": LOCAL_XML_FORMAT_VERSION,
             "kind": "scripthookvdotnet-xml",
+            "assemblyName": assembly_name,
             "source": {"path": str(source), "sha256": source_hash},
             "assemblyPath": "assembly.xml",
-            "counts": {"members": len(records)},
-            "records": records,
-            "byCanonicalName": by_canonical_name,
-            "byKind": by_kind,
+            "counts": {
+                "members": len(records),
+                "types": len(type_shards),
+                "byKind": by_kind_counts,
+            },
+            "lookupSchema": {
+                "exactMember": [
+                    "Open parse-report.json and verify validation.status is passed and source.sha256 matches the raw XML.",
+                    "Derive ownerName from the canonical XML member: for T: use the type name; for M:/P:/F:/E: remove any method signature and the final .member segment.",
+                    "Open lookups.byType.indexPath and read shards[ownerName].path.",
+                    "Use the shard byCanonicalName[canonicalName] list to get record id(s), then open records[id].path.",
+                ],
+                "browseByKind": "Open lookups.byKind.shards[memberKind].path only when broad enumeration by XML member kind is needed.",
+            },
+            "lookups": {
+                "byType": {
+                    "description": "Small owner/type shards keyed by canonical ownerName. Open the type index only for exact lookup routing.",
+                    "indexPath": type_index_path.as_posix(),
+                },
+                "byKind": {
+                    "description": "Kind shards for deliberate broad browsing; these can be large for properties and methods.",
+                    "shards": kind_shards,
+                },
+            },
         }
         report = {
-            "formatVersion": FORMAT_VERSION,
+            "formatVersion": LOCAL_XML_FORMAT_VERSION,
             "kind": "scripthookvdotnet-xml",
+            "assemblyName": assembly_name,
             "source": index["source"],
             "counts": index["counts"],
-            "validation": {"status": "passed", "unnamedMembers": sum(not item["canonicalName"] for item in records.values())},
+            "validation": {
+                "status": "passed",
+                "duplicateCanonicalNames": sum(1 for ids in by_canonical_name.values() if len(ids) > 1),
+                "typeShards": len(type_shards),
+                "kindShards": len(kind_shards),
+                "unnamedMembers": sum(not item["canonicalName"] for item in records.values()),
+            },
         }
         write_json(staging / "index.json", index)
         write_json(staging / "parse-report.json", report)
@@ -303,6 +427,16 @@ def local_xml_parser(source: Path, output: Path, keep_out: bool) -> Tuple[Dict[s
         written_members = list(staging.glob("members/**/*.xml"))
         if len(written_members) != len(records):
             raise RuntimeError("XML parse validation failed: member file count does not match the index.")
+        written_type_shards = [path for path in staging.glob("lookup/by_type/*.json") if path.name != "index.json"]
+        if len(written_type_shards) != len(type_shards):
+            raise RuntimeError("XML parse validation failed: type shard count does not match the index.")
+        written_kind_shards = list(staging.glob("lookup/by_kind/*.json"))
+        if len(written_kind_shards) != len(kind_shards):
+            raise RuntimeError("XML parse validation failed: kind shard count does not match the index.")
+        if sum(shard["members"] for shard in type_shards.values()) != len(records):
+            raise RuntimeError("XML parse validation failed: type shard member counts do not match the index.")
+        if sum(shard["members"] for shard in kind_shards.values()) != len(records):
+            raise RuntimeError("XML parse validation failed: kind shard member counts do not match the index.")
         for record in records.values():
             ET.parse(staging / record["path"])
         return report

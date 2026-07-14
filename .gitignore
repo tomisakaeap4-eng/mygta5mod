@@ -43,7 +43,8 @@ $RECYCLE.BIN/
 # logs/ được tạo bởi copy_gta_logs.ps1 khi copy logs. Không commit.
 ./logs
 
-# local_api_docs/parsed/ do parse_local_api_docs.{sh,ps1} tạo ra: assembly.xml + members/<K>__<Name>.xml + index.json. Không commit.
+# local_api_docs/parsed/ do parse_local_api_docs.{sh,ps1} tạo ra:
+# parsed/scripthookvdotnet3/ và parsed/lemonui-shvdn3/. Không commit.
 local_api_docs/parsed/
 
 # Thư mục api_docs/ chứa corpus API cho agent (clone bằng bootstrap_api_docs.ps1)

@@ -29,13 +29,19 @@ api_docs/
 └── gta5-nativedb-data/      # natives.json Legacy
 ```
 
-Hai lookup tree parse là **điểm vào ưu tiên để tra cứu**:
+Các lookup tree parse là **điểm vào ưu tiên để tra cứu**:
 
 ```text
 local_api_docs/parsed/
-├── index.json               # canonical SHVDN XML member -> record/path
-├── parse-report.json        # source SHA-256 + count + validation
-└── members/<K>/*.xml
+├── scripthookvdotnet3/      # từ ScriptHookVDotNet3.xml
+│   ├── index.json           # manifest v3 gọn + schema/lookup roots
+│   ├── parse-report.json    # source SHA-256 + count + validation
+│   ├── lookup/
+│   │   ├── by_type/index.json
+│   │   ├── by_type/*.json   # canonical SHVDN XML member -> record/path
+│   │   └── by_kind/*.json
+│   └── members/<K>/*.xml
+└── lemonui-shvdn3/          # từ LemonUI.SHVDN3.xml, cùng schema
 
 api_docs/gta5-nativedb-data/natives_parsed/
 ├── index.json               # byHash và byQualifiedName -> record/path
@@ -43,16 +49,24 @@ api_docs/gta5-nativedb-data/natives_parsed/
 └── by_namespace/<NS>/*.json
 ```
 
-Đừng suy luận từ filename. Luôn mở `index.json`, rồi mở entry theo `path`.
-Filename chỉ là khóa filesystem an toàn; canonical name/hash/namespace bên trong
-index và entry mới là tên chuẩn.
+Đừng suy luận từ filename. Chọn đúng document root trước:
+`local_api_docs/parsed/scripthookvdotnet3/` cho SHVDN hoặc
+`local_api_docs/parsed/lemonui-shvdn3/` cho LemonUI. Luôn mở `index.json` trong
+root đó trước để biết manifest/schema và đường dẫn lookup tiếp theo. Root
+`index.json` chỉ là overview gọn; để tra exact member, mở
+`lookup/by_type/index.json`, lấy shard theo `ownerName`, rồi mở record trong
+shard theo `byCanonicalName`. Với NativeDB, `index.json` vẫn chứa `byHash` và
+`byQualifiedName`. Filename chỉ là khóa filesystem an toàn; canonical
+name/hash/namespace bên trong shard/index và entry mới là tên chuẩn.
 
 Parsed output là bản định tuyến ưu tiên, không thay thế nguồn gốc. Trước khi
 dùng member/native cho code, phải kiểm tra:
 
 1. `parse-report.json.validation.status` là `passed`.
 2. SHA-256 trong manifest khớp source raw hiện tại.
-3. Entry parsed có đúng canonical name hoặc hash/namespace cần dùng.
+3. Entry parsed có đúng canonical name hoặc hash/namespace cần dùng. Với XML
+   local, xác nhận trong đúng document root, shard `by_type` và file
+   `members/<K>/*.xml`, không chỉ từ root `index.json`.
 
 Nếu một điều kiện sai, chạy parser lại. Không tiếp tục dựa trên parsed tree cũ.
 
@@ -83,9 +97,10 @@ Khi nguồn mâu thuẫn, ưu tiên theo thứ tự dưới đây và ghi rõ mi
 tự chọn API thuận tiện:
 
 1. Project đang chạy: `.csproj`, tất cả source `.cs`, reference DLL, runtime
-   logs và `local_api_docs/ScriptHookVDotNet3.xml`.
-2. Lookup `local_api_docs/parsed/` đã validation; sau đó XML raw local để xác
-   nhận chi tiết của member.
+   logs, `local_api_docs/ScriptHookVDotNet3.xml` và
+   `local_api_docs/LemonUI.SHVDN3.xml` khi task dùng LemonUI.
+2. Lookup đúng document root trong `local_api_docs/parsed/` đã validation; sau
+   đó XML raw local để xác nhận chi tiết của member.
 3. Lookup `natives_parsed/` đã validation; sau đó `natives.json` Legacy raw để
    xác nhận namespace, hash, params và return type.
 4. SHVDN source trong `api_docs/scripthookvdotnet/` cùng version với DLL.
@@ -103,12 +118,18 @@ khi ghi rõ mismatch; không dùng member mới để compile DLL cũ.
    Kiểm tra `git status` để không đè thay đổi của user.
 2. Kiểm tra đủ ba repo có `.git`. Nếu thiếu hoặc rỗng, dừng và yêu cầu user chạy
    `scripts/bootstrap_api_docs.ps1` hoặc `.sh`; không code tiếp.
-3. Đọc cả hai `index.json`/`parse-report.json` khi task cần SHVDN hay native.
-   Nếu thiếu, SHA không khớp, hoặc validation fail, yêu cầu/chạy parse trước.
+3. Đọc `index.json`/`parse-report.json` trong document root cần dùng: SHVDN ở
+   `local_api_docs/parsed/scripthookvdotnet3/`, LemonUI ở
+   `local_api_docs/parsed/lemonui-shvdn3/`, native ở `natives_parsed/`. Với XML
+   local, không đọc rộng toàn bộ shard; chỉ mở `lookup/by_type/index.json` và
+   shard liên quan tới member cần dùng. Nếu thiếu, SHA không khớp, hoặc
+   validation fail, yêu cầu/chạy parse trước.
 4. Xác định version từ `HintPath`/assembly metadata và đối chiếu với runtime log
    cùng commit của corpus. Ghi `version mismatch` trong kết quả nếu khác.
-5. Tra exact member trong parsed index, mở file member tương ứng, rồi xác nhận
-   XML raw và source/version phù hợp. Tra wiki cho lifecycle/pattern gần nhất.
+5. Tra exact member trong parsed lookup phù hợp: document root `index.json` ->
+   `lookup/by_type/index.json` -> shard của `ownerName` -> record
+   `byCanonicalName` -> file member tương ứng. Sau đó xác nhận XML raw và
+   source/version phù hợp. Tra wiki cho lifecycle/pattern gần nhất.
 6. Nếu cần native, tra `byQualifiedName` hoặc `byHash`, mở native entry, xác
    nhận object raw và đối chiếu enum `GTA.Native.Hash` cùng version.
 7. Nếu sửa lỗi runtime, đọc `ScriptHookVDotNet.log` và `ScriptHookV.log`, đối

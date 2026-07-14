@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LemonUI.SHVDN3">
+      <HintPath>..\LemonUI.SHVDN3.dll</HintPath>
+    </Reference>
     <Reference Include="ScriptHookVDotNet3">
       <HintPath>..\ScriptHookVDotNet\ScriptHookVDotNet3.dll</HintPath>
     </Reference>

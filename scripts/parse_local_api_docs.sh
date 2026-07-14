@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Parse local ScriptHookVDotNet XML with the shared, validated Python parser.
+# Parse local ScriptHookVDotNet and LemonUI XML docs into compact lookup trees.
 # Usage: parse_local_api_docs.sh [-s SOURCE] [-o OUT_DIR] [-k]
 set -euo pipefail
 
@@ -22,13 +22,36 @@ while [ $# -gt 0 ]; do
   esac
 done
 
-source="${source:-$project_root/local_api_docs/ScriptHookVDotNet3.xml}"
-out_dir="${out_dir:-$(dirname "$source")/parsed}"
 parser="$project_root/scripts/parse_api_docs.py"
+local_api_docs_root="$project_root/local_api_docs"
+parsed_root="$local_api_docs_root/parsed"
 
 command -v python3 >/dev/null 2>&1 || die "python3 is required"
 [ -f "$parser" ] || die "missing shared parser: $parser"
 
-arguments=("$parser" local-xml --source "$source" --out-dir "$out_dir")
-[ "$keep_out" -eq 0 ] || arguments+=(--keep-out)
-python3 "${arguments[@]}"
+doc_id_from_source() {
+  basename "$1" .xml \
+    | tr '[:upper:]' '[:lower:]' \
+    | sed -E 's/[^a-z0-9]+/-/g; s/^-+//; s/-+$//' \
+    | sed -E 's/^$/local-api-doc/'
+}
+
+parse_one() {
+  local doc_source="$1"
+  local doc_out_dir="$2"
+  [ -f "$doc_source" ] || die "missing local API XML: $doc_source"
+
+  echo "Parsing local API XML: $doc_source -> $doc_out_dir"
+  local arguments=("$parser" local-xml --source "$doc_source" --out-dir "$doc_out_dir")
+  [ "$keep_out" -eq 0 ] || arguments+=(--keep-out)
+  python3 "${arguments[@]}"
+}
+
+if [ -n "$source" ] || [ -n "$out_dir" ]; then
+  source="${source:-$local_api_docs_root/ScriptHookVDotNet3.xml}"
+  out_dir="${out_dir:-$parsed_root/$(doc_id_from_source "$source")}"
+  parse_one "$source" "$out_dir"
+else
+  parse_one "$local_api_docs_root/ScriptHookVDotNet3.xml" "$parsed_root/scripthookvdotnet3"
+  parse_one "$local_api_docs_root/LemonUI.SHVDN3.xml" "$parsed_root/lemonui-shvdn3"
+fi

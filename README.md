@@ -41,9 +41,12 @@ vị trí ScriptHookVDotNet yêu cầu trong thư mục GTA V.
 ├── Properties/AssemblyInfo.cs       # Assembly metadata
 ├── AGENTS.md                       # Quy trình bắt buộc cho coding agent
 ├── scripts/                         # Bootstrap, update, parse, copy logs
-├── local_api_docs/                  # XML API của DLL SHVDN đang reference
+├── local_api_docs/                  # XML API local đang reference
 │   ├── ScriptHookVDotNet3.xml
+│   ├── LemonUI.SHVDN3.xml
 │   └── parsed/                      # Lookup tree sinh bởi parser, gitignored
+│       ├── scripthookvdotnet3/
+│       └── lemonui-shvdn3/
 ├── api_docs/                        # 3 repository nguồn, gitignored
 │   ├── scripthookvdotnet/
 │   ├── scripthookvdotnet.wiki/
@@ -96,8 +99,9 @@ nhau.
 
 ## Dữ liệu đã parse
 
-Không suy luận API từ tên file. Luôn mở `index.json` trước, sau đó mở entry mà
-index trỏ tới.
+Không suy luận API từ tên file. Luôn mở `index.json` trước để biết schema,
+source hash và đường dẫn lookup tiếp theo. Với XML local, root index chỉ là
+overview gọn; chỉ mở shard lookup đúng type/kind cần tra.
 
 ### NativeDB Legacy
 
@@ -113,20 +117,38 @@ Mỗi entry lưu nguyên object NativeDB trong trường `native`, cùng `hash`,
 `namespace` và `name`. `index.json` giữ tên gốc và đường dẫn đầy đủ, nên việc
 sanitize tên file không thể làm mất thông tin hay làm đụng overload/hash.
 
-### XML API của DLL local
+### XML API local
 
-`local_api_docs/parsed/` gồm:
+`scripts/parse_local_api_docs.*` mặc định parse cả hai XML local vào hai thư mục
+riêng:
+
+```text
+local_api_docs/parsed/
+├── scripthookvdotnet3/       # từ ScriptHookVDotNet3.xml
+└── lemonui-shvdn3/           # từ LemonUI.SHVDN3.xml
+```
+
+Mỗi thư mục con có cùng schema:
 
 ```text
 assembly.xml                 # phần <assembly> của XML gốc
-index.json                   # manifest v2, lookup canonical name và kind
+index.json                   # manifest v3 gọn, counts, schema và lookup roots
 parse-report.json            # source SHA-256, count và kết quả validation
+lookup/
+├── by_type/index.json        # ownerName -> type shard path
+├── by_type/*.json            # canonical member -> record/path trong một owner
+└── by_kind/*.json            # browse rộng theo XML kind khi thật sự cần
 members/<K>/*.xml            # một <member> hợp lệ cho mỗi XML member
 ```
 
-`index.json` lưu `canonicalName`, `qualifiedName`, `memberName`, `signature`,
-`kind` và `path`. Tên file mang namespace/type và SHA ngắn để dễ đọc mà vẫn
-duy nhất; canonical name trong index mới là định danh chuẩn.
+`index.json` trong từng thư mục con không nhồi toàn bộ `records` để agent đọc bao
+quát không bị quá dài. Khi cần một member chính xác, chọn đúng document root
+(`scripthookvdotnet3` hoặc `lemonui-shvdn3`), lấy canonical XML name, suy ra
+`ownerName` theo quy tắc trong `lookupSchema`, mở `lookup/by_type/index.json`,
+rồi mở shard `by_type` tương ứng. Trong shard, `byCanonicalName[canonicalName]`
+trỏ tới record có `canonicalName`, `qualifiedName`, `memberName`, `signature`,
+`kind` và `path`. Tên file vẫn chỉ là khóa filesystem an toàn; canonical name
+trong shard và trong file member XML mới là định danh chuẩn.
 
 Parser tạo output ở staging, kiểm tra số file/parse lại XML rồi mới thay output
 đang dùng. Khi `parse-report.json.validation.status` không phải `passed`, hoặc
@@ -152,12 +174,14 @@ Sửa đường dẫn trong `FirstGtaMod.csproj` trước khi build đầy đủ
 
 ## Quy trình phát triển mod
 
-1. Đọc `AGENTS.md`, `FirstGtaMod.csproj`, toàn bộ `.cs`, `README.md` và
-   `local_api_docs/ScriptHookVDotNet3.xml`.
-2. Kiểm tra ba repository corpus và hai `parse-report.json`. Nếu SHA hoặc count
-   không khớp, chạy update/bootstrap rồi parse lại.
-3. Tra `local_api_docs/parsed/index.json` trước. Xác nhận entry bằng XML raw,
-   source SHVDN cùng version và wiki khi cần pattern sử dụng.
+1. Đọc `AGENTS.md`, `FirstGtaMod.csproj`, toàn bộ `.cs`, `README.md`,
+   `local_api_docs/ScriptHookVDotNet3.xml` và `local_api_docs/LemonUI.SHVDN3.xml`.
+2. Kiểm tra ba repository corpus và các `parse-report.json` cần dùng. Nếu SHA
+   hoặc count không khớp, chạy update/bootstrap rồi parse lại.
+3. Tra đúng document root trước: `local_api_docs/parsed/scripthookvdotnet3/index.json`
+   cho SHVDN hoặc `local_api_docs/parsed/lemonui-shvdn3/index.json` cho LemonUI.
+   Sau đó mở đúng shard `lookup/by_type` cho member cần dùng. Xác nhận record
+   bằng XML raw, source cùng version và wiki khi cần pattern sử dụng.
 4. Với native, tra `natives_parsed/index.json` trước, xác nhận object raw trong
    `natives.json`, rồi đối chiếu `GTA.Native.Hash` cùng version.
 5. Sửa code theo lifecycle của SHVDN: event trong constructor, entity do mod tạo

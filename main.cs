@@ -1,56 +1,142 @@
-﻿using System;
+﻿using GTA;
+using LemonUI;
+using LemonUI.Menus;
+using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
-using GTA;
-using GTA.Math;
-using GTA.UI;
 
-public sealed class FirstGtaMod : Script
+namespace FirstLegacyMod
 {
-    public FirstGtaMod()
+    public sealed class MainScript : Script
     {
-        // Đăng ký sự kiện bàn phím.
-        KeyDown += OnKeyDown;
+        private readonly ObjectPool _pool = new ObjectPool();
 
-        // Hiện thông báo khi script được load.
-        Notification.Show(
-            "~g~FirstGtaMod loaded~s~. Press F6 to spawn a Zentorno."
-        );
-    }
+        private readonly NativeMenu _mainMenu =
+            new NativeMenu("FIRST MOD", "Main Menu");
 
-    private void OnKeyDown(object sender, KeyEventArgs e)
-    {
-        // Chỉ thực hiện khi người chơi nhấn F6.
-        if (e.KeyCode != Keys.F6)
+        private readonly NativeItem _spawnVehicleItem =
+            new NativeItem(
+                "Spawn Zentorno",
+                "Creates a Zentorno in front of the player."
+            );
+
+        private readonly NativeCheckboxItem _invincibleItem =
+            new NativeCheckboxItem(
+                "Invincible",
+                "Enable or disable player invincibility.",
+                false
+            );
+
+        private readonly NativeItem _closeMenuItem =
+            new NativeItem("Close Menu");
+
+        private readonly List<Vehicle> _spawnedVehicles =
+            new List<Vehicle>();
+
+        public MainScript()
         {
-            return;
+            _mainMenu.Add(_spawnVehicleItem);
+            _mainMenu.Add(_invincibleItem);
+            _mainMenu.Add(_closeMenuItem);
+
+            // Every LemonUI menu must be registered once.
+            _pool.Add(_mainMenu);
+
+            Tick += OnTick;
+            KeyDown += OnKeyDown;
+            Aborted += OnAborted;
+
+            _spawnVehicleItem.Activated += OnSpawnVehicleActivated;
+            _invincibleItem.CheckboxChanged += OnInvincibleChanged;
+            _closeMenuItem.Activated += OnCloseMenuActivated;
         }
 
-        Ped player = Game.Player.Character;
-
-        // Tính vị trí cách nhân vật 5 mét về phía trước.
-        Vector3 spawnPosition =
-            player.Position + player.ForwardVector * 5.0f;
-
-        // Tạo xe Zentorno.
-        Vehicle vehicle = World.CreateVehicle(
-            VehicleHash.Zentorno,
-            spawnPosition,
-            player.Heading
-        );
-
-        // World.CreateVehicle có thể trả về null nếu không tạo được xe.
-        if (vehicle == null)
+        private void OnTick(object sender, EventArgs e)
         {
-            Notification.Show("~r~Could not spawn the vehicle.");
-            return;
+            // Required for LemonUI drawing and input processing.
+            _pool.Process();
         }
 
-        // Đặt xe đúng trên mặt đất.
-        vehicle.PlaceOnGround();
+        private void OnKeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode != Keys.F5)
+            {
+                return;
+            }
 
-        // Biển số tối đa 8 ký tự.
-        vehicle.Mods.LicensePlate = "FIRSTMOD";
+            if (_pool.AreAnyVisible)
+            {
+                _pool.HideAll();
+            }
+            else
+            {
+                _mainMenu.Visible = true;
+            }
+        }
 
-        Notification.Show("~g~Zentorno spawned successfully.");
+        private void OnSpawnVehicleActivated(object sender, EventArgs e)
+        {
+            Ped player = Game.Player.Character;
+
+            if (player == null || !player.Exists())
+            {
+                return;
+            }
+
+            Vehicle vehicle = World.CreateVehicle(
+                VehicleHash.Zentorno,
+                player.Position + player.ForwardVector * 5.0f,
+                player.Heading
+            );
+
+            if (vehicle == null || !vehicle.Exists())
+            {
+                return;
+            }
+
+            vehicle.PlaceOnGround();
+            vehicle.Mods.LicensePlate = "LEMONUI";
+
+            _spawnedVehicles.Add(vehicle);
+        }
+
+        private void OnInvincibleChanged(object sender, EventArgs e)
+        {
+            Ped player = Game.Player.Character;
+
+            if (player == null || !player.Exists())
+            {
+                return;
+            }
+
+            player.IsInvincible = _invincibleItem.Checked;
+        }
+
+        private void OnCloseMenuActivated(object sender, EventArgs e)
+        {
+            _pool.HideAll();
+        }
+
+        private void OnAborted(object sender, EventArgs e)
+        {
+            _pool.HideAll();
+
+            Ped player = Game.Player.Character;
+
+            if (player != null && player.Exists())
+            {
+                player.IsInvincible = false;
+            }
+
+            foreach (Vehicle vehicle in _spawnedVehicles)
+            {
+                if (vehicle != null && vehicle.Exists())
+                {
+                    vehicle.Delete();
+                }
+            }
+
+            _spawnedVehicles.Clear();
+        }
     }
 }
