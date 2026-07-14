@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Entity.MaterialCollidingWith">
+    
+            
+    <summary>
+        
+            Gets the material this 
+        <see cref="T:GTA.Entity"/>
+         is pushing up against.
+            
+    </summary>
+    
+            
+    <value>
+        
+            A material hash if this 
+        <see cref="T:GTA.Entity"/>
+         has collision; otherwise, 
+        <see cref="F:GTA.MaterialHash.None"/>
+        .
+            
+    </value>
+    
+            
+    <remarks>
+        
+            
+        <para>
+            This returns 
+            <see cref="F:GTA.MaterialHash.None"/>
+             in some cases, although this enrity is internally considered touched with something.
+            For example, this returns 
+            <see cref="F:GTA.MaterialHash.None"/>
+             when this 
+            <see cref="T:GTA.Entity"/>
+             is a 
+            <see cref="T:GTA.Ped"/>
+             and this 
+            <see cref="T:GTA.Entity"/>
+             doesn't push none of the touching entities, including buildings.
+            However, this returns 
+            <see cref="F:GTA.MaterialHash.None"/>
+             when this 
+            <see cref="T:GTA.Entity"/>
+             touches any ragdolled peds.
+        </para>
+        
+            
+        <para>
+            Note that when this 
+            <see cref="T:GTA.Entity"/>
+             is a this 
+            <see cref="T:GTA.Vehicle"/>
+             and only its wheels touches something, the game will consider the entity touching nothing and this returns 
+            <see cref="F:GTA.MaterialHash.None"/>
+            .
+        </para>
+        
+            
+    </remarks>
+    
+        
+</member>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="T:GTA.EnterVehicleFlags">
+    
+            
+    <summary>
+        
+            Set of flags to define the behaviour of the enter and exit vehicle tasks.
+            Shares the same flags with 
+        <see cref="T:GTA.LeaveVehicleFlags"/>
+        .
+            
+    </summary>
+    
+        
+</member>

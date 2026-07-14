@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ArmsWindmillAdaptiveHelper.ArmDirection">
+    
+            
+    <summary>
+            </summary>
+    
+            
+    <remarks>
+        
+            Default value = 
+        <see cref="F:GTA.NaturalMotion.ArmDirection.Adaptive"/>
+        .
+            
+    </remarks>
+    
+        
+</member>

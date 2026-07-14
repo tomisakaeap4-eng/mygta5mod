@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ShotConfigureArmsHelper.BustElbowLift">
+    
+            
+    <summary>
+            Lift the elbows up this much extra to avoid upper arm penetrating the bust (when target hits spine2 or spine3).
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.7f.
+            Min value = 0.0f.
+            Max value = 2.0f.
+            </remarks>
+    
+        
+</member>

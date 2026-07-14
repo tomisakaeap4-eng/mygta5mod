@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.GetAllProjectiles">
+    
+            
+    <summary>
+        
+            Gets an 
+        <c>array</c>
+         of all 
+        <see cref="T:GTA.Projectile"/>
+        s in the World.
+            
+    </summary>
+    
+        
+</member>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Native.Function.Call(GTA.Native.Hash,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument)">
+    
+            
+    <summary>
+            Calls the specified native script function and ignores its return value.
+            </summary>
+    
+            
+    <param name="hash">The hashed name of the script function.</param>
+    
+            
+    <param name="argument0">The 1st input or output argument to pass to the native script function.</param>
+    
+            
+    <param name="argument1">The 2nd input or output argument to pass to the native script function.</param>
+    
+            
+    <param name="argument2">The 3rd input or output argument to pass to the native script function.</param>
+    
+            
+    <param name="argument3">The 4th input or output argument to pass to the native script function.</param>
+    
+            
+    <param name="argument4">The 5th input or output argument to pass to the native script function.</param>
+    
+            
+    <param name="argument5">The 6th input or output argument to pass to the native script function.</param>
+    
+            
+    <param name="argument6">The 7th input or output argument to pass to the native script function.</param>
+    
+            
+    <param name="argument7">The 8th input or output argument to pass to the native script function.</param>
+    
+            
+    <param name="argument8">The 9th input or output argument to pass to the native script function.</param>
+    
+            
+    <param name="argument9">The 10th input or output argument to pass to the native script function.</param>
+    
+            
+    <param name="argument10">The 11th input or output argument to pass to the native script function.</param>
+    
+            
+    <param name="argument11">The 12th input or output argument to pass to the native script function.</param>
+    
+            
+    <param name="argument12">The 13th input or output argument to pass to the native script function.</param>
+    
+            
+    <param name="argument13">The 14th input or output argument to pass to the native script function.</param>
+    
+            
+    <returns>The return value of the native.</returns>
+    
+        
+</member>

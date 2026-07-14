@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.GrabHelper.GrabStrength">
+    
+            
+    <summary>
+            Strength in hands for grabbing (kg m/s), -1 to ignore/disable.
+            </summary>
+    
+            
+    <remarks>
+            Default value = -1.0f.
+            Min value = -1.0f.
+            Max value = 10000.0f.
+            </remarks>
+    
+        
+</member>

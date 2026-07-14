@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ConfigureShotInjuredArmHelper.VelMultiplierEnd">
+    
+            
+    <summary>
+            End velocity of ramp where parameters are scaled to zero.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 5.0f.
+            Min value = 1.0f.
+            Max value = 40.0f.
+            </remarks>
+    
+        
+</member>

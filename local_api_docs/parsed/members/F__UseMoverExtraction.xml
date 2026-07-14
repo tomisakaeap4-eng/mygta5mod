@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.AnimationFlags.UseMoverExtraction">
+    
+            
+    <summary>
+        
+            Updates the peds capsule position every frame based on the animation.
+            Use in conjunction with 
+        <see cref="F:GTA.AnimationFlags.UseKinematicPhysics"/>
+         to create characters that cannot be pushed off course by other entities / geometry / etc whilst playing the anim.
+            
+    </summary>
+    
+        
+</member>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Vector3.DistanceSquared(GTA.Math.Vector3,GTA.Math.Vector3)">
+    
+            
+    <summary>
+            Calculates the squared distance between two vectors.
+            </summary>
+    
+            
+    <param name="position1">The first vector to calculate the squared distance to the second vector.</param>
+    
+            
+    <param name="position2">The second vector to calculate the squared distance to the first vector.</param>
+    
+            
+    <returns>The squared distance between the two vectors.</returns>
+    
+        
+</member>

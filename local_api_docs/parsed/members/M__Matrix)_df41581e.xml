@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Matrix.op_UnaryNegation(GTA.Math.Matrix)">
+    
+            
+    <summary>
+            Negates a matrix.
+            </summary>
+    
+            
+    <param name="matrix">The matrix to negate.</param>
+    
+            
+    <returns>The negated matrix.</returns>
+    
+        
+</member>

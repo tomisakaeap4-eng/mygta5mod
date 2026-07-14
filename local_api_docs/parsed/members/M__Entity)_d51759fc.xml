@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Rope.Detach(GTA.Entity)">
+    
+            
+    <summary>
+        
+            Detaches a single 
+        <see cref="T:GTA.Entity"/>
+         from this 
+        <see cref="T:GTA.Rope"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="entity">The entity to detach.</param>
+    
+        
+</member>

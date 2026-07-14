@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Game.DoAutoSave">
+    
+            
+    <summary>
+            Performs an automatic game save.
+            </summary>
+    
+        
+</member>

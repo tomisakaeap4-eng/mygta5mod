@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Vector3.SignedAngle(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3)">
+    
+            
+    <summary>
+            Returns the signed angle in degrees between from and to.
+            </summary>
+    
+        
+</member>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Player.Money">
+    
+            
+    <summary>
+        
+            Gets or sets how much money this 
+        <see cref="T:GTA.Player"/>
+         has.
+            
+        <remarks>
+            Only works if current player is 
+            <see cref="F:GTA.PedHash.Michael"/>
+            , 
+            <see cref="F:GTA.PedHash.Franklin"/>
+             or 
+            <see cref="F:GTA.PedHash.Trevor"/>
+        </remarks>
+        
+            
+    </summary>
+    
+        
+</member>

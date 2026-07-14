@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Vehicle.PreviouslyOwnedByPlayer">
+    
+            
+    <summary>
+        
+            Gets or sets a value indicating whether this 
+        <see cref="T:GTA.Vehicle"/>
+         was previously owned by a 
+        <see cref="T:GTA.Player"/>
+        .
+            
+    </summary>
+    
+            
+    <value>
+        
+            
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Vehicle"/>
+         was previously owned by a 
+        <see cref="T:GTA.Player"/>
+        ; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.AnimationFlags.UseFullBlending">
+    
+            
+    <summary>
+            Use full blending for this anim and override the heading/position adjustment in CTaskScriptedAnimation::CheckIfClonePlayerNeedsHeadingPositionAdjust(),
+            so that the game doesn't correct errors (special case such as scrip-side implemented AI tasks, i.e. diving)
+            </summary>
+    
+        
+</member>

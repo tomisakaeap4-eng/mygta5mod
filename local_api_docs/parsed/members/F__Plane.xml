@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.BlipSprite.Plane">
+    
+            
+    <summary>
+        
+            The sprite is the same as 
+        <see cref="F:GTA.BlipSprite.Jet"/>
+         has, but the default English text for this value is &quot;Jet&quot;.
+            
+    </summary>
+    
+        
+</member>

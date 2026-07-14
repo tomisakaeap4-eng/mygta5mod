@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.PointGunHelper.PistolNeutralType">
+    
+            
+    <summary>
+            0 = byFace, 1=acrossFront, 2=bySide.  NB: bySide is not connectible so be careful if combined with kPistol and oneHandedPointing = 0 or 2.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.
+            Min value = 0.
+            Max value = 2.
+            </remarks>
+    
+        
+</member>

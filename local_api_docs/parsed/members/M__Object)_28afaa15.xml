@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.EntityDamageRecord.Equals(System.Object)">
+    
+            
+    <summary>
+        
+            Determines if an 
+        <see cref="T:System.Object"/>
+         is an 
+        <see cref="T:GTA.EntityDamageRecord"/>
+         and has the same properties as this 
+        <see cref="T:GTA.EntityDamageRecord"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="obj">
+        The 
+        <see cref="T:System.Object"/>
+         to check.
+    </param>
+    
+            
+    <returns>
+        <c>true</c>
+         if the 
+        <paramref name="obj"/>
+         is an 
+        <see cref="T:GTA.EntityDamageRecord"/>
+         and has the same properties as this 
+        <see cref="T:GTA.EntityDamageRecord"/>
+        ; otherwise, 
+        <c>false</c>
+        .
+    </returns>
+    
+        
+</member>

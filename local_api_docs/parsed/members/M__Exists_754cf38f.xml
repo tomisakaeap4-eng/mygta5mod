@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Ped.Exists">
+    
+            
+    <summary>
+        
+            Determines if this 
+        <see cref="T:GTA.Ped"/>
+         exists.
+            You should ensure 
+        <see cref="T:GTA.Ped"/>
+        s still exist before manipulating them or getting some values for them on every tick, since some native functions may crash the game if invalid entity handles are passed.
+            
+    </summary>
+    
+            
+    <returns>
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Ped"/>
+         exists; otherwise, 
+        <see langword="false"/>
+    </returns>
+    
+            
+    <seealso cref="P:GTA.Entity.IsDead"/>
+    
+            
+    <seealso cref="P:GTA.Ped.IsInjured"/>
+    
+        
+</member>

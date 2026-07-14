@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.PointGunHelper.RightHandParentOffset">
+    
+            
+    <summary>
+            Pointing-from offset from parent effector, expressed in spine3's frame, x = back/forward, y = right/left, z = up/down. This is added to the measured one if useIncomingTransforms=true and measureParentOffset=true.  NB NOT used if rightHandParentEffector LT 0.  Pistol(0,0,0) Rifle(0.0032, 0.0, -0.0).
+            </summary>
+    
+            
+    <remarks>
+            Default value = Vector3(0.0f, 0.0f, 0.0f).
+            </remarks>
+    
+        
+</member>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Matrix.ToArray">
+    
+            
+    <summary>
+            Converts the matrix to an array of floats.
+            </summary>
+    
+        
+</member>

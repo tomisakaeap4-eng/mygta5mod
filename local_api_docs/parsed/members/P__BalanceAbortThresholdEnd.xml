@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ConfigureBalanceHelper.BalanceAbortThresholdEnd">
+    
+            
+    <summary>
+            If this value is different from balanceAbortThreshold, actual balanceAbortThreshold will be ramped toward this value.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.6f.
+            Min value = 0.0f.
+            Max value = 1.0f.
+            </remarks>
+    
+        
+</member>

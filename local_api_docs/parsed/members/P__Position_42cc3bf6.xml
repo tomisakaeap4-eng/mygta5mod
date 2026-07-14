@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Camera.Position">
+    
+            
+    <summary>
+        
+            Gets or sets the position of this 
+        <see cref="T:GTA.Camera"/>
+        .
+            
+    </summary>
+    
+        
+</member>

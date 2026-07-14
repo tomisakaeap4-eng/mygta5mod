@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.VehicleWheel.IsDrivingWheel">
+    
+            
+    <summary>
+        
+            Gets or sets a value indicating whether this 
+        <see cref="T:GTA.VehicleWheel"/>
+         is a driving wheel.
+            
+    </summary>
+    
+        
+</member>

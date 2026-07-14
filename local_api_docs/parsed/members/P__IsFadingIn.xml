@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.UI.Screen.IsFadingIn">
+    
+            
+    <summary>
+            Gets a value indicating whether the screen is fading in.
+            </summary>
+    
+            
+    <value>
+        
+            
+        <see langword="true"/>
+         if the screen is fading in; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

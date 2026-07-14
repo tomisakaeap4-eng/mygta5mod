@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Player.RemainingSprintTime">
+    
+            
+    <summary>
+        
+            Gets how long this 
+        <see cref="T:GTA.Player"/>
+         can remain sprinting for.
+            
+    </summary>
+    
+        
+</member>

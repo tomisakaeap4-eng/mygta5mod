@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Entity.UpVector">
+    
+            
+    <summary>
+        
+            Gets the vector that points above this 
+        <see cref="T:GTA.Entity"/>
+        .
+            
+    </summary>
+    
+        
+</member>

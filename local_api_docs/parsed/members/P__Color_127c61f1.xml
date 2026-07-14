@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.ParticleEffect.Color">
+    
+            
+    <summary>
+        
+            Gets or sets the 
+        <see cref="P:GTA.ParticleEffect.Color"/>
+         of this 
+        <see cref="T:GTA.ParticleEffect"/>
+        .
+            
+    </summary>
+    
+        
+</member>

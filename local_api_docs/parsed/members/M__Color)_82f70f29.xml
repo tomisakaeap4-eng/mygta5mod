@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color)">
+    
+            
+    <summary>
+        
+            Initializes a new instance of the 
+        <see cref="T:GTA.UI.TextElement"/>
+         class used for drawing text on the screen.
+            
+    </summary>
+    
+            
+    <param name="caption">
+        The 
+        <see cref="T:GTA.UI.TextElement"/>
+         to draw.
+    </param>
+    
+            
+    <param name="position">
+        Set the 
+        <see cref="P:GTA.UI.TextElement.Position"/>
+         on screen where to draw the 
+        <see cref="T:GTA.UI.TextElement"/>
+        .
+    </param>
+    
+            
+    <param name="scale">
+        Sets a 
+        <see cref="P:GTA.UI.TextElement.Scale"/>
+         used to increase of decrease the size of the 
+        <see cref="T:GTA.UI.TextElement"/>
+        , for no scaling use 1.0f.
+    </param>
+    
+            
+    <param name="color">
+        Set the 
+        <see cref="P:GTA.UI.TextElement.Color"/>
+         used to draw the 
+        <see cref="T:GTA.UI.TextElement"/>
+        .
+    </param>
+    
+        
+</member>

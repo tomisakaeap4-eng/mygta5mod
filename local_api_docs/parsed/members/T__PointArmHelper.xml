@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="T:GTA.NaturalMotion.PointArmHelper">
+    
+            
+    <summary>
+            BEHAVIOURS REFERENCED: AnimPose - allows animPose to override body parts: Arms (useLeftArm, useRightArm).
+            </summary>
+    
+        
+</member>

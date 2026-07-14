@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.UI.Screen.ShowHelpTextThisFrame(System.String)">
+    
+            
+    <summary>
+            Displays a help message in the top corner of the screen this frame. Beeping sound will be played.
+            </summary>
+    
+            
+    <param name="helpText">The text to display.</param>
+    
+        
+</member>

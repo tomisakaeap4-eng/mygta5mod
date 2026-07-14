@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Vector3.Round(System.Int32)">
+    
+            
+    <summary>
+            Rounds each float inside the vector to a select amount of decimal places (2 by default).
+            </summary>
+    
+            
+    <param name="decimalPlaces">Number of decimal places to round to</param>
+    
+            
+    <returns>The vector containing rounded values</returns>
+    
+        
+</member>

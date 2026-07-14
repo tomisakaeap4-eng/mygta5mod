@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Entity.IsMeleeProof">
+    
+            
+    <summary>
+        
+            Gets or sets a value indicating whether this 
+        <see cref="T:GTA.Entity"/>
+         is melee proof.
+            
+        <see cref="T:GTA.Ped"/>
+        s are not susceptible to the reactions of melee attacks when this property is set to 
+        <see langword="true"/>
+        .
+            
+    </summary>
+    
+            
+    <value>
+        
+            
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Entity"/>
+         is melee proof; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

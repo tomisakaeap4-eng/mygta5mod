@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Quaternion.Invert(GTA.Math.Quaternion)">
+    
+            
+    <summary>
+            Conjugates and renormalizes the quaternion.
+            </summary>
+    
+            
+    <param name="quaternion">The quaternion to conjugate and re-normalize.</param>
+    
+            
+    <returns>The conjugated and renormalized quaternion.</returns>
+    
+        
+</member>

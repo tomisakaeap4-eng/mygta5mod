@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Blip.ShowRoute">
+    
+            
+    <summary>
+        
+            Gets or sets a value indicating whether the route to this 
+        <see cref="T:GTA.Blip"/>
+         should be shown on the map.
+            
+    </summary>
+    
+            
+    <value>
+        
+              
+        <see langword="true"/>
+         to show the route; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

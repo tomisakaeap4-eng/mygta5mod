@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Entity.MarkAsNoLongerNeeded">
+    
+            
+    <summary>
+        
+            Marks this 
+        <see cref="T:GTA.Entity"/>
+         as no longer needed to keep and lets the game delete it when its too far away.
+            You can still manipulate this 
+        <see cref="T:GTA.Entity"/>
+         as long as the 
+        <see cref="T:GTA.Entity"/>
+         exists.
+            
+    </summary>
+    
+        
+</member>

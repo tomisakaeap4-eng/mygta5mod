@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.EntityBoneCollection.Item(System.Int32)">
+    
+            
+    <summary>
+        
+            Gets the 
+        <see cref="T:GTA.EntityBone"/>
+         at the specified bone index.
+            
+    </summary>
+    
+            
+    <param name="boneIndex">The bone index.</param>
+    
+        
+</member>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Model.IsBike">
+    
+            
+    <summary>
+        
+            Gets a value indicating whether this 
+        <see cref="T:GTA.Model"/>
+         is a bike (either a motorcycle or a bicycle).
+            
+    </summary>
+    
+            
+    <value>
+        
+            
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Model"/>
+         is a bike; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

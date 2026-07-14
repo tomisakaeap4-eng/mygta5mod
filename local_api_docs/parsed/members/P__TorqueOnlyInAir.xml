@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.StayUprightHelper.TorqueOnlyInAir">
+    
+            
+    <summary>
+            Only apply torque based constraint when airBorne.
+            </summary>
+    
+            
+    <remarks>
+            Default value = False.
+            </remarks>
+    
+        
+</member>

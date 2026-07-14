@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Matrix.op_Multiply(GTA.Math.Matrix,System.Single)">
+    
+            
+    <summary>
+            Scales a matrix by a given value.
+            </summary>
+    
+            
+    <param name="left">The matrix to scale.</param>
+    
+            
+    <param name="right">The amount by which to scale.</param>
+    
+            
+    <returns>The scaled matrix.</returns>
+    
+        
+</member>

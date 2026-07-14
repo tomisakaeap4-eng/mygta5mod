@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Player.RefillSpecialAbility">
+    
+            
+    <summary>
+        
+            Refills the special ability for this 
+        <see cref="T:GTA.Player"/>
+        .
+            
+    </summary>
+    
+        
+</member>

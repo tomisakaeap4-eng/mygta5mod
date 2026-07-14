@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.RaycastResult.DidHit">
+    
+            
+    <summary>
+            Gets a value indicating whether this ray cast collided with anything.
+            </summary>
+    
+        
+</member>

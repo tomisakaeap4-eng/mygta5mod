@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.BodyBalanceHelper.SomersaultAngleThreshold">
+    
+            
+    <summary>
+            Amount of somersault 'angle' before m_somersaultAngle is used for ArmsOut. Unless drunk - DO NOT EXCEED 0.8.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.3f.
+            Min value = 0.0f.
+            Max value = 10.0f.
+            </remarks>
+    
+        
+</member>

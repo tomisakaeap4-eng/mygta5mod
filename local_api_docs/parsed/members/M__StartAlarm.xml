@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Vehicle.StartAlarm">
+    
+            
+    <summary>
+        
+            Starts sounding the alarm on this 
+        <see cref="T:GTA.Vehicle"/>
+        .
+            
+    </summary>
+    
+        
+</member>

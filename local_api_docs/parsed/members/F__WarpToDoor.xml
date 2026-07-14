@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.EnterVehicleFlags.WarpToDoor">
+    
+            
+    <summary>
+        
+            Warp the 
+        <see cref="T:GTA.Ped"/>
+         to entry point ready to open the door/enter seat.
+            
+    </summary>
+    
+        
+</member>

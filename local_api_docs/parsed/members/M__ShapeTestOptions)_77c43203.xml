@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.ShapeTest.StartTestCapsule(GTA.Math.Vector3,GTA.Math.Vector3,System.Single,GTA.IntersectFlags,GTA.Entity,GTA.ShapeTestOptions)">
+    
+            
+    <summary>
+            Start a shape test against the area where shape test capsule covers.
+            </summary>
+    
+            
+    <param name="startPosition">The positon where the shape test starts.</param>
+    
+            
+    <param name="endPosition">The positon where the shape test ends.</param>
+    
+            
+    <param name="radius">The radius of the shape test capsule.</param>
+    
+            
+    <param name="intersectFlags">What type of objects the shape test should intersect with.</param>
+    
+            
+    <param name="excludeEntity">
+        Specify an 
+        <see cref="T:GTA.Entity"/>
+         that the shape test should exclude, leave null for no entities ignored.
+    </param>
+    
+            
+    <param name="options">Specify options for the spape test.</param>
+    
+            
+    <value>
+        
+            The shape test handle.
+            If this method fails to create the shape test request because there are too many ongoing requests, 
+        <see cref="P:GTA.ShapeTestHandle.IsRequestFailed"/>
+         will return 
+        <see langword="true"/>
+         on the handle struct.
+            
+    </value>
+    
+        
+</member>

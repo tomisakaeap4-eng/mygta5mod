@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.BlipColor.Trevor">
+    
+            
+    <summary>
+        
+            This color is usually #ABEDAB orange, which is very similar to 
+        <see cref="P:System.Drawing.Color.SandyBrown"/>
+        .
+            
+    </summary>
+    
+        
+</member>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.PointGunHelper.RifleConstraintMinDistance">
+    
+            
+    <summary>
+            Rifle constraint distance. Deliberately kept large to create a flat constraint surface where rifle meets the shoulder.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.2f.
+            Min value = 0.0f.
+            </remarks>
+    
+        
+</member>

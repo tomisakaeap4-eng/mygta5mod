@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Checkpoint.Exists">
+    
+            
+    <summary>
+        
+            Determines if this 
+        <see cref="T:GTA.Checkpoint"/>
+         exists.
+            
+    </summary>
+    
+            
+    <returns>
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Checkpoint"/>
+         exists; otherwise, 
+        <see langword="false"/>
+        .
+    </returns>
+    
+        
+</member>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.BodyWritheHelper.OnFire">
+    
+            
+    <summary>
+            Extra shoulderBlend. Rolling:one way only, maxRollOverTime, rollOverRadius, doesn't reduce arm stiffness to help rolling. No shoulder twist.
+            </summary>
+    
+            
+    <remarks>
+            Default value = False.
+            </remarks>
+    
+        
+</member>

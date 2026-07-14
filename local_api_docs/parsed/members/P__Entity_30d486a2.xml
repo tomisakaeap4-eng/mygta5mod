@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.ParticleEffect.Entity">
+    
+            
+    <summary>
+        
+            Gets the 
+        <see cref="T:GTA.Entity"/>
+         this 
+        <see cref="T:GTA.ParticleEffect"/>
+         is attached to or 
+        <see langword="null"/>
+         if there is none.
+            
+    </summary>
+    
+        
+</member>

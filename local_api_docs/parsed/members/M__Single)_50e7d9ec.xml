@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Quaternion.#ctor(System.Single,System.Single,System.Single,System.Single)">
+    
+            
+    <summary>
+        
+            Initializes a new instance of the 
+        <see cref="T:GTA.Math.Quaternion"/>
+         structure.
+            
+    </summary>
+    
+            
+    <param name="x">The X component of the quaternion.</param>
+    
+            
+    <param name="y">The Y component of the quaternion.</param>
+    
+            
+    <param name="z">The Z component of the quaternion.</param>
+    
+            
+    <param name="w">The W component of the quaternion.</param>
+    
+        
+</member>

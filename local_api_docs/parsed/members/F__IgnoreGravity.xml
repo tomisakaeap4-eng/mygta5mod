@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.AnimationFlags.IgnoreGravity">
+    
+            
+    <summary>
+            Do not apply gravity while the anim is playing.
+            </summary>
+    
+        
+</member>

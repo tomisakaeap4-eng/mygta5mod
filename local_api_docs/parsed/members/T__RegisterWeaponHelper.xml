@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="T:GTA.NaturalMotion.RegisterWeaponHelper">
+    
+            
+    <summary>
+            Use this message to register weapon.  This is an alternativeto the registerWeapon public function.
+            </summary>
+    
+        
+</member>

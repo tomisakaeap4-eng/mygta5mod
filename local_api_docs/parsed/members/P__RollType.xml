@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.BraceForImpactHelper.RollType">
+    
+            
+    <summary>
+            0 = original/roll off/stay on car:  Roll with character velocity, 1 = //Gentle: roll off/stay on car = use relative velocity of character to car to roll against, 2 = //roll over car:  Roll against character velocity.  i.e. roll against any velocity picked up by hitting car, 3 = //Gentle: roll over car:  use relative velocity of character to car to roll with.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 3.
+            Min value = 0.
+            Max value = 3.
+            </remarks>
+    
+        
+</member>

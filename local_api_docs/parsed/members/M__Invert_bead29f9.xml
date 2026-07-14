@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Quaternion.Invert">
+    
+            
+    <summary>
+            Conjugates and renormalizes the quaternion.
+            </summary>
+    
+        
+</member>

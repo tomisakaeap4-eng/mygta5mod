@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.NaturalMotion.ConfigureShotInjuredArmHelper.#ctor(GTA.Ped)">
+    
+            
+    <summary>
+        
+            Creates a new Instance of the ConfigureShotInjuredArmHelper for sending a ConfigureShotInjuredArm 
+        <see cref="T:GTA.NaturalMotion.Message"/>
+         to a given 
+        <see cref="T:GTA.Ped"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="ped">
+        The 
+        <see cref="T:GTA.Ped"/>
+         to send the ConfigureShotInjuredArm 
+        <see cref="T:GTA.NaturalMotion.Message"/>
+         to.
+    </param>
+    
+            
+    <remarks>
+            This single message allows you to configure the injured arm reaction during shot.
+            </remarks>
+    
+        
+</member>

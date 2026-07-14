@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.GameplayCamera.RelativeHeading">
+    
+            
+    <summary>
+        
+            Gets or sets the relative heading of the 
+        <see cref="T:GTA.GameplayCamera"/>
+        .
+            
+    </summary>
+    
+        
+</member>

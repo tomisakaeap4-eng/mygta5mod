@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ShotConfigureArmsHelper.AWRadiusMult">
+    
+            
+    <summary>
+            For armsWindmill, multiplier on character speed - increase of radii is proportional to character speed (max radius increase = 0.45).
+            E.g. lowering the value increases the range of velocity that the 0-0.45 is applied over.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 1.0f.
+            Min value = 0.0f.
+            Max value = 1.0f.
+            </remarks>
+    
+        
+</member>

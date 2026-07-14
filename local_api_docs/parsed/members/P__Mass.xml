@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.HandlingData.Mass">
+    
+            
+    <summary>
+            Gets or sets the weight.
+            </summary>
+    
+            
+    <value>
+            The weight in Kilograms.
+            </value>
+    
+        
+</member>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Native.OutputArgument.#ctor">
+    
+            
+    <summary>
+        
+            Initializes a new instance of the 
+        <see cref="T:GTA.Native.OutputArgument"/>
+         class for script functions that output data into pointers.
+            
+    </summary>
+    
+        
+</member>

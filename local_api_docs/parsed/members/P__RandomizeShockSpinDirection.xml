@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ShotShockSpinHelper.RandomizeShockSpinDirection">
+    
+            
+    <summary>
+            For use with close-range shotgun blasts, or similar.
+            </summary>
+    
+            
+    <remarks>
+            Default value = False.
+            </remarks>
+    
+        
+</member>

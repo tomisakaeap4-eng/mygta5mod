@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.WeaponComponentCollection.GetLuxuryFinishComponent">
+    
+            
+    <summary>
+        
+            Gets the first component of all the components for 
+        <see cref="F:GTA.WeaponAttachmentPoint.GunRoot"/>
+        .
+            Despite the method name, return value is not guaranteed to a 
+        <see cref="T:GTA.WeaponComponent"/>
+         instance that represents the luxury finish component.
+            
+    </summary>
+    
+            
+    <returns>
+        
+            The 
+        <see cref="T:GTA.WeaponComponent"/>
+         instance if the first component of all the components for 
+        <see cref="F:GTA.WeaponAttachmentPoint.GunRoot"/>
+         is found;
+            otherwise, the 
+        <see cref="T:GTA.WeaponComponent"/>
+         instance representing the invalid component.
+            
+    </returns>
+    
+        
+</member>

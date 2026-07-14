@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Game.WasButtonCombinationJustEntered(GTA.Button[])">
+    
+            
+    <summary>
+        
+            Gets whether a specific sequence of 
+        <see cref="T:GTA.Button"/>
+        s has been pressed.
+            
+    </summary>
+    
+            
+    <param name="buttons">
+        The sequence of 
+        <see cref="T:GTA.Button"/>
+        s in the order the user should enter them in-game.
+    </param>
+    
+            
+    <returns>
+        <see langword="true"/>
+         if the combination was just entered; otherwise, 
+        <see langword="false"/>
+    </returns>
+    
+            
+    <remarks>
+        
+            There must be between 6 and 29 inclusive 
+        <see cref="T:GTA.Button"/>
+        s otherwise an 
+        <see cref="T:System.ArgumentException"/>
+         is thrown.
+            It only works for GamePad inputs. The in-game cheat combinations use the same system.
+            
+    </remarks>
+    
+        
+</member>

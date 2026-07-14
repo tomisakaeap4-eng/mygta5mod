@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Vehicle.CanStandOnTop">
+    
+            
+    <summary>
+        
+            Gets a value indicating whether 
+        <see cref="T:GTA.Ped"/>
+        s can stand on this 
+        <see cref="T:GTA.Vehicle"/>
+         regardless of 
+        <see cref="T:GTA.Vehicle"/>
+        s speed.
+            
+    </summary>
+    
+            
+    <value>
+        
+            
+        <see langword="true"/>
+         if 
+        <see cref="T:GTA.Ped"/>
+        s can stand on this 
+        <see cref="T:GTA.Vehicle"/>
+         regardless of 
+        <see cref="T:GTA.Vehicle"/>
+        s speed; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.VehicleWheel.Vehicle">
+    
+            
+    <summary>
+        
+            Gets the 
+        <see cref="P:GTA.VehicleWheel.Vehicle"/>
+        this 
+        <see cref="T:GTA.VehicleWheel"/>
+         belongs to.
+            
+    </summary>
+    
+        
+</member>

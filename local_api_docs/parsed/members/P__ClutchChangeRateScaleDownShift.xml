@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.HandlingData.ClutchChangeRateScaleDownShift">
+    
+            
+    <summary>
+            Gets or sets the clutch speed multiplier on down shifts.
+            </summary>
+    
+            
+    <value>
+            The clutch speed multiplier on down shifts.
+            </value>
+    
+        
+</member>

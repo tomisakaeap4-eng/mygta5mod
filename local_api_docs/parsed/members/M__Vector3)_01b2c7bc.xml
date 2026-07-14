@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.GetZoneLocalizedName(GTA.Math.Vector3)">
+    
+            
+    <summary>
+            Gets the localized name of the a zone in the map.
+            </summary>
+    
+            
+    <param name="position">The position on the map.</param>
+    
+        
+</member>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ArmsWindmillHelper.LeftNormal">
+    
+            
+    <summary>
+            Euler Angles orientation of circle in space of part with part ID.
+            </summary>
+    
+            
+    <remarks>
+            Default value = Vector3(0.0f, 0.2f, 0.2f).
+            </remarks>
+    
+        
+</member>

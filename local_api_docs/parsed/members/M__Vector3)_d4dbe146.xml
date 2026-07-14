@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Quaternion.RotateTransform(GTA.Math.Quaternion,GTA.Math.Vector3,GTA.Math.Vector3)">
+    
+            
+    <summary>
+            Rotates the point with rotation.
+            </summary>
+    
+            
+    <param name="rotation">The quaternion to rotate the vector.</param>
+    
+            
+    <param name="point">The vector to be rotated.</param>
+    
+            
+    <param name="center">The vector representing the origin of the new coordinate system.</param>
+    
+            
+    <returns>The vector after rotation in the original coordinate system.</returns>
+    
+        
+</member>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ElectrocuteHelper.UseTorques">
+    
+            
+    <summary>
+            Use torques to make vibration otherwise use a change in the parts angular velocity.
+            </summary>
+    
+            
+    <remarks>
+            Default value = True.
+            </remarks>
+    
+        
+</member>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Entity.Quaternion">
+    
+            
+    <summary>
+        
+            Gets or sets the quaternion of this 
+        <see cref="T:GTA.Entity"/>
+        .
+            
+    </summary>
+    
+        
+</member>

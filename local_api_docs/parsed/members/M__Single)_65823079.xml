@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.GameplayCamera.ClampYaw(System.Single,System.Single)">
+    
+            
+    <summary>
+        
+            Clamps the yaw of the 
+        <see cref="T:GTA.GameplayCamera"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="min">The minimum yaw value.</param>
+    
+            
+    <param name="max">The maximum yaw value.</param>
+    
+        
+</member>

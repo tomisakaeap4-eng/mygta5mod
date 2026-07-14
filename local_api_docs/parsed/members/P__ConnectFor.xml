@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.PointGunHelper.ConnectFor">
+    
+            
+    <summary>
+            Time to try to reconnect for.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.6f.
+            Min value = 0.0f.
+            Max value = 5.0f.
+            </remarks>
+    
+        
+</member>

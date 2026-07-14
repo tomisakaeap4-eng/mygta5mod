@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Player.IsInvincible">
+    
+            
+    <summary>
+        
+            Gets or sets a value indicating whether this 
+        <see cref="T:GTA.Player"/>
+         is invincible.
+            
+    </summary>
+    
+            
+    <value>
+        
+            
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Player"/>
+         is invincible; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

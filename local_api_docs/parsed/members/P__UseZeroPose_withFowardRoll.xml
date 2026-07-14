@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.HighFallHelper.UseZeroPose_withFowardRoll">
+    
+            
+    <summary>
+            Blend to a zero pose when forward roll is attempted.
+            </summary>
+    
+            
+    <remarks>
+            Default value = False.
+            </remarks>
+    
+        
+</member>

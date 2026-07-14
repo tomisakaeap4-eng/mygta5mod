@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Vehicle.Exists">
+    
+            
+    <summary>
+        
+            Determines if this 
+        <see cref="T:GTA.Vehicle"/>
+         exists.
+            You should ensure 
+        <see cref="T:GTA.Vehicle"/>
+        s still exist before manipulating them or getting some values for them on every tick, since some native functions may crash the game if invalid entity handles are passed.
+            
+    </summary>
+    
+            
+    <returns>
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Vehicle"/>
+         exists; otherwise, 
+        <see langword="false"/>
+    </returns>
+    
+        
+</member>

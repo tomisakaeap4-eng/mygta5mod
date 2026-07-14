@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Vector2.Dot(GTA.Math.Vector2,GTA.Math.Vector2)">
+    
+            
+    <summary>
+            Calculates the dot product of two vectors.
+            </summary>
+    
+            
+    <param name="left">First source vector.</param>
+    
+            
+    <param name="right">Second source vector.</param>
+    
+            
+    <returns>The dot product of the two vectors.</returns>
+    
+        
+</member>

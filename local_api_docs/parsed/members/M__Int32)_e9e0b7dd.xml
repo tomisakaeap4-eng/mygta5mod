@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Native.GlobalVariable.Get(System.Int32)">
+    
+            
+    <summary>
+            Gets the global variable at the specified index.
+            </summary>
+    
+            
+    <param name="index">The index of the global variable.</param>
+    
+            
+    <returns>
+        A 
+        <see cref="T:GTA.Native.GlobalVariable"/>
+         instance representing the global variable.
+    </returns>
+    
+        
+</member>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.PointGunHelper.FallingTypeSupport">
+    
+            
+    <summary>
+            What is considered a fall by fallingSupport). Apply fallingSupport 0=never(will support if allowed), 1 = falling, 2 = falling except if falling backwards, 3 = falling and collided, 4 = falling and collided except if falling backwards, 5 = falling except if falling backwards until collided.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.
+            Min value = 0.
+            Max value = 5.
+            </remarks>
+    
+        
+</member>

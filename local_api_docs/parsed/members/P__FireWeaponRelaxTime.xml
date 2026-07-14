@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.PointGunHelper.FireWeaponRelaxTime">
+    
+            
+    <summary>
+            Duration of arms relax following firing weapon.  NB:This is clamped (0,5) in pointGun.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.4f.
+            Min value = 0.0f.
+            Max value = 5.0f.
+            </remarks>
+    
+        
+</member>

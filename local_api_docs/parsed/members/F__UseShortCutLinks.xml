@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.VehicleDrivingFlags.UseShortCutLinks">
+    
+            
+    <summary>
+        
+            Allow the 
+        <see cref="T:GTA.Ped"/>
+         to use short cut links (e.g. the 180? turns on the highways without the direction sign).
+            
+    </summary>
+    
+        
+</member>

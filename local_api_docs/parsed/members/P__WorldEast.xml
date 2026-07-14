@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Math.Vector3.WorldEast">
+    
+            
+    <summary>
+            Returns the world East vector. (1,0,0)
+            </summary>
+    
+        
+</member>

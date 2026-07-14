@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.CreateRandomPed(GTA.Math.Vector3)">
+    
+            
+    <summary>
+        
+            Spawns a 
+        <see cref="T:GTA.Ped"/>
+         of a random 
+        <see cref="T:GTA.Model"/>
+         at the position specified.
+            
+    </summary>
+    
+            
+    <param name="position">
+        The position to spawn the 
+        <see cref="T:GTA.Ped"/>
+         at.
+    </param>
+    
+        
+</member>

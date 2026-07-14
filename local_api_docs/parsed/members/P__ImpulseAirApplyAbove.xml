@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ConfigureBulletsHelper.ImpulseAirApplyAbove">
+    
+            
+    <summary>
+            If impulse is above this amount then do not scale/clamp just let it through as is - it's a shotgun or cannon.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 399.0f.
+            Min value = 0.0f.
+            </remarks>
+    
+        
+</member>

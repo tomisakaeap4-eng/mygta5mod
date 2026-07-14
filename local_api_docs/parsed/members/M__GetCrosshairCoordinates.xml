@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.GetCrosshairCoordinates">
+    
+            
+    <summary>
+            Determines where the crosshair intersects with the world.
+            </summary>
+    
+            
+    <returns>
+        A 
+        <see cref="T:GTA.RaycastResult"/>
+         containing information about where the crosshair intersects with the world.
+    </returns>
+    
+        
+</member>

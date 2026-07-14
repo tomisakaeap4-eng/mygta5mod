@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Model.IsBigVehicle">
+    
+            
+    <summary>
+        
+            Gets a value indicating whether this 
+        <see cref="T:GTA.Model"/>
+         is a big vehicle whose vehicle flag has &quot;FLAG_BIG&quot;.
+            
+    </summary>
+    
+            
+    <value>
+        
+            
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Model"/>
+         is a big vehicle; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

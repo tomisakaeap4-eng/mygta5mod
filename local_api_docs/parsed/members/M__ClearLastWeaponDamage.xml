@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Entity.ClearLastWeaponDamage">
+    
+            
+    <summary>
+        
+            Clears the last weapon damage this 
+        <see cref="T:GTA.Entity"/>
+         received.
+            
+    </summary>
+    
+        
+</member>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.World.RenderingCamera">
+    
+            
+    <summary>
+            Gets or sets the rendering camera.
+            </summary>
+    
+            
+    <value>
+        
+            The rendering 
+        <see cref="T:GTA.Camera"/>
+        .
+            
+    </value>
+    
+            
+    <remarks>
+        
+            Setting to 
+        <see langword="null"/>
+         sets the rendering 
+        <see cref="T:GTA.Camera"/>
+         to 
+        <see cref="T:GTA.GameplayCamera"/>
+        .
+            
+    </remarks>
+    
+        
+</member>

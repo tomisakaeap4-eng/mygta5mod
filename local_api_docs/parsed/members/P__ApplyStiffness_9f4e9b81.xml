@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ElectrocuteHelper.ApplyStiffness">
+    
+            
+    <summary>
+            Let electrocute apply a (higher generally) stiffness to the character whilst being vibrated.
+            </summary>
+    
+            
+    <remarks>
+            Default value = True.
+            </remarks>
+    
+        
+</member>

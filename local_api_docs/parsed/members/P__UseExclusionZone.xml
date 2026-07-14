@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.TeeterHelper.UseExclusionZone">
+    
+            
+    <summary>
+            Stop stepping across the line defined by edgeLeft and edgeRight.
+            </summary>
+    
+            
+    <remarks>
+            Default value = True.
+            </remarks>
+    
+        
+</member>

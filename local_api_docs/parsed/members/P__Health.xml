@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Entity.Health">
+    
+            
+    <summary>
+        
+            Gets or sets the health of this 
+        <see cref="T:GTA.Entity"/>
+         as an 
+        <see cref="T:System.Int32"/>
+        .
+            
+        <para>
+            Use 
+            <see cref="P:GTA.Entity.HealthFloat"/>
+             instead if you need to get or set the value precisely, since a health value of a 
+            <see cref="T:GTA.Entity"/>
+             are stored as a 
+            <see cref="T:System.Single"/>
+            .
+        </para>
+        
+            
+    </summary>
+    
+            
+    <value>
+        
+            The health as an 
+        <see cref="T:System.Int32"/>
+        .
+            
+    </value>
+    
+            
+    <seealso cref="P:GTA.Entity.HealthFloat"/>
+    
+        
+</member>

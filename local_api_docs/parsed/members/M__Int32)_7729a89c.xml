@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.InteriorProxy.FromHandle(System.Int32)">
+    
+            
+    <summary>
+        
+            Creates a new instance of an 
+        <see cref="T:GTA.InteriorProxy"/>
+         from the given handle.
+            
+    </summary>
+    
+            
+    <param name="handle">The interior proxy handle.</param>
+    
+            
+    <returns>
+        
+            Returns a 
+        <see cref="T:GTA.InteriorProxy"/>
+         if this handle corresponds to a 
+        <see cref="T:GTA.InteriorProxy"/>
+        .
+            Returns 
+        <see langword="null"/>
+         if no 
+        <see cref="T:GTA.Entity"/>
+         exists this the specified 
+        <paramref name="handle"/>
+        
+            
+    </returns>
+    
+        
+</member>

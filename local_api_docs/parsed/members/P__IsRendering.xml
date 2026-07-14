@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.GameplayCamera.IsRendering">
+    
+            
+    <summary>
+        
+            Gets a value indicating whether the 
+        <see cref="T:GTA.GameplayCamera"/>
+         is rendering.
+            
+    </summary>
+    
+            
+    <value>
+        
+            
+        <see langword="true"/>
+         if the 
+        <see cref="T:GTA.GameplayCamera"/>
+         is rendering; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

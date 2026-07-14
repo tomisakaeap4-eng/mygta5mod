@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Quaternion.RotationAxis(GTA.Math.Vector3,System.Single)">
+    
+            
+    <summary>
+            Creates a quaternion given a rotation and an axis.
+            </summary>
+    
+            
+    <param name="axis">The axis of rotation.</param>
+    
+            
+    <param name="angle">The angle of rotation in radians.</param>
+    
+            
+    <returns>The newly created quaternion.</returns>
+    
+        
+</member>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.CreateRandomPed(GTA.Math.Vector3,System.Single,System.Func{GTA.Model,System.Boolean})">
+    
+            
+    <summary>
+        
+            Spawns a 
+        <see cref="T:GTA.Ped"/>
+         of a random 
+        <see cref="T:GTA.Model"/>
+         at the position specified.
+            
+    </summary>
+    
+            
+    <param name="position">
+        The position to spawn the 
+        <see cref="T:GTA.Ped"/>
+         at.
+    </param>
+    
+            
+    <param name="heading">
+        The heading of the 
+        <see cref="T:GTA.Ped"/>
+        .
+    </param>
+    
+            
+    <param name="predicate">
+        
+            The method that determines whether a model should be considered when choosing a random model for the 
+        <see cref="T:GTA.Ped"/>
+        .
+            If 
+        <see langword="null"/>
+         is set, gangster and animal models will not be chosen, just like CREATE_PED does.
+            
+    </param>
+    
+        
+</member>

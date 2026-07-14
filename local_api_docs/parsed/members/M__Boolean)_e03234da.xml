@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.TaskInvoker.StartVehicleMission(GTA.Vehicle,GTA.Ped,GTA.VehicleMissionType,System.Single,GTA.VehicleDrivingFlags,System.Single,System.Single,System.Boolean)">
+    
+            
+    <summary>
+        Tells the 
+        <see cref="T:GTA.Ped"/>
+         to target another ped with a vehicle.
+    </summary>
+    
+            
+    <param name="vehicle">
+        The 
+        <see cref="T:GTA.Vehicle"/>
+         to use to achieve the task.
+    </param>
+    
+            
+    <param name="target">
+        The target 
+        <see cref="T:GTA.Ped"/>
+        .
+    </param>
+    
+            
+    <param name="missionType">The vehicle mission type.</param>
+    
+            
+    <param name="cruiseSpeed">The cruise speed for the task.</param>
+    
+            
+    <param name="drivingFlags">The driving flags for the task.</param>
+    
+            
+    <param name="targetReachedDist">
+        The distance at which the AI thinks the target has been reached and the car stops. To pick default value, the parameter can be passed in as 
+        <c>-1</c>
+        .
+    </param>
+    
+            
+    <param name="straightLineDist">
+        The distance at which the AI switches to heading for the target directly instead of following the nodes. To pick default value, the parameter can be passed in as 
+        <c>-1</c>
+        .
+    </param>
+    
+            
+    <param name="driveAgainstTraffic">
+        if set to 
+        <see langword="true"/>
+        , allows the car to drive on the opposite side of the road into incoming traffic.
+    </param>
+    
+        
+</member>

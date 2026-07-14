@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Entity.RotationVelocity">
+    
+            
+    <summary>
+        
+            Gets or sets the rotation velocity of this 
+        <see cref="T:GTA.Entity"/>
+         in local space.
+            
+    </summary>
+    
+        
+</member>

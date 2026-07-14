@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Vector2.op_Addition(GTA.Math.Vector2,GTA.Math.Vector2)">
+    
+            
+    <summary>
+            Adds two vectors.
+            </summary>
+    
+            
+    <param name="left">The first vector to add.</param>
+    
+            
+    <param name="right">The second vector to add.</param>
+    
+            
+    <returns>The sum of the two vectors.</returns>
+    
+        
+</member>

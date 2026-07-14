@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.HeadLookHelper.EyesHorizontal">
+    
+            
+    <summary>
+            Keep the eyes horizontal.  Use true for impact with cars.  Use false if you want better look at target accuracy when the character is on the floor or leaned over alot.
+            </summary>
+    
+            
+    <remarks>
+            Default value = True.
+            </remarks>
+    
+        
+</member>

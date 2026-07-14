@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.LeaveVehicleFlags.BlockSeatShuffling">
+    
+            
+    <summary>
+            Disable shuffling, forcing ped to use direct door only.
+            </summary>
+    
+        
+</member>

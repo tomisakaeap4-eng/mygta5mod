@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Rope.PinVertex(System.Int32,GTA.Math.Vector3)">
+    
+            
+    <summary>
+        
+            Pin a vertex of this 
+        <see cref="T:GTA.Rope"/>
+         to a 
+        <paramref name="position"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="vertex">The index of the vertex.</param>
+    
+            
+    <param name="position">The position in world coordinates to pin to.</param>
+    
+        
+</member>

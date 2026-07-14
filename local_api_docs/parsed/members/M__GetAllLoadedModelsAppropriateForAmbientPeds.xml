@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Ped.GetAllLoadedModelsAppropriateForAmbientPeds">
+    
+            
+    <summary>
+        
+            Gets an 
+        <c>array</c>
+         of all loaded 
+        <see cref="T:GTA.PedHash"/>
+        s that is appropriate to spawn as ambient vehicles.
+            The result array can contains animal hashes, which CREATE_RANDOM_PED excludes to spawn.
+            All the model hashes of the elements are loaded and the 
+        <see cref="T:GTA.Ped"/>
+        s with the model hashes can be spawned immediately.
+            
+    </summary>
+    
+        
+</member>

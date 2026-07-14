@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="T:GTA.ShapeTestHandle">
+    
+            
+    <summary>
+        
+            Represents a shape test handle.
+            You need to call 
+        <see cref="O:GetResult"/>
+         or 
+        <see cref="O:GetResultIncludingMaterial"/>
+         every frame until one of the methods returns 
+        <see cref="F:GTA.ShapeTestStatus.Ready"/>
+        .
+            
+    </summary>
+    
+        
+</member>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Entity.IsCollisionEnabled">
+    
+            
+    <summary>
+        
+            Gets or sets a value indicating whether this 
+        <see cref="T:GTA.Entity"/>
+         has collision.
+            
+    </summary>
+    
+            
+    <value>
+        
+            
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Entity"/>
+         has collision; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

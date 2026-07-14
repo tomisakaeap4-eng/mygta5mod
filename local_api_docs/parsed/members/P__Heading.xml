@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Entity.Heading">
+    
+            
+    <summary>
+        
+            Gets or sets the heading of this 
+        <see cref="T:GTA.Entity"/>
+        .
+            
+    </summary>
+    
+            
+    <value>
+            The heading in degrees.
+            </value>
+    
+        
+</member>

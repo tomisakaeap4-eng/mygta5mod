@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="T:GTA.NaturalMotion.ForceToBodyPartHelper">
+    
+            
+    <summary>
+            Apply an impulse to a named body part.
+            </summary>
+    
+        
+</member>

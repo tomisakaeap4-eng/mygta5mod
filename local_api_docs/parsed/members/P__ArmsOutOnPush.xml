@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.BodyBalanceHelper.ArmsOutOnPush">
+    
+            
+    <summary>
+            Put arms out based on lean2 of legs, or angular velocity (lean or twist), or lean (front/back or side/side).
+            </summary>
+    
+            
+    <remarks>
+            Default value = True.
+            </remarks>
+    
+        
+</member>

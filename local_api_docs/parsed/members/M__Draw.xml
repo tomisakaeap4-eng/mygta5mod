@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.UI.ContainerElement.Draw">
+    
+            
+    <summary>
+        
+            Draws this 
+        <see cref="T:GTA.UI.ContainerElement"/>
+         this frame.
+            
+    </summary>
+    
+        
+</member>

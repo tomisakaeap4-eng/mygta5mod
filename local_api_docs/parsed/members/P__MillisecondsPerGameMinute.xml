@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.World.MillisecondsPerGameMinute">
+    
+            
+    <summary>
+            Gets or sets how many milliseconds in the real world one game minute takes.
+            </summary>
+    
+            
+    <value>
+            The milliseconds one game minute takes in the real world.
+            </value>
+    
+        
+</member>

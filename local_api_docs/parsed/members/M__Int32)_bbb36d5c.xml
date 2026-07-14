@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Native.GlobalVariable.SetBit(System.Int32)">
+    
+            
+    <summary>
+        
+            Set the value of a specific bit of the 
+        <see cref="T:GTA.Native.GlobalVariable"/>
+         to true.
+            
+    </summary>
+    
+            
+    <param name="index">
+        The zero indexed bit of the 
+        <see cref="T:GTA.Native.GlobalVariable"/>
+         to set.
+    </param>
+    
+        
+</member>

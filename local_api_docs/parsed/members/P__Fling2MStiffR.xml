@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffR">
+    
+            
+    <summary>
+            Muscle stiffness of the right arm.
+            If negative then uses the shots underlying muscle stiffness from controlStiffness (i.e. respects looseness).
+            </summary>
+    
+            
+    <remarks>
+            Default value = -1.0f.
+            Min value = -1.0f.
+            Max value = 1.5f.
+            </remarks>
+    
+        
+</member>

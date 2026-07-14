@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.AnimatedBuilding.MemoryAddress">
+    
+            
+    <summary>
+        
+            Gets the memory address where the 
+        <see cref="T:GTA.AnimatedBuilding"/>
+         is stored in memory.
+            
+    </summary>
+    
+        
+</member>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Vehicle.CurrentGear">
+    
+            
+    <summary>
+        
+            Gets or sets the current gear this 
+        <see cref="T:GTA.Vehicle"/>
+         is using.
+            
+    </summary>
+    
+        
+</member>

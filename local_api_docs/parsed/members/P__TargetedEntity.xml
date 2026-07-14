@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Player.TargetedEntity">
+    
+            
+    <summary>
+        
+            Gets the 
+        <see cref="T:GTA.Entity"/>
+         this 
+        <see cref="T:GTA.Player"/>
+         is free aiming.
+            
+    </summary>
+    
+            
+    <returns>
+        The 
+        <see cref="T:GTA.Entity"/>
+         if this 
+        <see cref="T:GTA.Player"/>
+         is free aiming any 
+        <see cref="T:GTA.Entity"/>
+        ; otherwise, 
+        <see langword="null"/>
+    </returns>
+    
+        
+</member>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.GameplayCamera.IsLookingBehind">
+    
+            
+    <summary>
+        
+            Gets a value indicating whether the 
+        <see cref="T:GTA.GameplayCamera"/>
+         is looking behind.
+            
+    </summary>
+    
+            
+    <value>
+        
+            
+        <see langword="true"/>
+         if the 
+        <see cref="T:GTA.GameplayCamera"/>
+         is looking behind; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

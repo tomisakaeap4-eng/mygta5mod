@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.World.ProjectileCapacity">
+    
+            
+    <summary>
+        
+            The total number of 
+        <see cref="T:GTA.Projectile"/>
+        s that can exist in the world.
+            Always returns 50 currently since the limit is hard-coded in the exe.
+            
+    </summary>
+    
+        
+</member>

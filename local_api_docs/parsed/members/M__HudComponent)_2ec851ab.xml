@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.UI.Hud.HideComponentThisFrame(GTA.UI.HudComponent)">
+    
+            
+    <summary>
+        
+            Hides the specified 
+        <see cref="T:GTA.UI.HudComponent"/>
+         this frame.
+            
+    </summary>
+    
+            
+    <param name="component">
+        The 
+        <see cref="T:GTA.UI.HudComponent"/>
+         to hide.
+    </param>
+    
+        
+</member>

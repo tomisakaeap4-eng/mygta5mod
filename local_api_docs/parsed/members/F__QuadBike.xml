@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.VehicleType.QuadBike">
+    
+            
+    <summary>
+        
+            The non-special quad bike type. Also includes tricycles, such as 
+        <see cref="F:GTA.VehicleHash.Chimera"/>
+        , 
+        <see cref="F:GTA.VehicleHash.RRocket"/>
+        , and 
+        <see cref="F:GTA.VehicleHash.Stryder"/>
+        .
+            
+    </summary>
+    
+            
+    <remarks>
+        
+            
+        <para>
+            Amphibious quad bikes are not classified as this type but classified as 
+            <see cref="F:GTA.VehicleType.AmphibiousQuadBike"/>
+            .
+        </para>
+        
+            
+        <para>
+            The corresponding name in vehicles.meta for this value is 
+            <c>VEHICLE_TYPE_QUADBIKE</c>
+            .
+        </para>
+        
+            
+        <para>
+            The internal class in memory is 
+            <c>CQuadBike</c>
+            , which is a subclass of 
+            <c>CAutomobile</c>
+            .
+        </para>
+        
+            
+    </remarks>
+    
+        
+</member>

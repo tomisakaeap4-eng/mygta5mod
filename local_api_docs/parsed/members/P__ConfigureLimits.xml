@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.Euphoria.ConfigureLimits">
+    
+            
+    <summary>
+        
+            Gets a ConfigureLimits Helper class for sending ConfigureLimits 
+        <see cref="T:GTA.NaturalMotion.Message"/>
+         to this 
+        <see cref="T:GTA.Ped"/>
+        .
+            
+    </summary>
+    
+            
+    <remarks>
+            Enable/disable/edit character limits in real time.  This adjusts limits in RAGE-native space and will *not* reorient the joint.
+            </remarks>
+    
+        
+</member>

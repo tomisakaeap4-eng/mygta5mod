@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.BraceForImpactHelper.MaxGrabCarVelocity">
+    
+            
+    <summary>
+            Don't try to grab a car moving above this speed mmmmtodo make this the relative velocity of car to character?.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 95.0f.
+            Min value = 0.0f.
+            Max value = 1000.0f.
+            </remarks>
+    
+        
+</member>

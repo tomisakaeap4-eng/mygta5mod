@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.PauseClock(System.Boolean)">
+    
+            
+    <summary>
+            Pauses or resumes the in-game clock.
+            </summary>
+    
+            
+    <param name="value">
+        Pauses the game clock if set to 
+        <see langword="true"/>
+        ; otherwise, resumes the game clock.
+    </param>
+    
+        
+</member>

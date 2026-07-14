@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Player.WantedLevel">
+    
+            
+    <summary>
+        
+            Gets or sets the wanted level for this 
+        <see cref="T:GTA.Player"/>
+        .
+            
+    </summary>
+    
+        
+</member>

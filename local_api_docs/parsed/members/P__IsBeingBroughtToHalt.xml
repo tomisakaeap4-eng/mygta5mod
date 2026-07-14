@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Vehicle.IsBeingBroughtToHalt">
+    
+            
+    <summary>
+        
+            Checks if this 
+        <see cref="T:GTA.Vehicle"/>
+         is being brought to a halt.
+            
+    </summary>
+    
+        
+</member>

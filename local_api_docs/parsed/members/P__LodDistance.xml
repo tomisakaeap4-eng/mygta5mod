@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Entity.LodDistance">
+    
+            
+    <summary>
+        
+            Gets or sets the level of detail distance of this 
+        <see cref="T:GTA.Entity"/>
+        .
+            
+    </summary>
+    
+        
+</member>

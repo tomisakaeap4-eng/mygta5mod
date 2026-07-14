@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Math.Vector3.WorldDown">
+    
+            
+    <summary>
+            Returns the world Down vector. (0,0,-1)
+            </summary>
+    
+        
+</member>

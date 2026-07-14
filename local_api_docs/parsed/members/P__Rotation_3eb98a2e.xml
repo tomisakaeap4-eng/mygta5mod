@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.ParticleEffect.Rotation">
+    
+            
+    <summary>
+        
+            Sets the rotation of this 
+        <see cref="T:GTA.ParticleEffect"/>
+        
+            
+    </summary>
+    
+        
+</member>

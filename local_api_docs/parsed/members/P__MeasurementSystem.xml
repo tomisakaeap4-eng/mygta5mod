@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Game.MeasurementSystem">
+    
+            
+    <summary>
+            Gets the measurement system the game uses to display.
+            </summary>
+    
+        
+</member>

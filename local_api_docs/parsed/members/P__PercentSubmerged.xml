@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.HandlingData.PercentSubmerged">
+    
+            
+    <summary>
+            Gets or sets the percentage of the &quot;floating height&quot; after it falls into the water, before sinking.
+            </summary>
+    
+            
+    <value>
+            The percentage between 0 and 1.
+            </value>
+    
+            
+    <remarks>
+            The default value for vanilla land vehicles is 0.85. The value will stop sinking the vehicle to float for a moment before sinking.
+            An invalid number will cause the vehicle to sink without the driver drowning.
+            </remarks>
+    
+        
+</member>

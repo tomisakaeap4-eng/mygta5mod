@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.VehicleDrivingFlags.UseSwitchedOffNodes">
+    
+            
+    <summary>
+        
+            Allow the 
+        <see cref="T:GTA.Ped"/>
+         to drive on switched off nodes, which are usually located at paths whose colors on the map are darker than roads for driving (e.g. some dirt roads), and on parking lots.
+            You can check if some nodes are marked as switched off with 
+        <c>GET_VEHICLE_NODE_IS_SWITCHED_OFF</c>
+        .
+            
+    </summary>
+    
+        
+</member>

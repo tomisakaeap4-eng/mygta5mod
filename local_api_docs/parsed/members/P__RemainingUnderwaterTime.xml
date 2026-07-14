@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Player.RemainingUnderwaterTime">
+    
+            
+    <summary>
+        
+            Gets how long this 
+        <see cref="T:GTA.Player"/>
+         can stay underwater before they start losing health.
+            
+    </summary>
+    
+        
+</member>

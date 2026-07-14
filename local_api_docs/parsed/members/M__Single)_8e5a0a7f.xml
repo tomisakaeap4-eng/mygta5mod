@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Player.ChargeSpecialAbility(System.Single)">
+    
+            
+    <summary>
+        
+            Charges the special ability for this 
+        <see cref="T:GTA.Player"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="normalizedRatio">
+        The amount between 
+        <c>0.0f</c>
+         and 
+        <c>1.0f</c>
+    </param>
+    
+        
+</member>

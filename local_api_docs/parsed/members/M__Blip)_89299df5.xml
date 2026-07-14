@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Blip.op_Inequality(GTA.Blip,GTA.Blip)">
+    
+            
+    <summary>
+        
+            Determines if two 
+        <see cref="T:GTA.Blip"/>
+        s don't refer to the same blip.
+            
+    </summary>
+    
+            
+    <param name="left">
+        The left 
+        <see cref="T:GTA.Pickup"/>
+        .
+    </param>
+    
+            
+    <param name="right">
+        The right 
+        <see cref="T:GTA.Pickup"/>
+        .
+    </param>
+    
+            
+    <returns>
+        <see langword="true"/>
+         if 
+        <paramref name="left"/>
+         is not the same blip as 
+        <paramref name="right"/>
+        ; otherwise, 
+        <see langword="false"/>
+        .
+    </returns>
+    
+        
+</member>

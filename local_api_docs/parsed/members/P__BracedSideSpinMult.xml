@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ShotShockSpinHelper.BracedSideSpinMult">
+    
+            
+    <summary>
+            If shot on a side with a forward foot and both feet are on the ground and balanced, increase the shockspin to compensate for the balancer naturally resisting spin to that side.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 1.0f.
+            Min value = 1.0f.
+            Max value = 5.0f.
+            </remarks>
+    
+        
+</member>

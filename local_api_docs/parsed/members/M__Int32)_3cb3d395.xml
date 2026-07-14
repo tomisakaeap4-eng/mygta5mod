@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.WeaponComponentCollection.GetScopeComponent(System.Int32)">
+    
+            
+    <summary>
+            Gets the scope component at the index.
+            </summary>
+    
+            
+    <param name="index">The index of the scope component subset of all the weapon component array.</param>
+    
+            
+    <returns>
+        
+            A 
+        <see cref="T:GTA.WeaponComponent"/>
+         instance if the 
+        <see cref="T:GTA.WeaponComponent"/>
+         at the 
+        <paramref name="index"/>
+         of the scope component subset is found;
+            otherwise, the 
+        <see cref="T:GTA.WeaponComponent"/>
+         instance representing the invalid component.
+            
+    </returns>
+    
+        
+</member>

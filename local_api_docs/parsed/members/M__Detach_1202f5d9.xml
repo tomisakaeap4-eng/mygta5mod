@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Entity.Detach">
+    
+            
+    <summary>
+        
+            Detaches this 
+        <see cref="T:GTA.Entity"/>
+         from any 
+        <see cref="T:GTA.Entity"/>
+         it may be attached to.
+            
+    </summary>
+    
+        
+</member>

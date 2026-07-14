@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Script.BaseDirectory">
+    
+            
+    <summary>
+        
+            Gets the Directory where this 
+        <see cref="T:GTA.Script"/>
+         is stored.
+            
+    </summary>
+    
+        
+</member>

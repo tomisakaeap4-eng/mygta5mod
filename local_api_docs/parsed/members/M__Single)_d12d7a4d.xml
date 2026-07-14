@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Game.SetControlValueNormalized(GTA.Control,System.Single)">
+    
+            
+    <summary>
+        
+            Override a 
+        <see cref="T:GTA.Control"/>
+         by giving it a user-defined value this frame.
+            
+    </summary>
+    
+            
+    <param name="control">
+        The 
+        <see cref="T:GTA.Control"/>
+         to check.
+    </param>
+    
+            
+    <param name="value">the value to set the control to.</param>
+    
+        
+</member>

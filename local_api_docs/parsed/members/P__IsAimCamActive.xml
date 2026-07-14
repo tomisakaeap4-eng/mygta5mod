@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.GameplayCamera.IsAimCamActive">
+    
+            
+    <summary>
+            Gets a value indicating whether the aiming camera is rendering.
+            </summary>
+    
+            
+    <value>
+        
+            
+        <see langword="true"/>
+         if the aiming camera is rendering; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

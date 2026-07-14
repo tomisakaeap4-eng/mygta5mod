@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ArmsWindmillAdaptiveHelper.BendLeftElbow">
+    
+            
+    <summary>
+            If true, bend the left elbow to give a stunt man type scramble look.
+            </summary>
+    
+            
+    <remarks>
+            Default value = False.
+            </remarks>
+    
+        
+</member>

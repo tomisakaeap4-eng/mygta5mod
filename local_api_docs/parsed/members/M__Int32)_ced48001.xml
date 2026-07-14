@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.UI.Screen.ShowSubtitle(System.String,System.Int32)">
+    
+            
+    <summary>
+            Shows a subtitle at the bottom of the screen for a given time
+            </summary>
+    
+            
+    <param name="message">The message to display.</param>
+    
+            
+    <param name="duration">The duration to display the subtitle in milliseconds.</param>
+    
+        
+</member>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.CheckpointCustomIcon.#ctor(GTA.CheckpointCustomIconStyle,System.Byte)">
+    
+            
+    <summary>
+        
+            Initializes a new instance of the 
+        <see cref="T:GTA.CheckpointCustomIcon"/>
+         struct.
+            
+    </summary>
+    
+            
+    <param name="iconStyle">The icon style.</param>
+    
+            
+    <param name="iconNumber">
+        The icon number,
+            if 
+        <paramref name="iconStyle"/>
+         is 
+        <see cref="F:GTA.CheckpointCustomIconStyle.Number"/>
+         allowed range is 0 - 99
+            otherwise allowed range is 0 - 9. 
+    </param>
+    
+        
+</member>

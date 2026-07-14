@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.BodyBalanceHelper.BlendToZeroPose">
+    
+            
+    <summary>
+            Blend upper body to zero pose as the character comes to rest. If false blend to a stored pose.
+            </summary>
+    
+            
+    <remarks>
+            Default value = False.
+            </remarks>
+    
+        
+</member>

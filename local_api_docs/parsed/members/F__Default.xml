@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.BlipDisplayType.Default">
+    
+            
+    <summary>
+        
+            The default value on blip creation. Works in the same way as 
+        <see cref="F:GTA.BlipDisplayType.BothMapSelectable"/>
+        .
+            
+    </summary>
+    
+        
+</member>

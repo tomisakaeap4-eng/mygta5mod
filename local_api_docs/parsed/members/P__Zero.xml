@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Math.Matrix.Zero">
+    
+            
+    <summary>
+        
+            A 
+        <see cref="T:GTA.Math.Matrix"/>
+         with all of its components set to zero.
+            
+    </summary>
+    
+        
+</member>

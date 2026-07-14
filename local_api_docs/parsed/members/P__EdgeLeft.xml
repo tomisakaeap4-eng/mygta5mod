@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.TeeterHelper.EdgeLeft">
+    
+            
+    <summary>
+            Defines the left edge point (left of character facing edge).
+            </summary>
+    
+            
+    <remarks>
+            Default value = Vector3(39.5f, 38.9f, 21.1f).
+            Min value = 0.0f.
+            </remarks>
+    
+        
+</member>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Game.LastInputMethod">
+    
+            
+    <summary>
+            Gets whether the last input was made with a GamePad or keyboard and mouse.
+            </summary>
+    
+        
+</member>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Audio.PlaySoundFrontend(System.String,System.String)">
+    
+            
+    <summary>
+            Plays a sound from the game's sound files without transformation.
+            </summary>
+    
+            
+    <param name="soundFile">The sound file to play.</param>
+    
+            
+    <param name="soundSet">The name of the sound inside the file.</param>
+    
+            
+    <returns>The identifier of the active sound effect instance.</returns>
+    
+        
+</member>

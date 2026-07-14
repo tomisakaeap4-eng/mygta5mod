@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.Euphoria.LeanTowardsObject">
+    
+            
+    <summary>
+        
+            Gets a LeanTowardsObject Helper class for sending LeanTowardsObject 
+        <see cref="T:GTA.NaturalMotion.Message"/>
+         to this 
+        <see cref="T:GTA.Ped"/>
+        .
+            
+    </summary>
+    
+        
+</member>

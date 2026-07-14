@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Game.IsKeyPressed(System.Windows.Forms.Keys)">
+    
+            
+    <summary>
+            Gets whether the specified key is currently held down.
+            </summary>
+    
+            
+    <param name="key">The key to check.</param>
+    
+        
+</member>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.EntityBone.PoseMatrix">
+    
+            
+    <summary>
+        
+            Gets or sets the dynamic 
+        <see cref="T:GTA.Math.Matrix"/>
+         of this 
+        <see cref="T:GTA.EntityBone"/>
+         relative to the 
+        <see cref="T:GTA.Entity"/>
+         its part of.
+            
+    </summary>
+    
+        
+</member>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Projectile.Explode">
+    
+            
+    <summary>
+        
+            Explodes this 
+        <see cref="T:GTA.Projectile"/>
+        . Note that calling this method does not necessarily delete this 
+        <see cref="T:GTA.Projectile"/>
+         due to the weapon configuration.
+            
+    </summary>
+    
+        
+</member>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Model.IsElectricVehicle">
+    
+            
+    <summary>
+        
+            Gets a value indicating whether this 
+        <see cref="T:GTA.Model"/>
+         is an electric vehicle.
+            
+    </summary>
+    
+            
+    <value>
+        
+            
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Model"/>
+         is an electric vehicle; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

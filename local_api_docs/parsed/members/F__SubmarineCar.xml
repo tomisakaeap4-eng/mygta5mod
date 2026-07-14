@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.VehicleType.SubmarineCar">
+    
+            
+    <summary>
+            The submarine car type for the submarine cars, which can travel underwater like submarines.
+            </summary>
+    
+            
+    <remarks>
+        
+            
+        <para>
+            Amphibious automobiles are not classified as this type but classified as 
+            <see cref="F:GTA.VehicleType.AmphibiousAutomobile"/>
+            .
+        </para>
+        
+            
+        <para>
+            Submarines are not classified as this type but classified as 
+            <see cref="F:GTA.VehicleType.Submarine"/>
+            .
+        </para>
+        
+            
+        <para>
+            The corresponding name in vehicles.meta for this value is 
+            <c>VEHICLE_TYPE_SUBMARINECAR</c>
+            .
+        </para>
+        
+            
+        <para>
+            The internal class in memory is 
+            <c>CSubmarineCar</c>
+            , which is a subclass of 
+            <c>CAutomobile</c>
+            .
+        </para>
+        
+            
+    </remarks>
+    
+        
+</member>

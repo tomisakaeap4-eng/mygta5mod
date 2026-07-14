@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.PedGroup.op_Inequality(GTA.PedGroup,GTA.PedGroup)">
+    
+            
+    <summary>
+        
+            Determines if two 
+        <see cref="T:GTA.PedGroup"/>
+        s don't refer to the same group.
+            
+    </summary>
+    
+            
+    <param name="left">
+        The left 
+        <see cref="T:GTA.PedGroup"/>
+        .
+    </param>
+    
+            
+    <param name="right">
+        The right 
+        <see cref="T:GTA.PedGroup"/>
+        .
+    </param>
+    
+            
+    <returns>
+        <see langword="true"/>
+         if 
+        <paramref name="left"/>
+         is not the same group as 
+        <paramref name="right"/>
+        ; otherwise, 
+        <see langword="false"/>
+        .
+    </returns>
+    
+        
+</member>

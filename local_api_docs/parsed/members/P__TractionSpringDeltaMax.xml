@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.HandlingData.TractionSpringDeltaMax">
+    
+            
+    <summary>
+            Gets or sets the maximum distance for traction spring.
+            </summary>
+    
+            
+    <value>
+            The traction loss multiplier.
+            </value>
+    
+        
+</member>

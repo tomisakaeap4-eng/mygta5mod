@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Vector3.ToString(System.String)">
+    
+            
+    <summary>
+            Converts the value of the object to its equivalent string representation.
+            </summary>
+    
+            
+    <param name="format">The number format.</param>
+    
+            
+    <returns>The string representation of the value of this instance.</returns>
+    
+        
+</member>

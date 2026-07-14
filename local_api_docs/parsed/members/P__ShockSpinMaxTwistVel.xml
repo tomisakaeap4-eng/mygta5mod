@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ShotShockSpinHelper.ShockSpinMaxTwistVel">
+    
+            
+    <summary>
+            Shock spin ends when twist velocity is greater than this value (try 6.0).  If set to -1 does not stop.
+            </summary>
+    
+            
+    <remarks>
+            Default value = -1.0f.
+            Min value = -1.0f.
+            Max value = 200.0f.
+            </remarks>
+    
+        
+</member>

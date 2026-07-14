@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Quaternion.LookRotation(GTA.Math.Vector3)">
+    
+            
+    <summary>
+        
+            Creates a rotation with the specified 
+        <paramref name="forward"/>
+         and 
+        <see cref="P:GTA.Math.Vector3.WorldUp"/>
+         directions.
+            
+    </summary>
+    
+        
+</member>

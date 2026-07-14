@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.RaycastResult.HitEntity">
+    
+            
+    <summary>
+        
+            Gets the 
+        <see cref="T:GTA.Entity"/>
+         this ray cast collided with.
+            
+        <remarks>
+            Returns 
+            <see langword="null"/>
+             if the ray cast didn't collide with any 
+            <see cref="T:GTA.Entity"/>
+            .
+        </remarks>
+        
+            
+    </summary>
+    
+        
+</member>

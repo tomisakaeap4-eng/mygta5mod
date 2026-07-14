@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Native.GlobalVariable.GetArray(System.Int32)">
+    
+            
+    <summary>
+        
+            Returns an array of all 
+        <see cref="T:GTA.Native.GlobalVariable"/>
+        s in a global array.
+            
+    </summary>
+    
+            
+    <param name="itemSize">The number of items stored in each array index. For example an array of Vector3s takes up 3 items.</param>
+    
+            
+    <returns>
+        The array of 
+        <see cref="T:GTA.Native.GlobalVariable"/>
+        s.
+    </returns>
+    
+        
+</member>

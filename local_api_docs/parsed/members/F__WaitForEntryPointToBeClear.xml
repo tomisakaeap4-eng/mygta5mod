@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.LeaveVehicleFlags.WaitForEntryPointToBeClear">
+    
+            
+    <summary>
+            Wait for our entry point to be clear of peds before exiting.
+            </summary>
+    
+        
+</member>

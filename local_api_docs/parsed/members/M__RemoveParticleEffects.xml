@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Entity.RemoveParticleEffects">
+    
+            
+    <summary>
+        
+            Stops all particle effects attached to this 
+        <see cref="T:GTA.Entity"/>
+        .
+            
+    </summary>
+    
+        
+</member>

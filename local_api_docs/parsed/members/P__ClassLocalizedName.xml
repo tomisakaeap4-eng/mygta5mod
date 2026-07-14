@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Vehicle.ClassLocalizedName">
+    
+            
+    <summary>
+        
+            Gets the localized name of this 
+        <see cref="T:GTA.Vehicle"/>
+        s 
+        <see cref="T:GTA.VehicleClass"/>
+        .
+            
+    </summary>
+    
+        
+</member>

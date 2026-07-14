@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.World.GravityLevel">
+    
+            
+    <summary>
+        
+            Sets the gravity level for all 
+        <see cref="T:GTA.World"/>
+         objects.
+            
+    </summary>
+    
+            
+    <value>
+            The gravity level:
+            9.8f - Default gravity.
+            2.4f - Moon gravity.
+            0.1f - Very low gravity.
+            0.0f - No gravity.
+            </value>
+    
+        
+</member>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.UpperBodyFlinchHelper.NoiseScale">
+    
+            
+    <summary>
+            Amplitude of the perlin noise applied to the arms positions in the flinch to the front part of the behavior.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.1f.
+            Min value = 0.0f.
+            Max value = 1.0f.
+            </remarks>
+    
+        
+</member>

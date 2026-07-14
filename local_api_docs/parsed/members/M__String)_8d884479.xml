@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Script.GetRelativeFilePath(System.String)">
+    
+            
+    <summary>
+        
+            Gets the full file path for a file relative to this 
+        <see cref="T:GTA.Script"/>
+        .
+            e.g: 
+        <c>GetRelativeFilePath(&quot;ScriptFiles\texture1.png&quot;)</c>
+         may return 
+        <c>&quot;C:\Program Files\Rockstar Games\Grand Theft Auto V\scripts\ScriptFiles\texture1.png&quot;</c>
+        .
+            
+    </summary>
+    
+            
+    <param name="filePath">
+        The file path relative to the location of this 
+        <see cref="T:GTA.Script"/>
+        .
+    </param>
+    
+        
+</member>

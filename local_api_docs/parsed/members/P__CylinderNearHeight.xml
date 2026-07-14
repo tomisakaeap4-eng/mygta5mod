@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Checkpoint.CylinderNearHeight">
+    
+            
+    <summary>
+        
+            Gets or sets the near height of the cylinder of this 
+        <see cref="T:GTA.Checkpoint"/>
+        .
+            
+    </summary>
+    
+        
+</member>

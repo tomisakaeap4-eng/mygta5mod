@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Entity.IsPersistent">
+    
+            
+    <summary>
+        
+            Gets or sets a value indicating whether this 
+        <see cref="T:GTA.Entity"/>
+         is persistent.
+            
+    </summary>
+    
+            
+    <value>
+        
+            
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Entity"/>
+         is persistent; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+            
+    <remarks>
+        
+            If this 
+        <see cref="T:GTA.Entity"/>
+         is 
+        <see cref="T:GTA.Ped"/>
+        , setting to 
+        <see langword="true"/>
+         can clear ambient tasks and setting to 
+        <see langword="false"/>
+         will clear all tasks immediately.
+            Use 
+        <see cref="M:GTA.Ped.SetIsPersistentNoClearTask(System.Boolean)"/>
+         instead if you need to keep assigned tasks.
+            
+    </remarks>
+    
+        
+</member>

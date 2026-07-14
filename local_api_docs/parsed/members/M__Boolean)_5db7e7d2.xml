@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Vehicle.StartParachuting(System.Boolean)">
+    
+            
+    <summary>
+            Open the vehicle's parachute (if any)
+            </summary>
+    
+            
+    <param name="allowPlayerToCancel">Whether to allow the player to cancel parachuting before the vehicle lands</param>
+    
+        
+</member>

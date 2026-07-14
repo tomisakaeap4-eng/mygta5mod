@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.SmartFallHelper.OrientateMax">
+    
+            
+    <summary>
+            DEVEL parameter - suggest you don't edit it.  Maximum torque the orientation controller can apply.
+            If 0 then no helper torques will be used.
+            300 will orientate the character softly for all but extreme angles away from aimAngleBase.
+            If abs (current -aimAngleBase) is getting near 3.0 then this can be reduced to give a softer feel.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 300.0f.
+            Min value = 0.0f.
+            Max value = 2000.0f.
+            </remarks>
+    
+        
+</member>

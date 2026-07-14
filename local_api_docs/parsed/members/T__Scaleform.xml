@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="T:GTA.Scaleform">
+    
+            
+    <summary>
+            A class which handles rendering of Scaleform elements.
+            </summary>
+    
+        
+</member>

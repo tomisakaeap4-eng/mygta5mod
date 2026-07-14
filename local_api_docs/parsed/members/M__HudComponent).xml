@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.UI.Hud.IsComponentActive(GTA.UI.HudComponent)">
+    
+            
+    <summary>
+        
+            Determines whether a given 
+        <see cref="T:GTA.UI.HudComponent"/>
+         is active.
+            
+    </summary>
+    
+            
+    <param name="component">
+        The 
+        <see cref="T:GTA.UI.HudComponent"/>
+         to check
+    </param>
+    
+            
+    <returns>
+        <see langword="true"/>
+         if the 
+        <see cref="T:GTA.UI.HudComponent"/>
+         is active; otherwise, 
+        <see langword="false"/>
+    </returns>
+    
+        
+</member>

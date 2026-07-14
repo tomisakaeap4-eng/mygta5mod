@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Math.Quaternion.One">
+    
+            
+    <summary>
+        
+            A 
+        <see cref="T:GTA.Math.Quaternion"/>
+         with all of its components set to one.
+            
+    </summary>
+    
+        
+</member>

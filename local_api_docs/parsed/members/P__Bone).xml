@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.PedBoneCollection.Item(GTA.Bone)">
+    
+            
+    <summary>
+        
+            Gets the 
+        <see cref="T:GTA.PedBone"/>
+         with the specified 
+        <paramref name="boneId"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="boneId">The bone Id.</param>
+    
+        
+</member>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.GetAllCheckpoints">
+    
+            
+    <summary>
+        
+            Gets an 
+        <c>array</c>
+         of all the 
+        <see cref="T:GTA.Checkpoint"/>
+        s.
+            
+    </summary>
+    
+        
+</member>

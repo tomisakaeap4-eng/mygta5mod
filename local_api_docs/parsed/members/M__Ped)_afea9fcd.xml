@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.NaturalMotion.ForceToBodyPartHelper.#ctor(GTA.Ped)">
+    
+            
+    <summary>
+        
+            Creates a new Instance of the ForceToBodyPartHelper for sending a ForceToBodyPart 
+        <see cref="T:GTA.NaturalMotion.Message"/>
+         to a given 
+        <see cref="T:GTA.Ped"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="ped">
+        The 
+        <see cref="T:GTA.Ped"/>
+         to send the ForceToBodyPart 
+        <see cref="T:GTA.NaturalMotion.Message"/>
+         to.
+    </param>
+    
+            
+    <remarks>
+            Apply an impulse to a named body part.
+            </remarks>
+    
+        
+</member>

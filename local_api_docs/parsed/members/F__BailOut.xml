@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.LeaveVehicleFlags.BailOut">
+    
+            
+    <summary>
+            Jump out of the vehicle regardness of its speed.
+            </summary>
+    
+        
+</member>

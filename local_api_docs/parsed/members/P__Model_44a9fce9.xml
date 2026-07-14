@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Entity.Model">
+    
+            
+    <summary>
+        
+            Gets the model of the current 
+        <see cref="T:GTA.Entity"/>
+        .
+            
+    </summary>
+    
+        
+</member>

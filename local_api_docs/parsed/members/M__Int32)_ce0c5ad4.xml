@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Player.ChargeSpecialAbility(System.Int32)">
+    
+            
+    <summary>
+        
+            Charges the special ability for this 
+        <see cref="T:GTA.Player"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="absoluteAmount">The absolute amount.</param>
+    
+        
+</member>

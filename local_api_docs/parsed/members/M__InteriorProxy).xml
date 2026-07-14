@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.InteriorProxy.op_Equality(GTA.InteriorProxy,GTA.InteriorProxy)">
+    
+            
+    <summary>
+        
+            Determines if two 
+        <see cref="T:GTA.InteriorProxy"/>
+        s refer to the same entity.
+            
+    </summary>
+    
+            
+    <param name="left">
+        The left 
+        <see cref="T:GTA.InteriorProxy"/>
+        .
+    </param>
+    
+            
+    <param name="right">
+        The right 
+        <see cref="T:GTA.InteriorProxy"/>
+        .
+    </param>
+    
+            
+    <returns>
+        <see langword="true"/>
+         if 
+        <paramref name="left"/>
+         is the same entity as 
+        <paramref name="right"/>
+        ; otherwise, 
+        <see langword="false"/>
+        .
+    </returns>
+    
+        
+</member>

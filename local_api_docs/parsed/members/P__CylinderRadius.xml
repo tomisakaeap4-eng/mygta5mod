@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Checkpoint.CylinderRadius">
+    
+            
+    <summary>
+        
+            Gets or sets the radius of the cylinder in this 
+        <see cref="T:GTA.Checkpoint"/>
+        .
+            
+    </summary>
+    
+        
+</member>

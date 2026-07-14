@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.NaturalMotion.ShotFallToKneesHelper.#ctor(GTA.Ped)">
+    
+            
+    <summary>
+        
+            Creates a new Instance of the ShotFallToKneesHelper for sending a ShotFallToKnees 
+        <see cref="T:GTA.NaturalMotion.Message"/>
+         to a given 
+        <see cref="T:GTA.Ped"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="ped">
+        The 
+        <see cref="T:GTA.Ped"/>
+         to send the ShotFallToKnees 
+        <see cref="T:GTA.NaturalMotion.Message"/>
+         to.
+    </param>
+    
+            
+    <remarks>
+            Configure the fall to knees shot.
+            </remarks>
+    
+        
+</member>

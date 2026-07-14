@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Quaternion.op_Division(GTA.Math.Quaternion,GTA.Math.Quaternion)">
+    
+            
+    <summary>
+            Divides a Quaternion by another Quaternion.
+            </summary>
+    
+            
+    <param name="left">The source Quaternion.</param>
+    
+            
+    <param name="right">The divisor.</param>
+    
+            
+    <returns>The result of the division.</returns>
+    
+        
+</member>

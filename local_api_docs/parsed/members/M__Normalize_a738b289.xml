@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Vector2.Normalize">
+    
+            
+    <summary>
+            Converts the vector into a unit vector.
+            </summary>
+    
+        
+</member>

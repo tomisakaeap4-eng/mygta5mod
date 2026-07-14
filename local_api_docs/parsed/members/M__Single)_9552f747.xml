@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.CreateBlip(GTA.Math.Vector3,System.Single)">
+    
+            
+    <summary>
+        
+            Creates a 
+        <see cref="T:GTA.Blip"/>
+         for a circular area at the given position on the map.
+            
+    </summary>
+    
+            
+    <param name="position">The position of the blip on the map.</param>
+    
+            
+    <param name="radius">The radius of the area on the map.</param>
+    
+        
+</member>

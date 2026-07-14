@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.Euphoria.PedalLegs">
+    
+            
+    <summary>
+        
+            Gets a PedalLegs Helper class for sending PedalLegs 
+        <see cref="T:GTA.NaturalMotion.Message"/>
+         to this 
+        <see cref="T:GTA.Ped"/>
+        .
+            
+    </summary>
+    
+        
+</member>

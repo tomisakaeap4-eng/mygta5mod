@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Ped.TimeOfDeath">
+    
+            
+    <summary>
+        
+            Gets the time when this 
+        <see cref="T:GTA.Ped"/>
+         is killed. This value determines how this 
+        <see cref="T:GTA.Ped"/>
+         is rendered when 
+        <see cref="P:GTA.Game.IsThermalVisionActive"/>
+         is 
+        <see langword="true"/>
+         and the 
+        <see cref="T:GTA.Ped"/>
+         is dead.
+            
+    </summary>
+    
+        
+</member>

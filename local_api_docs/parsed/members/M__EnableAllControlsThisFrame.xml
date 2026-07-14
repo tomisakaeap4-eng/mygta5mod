@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Game.EnableAllControlsThisFrame">
+    
+            
+    <summary>
+        
+            Enables all 
+        <see cref="T:GTA.Control"/>
+        s this frame.
+            
+    </summary>
+    
+        
+</member>

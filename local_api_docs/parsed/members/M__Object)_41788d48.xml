@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Native.InputArgument.#ctor(System.Object)">
+    
+            
+    <summary>
+        
+            Initializes a new instance of the 
+        <see cref="T:GTA.Native.InputArgument"/>
+         class and converts a managed object to a script function input argument.
+            
+    </summary>
+    
+            
+    <param name="value">The object to convert.</param>
+    
+        
+</member>

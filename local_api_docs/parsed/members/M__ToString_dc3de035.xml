@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Native.InputArgument.ToString">
+    
+            
+    <summary>
+            Converts the internal value of the argument to its equivalent string representation.
+            </summary>
+    
+        
+</member>

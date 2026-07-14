@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.UI.Sprite.Draw(System.Drawing.SizeF)">
+    
+            
+    <summary>
+        
+            Draws the 
+        <see cref="T:GTA.UI.Sprite"/>
+         at the specified offset.
+            
+    </summary>
+    
+            
+    <param name="offset">The offset.</param>
+    
+        
+</member>

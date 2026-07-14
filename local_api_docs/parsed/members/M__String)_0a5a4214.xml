@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Audio.StopMusic(System.String)">
+    
+            
+    <summary>
+            Cancels playing a music file.
+            </summary>
+    
+            
+    <param name="musicFile">The music file to stop.</param>
+    
+        
+</member>

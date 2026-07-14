@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Game.TimeScale">
+    
+            
+    <summary>
+            Gets or Sets the time scale of the game.
+            </summary>
+    
+            
+    <value>
+            The time scale, only accepts values in range 0.0f to 1.0f.
+            </value>
+    
+        
+</member>

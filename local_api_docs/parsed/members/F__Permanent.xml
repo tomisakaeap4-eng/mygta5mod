@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.EntityPopulationType.Permanent">
+    
+            
+    <summary>
+            The game does not automatically delete entities when this value is set.
+            </summary>
+    
+        
+</member>

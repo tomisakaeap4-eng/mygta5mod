@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Quaternion.Conjugate(GTA.Math.Quaternion)">
+    
+            
+    <summary>
+            Creates the conjugate of a specified Quaternion.
+            </summary>
+    
+            
+    <param name="value">The Quaternion of which to return the conjugate.</param>
+    
+            
+    <returns>A new Quaternion that is the conjugate of the specified one.</returns>
+    
+        
+</member>

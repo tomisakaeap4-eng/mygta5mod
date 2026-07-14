@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Entity.IsInArea(GTA.Math.Vector3,GTA.Math.Vector3)">
+    
+            
+    <summary>
+        
+            Determines whether this 
+        <see cref="T:GTA.Entity"/>
+         is in a specified area
+            
+    </summary>
+    
+            
+    <param name="minBounds">The minimum bounds.</param>
+    
+            
+    <param name="maxBounds">The maximum bounds.</param>
+    
+            
+    <returns>
+        
+              
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Entity"/>
+         is in the specified area; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </returns>
+    
+        
+</member>

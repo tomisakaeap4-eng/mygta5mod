@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Ped.IsInjured">
+    
+            
+    <summary>
+        
+            Gets a value indicating whether this 
+        <see cref="T:GTA.Ped"/>
+         is injured (
+        <see cref="P:GTA.Entity.Health"/>
+         of the 
+        <see cref="T:GTA.Ped"/>
+         is lower than 
+        <see cref="P:GTA.Ped.InjuryHealthThreshold"/>
+        ) or does not exist.
+            Can be called safely to check if 
+        <see cref="T:GTA.Ped"/>
+        s exist and are not injured without calling 
+        <see cref="M:GTA.Ped.Exists"/>
+        .
+            
+    </summary>
+    
+            
+    <value>
+        
+              
+        <see langword="true"/>
+         this 
+        <see cref="T:GTA.Ped"/>
+         is injured or does not exist; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+            
+    <seealso cref="P:GTA.Entity.IsDead"/>
+    
+            
+    <seealso cref="M:GTA.Ped.Exists"/>
+    
+        
+</member>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.BraceForImpactHelper.DampVel">
+    
+            
+    <summary>
+            Damp out excessive spin and upward velocity when on car.
+            </summary>
+    
+            
+    <remarks>
+            Default value = False.
+            </remarks>
+    
+        
+</member>

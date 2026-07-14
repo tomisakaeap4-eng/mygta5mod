@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Game.GetProfileSetting(System.Int32)">
+    
+            
+    <summary>
+            Gets an value associated with the specified index of the profile setting.
+            </summary>
+    
+            
+    <param name="index">The index of the profile setting values.</param>
+    
+            
+    <returns>The integer value associated with the specified index of the profile setting.</returns>
+    
+        
+</member>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.BodyWritheHelper.Lean1BlendFactor">
+    
+            
+    <summary>
+            Shoulder desired lean1 with shoulderLean1 angle blend factor. Set it to 0 to use original shoulder withe desired lean1 angle for shoulders. Note that onFire has to be set to true for this parameter to take any effect.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.0f.
+            Min value = 0.0f.
+            Max value = 1.0f.
+            </remarks>
+    
+        
+</member>

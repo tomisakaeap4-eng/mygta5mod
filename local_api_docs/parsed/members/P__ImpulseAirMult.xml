@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ConfigureBulletsHelper.ImpulseAirMult">
+    
+            
+    <summary>
+            Amount to scale impulse by if the character is airborne and dynamicBalance is OK and impulse is above impulseAirMultStart.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 1.0f.
+            Min value = 0.0f.
+            Max value = 1.0f.
+            </remarks>
+    
+        
+</member>

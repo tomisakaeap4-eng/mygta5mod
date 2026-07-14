@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.ParachuteLandingType.Invalid">
+    
+            
+    <summary>
+            Ped is not in a valid parachute landing state.
+            </summary>
+    
+        
+</member>

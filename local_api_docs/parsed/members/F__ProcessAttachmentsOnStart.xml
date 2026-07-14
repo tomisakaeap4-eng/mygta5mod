@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.AnimationFlags.ProcessAttachmentsOnStart">
+    
+            
+    <summary>
+            Force the attachments to be processed at the start of the clip.
+            </summary>
+    
+        
+</member>

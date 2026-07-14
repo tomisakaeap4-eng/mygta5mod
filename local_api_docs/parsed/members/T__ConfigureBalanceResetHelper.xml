@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="T:GTA.NaturalMotion.ConfigureBalanceResetHelper">
+    
+            
+    <summary>
+            Reset the values configurable by the Configure Balance message to their defaults.
+            </summary>
+    
+        
+</member>

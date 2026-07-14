@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.AnimationFlags.RagdollOnCollision">
+    
+            
+    <summary>
+            If the peds ragdoll bounds make contact with something physical (that isn't flat ground) activate the ragdoll and fall over.
+            </summary>
+    
+        
+</member>

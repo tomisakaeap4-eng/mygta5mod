@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.SmartFallHelper.SpreadLegs">
+    
+            
+    <summary>
+            Spread legs amount for pedal during fall.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.1f.
+            Min value = -1.0f.
+            Max value = 1.0f.
+            </remarks>
+    
+        
+</member>

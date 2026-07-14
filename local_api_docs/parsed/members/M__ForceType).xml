@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Entity.ApplyForce(GTA.Math.Vector3,GTA.Math.Vector3,GTA.ForceType)">
+    
+            
+    <summary>
+        
+            Applies a force to this 
+        <see cref="T:GTA.Entity"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="direction">The direction to apply the force relative to world coordinates.</param>
+    
+            
+    <param name="rotation">
+        The offset from the root bone of this 
+        <see cref="T:GTA.Entity"/>
+         where the force applies. &quot;rotation&quot; is incorrectly named parameter but is left for scripts that use the method with named parameters.
+    </param>
+    
+            
+    <param name="forceType">Type of the force to apply.</param>
+    
+        
+</member>

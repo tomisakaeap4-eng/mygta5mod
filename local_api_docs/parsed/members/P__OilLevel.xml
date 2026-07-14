@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Vehicle.OilLevel">
+    
+            
+    <summary>
+        
+            Gets or sets this 
+        <see cref="T:GTA.Vehicle"/>
+         oil level.
+            If this value is above zero, this value decreases instead of 
+        <see cref="P:GTA.Vehicle.EngineHealth"/>
+         when the engine emits black smoke.
+            
+    </summary>
+    
+        
+</member>

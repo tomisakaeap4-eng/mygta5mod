@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.BraceForImpactHelper.SnapBonnet">
+    
+            
+    <summary>
+            Exaggeration amount of the secondary (torso) impact with bonnet. +ve fold with car impact (as if pushed at hips by the impact normal).  -ve fold away from car impact.
+            </summary>
+    
+            
+    <remarks>
+            Default value = -7.0f.
+            Min value = -20.0f.
+            Max value = 20.0f.
+            </remarks>
+    
+        
+</member>

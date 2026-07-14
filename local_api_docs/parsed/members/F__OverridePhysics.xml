@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.AnimationFlags.OverridePhysics">
+    
+            
+    <summary>
+            Do not apply any physics forces whilst the anim is playing.
+            Automatically turns off collision, extracts any initial offset provided in the clip and uses per frame mover extraction.
+            </summary>
+    
+        
+</member>

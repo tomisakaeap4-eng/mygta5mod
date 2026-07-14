@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.ScriptSettings.GetAllValues``1(System.String,System.String)">
+    
+            
+    <summary>
+        
+            Reads all the values at a specified key and section from this 
+        <see cref="T:GTA.ScriptSettings"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="section">The section where the value is.</param>
+    
+            
+    <param name="name">The name of the key the values are saved at.</param>
+    
+        
+</member>

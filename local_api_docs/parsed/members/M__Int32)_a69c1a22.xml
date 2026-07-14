@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Camera.InterpTo(GTA.Camera,System.Int32,System.Int32,System.Int32)">
+    
+            
+    <summary>
+        
+            Moves this 
+        <see cref="T:GTA.Camera"/>
+         to the 
+        <paramref name="to"/>
+         position.
+            
+    </summary>
+    
+        
+</member>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.SmartFallHelper.RdsTargetLinearVelocity">
+    
+            
+    <summary>
+            RDS: Helper torques are applied to match the spin of the character to the max of targetLinearVelocity and COMVelMag.
+            -1 to use initial character velocity.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 1.0f.
+            Min value = 0.0f.
+            Max value = 30.0f.
+            </remarks>
+    
+        
+</member>

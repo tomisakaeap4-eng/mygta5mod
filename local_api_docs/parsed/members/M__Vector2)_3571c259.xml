@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Vector2.op_Subtraction(GTA.Math.Vector2,GTA.Math.Vector2)">
+    
+            
+    <summary>
+            Subtracts two vectors.
+            </summary>
+    
+            
+    <param name="left">The first vector to subtract.</param>
+    
+            
+    <param name="right">The second vector to subtract.</param>
+    
+            
+    <returns>The difference of the two vectors.</returns>
+    
+        
+</member>

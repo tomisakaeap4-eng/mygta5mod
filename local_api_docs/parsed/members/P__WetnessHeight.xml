@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Ped.WetnessHeight">
+    
+            
+    <summary>
+        
+            Sets how high up on this 
+        <see cref="T:GTA.Ped"/>
+        s body water should be visible.
+            
+    </summary>
+    
+            
+    <value>
+            The height ranges from 0.0f to 1.99f, 0.0f being no water visible, 1.99f being covered in water.
+            </value>
+    
+        
+</member>

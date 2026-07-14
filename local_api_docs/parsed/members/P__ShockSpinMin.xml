@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ShotShockSpinHelper.ShockSpinMin">
+    
+            
+    <summary>
+            Minimum amount of torque to add if using shock-spin feature.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 50.0f.
+            Min value = 0.0f.
+            Max value = 1000.0f.
+            </remarks>
+    
+        
+</member>

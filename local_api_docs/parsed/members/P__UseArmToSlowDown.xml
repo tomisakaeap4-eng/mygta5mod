@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.BodyRollUpHelper.UseArmToSlowDown">
+    
+            
+    <summary>
+            The degree to which the character will try to stop a barrel roll with his arms.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 1.3f.
+            Min value = -2.0f.
+            Max value = 3.0f.
+            </remarks>
+    
+        
+</member>

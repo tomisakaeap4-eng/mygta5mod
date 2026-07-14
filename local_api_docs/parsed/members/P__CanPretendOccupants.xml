@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Vehicle.CanPretendOccupants">
+    
+            
+    <summary>
+        
+            Gets or sets a value indicating whether this 
+        <see cref="T:GTA.Vehicle"/>
+         can pretend it has the same 
+        <see cref="T:GTA.Ped"/>
+        s.
+            Set to 
+        <see langword="false"/>
+         to prevent this 
+        <see cref="T:GTA.Vehicle"/>
+         from creating new 
+        <see cref="T:GTA.Ped"/>
+        s as its occupants.
+            
+    </summary>
+    
+            
+    <remarks>
+        
+            
+        <see cref="T:GTA.Vehicle"/>
+        s do not pretend occupants regardless of this value if 
+        <see cref="P:GTA.Entity.PopulationType"/>
+         is set to
+            
+        <see cref="F:GTA.EntityPopulationType.Permanent"/>
+         or 
+        <see cref="F:GTA.EntityPopulationType.Mission"/>
+        .
+            
+    </remarks>
+    
+        
+</member>

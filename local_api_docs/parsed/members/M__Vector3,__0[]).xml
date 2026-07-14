@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.GetClosest``1(GTA.Math.Vector3,``0[])">
+    
+            
+    <summary>
+        
+            Gets the closest 
+        <see cref="T:GTA.ISpatial"/>
+         to a given position in the World.
+            
+    </summary>
+    
+            
+    <typeparam name="T"/>
+    
+            
+    <param name="position">The position to check against.</param>
+    
+            
+    <param name="spatials">The spatials to check.</param>
+    
+            
+    <returns>
+        The closest 
+        <see cref="T:GTA.ISpatial"/>
+         to the 
+        <paramref name="position"/>
+    </returns>
+    
+        
+</member>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.VehicleWheel.Puncture(System.Single)">
+    
+            
+    <summary>
+        
+            Punctures this 
+        <see cref="T:GTA.VehicleWheel"/>
+        's tire.
+            
+    </summary>
+    
+            
+    <param name="damage">
+        How much damage this 
+        <see cref="T:GTA.VehicleWheel"/>
+         will take.
+    </param>
+    
+        
+</member>

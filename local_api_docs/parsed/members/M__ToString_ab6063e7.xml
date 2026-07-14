@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Vector3.ToString">
+    
+            
+    <summary>
+            Converts the value of the object to its equivalent string representation.
+            </summary>
+    
+            
+    <returns>The string representation of the value of this instance.</returns>
+    
+        
+</member>

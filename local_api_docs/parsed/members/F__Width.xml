@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.UI.Screen.Width">
+    
+            
+    <summary>
+            The base width of the screen used for all UI Calculations, unless ScaledDraw is used
+            </summary>
+    
+        
+</member>

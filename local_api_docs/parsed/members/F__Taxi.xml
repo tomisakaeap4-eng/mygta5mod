@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.UI.Font.Taxi">
+    
+            
+    <summary>
+        
+            The font for taxi will be used when the game language is set to a non-CJK language. The font does contain invisible glyphs for lower characters.
+            The standard font, which is the same as 
+        <see cref="F:GTA.UI.Font.ChaletLondon"/>
+        , will be used when the game language is set to a CJK language unless the player have custom font files installed.
+            
+    </summary>
+    
+        
+</member>

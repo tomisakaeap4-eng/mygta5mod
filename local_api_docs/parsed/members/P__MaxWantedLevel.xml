@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Game.MaxWantedLevel">
+    
+            
+    <summary>
+        
+            Gets or sets the maximum wanted level a 
+        <see cref="T:GTA.Player"/>
+         can receive.
+            
+    </summary>
+    
+            
+    <value>
+            The maximum wanted level, only accepts values 0 to 5.
+            </value>
+    
+        
+</member>

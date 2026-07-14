@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Matrix.Add(GTA.Math.Matrix,GTA.Math.Matrix)">
+    
+            
+    <summary>
+            Determines the sum of two matrices.
+            </summary>
+    
+            
+    <param name="left">The first matrix to add.</param>
+    
+            
+    <param name="right">The second matrix to add.</param>
+    
+            
+    <returns>The sum of the two matrices.</returns>
+    
+        
+</member>

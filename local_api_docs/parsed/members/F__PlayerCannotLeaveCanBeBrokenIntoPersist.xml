@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.VehicleLockStatus.PlayerCannotLeaveCanBeBrokenIntoPersist">
+    
+            
+    <summary>
+        
+            
+        <para>
+            Doesn't allow players to exit the 
+            <see cref="T:GTA.Vehicle"/>
+             with the exit vehicle key or button.
+        </para>
+        
+            
+        <para>
+            The 
+            <see cref="T:GTA.Vehicle"/>
+             is locked and must be broken into even if already broken into (the same as 
+            <see cref="F:GTA.VehicleLockStatus.CanBeBrokenIntoPersist"/>
+            ).
+        </para>
+        
+            
+    </summary>
+    
+        
+</member>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Game.GetLocalizedString(System.Int32)">
+    
+            
+    <summary>
+        
+            Returns a localized 
+        <see cref="T:System.String"/>
+         from the games language files with a specified GXT key hash.
+            
+    </summary>
+    
+            
+    <param name="entryLabelHash">The GXT key hash.</param>
+    
+            
+    <returns>
+        The localized 
+        <see cref="T:System.String"/>
+         if the key hash exists; otherwise, 
+        <see cref="F:System.String.Empty"/>
+    </returns>
+    
+        
+</member>

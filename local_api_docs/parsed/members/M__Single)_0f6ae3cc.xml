@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Matrix.RotationY(System.Single)">
+    
+            
+    <summary>
+            Creates a matrix that rotates around the y-axis.
+            </summary>
+    
+            
+    <param name="angle">Angle of rotation in radians. Angles are measured clockwise when looking along the rotation axis toward the origin.</param>
+    
+            
+    <returns>The created rotation matrix.</returns>
+    
+        
+</member>

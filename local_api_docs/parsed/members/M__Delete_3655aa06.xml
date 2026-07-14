@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Checkpoint.Delete">
+    
+            
+    <summary>
+        
+            Removes this 
+        <see cref="T:GTA.Checkpoint"/>
+        .
+            
+    </summary>
+    
+        
+</member>

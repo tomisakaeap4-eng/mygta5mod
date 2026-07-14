@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.EntityBone.op_Equality(GTA.EntityBone,GTA.Bone)">
+    
+            
+    <summary>
+        
+            Determines if an 
+        <see cref="T:GTA.EntityBone"/>
+         refers to a specific bone.
+            
+    </summary>
+    
+            
+    <param name="entityBone">
+        The 
+        <see cref="T:GTA.EntityBone"/>
+         to check.
+    </param>
+    
+            
+    <param name="boneId">
+        The 
+        <see cref="T:GTA.Bone"/>
+         ID to check against.
+    </param>
+    
+            
+    <returns>
+        <see langword="true"/>
+         if 
+        <paramref name="entityBone"/>
+         refers to the 
+        <paramref name="boneId"/>
+        ; otherwise, 
+        <see langword="false"/>
+        .
+    </returns>
+    
+        
+</member>

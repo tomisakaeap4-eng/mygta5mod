@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.AnimPoseHelper.MuscleStiffness">
+    
+            
+    <summary>
+            Muscle stiffness of masked joints. -values mean don't apply (just use defaults or ones applied by behaviors - safer if you are going to return to a behavior).
+            </summary>
+    
+            
+    <remarks>
+            Default value = -1.0f.
+            Min value = -1.1f.
+            Max value = 10.0f.
+            </remarks>
+    
+        
+</member>

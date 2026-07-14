@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Ped.ClearKillerRecord">
+    
+            
+    <summary>
+        
+            
+        <para>
+            Clears the 
+            <see cref="T:GTA.Entity"/>
+             record that killed this 
+            <see cref="T:GTA.Ped"/>
+            . Can be useful after resurrecting this 
+            <see cref="T:GTA.Ped"/>
+            .
+        </para>
+        
+            
+        <para>
+            Internally, when a 
+            <see cref="T:GTA.Ped"/>
+             killed and the value for the source of death in the instance of this 
+            <see cref="T:GTA.Ped"/>
+             is not 
+            <c>0</c>
+             (not 
+            <see langword="null"/>
+            ), the game does not write the memory address of the 
+            <see cref="T:GTA.Ped"/>
+             that killed this 
+            <see cref="T:GTA.Ped"/>
+            .
+        </para>
+        
+            
+    </summary>
+    
+        
+</member>

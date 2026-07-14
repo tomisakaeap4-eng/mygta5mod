@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Vehicle.WheelSpeed">
+    
+            
+    <summary>
+            Gets the speed the drive wheels are turning at, This is the value used for the dashboard speedometers(after being converted to mph).
+            </summary>
+    
+        
+</member>

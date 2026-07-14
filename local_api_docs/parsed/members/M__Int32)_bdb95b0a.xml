@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Native.GlobalVariable.WriteString(System.String,System.Int32)">
+    
+            
+    <summary>
+        
+            Set the value stored in the 
+        <see cref="T:GTA.Native.GlobalVariable"/>
+         to a string.
+            
+    </summary>
+    
+            
+    <param name="value">
+        The string to set the 
+        <see cref="T:GTA.Native.GlobalVariable"/>
+         to.
+    </param>
+    
+            
+    <param name="maxSize">The maximum size of the string. Can be found for a given global variable by checking the decompiled scripts from the game.</param>
+    
+        
+</member>

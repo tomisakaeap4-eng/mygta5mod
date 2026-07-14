@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.BlipColor.Yellow6">
+    
+            
+    <summary>
+        
+            This color is always the same as 
+        <see cref="F:GTA.BlipColor.Yellow"/>
+        , the only difference is color index.
+            
+    </summary>
+    
+        
+</member>

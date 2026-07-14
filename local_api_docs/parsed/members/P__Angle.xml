@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Math.Quaternion.Angle">
+    
+            
+    <summary>
+            Gets the angle of the quaternion.
+            </summary>
+    
+        
+</member>

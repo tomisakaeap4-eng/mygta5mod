@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.VehicleLockStatus.CanBeBrokenInto">
+    
+            
+    <summary>
+        
+            
+        <para>
+            Can be broken into the car. When a 
+            <see cref="T:GTA.Ped"/>
+             breaks the window of the door the 
+            <see cref="T:GTA.Ped"/>
+             is entering through, the value will be set to 
+            <see cref="F:GTA.VehicleLockStatus.Unlocked"/>
+            .
+        </para>
+        
+            
+        <para>
+            If the glass is broken when a 
+            <see cref="T:GTA.Ped"/>
+             is about to open the 
+            <see cref="T:GTA.Vehicle"/>
+            's door, the value immediately will be set to 
+            <see cref="F:GTA.VehicleLockStatus.Unlocked"/>
+            .
+        </para>
+        
+            
+    </summary>
+    
+        
+</member>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.BodyBalanceHelper.ShoulderL1">
+    
+            
+    <summary>
+            Mmmmdrunk 1.1 shoulder lean1 offset (+ve frankenstein).
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.0f.
+            Min value = -1.0f.
+            Max value = 2.0f.
+            </remarks>
+    
+        
+</member>

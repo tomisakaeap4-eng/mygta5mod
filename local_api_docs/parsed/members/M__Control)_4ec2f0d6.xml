@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Game.GetControlValueNormalized(GTA.Control)">
+    
+            
+    <summary>
+        
+            Gets an analog value of a 
+        <see cref="T:GTA.Control"/>
+         input between -1.0f and 1.0f.
+            
+    </summary>
+    
+            
+    <param name="control">
+        The 
+        <see cref="T:GTA.Control"/>
+         to check.
+    </param>
+    
+            
+    <returns>
+        The normalized 
+        <see cref="T:GTA.Control"/>
+         value.
+    </returns>
+    
+        
+</member>

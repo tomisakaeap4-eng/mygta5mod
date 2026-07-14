@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.GetNearbyBlips(GTA.Math.Vector3,System.Single,GTA.BlipSprite[])">
+    
+            
+    <summary>
+        
+            Gets an 
+        <c>array</c>
+         of all 
+        <see cref="T:GTA.Blip"/>
+        s in a given region in the World.
+            
+    </summary>
+    
+            
+    <param name="position">
+        The position to check the 
+        <see cref="T:GTA.Blip"/>
+         against.
+    </param>
+    
+            
+    <param name="radius">
+        The maximum distance from the 
+        <paramref name="position"/>
+         to detect 
+        <see cref="T:GTA.Blip"/>
+        s.
+    </param>
+    
+            
+    <param name="blipTypes">
+        The blip types to include, leave blank to get all 
+        <see cref="T:GTA.Blip"/>
+        s.
+    </param>
+    
+        
+</member>

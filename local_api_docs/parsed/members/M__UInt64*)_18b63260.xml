@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Native.Function.ObjectFromNative(System.Type,System.UInt64*)">
+    
+            
+    <summary>
+            Converts a native value to a managed object of a reference type.
+            </summary>
+    
+            
+    <param name="type">The type to convert to. The type should be a reference type.</param>
+    
+            
+    <param name="value">The native value to convert.</param>
+    
+            
+    <returns>
+        A managed object representing the input 
+        <paramref name="value"/>
+        .
+    </returns>
+    
+        
+</member>

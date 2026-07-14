@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="T:GTA.NaturalMotion.SetStiffnessHelper">
+    
+            
+    <summary>
+            Use this message to manually set the body stiffness values -before using Active Pose to drive to an animated pose, for example.
+            </summary>
+    
+        
+</member>

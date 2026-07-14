@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.World.ProjectileCount">
+    
+            
+    <summary>
+        
+            A fast way to get the total number of 
+        <see cref="T:GTA.Projectile"/>
+        s spawned in the world.
+            
+    </summary>
+    
+        
+</member>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.UI.Screen.StopEffect(GTA.UI.ScreenEffect)">
+    
+            
+    <summary>
+            Stops applying the specified effect to the screen.
+            </summary>
+    
+            
+    <param name="effectName">
+        The 
+        <see cref="T:GTA.UI.ScreenEffect"/>
+         to stop playing.
+    </param>
+    
+        
+</member>

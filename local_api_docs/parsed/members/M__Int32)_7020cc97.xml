@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.ParticleEffectAsset.Request(System.Int32)">
+    
+            
+    <summary>
+        
+            Attempts to load this 
+        <see cref="T:GTA.ParticleEffectAsset"/>
+         into memory so it can be used for starting 
+        <see cref="T:GTA.ParticleEffect"/>
+        s.
+            
+    </summary>
+    
+            
+    <param name="timeout">How long in milliseconds should the game wait while the model hasn't been loaded before giving up</param>
+    
+            
+    <returns>
+        <see langword="true"/>
+         if the 
+        <see cref="T:GTA.ParticleEffectAsset"/>
+         is Loaded; otherwise, 
+        <see langword="false"/>
+    </returns>
+    
+        
+</member>

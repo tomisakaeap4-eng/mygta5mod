@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.World.Blackout">
+    
+            
+    <summary>
+        
+            Sets a value indicating whether lights in the 
+        <see cref="T:GTA.World"/>
+         should be rendered.
+            
+    </summary>
+    
+            
+    <value>
+        
+              
+        <see langword="true"/>
+         if blackout; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

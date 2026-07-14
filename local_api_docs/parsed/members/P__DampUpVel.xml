@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.BraceForImpactHelper.DampUpVel">
+    
+            
+    <summary>
+            Amount to damp upward velocity by to limit the amount of air above the car the character can get.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 10.0f.
+            Min value = 0.0f.
+            Max value = 40.0f.
+            </remarks>
+    
+        
+</member>

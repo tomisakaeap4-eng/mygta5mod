@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.NaturalMotion.SetCharacterDampingHelper.#ctor(GTA.Ped)">
+    
+            
+    <summary>
+        
+            Creates a new Instance of the SetCharacterDampingHelper for sending a SetCharacterDamping 
+        <see cref="T:GTA.NaturalMotion.Message"/>
+         to a given 
+        <see cref="T:GTA.Ped"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="ped">
+        The 
+        <see cref="T:GTA.Ped"/>
+         to send the SetCharacterDamping 
+        <see cref="T:GTA.NaturalMotion.Message"/>
+         to.
+    </param>
+    
+            
+    <remarks>
+            Damp out cartwheeling and somersaulting above a certain threshold.
+            </remarks>
+    
+        
+</member>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Math.Vector2.Left">
+    
+            
+    <summary>
+            Returns the left vector. (-1,0)
+            </summary>
+    
+        
+</member>

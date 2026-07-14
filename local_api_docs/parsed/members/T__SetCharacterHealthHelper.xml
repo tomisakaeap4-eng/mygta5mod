@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="T:GTA.NaturalMotion.SetCharacterHealthHelper">
+    
+            
+    <summary>
+            Sets character's health on the dead-to-alive scale: [0..1].
+            </summary>
+    
+        
+</member>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ConfigureBalanceHelper.ChangeStepTime">
+    
+            
+    <summary>
+            Time not in contact (airborne) before step is changed. If -ve don't change step.
+            </summary>
+    
+            
+    <remarks>
+            Default value = -1.0f.
+            Min value = -1.0f.
+            Max value = 5.0f.
+            </remarks>
+    
+        
+</member>

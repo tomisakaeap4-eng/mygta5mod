@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.ParticleEffect.MemoryAddress">
+    
+            
+    <summary>
+        
+            Gets the memory address where this 
+        <see cref="T:GTA.ParticleEffect"/>
+         is located in game memory.
+            
+    </summary>
+    
+        
+</member>

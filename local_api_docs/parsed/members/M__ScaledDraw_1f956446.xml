@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.UI.IElement.ScaledDraw">
+    
+            
+    <summary>
+        
+            Draws this 
+        <see cref="T:GTA.UI.IElement"/>
+         this frame using the width returned in 
+        <see cref="P:GTA.UI.Screen.ScaledWidth"/>
+        .
+            
+    </summary>
+    
+        
+</member>

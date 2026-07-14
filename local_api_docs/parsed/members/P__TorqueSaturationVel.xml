@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.StayUprightHelper.TorqueSaturationVel">
+    
+            
+    <summary>
+            When in velocityBased mode, the COM velocity at which constraint reaches maximum strength (torqueStrength).
+            </summary>
+    
+            
+    <remarks>
+            Default value = 4.0f.
+            Min value = 0.1f.
+            Max value = 10.0f.
+            </remarks>
+    
+        
+</member>

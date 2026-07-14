@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Player.op_Inequality(GTA.Player,GTA.Player)">
+    
+            
+    <summary>
+        
+            Determines if two 
+        <see cref="T:GTA.Player"/>
+        s don't refer to the same player.
+            
+    </summary>
+    
+            
+    <param name="left">
+        The left 
+        <see cref="T:GTA.Player"/>
+        .
+    </param>
+    
+            
+    <param name="right">
+        The right 
+        <see cref="T:GTA.Player"/>
+        .
+    </param>
+    
+            
+    <returns>
+        <see langword="true"/>
+         if 
+        <paramref name="left"/>
+         is not the same player as 
+        <paramref name="right"/>
+        ; otherwise, 
+        <see langword="false"/>
+        .
+    </returns>
+    
+        
+</member>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.UI.ContainerElement.Color">
+    
+            
+    <summary>
+        
+            Gets or sets the color of this 
+        <see cref="T:GTA.UI.ContainerElement"/>
+        .
+            
+    </summary>
+    
+            
+    <value>
+            The color.
+            </value>
+    
+        
+</member>

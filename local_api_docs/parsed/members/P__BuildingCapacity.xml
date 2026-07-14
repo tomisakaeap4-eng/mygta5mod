@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.World.BuildingCapacity">
+    
+            
+    <summary>
+        
+            The total number of 
+        <see cref="T:GTA.Building"/>
+        s that can exist in the world.
+            
+    </summary>
+    
+        
+</member>

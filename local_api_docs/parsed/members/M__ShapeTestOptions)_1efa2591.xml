@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.ShapeTest.StartTestBound(GTA.Entity,GTA.IntersectFlags,GTA.ShapeTestOptions)">
+    
+            
+    <summary>
+        
+            Start a shape test against the 
+        <see cref="T:GTA.Entity"/>
+        's bound where the entity can collide.
+            
+    </summary>
+    
+            
+    <param name="entity">The entity to inspect.</param>
+    
+            
+    <param name="intersectFlags">What type of objects the shape test should intersect with.</param>
+    
+            
+    <param name="options">Specify options for the spape test.</param>
+    
+            
+    <value>
+        
+            The shape test handle.
+            If this method fails to create the shape test request because there are too many ongoing requests, 
+        <see cref="P:GTA.ShapeTestHandle.IsRequestFailed"/>
+         will return 
+        <see langword="true"/>
+         on the handle struct.
+            
+    </value>
+    
+        
+</member>

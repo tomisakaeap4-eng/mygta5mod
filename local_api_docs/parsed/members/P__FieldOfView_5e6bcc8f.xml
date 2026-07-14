@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.GameplayCamera.FieldOfView">
+    
+            
+    <summary>
+        
+            Gets the field of view of the 
+        <see cref="T:GTA.GameplayCamera"/>
+        .
+            
+    </summary>
+    
+        
+</member>

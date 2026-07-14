@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.CreatePed(GTA.Model,GTA.Math.Vector3,System.Single)">
+    
+            
+    <summary>
+        
+            Spawns a 
+        <see cref="T:GTA.Ped"/>
+         of the given 
+        <see cref="T:GTA.Model"/>
+         at the position and heading specified.
+            
+    </summary>
+    
+            
+    <param name="model">
+        The 
+        <see cref="T:GTA.Model"/>
+         of the 
+        <see cref="T:GTA.Ped"/>
+        .
+    </param>
+    
+            
+    <param name="position">
+        The position to spawn the 
+        <see cref="T:GTA.Ped"/>
+         at.
+    </param>
+    
+            
+    <param name="heading">
+        The heading of the 
+        <see cref="T:GTA.Ped"/>
+        .
+    </param>
+    
+            
+    <remarks>
+        returns 
+        <see langword="null"/>
+         if the 
+        <see cref="T:GTA.Ped"/>
+         could not be spawned.
+    </remarks>
+    
+        
+</member>

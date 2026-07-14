@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Vector3.#ctor(System.Single,System.Single,System.Single)">
+    
+            
+    <summary>
+        
+            Initializes a new instance of the 
+        <see cref="T:GTA.Math.Vector3"/>
+         class.
+            
+    </summary>
+    
+            
+    <param name="x">Initial value for the X component of the vector.</param>
+    
+            
+    <param name="y">Initial value for the Y component of the vector.</param>
+    
+            
+    <param name="z">Initial value for the Z component of the vector.</param>
+    
+        
+</member>

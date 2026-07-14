@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Matrix.RotationQuaternion(GTA.Math.Quaternion)">
+    
+            
+    <summary>
+            Creates a rotation matrix from a rotation.
+            </summary>
+    
+            
+    <param name="rotation">The quaternion to use to build the matrix.</param>
+    
+            
+    <returns>The created rotation matrix.</returns>
+    
+        
+</member>

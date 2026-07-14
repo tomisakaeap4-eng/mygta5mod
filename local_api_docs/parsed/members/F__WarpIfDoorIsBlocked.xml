@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.EnterVehicleFlags.WarpIfDoorIsBlocked">
+    
+            
+    <summary>
+        
+            Allow ped to warp to the seat if entry is blocked.
+            If the shuffle link to that seat is blocked by someone but the entry point for the shuffle link is not directly blocked, the 
+        <see cref="T:GTA.Ped"/>
+         won't warp.
+            Consider using 
+        <see cref="F:GTA.EnterVehicleFlags.WarpIfShuffleLinkIsBlocked"/>
+         if you want the 
+        <see cref="T:GTA.Ped"/>
+         to warp when the direct door and the shuffle link to that seat is blocked by someone.
+            
+    </summary>
+    
+        
+</member>

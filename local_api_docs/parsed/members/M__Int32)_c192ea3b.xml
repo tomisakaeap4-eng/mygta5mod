@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.CreatePickup(GTA.PickupType,GTA.Math.Vector3,GTA.Model,System.Int32)">
+    
+            
+    <summary>
+        
+            Spawns a 
+        <see cref="T:GTA.Pickup"/>
+         at the specified position.
+            
+    </summary>
+    
+        
+</member>

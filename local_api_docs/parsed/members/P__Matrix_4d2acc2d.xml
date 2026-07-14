@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.AnimatedBuilding.Matrix">
+    
+            
+    <summary>
+        
+            Gets this 
+        <see cref="T:GTA.AnimatedBuilding"/>
+        s matrix which stores position and rotation information.
+            
+    </summary>
+    
+        
+</member>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.BlipSprite.PoliceArea">
+    
+            
+    <summary>
+            When this value is set, the blip will flash. The default English text for this value is &quot;Objective&quot;.
+            </summary>
+    
+        
+</member>

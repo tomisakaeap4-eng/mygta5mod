@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.HandlingData.DriveInertia">
+    
+            
+    <summary>
+            Gets or sets the drive inertia that determines how fast the engine acceleration is.
+            </summary>
+    
+            
+    <value>
+            The drive inertia.
+            </value>
+    
+            
+    <remarks>
+            If you want a vehicle with high torque but slow acceleration (e.g. a truck), lower the driver inertia and specify a high drive force.
+            </remarks>
+    
+        
+</member>

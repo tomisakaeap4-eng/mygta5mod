@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.HighFallHelper.MinSpeedForBrace">
+    
+            
+    <summary>
+            Character needs to be moving at least this fast horizontally to start bracing for impact if there is an object along its trajectory.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 10.0f.
+            Min value = 0.0f.
+            Max value = 100.0f.
+            </remarks>
+    
+        
+</member>

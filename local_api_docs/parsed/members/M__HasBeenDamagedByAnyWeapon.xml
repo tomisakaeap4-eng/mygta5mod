@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Entity.HasBeenDamagedByAnyWeapon">
+    
+            
+    <summary>
+        
+            Determines whether this 
+        <see cref="T:GTA.Entity"/>
+         has been damaged by any weapon.
+            
+    </summary>
+    
+            
+    <returns>
+        
+              
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Entity"/>
+         has been damaged by any weapon; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </returns>
+    
+        
+</member>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.SetCharacterCollisionsHelper.VehicleClass">
+    
+            
+    <summary>
+            ClassType of the object against which to enhance the collision.  All character vehicle interaction (e.g. braceForImpact glancing spins) relies on this value so EDIT WISELY. If it is used for things other than vehicles then NM should be informed.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 15.
+            Min value = 0.
+            Max value = 100.
+            </remarks>
+    
+        
+</member>

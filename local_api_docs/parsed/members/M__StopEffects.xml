@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.UI.Screen.StopEffects">
+    
+            
+    <summary>
+            Stops all currently running effects.
+            </summary>
+    
+        
+</member>

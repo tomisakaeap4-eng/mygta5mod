@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="T:GTA.NaturalMotion.BodyRelaxHelper">
+    
+            
+    <summary>
+            Set the amount of relaxation across the whole body; Used to collapse the character into a rag-doll-like state.
+            </summary>
+    
+        
+</member>

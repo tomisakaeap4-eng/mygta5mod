@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Entity.IsFragmentObject">
+    
+            
+    <summary>
+        
+            Determines if this 
+        <see cref="T:GTA.Entity"/>
+         is a fragment object.
+            
+    </summary>
+    
+            
+    <returns>
+        
+            
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Entity"/>
+         is a fragment object; otherwise, 
+        <see langword="false"/>
+        .
+            This will return 
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Entity"/>
+         is a 
+        <see cref="T:GTA.Ped"/>
+         or a 
+        <see cref="T:GTA.Vehicle"/>
+        .
+            
+    </returns>
+    
+        
+</member>

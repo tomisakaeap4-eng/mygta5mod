@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.UI.LoadingPrompt.IsActive">
+    
+            
+    <summary>
+            Gets a value indicating whether the Loading Prompt is currently being displayed
+            </summary>
+    
+        
+</member>

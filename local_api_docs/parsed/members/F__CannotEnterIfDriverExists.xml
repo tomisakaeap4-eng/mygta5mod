@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.VehicleLockStatus.CannotEnterIfDriverExists">
+    
+            
+    <summary>
+        
+            For players, the 
+        <see cref="T:GTA.Vehicle"/>
+         cannot open any door if it has a driver.
+            For AI, entering vehicle tasks will not start if the target 
+        <see cref="T:GTA.Vehicle"/>
+        's lock status is set to this value and the 
+        <see cref="T:GTA.Vehicle"/>
+         has a driver.
+            
+    </summary>
+    
+            
+    <remarks>
+        
+            
+        <para>
+            When a 
+            <see cref="T:GTA.Ped"/>
+             is about to open the 
+            <see cref="T:GTA.Vehicle"/>
+            's door or the 
+            <see cref="T:GTA.Vehicle"/>
+            's driver instance is changed, the lock status will be set to 
+            <see cref="F:GTA.VehicleLockStatus.Unlocked"/>
+            .
+        </para>
+        
+            
+        <para>
+            AI 
+            <see cref="T:GTA.Ped"/>
+            s can still get the driver out of the 
+            <see cref="T:GTA.Vehicle"/>
+             to kill the driver, while players cannot do that even if given a task.
+        </para>
+        
+            
+    </remarks>
+    
+        
+</member>

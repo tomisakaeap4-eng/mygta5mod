@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Quaternion.AngleBetween(GTA.Math.Quaternion,GTA.Math.Quaternion)">
+    
+            
+    <summary>
+            Returns the angle in degrees between two rotations a and b.
+            </summary>
+    
+            
+    <param name="a">The first quaternion to calculate angle.</param>
+    
+            
+    <param name="b">The second quaternion to calculate angle.</param>
+    
+            
+    <returns>The angle in degrees between two rotations a and b.</returns>
+    
+        
+</member>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.CheckpointCustomIcon.op_Implicit(GTA.CheckpointCustomIcon)~GTA.Native.InputArgument">
+    
+            
+    <summary>
+        
+            Converts a 
+        <see cref="T:GTA.CheckpointCustomIcon"/>
+         to a native input argument.
+            
+    </summary>
+    
+        
+</member>

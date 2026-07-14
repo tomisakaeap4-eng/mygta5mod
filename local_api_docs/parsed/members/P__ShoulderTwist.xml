@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.BodyBalanceHelper.ShoulderTwist">
+    
+            
+    <summary>
+            Mmmmdrunk = 0.0 shoulder twist.
+            </summary>
+    
+            
+    <remarks>
+            Default value = -0.4f.
+            Min value = -3.0f.
+            Max value = 3.0f.
+            </remarks>
+    
+        
+</member>

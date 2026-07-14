@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.SmartFallHelper.CatchFallCutOff">
+    
+            
+    <summary>
+            0.5angle is 0.878 dot. Cutoff to go to the catchFall (internal) //mmmtodo do like crashOrLandCutOff.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.9f.
+            Min value = -1.0f.
+            Max value = 1.0f.
+            </remarks>
+    
+        
+</member>

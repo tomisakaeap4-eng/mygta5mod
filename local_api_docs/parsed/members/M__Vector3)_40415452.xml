@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Vector3.op_Inequality(GTA.Math.Vector3,GTA.Math.Vector3)">
+    
+            
+    <summary>
+            Tests for inequality between two objects.
+            </summary>
+    
+            
+    <param name="left">The first value to compare.</param>
+    
+            
+    <param name="right">The second value to compare.</param>
+    
+            
+    <returns>
+        <see langword="true"/>
+         if 
+        <paramref name="left"/>
+         has a different value than 
+        <paramref name="right"/>
+        ; otherwise, 
+        <see langword="false"/>
+        .
+    </returns>
+    
+        
+</member>

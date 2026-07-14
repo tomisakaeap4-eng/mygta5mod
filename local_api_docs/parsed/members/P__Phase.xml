@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ArmsWindmillAdaptiveHelper.Phase">
+    
+            
+    <summary>
+            Set to a non-zero value to desynchronize the left and right arms motion.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.0f.
+            Min value = -4.0f.
+            Max value = 8.0f.
+            </remarks>
+    
+        
+</member>

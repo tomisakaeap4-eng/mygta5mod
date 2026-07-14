@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Entity.HeightAboveGround">
+    
+            
+    <summary>
+        
+            Gets how high above ground this 
+        <see cref="T:GTA.Entity"/>
+         is.
+            
+    </summary>
+    
+        
+</member>

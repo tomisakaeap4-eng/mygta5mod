@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Ped.Euphoria">
+    
+            
+    <summary>
+        
+            Opens a list of 
+        <see cref="T:GTA.NaturalMotion.Euphoria"/>
+         Helpers which can be applied to this 
+        <see cref="T:GTA.Ped"/>
+        .
+            
+    </summary>
+    
+        
+</member>

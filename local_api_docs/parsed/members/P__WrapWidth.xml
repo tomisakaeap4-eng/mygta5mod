@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.UI.TextElement.WrapWidth">
+    
+            
+    <summary>
+        
+            Gets or sets the maximum size of the 
+        <see cref="T:GTA.UI.TextElement"/>
+         before it wraps to a new line.
+            
+    </summary>
+    
+            
+    <value>
+        
+            The width of the 
+        <see cref="T:GTA.UI.TextElement"/>
+        .
+            
+    </value>
+    
+        
+</member>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.AnimationFlags.HideWeapon">
+    
+            
+    <summary>
+            Indicates that the ped's weapon should be hidden while this animation is playing.
+            </summary>
+    
+        
+</member>

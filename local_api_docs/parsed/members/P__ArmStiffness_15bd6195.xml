@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.PointGunHelper.ArmStiffness">
+    
+            
+    <summary>
+            Stiffness of the arm.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 14.0f.
+            Min value = 2.0f.
+            Max value = 15.0f.
+            </remarks>
+    
+        
+</member>

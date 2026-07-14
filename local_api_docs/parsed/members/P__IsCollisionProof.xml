@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Entity.IsCollisionProof">
+    
+            
+    <summary>
+        
+            Gets or sets a value indicating whether this 
+        <see cref="T:GTA.Entity"/>
+         is collision proof.
+            Setting this property to 
+        <see langword="true"/>
+         only does not prevent this 
+        <see cref="T:GTA.Entity"/>
+         from getting ragdolled when another 
+        <see cref="T:GTA.Entity"/>
+         collide with this 
+        <see cref="T:GTA.Entity"/>
+        .
+            
+    </summary>
+    
+            
+    <value>
+        
+            
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Entity"/>
+         is collision proof; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

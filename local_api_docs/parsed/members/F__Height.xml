@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.UI.Screen.Height">
+    
+            
+    <summary>
+            The base height of the screen used for all UI Calculations
+            </summary>
+    
+        
+</member>

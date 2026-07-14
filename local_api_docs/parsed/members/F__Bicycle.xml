@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.VehicleType.Bicycle">
+    
+            
+    <summary>
+            The bicycle type.
+            </summary>
+    
+            
+    <remarks>
+        
+            
+        <para>
+            The corresponding name in vehicles.meta for this value is 
+            <c>VEHICLE_TYPE_BICYCLE</c>
+            .
+        </para>
+        
+            
+        <para>
+            The internal class in memory is 
+            <c>CBmx</c>
+            , which is a subclass of 
+            <c>CBike</c>
+            .
+        </para>
+        
+            
+    </remarks>
+    
+        
+</member>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Audio.PlayMusic(System.String)">
+    
+            
+    <summary>
+            Plays music from the game's music files.
+            </summary>
+    
+            
+    <param name="musicFile">The music file to play.</param>
+    
+        
+</member>

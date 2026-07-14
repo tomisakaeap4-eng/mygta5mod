@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.NaturalMotion.ConfigureConstraintsHelper.#ctor(GTA.Ped)">
+    
+            
+    <summary>
+        
+            Creates a new Instance of the ConfigureConstraintsHelper for sending a ConfigureConstraints 
+        <see cref="T:GTA.NaturalMotion.Message"/>
+         to a given 
+        <see cref="T:GTA.Ped"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="ped">
+        The 
+        <see cref="T:GTA.Ped"/>
+         to send the ConfigureConstraints 
+        <see cref="T:GTA.NaturalMotion.Message"/>
+         to.
+    </param>
+    
+            
+    <remarks>
+            One shot to give state of constraints on character and response to constraints.
+            </remarks>
+    
+        
+</member>

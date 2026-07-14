@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Matrix.Scaling(System.Single,System.Single,System.Single)">
+    
+            
+    <summary>
+            Creates a matrix that scales along the x-axis, y-axis, and y-axis.
+            </summary>
+    
+            
+    <param name="x">Scaling factor that is applied along the x-axis.</param>
+    
+            
+    <param name="y">Scaling factor that is applied along the y-axis.</param>
+    
+            
+    <param name="z">Scaling factor that is applied along the z-axis.</param>
+    
+            
+    <returns>The created scaling matrix.</returns>
+    
+        
+</member>

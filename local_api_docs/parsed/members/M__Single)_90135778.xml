@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.GetClosestPickupObject(GTA.Math.Vector3,System.Single)">
+    
+            
+    <summary>
+        
+            Gets the closest 
+        <see cref="T:GTA.Prop"/>
+         to a given position in the World associated with a 
+        <see cref="T:GTA.Pickup"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="position">
+        The position to find the nearest 
+        <see cref="T:GTA.Prop"/>
+        .
+    </param>
+    
+            
+    <param name="radius">
+        The maximum distance from the 
+        <paramref name="position"/>
+         to detect 
+        <see cref="T:GTA.Prop"/>
+        s.
+    </param>
+    
+            
+    <remarks>
+        Returns 
+        <see langword="null"/>
+         if no 
+        <see cref="T:GTA.Prop"/>
+         was in the given region.
+    </remarks>
+    
+        
+</member>

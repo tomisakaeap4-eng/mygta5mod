@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.GetNearbyPeds(GTA.Ped,System.Single,GTA.Model[])">
+    
+            
+    <summary>
+        
+            Gets an 
+        <c>array</c>
+         of all 
+        <see cref="T:GTA.Ped"/>
+        s near a given 
+        <see cref="T:GTA.Ped"/>
+         in the world
+            
+    </summary>
+    
+            
+    <param name="ped">The ped to check.</param>
+    
+            
+    <param name="radius">
+        The maximun distance from the 
+        <paramref name="ped"/>
+         to detect 
+        <see cref="T:GTA.Ped"/>
+        s.
+    </param>
+    
+            
+    <param name="models">
+        The 
+        <see cref="T:GTA.Model"/>
+         of 
+        <see cref="T:GTA.Ped"/>
+        s to get, leave blank for all 
+        <see cref="T:GTA.Ped"/>
+         
+        <see cref="T:GTA.Model"/>
+        s.
+    </param>
+    
+            
+    <remarks>
+        Doesnt include the 
+        <paramref name="ped"/>
+         in the result
+    </remarks>
+    
+        
+</member>

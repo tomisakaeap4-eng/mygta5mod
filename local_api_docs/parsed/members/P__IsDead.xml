@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Entity.IsDead">
+    
+            
+    <summary>
+        
+            Gets a value indicating whether this 
+        <see cref="T:GTA.Entity"/>
+         is dead or does not exist.
+            
+    </summary>
+    
+            
+    <value>
+        
+              
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Entity"/>
+         is dead or does not exist; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+            
+    <seealso cref="M:GTA.Entity.Exists"/>
+    
+            
+    <seealso cref="P:GTA.Ped.IsInjured"/>
+    
+        
+</member>

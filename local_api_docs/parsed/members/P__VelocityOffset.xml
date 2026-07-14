@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.BodyRollUpHelper.VelocityOffset">
+    
+            
+    <summary>
+            Offsets perceived body velocity.  Increase to create larger &quot;dead zone&quot; around zero velocity where character will be less rolled. (NB: Reset to 0 to match earlier behavior).
+            </summary>
+    
+            
+    <remarks>
+            Default value = 2.0f.
+            Min value = 0.0f.
+            Max value = 10.0f.
+            </remarks>
+    
+        
+</member>

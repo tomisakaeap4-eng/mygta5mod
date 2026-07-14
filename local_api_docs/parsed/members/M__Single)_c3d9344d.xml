@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.CreateCamera(GTA.Math.Vector3,GTA.Math.Vector3,System.Single)">
+    
+            
+    <summary>
+        
+            Creates a 
+        <see cref="T:GTA.Camera"/>
+        , use 
+        <see cref="P:GTA.World.RenderingCamera"/>
+         to switch to this camera
+            
+    </summary>
+    
+            
+    <param name="position">The position of the camera.</param>
+    
+            
+    <param name="rotation">The rotation of the camera.</param>
+    
+            
+    <param name="fov">The field of view of the camera.</param>
+    
+        
+</member>

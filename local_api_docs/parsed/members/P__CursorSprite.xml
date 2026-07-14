@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.UI.Hud.CursorSprite">
+    
+            
+    <summary>
+            Gets or sets the sprite the cursor should used when drawn
+            </summary>
+    
+        
+</member>

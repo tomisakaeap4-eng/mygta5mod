@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Ped.Clone(System.Single)">
+    
+            
+    <summary>
+        
+            Spawn an identical clone of this 
+        <see cref="T:GTA.Ped"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="heading">The direction the clone should be facing.</param>
+    
+        
+</member>

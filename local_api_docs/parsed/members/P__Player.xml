@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Game.Player">
+    
+            
+    <summary>
+        
+            Gets the 
+        <see cref="T:GTA.Player"/>
+         that you are controlling.
+            
+    </summary>
+    
+        
+</member>

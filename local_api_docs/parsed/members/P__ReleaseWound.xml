@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ShotConfigureArmsHelper.ReleaseWound">
+    
+            
+    <summary>
+            Release wound if going sideways/forward fast enough.
+            0 = don't.
+            1 = only if bracing.
+            2 = any default arm reaction.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 1.
+            Min value = 0.
+            Max value = 2.
+            </remarks>
+    
+        
+</member>

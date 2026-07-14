@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Math.Vector2.Normalized">
+    
+            
+    <summary>
+            Returns this vector with a magnitude of 1.
+            </summary>
+    
+        
+</member>

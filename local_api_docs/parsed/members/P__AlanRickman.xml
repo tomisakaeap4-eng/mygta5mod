@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.HighFallHelper.AlanRickman">
+    
+            
+    <summary>
+            If true then orientate the character to face the point from where it started falling.
+            High fall like the one in &quot;Die Hard&quot; with Alan Rickman.
+            </summary>
+    
+            
+    <remarks>
+            Default value = False.
+            </remarks>
+    
+        
+</member>

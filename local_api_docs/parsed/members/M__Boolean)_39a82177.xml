@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.UI.Notification.Show(System.String,System.Boolean)">
+    
+            
+    <summary>
+        
+            Creates a 
+        <see cref="T:GTA.UI.Notification"/>
+         above the minimap with the given message.
+            
+    </summary>
+    
+            
+    <param name="message">The message in the notification.</param>
+    
+            
+    <param name="blinking">
+        if set to 
+        <see langword="true"/>
+         the notification will blink.
+    </param>
+    
+            
+    <returns>
+        The handle of the 
+        <see cref="T:GTA.UI.Notification"/>
+         which can be used to hide it using 
+        <see cref="M:GTA.UI.Notification.Hide(System.Int32)"/>
+        .
+    </returns>
+    
+        
+</member>

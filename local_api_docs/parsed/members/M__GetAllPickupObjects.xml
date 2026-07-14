@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.GetAllPickupObjects">
+    
+            
+    <summary>
+        
+            Gets an 
+        <c>array</c>
+         of all 
+        <see cref="T:GTA.Prop"/>
+        s in the World associated with a 
+        <see cref="T:GTA.Pickup"/>
+        .
+            
+    </summary>
+    
+        
+</member>

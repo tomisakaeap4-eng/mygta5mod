@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Vector3.Project(GTA.Math.Vector3,GTA.Math.Vector3)">
+    
+            
+    <summary>
+            Projects a vector onto another vector.
+            </summary>
+    
+            
+    <param name="vector">The vector to project.</param>
+    
+            
+    <param name="onNormal">Vector to project onto, does not assume it is normalized.</param>
+    
+            
+    <returns>The projected vector.</returns>
+    
+        
+</member>

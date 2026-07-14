@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ConfigureBulletsHelper.TorqueMode">
+    
+            
+    <summary>
+            </summary>
+    
+            
+    <remarks>
+        
+            Default value = 
+        <see cref="F:GTA.NaturalMotion.TorqueMode.Disabled"/>
+        .
+            If 
+        <see cref="F:GTA.NaturalMotion.TorqueMode.Proportional"/>
+         - proportional to character strength, can reduce impulse amount.
+            If 
+        <see cref="F:GTA.NaturalMotion.TorqueMode.Additive"/>
+         - no reduction of impulse and not proportional to character strength.
+            
+    </remarks>
+    
+        
+</member>

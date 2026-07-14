@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ConfigureLimitsHelper.Lean1">
+    
+            
+    <summary>
+            Custom limit values to use if not setting limits to desired. Limits are RAGE-native, not NM-wrapper-native.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 1.6f.
+            Min value = 0.0f.
+            Max value = 3.1f.
+            </remarks>
+    
+        
+</member>

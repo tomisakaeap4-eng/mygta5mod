@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.EnterVehicleFlags.WarpIn">
+    
+            
+    <summary>
+        
+            Warp the 
+        <see cref="T:GTA.Ped"/>
+         onto the 
+        <see cref="T:GTA.Vehicle"/>
+        .
+            
+    </summary>
+    
+        
+</member>

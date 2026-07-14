@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Math.Vector3.RelativeBack">
+    
+            
+    <summary>
+            Returns the relative Back vector. (0,-1,0)
+            </summary>
+    
+        
+</member>

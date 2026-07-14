@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ShotHelper.SpineBlendZero">
+    
+            
+    <summary>
+            Spine is always blended with zero pose this much and up to 1 as the character become stationary.  If negative no blend is ever applied.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.6f.
+            Min value = -0.1f.
+            Max value = 1.0f.
+            </remarks>
+    
+        
+</member>

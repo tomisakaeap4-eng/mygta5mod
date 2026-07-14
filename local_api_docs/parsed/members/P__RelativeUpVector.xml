@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.EntityBone.RelativeUpVector">
+    
+            
+    <summary>
+        
+            Gets the vector that points above this 
+        <see cref="T:GTA.EntityBone"/>
+         relative to the 
+        <see cref="T:GTA.Entity"/>
+         its part of.
+            
+    </summary>
+    
+        
+</member>

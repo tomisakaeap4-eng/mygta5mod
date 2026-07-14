@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Vehicle.AlarmTimeLeft">
+    
+            
+    <summary>
+        
+            Gets or sets time left before this 
+        <see cref="T:GTA.Vehicle"/>
+         alarm stops.
+            If greater than zero, the vehicle alarm will be sounding.
+            the value is up to 65534.
+            
+    </summary>
+    
+            
+    <value>
+        
+            The time left before this 
+        <see cref="T:GTA.Vehicle"/>
+         alarm stops.
+            
+    </value>
+    
+        
+</member>

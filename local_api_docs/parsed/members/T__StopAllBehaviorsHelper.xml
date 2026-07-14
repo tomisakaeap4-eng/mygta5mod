@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="T:GTA.NaturalMotion.StopAllBehaviorsHelper">
+    
+            
+    <summary>
+            Send this message to immediately stop all behaviors from executing.
+            </summary>
+    
+        
+</member>

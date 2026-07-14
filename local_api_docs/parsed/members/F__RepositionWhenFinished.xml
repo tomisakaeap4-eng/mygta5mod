@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.AnimationFlags.RepositionWhenFinished">
+    
+            
+    <summary>
+            When the animation finishes pop the peds physical reprsentation position to match the visual representations position.
+            Note that the animator of the animation must not unwind the animation and must have an independent mover node.
+            </summary>
+    
+        
+</member>

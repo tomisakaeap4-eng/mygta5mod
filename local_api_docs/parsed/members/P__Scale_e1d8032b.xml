@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Blip.Scale">
+    
+            
+    <summary>
+        
+            Sets the scale of this 
+        <see cref="T:GTA.Blip"/>
+         on the map.
+            
+    </summary>
+    
+        
+</member>

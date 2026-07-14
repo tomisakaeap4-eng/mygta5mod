@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.UI.Screen.AreScreenKillEffectsEnabled">
+    
+            
+    <summary>
+            Gets a value indicating whether screen kill effects are enabled.
+            </summary>
+    
+            
+    <value>
+        
+            
+        <see langword="true"/>
+         if screen kill effects are enabled; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

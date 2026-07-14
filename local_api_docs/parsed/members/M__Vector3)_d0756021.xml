@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Vector3.Maximize(GTA.Math.Vector3,GTA.Math.Vector3)">
+    
+            
+    <summary>
+            Returns a vector containing the largest components of the specified vectors.
+            </summary>
+    
+            
+    <param name="left">The first source vector.</param>
+    
+            
+    <param name="right">The second source vector.</param>
+    
+            
+    <returns>A vector containing the largest components of the source vectors.</returns>
+    
+        
+</member>

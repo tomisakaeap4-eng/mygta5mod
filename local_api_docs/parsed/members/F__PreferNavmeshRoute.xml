@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.VehicleDrivingFlags.PreferNavmeshRoute">
+    
+            
+    <summary>
+        
+            Make 
+        <see cref="T:GTA.Ped"/>
+         prefer navigation mesh routes rather than vehicle nodes.
+            Can be useful if you're going to be primarily driving off road.
+            
+    </summary>
+    
+        
+</member>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.VehicleDrivingFlags.GoOffRoadWhenAvoiding">
+    
+            
+    <summary>
+        
+            Make the 
+        <see cref="T:GTA.Ped"/>
+         prefer to go off the road rather than enter oncoming lanes when avoiding (steering around) obstacles if the correct lanes are full.
+            Even if this value is set, the 
+        <see cref="T:GTA.Ped"/>
+         will try to steer around obstacles by entering other correct lanes if the correct lanes are not full. 
+            
+    </summary>
+    
+        
+</member>

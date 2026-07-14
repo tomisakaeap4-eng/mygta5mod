@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ConfigureLimitsHelper.Mask">
+    
+            
+    <summary>
+            Two character body-masking value, bitwise joint mask or bitwise logic string of two character body-masking value  for joint limits to configure. Ignored if index != -1.
+            </summary>
+    
+            
+    <remarks>
+            Default value = &quot;fb&quot;.
+            </remarks>
+    
+        
+</member>

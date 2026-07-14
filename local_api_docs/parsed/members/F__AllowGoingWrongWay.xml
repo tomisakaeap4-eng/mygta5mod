@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.VehicleDrivingFlags.AllowGoingWrongWay">
+    
+            
+    <summary>
+        
+            Allow the 
+        <see cref="T:GTA.Ped"/>
+         to drive into the oncoming traffic if the correct lanes are full.
+            Even if this value is set, the 
+        <see cref="T:GTA.Ped"/>
+         will try to reach the correct lanes again as soon as possible. 
+            
+    </summary>
+    
+        
+</member>

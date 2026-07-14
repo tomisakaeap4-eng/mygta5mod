@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.HighFallHelper.AdaptiveCircling">
+    
+            
+    <summary>
+            Stunt man type fall.
+            Arm and legs circling direction controlled by angmom and orientation.
+            </summary>
+    
+            
+    <remarks>
+            Default value = True.
+            </remarks>
+    
+        
+</member>

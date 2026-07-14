@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.PedHash.Franklin02">
+    
+            
+    <summary>
+        
+            The Franklin Clinton model added in the Contract update, and this model is not used for story mode. The model name is 
+        <c>P_Franklin_02</c>
+        .
+            The leader player will control a 
+        <see cref="T:GTA.Ped"/>
+         with this model in Short Trip missions.
+            
+    </summary>
+    
+        
+</member>

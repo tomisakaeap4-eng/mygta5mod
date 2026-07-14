@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Player.MaxArmor">
+    
+            
+    <summary>
+        
+            Gets or sets the maximum amount of armor this 
+        <see cref="T:GTA.Player"/>
+         can carry.
+            
+    </summary>
+    
+        
+</member>

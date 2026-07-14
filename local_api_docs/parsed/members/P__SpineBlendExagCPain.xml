@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ShotHelper.SpineBlendExagCPain">
+    
+            
+    <summary>
+            True: spine is blended with zero pose, false: spine is blended with zero pose if not setting exag or cpain.
+            </summary>
+    
+            
+    <remarks>
+            Default value = False.
+            </remarks>
+    
+        
+</member>

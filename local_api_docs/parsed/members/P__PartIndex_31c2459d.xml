@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ForceToBodyPartHelper.PartIndex">
+    
+            
+    <summary>
+            Part or link or bound index.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.
+            Min value = 0.
+            Max value = 28.
+            </remarks>
+    
+        
+</member>

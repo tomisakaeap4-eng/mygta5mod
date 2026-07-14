@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.UI.TextElement.Caption">
+    
+            
+    <summary>
+        
+            Gets or sets the text to draw in this 
+        <see cref="T:GTA.UI.TextElement"/>
+        .
+            
+    </summary>
+    
+            
+    <value>
+            The caption.
+            </value>
+    
+        
+</member>

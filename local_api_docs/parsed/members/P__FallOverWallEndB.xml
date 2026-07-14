@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.FallOverWallHelper.FallOverWallEndB">
+    
+            
+    <summary>
+            One end of the wall over which we are trying to fall over.
+            </summary>
+    
+            
+    <remarks>
+            Default value = Vector3(0.0f, 0.0f, 0.0f).
+            </remarks>
+    
+        
+</member>

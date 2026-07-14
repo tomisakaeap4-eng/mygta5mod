@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.Euphoria.FireWeapon">
+    
+            
+    <summary>
+        
+            Gets a FireWeapon Helper class for sending FireWeapon 
+        <see cref="T:GTA.NaturalMotion.Message"/>
+         to this 
+        <see cref="T:GTA.Ped"/>
+        .
+            
+    </summary>
+    
+            
+    <remarks>
+            One shot message apply a force to the hand as we fire the gun that should be in this hand
+            </remarks>
+    
+        
+</member>

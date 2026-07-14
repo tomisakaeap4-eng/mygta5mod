@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.UI.Hud.IsRadarVisible">
+    
+            
+    <summary>
+            Gets or sets a value indicating whether the radar is visible.
+            </summary>
+    
+        
+</member>

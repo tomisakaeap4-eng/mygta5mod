@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.UI.Font.FixedWidthNumbersStyle">
+    
+            
+    <summary>
+        
+            
+        <para>This font contains only glyphs of numbers (0 to 9), dollar sign, asterisk, plus sign, colon, semicolon, equals sign, slash, and backslash in ASCII.</para>
+        
+            
+        <para>This font style specifies the same font unless the player have custom font files installed.</para>
+        
+            
+    </summary>
+    
+        
+</member>

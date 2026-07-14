@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ElectrocuteHelper.LargeMaxTime">
+    
+            
+    <summary>
+            Max time to next large random snap (about 28 snaps with stunInterval = 0.07s).
+            </summary>
+    
+            
+    <remarks>
+            Default value = 2.0f.
+            Min value = 0.0f.
+            Max value = 200.0f.
+            </remarks>
+    
+        
+</member>

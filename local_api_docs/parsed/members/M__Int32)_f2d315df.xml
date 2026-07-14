@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Model.RequestCollision(System.Int32)">
+    
+            
+    <summary>
+        
+            Attempts to load this 
+        <see cref="T:GTA.Model"/>
+        's collision into memory for a given period of time.
+            
+    </summary>
+    
+            
+    <param name="timeout">
+        The time (in milliseconds) before giving up trying to load this 
+        <see cref="T:GTA.Model"/>
+        .
+    </param>
+    
+            
+    <returns>
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Model"/>
+        's collision is loaded; otherwise, 
+        <see langword="false"/>
+        .
+    </returns>
+    
+        
+</member>

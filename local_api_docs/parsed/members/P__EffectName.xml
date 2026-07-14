@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.ParticleEffect.EffectName">
+    
+            
+    <summary>
+        
+            Gets the name of the effect used for this 
+        <see cref="T:GTA.ParticleEffect"/>
+        .
+            
+    </summary>
+    
+        
+</member>

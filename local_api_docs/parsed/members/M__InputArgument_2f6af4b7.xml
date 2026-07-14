@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Pickup.op_Implicit(GTA.Pickup)~GTA.Native.InputArgument">
+    
+            
+    <summary>
+        
+            Converts a 
+        <see cref="T:GTA.Pickup"/>
+         to a native input argument.
+            
+    </summary>
+    
+        
+</member>

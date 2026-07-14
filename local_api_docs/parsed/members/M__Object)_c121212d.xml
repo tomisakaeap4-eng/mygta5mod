@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Native.OutputArgument.#ctor(System.Object)">
+    
+            
+    <summary>
+        
+            Initializes a new instance of the 
+        <see cref="T:GTA.Native.OutputArgument"/>
+         class with an initial value for script functions that require the pointer to data instead of the actual data.
+            
+    </summary>
+    
+            
+    <param name="value">
+        The value to set the data of this 
+        <see cref="T:GTA.Native.OutputArgument"/>
+         to.
+    </param>
+    
+        
+</member>

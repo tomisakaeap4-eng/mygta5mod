@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Game.FrameCount">
+    
+            
+    <summary>
+            Gets the total number of frames that have been rendered in this session.
+            </summary>
+    
+        
+</member>

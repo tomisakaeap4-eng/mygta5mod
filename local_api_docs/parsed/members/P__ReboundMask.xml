@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.SmartFallHelper.ReboundMask">
+    
+            
+    <summary>
+            Part mask to apply rebound assistance.
+            </summary>
+    
+            
+    <remarks>
+            Default value = uk.
+            </remarks>
+    
+        
+</member>

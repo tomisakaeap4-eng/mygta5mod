@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Entity.AddBlip">
+    
+            
+    <summary>
+        
+            Creates a 
+        <see cref="T:GTA.Blip"/>
+         on this 
+        <see cref="T:GTA.Entity"/>
+        .
+            
+    </summary>
+    
+        
+</member>

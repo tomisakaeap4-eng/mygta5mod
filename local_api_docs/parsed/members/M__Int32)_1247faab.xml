@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Rope.GetVertexCoord(System.Int32)">
+    
+            
+    <summary>
+        
+            Gets the world coordinates of a single vertex of this 
+        <see cref="T:GTA.Rope"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="vertex">The index of the vertex.</param>
+    
+            
+    <returns>The position of the vertex in world coordinates.</returns>
+    
+        
+</member>

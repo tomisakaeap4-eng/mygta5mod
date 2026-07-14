@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Blip.ShowsOutlineIndicator">
+    
+            
+    <summary>
+        
+            Gets or sets a value indicating whether this 
+        <see cref="T:GTA.Blip"/>
+         shows outline.
+            The outline color can be changed by setting 
+        <see cref="P:GTA.Blip.SecondaryColor"/>
+        .
+            
+    </summary>
+    
+            
+    <value>
+        
+              
+        <see langword="true"/>
+         to show outline; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

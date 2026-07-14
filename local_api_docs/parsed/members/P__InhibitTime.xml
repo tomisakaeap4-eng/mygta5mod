@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.FireWeaponHelper.InhibitTime">
+    
+            
+    <summary>
+            Minimum time before next fire impulse.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.4f.
+            Min value = 0.0f.
+            Max value = 10.0f.
+            </remarks>
+    
+        
+</member>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Camera.Shake(GTA.CameraShake,System.Single)">
+    
+            
+    <summary>
+        
+            Shakes this 
+        <see cref="T:GTA.Camera"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="shakeType">Type of the shake to apply.</param>
+    
+            
+    <param name="amplitude">The amplitude of the shaking.</param>
+    
+        
+</member>

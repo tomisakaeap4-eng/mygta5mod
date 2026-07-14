@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.GrabHelper.MaxWristAngle">
+    
+            
+    <summary>
+            When we are grabbing the max angle the wrist ccan be at before we break the grab.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 3.1f.
+            Min value = 0.0f.
+            Max value = 3.2f.
+            </remarks>
+    
+        
+</member>

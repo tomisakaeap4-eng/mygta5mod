@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.Euphoria.StaggerFall">
+    
+            
+    <summary>
+        
+            Gets a StaggerFall Helper class for sending StaggerFall 
+        <see cref="T:GTA.NaturalMotion.Message"/>
+         to this 
+        <see cref="T:GTA.Ped"/>
+        .
+            
+    </summary>
+    
+        
+</member>

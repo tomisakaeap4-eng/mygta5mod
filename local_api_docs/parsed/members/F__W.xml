@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.Math.Quaternion.W">
+    
+            
+    <summary>
+            Gets or sets the W component of the quaternion.
+            </summary>
+    
+            
+    <value>The W component of the quaternion.</value>
+    
+        
+</member>

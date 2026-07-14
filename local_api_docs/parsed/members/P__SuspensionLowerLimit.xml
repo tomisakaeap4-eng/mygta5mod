@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.HandlingData.SuspensionLowerLimit">
+    
+            
+    <summary>
+            Gets or sets how far the wheels can move down from their original position.
+            </summary>
+    
+            
+    <value>
+            The suspension lower limit.
+            </value>
+    
+        
+</member>

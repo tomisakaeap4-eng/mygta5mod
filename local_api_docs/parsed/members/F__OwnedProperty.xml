@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.BlipCategoryType.OwnedProperty">
+    
+            
+    <summary>
+        
+            
+        <para>Blips will show under the &quot;Owned Property&quot; category listing in the map legend, regardless of name.</para>
+        
+            
+    </summary>
+    
+        
+</member>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Player.SetSuperJumpThisFrame">
+    
+            
+    <summary>
+        
+            Lets this 
+        <see cref="T:GTA.Player"/>
+         jump really high this frame.
+            
+    </summary>
+    
+        
+</member>

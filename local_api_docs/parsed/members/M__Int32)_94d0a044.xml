@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.NaturalMotion.CustomHelper.Start(System.Int32)">
+    
+            
+    <summary>
+        
+            Starts this Natural Motion behavior on the 
+        <see cref="T:GTA.Ped"/>
+         for a specified duration.
+            
+    </summary>
+    
+            
+    <param name="duration">How long to apply the behavior for (-1 for looped).</param>
+    
+        
+</member>

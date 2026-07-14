@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Projectile.FromHandle(System.Int32)">
+    
+            
+    <summary>
+        
+            Get a 
+        <see cref="T:GTA.Projectile"/>
+         instance by its handle
+            
+    </summary>
+    
+            
+    <param name="handle"/>
+    
+            
+    <returns>
+        Null if not found or the entity is not a 
+        <see cref="T:GTA.Prop"/>
+        , otherwise, a 
+        <see cref="T:GTA.Projectile"/>
+    </returns>
+    
+        
+</member>

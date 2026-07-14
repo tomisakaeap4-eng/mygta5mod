@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Native.GlobalVariable.Read``1">
+    
+            
+    <summary>
+        
+            Gets the value stored in the 
+        <see cref="T:GTA.Native.GlobalVariable"/>
+        .
+            
+    </summary>
+    
+        
+</member>

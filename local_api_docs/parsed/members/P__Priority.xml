@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Blip.Priority">
+    
+            
+    <summary>
+        
+            Gets or sets the priority of this 
+        <see cref="T:GTA.Blip"/>
+        .
+            Overlapping 
+        <see cref="T:GTA.Blip"/>
+        s with a higher priority cover those with a smaller one.
+            The value is up to 255.
+            
+    </summary>
+    
+        
+</member>

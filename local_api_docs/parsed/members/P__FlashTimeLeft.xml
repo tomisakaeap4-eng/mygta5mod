@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Blip.FlashTimeLeft">
+    
+            
+    <summary>
+        
+            Gets or sets the flash time left in ms before this 
+        <see cref="T:GTA.Blip"/>
+         stops flashing.
+            The max value is up to 65534.
+            Set 
+        <c>-1</c>
+         to let the 
+        <see cref="T:GTA.Blip"/>
+         flash forever.
+            
+    </summary>
+    
+            
+    <remarks>
+        returns 
+        <c>-1</c>
+         if the internal value of this property value is set to 
+        <c>65535</c>
+        , which indicates that the flash timer is explicitly not set.
+    </remarks>
+    
+        
+</member>

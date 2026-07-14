@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Native.GlobalVariable.IsBitSet(System.Int32)">
+    
+            
+    <summary>
+        
+            Gets a value indicating whether a specific bit of the 
+        <see cref="T:GTA.Native.GlobalVariable"/>
+         is set.
+            
+    </summary>
+    
+            
+    <param name="index">
+        The zero indexed bit of the 
+        <see cref="T:GTA.Native.GlobalVariable"/>
+         to check.
+    </param>
+    
+        
+</member>

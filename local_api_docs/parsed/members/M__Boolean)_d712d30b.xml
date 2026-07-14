@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.InteriorProxy.Disable(System.Boolean)">
+    
+            
+    <summary>
+        
+            Disables the interior, making 
+        <see cref="T:GTA.InteriorProxy"/>
+         behave as if interior is not loaded completely. Does not prevent from having a 
+        <see cref="T:GTA.InteriorInstance"/>
+        .
+            Does nothing if the player 
+        <see cref="T:GTA.Ped"/>
+         is in this 
+        <see cref="T:GTA.InteriorProxy"/>
+        .
+            
+    </summary>
+    
+        
+</member>

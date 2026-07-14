@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.UI.Screen.StartEffect(GTA.UI.ScreenEffect,System.Int32,System.Boolean)">
+    
+            
+    <summary>
+            Starts applying the specified effect to the screen.
+            </summary>
+    
+            
+    <param name="effectName">
+        The 
+        <see cref="T:GTA.UI.ScreenEffect"/>
+         to start playing.
+    </param>
+    
+            
+    <param name="duration">The duration of the effect in milliseconds or zero to use the default length.</param>
+    
+            
+    <param name="looped">
+        If 
+        <see langword="true"/>
+         the effect won't stop until 
+        <see cref="M:GTA.UI.Screen.StopEffect(GTA.UI.ScreenEffect)"/>
+         is called.
+    </param>
+    
+        
+</member>

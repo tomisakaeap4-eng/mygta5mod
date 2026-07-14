@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Quaternion.FromToRotation(GTA.Math.Vector3,GTA.Math.Vector3)">
+    
+            
+    <summary>
+            Creates a rotation which rotates from fromDirection to toDirection.
+            </summary>
+    
+        
+</member>

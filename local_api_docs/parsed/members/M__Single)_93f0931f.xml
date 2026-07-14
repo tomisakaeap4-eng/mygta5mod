@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Matrix.RotationAxis(GTA.Math.Vector3,System.Single)">
+    
+            
+    <summary>
+            Creates a matrix that rotates around an arbitrary axis.
+            </summary>
+    
+            
+    <param name="axis">The axis around which to rotate.</param>
+    
+            
+    <param name="angle">Angle of rotation in radians. Angles are measured clockwise when looking along the rotation axis toward the origin.</param>
+    
+            
+    <returns>The created rotation matrix.</returns>
+    
+        
+</member>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.WeaponAsset.Request">
+    
+            
+    <summary>
+        
+            Attempts to load this 
+        <see cref="T:GTA.WeaponAsset"/>
+         into memory.
+            
+    </summary>
+    
+        
+</member>

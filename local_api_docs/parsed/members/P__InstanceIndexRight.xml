@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.PointArmHelper.InstanceIndexRight">
+    
+            
+    <summary>
+            Level index of thing to point at, or -1 for none. if -1, target is specified in world space, otherwise it is an offset from the object specified by this index.
+            </summary>
+    
+            
+    <remarks>
+            Default value = -1.
+            Min value = -1.
+            </remarks>
+    
+        
+</member>

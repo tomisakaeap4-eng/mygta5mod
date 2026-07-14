@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.NaturalMotion.Message.Abort(GTA.Ped)">
+    
+            
+    <summary>
+        
+            Stops this Natural Motion behavior on the given 
+        <see cref="T:GTA.Ped"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="target">
+        The 
+        <see cref="T:GTA.Ped"/>
+         to send the Abort 
+        <see cref="T:GTA.NaturalMotion.Message"/>
+         to.
+    </param>
+    
+        
+</member>

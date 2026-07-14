@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.AnimationFlags.BlendOutWRTLastFrame">
+    
+            
+    <summary>
+            Start blending out the anim early, so that the blend out duration completes at the end of the animation.
+            </summary>
+    
+        
+</member>

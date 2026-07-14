@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.BlipCategoryType.OtherPlayers">
+    
+            
+    <summary>
+        
+            
+        <para>Blips will show under the &quot;Other Players&quot; category listing in the map legend, regardless of name. Also shows distance in the map legend.</para>
+        
+            
+        <para>
+            the blip name will show with 
+            <see cref="F:GTA.UI.Font.ChaletComprimeCologneNotGamerName"/>
+            .
+        </para>
+        
+            
+    </summary>
+    
+        
+</member>

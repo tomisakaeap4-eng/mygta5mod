@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.GrabHelper.Pos3">
+    
+            
+    <summary>
+            </summary>
+    
+            
+    <remarks>
+            Default value = Vector3(0.0f, 0.0f, 0.0f).
+            </remarks>
+    
+        
+</member>

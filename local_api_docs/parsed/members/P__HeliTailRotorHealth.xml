@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Vehicle.HeliTailRotorHealth">
+    
+            
+    <summary>
+            Gets or sets the tail rotor health for this heli.
+            </summary>
+    
+        
+</member>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.VehicleType.Helicopter">
+    
+            
+    <summary>
+        
+            The helicopter type. 
+        <see cref="F:GTA.VehicleHash.Thruster"/>
+         is also classified as this type.
+            
+    </summary>
+    
+            
+    <remarks>
+        
+            
+        <para>
+            The corresponding name in vehicles.meta for this value is 
+            <c>VEHICLE_TYPE_HELI</c>
+            .
+        </para>
+        
+            
+        <para>
+            The internal class in memory is 
+            <c>CHeli</c>
+            , which is a subclass of 
+            <c>CAutomobile</c>
+             via 
+            <c>CRotaryWingAircraft</c>
+            .
+        </para>
+        
+            
+    </remarks>
+    
+        
+</member>

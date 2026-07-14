@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Math.Vector2.UnitY">
+    
+            
+    <summary>
+        
+            The Y unit 
+        <see cref="T:GTA.Math.Vector2"/>
+         (0, 1).
+            
+    </summary>
+    
+        
+</member>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinL">
+    
+            
+    <summary>
+            Minimum left arm length.
+            Arm length is random in the range fling2LengthMin:fling2LengthMax.
+            Arm length maps one to one with elbow angle.
+            These values are scaled internally for the female character.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.3f.
+            Min value = 0.3f.
+            Max value = 0.6f.
+            </remarks>
+    
+        
+</member>

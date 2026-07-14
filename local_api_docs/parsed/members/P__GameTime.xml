@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.EntityDamageRecord.GameTime">
+    
+            
+    <summary>
+        
+            Gets the game time when the 
+        <see cref="P:GTA.EntityDamageRecord.Victim"/>
+         took damage.
+            
+    </summary>
+    
+        
+</member>

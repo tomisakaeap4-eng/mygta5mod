@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapLeftArm">
+    
+            
+    <summary>
+            Snap the leftArm.
+            </summary>
+    
+            
+    <remarks>
+            Default value = False.
+            </remarks>
+    
+        
+</member>

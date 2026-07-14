@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Camera.StopPointing">
+    
+            
+    <summary>
+        
+            Stops this 
+        <see cref="T:GTA.Camera"/>
+         pointing at a specific target.
+            
+    </summary>
+    
+        
+</member>

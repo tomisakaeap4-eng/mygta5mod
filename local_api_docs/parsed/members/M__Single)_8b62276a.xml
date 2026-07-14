@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.RemoveAllParticleEffectsInRange(GTA.Math.Vector3,System.Single)">
+    
+            
+    <summary>
+            Stops all particle effects in a range.
+            </summary>
+    
+            
+    <param name="pos">The position in the world to stop particle effects.</param>
+    
+            
+    <param name="range">
+        The maximum distance from the 
+        <paramref name="pos"/>
+         to stop particle effects.
+    </param>
+    
+        
+</member>

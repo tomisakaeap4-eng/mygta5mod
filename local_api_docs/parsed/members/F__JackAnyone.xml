@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.EnterVehicleFlags.JackAnyone">
+    
+            
+    <summary>
+        
+            Allow the 
+        <see cref="T:GTA.Ped"/>
+         to jack regardless of relationship status if they have to jack someone to complete the enter vehicle task.
+            Without this flag, the 
+        <see cref="T:GTA.Ped"/>
+         won't jack those they respect or like where the relationship is set to 
+        <see cref="F:GTA.Relationship.Companion"/>
+         or 
+        <see cref="F:GTA.Relationship.Respect"/>
+         towards them,
+            but may jack those they don't respect or like.
+            Without this flag, the 
+        <see cref="T:GTA.Ped"/>
+         will abort the enter vehicle task if they have to jack one of those who respect or like to complete the enter vehicle task.
+            
+    </summary>
+    
+        
+</member>

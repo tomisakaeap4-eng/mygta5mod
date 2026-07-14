@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.GetDistance(GTA.Math.Vector3,GTA.Math.Vector3)">
+    
+            
+    <summary>
+            Gets the straight line distance between 2 positions.
+            </summary>
+    
+            
+    <param name="origin">The origin.</param>
+    
+            
+    <param name="destination">The destination.</param>
+    
+            
+    <returns>The distance</returns>
+    
+        
+</member>

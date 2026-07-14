@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ConfigureShotInjuredLegHelper.LegLimpBend">
+    
+            
+    <summary>
+            Bend the legs via the balancer by this amount if stepping on the injured leg.
+            0.2 seems a good default.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.0f.
+            Min value = 0.0f.
+            Max value = 1.0f.
+            </remarks>
+    
+        
+</member>

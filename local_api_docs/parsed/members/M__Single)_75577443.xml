@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.DrawLightWithRange(GTA.Math.Vector3,System.Drawing.Color,System.Single,System.Single)">
+    
+            
+    <summary>
+            Draws light around a region.
+            </summary>
+    
+            
+    <param name="position">The position to center the light around.</param>
+    
+            
+    <param name="color">The color of the light.</param>
+    
+            
+    <param name="range">How far the light should extend to.</param>
+    
+            
+    <param name="intensity">
+        The intensity: 
+        <c>0.0f</c>
+         being no intensity, 
+        <c>1.0f</c>
+         being full intensity.
+    </param>
+    
+        
+</member>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.CreateParticleEffectNonLooped(GTA.ParticleEffectAsset,System.String,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,GTA.InvertAxisFlags)">
+    
+            
+    <summary>
+            Starts a Particle Effect that runs once at a given position then is destroyed.
+            </summary>
+    
+            
+    <param name="asset">The effect asset to use.</param>
+    
+            
+    <param name="effectName">The name of the effect.</param>
+    
+            
+    <param name="pos">The World position where the effect is.</param>
+    
+            
+    <param name="rot">What rotation to apply to the effect.</param>
+    
+            
+    <param name="scale">How much to scale the size of the effect by.</param>
+    
+            
+    <param name="invertAxis">Which axis to flip the effect in.</param>
+    
+            
+    <returns>
+        <see langword="true"/>
+        If the effect was able to start; otherwise, 
+        <see langword="false"/>
+        .
+    </returns>
+    
+        
+</member>

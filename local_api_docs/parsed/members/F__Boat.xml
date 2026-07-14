@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.VehicleType.Boat">
+    
+            
+    <summary>
+            The boat type.
+            </summary>
+    
+            
+    <remarks>
+        
+            
+        <para>
+            The corresponding name in vehicles.meta for this value is 
+            <c>VEHICLE_TYPE_BOAT</c>
+            .
+        </para>
+        
+            
+        <para>
+            The internal class in memory is 
+            <c>CBoat</c>
+            .
+        </para>
+        
+            
+    </remarks>
+    
+        
+</member>

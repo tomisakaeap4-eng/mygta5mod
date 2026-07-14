@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.EntityBone.op_Equality(GTA.EntityBone,GTA.EntityBone)">
+    
+            
+    <summary>
+        
+            Determines if two 
+        <see cref="T:GTA.EntityBone"/>
+        s refer to the same bone.
+            
+    </summary>
+    
+            
+    <param name="left">
+        The left 
+        <see cref="T:GTA.EntityBone"/>
+        .
+    </param>
+    
+            
+    <param name="right">
+        The right 
+        <see cref="T:GTA.EntityBone"/>
+        .
+    </param>
+    
+            
+    <returns>
+        <see langword="true"/>
+         if 
+        <paramref name="left"/>
+         is the same bone as 
+        <paramref name="right"/>
+        ; otherwise, 
+        <see langword="false"/>
+        .
+    </returns>
+    
+        
+</member>

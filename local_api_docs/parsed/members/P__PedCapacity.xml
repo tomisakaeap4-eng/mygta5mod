@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.World.PedCapacity">
+    
+            
+    <summary>
+        
+            The total number of 
+        <see cref="T:GTA.Ped"/>
+        s that can exist in the world.
+            
+    </summary>
+    
+            
+    <remarks>
+        The game will crash when the number of 
+        <see cref="T:GTA.Ped"/>
+         is the same as this limit and the game tries to create a 
+        <see cref="T:GTA.Ped"/>
+        .
+    </remarks>
+    
+        
+</member>

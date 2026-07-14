@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.EntityBone.op_Implicit(GTA.EntityBone)~GTA.Native.InputArgument">
+    
+            
+    <summary>
+        
+            Converts an 
+        <see cref="T:GTA.EntityBone"/>
+         to a native input argument.
+            
+    </summary>
+    
+        
+</member>

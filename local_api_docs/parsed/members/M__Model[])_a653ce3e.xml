@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.GetAllVehicles(GTA.Model[])">
+    
+            
+    <summary>
+        
+            Gets an 
+        <c>array</c>
+         of all 
+        <see cref="T:GTA.Vehicle"/>
+        s in the World.
+            
+    </summary>
+    
+            
+    <param name="models">
+        The 
+        <see cref="T:GTA.Model"/>
+         of 
+        <see cref="T:GTA.Vehicle"/>
+        s to get, leave blank for all 
+        <see cref="T:GTA.Vehicle"/>
+         
+        <see cref="T:GTA.Model"/>
+        s.
+    </param>
+    
+        
+</member>

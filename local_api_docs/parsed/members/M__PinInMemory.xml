@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.InteriorProxy.PinInMemory">
+    
+            
+    <summary>
+        
+            Makes this 
+        <see cref="T:GTA.InteriorProxy"/>
+         keep the 
+        <see cref="T:GTA.InteriorProxy"/>
+         this 
+        <see cref="T:GTA.InteriorProxy"/>
+         is loaded.
+            
+    </summary>
+    
+        
+</member>

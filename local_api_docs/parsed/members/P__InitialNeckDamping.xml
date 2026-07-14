@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ShotHelper.InitialNeckDamping">
+    
+            
+    <summary>
+            Intial damping of neck after being shot.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 1.0f.
+            Min value = 0.1f.
+            Max value = 10.0f.
+            </remarks>
+    
+        
+</member>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Ped.LastVehicle">
+    
+            
+    <summary>
+        
+            Gets the last 
+        <see cref="T:GTA.Vehicle"/>
+         this 
+        <see cref="T:GTA.Ped"/>
+         used.
+            
+    </summary>
+    
+            
+    <remarks>
+        returns 
+        <see langword="null"/>
+         if the last vehicle doesn't exist.
+    </remarks>
+    
+        
+</member>

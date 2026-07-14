@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Blip.ShowsHeadingIndicator">
+    
+            
+    <summary>
+        
+            Gets or sets a value indicating whether this 
+        <see cref="T:GTA.Blip"/>
+         shows the heading indicator used for normal players in GTA: Online.
+            
+    </summary>
+    
+            
+    <value>
+        
+              
+        <see langword="true"/>
+         to show the heading indicator; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

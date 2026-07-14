@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Vehicle.ClassType">
+    
+            
+    <summary>
+        
+            Gets the class of this 
+        <see cref="T:GTA.Vehicle"/>
+        .
+            
+    </summary>
+    
+        
+</member>

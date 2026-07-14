@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.UI.Font.Leaderboard">
+    
+            
+    <summary>
+        
+            
+        <para>This font contains only Chevron arrows, some shield symbols, and hexagons.</para>
+        
+            
+        <para>This font style specifies the same font unless the player have custom font files installed.</para>
+        
+            
+    </summary>
+    
+        
+</member>

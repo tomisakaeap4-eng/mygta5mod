@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Quaternion.Length">
+    
+            
+    <summary>
+            Calculates the length of the quaternion.
+            </summary>
+    
+            
+    <returns>The length of the quaternion.</returns>
+    
+        
+</member>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Model.IsMalePed">
+    
+            
+    <summary>
+        
+            Gets a value indicating whether this 
+        <see cref="T:GTA.Model"/>
+         is a male pedestrian.
+            Without modding 
+        <c>pedpersonality.ymt</c>
+        , returns 
+        <see langword="true"/>
+         if the 
+        <see cref="P:GTA.Model.Hash"/>
+         is one of the animal hashes.
+            
+    </summary>
+    
+            
+    <value>
+        
+            
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Model"/>
+         is a male pedestrian; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

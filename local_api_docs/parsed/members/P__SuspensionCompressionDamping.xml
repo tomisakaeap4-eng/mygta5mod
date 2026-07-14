@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.HandlingData.SuspensionCompressionDamping">
+    
+            
+    <summary>
+        
+            Gets or sets the damping during strut compression.
+            This value will be set to the equivalent value in the 
+        <c>handling.meta</c>
+         divided by 10 when 
+        <see cref="T:GTA.HandlingData"/>
+         instances are initialized.
+            
+    </summary>
+    
+            
+    <value>
+            The damping during strut compression.
+            </value>
+    
+        
+</member>

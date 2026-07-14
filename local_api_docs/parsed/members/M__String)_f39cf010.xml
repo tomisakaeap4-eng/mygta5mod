@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.AddRelationshipGroup(System.String)">
+    
+            
+    <summary>
+        
+            Creates a 
+        <see cref="T:GTA.RelationshipGroup"/>
+         with the given name.
+            
+    </summary>
+    
+            
+    <param name="name">The name of the relationship group.</param>
+    
+        
+</member>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ArmsWindmillHelper.DisableOnImpact">
+    
+            
+    <summary>
+            If true, each arm will stop windmilling if it hits the ground.
+            </summary>
+    
+            
+    <remarks>
+            Default value = True.
+            </remarks>
+    
+        
+</member>

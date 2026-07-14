@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Ped.CanSufferCriticalHits">
+    
+            
+    <summary>
+        
+            Gets or Sets whether this 
+        <see cref="T:GTA.Ped"/>
+         can suffer critical damage (which deals 1000 times base damages to non-player characters with default weapon configs) when bullets hit this 
+        <see cref="T:GTA.Ped"/>
+        's head bone or its child bones.
+             If this 
+        <see cref="T:GTA.Ped"/>
+         can't suffer critical damage, they will take base damage of weapons when bullets hit their head bone or its child bones, just like when bullets hit a bone other than their head bone, its child bones, or limb bones.
+            
+    </summary>
+    
+            
+    <value>
+        
+              
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Ped"/>
+         can suffer critical damage; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

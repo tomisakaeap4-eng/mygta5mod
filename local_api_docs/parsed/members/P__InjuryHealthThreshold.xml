@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Ped.InjuryHealthThreshold">
+    
+            
+    <summary>
+        
+            Gets or sets the injury health threshold for this 
+        <see cref="T:GTA.Ped"/>
+        .
+            The pedestrian is considered injured when its health drops below this value.
+            The pedestrian dies on attacks when its health is below this value.
+            
+    </summary>
+    
+            
+    <value>
+        
+            The injury health threshold. Should be below 
+        <see cref="P:GTA.Entity.MaxHealth"/>
+        .
+            
+    </value>
+    
+            
+    <remarks>
+            Note on player controlled pedestrians: One of the game scripts will consider the player wasted when their health drops below this setting value.
+            </remarks>
+    
+        
+</member>

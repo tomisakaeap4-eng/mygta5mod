@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.PointGunHelper.OneHandedPointing">
+    
+            
+    <summary>
+            0 = don't allow, 1= allow for kPistol(two handed pistol) only, 2 = allow for kRifle only, 3 = allow for kPistol and kRifle. Allow one handed pointing - no constraint if cant be supported .  If not allowed then gunHand does not try to point at target if it cannot be supported - the constraint will be controlled by always support.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 1.
+            Min value = 0.
+            Max value = 3.
+            </remarks>
+    
+        
+</member>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Entity.Rotation">
+    
+            
+    <summary>
+        
+            Gets or sets the rotation of this 
+        <see cref="T:GTA.Entity"/>
+        .
+            
+    </summary>
+    
+            
+    <value>
+            The yaw, pitch, roll rotation values.
+            </value>
+    
+        
+</member>

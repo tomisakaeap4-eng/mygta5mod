@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.ParticleEffectAsset.MarkAsNoLongerNeeded">
+    
+            
+    <summary>
+        
+            Tells the game we have finished using this 
+        <see cref="T:GTA.ParticleEffectAsset"/>
+         and it can be freed from memory.
+            
+    </summary>
+    
+        
+</member>

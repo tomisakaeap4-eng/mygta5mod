@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.VehicleLockStatus.CannotEnter">
+    
+            
+    <summary>
+        
+            The 
+        <see cref="T:GTA.Vehicle"/>
+         cannot be entered regardless of whether the door is open or closed, or missing entirely.
+            Warping into the 
+        <see cref="T:GTA.Vehicle"/>
+         is the only way to make 
+        <see cref="T:GTA.Ped"/>
+        s get in on a seat.
+            
+    </summary>
+    
+        
+</member>

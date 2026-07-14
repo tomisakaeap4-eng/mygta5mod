@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.PedGroup.Equals(System.Object)">
+    
+            
+    <summary>
+        
+            Determines if an 
+        <see cref="T:System.Object"/>
+         refers to the same group as this 
+        <see cref="T:GTA.PedGroup"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="obj">
+        The 
+        <see cref="T:System.Object"/>
+         to check.
+    </param>
+    
+            
+    <returns>
+        <see langword="true"/>
+         if the 
+        <paramref name="obj"/>
+         is the same group as this 
+        <see cref="T:GTA.PedGroup"/>
+        ; otherwise, 
+        <see langword="false"/>
+        .
+    </returns>
+    
+        
+</member>

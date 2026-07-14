@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.AnimPoseHelper.GravCompLeftLeg">
+    
+            
+    <summary>
+            Gravity compensation applied to left leg (applied after gravityCompensation). If -ve then not applied (use current setting).
+            </summary>
+    
+            
+    <remarks>
+            Default value = -1.0f.
+            Min value = -1.0f.
+            Max value = 14.0f.
+            </remarks>
+    
+        
+</member>

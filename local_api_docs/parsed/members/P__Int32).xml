@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Math.Matrix.Item(System.Int32)">
+    
+            
+    <summary>
+            Gets or sets the component at the specified index.
+            </summary>
+    
+            
+    <value>The value of the matrix component, depending on the index.</value>
+    
+            
+    <param name="index">The zero-based index of the component to access.</param>
+    
+            
+    <returns>The value of the component at the specified index.</returns>
+    
+            
+    <exception cref="T:System.ArgumentOutOfRangeException">
+        Thrown when the 
+        <paramref name="index"/>
+         is out of the range [0, 15].
+    </exception>
+    
+        
+</member>

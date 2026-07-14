@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.BlipColor.WhiteNotPure">
+    
+            
+    <summary>
+            The default RGB value of this color is the same as HUD_COLOUR_WHITE, whose default RGB value is #F0F0F0.
+            </summary>
+    
+        
+</member>

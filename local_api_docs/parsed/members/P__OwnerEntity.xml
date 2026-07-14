@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Projectile.OwnerEntity">
+    
+            
+    <summary>
+        
+            Gets the 
+        <see cref="T:GTA.Entity"/>
+         this 
+        <see cref="T:GTA.Projectile"/>
+         belongs to. Can be 
+        <see langword="null"/>
+        .
+            
+    </summary>
+    
+        
+</member>

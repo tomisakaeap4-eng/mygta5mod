@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.HandlingData.TractionLossMultiplier">
+    
+            
+    <summary>
+            Gets or sets how much traction is affected by material grip differences from 1.0f.
+            </summary>
+    
+            
+    <value>
+            The traction loss multiplier.
+            </value>
+    
+        
+</member>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Matrix.Translation(GTA.Math.Vector3)">
+    
+            
+    <summary>
+            Creates a translation matrix using the specified offsets.
+            </summary>
+    
+            
+    <param name="amount">The offset for all three coordinate planes.</param>
+    
+            
+    <returns>The created translation matrix.</returns>
+    
+        
+</member>

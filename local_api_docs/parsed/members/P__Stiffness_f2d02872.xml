@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.AnimPoseHelper.Stiffness">
+    
+            
+    <summary>
+            Stiffness of masked joints. -ve values mean don't apply stiffness or damping (just use defaults or ones applied by behaviors).  If you are using animpose fullbody on its own then this gives the opprtunity to use setStffness and setMuscle stiffness messages to set up the character's muscles. Mmmmtodo get rid of this -ve.
+            </summary>
+    
+            
+    <remarks>
+            Default value = -1.0f.
+            Min value = -1.1f.
+            Max value = 16.0f.
+            </remarks>
+    
+        
+</member>

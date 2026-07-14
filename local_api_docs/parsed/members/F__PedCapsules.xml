@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.IntersectFlags.PedCapsules">
+    
+            
+    <summary>
+        
+            Detect 
+        <see cref="T:GTA.Ped"/>
+         who are not ragdolled (not running any NM tasks) by detecting the simple capsule shape of 
+        <see cref="T:GTA.Ped"/>
+        .
+            
+    </summary>
+    
+        
+</member>

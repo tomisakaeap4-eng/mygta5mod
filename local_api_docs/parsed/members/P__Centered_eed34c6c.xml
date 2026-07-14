@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.UI.TextElement.Centered">
+    
+            
+    <summary>
+        
+            Gets or sets a value indicating whether the alignment of this 
+        <see cref="T:GTA.UI.TextElement"/>
+         is centered.
+            See 
+        <see cref="P:GTA.UI.TextElement.Alignment"/>
+        
+            
+    </summary>
+    
+            
+    <value>
+        
+              
+        <see langword="true"/>
+         if centered; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

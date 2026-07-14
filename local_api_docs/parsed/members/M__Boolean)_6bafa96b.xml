@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.VehicleWheel.Fix(System.Boolean)">
+    
+            
+    <summary>
+        
+            Fixes this 
+        <see cref="T:GTA.VehicleWheel"/>
+        's tire.
+            
+    </summary>
+    
+            
+    <param name="leaveOtherBurstedTiresNotShowing">
+        If set to 
+        <see langword="false"/>
+        , bursted tires will appear again just like 
+        <c>SET_VEHICLE_TYRE_FIXED</c>
+         does.
+    </param>
+    
+        
+</member>

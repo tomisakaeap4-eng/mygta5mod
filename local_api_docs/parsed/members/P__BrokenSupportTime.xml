@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.PointGunHelper.BrokenSupportTime">
+    
+            
+    <summary>
+            Once constraint is broken then do not try to reconnect/support for this amount of time.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 1.0f.
+            Min value = 0.0f.
+            Max value = 5.0f.
+            </remarks>
+    
+        
+</member>

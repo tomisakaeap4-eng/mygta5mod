@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Ped.ClearTimeOfDeathRecord">
+    
+            
+    <summary>
+        
+            
+        <para>
+            Clears the time record when this 
+            <see cref="T:GTA.Ped"/>
+             is killed. Can be useful after resurrecting this 
+            <see cref="T:GTA.Ped"/>
+            .
+        </para>
+        
+            
+        <para>
+            Internally, when a 
+            <see cref="T:GTA.Ped"/>
+             killed and the value for the time of death in the instance of this 
+            <see cref="T:GTA.Ped"/>
+             is not 
+            <c>0</c>
+            , the game does not write the game time value for the time of death.
+        </para>
+        
+            
+    </summary>
+    
+        
+</member>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Player.SetExplosiveAmmoThisFrame">
+    
+            
+    <summary>
+        
+            Makes this 
+        <see cref="T:GTA.Player"/>
+         shoot explosive bullets this frame.
+            
+    </summary>
+    
+        
+</member>

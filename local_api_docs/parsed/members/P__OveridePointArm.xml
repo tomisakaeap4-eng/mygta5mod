@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.AnimPoseHelper.OveridePointArm">
+    
+            
+    <summary>
+            Overide PointArm behavior (if animPose includes the arm/arms).
+            </summary>
+    
+            
+    <remarks>
+            Default value = False.
+            </remarks>
+    
+        
+</member>

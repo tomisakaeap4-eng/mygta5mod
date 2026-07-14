@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Model.IsCollisionLoaded">
+    
+            
+    <summary>
+        
+            Gets a value indicating whether the collision for this 
+        <see cref="T:GTA.Model"/>
+         is loaded.
+            
+    </summary>
+    
+            
+    <value>
+        
+            
+        <see langword="true"/>
+         if the collision is loaded; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

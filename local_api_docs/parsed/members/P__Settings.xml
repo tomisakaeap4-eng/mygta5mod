@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Script.Settings">
+    
+            
+    <summary>
+        
+            Gets an INI file associated with this 
+        <see cref="T:GTA.Script"/>
+        .
+            The File will be in the same location as this 
+        <see cref="T:GTA.Script"/>
+         but with an extension of &quot;.ini&quot;.
+            Use this to save and load settings for this 
+        <see cref="T:GTA.Script"/>
+        .
+            
+    </summary>
+    
+        
+</member>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Math.Matrix.Identity">
+    
+            
+    <summary>
+        
+            The identity 
+        <see cref="T:GTA.Math.Matrix"/>
+        .
+            
+    </summary>
+    
+        
+</member>

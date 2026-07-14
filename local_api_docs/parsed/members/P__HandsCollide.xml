@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.GrabHelper.HandsCollide">
+    
+            
+    <summary>
+            Hand collisions on when grabbing (false turns off hand collisions making grab more stable esp. To grab points slightly inside geometry).
+            </summary>
+    
+            
+    <remarks>
+            Default value = False.
+            </remarks>
+    
+        
+</member>

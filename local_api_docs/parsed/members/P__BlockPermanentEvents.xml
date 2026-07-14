@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Ped.BlockPermanentEvents">
+    
+            
+    <summary>
+        
+            Sets whether permanent events are blocked for this 
+        <see cref="T:GTA.Ped"/>
+        .
+            
+        <para>
+            
+            If set to 
+            <see langword="true"/>
+            , this 
+            <see cref="T:GTA.Ped"/>
+             will no longer react to permanent events and will only do as they're told.
+            For example, the 
+            <see cref="T:GTA.Ped"/>
+             will not flee when get shot at and they will not begin combat even if the decision maker specifies that seeing a hated ped should.
+            However, the 
+            <see cref="T:GTA.Ped"/>
+             will still respond to temporary events like walking around other peds or vehicles even if this property is set to 
+            <see langword="true"/>
+            .
+            
+        </para>
+        
+            
+    </summary>
+    
+            
+    <value>
+        
+              
+        <see langword="true"/>
+         if permanent events are blocked; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

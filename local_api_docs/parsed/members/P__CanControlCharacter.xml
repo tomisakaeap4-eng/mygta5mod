@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Player.CanControlCharacter">
+    
+            
+    <summary>
+        
+            Gets or sets a value indicating whether this 
+        <see cref="T:GTA.Player"/>
+         can control its 
+        <see cref="T:GTA.Ped"/>
+        .
+            
+    </summary>
+    
+            
+    <value>
+        
+            
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Player"/>
+         can control its 
+        <see cref="T:GTA.Ped"/>
+        ; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

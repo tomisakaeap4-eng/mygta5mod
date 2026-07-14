@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Vector2.Equals(GTA.Math.Vector2)">
+    
+            
+    <summary>
+            Returns a value that indicates whether the current instance is equal to the specified object.
+            </summary>
+    
+            
+    <param name="other">Object to make the comparison with.</param>
+    
+            
+    <returns>
+        <see langword="true"/>
+         if the current instance is equal to the specified object; 
+        <see langword="false"/>
+         otherwise.
+    </returns>
+    
+        
+</member>

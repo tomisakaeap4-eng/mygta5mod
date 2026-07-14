@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.UI.IElement.Draw(System.Drawing.SizeF)">
+    
+            
+    <summary>
+        
+            Draws this 
+        <see cref="T:GTA.UI.IElement"/>
+         this frame at the specified offset.
+            
+    </summary>
+    
+            
+    <param name="offset">
+        The offset to shift the draw position of this 
+        <see cref="T:GTA.UI.IElement"/>
+         using a 1280*720 pixel base.
+    </param>
+    
+        
+</member>

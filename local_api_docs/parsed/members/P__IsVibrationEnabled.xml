@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Game.IsVibrationEnabled">
+    
+            
+    <summary>
+            Gets a value indicating whether the controller vibration is enabled.
+            </summary>
+    
+        
+</member>

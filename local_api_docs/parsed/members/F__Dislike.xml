@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.Relationship.Dislike">
+    
+            
+    <summary>
+        
+            The correct relationship name for this enum would be 
+        <c>Wanted</c>
+        .
+            Will be used for cops towards the player relationship group when the player is wanted.
+            
+    </summary>
+    
+        
+</member>

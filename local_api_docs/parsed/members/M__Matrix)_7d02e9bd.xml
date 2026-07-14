@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Matrix.Invert(GTA.Math.Matrix)">
+    
+            
+    <summary>
+            Calculates the inverse of a matrix if it exists.
+            </summary>
+    
+            
+    <returns>The inverse of the matrix.</returns>
+    
+        
+</member>

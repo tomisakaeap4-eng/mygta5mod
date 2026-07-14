@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Ped.IsInGroup">
+    
+            
+    <summary>
+        
+            Gets if this 
+        <see cref="T:GTA.Ped"/>
+         is in a 
+        <see cref="P:GTA.Ped.PedGroup"/>
+        .
+            
+    </summary>
+    
+        
+</member>

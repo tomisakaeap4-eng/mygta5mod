@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Native.Function.ObjectToNative(System.Object)">
+    
+            
+    <summary>
+            Converts a managed object to a native value.
+            </summary>
+    
+            
+    <param name="value">The object to convert.</param>
+    
+            
+    <returns>
+        A native value representing the input 
+        <paramref name="value"/>
+        .
+    </returns>
+    
+        
+</member>

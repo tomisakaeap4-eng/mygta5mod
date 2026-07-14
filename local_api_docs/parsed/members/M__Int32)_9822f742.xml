@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Entity.DetachFragmentPart(System.Int32)">
+    
+            
+    <summary>
+        
+            Detachs a fragment part of this 
+        <see cref="T:GTA.Entity"/>
+        . Can create a new 
+        <see cref="T:GTA.Entity"/>
+        .
+            
+    </summary>
+    
+            
+    <returns>
+        
+              
+        <para>
+            <see langword="true"/>
+             if a new 
+            <see cref="T:GTA.Entity"/>
+             is created; otherwise, 
+            <see langword="false"/>
+            .
+        </para>
+        
+              
+        <para>
+            Returning 
+            <see langword="false"/>
+             does not necessarily mean detaching the part did not change the 
+            <see cref="T:GTA.Entity"/>
+             in any ways.
+              For example, detaching 
+            <c>seat_f</c>
+             for 
+            <see cref="T:GTA.Vehicle"/>
+             will return 
+            <see langword="false"/>
+             but the 
+            <see cref="T:GTA.Ped"/>
+             on the front seat will not be able to sit properly.
+        </para>
+        
+            
+    </returns>
+    
+        
+</member>

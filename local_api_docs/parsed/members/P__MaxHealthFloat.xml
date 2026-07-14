@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Entity.MaxHealthFloat">
+    
+            
+    <summary>
+        
+            Gets or sets the maximum health of this 
+        <see cref="T:GTA.Entity"/>
+         as a 
+        <see cref="T:System.Single"/>
+        .
+            
+    </summary>
+    
+            
+    <value>
+        
+            The maximum health as a 
+        <see cref="T:System.Single"/>
+        .
+            
+    </value>
+    
+        
+</member>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ConfigureBalanceHelper.BalanceAbortThreshold">
+    
+            
+    <summary>
+            When the character gives up and goes into a fall.  Larger values mean that the balancer can lean more before failing.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.6f.
+            Min value = 0.0f.
+            Max value = 1.0f.
+            </remarks>
+    
+        
+</member>

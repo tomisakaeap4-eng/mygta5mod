@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.BlipSprite.GTAOPlayerSafehouseDead">
+    
+            
+    <summary>
+            In GTA Online, when some player is a bounty and is in a safehouse, a blip with this sprite will be attached.
+            </summary>
+    
+        
+</member>

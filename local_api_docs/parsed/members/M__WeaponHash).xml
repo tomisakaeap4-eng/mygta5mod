@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Entity.HasBeenDamagedBy(GTA.WeaponHash)">
+    
+            
+    <summary>
+        
+            Determines whether this 
+        <see cref="T:GTA.Entity"/>
+         has been damaged by a specific weapon].
+            
+    </summary>
+    
+            
+    <param name="weapon">The weapon to check.</param>
+    
+            
+    <returns>
+        
+              
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Entity"/>
+         has been damaged by the specified weapon; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </returns>
+    
+        
+</member>

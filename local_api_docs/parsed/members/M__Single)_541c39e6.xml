@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Player.SetSwimSpeedMultThisFrame(System.Single)">
+    
+            
+    <summary>
+        
+            Sets the swim speed multiplier for this 
+        <see cref="T:GTA.Player"/>
+         this frame.
+            
+    </summary>
+    
+            
+    <param name="mult">
+        The factor - min: 
+        <c>0.0f</c>
+        , default: 
+        <c>1.0f</c>
+        , max: 
+        <c>1.499f</c>
+        .
+    </param>
+    
+        
+</member>

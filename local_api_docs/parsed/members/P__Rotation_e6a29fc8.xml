@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.AnimatedBuilding.Rotation">
+    
+            
+    <summary>
+        
+            Gets the rotation of this 
+        <see cref="T:GTA.AnimatedBuilding"/>
+        .
+            
+    </summary>
+    
+            
+    <value>
+            The yaw, pitch, roll rotation values in degree.
+            </value>
+    
+        
+</member>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.VehicleType.Automobile">
+    
+            
+    <summary>
+            The non-special automobile type, such as general cars, taxis, trucks, and tanks.
+            </summary>
+    
+            
+    <remarks>
+        
+            
+        <para>
+            The corresponding name in vehicles.meta for this value is 
+            <c>VEHICLE_TYPE_CAR</c>
+            .
+        </para>
+        
+            
+        <para>
+            The internal class in memory is 
+            <c>CAutomobile</c>
+            .
+        </para>
+        
+            
+    </remarks>
+    
+        
+</member>

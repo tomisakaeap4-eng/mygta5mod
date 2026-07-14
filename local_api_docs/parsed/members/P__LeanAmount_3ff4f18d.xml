@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ForceLeanInDirectionHelper.LeanAmount">
+    
+            
+    <summary>
+            Amount of lean, 0 to about 0.5. -ve will move away from the target.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.2f.
+            Min value = -1.0f.
+            Max value = 1.0f.
+            </remarks>
+    
+        
+</member>

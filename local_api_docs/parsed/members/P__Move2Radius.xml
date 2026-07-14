@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.GrabHelper.Move2Radius">
+    
+            
+    <summary>
+            Relative distance (additional to grabDistance - doesn't try to move inside grabDistance)at which the grab tries to use the balancer to move to the grab point.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.0f.
+            Min value = 0.0f.
+            Max value = 14.0f.
+            </remarks>
+    
+        
+</member>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Ped.ArmorFloat">
+    
+            
+    <summary>
+        
+            Gets or sets how much Armor this 
+        <see cref="T:GTA.Ped"/>
+         is wearing as a 
+        <see cref="T:System.Single"/>
+        .
+            
+    </summary>
+    
+            
+    <value>
+        
+            The armor as a 
+        <see cref="T:System.Single"/>
+        .
+            
+    </value>
+    
+        
+</member>

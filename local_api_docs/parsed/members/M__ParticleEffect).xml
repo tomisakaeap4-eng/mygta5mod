@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.ParticleEffect.op_Equality(GTA.ParticleEffect,GTA.ParticleEffect)">
+    
+            
+    <summary>
+        
+            Determines if two 
+        <see cref="T:GTA.ParticleEffect"/>
+        s refer to the same effect.
+            
+    </summary>
+    
+            
+    <param name="left">
+        The left 
+        <see cref="T:GTA.ParticleEffect"/>
+        .
+    </param>
+    
+            
+    <param name="right">
+        The right 
+        <see cref="T:GTA.ParticleEffect"/>
+        .
+    </param>
+    
+            
+    <returns>
+        <see langword="true"/>
+         if 
+        <paramref name="left"/>
+         is the same effect as 
+        <paramref name="right"/>
+        ; otherwise, 
+        <see langword="false"/>
+        .
+    </returns>
+    
+        
+</member>

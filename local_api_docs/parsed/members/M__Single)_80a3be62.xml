@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Vector3.Around(System.Single)">
+    
+            
+    <summary>
+            Creates a random vector inside the circle around this position.
+            </summary>
+    
+        
+</member>

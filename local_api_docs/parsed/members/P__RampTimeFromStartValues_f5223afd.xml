@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.YankedHelper.RampTimeFromStartValues">
+    
+            
+    <summary>
+            Time spent ramping from Start to end values for arms and spine stiffness and damping i.e. for whiplash effect (occurs after timeAtStartValues).
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.1f.
+            Min value = 0.0f.
+            Max value = 2.0f.
+            </remarks>
+    
+        
+</member>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.PointGunHelper.RifleFall">
+    
+            
+    <summary>
+            Pose the rifle hand to reduce complications with collisions. 0 = false, 1 = always when falling, 2 = when falling except if falling backwards.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.
+            Min value = 0.
+            Max value = 2.
+            </remarks>
+    
+        
+</member>

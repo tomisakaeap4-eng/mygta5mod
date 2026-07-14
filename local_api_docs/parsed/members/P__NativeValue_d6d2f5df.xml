@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.ShapeTestHandle.NativeValue">
+    
+            
+    <summary>
+        
+            Gets the native representation of this 
+        <see cref="T:GTA.Model"/>
+        .
+            
+    </summary>
+    
+        
+</member>

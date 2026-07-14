@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Ped.Resurrect">
+    
+            
+    <summary>
+        
+            Resurrects this 
+        <see cref="T:GTA.Ped"/>
+         from death.
+            
+    </summary>
+    
+        
+</member>

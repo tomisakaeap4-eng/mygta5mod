@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Vector3.op_Multiply(GTA.Math.Vector3,System.Single)">
+    
+            
+    <summary>
+            Scales a vector by the given value.
+            </summary>
+    
+            
+    <param name="vector">The vector to scale.</param>
+    
+            
+    <param name="scale">The amount by which to scale the vector.</param>
+    
+            
+    <returns>The scaled vector.</returns>
+    
+        
+</member>

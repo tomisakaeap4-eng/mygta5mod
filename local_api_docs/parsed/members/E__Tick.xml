@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="E:GTA.Script.Tick">
+    
+            
+    <summary>
+            An event that is raised every tick of the script.
+            Put code that needs to be looped each frame in here.
+            </summary>
+    
+        
+</member>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Entity.Matrix">
+    
+            
+    <summary>
+        
+            Gets this 
+        <see cref="T:GTA.Entity"/>
+        s matrix which stores position and rotation information.
+            
+    </summary>
+    
+        
+</member>

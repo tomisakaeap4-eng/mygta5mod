@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.BraceForImpactHelper.GrabHoldTimer">
+    
+            
+    <summary>
+            Amount of time, in seconds, before grab automatically bails.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 2.5f.
+            Min value = 0.0f.
+            Max value = 10.0f.
+            </remarks>
+    
+        
+</member>

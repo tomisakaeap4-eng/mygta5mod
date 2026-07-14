@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="T:GTA.NaturalMotion.SetWeaponModeHelper">
+    
+            
+    <summary>
+            Use this message to set the character's weapon mode.  This is an alternativeto the setWeaponMode public function.
+            </summary>
+    
+        
+</member>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.CreateRandomVehicle(GTA.Math.Vector3,System.Single,System.Func{GTA.Model,System.Boolean})">
+    
+            
+    <summary>
+        
+            Spawns a 
+        <see cref="T:GTA.Vehicle"/>
+         of a random 
+        <see cref="T:GTA.Model"/>
+         at the position specified.
+            
+    </summary>
+    
+            
+    <param name="position">
+        The position to spawn the 
+        <see cref="T:GTA.Vehicle"/>
+         at.
+    </param>
+    
+            
+    <param name="heading">
+        The heading of the 
+        <see cref="T:GTA.Vehicle"/>
+        .
+    </param>
+    
+            
+    <param name="predicate">
+        The method that determines whether a model should be considered when choosing a random model for the 
+        <see cref="T:GTA.Vehicle"/>
+        .
+    </param>
+    
+            
+    <remarks>
+        returns 
+        <see langword="null"/>
+         if the 
+        <see cref="T:GTA.Vehicle"/>
+         could not be spawned.
+    </remarks>
+    
+        
+</member>

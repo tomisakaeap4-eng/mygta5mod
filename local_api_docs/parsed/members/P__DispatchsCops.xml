@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Player.DispatchsCops">
+    
+            
+    <summary>
+        
+            Sets a value indicating whether cops will be dispatched for this 
+        <see cref="T:GTA.Player"/>
+        
+            
+    </summary>
+    
+            
+    <value>
+        
+              
+        <see langword="true"/>
+         if cops will be dispatched; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

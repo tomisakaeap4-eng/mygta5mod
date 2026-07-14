@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.BlipColor.Michael">
+    
+            
+    <summary>
+        
+            This color is usually #65B4D4 sky blue, which is similar to 
+        <see cref="P:System.Drawing.Color.SkyBlue"/>
+        .
+            
+    </summary>
+    
+        
+</member>

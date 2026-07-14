@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Script.Interval">
+    
+            
+    <summary>
+        
+            Gets or sets the interval in ms between 
+        <see cref="E:GTA.Script.Tick"/>
+         for this 
+        <see cref="T:GTA.Script"/>
+        .
+            Default value is 0 meaning the event will execute once each frame.
+            
+    </summary>
+    
+        
+</member>

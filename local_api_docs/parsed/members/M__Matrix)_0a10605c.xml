@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Matrix.op_Multiply(GTA.Math.Matrix,GTA.Math.Matrix)">
+    
+            
+    <summary>
+            Multiplies two matrices.
+            </summary>
+    
+            
+    <param name="left">The first matrix to multiply.</param>
+    
+            
+    <param name="right">The second matrix to multiply.</param>
+    
+            
+    <returns>The product of the two matrices.</returns>
+    
+        
+</member>

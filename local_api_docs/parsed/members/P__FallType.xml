@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ConfigureBalanceHelper.FallType">
+    
+            
+    <summary>
+            How to fall after maxSteps or maxBalanceTime.
+            </summary>
+    
+            
+    <remarks>
+        
+            Default value = 
+        <see cref="F:GTA.NaturalMotion.FallType.RampDownStiffness"/>
+        .
+            If 
+        <see cref="F:GTA.NaturalMotion.FallType.Slump"/>
+         BCR has to be active.
+            
+    </remarks>
+    
+        
+</member>

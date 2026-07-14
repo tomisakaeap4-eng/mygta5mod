@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Blip.ShowsFriendIndicator">
+    
+            
+    <summary>
+        
+            Gets or sets a value indicating whether this 
+        <see cref="T:GTA.Blip"/>
+         shows friend indicator, which highlights the 
+        <see cref="T:GTA.Blip"/>
+         by a right half cyan circle.
+            The right half cyan circle indicator is used to indicate friends in GTA: Online.
+            
+    </summary>
+    
+            
+    <value>
+        
+              
+        <see langword="true"/>
+         to show friend indicator; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </value>
+    
+        
+</member>

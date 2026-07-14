@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.FallOverWallHelper.ForceAngleAbort">
+    
+            
+    <summary>
+            The angle abort threshold.
+            </summary>
+    
+            
+    <remarks>
+            Default value = -0.2f.
+            </remarks>
+    
+        
+</member>

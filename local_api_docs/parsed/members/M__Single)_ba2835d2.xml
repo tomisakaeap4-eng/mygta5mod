@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Quaternion.#ctor(GTA.Math.Vector3,System.Single)">
+    
+            
+    <summary>
+        
+            Initializes a new instance of the 
+        <see cref="T:GTA.Math.Quaternion"/>
+         structure.
+            
+    </summary>
+    
+            
+    <param name="axis">The axis of rotation.</param>
+    
+            
+    <param name="angle">The angle of rotation in radians.</param>
+    
+        
+</member>

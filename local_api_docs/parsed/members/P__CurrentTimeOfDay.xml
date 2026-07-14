@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.World.CurrentTimeOfDay">
+    
+            
+    <summary>
+            Gets or sets the current time of day in the GTA World.
+            </summary>
+    
+            
+    <value>
+            The current time of day
+            </value>
+    
+        
+</member>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Pickup.ObjectExists">
+    
+            
+    <summary>
+        
+            Determines if the object of this 
+        <see cref="T:GTA.Pickup"/>
+         exists.
+            
+    </summary>
+    
+            
+    <returns/>
+    
+        
+</member>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ConfigureSelfAvoidanceHelper.UsePolarPathAlgorithm">
+    
+            
+    <summary>
+            Use the alternative self avoidance algorithm that is based on linear and polar target blending. WARNING: It only requires &quot;radius&quot; in terms of parametrization.
+            </summary>
+    
+            
+    <remarks>
+            Default value = False.
+            </remarks>
+    
+        
+</member>

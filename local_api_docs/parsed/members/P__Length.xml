@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Rope.Length">
+    
+            
+    <summary>
+        
+            Gets or sets the length of this 
+        <see cref="T:GTA.Rope"/>
+        .
+            
+    </summary>
+    
+        
+</member>

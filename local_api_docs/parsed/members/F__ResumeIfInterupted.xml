@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.EnterVehicleFlags.ResumeIfInterupted">
+    
+            
+    <summary>
+            Resume the enter vehicle task even if the task is interupted (bumped, shot).
+            </summary>
+    
+        
+</member>

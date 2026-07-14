@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.VehicleDrivingFlags.PreventBackgroundPathfinding">
+    
+            
+    <summary>
+            Only works when the car mission is set to MISSION_CRUISE.
+            </summary>
+    
+        
+</member>

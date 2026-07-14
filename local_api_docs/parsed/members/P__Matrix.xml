@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Camera.Matrix">
+    
+            
+    <summary>
+        
+            Gets the matrix of this 
+        <see cref="T:GTA.Camera"/>
+        .
+            
+    </summary>
+    
+        
+</member>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Native.GlobalVariable.Write``1(``0)">
+    
+            
+    <summary>
+        
+            Set the value stored in the 
+        <see cref="T:GTA.Native.GlobalVariable"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="value">
+        The new value to assign to the 
+        <see cref="T:GTA.Native.GlobalVariable"/>
+        .
+    </param>
+    
+        
+</member>

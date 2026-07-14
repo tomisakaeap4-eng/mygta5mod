@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Ped.CanSwitchWeapons">
+    
+            
+    <summary>
+        
+            Sets if this 
+        <see cref="T:GTA.Ped"/>
+         can switch between different weapons.
+            
+    </summary>
+    
+        
+</member>

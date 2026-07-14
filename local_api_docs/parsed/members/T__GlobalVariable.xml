@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="T:GTA.Native.GlobalVariable">
+    
+            
+    <summary>
+            A value class which handles access to global script variables.
+            </summary>
+    
+        
+</member>

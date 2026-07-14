@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.GetNextPositionOnSidewalk(GTA.Math.Vector2)">
+    
+            
+    <summary>
+        
+            Gets the next position on the street where a 
+        <see cref="T:GTA.Ped"/>
+         can be placed.
+            
+    </summary>
+    
+            
+    <param name="position">The position to check around.</param>
+    
+        
+</member>

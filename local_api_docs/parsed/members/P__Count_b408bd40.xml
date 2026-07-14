@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.VehicleWheelCollection.Count">
+    
+            
+    <summary>
+        
+            Gets the number of 
+        <see cref="T:GTA.VehicleWheel"/>
+         this 
+        <see cref="T:GTA.VehicleWheelCollection"/>
+         has. 
+        <c>0</c>
+         will be returned if the owner vehicle does not exist.
+            
+    </summary>
+    
+        
+</member>

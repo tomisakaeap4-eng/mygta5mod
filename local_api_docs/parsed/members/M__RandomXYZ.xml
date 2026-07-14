@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Vector3.RandomXYZ">
+    
+            
+    <summary>
+            Returns a new normalized vector with random X, Y and Z components.
+            </summary>
+    
+        
+</member>

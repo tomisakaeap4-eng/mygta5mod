@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.VehicleDrivingFlags.DrivingModeAvoidVehiclesReckless">
+    
+            
+    <summary>
+        Very erratic driving. difference between this and 
+        <see cref="F:GTA.VehicleDrivingFlags.DrivingModeAvoidVehicles"/>
+         is that it doesn't use the brakes at ALL to help with steering.
+    </summary>
+    
+        
+</member>

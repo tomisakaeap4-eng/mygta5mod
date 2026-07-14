@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.CreateParticleEffect(GTA.ParticleEffectAsset,System.String,GTA.Entity,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,GTA.InvertAxisFlags)">
+    
+            
+    <summary>
+        
+            Creates a 
+        <see cref="T:GTA.ParticleEffect"/>
+         on an 
+        <see cref="T:GTA.Entity"/>
+         that runs looped.
+            
+    </summary>
+    
+            
+    <param name="asset">The effect asset to use.</param>
+    
+            
+    <param name="effectName">The name of the Effect</param>
+    
+            
+    <param name="entity">
+        The 
+        <see cref="T:GTA.Entity"/>
+         the effect is attached to.
+    </param>
+    
+            
+    <param name="offset">
+        The offset from the 
+        <paramref name="entity"/>
+         to attach the effect.
+    </param>
+    
+            
+    <param name="rotation">
+        The rotation, relative to the 
+        <paramref name="entity"/>
+        , the effect has.
+    </param>
+    
+            
+    <param name="scale">How much to scale the size of the effect by.</param>
+    
+            
+    <param name="invertAxis">Which axis to flip the effect in. For a car side exhaust you may need to flip in the Y Axis.</param>
+    
+        
+</member>

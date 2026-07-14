@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Audio.SetAudioFlag(GTA.AudioFlags,System.Boolean)">
+    
+            
+    <summary>
+            Sets an audio flag to modify subsequent sounds.
+            </summary>
+    
+            
+    <param name="flag"/>
+    
+            
+    <param name="toggle"/>
+    
+        
+</member>

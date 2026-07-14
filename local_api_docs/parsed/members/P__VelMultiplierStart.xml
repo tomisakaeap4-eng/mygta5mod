@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.ConfigureShotInjuredArmHelper.VelMultiplierStart">
+    
+            
+    <summary>
+            Start velocity where parameters begin to be ramped down to zero linearly.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 1.0f.
+            Min value = 0.0f.
+            Max value = 20.0f.
+            </remarks>
+    
+        
+</member>

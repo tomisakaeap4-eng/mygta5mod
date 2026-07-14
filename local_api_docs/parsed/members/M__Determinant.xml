@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Matrix.Determinant">
+    
+            
+    <summary>
+            Calculates the determinant of the matrix.
+            </summary>
+    
+            
+    <returns>The determinant of the matrix.</returns>
+    
+        
+</member>

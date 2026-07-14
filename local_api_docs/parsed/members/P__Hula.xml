@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.HighFallHelper.Hula">
+    
+            
+    <summary>
+            With stunt man type fall.
+            Hula reaction if can't see floor and not rotating fast.
+            </summary>
+    
+            
+    <remarks>
+            Default value = True.
+            </remarks>
+    
+        
+</member>

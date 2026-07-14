@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.OnFireHelper.LegsStumbleWritheBlend">
+    
+            
+    <summary>
+            Blend legs stumble with the bodyWrithe legs when character is upright.
+            </summary>
+    
+            
+    <remarks>
+            Default value = 0.2f.
+            Min value = 0.0f.
+            Max value = 1.0f.
+            </remarks>
+    
+        
+</member>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.RaycastResult.MaterialHash">
+    
+            
+    <summary>
+        
+            Gets a hash indicating the material type of what this ray cast collided with.
+            
+        <remarks>
+            Returns 
+            <see cref="F:GTA.MaterialHash.None"/>
+             if the ray cast didn't collide with anything.
+        </remarks>
+        
+            
+    </summary>
+    
+        
+</member>

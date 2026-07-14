@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="T:GTA.Script">
+    
+            
+    <summary>
+            A base class for all user scripts to inherit.
+            Only scripts that inherit directly from this class and have a default (parameterless) public constructor will be detected and started.
+            </summary>
+    
+        
+</member>

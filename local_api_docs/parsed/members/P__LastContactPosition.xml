@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.VehicleWheel.LastContactPosition">
+    
+            
+    <summary>
+            Gets the last contact position.
+            </summary>
+    
+        
+</member>

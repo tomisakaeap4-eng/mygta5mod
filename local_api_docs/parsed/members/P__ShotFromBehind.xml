@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.Euphoria.ShotFromBehind">
+    
+            
+    <summary>
+        
+            Gets a ShotFromBehind Helper class for sending ShotFromBehind 
+        <see cref="T:GTA.NaturalMotion.Message"/>
+         to this 
+        <see cref="T:GTA.Ped"/>
+        .
+            
+    </summary>
+    
+            
+    <remarks>
+            configure the shot from behind reaction
+            </remarks>
+    
+        
+</member>

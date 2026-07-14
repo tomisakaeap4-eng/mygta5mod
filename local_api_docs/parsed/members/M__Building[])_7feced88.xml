@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.GetClosest(GTA.Math.Vector2,GTA.Building[])">
+    
+            
+    <summary>
+        
+            Gets the closest 
+        <see cref="T:GTA.Building"/>
+         to a given position in the World ignoring height.
+            
+    </summary>
+    
+            
+    <param name="position">The position to check against.</param>
+    
+            
+    <param name="buildings">The buildings to check.</param>
+    
+            
+    <returns>
+        The closest 
+        <see cref="T:GTA.Building"/>
+         to the 
+        <paramref name="position"/>
+    </returns>
+    
+        
+</member>

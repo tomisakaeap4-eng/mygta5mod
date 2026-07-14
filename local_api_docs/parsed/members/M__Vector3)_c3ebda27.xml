@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Entity.AttachTo(GTA.EntityBone,GTA.Math.Vector3,GTA.Math.Vector3)">
+    
+            
+    <summary>
+        
+            Attaches this 
+        <see cref="T:GTA.Entity"/>
+         to a different 
+        <see cref="T:GTA.Entity"/>
+        
+            
+    </summary>
+    
+            
+    <param name="entityBone">
+        The 
+        <see cref="T:GTA.EntityBone"/>
+         to attach this 
+        <see cref="T:GTA.Entity"/>
+         to.
+    </param>
+    
+            
+    <param name="position">
+        The position relative to the 
+        <paramref name="entityBone"/>
+         to attach this 
+        <see cref="T:GTA.Entity"/>
+         to.
+    </param>
+    
+            
+    <param name="rotation">
+        The rotation to apply to this 
+        <see cref="T:GTA.Entity"/>
+         relative to the 
+        <paramref name="entityBone"/>
+    </param>
+    
+        
+</member>

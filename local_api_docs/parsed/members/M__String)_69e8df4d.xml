@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.NaturalMotion.CustomHelper.#ctor(GTA.Ped,System.String)">
+    
+            
+    <summary>
+        
+            Creates a helper class for building Natural Motion messages to send to a given 
+        <see cref="T:GTA.Ped"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="target">
+        The 
+        <see cref="T:GTA.Ped"/>
+         that the message will be applied to.
+    </param>
+    
+            
+    <param name="message">The name of the natural motion message.</param>
+    
+        
+</member>

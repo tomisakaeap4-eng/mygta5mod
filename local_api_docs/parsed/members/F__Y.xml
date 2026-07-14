@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.Math.Quaternion.Y">
+    
+            
+    <summary>
+            Gets or sets the Y component of the quaternion.
+            </summary>
+    
+            
+    <value>The Y component of the quaternion.</value>
+    
+        
+</member>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.InteriorProxy.Handle">
+    
+            
+    <summary>
+        
+            The handle of this 
+        <see cref="T:GTA.InteriorProxy"/>
+        .
+            
+    </summary>
+    
+        
+</member>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.GameplayCamera.Direction">
+    
+            
+    <summary>
+        
+            Gets the direction the 
+        <see cref="T:GTA.GameplayCamera"/>
+         is pointing in.
+            
+    </summary>
+    
+        
+</member>

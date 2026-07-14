@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Entity.IsTouching(GTA.Model)">
+    
+            
+    <summary>
+        
+            Determines whether this 
+        <see cref="T:GTA.Entity"/>
+         is touching an 
+        <see cref="T:GTA.Entity"/>
+         with the 
+        <see cref="P:GTA.Entity.Model"/>
+         
+        <paramref name="model"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="model">
+        The 
+        <see cref="P:GTA.Entity.Model"/>
+         to check
+    </param>
+    
+            
+    <returns>
+        
+              
+        <see langword="true"/>
+         if this 
+        <see cref="T:GTA.Entity"/>
+         is touching a 
+        <paramref name="model"/>
+        ; otherwise, 
+        <see langword="false"/>
+        .
+            
+    </returns>
+    
+        
+</member>

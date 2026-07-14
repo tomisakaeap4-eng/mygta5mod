@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Rope.UnpinVertex(System.Int32)">
+    
+            
+    <summary>
+        
+            Unpin a vertex of this 
+        <see cref="T:GTA.Rope"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="vertex">The index of the vertex.</param>
+    
+        
+</member>

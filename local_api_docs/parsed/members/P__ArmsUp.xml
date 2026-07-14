@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.HighFallHelper.ArmsUp">
+    
+            
+    <summary>
+            Where to put the arms when preparing to land.
+            Approx 1 = above head, 0 = head height, -1 = down.
+            LT -2.0 use catchFall arms, LT -3.0 use prepare for landing pose if Agent is due to land vertically, feet first.
+            </summary>
+    
+            
+    <remarks>
+            Default value = -3.1f.
+            Min value = -4.0f.
+            Max value = 2.0f.
+            </remarks>
+    
+        
+</member>

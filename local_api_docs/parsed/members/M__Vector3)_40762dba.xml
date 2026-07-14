@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.GetStreetName(GTA.Math.Vector3)">
+    
+            
+    <summary>
+            Determines the name of the street which is the closest to the given coordinates.
+            </summary>
+    
+        
+</member>

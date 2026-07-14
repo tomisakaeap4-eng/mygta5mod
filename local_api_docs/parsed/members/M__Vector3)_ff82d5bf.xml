@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.GameplayCamera.GetOffsetPosition(GTA.Math.Vector3)">
+    
+            
+    <summary>
+        
+            Gets the position in world coordinates of an offset relative to the 
+        <see cref="T:GTA.GameplayCamera"/>
+        .
+            
+    </summary>
+    
+            
+    <param name="offset">
+        The offset from the 
+        <see cref="T:GTA.GameplayCamera"/>
+        .
+    </param>
+    
+        
+</member>

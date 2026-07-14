@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="T:GTA.NaturalMotion.ShotShockSpinHelper">
+    
+            
+    <summary>
+            Configure the shockSpin effect in shot.  Spin/Lift the character using cheat torques/forces.
+            </summary>
+    
+        
+</member>

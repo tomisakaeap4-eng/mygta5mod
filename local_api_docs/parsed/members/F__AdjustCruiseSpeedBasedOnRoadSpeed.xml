@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.VehicleDrivingFlags.AdjustCruiseSpeedBasedOnRoadSpeed">
+    
+            
+    <summary>
+            Limit the speed based on the road speed if the max cruise speed for driving tasks exceeds the road speed. Only works when the car mission is set to MISSION_CRUISE.
+            </summary>
+    
+        
+</member>

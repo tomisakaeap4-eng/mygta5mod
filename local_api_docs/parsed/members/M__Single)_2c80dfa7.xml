@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.World.GetClosestProjectile(GTA.Math.Vector3,System.Single)">
+    
+            
+    <summary>
+        
+            Gets the closest 
+        <see cref="T:GTA.Projectile"/>
+         to a given position in the World.
+            
+    </summary>
+    
+            
+    <param name="position">
+        The position to find the nearest 
+        <see cref="T:GTA.Projectile"/>
+        .
+    </param>
+    
+            
+    <param name="radius">
+        The maximum distance from the 
+        <paramref name="position"/>
+         to detect 
+        <see cref="T:GTA.Projectile"/>
+        s.
+    </param>
+    
+            
+    <remarks>
+        Returns 
+        <see langword="null"/>
+         if no 
+        <see cref="T:GTA.Projectile"/>
+         was in the given region.
+    </remarks>
+    
+        
+</member>

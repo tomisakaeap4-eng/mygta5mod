@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.NaturalMotion.RegisterWeaponHelper.ConstraintHandle">
+    
+            
+    <summary>
+            Pointer to the hand-gun constraint handle.
+            </summary>
+    
+            
+    <remarks>
+            Default value = -1.
+            Min value = -1.
+            </remarks>
+    
+        
+</member>

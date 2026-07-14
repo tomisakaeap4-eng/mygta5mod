@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.Math.Vector2.Up">
+    
+            
+    <summary>
+            Returns the up vector. (0,1)
+            </summary>
+    
+        
+</member>

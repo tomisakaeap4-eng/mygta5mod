@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="F:GTA.EnterVehicleFlags.DontJackAnyone">
+    
+            
+    <summary>
+        
+            Never jack anyone when entering/exiting.
+            This flag takes precedence over 
+        <see cref="F:GTA.EnterVehicleFlags.AllowJacking"/>
+        .
+            
+    </summary>
+    
+        
+</member>

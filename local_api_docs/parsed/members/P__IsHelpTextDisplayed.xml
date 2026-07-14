@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="P:GTA.UI.Screen.IsHelpTextDisplayed">
+    
+            
+    <summary>
+            Gets a value indicating whether a help message is currently displayed.
+            </summary>
+    
+        
+</member>

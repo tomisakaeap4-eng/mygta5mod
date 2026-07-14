@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Game.IsControlPressed(GTA.Control)">
+    
+            
+    <summary>
+        
+            Gets whether a 
+        <see cref="T:GTA.Control"/>
+         is currently pressed.
+            
+    </summary>
+    
+            
+    <param name="control">
+        The 
+        <see cref="T:GTA.Control"/>
+         to check.
+    </param>
+    
+            
+    <returns>
+        <see langword="true"/>
+         if the 
+        <see cref="T:GTA.Control"/>
+         is pressed; otherwise, 
+        <see langword="false"/>
+    </returns>
+    
+        
+</member>

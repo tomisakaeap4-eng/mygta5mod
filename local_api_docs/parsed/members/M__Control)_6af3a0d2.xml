@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Game.DisableControlThisFrame(GTA.Control)">
+    
+            
+    <summary>
+        
+            Makes the engine ignore input from the given 
+        <see cref="T:GTA.Control"/>
+         this frame.
+            
+    </summary>
+    
+            
+    <param name="control">
+        The 
+        <see cref="T:GTA.Control"/>
+        .
+    </param>
+    
+        
+</member>

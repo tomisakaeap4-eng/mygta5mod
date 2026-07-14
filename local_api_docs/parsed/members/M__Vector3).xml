@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<member name="M:GTA.Math.Matrix.TransformPoint(GTA.Math.Vector3)">
+    
+            
+    <summary>
+            Apply the transformation matrix to a point in world space
+            </summary>
+    
+            
+    <param name="point">The original vertex location</param>
+    
+            
+    <returns>
+        The vertex location transformed by the given 
+        <see cref="T:GTA.Math.Matrix"/>
+    </returns>
+    
+        
+</member>
