@@ -1,0 +1,50 @@
+// GTA V SCRIPT HOOK (build Apr  9 2026, v3788.0/1013.34)
+//          (C) Alexander Blade 2015-2026
+[13:12:03] INIT: Started
+[13:12:03] INIT: Success, game version is VER_1_0_3751_0
+[13:12:03] INIT: Registering script 'Menyoo.asi' (0x00007FFB571F82B0)
+[13:12:03] INIT: Registering additional script thread 'Menyoo.asi' (0x00007FFB57208D90)
+[13:12:03] INIT: Registering script 'ScriptHookVDotNet.asi' (0x00007FFC5D2D1CF0)
+[13:12:10] INIT: Pool 1 extended
+[13:12:10] INIT: Pool 2 extended
+[13:12:10] INIT: Pool 3 extended
+[13:12:10] INIT: Pool 4 extended
+[13:12:15] INIT: GtaThread collection size 189
+[13:12:15] INIT: wnd proc 0x00000000FFFF0895
+[13:12:15] INIT: IDXGISwapChain 0x00007FFC91440168 (0x00007FFC9137DAD0)
+[13:12:15] INIT: IDXGISwapChain set
+[13:12:15] INIT: DX init started
+[13:12:15] INIT: DX feature level B000
+[13:12:15] INIT: DX init succeeded
+[13:12:25] CORE: Creating threads
+[13:12:25] CORE: Created 4 threads (including control)
+[13:12:25] CORE: Waiting to launch 'Menyoo.asi' (0x00007FFB571F82B0), id 3
+[13:12:25] CORE: Waiting to launch 'Menyoo.asi' (0x00007FFB57208D90), id 4
+[13:12:25] CORE: Waiting to launch 'ScriptHookVDotNet.asi' (0x00007FFC5D2D1CF0), id 5
+[13:12:39] CORE: Launching main() for 'Menyoo.asi' (0x00007FFB571F82B0), id 3
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Speedo\needle_orange.png', id 0
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Speedo\night_needle_orange.png', id 1
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Speedo\needle_red.png', id 2
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Speedo\night_needle_red.png', id 3
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Speedo\bg_cyan2.png', id 4
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Speedo\bg_green2.png', id 5
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Speedo\bg_yellow2.png', id 6
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Speedo\bg_orange2.png', id 7
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Speedo\bg_purple2.png', id 8
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Speedo\bg_pink2.png', id 9
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Speedo\bg_cyan.png', id 10
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Speedo\bg_green.png', id 11
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Speedo\bg_yellow.png', id 12
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Speedo\bg_orange.png', id 13
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Speedo\bg_purple.png', id 14
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Speedo\bg_pink.png', id 15
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Clock\Default_face.png', id 16
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Clock\Default_handh.png', id 17
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Clock\Default_handm.png', id 18
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Clock\Frameless_face.png', id 19
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Clock\Frameless_handh.png', id 20
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\Clock\Frameless_handm.png', id 21
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\teleportToWaypointBoxKeyboard.png', id 22
+[13:12:39] CORE: Creating texture 'C:\Games\Grand Theft Auto V\menyooStuff\Graphics\teleportToWaypointBoxGamepad.png', id 23
+[13:12:39] CORE: Launching main() for 'Menyoo.asi' (0x00007FFB57208D90), id 4
+[13:12:39] CORE: Launching main() for 'ScriptHookVDotNet.asi' (0x00007FFC5D2D1CF0), id 5
