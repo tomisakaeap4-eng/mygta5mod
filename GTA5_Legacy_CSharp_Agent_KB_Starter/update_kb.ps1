@@ -1,4 +1,4 @@
-param(
+﻿param(
     [string]$KbRoot = (Join-Path $PSScriptRoot "kb")
 )
 
