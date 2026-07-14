@@ -1,11 +1,11 @@
 <#
 .SYNOPSIS
-  Clone or fast-forward the three API source repositories into <project root>\api_docs.
+  Clone or fast-forward the API source repositories into <project root>\api_docs.
 #>
 [CmdletBinding()]
 param(
     [Alias('d')]
-    [string]$ApiDocsRoot = (Join-Path (Split-Path -Parent $PSScriptRoot) 'api_docs')
+    [string]$ApiDocsRoot
 )
 
 $ErrorActionPreference = 'Stop'
@@ -23,7 +23,7 @@ function Invoke-Git([string[]]$Arguments) {
     }
 }
 
-function Sync-Repository([string]$Url, [string]$Destination, [string]$Branch) {
+function Clone-Or-Update([string]$Url, [string]$Destination, [string]$Branch) {
     $gitDirectory = Join-Path $Destination '.git'
     if (Test-Path -LiteralPath $gitDirectory -PathType Container) {
         Write-Host "Updating $Destination"
@@ -40,11 +40,24 @@ function Sync-Repository([string]$Url, [string]$Destination, [string]$Branch) {
 }
 
 Require-Command 'git'
+$ProjectRoot = Split-Path -Parent $PSScriptRoot
+if (-not $PSBoundParameters.ContainsKey('ApiDocsRoot')) {
+    $ApiDocsRoot = Join-Path $ProjectRoot 'api_docs'
+}
 $ApiDocsRoot = [System.IO.Path]::GetFullPath($ApiDocsRoot)
 New-Item -ItemType Directory -Force -Path $ApiDocsRoot | Out-Null
 
-Sync-Repository 'https://github.com/scripthookvdotnet/scripthookvdotnet.git' (Join-Path $ApiDocsRoot 'scripthookvdotnet') 'main'
-Sync-Repository 'https://github.com/scripthookvdotnet/scripthookvdotnet.wiki.git' (Join-Path $ApiDocsRoot 'scripthookvdotnet.wiki') 'master'
-Sync-Repository 'https://github.com/alloc8or/gta5-nativedb-data.git' (Join-Path $ApiDocsRoot 'gta5-nativedb-data') 'master'
+$Repositories = @(
+    [pscustomobject]@{ Url = 'https://github.com/scripthookvdotnet/scripthookvdotnet.git'; Name = 'scripthookvdotnet'; Branch = 'main' }
+    [pscustomobject]@{ Url = 'https://github.com/scripthookvdotnet/scripthookvdotnet.wiki.git'; Name = 'scripthookvdotnet.wiki'; Branch = 'master' }
+    [pscustomobject]@{ Url = 'https://github.com/alloc8or/gta5-nativedb-data.git'; Name = 'gta5-nativedb-data'; Branch = 'master' }
+    [pscustomobject]@{ Url = 'https://github.com/LemonUIbyLemon/LemonUI.git'; Name = 'lemonui'; Branch = 'master' }
+    [pscustomobject]@{ Url = 'https://github.com/LemonUIbyLemon/Examples.git'; Name = 'lemonui-examples'; Branch = 'master' }
+    [pscustomobject]@{ Url = 'https://github.com/LemonUIbyLemon/LemonUI.wiki.git'; Name = 'lemonui-wiki'; Branch = 'master' }
+)
+
+foreach ($Repository in $Repositories) {
+    Clone-Or-Update $Repository.Url (Join-Path $ApiDocsRoot $Repository.Name) $Repository.Branch
+}
 
 Write-Host "Corpus is ready at: $ApiDocsRoot"

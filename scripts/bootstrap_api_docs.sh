@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Clone or fast-forward the three API repositories into <project root>/api_docs.
+# Clone or fast-forward the API repositories into <project root>/api_docs.
 # Usage: bootstrap_api_docs.sh [-d DIR]
 set -euo pipefail
 
@@ -38,4 +38,7 @@ sync_repository() {
 sync_repository 'https://github.com/scripthookvdotnet/scripthookvdotnet.git' "$api_docs_root/scripthookvdotnet" main
 sync_repository 'https://github.com/scripthookvdotnet/scripthookvdotnet.wiki.git' "$api_docs_root/scripthookvdotnet.wiki" master
 sync_repository 'https://github.com/alloc8or/gta5-nativedb-data.git' "$api_docs_root/gta5-nativedb-data" master
+sync_repository 'https://github.com/LemonUIbyLemon/LemonUI.git' "$api_docs_root/lemonui" master
+sync_repository 'https://github.com/LemonUIbyLemon/Examples.git' "$api_docs_root/lemonui-examples" master
+sync_repository 'https://github.com/LemonUIbyLemon/LemonUI.wiki.git' "$api_docs_root/lemonui-wiki" master
 note "Corpus is ready at: $api_docs_root"

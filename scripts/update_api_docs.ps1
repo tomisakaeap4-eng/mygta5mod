@@ -1,11 +1,11 @@
 <#
 .SYNOPSIS
-  Fast-forward the three API source repositories in <project root>\api_docs.
+  Clone missing API source repositories or fast-forward existing ones in <project root>\api_docs.
 #>
 [CmdletBinding()]
 param(
     [Alias('d')]
-    [string]$ApiDocsRoot = (Join-Path (Split-Path -Parent $PSScriptRoot) 'api_docs')
+    [string]$ApiDocsRoot
 )
 
 $ErrorActionPreference = 'Stop'
@@ -14,22 +14,47 @@ if ($null -eq (Get-Command git -ErrorAction SilentlyContinue)) {
     throw 'Required command is not available on PATH: git'
 }
 
+function Invoke-Git([string[]]$Arguments) {
+    & git @Arguments
+    if ($LASTEXITCODE -ne 0) {
+        throw "git $($Arguments -join ' ') failed with exit code $LASTEXITCODE."
+    }
+}
+
+function Clone-Or-Update([string]$Url, [string]$Destination, [string]$Branch) {
+    $gitDirectory = Join-Path $Destination '.git'
+    if (Test-Path -LiteralPath $gitDirectory -PathType Container) {
+        Write-Host "Updating $Destination"
+        Invoke-Git @('-C', $Destination, 'fetch', '--all', '--prune')
+        Invoke-Git @('-C', $Destination, 'checkout', $Branch)
+        Invoke-Git @('-C', $Destination, 'pull', '--ff-only', 'origin', $Branch)
+        return
+    }
+    if (Test-Path -LiteralPath $Destination) {
+        throw "Destination exists but is not a Git repository: $Destination"
+    }
+    Write-Host "Cloning $Url -> $Destination"
+    Invoke-Git @('clone', '--depth', '1', '--branch', $Branch, $Url, $Destination)
+}
+
+$ProjectRoot = Split-Path -Parent $PSScriptRoot
+if (-not $PSBoundParameters.ContainsKey('ApiDocsRoot')) {
+    $ApiDocsRoot = Join-Path $ProjectRoot 'api_docs'
+}
 $ApiDocsRoot = [System.IO.Path]::GetFullPath($ApiDocsRoot)
-$repositories = @(
-    (Join-Path $ApiDocsRoot 'scripthookvdotnet')
-    (Join-Path $ApiDocsRoot 'scripthookvdotnet.wiki')
-    (Join-Path $ApiDocsRoot 'gta5-nativedb-data')
+New-Item -ItemType Directory -Force -Path $ApiDocsRoot | Out-Null
+
+$Repositories = @(
+    [pscustomobject]@{ Url = 'https://github.com/scripthookvdotnet/scripthookvdotnet.git'; Name = 'scripthookvdotnet'; Branch = 'main' }
+    [pscustomobject]@{ Url = 'https://github.com/scripthookvdotnet/scripthookvdotnet.wiki.git'; Name = 'scripthookvdotnet.wiki'; Branch = 'master' }
+    [pscustomobject]@{ Url = 'https://github.com/alloc8or/gta5-nativedb-data.git'; Name = 'gta5-nativedb-data'; Branch = 'master' }
+    [pscustomobject]@{ Url = 'https://github.com/LemonUIbyLemon/LemonUI.git'; Name = 'lemonui'; Branch = 'master' }
+    [pscustomobject]@{ Url = 'https://github.com/LemonUIbyLemon/Examples.git'; Name = 'lemonui-examples'; Branch = 'master' }
+    [pscustomobject]@{ Url = 'https://github.com/LemonUIbyLemon/LemonUI.wiki.git'; Name = 'lemonui-wiki'; Branch = 'master' }
 )
 
-foreach ($repository in $repositories) {
-    if (-not (Test-Path -LiteralPath (Join-Path $repository '.git') -PathType Container)) {
-        throw "Missing corpus repository: $repository. Run scripts\\bootstrap_api_docs.ps1 first."
-    }
-    Write-Host "Updating $repository"
-    & git -C $repository pull --ff-only
-    if ($LASTEXITCODE -ne 0) {
-        throw "git pull failed for $repository with exit code $LASTEXITCODE."
-    }
+foreach ($Repository in $Repositories) {
+    Clone-Or-Update $Repository.Url (Join-Path $ApiDocsRoot $Repository.Name) $Repository.Branch
 }
 
 Write-Host "Corpus is up to date at: $ApiDocsRoot"

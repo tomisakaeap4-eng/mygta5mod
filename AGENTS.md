@@ -16,17 +16,22 @@ chiếu version.
 - Script entry kế thừa trực tiếp `GTA.Script`, có public parameterless constructor.
 - Ưu tiên `GTA.*` API cấp cao. Chỉ dùng `GTA.Native.Function.Call` khi API cấp
   cao không có khả năng tương đương đã xác minh.
+- Khi mod cần UI/menu tương tác, dùng **LemonUI.SHVDN3**. Không dùng UI gốc của
+  ScriptHookVDotNet/GTA.UI để xây UI mod, trừ khi user yêu cầu rõ.
 - Không code mù khi corpus hoặc parse manifest không hợp lệ.
 
 ## Corpus và định dạng lookup ưu tiên
 
-`api_docs/` bị gitignore và chứa ba repository nguồn:
+`api_docs/` bị gitignore và chứa sáu repository nguồn:
 
 ```text
 api_docs/
-├── scripthookvdotnet/       # source + API hiện hành
-├── scripthookvdotnet.wiki/  # wiki chính thức/pattern
-└── gta5-nativedb-data/      # natives.json Legacy
+├── scripthookvdotnet/       # source + API SHVDN hiện hành
+├── scripthookvdotnet.wiki/  # wiki chính thức/pattern SHVDN
+├── gta5-nativedb-data/      # natives.json Legacy
+├── lemonui/                 # source LemonUI
+├── lemonui-examples/        # ví dụ LemonUI
+└── lemonui-wiki/            # wiki LemonUI
 ```
 
 Các lookup tree parse là **điểm vào ưu tiên để tra cứu**:
@@ -103,8 +108,10 @@ tự chọn API thuận tiện:
    đó XML raw local để xác nhận chi tiết của member.
 3. Lookup `natives_parsed/` đã validation; sau đó `natives.json` Legacy raw để
    xác nhận namespace, hash, params và return type.
-4. SHVDN source trong `api_docs/scripthookvdotnet/` cùng version với DLL.
-5. Official wiki trong `api_docs/scripthookvdotnet.wiki/` cho pattern/ví dụ.
+4. SHVDN source trong `api_docs/scripthookvdotnet/` cùng version với DLL; với UI,
+   LemonUI source trong `api_docs/lemonui/` cùng version với DLL.
+5. Official wiki/source examples trong `api_docs/scripthookvdotnet.wiki/`,
+   `api_docs/lemonui-wiki/` và `api_docs/lemonui-examples/` cho pattern/ví dụ.
 6. Chỉ khi cần mới dùng issue/discussion cùng game và version.
 
 `api_docs/scripthookvdotnet/` có thể mới hơn DLL project. Nếu version khác,
@@ -116,8 +123,9 @@ khi ghi rõ mismatch; không dùng member mới để compile DLL cũ.
 1. Đọc `FirstGtaMod.csproj`, `FirstGtaMod.slnx`, mọi `.cs`,
    `Properties/AssemblyInfo.cs`, `README.md`, `AGENTS.md` và XML local.
    Kiểm tra `git status` để không đè thay đổi của user.
-2. Kiểm tra đủ ba repo có `.git`. Nếu thiếu hoặc rỗng, dừng và yêu cầu user chạy
-   `scripts/bootstrap_api_docs.ps1` hoặc `.sh`; không code tiếp.
+2. Kiểm tra đủ sáu repo trong `api_docs/` có `.git`. Nếu thiếu hoặc rỗng, chạy
+   hoặc yêu cầu user chạy `scripts/bootstrap_api_docs.ps1` hoặc `.sh`; không code
+   tiếp khi corpus vẫn thiếu.
 3. Đọc `index.json`/`parse-report.json` trong document root cần dùng: SHVDN ở
    `local_api_docs/parsed/scripthookvdotnet3/`, LemonUI ở
    `local_api_docs/parsed/lemonui-shvdn3/`, native ở `natives_parsed/`. Với XML
@@ -130,6 +138,9 @@ khi ghi rõ mismatch; không dùng member mới để compile DLL cũ.
    `lookup/by_type/index.json` -> shard của `ownerName` -> record
    `byCanonicalName` -> file member tương ứng. Sau đó xác nhận XML raw và
    source/version phù hợp. Tra wiki cho lifecycle/pattern gần nhất.
+   Với UI/menu, tra LemonUI trong `local_api_docs/parsed/lemonui-shvdn3/`, sau đó
+   đối chiếu `api_docs/lemonui/`, `api_docs/lemonui-examples/` và
+   `api_docs/lemonui-wiki/`.
 6. Nếu cần native, tra `byQualifiedName` hoặc `byHash`, mở native entry, xác
    nhận object raw và đối chiếu enum `GTA.Native.Hash` cùng version.
 7. Nếu sửa lỗi runtime, đọc `ScriptHookVDotNet.log` và `ScriptHookV.log`, đối
@@ -148,6 +159,10 @@ khi ghi rõ mismatch; không dùng member mới để compile DLL cũ.
   giới hạn, và không để entity mod còn lại sau reload trừ khi user yêu cầu.
 - Với native pointer/output, dùng `OutputArgument`, dispose đúng cách và không
   đoán signature khi NativeDB ghi `Any`/thiếu dữ liệu.
+- Với UI/menu tương tác, dùng `LemonUI.ObjectPool`, `LemonUI.Menus.NativeMenu`
+  và các control LemonUI phù hợp. Không dùng UI/menu gốc của SHVDN/GTA.UI để xây
+  UI mod; `ObjectPool.Process()` phải chạy trong `Tick`, và menu/resource phải
+  được ẩn/dọn ở `Aborted`.
 - Không đưa API chỉ có ở nightly/current corpus vào DLL local cũ. Build phải
   sạch lỗi; xử lý warning kiến trúc/API có chủ đích.
 - Build `/t:Compile` để kiểm tra an toàn. Chỉ chạy Build đầy đủ khi user cho

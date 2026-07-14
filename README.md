@@ -1,8 +1,8 @@
 # FirstGtaMod
 
 Mod C# tối giản cho **Grand Theft Auto V Legacy, Story Mode**, dùng
-ScriptHookVDotNet v3 (SHVDN) và .NET Framework 4.8. `main.cs` hiện đăng ký F6
-để tạo Zentorno. Dự án đi kèm một corpus tài liệu cục bộ và bộ công cụ tạo
+ScriptHookVDotNet v3 (SHVDN), LemonUI.SHVDN3 và .NET Framework 4.8. `main.cs`
+hiện dùng F5 để mở menu LemonUI. Dự án đi kèm một corpus tài liệu cục bộ và bộ công cụ tạo
 lookup tree đã kiểm chứng, để mọi thay đổi mod đều bám vào API thực tế.
 
 > Không dùng dự án, ScriptHookVDotNet hoặc quy trình này cho GTA Online.
@@ -10,7 +10,8 @@ lookup tree đã kiểm chứng, để mọi thay đổi mod đều bám vào AP
 ## Trạng thái kỹ thuật hiện tại
 
 - `FirstGtaMod.csproj` là **Class Library**, nhắm `.NET Framework 4.8`.
-- Reference hiện tại là `..\ScriptHookVDotNet\ScriptHookVDotNet3.dll`.
+- Reference hiện tại là `..\ScriptHookVDotNet\ScriptHookVDotNet3.dll` và
+  `..\LemonUI.SHVDN3.dll`.
   Trên máy này DLL có version `3.6.0.0`; runtime trong log đang là `3.7.0` và
   đang nạp mod tương thích. Khi nâng DLL, hãy re-parse tài liệu, build lại và
   smoke test trước khi dùng API mới.
@@ -19,17 +20,17 @@ lookup tree đã kiểm chứng, để mọi thay đổi mod đều bám vào AP
 
 ## Yêu cầu
 
-- GTA V Legacy, Story Mode, ScriptHookV và ScriptHookVDotNet v3.
+- GTA V Legacy, Story Mode, ScriptHookV, ScriptHookVDotNet v3 và LemonUI.SHVDN3.
 - .NET Framework 4.8 và MSBuild/Visual Studio để build mod.
 - Git để bootstrap hoặc cập nhật corpus.
 - Python 3.8+ để chạy hai parser (cả PowerShell lẫn Bash gọi chung một parser
   chuẩn thư viện).
 - PowerShell 5.1+ trên Windows; hoặc Bash 4+ trên Linux/WSL/macOS.
 
-Đặt DLL SHVDN mà project tham chiếu tại
-`..\ScriptHookVDotNet\ScriptHookVDotNet3.dll`, hoặc chủ động sửa `HintPath`
-trong `FirstGtaMod.csproj` để phù hợp máy của bạn. DLL runtime phải nằm đúng
-vị trí ScriptHookVDotNet yêu cầu trong thư mục GTA V.
+Đặt DLL SHVDN và LemonUI mà project tham chiếu tại
+`..\ScriptHookVDotNet\ScriptHookVDotNet3.dll` và `..\LemonUI.SHVDN3.dll`, hoặc
+chủ động sửa `HintPath` trong `FirstGtaMod.csproj` để phù hợp máy của bạn. DLL
+runtime phải nằm đúng vị trí ScriptHookVDotNet/LemonUI yêu cầu trong thư mục GTA V.
 
 ## Cấu trúc dự án
 
@@ -47,17 +48,21 @@ vị trí ScriptHookVDotNet yêu cầu trong thư mục GTA V.
 │   └── parsed/                      # Lookup tree sinh bởi parser, gitignored
 │       ├── scripthookvdotnet3/
 │       └── lemonui-shvdn3/
-├── api_docs/                        # 3 repository nguồn, gitignored
+├── api_docs/                        # 6 repository nguồn, gitignored
 │   ├── scripthookvdotnet/
 │   ├── scripthookvdotnet.wiki/
-│   └── gta5-nativedb-data/
+│   ├── gta5-nativedb-data/
+│   ├── lemonui/
+│   ├── lemonui-examples/
+│   └── lemonui-wiki/
 └── logs/                            # Bản copy runtime logs, gitignored
 ```
 
 ## Khởi tạo và cập nhật corpus
 
 Tất cả script mặc định ghi vào **`<project root>/api_docs`**; không ghi vào
-`scripts/api_docs`.
+`scripts/api_docs`. Bootstrap/update quản lý 6 repo: SHVDN source/wiki,
+NativeDB Legacy, LemonUI source, LemonUI examples và LemonUI wiki.
 
 ### Windows PowerShell
 
@@ -176,7 +181,7 @@ Sửa đường dẫn trong `FirstGtaMod.csproj` trước khi build đầy đủ
 
 1. Đọc `AGENTS.md`, `FirstGtaMod.csproj`, toàn bộ `.cs`, `README.md`,
    `local_api_docs/ScriptHookVDotNet3.xml` và `local_api_docs/LemonUI.SHVDN3.xml`.
-2. Kiểm tra ba repository corpus và các `parse-report.json` cần dùng. Nếu SHA
+2. Kiểm tra sáu repository corpus và các `parse-report.json` cần dùng. Nếu SHA
    hoặc count không khớp, chạy update/bootstrap rồi parse lại.
 3. Tra đúng document root trước: `local_api_docs/parsed/scripthookvdotnet3/index.json`
    cho SHVDN hoặc `local_api_docs/parsed/lemonui-shvdn3/index.json` cho LemonUI.
@@ -184,12 +189,15 @@ Sửa đường dẫn trong `FirstGtaMod.csproj` trước khi build đầy đủ
    bằng XML raw, source cùng version và wiki khi cần pattern sử dụng.
 4. Với native, tra `natives_parsed/index.json` trước, xác nhận object raw trong
    `natives.json`, rồi đối chiếu `GTA.Native.Hash` cùng version.
-5. Sửa code theo lifecycle của SHVDN: event trong constructor, entity do mod tạo
+5. Với UI/menu, dùng LemonUI (`LemonUI.ObjectPool`, `LemonUI.Menus.NativeMenu`
+   và control LemonUI phù hợp). Không dùng UI gốc của ScriptHookVDotNet/GTA.UI
+   để xây UI mod.
+6. Sửa code theo lifecycle của SHVDN: event trong constructor, entity do mod tạo
    phải được track/cleanup ở `Aborted`, model phải có timeout và được release,
    không spawn liên tục trong `Tick`.
-6. Chạy compile-only, sau đó smoke test trong Story Mode. Nhấn đúng hotkey một
+7. Chạy compile-only, sau đó smoke test trong Story Mode. Nhấn đúng hotkey một
    lần, thử reload script và kiểm tra entity cleanup/error handling.
-7. Copy log mới để điều tra lỗi runtime:
+8. Copy log mới để điều tra lỗi runtime:
 
    ```powershell
    pwsh -File scripts/copy_gta_logs.ps1 -Force
