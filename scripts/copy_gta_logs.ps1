@@ -1,73 +1,51 @@
 <#
 .SYNOPSIS
-  Copy 2 SHVDN / ScriptHookV log files from the GTA V install dir into <project root>\logs.
+  Copy ScriptHookVDotNet and ScriptHookV logs into this project's logs directory.
 
 .DESCRIPTION
-  Copies ScriptHookVDotNet.log and ScriptHookV.log from -SourceDir to -LogsDir.
-  Missing source files are skipped with a notice (no error).
-  Existing target files are skipped unless -Force is given.
-  Target directory is created if missing.
-
-.PARAMETER SourceDir
-  GTA V install dir (default: 'C:\Games\Grand Theft Auto V').
-
-.PARAMETER LogsDir
-  Target logs dir (default: '<project root>\logs').
-
-.PARAMETER Force
-  Overwrite existing files in target.
-
-.EXAMPLE
-  pwsh -File scripts\copy_gta_logs.ps1
-
-.EXAMPLE
-  pwsh -File scripts\copy_gta_logs.ps1 -SourceDir 'D:\GTA V' -LogsDir 'C:\work\logs' -Force
+  Missing source files are reported without failing the copy. Existing target
+  logs are preserved unless -Force is supplied.
 #>
 [CmdletBinding()]
 param(
+    [Alias('s')]
     [string]$SourceDir = 'C:\Games\Grand Theft Auto V',
+    [Alias('o')]
     [string]$LogsDir,
     [switch]$Force
 )
 
 $ErrorActionPreference = 'Stop'
-
-# Default $LogsDir: <project root>\logs (script lives in <project root>\scripts\)
+$ProjectRoot = Split-Path -Parent $PSScriptRoot
 if (-not $PSBoundParameters.ContainsKey('LogsDir')) {
-    $ProjectRoot = Split-Path -Parent $PSScriptRoot
     $LogsDir = Join-Path $ProjectRoot 'logs'
 }
 
-$LogFiles = @('ScriptHookVDotNet.log', 'ScriptHookV.log')
-
-# Pre-flight: source dir phải tồn tại
 if (-not (Test-Path -LiteralPath $SourceDir -PathType Container)) {
-    throw "Không tìm thấy thư mục GTA V: '$SourceDir'. Hãy chạy với -SourceDir '<đường dẫn thật>'."
+    throw ("GTA V directory does not exist: {0}" -f $SourceDir)
 }
+New-Item -ItemType Directory -Force -Path $LogsDir | Out-Null
 
-# Đảm bảo target dir tồn tại
-if (-not (Test-Path -LiteralPath $LogsDir -PathType Container)) {
-    New-Item -ItemType Directory -Force -Path $LogsDir | Out-Null
-}
+$copied = 0
+$skipped = 0
+foreach ($name in @('ScriptHookVDotNet.log', 'ScriptHookV.log')) {
+    $sourcePath = Join-Path $SourceDir $name
+    $targetPath = Join-Path $LogsDir $name
 
-$copied = 0; $skipped = 0
-foreach ($name in $LogFiles) {
-    $src = Join-Path $SourceDir $name
-    $dst = Join-Path $LogsDir $name
-    if (-not (Test-Path -LiteralPath $src -PathType Leaf)) {
-        Write-Host "SKIP: '$src' không tồn tại"
+    if (-not (Test-Path -LiteralPath $sourcePath -PathType Leaf)) {
+        Write-Host ("SKIP missing source: {0}" -f $sourcePath)
         $skipped++
         continue
     }
-    if ((Test-Path -LiteralPath $dst) -and -not $Force) {
-        Write-Host "SKIP: '$dst' đã tồn tại (dùng -Force để ghi đè)"
+    if ((Test-Path -LiteralPath $targetPath -PathType Leaf) -and -not $Force) {
+        Write-Host ("SKIP existing target: {0} (use -Force to overwrite)" -f $targetPath)
         $skipped++
         continue
     }
-    Copy-Item -LiteralPath $src -Destination $dst -Force:$Force
-    Write-Host "COPIED: '$src' -> '$dst'"
+
+    Copy-Item -LiteralPath $sourcePath -Destination $targetPath -Force
+    Write-Host ("COPIED: {0} -> {1}" -f $sourcePath, $targetPath)
     $copied++
 }
 
-Write-Host ""
-Write-Host "Done. copied=$copied, skipped=$skipped, target='$LogsDir'"
+Write-Host ("Done. copied={0}, skipped={1}, target={2}" -f $copied, $skipped, $LogsDir)

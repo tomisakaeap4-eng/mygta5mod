@@ -1,19 +1,35 @@
-﻿param(
-    [string]$ApiDocsRoot = (Join-Path $PSScriptRoot "api_docs")
+<#
+.SYNOPSIS
+  Fast-forward the three API source repositories in <project root>\api_docs.
+#>
+[CmdletBinding()]
+param(
+    [Alias('d')]
+    [string]$ApiDocsRoot = (Join-Path (Split-Path -Parent $PSScriptRoot) 'api_docs')
 )
 
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference = 'Stop'
 
-$repos = @(
-    (Join-Path $ApiDocsRoot "scripthookvdotnet"),
-    (Join-Path $ApiDocsRoot "scripthookvdotnet.wiki"),
-    (Join-Path $ApiDocsRoot "gta5-nativedb-data"),
-)
-
-foreach ($repo in $repos) {
-    if (-not (Test-Path (Join-Path $repo ".git"))) {
-        throw "Thiếu repository: $repo. Hãy chạy scripts/bootstrap_api_docs.ps1 trước."
-    }
-    Write-Host "Updating $repo"
-    git -C $repo pull --ff-only
+if ($null -eq (Get-Command git -ErrorAction SilentlyContinue)) {
+    throw 'Required command is not available on PATH: git'
 }
+
+$ApiDocsRoot = [System.IO.Path]::GetFullPath($ApiDocsRoot)
+$repositories = @(
+    (Join-Path $ApiDocsRoot 'scripthookvdotnet')
+    (Join-Path $ApiDocsRoot 'scripthookvdotnet.wiki')
+    (Join-Path $ApiDocsRoot 'gta5-nativedb-data')
+)
+
+foreach ($repository in $repositories) {
+    if (-not (Test-Path -LiteralPath (Join-Path $repository '.git') -PathType Container)) {
+        throw "Missing corpus repository: $repository. Run scripts\\bootstrap_api_docs.ps1 first."
+    }
+    Write-Host "Updating $repository"
+    & git -C $repository pull --ff-only
+    if ($LASTEXITCODE -ne 0) {
+        throw "git pull failed for $repository with exit code $LASTEXITCODE."
+    }
+}
+
+Write-Host "Corpus is up to date at: $ApiDocsRoot"

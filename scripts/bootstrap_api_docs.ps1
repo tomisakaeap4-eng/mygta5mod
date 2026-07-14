@@ -1,47 +1,50 @@
-﻿param(
-    [string]$ApiDocsRoot = (Join-Path $PSScriptRoot "api_docs")
+<#
+.SYNOPSIS
+  Clone or fast-forward the three API source repositories into <project root>\api_docs.
+#>
+[CmdletBinding()]
+param(
+    [Alias('d')]
+    [string]$ApiDocsRoot = (Join-Path (Split-Path -Parent $PSScriptRoot) 'api_docs')
 )
 
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference = 'Stop'
 
 function Require-Command([string]$Name) {
-    if (-not (Get-Command $Name -ErrorAction SilentlyContinue)) {
-        throw "Không tìm thấy '$Name'. Hãy cài Git/Python và mở lại PowerShell."
+    if ($null -eq (Get-Command $Name -ErrorAction SilentlyContinue)) {
+        throw "Required command is not available on PATH: $Name"
     }
 }
 
-function Clone-Or-Update([string]$Url, [string]$Destination, [string]$Branch) {
-    if (Test-Path (Join-Path $Destination ".git")) {
+function Invoke-Git([string[]]$Arguments) {
+    & git @Arguments
+    if ($LASTEXITCODE -ne 0) {
+        throw "git $($Arguments -join ' ') failed with exit code $LASTEXITCODE."
+    }
+}
+
+function Sync-Repository([string]$Url, [string]$Destination, [string]$Branch) {
+    $gitDirectory = Join-Path $Destination '.git'
+    if (Test-Path -LiteralPath $gitDirectory -PathType Container) {
         Write-Host "Updating $Destination"
-        git -C $Destination fetch --all --prune
-        git -C $Destination checkout $Branch
-        git -C $Destination pull --ff-only origin $Branch
+        Invoke-Git @('-C', $Destination, 'fetch', '--all', '--prune')
+        Invoke-Git @('-C', $Destination, 'checkout', $Branch)
+        Invoke-Git @('-C', $Destination, 'pull', '--ff-only', 'origin', $Branch)
+        return
     }
-    else {
-        Write-Host "Cloning $Url"
-        git clone --depth 1 --branch $Branch $Url $Destination
+    if (Test-Path -LiteralPath $Destination) {
+        throw "Destination exists but is not a Git repository: $Destination"
     }
+    Write-Host "Cloning $Url -> $Destination"
+    Invoke-Git @('clone', '--depth', '1', '--branch', $Branch, $Url, $Destination)
 }
 
-Require-Command "git"
-Require-Command "python"
-
+Require-Command 'git'
+$ApiDocsRoot = [System.IO.Path]::GetFullPath($ApiDocsRoot)
 New-Item -ItemType Directory -Force -Path $ApiDocsRoot | Out-Null
 
-Clone-Or-Update `
-  "https://github.com/scripthookvdotnet/scripthookvdotnet.git" `
-  (Join-Path $ApiDocsRoot "scripthookvdotnet") `
-  "main"
+Sync-Repository 'https://github.com/scripthookvdotnet/scripthookvdotnet.git' (Join-Path $ApiDocsRoot 'scripthookvdotnet') 'main'
+Sync-Repository 'https://github.com/scripthookvdotnet/scripthookvdotnet.wiki.git' (Join-Path $ApiDocsRoot 'scripthookvdotnet.wiki') 'master'
+Sync-Repository 'https://github.com/alloc8or/gta5-nativedb-data.git' (Join-Path $ApiDocsRoot 'gta5-nativedb-data') 'master'
 
-Clone-Or-Update `
-  "https://github.com/scripthookvdotnet/scripthookvdotnet.wiki.git" `
-  (Join-Path $ApiDocsRoot "scripthookvdotnet.wiki") `
-  "master"
-
-Clone-Or-Update `
-  "https://github.com/alloc8or/gta5-nativedb-data.git" `
-  (Join-Path $ApiDocsRoot "gta5-nativedb-data") `
-  "master"
-
-Write-Host ""
-Write-Host "Đã tải nguồn."
+Write-Host "Corpus is ready at: $ApiDocsRoot"

@@ -17,6 +17,8 @@
 *.cache
 *.Up2Date
 *.txt.FileListAbsolute.txt
+__pycache__/
+*.py[cod]
 
 # ==========================================
 # NuGet Packages

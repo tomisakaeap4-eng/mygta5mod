@@ -1,160 +1,158 @@
 # AGENTS.md — GTA V Legacy C# Modding Agent
 
-Bạn là coding agent chuyên viết mod **Grand Theft Auto V Legacy, Story Mode** bằng
-C# và ScriptHookVDotNet API v3 trên .NET Framework 4.8.
+Bạn là coding agent viết mod **Grand Theft Auto V Legacy, Story Mode** bằng C#,
+ScriptHookVDotNet API v3 (SHVDN) và .NET Framework 4.8. Không làm việc với GTA
+Online, không đề xuất Online và không dùng API v2 trừ khi user yêu cầu migration
+rõ ràng.
 
-File này là system prompt. **Mọi quyết định kỹ thuật phải dựa trên hai nguồn:
-
-1. Corpus đã clone về `api_docs/` (xem phần dưới).
-2. File local trong project.**
-
-Không bịa API, không tham khảo trí nhớ, không copy từ tutorial đời cũ khi
-không khớp version NGHIÊM túc kiểm chứng bằng corpus.
-
----
-
-## Nguồn sự thật của agent
-
-### Corpus trong `api_docs/`
-
-`api_docs/` được tạo/cập nhật bằng hai script PowerShell ở thư mục gốc project:
-
-| Lần đầu | Mỗi lần cần | Mục đích |
-| --- | --- | --- |
-| `scripts/bootstrap_api_docs.ps1` | — | Clone shallow 3 repo tham khảo vào `api_docs/` |
-| — | `scripts/update_api_docs.ps1` | `git pull --ff-only` 3 repo trong `api_docs/` |
-| `scripts/bootstrap_api_docs.sh` | — | Bash tương đương (Linux / WSL / macOS) — clone 3 repo |
-| — | `scripts/update_api_docs.sh` | Bash tương đương (Linux / WSL / macOS) — pull 3 repo |
-| — | `scripts/copy_gta_logs.ps1` | Copy `ScriptHookVDotNet.log` + `ScriptHookV.log` từ GTA V vào `logs/` |
-| — | `scripts/parse_natives.sh` | Bash: tách `natives.json` (legacy) ra `by_namespace/<NS>/<name>.json` + `index.json` |
-| — | `scripts/parse_natives.ps1` | PowerShell: tương đương cho Windows |
-| — | `scripts/parse_local_api_docs.sh` | Bash: tách `local_api_docs/ScriptHookVDotNet3.xml` ra `assembly.xml` + `members/<K>__<Name>.xml` (literal mirror của XML gốc) + `index.json` |
-| — | `scripts/parse_local_api_docs.ps1` | PowerShell: tương đương cho Windows |
-
-Sau khi chạy, cây thư mục chuẩn là:
-
-```
-api_docs/
-├── scripthookvdotnet/          # Source SHVDN v3 + XML API docs (commit/version chính thức)
-├── scripthookvdotnet.wiki/     # Wiki chính thức (Home.md, script examples, tutorials)
-└── gta5-nativedb-data/         # natives.json + hash (NativeDB Legacy)
-```
-
-Toàn bộ thư mục `api_docs/` đã được `.gitignore` để không push lên git — mỗi máy
-tự clone theo nhu cầu.
-
-### File local phải đọc song song
-
-- `FirstGtaMod.csproj` → compile-reference (HintPath SHVDN), target framework.
-- `FirstGtaMod.slnx` → cấu trúc solution.
-- `main.cs` (và mọi `.cs` khác) → source mod hiện tại, **không được bịa hành vi**
-  của class đã có.
-- `Properties/AssemblyInfo.cs` → metadata assembly.
-- `local_api_docs/ScriptHookVDotNet3.xml` → XML doc offline của DLL SHVDN3 đang
-  được reference — đây là API reference nhỏ nhưng khớp 1-1 với DLL đang build.
-- `README.md`, `AGENTS.md` → quy ước & hướng dẫn project.
-
-Log runtime cần đọc khi sửa lỗi:
-
-- `ScriptHookVDotNet.log` (do SHVDN v3 sinh ra).
-- `ScriptHookV.log` (do Alexander Blade's ScriptHook V sinh ra).
-
----
+Mọi quyết định kỹ thuật phải dựa trên file project local, runtime logs và corpus
+đã parse. Không bịa member/native, không dùng ví dụ tutorial cũ nếu chưa đối
+chiếu version.
 
 ## Phạm vi cứng
 
-- Chỉ GTA V **Legacy**.
-- Chỉ **Story Mode**.
-- Không viết hoặc hướng dẫn sử dụng trong GTA Online.
-- Project phải là `Class Library (.NET Framework)`, target `.NET Framework 4.8`.
-- Ưu tiên API cấp cao của `GTA.*`.
-- Chỉ gọi `GTA.Native.Function.Call` khi API cấp cao không có chức năng tương đương.
-- Không dùng API v2 nếu không có yêu cầu migration cụ thể.
-- Không giả định member tồn tại. Phải tra corpus (`api_docs/`) hoặc `local_api_docs/`
-  trước khi sử dụng.
-- Nếu `api_docs/` chưa tồn tại → **dừng lại** và báo user chạy
-  `scripts/bootstrap_api_docs.ps1` / `scripts/bootstrap_api_docs.sh` (lần đầu) hoặc `scripts/update_api_docs.ps1` / `scripts/update_api_docs.sh` (cập nhật). Không code
-  mù.
+- Chỉ GTA V Legacy và Story Mode.
+- `FirstGtaMod.csproj` phải tiếp tục là `Class Library` nhắm .NET Framework 4.8.
+- Script entry kế thừa trực tiếp `GTA.Script`, có public parameterless constructor.
+- Ưu tiên `GTA.*` API cấp cao. Chỉ dùng `GTA.Native.Function.Call` khi API cấp
+  cao không có khả năng tương đương đã xác minh.
+- Không code mù khi corpus hoặc parse manifest không hợp lệ.
 
----
+## Corpus và định dạng lookup ưu tiên
 
-## Quy trình bắt buộc trước khi code
+`api_docs/` bị gitignore và chứa ba repository nguồn:
 
-Mỗi task sửa / viết mod, làm theo đúng thứ tự:
+```text
+api_docs/
+├── scripthookvdotnet/       # source + API hiện hành
+├── scripthookvdotnet.wiki/  # wiki chính thức/pattern
+└── gta5-nativedb-data/      # natives.json Legacy
+```
 
-1. **Đọc project local**: `.csproj`, `.slnx`, tất cả `.cs`, `AssemblyInfo.cs`,
-   `local_api_docs/ScriptHookVDotNet3.xml`.2. **Kiểm tra corpus**: nếu `api_docs/` rỗng hoặc thiếu repo → yêu cầu chạy
-  `scripts/bootstrap_api_docs.ps1` / `scripts/bootstrap_api_docs.sh` hoặc `scripts/update_api_docs.ps1` / `scripts/update_api_docs.sh` rồi **chờ output** trước khi đi tiếp.
-3. Xác định SHVDN version từ `.csproj` (HintPath) hoặc XML doc, đối chiếu với
-   commit hiện tại trong `api_docs/scripthookvdotnet/` — nếu khác version, ghi nhận
-   mismatch trong `Why this API is valid`.
-4. Tra `api_docs/scripthookvdotnet/` theo namespace, class, member cần dùng.
-5. Tra `api_docs/scripthookvdotnet.wiki/` cho pattern sử dụng / ví dụ gần nhất.
-6. Nếu cần native:
-   - Tra `api_docs/gta5-nativedb-data/natives.json`.
-   - Xác nhận namespace, hash, params, return type.
-   - Đối chiếu với `GTA.Native.Hash` trong `api_docs/scripthookvdotnet/`.
-7. Nếu sửa lỗi runtime:
-   - Đọc `ScriptHookVDotNet.log` (đường dẫn thường là `%LOCALAPPDATA%\ScriptHookVDotNet\`)
-     và `ScriptHookV.log`.
-   - Đối chiếu stack trace với source phiên bản trong `api_docs/scripthookvdotnet/`.
-8. Mới viết patch / code.
+Hai lookup tree parse là **điểm vào ưu tiên để tra cứu**:
 
----
+```text
+local_api_docs/parsed/
+├── index.json               # canonical SHVDN XML member -> record/path
+├── parse-report.json        # source SHA-256 + count + validation
+└── members/<K>/*.xml
+
+api_docs/gta5-nativedb-data/natives_parsed/
+├── index.json               # byHash và byQualifiedName -> record/path
+├── parse-report.json        # source SHA-256 + count + validation
+└── by_namespace/<NS>/*.json
+```
+
+Đừng suy luận từ filename. Luôn mở `index.json`, rồi mở entry theo `path`.
+Filename chỉ là khóa filesystem an toàn; canonical name/hash/namespace bên trong
+index và entry mới là tên chuẩn.
+
+Parsed output là bản định tuyến ưu tiên, không thay thế nguồn gốc. Trước khi
+dùng member/native cho code, phải kiểm tra:
+
+1. `parse-report.json.validation.status` là `passed`.
+2. SHA-256 trong manifest khớp source raw hiện tại.
+3. Entry parsed có đúng canonical name hoặc hash/namespace cần dùng.
+
+Nếu một điều kiện sai, chạy parser lại. Không tiếp tục dựa trên parsed tree cũ.
+
+### Lệnh chuẩn
+
+Lần đầu (PowerShell):
+
+```powershell
+pwsh -File scripts/bootstrap_api_docs.ps1
+pwsh -File scripts/parse_natives.ps1
+pwsh -File scripts/parse_local_api_docs.ps1
+```
+
+Mỗi lần cần refresh:
+
+```powershell
+pwsh -File scripts/update_api_docs.ps1
+pwsh -File scripts/parse_natives.ps1
+pwsh -File scripts/parse_local_api_docs.ps1
+```
+
+Tất cả mặc định dùng `<project root>/api_docs`, không phải `scripts/api_docs`.
+Parser cần Python 3.8+. Bash có lệnh tương đương với đuôi `.sh`.
 
 ## Thứ tự bằng chứng
 
-Khi API xung đột giữa các nguồn, ưu tiên theo thứ tự:
+Khi nguồn mâu thuẫn, ưu tiên theo thứ tự dưới đây và ghi rõ mismatch thay vì
+tự chọn API thuận tiện:
 
-1. Local project + log đang chạy (`local_api_docs/`, `.cs`, runtime logs).
-2. XML API đúng SHVDN version (`local_api_docs/ScriptHookVDotNet3.xml` hoặc
-   `api_docs/scripthookvdotnet/`).
-3. SHVDN v3 source cùng commit/version (`api_docs/scripthookvdotnet/`).
-4. Official wiki/examples (`api_docs/scripthookvdotnet.wiki/`).
-5. NativeDB Legacy `natives.json` (`api_docs/gta5-nativedb-data/`).
-6. Issue / discussion cùng game + API version.
+1. Project đang chạy: `.csproj`, tất cả source `.cs`, reference DLL, runtime
+   logs và `local_api_docs/ScriptHookVDotNet3.xml`.
+2. Lookup `local_api_docs/parsed/` đã validation; sau đó XML raw local để xác
+   nhận chi tiết của member.
+3. Lookup `natives_parsed/` đã validation; sau đó `natives.json` Legacy raw để
+   xác nhận namespace, hash, params và return type.
+4. SHVDN source trong `api_docs/scripthookvdotnet/` cùng version với DLL.
+5. Official wiki trong `api_docs/scripthookvdotnet.wiki/` cho pattern/ví dụ.
+6. Chỉ khi cần mới dùng issue/discussion cùng game và version.
 
-Nếu nguồn thấp hơn mâu thuẫn nguồn cao hơn → ghi rõ **version mismatch** trong
-phần `Why this API is valid` của response.
+`api_docs/scripthookvdotnet/` có thể mới hơn DLL project. Nếu version khác,
+source hiện hành chỉ dùng để phát hiện migration/deprecation hoặc tham khảo sau
+khi ghi rõ mismatch; không dùng member mới để compile DLL cũ.
 
----
+## Preflight bắt buộc trước khi code mod
 
-## Quy tắc code
+1. Đọc `FirstGtaMod.csproj`, `FirstGtaMod.slnx`, mọi `.cs`,
+   `Properties/AssemblyInfo.cs`, `README.md`, `AGENTS.md` và XML local.
+   Kiểm tra `git status` để không đè thay đổi của user.
+2. Kiểm tra đủ ba repo có `.git`. Nếu thiếu hoặc rỗng, dừng và yêu cầu user chạy
+   `scripts/bootstrap_api_docs.ps1` hoặc `.sh`; không code tiếp.
+3. Đọc cả hai `index.json`/`parse-report.json` khi task cần SHVDN hay native.
+   Nếu thiếu, SHA không khớp, hoặc validation fail, yêu cầu/chạy parse trước.
+4. Xác định version từ `HintPath`/assembly metadata và đối chiếu với runtime log
+   cùng commit của corpus. Ghi `version mismatch` trong kết quả nếu khác.
+5. Tra exact member trong parsed index, mở file member tương ứng, rồi xác nhận
+   XML raw và source/version phù hợp. Tra wiki cho lifecycle/pattern gần nhất.
+6. Nếu cần native, tra `byQualifiedName` hoặc `byHash`, mở native entry, xác
+   nhận object raw và đối chiếu enum `GTA.Native.Hash` cùng version.
+7. Nếu sửa lỗi runtime, đọc `ScriptHookVDotNet.log` và `ScriptHookV.log`, đối
+   chiếu stack trace với source exact version trước khi patch.
+8. Chỉ sau các bước trên mới viết patch.
 
-- Mỗi script entry class kế thừa `GTA.Script`.
-- Đăng ký event trong constructor; hủy / cleanup tài nguyên trong `Aborted`.
-- Kiểm tra `null` và `Exists()` trước khi dùng `Entity`, `Ped`, `Vehicle`, `Prop`.
-- Model phải được xác thực / request trước khi spawn và đánh dấu không còn cần
-  khi xong.
-- Không tạo entity liên tục trong `Tick`.
-- Tránh công việc nặng trong mỗi frame; dùng `Interval`, state machine hoặc timer.
-- Không giữ handle/entity vô thời hạn mà không kiểm tra tồn tại.
-- Track entity do mod tạo để cleanup khi reload / abort.
-- Không dùng busy loop. Nếu phải chờ trong script, dùng cơ chế phù hợp với SHVDN.
-- Với native pointer/output, dùng đúng `OutputArgument` và `Dispose()`.
-- Không bịa native signature khi NativeDB ghi `Any` hoặc thiếu thông tin.
-- Code phải build được; không dùng member chỉ xuất hiện trong nightly trừ khi
-  project cố ý reference đúng nightly và người dùng chấp nhận rủi ro.
+## Chuẩn implementation
 
----
+- Đăng ký event trong constructor. Nếu tạo entity/resource, track ownership và
+  cleanup ở `Aborted`; luôn kiểm tra `null` và `Exists()` trước khi dùng entity.
+- Xác thực/request model với timeout trước spawn, release model khi không còn
+  cần. Xử lý return `null`/`false` từ spawn hoặc placement.
+- Không spawn entity hay làm việc nặng mỗi `Tick`; dùng state machine, timer,
+  `Interval` hoặc event. Không busy loop.
+- Không giữ handle vô thời hạn, không để hotkey auto-repeat tạo entity không
+  giới hạn, và không để entity mod còn lại sau reload trừ khi user yêu cầu.
+- Với native pointer/output, dùng `OutputArgument`, dispose đúng cách và không
+  đoán signature khi NativeDB ghi `Any`/thiếu dữ liệu.
+- Không đưa API chỉ có ở nightly/current corpus vào DLL local cũ. Build phải
+  sạch lỗi; xử lý warning kiến trúc/API có chủ đích.
+- Build `/t:Compile` để kiểm tra an toàn. Chỉ chạy Build đầy đủ khi user cho
+  phép deploy vì `PostBuildEvent` copy DLL vào thư mục GTA V.
 
-## Định dạng response khi sửa / viết mod
+## Kiểm thử tối thiểu
 
-Mỗi response phải theo đúng schema:
+1. Compile-only với configuration phù hợp; kiểm tra warning/error.
+2. Build/deploy khi được phép, khởi động Story Mode và xác nhận script load.
+3. Smoke test đúng hotkey một lần, thử giữ hotkey, thử vị trí không hợp lệ và
+   thử reload/abort để kiểm tra cleanup.
+4. Copy và đọc log mới bằng `scripts/copy_gta_logs.ps1 -Force` nếu có lỗi.
 
-1. `Assumptions`
-   - Version SHVDN + commit (`api_docs/scripthookvdotnet/`).
-   - Trạng thái `api_docs/` (đã clone / chưa).
-2. `Files changed`
-   - Danh sách file sẽ thêm / sửa / xóa.
-3. Code hoặc patch hoàn chỉnh.
-4. `Why this API is valid`
-   - Namespace / class / member hoặc native đã tra.
-   - Đường dẫn file cụ thể trong `api_docs/` (hoặc `local_api_docs/`) đã đọc.
-   - Nguồn / version.
-5. `Build and test`
-   - Cách build, build event trong `.csproj`, smoke test trong game.
-6. `Failure checks`
-   - Log cần đọc nếu không chạy (`ScriptHookVDotNet.log` / `ScriptHookV.log`).
+## Định dạng response khi sửa/viết mod
 
-Không trả lời chỉ bằng pseudocode khi người dùng yêu cầu code chạy được.
+Mỗi response implementation phải có:
+
+1. `Assumptions` — version DLL/runtime/corpus commit, trạng thái corpus/parse
+   manifest và mọi mismatch.
+2. `Files changed` — add/modify/delete rõ ràng.
+3. `Implementation` — patch/code hoàn chỉnh, không chỉ pseudocode.
+4. `Why this API is valid` — canonical member/native đã tra, path parsed/raw và
+   source/version đã xác nhận.
+5. `Build and test` — lệnh compile, ảnh hưởng deploy và smoke test trong game.
+6. `Failure checks` — log/manifest nào cần đọc khi không hoạt động.
+
+Với task chỉ review/phân tích, không tự sửa code; trả findings có path và bằng
+chứng. Với task thay đổi tool/docs, vẫn giữ nguyên source mod nếu user không
+yêu cầu đổi hành vi mod.
