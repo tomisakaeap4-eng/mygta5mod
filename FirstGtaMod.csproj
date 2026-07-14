@@ -31,13 +31,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="LemonUI.SHVDN3">
-      <HintPath>..\LemonUI.SHVDN3.dll</HintPath>
-    </Reference>
     <Reference Include="ScriptHookVDotNet3">
       <HintPath>..\ScriptHookVDotNet\ScriptHookVDotNet3.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
@@ -49,6 +47,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="main.cs" />
+    <Compile Include="ChatBubble.cs" />
+    <Compile Include="ChatBubbleController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
