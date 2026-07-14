@@ -64,9 +64,9 @@ where you invoke them from.
 | First-time | Each time you need | Purpose |
 | --- | --- | --- |
 | `scripts/bootstrap_api_docs.ps1` | — | Clone shallow 3 repos into `api_docs/` (Windows PowerShell) |
-| — | `scripts/update_api_docs.ps1` | `git pull --ff-only` repos in `api_docs/` (Windows PowerShell) |
+| — | `scripts/update_api_docs.ps1` | `git pull --ff-only` 4 repos in `api_docs/` (Windows PowerShell) |
 | `scripts/bootstrap_api_docs.sh` | — | Bash equivalent of bootstrap (Linux / WSL / macOS) |
-| — | `scripts/update_api_docs.sh` | Bash equivalent of update |
+| — | `scripts/update_api_docs.sh` | Bash equivalent of update — pulls 4 repos |
 | — | `scripts/copy_gta_logs.ps1` | Copy `ScriptHookVDotNet.log` + `ScriptHookV.log` from GTA V install into `inputs/logs/` |
 | — | `scripts/parse_natives.sh` | Tear apart `natives.json` (legacy) into `by_namespace/<NS>/<name>.json` + `index.json` |
 | — | `scripts/parse_natives.ps1` | PowerShell equivalent |

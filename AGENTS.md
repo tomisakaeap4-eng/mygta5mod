@@ -22,9 +22,9 @@ không khớp version NGHIÊM túc kiểm chứng bằng corpus.
 | Lần đầu | Mỗi lần cần | Mục đích |
 | --- | --- | --- |
 | `scripts/bootstrap_api_docs.ps1` | — | Clone shallow 4 repo tham khảo vào `api_docs/` |
-| — | `scripts/update_api_docs.ps1` | `git pull --ff-only` các repo trong `api_docs/` |
+| — | `scripts/update_api_docs.ps1` | `git pull --ff-only` 4 repo trong `api_docs/` |
 | `scripts/bootstrap_api_docs.sh` | — | Bash tương đương (Linux / WSL / macOS) — clone 4 repo |
-| — | `scripts/update_api_docs.sh` | Bash tương đương (Linux / WSL / macOS) |
+| — | `scripts/update_api_docs.sh` | Bash tương đương (Linux / WSL / macOS) — pull 4 repo |
 | — | `scripts/copy_gta_logs.ps1` | Copy `ScriptHookVDotNet.log` + `ScriptHookV.log` từ GTA V vào `inputs/logs` |
 | — | `scripts/parse_natives.sh` | Bash: tách `natives.json` (legacy) ra `by_namespace/<NS>/<name>.json` + `index.json` |
 | — | `scripts/parse_natives.ps1` | PowerShell: tương đương cho Windows |
