@@ -63,7 +63,7 @@ where you invoke them from.
 
 | First-time | Each time you need | Purpose |
 | --- | --- | --- |
-| `scripts/bootstrap_api_docs.ps1` | — | Clone shallow 3 repos into `api_docs/` (Windows PowerShell) |
+| `scripts/bootstrap_api_docs.ps1` | — | Clone shallow 4 repos into `api_docs/` (Windows PowerShell) |
 | — | `scripts/update_api_docs.ps1` | `git pull --ff-only` 4 repos in `api_docs/` (Windows PowerShell) |
 | `scripts/bootstrap_api_docs.sh` | — | Bash equivalent of bootstrap (Linux / WSL / macOS) |
 | — | `scripts/update_api_docs.sh` | Bash equivalent of update — pulls 4 repos |
