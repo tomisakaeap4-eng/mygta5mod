@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-  Copy 2 SHVDN / ScriptHookV log files from the GTA V install dir into inputs/logs.
+  Copy 2 SHVDN / ScriptHookV log files from the GTA V install dir into <project root>\logs.
 
 .DESCRIPTION
   Copies ScriptHookVDotNet.log and ScriptHookV.log from -SourceDir to -LogsDir.
@@ -12,7 +12,7 @@
   GTA V install dir (default: 'C:\Games\Grand Theft Auto V').
 
 .PARAMETER LogsDir
-  Target logs dir (default: '<project root>\inputs\logs').
+  Target logs dir (default: '<project root>\logs').
 
 .PARAMETER Force
   Overwrite existing files in target.
@@ -32,10 +32,10 @@ param(
 
 $ErrorActionPreference = 'Stop'
 
-# Default $LogsDir: <project root>\inputs\logs (script lives in <project root>\scripts\)
+# Default $LogsDir: <project root>\logs (script lives in <project root>\scripts\)
 if (-not $PSBoundParameters.ContainsKey('LogsDir')) {
     $ProjectRoot = Split-Path -Parent $PSScriptRoot
-    $LogsDir = Join-Path $ProjectRoot 'inputs\logs'
+    $LogsDir = Join-Path $ProjectRoot 'logs'
 }
 
 $LogFiles = @('ScriptHookVDotNet.log', 'ScriptHookV.log')

@@ -43,10 +43,5 @@ Clone-Or-Update `
   (Join-Path $ApiDocsRoot "gta5-nativedb-data") `
   "master"
 
-Clone-Or-Update `
-  "https://github.com/acidlabsdev/gtav-legacy-scripts.git" `
-  (Join-Path $ApiDocsRoot "gtav-legacy-scripts") `
-  "main"
-
 Write-Host ""
 Write-Host "Đã tải nguồn."

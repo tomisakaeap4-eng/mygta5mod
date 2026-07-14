@@ -38,8 +38,8 @@ $RECYCLE.BIN/
 # Mac (Nếu bạn có dùng chung với Mac)
 .DS_Store
 
-# inputs/ được tạo bởi copy_gta_logs.ps1 khi copy logs. Không commit.
-./inputs
+# logs/ được tạo bởi copy_gta_logs.ps1 khi copy logs. Không commit.
+./logs
 
 # local_api_docs/parsed/ do parse_local_api_docs.{sh,ps1} tạo ra: assembly.xml + members/<K>__<Name>.xml + index.json. Không commit.
 local_api_docs/parsed/

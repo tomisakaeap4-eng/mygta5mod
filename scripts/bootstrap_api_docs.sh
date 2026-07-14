@@ -52,6 +52,4 @@ clone_or_update() {
 clone_or_update "https://github.com/scripthookvdotnet/scripthookvdotnet.git"      "$ApiDocsRoot/scripthookvdotnet"      "main"
 clone_or_update "https://github.com/scripthookvdotnet/scripthookvdotnet.wiki.git" "$ApiDocsRoot/scripthookvdotnet.wiki" "master"
 clone_or_update "https://github.com/alloc8or/gta5-nativedb-data.git"            "$ApiDocsRoot/gta5-nativedb-data"      "master"
-clone_or_update "https://github.com/acidlabsdev/gtav-legacy-scripts.git"      "$ApiDocsRoot/gtav-legacy-scripts"      "main"
-
 note "Done. Corpus ở: $ApiDocsRoot"

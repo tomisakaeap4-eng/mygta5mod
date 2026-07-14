@@ -8,7 +8,6 @@ $repos = @(
     (Join-Path $ApiDocsRoot "scripthookvdotnet"),
     (Join-Path $ApiDocsRoot "scripthookvdotnet.wiki"),
     (Join-Path $ApiDocsRoot "gta5-nativedb-data"),
-    (Join-Path $ApiDocsRoot "gtav-legacy-scripts")
 )
 
 foreach ($repo in $repos) {

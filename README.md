@@ -30,7 +30,7 @@ under `api_docs/` and `local_api_docs/`.
 ├── scripts/                     # PowerShell + Bash utility scripts (see below)
 ├── api_docs/                    # Cloned corpus, gitignored (see below)
 ├── local_api_docs/              # Offline SHVDN XML doc + parsed tree (gitignored)
-├── inputs/                      # Created on demand by scripts/copy_gta_logs.ps1
+├── logs/                        # Created on demand by scripts/copy_gta_logs.ps1
 ```
 
 The compiled `FirstGtaMod.dll` is automatically copied to
@@ -63,11 +63,11 @@ where you invoke them from.
 
 | First-time | Each time you need | Purpose |
 | --- | --- | --- |
-| `scripts/bootstrap_api_docs.ps1` | — | Clone shallow 4 repos into `api_docs/` (Windows PowerShell) |
-| — | `scripts/update_api_docs.ps1` | `git pull --ff-only` 4 repos in `api_docs/` (Windows PowerShell) |
+| `scripts/bootstrap_api_docs.ps1` | — | Clone shallow 3 repos into `api_docs/` (Windows PowerShell) |
+| — | `scripts/update_api_docs.ps1` | `git pull --ff-only` 3 repos in `api_docs/` (Windows PowerShell) |
 | `scripts/bootstrap_api_docs.sh` | — | Bash equivalent of bootstrap (Linux / WSL / macOS) |
-| — | `scripts/update_api_docs.sh` | Bash equivalent of update — pulls 4 repos |
-| — | `scripts/copy_gta_logs.ps1` | Copy `ScriptHookVDotNet.log` + `ScriptHookV.log` from GTA V install into `inputs/logs/` |
+| — | `scripts/update_api_docs.sh` | Bash equivalent of update — pulls 3 repos |
+| — | `scripts/copy_gta_logs.ps1` | Copy `ScriptHookVDotNet.log` + `ScriptHookV.log` from GTA V install into `logs/` |
 | — | `scripts/parse_natives.sh` | Tear apart `natives.json` (legacy) into `by_namespace/<NS>/<name>.json` + `index.json` |
 | — | `scripts/parse_natives.ps1` | PowerShell equivalent |
 | — | `scripts/parse_local_api_docs.sh` | Tear apart `ScriptHookVDotNet3.xml` into `assembly.xml` + `members/<K>__<Name>.xml` (literal mirror of original XML) + `index.json` |
@@ -103,15 +103,13 @@ After bootstrap, the layout is:
 api_docs/
 ├── scripthookvdotnet/          # SHVDN v3 source + XML API doc
 ├── scripthookvdotnet.wiki/     # SHVDN wiki (tutorials, examples)
-├── gta5-nativedb-data/         # NativeDB Legacy
-│   ├── natives.json            # Aggregated legacy natives (2.6 MB)
-│   ├── natives_gen9.json       # gen9 variant (2.6 MB)
-│   ├── schema.json
-│   └── natives_parsed/         # Produced by parse_natives
-│       ├── index.json          # hash -> relative path entries
-│       └── by_namespace/<NS>/<name>.json
-└── gtav-legacy-scripts/        # acidlabsdev/gtav-legacy-scripts (C# SHVDN samples)
-└── ...
+└── gta5-nativedb-data/         # NativeDB Legacy
+    ├── natives.json            # Aggregated legacy natives (2.6 MB)
+    ├── natives_gen9.json       # gen9 variant (2.6 MB)
+    ├── schema.json
+    └── natives_parsed/         # Produced by parse_natives
+        ├── index.json          # hash -> relative path entries
+        └── by_namespace/<NS>/<name>.json
 
 local_api_docs/
 ├── ScriptHookVDotNet3.xml      # Offline SHVDN v3 .NET XML doc
