@@ -49,8 +49,3 @@ Clone-Or-Update `
 
 Write-Host ""
 Write-Host "Đã tải nguồn."
-Write-Host "Tiếp theo:"
-Write-Host "1. Copy ScriptHookVDotNet3.xml đúng phiên bản vào inputs\local_api_docs"
-Write-Host "2. Copy project của bạn vào inputs\project"
-Write-Host "3. Copy ScriptHookVDotNet.log và ScriptHookV.log vào inputs\logs"
-Write-Host "4. Chạy: python .\build_corpus.py"

@@ -17,5 +17,3 @@ foreach ($repo in $repos) {
     Write-Host "Updating $repo"
     git -C $repo pull --ff-only
 }
-
-python (Join-Path $PSScriptRoot "build_corpus.py")
