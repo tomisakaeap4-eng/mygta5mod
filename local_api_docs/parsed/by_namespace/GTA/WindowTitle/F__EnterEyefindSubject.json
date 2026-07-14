@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.WindowTitle.EnterEyefindSubject",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "WindowTitle",
+  "memberName": "EnterEyefindSubject",
+  "summary": "\"Enter your Eyefind subject (MAX 60 characters)\""
+}

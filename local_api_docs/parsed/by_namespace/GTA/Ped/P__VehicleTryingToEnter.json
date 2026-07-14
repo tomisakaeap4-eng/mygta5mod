@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Ped.VehicleTryingToEnter",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "VehicleTryingToEnter",
+  "summary": "Gets the",
+  "remarks": "returns"
+}

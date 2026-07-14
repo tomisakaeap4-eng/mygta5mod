@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.ShoulderL1",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyBalanceHelper",
+  "memberName": "ShoulderL1",
+  "summary": "Mmmmdrunk 1.1 shoulder lean1 offset (+ve frankenstein).",
+  "remarks": "Default value = 0.0f.\n            Min value = -1.0f.\n            Max value = 2.0f."
+}

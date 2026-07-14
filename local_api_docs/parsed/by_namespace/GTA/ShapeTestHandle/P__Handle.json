@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.ShapeTestHandle.Handle",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "ShapeTestHandle",
+  "memberName": "Handle",
+  "summary": "Gets the shape test handle."
+}

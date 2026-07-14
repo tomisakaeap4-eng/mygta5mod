@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.GameplayCamera.IsShaking",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "GameplayCamera",
+  "memberName": "IsShaking",
+  "summary": "Gets a value indicating whether the"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.GrabHelper.TargetForHeadLook",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "GrabHelper",
+  "memberName": "TargetForHeadLook",
+  "summary": "Only used if useHeadLookToTarget is true, the target in world space to look at.",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
+}

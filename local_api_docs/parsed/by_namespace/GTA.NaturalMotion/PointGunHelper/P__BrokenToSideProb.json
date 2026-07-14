@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.BrokenToSideProb",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "BrokenToSideProb",
+  "summary": "Probability that the when a constraint is broken that during brokenSupportTime a side pose will be selected.",
+  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

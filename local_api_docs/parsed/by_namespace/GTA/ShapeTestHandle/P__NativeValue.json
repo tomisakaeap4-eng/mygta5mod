@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.ShapeTestHandle.NativeValue",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "ShapeTestHandle",
+  "memberName": "NativeValue",
+  "summary": "Gets the native representation of this"
+}

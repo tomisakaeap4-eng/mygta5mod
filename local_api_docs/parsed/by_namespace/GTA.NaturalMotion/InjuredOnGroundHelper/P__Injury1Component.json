@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.InjuredOnGroundHelper.Injury1Component",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "InjuredOnGroundHelper",
+  "memberName": "Injury1Component",
+  "remarks": "Default value = 0.\n            Min value = 0."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Ped.Resurrect",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "Resurrect",
+  "summary": "Resurrects this"
+}

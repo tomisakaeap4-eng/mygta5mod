@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SetCharacterCollisionsHelper.Spin",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SetCharacterCollisionsHelper",
+  "memberName": "Spin",
+  "summary": "Sliding friction turned into spin 80.0 (used in demo videos) good for rest of default params below.  If 0.0 then no collision enhancement.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 100.0f."
+}

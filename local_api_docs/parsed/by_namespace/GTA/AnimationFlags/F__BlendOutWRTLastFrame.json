@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.AnimationFlags.BlendOutWRTLastFrame",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "AnimationFlags",
+  "memberName": "BlendOutWRTLastFrame",
+  "summary": "Start blending out the anim early, so that the blend out duration completes at the end of the animation."
+}

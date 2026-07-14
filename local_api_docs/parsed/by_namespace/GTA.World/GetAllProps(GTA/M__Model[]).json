@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.World.GetAllProps(GTA.Model[])",
+  "kind": "M",
+  "namespace": "GTA.World",
+  "typeName": "GetAllProps(GTA",
+  "memberName": "Model[])",
+  "summary": "Gets an",
+  "params": [
+    {
+      "name": "models",
+      "description": "The"
+    }
+  ]
+}

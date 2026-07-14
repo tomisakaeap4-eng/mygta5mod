@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.VehicleType.Submarine",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "VehicleType",
+  "memberName": "Submarine",
+  "summary": "The submarine type."
+}

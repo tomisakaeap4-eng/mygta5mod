@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PedalLegsHelper.PedalLeftLeg",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PedalLegsHelper",
+  "memberName": "PedalLeftLeg",
+  "summary": "Pedal with this leg or not.",
+  "remarks": "Default value = True."
+}

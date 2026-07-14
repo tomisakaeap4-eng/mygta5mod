@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkImpactLooseness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotFallToKneesHelper",
+  "memberName": "FtkImpactLooseness",
+  "summary": "Looseness (muscleStiffness = 1.01f - m_parameters.ftkImpactLooseness) applied to upperBody on knee impacts.",
+  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

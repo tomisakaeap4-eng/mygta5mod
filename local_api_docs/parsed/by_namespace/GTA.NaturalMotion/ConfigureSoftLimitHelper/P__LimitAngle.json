@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureSoftLimitHelper.LimitAngle",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureSoftLimitHelper",
+  "memberName": "LimitAngle",
+  "summary": "Soft limit angle.\n            Positive angle in RAD, measured relatively either from hard limit maxAngle (approach direction = -1) or minAngle (approach direction = 1).\n            This angle will be clamped if outside the joint hard limit range.",
+  "remarks": "Default value = 0.4f.\n            Min value = 0.0f.\n            Max value = 6.3f."
+}

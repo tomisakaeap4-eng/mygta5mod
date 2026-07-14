@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.DampVel",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BraceForImpactHelper",
+  "memberName": "DampVel",
+  "summary": "Damp out excessive spin and upward velocity when on car.",
+  "remarks": "Default value = False."
+}

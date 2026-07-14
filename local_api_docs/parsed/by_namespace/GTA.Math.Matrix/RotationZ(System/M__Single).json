@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.Math.Matrix.RotationZ(System.Single)",
+  "kind": "M",
+  "namespace": "GTA.Math.Matrix",
+  "typeName": "RotationZ(System",
+  "memberName": "Single)",
+  "summary": "Creates a matrix that rotates around the z-axis.",
+  "returns": "The created rotation matrix.",
+  "params": [
+    {
+      "name": "angle",
+      "description": "Angle of rotation in radians. Angles are measured clockwise when looking along the rotation axis toward the origin."
+    }
+  ]
+}

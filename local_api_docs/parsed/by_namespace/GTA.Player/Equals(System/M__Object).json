@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Player.Equals(System.Object)",
+  "kind": "M",
+  "namespace": "GTA.Player",
+  "typeName": "Equals(System",
+  "memberName": "Object)",
+  "summary": "Determines if an",
+  "params": [
+    {
+      "name": "obj",
+      "description": "The"
+    }
+  ]
+}

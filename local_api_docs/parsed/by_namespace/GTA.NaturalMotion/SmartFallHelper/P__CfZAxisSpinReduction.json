@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SmartFallHelper.CfZAxisSpinReduction",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SmartFallHelper",
+  "memberName": "CfZAxisSpinReduction",
+  "summary": "Pass-through parameter for Catch Fall spin reduction.  Increase to stop more spin. 0..1.",
+  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.StaggerFallHelper.PredictionTime",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "StaggerFallHelper",
+  "memberName": "PredictionTime",
+  "summary": "Amount of time (seconds) into the future that the character tries to step to.\n            Bigger values try to recover with fewer, bigger steps.\n            Smaller values recover with smaller steps, and generally recover less.",
+  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

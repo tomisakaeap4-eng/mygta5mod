@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.AnimationFlags.IgnoreGravity",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "AnimationFlags",
+  "memberName": "IgnoreGravity",
+  "summary": "Do not apply gravity while the anim is playing."
+}

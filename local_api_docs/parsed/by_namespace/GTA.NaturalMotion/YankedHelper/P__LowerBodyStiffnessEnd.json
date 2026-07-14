@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.YankedHelper.LowerBodyStiffnessEnd",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "YankedHelper",
+  "memberName": "LowerBodyStiffnessEnd",
+  "summary": "LowerBodyStiffness at end.",
+  "remarks": "Default value = 8.0f.\n            Min value = 0.0f.\n            Max value = 16.0f."
+}

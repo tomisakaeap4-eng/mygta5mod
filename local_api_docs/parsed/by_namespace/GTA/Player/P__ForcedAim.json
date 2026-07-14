@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Player.ForcedAim",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Player",
+  "memberName": "ForcedAim",
+  "summary": "Sets a value indicating whether the player is forced to aim."
+}

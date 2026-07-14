@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Checkpoint.TargetPosition",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Checkpoint",
+  "memberName": "TargetPosition",
+  "summary": "Gets or sets the position where this"
+}

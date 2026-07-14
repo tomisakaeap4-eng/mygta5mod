@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.BodyStiffness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BraceForImpactHelper",
+  "memberName": "BodyStiffness",
+  "summary": "Stiffness of character. Catch_fall stiffness scales with this too, with its defaults at this values default.",
+  "remarks": "Default value = 12.0f.\n            Min value = 6.0f.\n            Max value = 16.0f."
+}

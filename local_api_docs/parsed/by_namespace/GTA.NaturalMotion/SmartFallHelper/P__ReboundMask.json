@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SmartFallHelper.ReboundMask",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SmartFallHelper",
+  "memberName": "ReboundMask",
+  "summary": "Part mask to apply rebound assistance.",
+  "remarks": "Default value = uk."
+}

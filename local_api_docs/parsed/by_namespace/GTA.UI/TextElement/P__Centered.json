@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.UI.TextElement.Centered",
+  "kind": "P",
+  "namespace": "GTA.UI",
+  "typeName": "TextElement",
+  "memberName": "Centered",
+  "summary": "Gets or sets a value indicating whether the alignment of this"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.FallOverWallHelper.BodyTwist",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "FallOverWallHelper",
+  "memberName": "BodyTwist",
+  "summary": "Amount of twist to apply to the spine as the character tries to fling himself over the wall, provides more of a believable roll but increases the amount of lateral space the character needs to successfully flip.",
+  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

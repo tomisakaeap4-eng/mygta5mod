@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.ConfigureBullets",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "ConfigureBullets",
+  "summary": "Gets a ConfigureBullets Helper class for sending ConfigureBullets"
+}

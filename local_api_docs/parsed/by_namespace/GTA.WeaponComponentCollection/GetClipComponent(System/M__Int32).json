@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.WeaponComponentCollection.GetClipComponent(System.Int32)",
+  "kind": "M",
+  "namespace": "GTA.WeaponComponentCollection",
+  "typeName": "GetClipComponent(System",
+  "memberName": "Int32)",
+  "summary": "Gets the clip component at the index.",
+  "returns": "A",
+  "params": [
+    {
+      "name": "index",
+      "description": "The index of the clip component subset of all the weapon component array."
+    }
+  ]
+}

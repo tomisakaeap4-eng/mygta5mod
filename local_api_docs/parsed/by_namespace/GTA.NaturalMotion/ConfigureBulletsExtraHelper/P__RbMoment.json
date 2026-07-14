@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMoment",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBulletsExtraHelper",
+  "memberName": "RbMoment",
+  "summary": "0.0 only force, 0.5 = force and half the rigid body moment applied, 1.0 = force and full rigidBody moment.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

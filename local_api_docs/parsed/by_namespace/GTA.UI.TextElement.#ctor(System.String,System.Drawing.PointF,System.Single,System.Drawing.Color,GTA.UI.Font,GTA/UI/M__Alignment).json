@@ -1,0 +1,34 @@
+{
+  "name": "M:GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color,GTA.UI.Font,GTA.UI.Alignment)",
+  "kind": "M",
+  "namespace": "GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color,GTA.UI.Font,GTA",
+  "typeName": "UI",
+  "memberName": "Alignment)",
+  "summary": "Initializes a new instance of the",
+  "params": [
+    {
+      "name": "caption",
+      "description": "The"
+    },
+    {
+      "name": "position",
+      "description": "Set the"
+    },
+    {
+      "name": "scale",
+      "description": "Sets a"
+    },
+    {
+      "name": "color",
+      "description": "Set the"
+    },
+    {
+      "name": "font",
+      "description": "Sets the"
+    },
+    {
+      "name": "alignment",
+      "description": "Sets the"
+    }
+  ]
+}

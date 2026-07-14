@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.YankedHelper.GroundArmDamping",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "YankedHelper",
+  "memberName": "GroundArmDamping",
+  "summary": "Arm Damping when on the ground.",
+  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 2.0f."
+}

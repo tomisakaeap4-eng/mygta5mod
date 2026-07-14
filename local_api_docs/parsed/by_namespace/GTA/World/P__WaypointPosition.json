@@ -1,0 +1,10 @@
+{
+  "name": "P:GTA.World.WaypointPosition",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "WaypointPosition",
+  "summary": "Gets or sets the waypoint position.",
+  "remarks": "Returns an empty",
+  "returns": "The"
+}

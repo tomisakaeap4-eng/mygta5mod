@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotHelper.FlingTime",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotHelper",
+  "memberName": "FlingTime",
+  "summary": "Duration of the fling behavior.",
+  "remarks": "Default value = 0.6f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

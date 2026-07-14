@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.ShapeTestStatus.NotReady",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "ShapeTestStatus",
+  "memberName": "NotReady",
+  "summary": "Not ready yet; try again next frame."
+}

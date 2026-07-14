@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PedalLegsHelper.Spread",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PedalLegsHelper",
+  "memberName": "Spread",
+  "summary": "Spread legs.",
+  "remarks": "Default value = 0.0f.\n            Min value = -1.0f.\n            Max value = 1.0f."
+}

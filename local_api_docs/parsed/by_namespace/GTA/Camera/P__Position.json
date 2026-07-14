@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Camera.Position",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Camera",
+  "memberName": "Position",
+  "summary": "Gets or sets the position of this"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Math.Vector2.Normalized",
+  "kind": "P",
+  "namespace": "GTA.Math",
+  "typeName": "Vector2",
+  "memberName": "Normalized",
+  "summary": "Returns this vector with a magnitude of 1."
+}

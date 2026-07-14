@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.SpineStiffness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyBalanceHelper",
+  "memberName": "SpineStiffness",
+  "remarks": "Default value = 10.0f.\n            Min value = 6.0f.\n            Max value = 16.0f."
+}

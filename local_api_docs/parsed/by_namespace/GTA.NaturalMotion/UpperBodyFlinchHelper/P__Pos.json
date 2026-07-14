@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.UpperBodyFlinchHelper.Pos",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "UpperBodyFlinchHelper",
+  "memberName": "Pos",
+  "summary": "Position in world-space of object to flinch from.",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
+}

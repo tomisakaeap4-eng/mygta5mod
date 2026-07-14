@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.ParticleEffectAsset.#ctor(System.String)",
+  "kind": "M",
+  "namespace": "GTA.ParticleEffectAsset",
+  "typeName": "#ctor(System",
+  "memberName": "String)",
+  "summary": "Creates a class used for loading",
+  "remarks": "The files have the extension *.ypt in OpenIV, use the file name withouth the extension for the",
+  "params": [
+    {
+      "name": "assetName",
+      "description": "The name of the asset file which contains all the"
+    }
+  ]
+}

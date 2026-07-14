@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.HipsLeanToPosition",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "HipsLeanToPosition",
+  "summary": "Gets a HipsLeanToPosition Helper class for sending HipsLeanToPosition"
+}

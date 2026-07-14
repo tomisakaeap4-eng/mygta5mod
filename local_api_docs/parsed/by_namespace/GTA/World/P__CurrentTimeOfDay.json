@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.World.CurrentTimeOfDay",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "CurrentTimeOfDay",
+  "summary": "Gets or sets the current time of day in the GTA World.",
+  "value": "The current time of day"
+}

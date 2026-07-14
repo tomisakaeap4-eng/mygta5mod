@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.VehicleWheelCollection.GetAllWheels",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "VehicleWheelCollection",
+  "memberName": "GetAllWheels",
+  "summary": "Gets an"
+}

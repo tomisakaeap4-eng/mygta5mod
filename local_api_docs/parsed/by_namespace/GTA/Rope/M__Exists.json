@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Rope.Exists",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Rope",
+  "memberName": "Exists",
+  "summary": "Determines if this"
+}

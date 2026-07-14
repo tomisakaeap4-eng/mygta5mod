@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeL",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotConfigureArmsHelper",
+  "memberName": "Fling2RelaxTimeL",
+  "summary": "Maximum time before the left arm relaxes in the fling.\n            It will relax automatically when the arm has completed it's bent arm fling.\n            This is what causes the arm to straighten.",
+  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

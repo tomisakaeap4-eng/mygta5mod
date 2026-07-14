@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.UI.IElement.ScaledDraw",
+  "kind": "M",
+  "namespace": "GTA.UI",
+  "typeName": "IElement",
+  "memberName": "ScaledDraw",
+  "summary": "Draws this"
+}

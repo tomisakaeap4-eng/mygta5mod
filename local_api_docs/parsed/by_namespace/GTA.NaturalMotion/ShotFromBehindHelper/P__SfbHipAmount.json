@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotFromBehindHelper.SfbHipAmount",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotFromBehindHelper",
+  "memberName": "SfbHipAmount",
+  "summary": "Hip Pitch.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

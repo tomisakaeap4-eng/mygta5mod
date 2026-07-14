@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Entity.PositionNoOffset",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "PositionNoOffset",
+  "summary": "Sets the position of this",
+  "value": "The position in world space."
+}

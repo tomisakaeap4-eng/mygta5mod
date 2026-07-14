@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkLungeProb",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotFallToKneesHelper",
+  "memberName": "FtkLungeProb",
+  "summary": "Probability that a lunge reaction will be allowed.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

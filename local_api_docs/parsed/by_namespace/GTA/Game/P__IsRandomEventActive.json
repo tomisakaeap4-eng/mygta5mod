@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Game.IsRandomEventActive",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Game",
+  "memberName": "IsRandomEventActive",
+  "summary": "Gets or sets a value informing the engine if a random event is in progress."
+}

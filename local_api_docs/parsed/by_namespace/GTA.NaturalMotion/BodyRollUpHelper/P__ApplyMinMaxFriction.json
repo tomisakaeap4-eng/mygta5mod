@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyRollUpHelper.ApplyMinMaxFriction",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyRollUpHelper",
+  "memberName": "ApplyMinMaxFriction",
+  "summary": "Controls whether or not behavior enforces min/max friction.",
+  "remarks": "Default value = True."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureShotInjuredArmHelper.VelForceStep",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureShotInjuredArmHelper",
+  "memberName": "VelForceStep",
+  "summary": "Velocity above which a step is not forced.",
+  "remarks": "Default value = 0.8f.\n            Min value = 0.0f.\n            Max value = 20.0f."
+}

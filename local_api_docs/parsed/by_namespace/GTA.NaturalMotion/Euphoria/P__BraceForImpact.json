@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.BraceForImpact",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "BraceForImpact",
+  "summary": "Gets a BraceForImpact Helper class for sending BraceForImpact"
+}

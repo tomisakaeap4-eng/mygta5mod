@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Ped.IsInGroup",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "IsInGroup",
+  "summary": "Gets if this"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.HandlingData.AntiRollBarForce",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "HandlingData",
+  "memberName": "AntiRollBarForce",
+  "summary": "Gets or sets the spring constant that is transmitted to the opposite wheel when under compression.\n            Larger numbers result in a larger force being applied.",
+  "value": "The anti roll bar force."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureShotInjuredArmHelper.StepTurn",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureShotInjuredArmHelper",
+  "memberName": "StepTurn",
+  "summary": "Turn the character using the balancer.",
+  "remarks": "Default value = True."
+}

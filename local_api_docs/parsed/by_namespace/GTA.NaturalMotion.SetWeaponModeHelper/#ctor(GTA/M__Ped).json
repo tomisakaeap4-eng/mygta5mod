@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.NaturalMotion.SetWeaponModeHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.SetWeaponModeHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the SetWeaponModeHelper for sending a SetWeaponMode",
+  "remarks": "Use this message to set the character's weapon mode.  This is an alternativeto the setWeaponMode public function.",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

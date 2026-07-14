@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotHelper.Looseness4Stagger",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotHelper",
+  "memberName": "Looseness4Stagger",
+  "summary": "How loose the upperBody of the character is made by a newBullet if staggerFall is running (and not falling).  Note atm the neck ramp values are ignored in staggerFall.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

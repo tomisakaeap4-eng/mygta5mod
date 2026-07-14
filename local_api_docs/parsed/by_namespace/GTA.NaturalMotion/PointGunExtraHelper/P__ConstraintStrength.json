@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunExtraHelper.ConstraintStrength",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunExtraHelper",
+  "memberName": "ConstraintStrength",
+  "summary": "For supportConstraint = 2: force constraint strength of the supporting hands - it gets shaky at about 4.0.",
+  "remarks": "Default value = 2.0f.\n            Min value = 0.0f.\n            Max value = 5.0f."
+}

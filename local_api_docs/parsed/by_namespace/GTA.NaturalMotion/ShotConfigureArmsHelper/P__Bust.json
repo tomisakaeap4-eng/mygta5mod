@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotConfigureArmsHelper.Bust",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotConfigureArmsHelper",
+  "memberName": "Bust",
+  "summary": "Has the character got a bust.\n            If so then cupBust (move bust reach targets below bust) or bustElbowLift and cupSize (stop upperArm penetrating bust and move bust targets to surface of bust) are implemented.",
+  "remarks": "Default value = False."
+}

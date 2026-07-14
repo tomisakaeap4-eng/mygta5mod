@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.Math.Quaternion.Divide(GTA.Math.Quaternion,GTA.Math.Quaternion)",
+  "kind": "M",
+  "namespace": "GTA.Math.Quaternion.Divide(GTA.Math.Quaternion,GTA",
+  "typeName": "Math",
+  "memberName": "Quaternion)",
+  "summary": "Divides a quaternion by another.",
+  "returns": "The divided quaternion.",
+  "params": [
+    {
+      "name": "left",
+      "description": "The first quaternion to divide."
+    },
+    {
+      "name": "right",
+      "description": "The second quaternion to divide."
+    }
+  ]
+}

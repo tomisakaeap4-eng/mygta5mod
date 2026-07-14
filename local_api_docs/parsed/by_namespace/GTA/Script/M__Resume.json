@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Script.Resume",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Script",
+  "memberName": "Resume",
+  "summary": "Starts execution of this"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.AnimationFlags.RagdollOnCollision",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "AnimationFlags",
+  "memberName": "RagdollOnCollision",
+  "summary": "If the peds ragdoll bounds make contact with something physical (that isn't flat ground) activate the ragdoll and fall over."
+}

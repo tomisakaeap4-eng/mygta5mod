@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.GrabHelper.InstanceIndex",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "GrabHelper",
+  "memberName": "InstanceIndex",
+  "summary": "LevelIndex of instance to grab (-1 = world coordinates).",
+  "remarks": "Default value = -1.\n            Min value = -1."
+}

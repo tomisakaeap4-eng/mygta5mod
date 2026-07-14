@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.NaturalMotion.SetFrictionScaleHelper",
+  "kind": "T",
+  "namespace": "GTA",
+  "typeName": "NaturalMotion",
+  "memberName": "SetFrictionScaleHelper",
+  "summary": "SetFrictionScale:."
+}

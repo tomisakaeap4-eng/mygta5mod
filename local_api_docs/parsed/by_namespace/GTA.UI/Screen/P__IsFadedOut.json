@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.UI.Screen.IsFadedOut",
+  "kind": "P",
+  "namespace": "GTA.UI",
+  "typeName": "Screen",
+  "memberName": "IsFadedOut",
+  "summary": "Gets a value indicating whether the screen is faded out."
+}

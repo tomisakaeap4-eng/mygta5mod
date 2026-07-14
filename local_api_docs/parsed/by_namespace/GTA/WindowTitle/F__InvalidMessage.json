@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.WindowTitle.InvalidMessage",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "WindowTitle",
+  "memberName": "InvalidMessage",
+  "summary": "\"Invalid Message. Try again (MAX 20 characters)\""
+}

@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.BlipSprite.RaceFoot",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "BlipSprite",
+  "memberName": "RaceFoot",
+  "summary": "The default English text for this value is \"Foot Race\"."
+}

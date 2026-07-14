@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.RadioStation",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "RadioStation",
+  "summary": "Sets this"
+}

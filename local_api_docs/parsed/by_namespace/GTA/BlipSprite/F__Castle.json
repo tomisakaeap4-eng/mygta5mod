@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.BlipSprite.Castle",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "BlipSprite",
+  "memberName": "Castle",
+  "summary": "The default English text for this value is \"Property Takeover\"."
+}

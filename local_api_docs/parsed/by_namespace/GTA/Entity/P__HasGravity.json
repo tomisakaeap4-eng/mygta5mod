@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Entity.HasGravity",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "HasGravity",
+  "summary": "Gets or sets a value indicating whether this"
+}

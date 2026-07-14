@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotConfigureArmsHelper.AWStiffnessAdd",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotConfigureArmsHelper",
+  "memberName": "AWStiffnessAdd",
+  "summary": "For armsWindmill, added arm stiffness ranges from 0 to AWStiffnessAdd.",
+  "remarks": "Default value = 4.0f.\n            Min value = 0.0f.\n            Max value = 16.0f."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SmartFallHelper.AimAngleBase",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SmartFallHelper",
+  "memberName": "AimAngleBase",
+  "summary": "Angle from vertical the pdController is driving to (positive = forwards).",
+  "remarks": "Default value = 0.2f.\n            Min value = -3.1f.\n            Max value = 3.1f."
+}

@@ -1,0 +1,18 @@
+{
+  "name": "M:GTA.EntityDamageRecord.op_Equality(GTA.EntityDamageRecord,GTA.EntityDamageRecord)",
+  "kind": "M",
+  "namespace": "GTA.EntityDamageRecord.op_Equality(GTA",
+  "typeName": "EntityDamageRecord,GTA",
+  "memberName": "EntityDamageRecord)",
+  "summary": "Determines if two",
+  "params": [
+    {
+      "name": "left",
+      "description": "The left"
+    },
+    {
+      "name": "right",
+      "description": "The right"
+    }
+  ]
+}

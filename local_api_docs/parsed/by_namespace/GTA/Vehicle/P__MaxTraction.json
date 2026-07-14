@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.MaxTraction",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "MaxTraction",
+  "summary": "Gets the maximum traction of this"
+}

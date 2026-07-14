@@ -1,0 +1,58 @@
+{
+  "name": "M:GTA.World.DrawMarker(GTA.MarkerType,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Drawing.Color,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.Boolean)",
+  "kind": "M",
+  "namespace": "GTA.World.DrawMarker(GTA.MarkerType,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Drawing.Color,System.Boolean,System.Boolean,System.Boolean,System.String,System",
+  "typeName": "String,System",
+  "memberName": "Boolean)",
+  "summary": "Draws a marker in the world, this needs to be done on a per frame basis",
+  "params": [
+    {
+      "name": "type",
+      "description": "The type of marker."
+    },
+    {
+      "name": "pos",
+      "description": "The position of the marker."
+    },
+    {
+      "name": "dir",
+      "description": "The direction the marker points in."
+    },
+    {
+      "name": "rot",
+      "description": "The rotation of the marker."
+    },
+    {
+      "name": "scale",
+      "description": "The amount to scale the marker by."
+    },
+    {
+      "name": "color",
+      "description": "The color of the marker."
+    },
+    {
+      "name": "bobUpAndDown",
+      "description": "if set to"
+    },
+    {
+      "name": "faceCamera",
+      "description": "if set to"
+    },
+    {
+      "name": "rotateY",
+      "description": "if set to"
+    },
+    {
+      "name": "textueDict",
+      "description": "Name of texture dictionary to load the texture from, leave null for no texture in the marker."
+    },
+    {
+      "name": "textureName",
+      "description": "Name of texture inside the dictionary to load the texture from, leave null for no texture in the marker."
+    },
+    {
+      "name": "drawOnEntity",
+      "description": "if set to"
+    }
+  ]
+}

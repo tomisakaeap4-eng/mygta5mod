@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PedalLegsHelper.CentreUp",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PedalLegsHelper",
+  "memberName": "CentreUp",
+  "summary": "Move the center of the pedal for both legs up (or down -ve).",
+  "remarks": "Default value = 0.0f.\n            Min value = -1.0f.\n            Max value = 1.0f."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkFricMult",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotFallToKneesHelper",
+  "memberName": "FtkFricMult",
+  "summary": "Multiplier on the reduction of friction for the feet based on angle away from horizontal - helps the character fall to knees quicker.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 5.0f."
+}

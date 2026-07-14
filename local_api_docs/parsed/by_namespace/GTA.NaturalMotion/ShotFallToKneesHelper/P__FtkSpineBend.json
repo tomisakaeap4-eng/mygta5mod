@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkSpineBend",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotFallToKneesHelper",
+  "memberName": "FtkSpineBend",
+  "summary": "Bend applied to spine when falling from knees. (+ve forward - try -0.1) (only if rds called).",
+  "remarks": "Default value = 0.0f.\n            Min value = -0.2f.\n            Max value = 0.3f."
+}

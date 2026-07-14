@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMomentAirborne",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBulletsExtraHelper",
+  "memberName": "RbMomentAirborne",
+  "summary": "If Airborne: 0.0 only force, 0.5 = force and half the rigid body moment applied, 1.0 = force and full rigidBody moment.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

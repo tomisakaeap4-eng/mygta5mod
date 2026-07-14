@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.FallOverWallHelper.StepExclusionZone",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "FallOverWallHelper",
+  "memberName": "StepExclusionZone",
+  "summary": "Specifies extent of area in front of the wall in which balancer won't try to take another step.",
+  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 2.0f."
+}

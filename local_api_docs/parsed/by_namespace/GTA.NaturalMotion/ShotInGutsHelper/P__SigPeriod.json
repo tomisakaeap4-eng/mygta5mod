@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotInGutsHelper.SigPeriod",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotInGutsHelper",
+  "memberName": "SigPeriod",
+  "summary": "Active time after being shot.",
+  "remarks": "Default value = 2.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

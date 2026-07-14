@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Blip.MemoryAddress",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Blip",
+  "memberName": "MemoryAddress",
+  "summary": "Gets the memory address where the"
+}

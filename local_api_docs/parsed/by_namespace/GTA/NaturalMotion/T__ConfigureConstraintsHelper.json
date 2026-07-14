@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.NaturalMotion.ConfigureConstraintsHelper",
+  "kind": "T",
+  "namespace": "GTA",
+  "typeName": "NaturalMotion",
+  "memberName": "ConfigureConstraintsHelper",
+  "summary": "One shot to give state of constraints on character and response to constraints."
+}

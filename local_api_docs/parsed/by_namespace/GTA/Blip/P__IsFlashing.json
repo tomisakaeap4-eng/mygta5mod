@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Blip.IsFlashing",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Blip",
+  "memberName": "IsFlashing",
+  "summary": "Gets or sets a value indicating whether this"
+}

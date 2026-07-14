@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.World.PickupObjectCount",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "PickupObjectCount",
+  "summary": "A fast way to get the total number of"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.VehicleWheel.Health",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "VehicleWheel",
+  "memberName": "Health",
+  "summary": "Gets or sets the wheel health."
+}

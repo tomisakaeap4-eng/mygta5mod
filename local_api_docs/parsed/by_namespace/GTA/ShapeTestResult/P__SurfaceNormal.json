@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.ShapeTestResult.SurfaceNormal",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "ShapeTestResult",
+  "memberName": "SurfaceNormal",
+  "summary": "Gets the normal of the surface where this shape test hit."
+}

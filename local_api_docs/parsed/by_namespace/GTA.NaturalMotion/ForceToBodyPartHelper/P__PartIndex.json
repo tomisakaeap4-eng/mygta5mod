@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ForceToBodyPartHelper.PartIndex",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ForceToBodyPartHelper",
+  "memberName": "PartIndex",
+  "summary": "Part or link or bound index.",
+  "remarks": "Default value = 0.\n            Min value = 0.\n            Max value = 28."
+}

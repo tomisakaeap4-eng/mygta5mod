@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureShotInjuredArmHelper.ForceStepExtraHeight",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureShotInjuredArmHelper",
+  "memberName": "ForceStepExtraHeight",
+  "summary": "Additional height added to stepping foot.",
+  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 0.7f."
+}

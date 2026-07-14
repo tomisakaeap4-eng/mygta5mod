@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotShockSpinHelper.ShockSpinScalePerComponent",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotShockSpinHelper",
+  "memberName": "ShockSpinScalePerComponent",
+  "summary": "Torque applied is scaled by this amount across the spine components - spine2 recieving the full amount, then 3 and 1 and finally 0. Each time, this value is used to scale it down. 0.5 means half the torque each time.",
+  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 2.0f."
+}

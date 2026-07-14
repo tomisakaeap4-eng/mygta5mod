@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.TeeterHelper.TeeterTime",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "TeeterHelper",
+  "memberName": "TeeterTime",
+  "summary": "Time-to-edge threshold to start full-on teeter (more aggressive lean, drop-and-twist, etc).",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

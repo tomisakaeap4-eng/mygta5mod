@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Camera.Detach",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Camera",
+  "memberName": "Detach",
+  "summary": "Detaches this"
+}

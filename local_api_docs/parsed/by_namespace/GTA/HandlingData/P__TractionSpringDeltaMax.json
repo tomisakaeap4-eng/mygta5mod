@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.HandlingData.TractionSpringDeltaMax",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "HandlingData",
+  "memberName": "TractionSpringDeltaMax",
+  "summary": "Gets or sets the maximum distance for traction spring.",
+  "value": "The traction loss multiplier."
+}

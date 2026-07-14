@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Entity.BelowPosition",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "BelowPosition",
+  "summary": "Gets a position directly below this"
+}

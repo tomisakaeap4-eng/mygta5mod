@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Player.IsDead",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Player",
+  "memberName": "IsDead",
+  "summary": "Gets a value indicating whether this"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.UpperBodyFlinch",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "UpperBodyFlinch",
+  "summary": "Gets a UpperBodyFlinch Helper class for sending UpperBodyFlinch"
+}

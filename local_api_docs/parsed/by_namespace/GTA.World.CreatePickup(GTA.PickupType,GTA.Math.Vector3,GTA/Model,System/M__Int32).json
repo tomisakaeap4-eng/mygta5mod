@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.World.CreatePickup(GTA.PickupType,GTA.Math.Vector3,GTA.Model,System.Int32)",
+  "kind": "M",
+  "namespace": "GTA.World.CreatePickup(GTA.PickupType,GTA.Math.Vector3,GTA",
+  "typeName": "Model,System",
+  "memberName": "Int32)",
+  "summary": "Spawns a"
+}

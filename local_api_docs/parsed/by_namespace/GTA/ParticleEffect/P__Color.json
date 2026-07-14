@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.ParticleEffect.Color",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "ParticleEffect",
+  "memberName": "Color",
+  "summary": "Gets or sets the"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Entity.IsSmokeProof",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "IsSmokeProof",
+  "summary": "Gets or sets a value indicating whether this"
+}

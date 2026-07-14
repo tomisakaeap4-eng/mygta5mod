@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.BlipSprite.PickupSpawn",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "BlipSprite",
+  "memberName": "PickupSpawn",
+  "summary": "The default English text for this value is \"Spawn Point Pickup\"."
+}

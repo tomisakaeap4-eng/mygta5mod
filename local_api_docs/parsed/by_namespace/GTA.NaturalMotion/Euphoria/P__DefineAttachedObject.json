@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.DefineAttachedObject",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "DefineAttachedObject",
+  "summary": "Gets a DefineAttachedObject Helper class for sending DefineAttachedObject"
+}

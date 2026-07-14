@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.InteriorInstance.MemoryAddress",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "InteriorInstance",
+  "memberName": "MemoryAddress",
+  "summary": "Gets the memory address where the"
+}

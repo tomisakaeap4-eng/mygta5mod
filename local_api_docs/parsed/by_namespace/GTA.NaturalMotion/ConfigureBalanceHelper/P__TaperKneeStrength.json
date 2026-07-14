@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.TaperKneeStrength",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "TaperKneeStrength",
+  "summary": "Does the knee strength reduce with angle.",
+  "remarks": "Default value = True."
+}

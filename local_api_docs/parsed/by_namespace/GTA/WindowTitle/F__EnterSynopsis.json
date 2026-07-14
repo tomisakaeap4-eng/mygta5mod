@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.WindowTitle.EnterSynopsis",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "WindowTitle",
+  "memberName": "EnterSynopsis",
+  "summary": "\"Enter Synopsis (MAX 125 characters)\""
+}

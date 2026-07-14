@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.World.ProjectileCapacity",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "ProjectileCapacity",
+  "summary": "The total number of"
+}

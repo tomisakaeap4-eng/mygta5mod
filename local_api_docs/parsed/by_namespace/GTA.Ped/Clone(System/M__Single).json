@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Ped.Clone(System.Single)",
+  "kind": "M",
+  "namespace": "GTA.Ped",
+  "typeName": "Clone(System",
+  "memberName": "Single)",
+  "summary": "Spawn an identical clone of this",
+  "params": [
+    {
+      "name": "heading",
+      "description": "The direction the clone should be facing."
+    }
+  ]
+}

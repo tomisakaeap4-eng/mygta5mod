@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyWritheHelper.BackPeriod",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyWritheHelper",
+  "memberName": "BackPeriod",
+  "summary": "Controls how fast the writhe is executed, smaller values make faster motions.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 4.0f."
+}

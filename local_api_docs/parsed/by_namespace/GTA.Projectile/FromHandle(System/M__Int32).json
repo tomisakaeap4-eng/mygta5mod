@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.Projectile.FromHandle(System.Int32)",
+  "kind": "M",
+  "namespace": "GTA.Projectile",
+  "typeName": "FromHandle(System",
+  "memberName": "Int32)",
+  "summary": "Get a",
+  "returns": "Null if not found or the entity is not a",
+  "params": [
+    {
+      "name": "handle",
+      "description": ""
+    }
+  ]
+}

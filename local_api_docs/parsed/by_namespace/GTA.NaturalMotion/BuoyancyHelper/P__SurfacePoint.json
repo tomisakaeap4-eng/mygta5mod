@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BuoyancyHelper.SurfacePoint",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BuoyancyHelper",
+  "memberName": "SurfacePoint",
+  "summary": "Arbitrary point on surface of water.",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
+}

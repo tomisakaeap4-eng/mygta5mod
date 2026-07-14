@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.StayUprightHelper.TorqueDamping",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "StayUprightHelper",
+  "memberName": "TorqueDamping",
+  "summary": "Damping of torque based constraint.",
+  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 16.0f."
+}

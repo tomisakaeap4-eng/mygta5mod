@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.GrabHelper.LookAtGrab",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "GrabHelper",
+  "memberName": "LookAtGrab",
+  "summary": "If true, the character will look at the grab.",
+  "remarks": "Default value = True."
+}

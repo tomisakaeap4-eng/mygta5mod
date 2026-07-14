@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.LeaveVehicleFlags.WarpIfDoorIsBlocked",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "LeaveVehicleFlags",
+  "memberName": "WarpIfDoorIsBlocked",
+  "summary": "Allow ped to warp to the seat if entry is blocked. The player"
+}

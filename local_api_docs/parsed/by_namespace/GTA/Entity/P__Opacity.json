@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Entity.Opacity",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "Opacity",
+  "summary": "Gets or sets how opaque this",
+  "value": "0 for completely see through, 255 for fully opaque"
+}

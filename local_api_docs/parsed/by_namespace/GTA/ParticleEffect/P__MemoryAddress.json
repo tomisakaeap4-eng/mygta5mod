@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.ParticleEffect.MemoryAddress",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "ParticleEffect",
+  "memberName": "MemoryAddress",
+  "summary": "Gets the memory address where this"
+}

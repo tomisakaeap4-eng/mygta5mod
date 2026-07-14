@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Blip.RemoveNumberLabel",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Blip",
+  "memberName": "RemoveNumberLabel",
+  "summary": "Removes the number label from this"
+}

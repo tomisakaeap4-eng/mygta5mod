@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.StaggerFallHelper.SpineStiffness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "StaggerFallHelper",
+  "memberName": "SpineStiffness",
+  "remarks": "Default value = 10.0f.\n            Min value = 0.0f.\n            Max value = 16.0f."
+}

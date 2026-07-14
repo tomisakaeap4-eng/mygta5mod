@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.ConfigureLimits",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "ConfigureLimits",
+  "summary": "Gets a ConfigureLimits Helper class for sending ConfigureLimits",
+  "remarks": "Enable/disable/edit character limits in real time.  This adjusts limits in RAGE-native space and will *not* reorient the joint."
+}

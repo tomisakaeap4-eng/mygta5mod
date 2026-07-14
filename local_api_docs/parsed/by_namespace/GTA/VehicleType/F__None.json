@@ -1,0 +1,9 @@
+{
+  "name": "F:GTA.VehicleType.None",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "VehicleType",
+  "memberName": "None",
+  "summary": "The default/invalid type.",
+  "remarks": "The corresponding name in vehicles.meta for this value is"
+}

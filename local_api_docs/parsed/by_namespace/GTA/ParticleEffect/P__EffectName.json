@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.ParticleEffect.EffectName",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "ParticleEffect",
+  "memberName": "EffectName",
+  "summary": "Gets the name of the effect used for this"
+}

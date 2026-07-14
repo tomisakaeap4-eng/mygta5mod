@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.SideSomersaultAngle",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyBalanceHelper",
+  "memberName": "SideSomersaultAngle",
+  "summary": "Amount of side somersault 'angle' before sideSomersault is used for ArmsOut. Unless drunk - DO NOT EXCEED 0.8.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

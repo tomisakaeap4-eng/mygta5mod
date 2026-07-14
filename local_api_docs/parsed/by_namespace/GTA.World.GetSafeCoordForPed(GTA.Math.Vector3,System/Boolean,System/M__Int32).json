@@ -1,0 +1,22 @@
+{
+  "name": "M:GTA.World.GetSafeCoordForPed(GTA.Math.Vector3,System.Boolean,System.Int32)",
+  "kind": "M",
+  "namespace": "GTA.World.GetSafeCoordForPed(GTA.Math.Vector3,System",
+  "typeName": "Boolean,System",
+  "memberName": "Int32)",
+  "summary": "Gets the nearest safe coordinate to position a",
+  "params": [
+    {
+      "name": "position",
+      "description": "The position to check around."
+    },
+    {
+      "name": "sidewalk",
+      "description": "if set to"
+    },
+    {
+      "name": "flags",
+      "description": "The flags."
+    }
+  ]
+}

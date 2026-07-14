@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.SetCharacterCollisionsHelper.ApplyToUpperArms",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SetCharacterCollisionsHelper",
+  "memberName": "ApplyToUpperArms",
+  "remarks": "Default value = True."
+}

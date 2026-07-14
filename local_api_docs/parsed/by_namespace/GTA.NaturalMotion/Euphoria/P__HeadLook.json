@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.HeadLook",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "HeadLook",
+  "summary": "Gets a HeadLook Helper class for sending HeadLook"
+}

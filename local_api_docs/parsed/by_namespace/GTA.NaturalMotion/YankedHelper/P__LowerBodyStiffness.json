@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.YankedHelper.LowerBodyStiffness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "YankedHelper",
+  "memberName": "LowerBodyStiffness",
+  "summary": "LowerBodyStiffness should be 12.",
+  "remarks": "Default value = 12.0f.\n            Min value = 0.0f.\n            Max value = 16.0f."
+}

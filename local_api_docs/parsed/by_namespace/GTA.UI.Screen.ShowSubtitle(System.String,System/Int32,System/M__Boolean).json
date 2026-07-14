@@ -1,0 +1,22 @@
+{
+  "name": "M:GTA.UI.Screen.ShowSubtitle(System.String,System.Int32,System.Boolean)",
+  "kind": "M",
+  "namespace": "GTA.UI.Screen.ShowSubtitle(System.String,System",
+  "typeName": "Int32,System",
+  "memberName": "Boolean)",
+  "summary": "Shows a subtitle at the bottom of the screen for a given time",
+  "params": [
+    {
+      "name": "message",
+      "description": "The message to display."
+    },
+    {
+      "name": "duration",
+      "description": "The duration to display the subtitle in milliseconds."
+    },
+    {
+      "name": "drawImmediately",
+      "description": "Whether to draw immediately or draw after all the queued subtitles have finished."
+    }
+  ]
+}

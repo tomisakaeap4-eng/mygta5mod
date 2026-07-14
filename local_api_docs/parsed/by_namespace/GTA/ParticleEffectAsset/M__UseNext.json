@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.ParticleEffectAsset.UseNext",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "ParticleEffectAsset",
+  "memberName": "UseNext",
+  "summary": "Make this the current particle asset."
+}

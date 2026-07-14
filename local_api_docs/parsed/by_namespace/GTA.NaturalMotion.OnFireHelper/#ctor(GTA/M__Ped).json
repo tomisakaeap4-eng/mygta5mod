@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.NaturalMotion.OnFireHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.OnFireHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the OnFireHelper for sending a OnFire",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

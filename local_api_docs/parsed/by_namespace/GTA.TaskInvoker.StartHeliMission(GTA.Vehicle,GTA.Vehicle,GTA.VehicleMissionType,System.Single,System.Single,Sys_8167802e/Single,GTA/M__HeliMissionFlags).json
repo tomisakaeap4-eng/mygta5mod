@@ -1,0 +1,50 @@
+{
+  "name": "M:GTA.TaskInvoker.StartHeliMission(GTA.Vehicle,GTA.Vehicle,GTA.VehicleMissionType,System.Single,System.Single,System.Int32,System.Int32,System.Single,System.Single,GTA.HeliMissionFlags)",
+  "kind": "M",
+  "namespace": "GTA.TaskInvoker.StartHeliMission(GTA.Vehicle,GTA.Vehicle,GTA.VehicleMissionType,System.Single,System.Single,System.Int32,System.Int32,System.Single,System",
+  "typeName": "Single,GTA",
+  "memberName": "HeliMissionFlags)",
+  "summary": "Gives the helicopter a mission.",
+  "params": [
+    {
+      "name": "heli",
+      "description": "The helicopter."
+    },
+    {
+      "name": "target",
+      "description": "The target"
+    },
+    {
+      "name": "missionType",
+      "description": "The vehicle mission type."
+    },
+    {
+      "name": "cruiseSpeed",
+      "description": "The cruise speed for the task."
+    },
+    {
+      "name": "targetReachedDist",
+      "description": "distance (in meters) at which heli thinks it's arrived. Also used as the hover distance for"
+    },
+    {
+      "name": "flightHeight",
+      "description": "The Z coordinate the heli tries to maintain (i.e. 30 == 30 meters above sea level)."
+    },
+    {
+      "name": "minHeightAboveTerrain",
+      "description": "The height in meters that the heli will try to stay above terrain (ie 20 == always tries to stay at least 20 meters above ground)."
+    },
+    {
+      "name": "heliOrientation",
+      "description": "The orientation the heli tries to be in ("
+    },
+    {
+      "name": "slowDownDistance",
+      "description": "In general, get more control with big number and more dynamic with smaller. Setting to"
+    },
+    {
+      "name": "missionFlags",
+      "description": "The heli mission flags for the task."
+    }
+  ]
+}

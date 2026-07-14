@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.WeaponAsset.MarkAsNoLongerNeeded",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "WeaponAsset",
+  "memberName": "MarkAsNoLongerNeeded",
+  "summary": "Tells the game we have finished using this"
+}

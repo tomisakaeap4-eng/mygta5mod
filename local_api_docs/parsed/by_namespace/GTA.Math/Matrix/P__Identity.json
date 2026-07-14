@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Math.Matrix.Identity",
+  "kind": "P",
+  "namespace": "GTA.Math",
+  "typeName": "Matrix",
+  "memberName": "Identity",
+  "summary": "The identity"
+}

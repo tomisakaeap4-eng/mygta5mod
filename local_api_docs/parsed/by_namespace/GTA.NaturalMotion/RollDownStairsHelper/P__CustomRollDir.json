@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.CustomRollDir",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "RollDownStairsHelper",
+  "memberName": "CustomRollDir",
+  "summary": "Pass in a custom direction in to have the character try and roll in that direction.",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 1.0f).\n            Min value = 1.0f.\n            Max value = 1.0f."
+}

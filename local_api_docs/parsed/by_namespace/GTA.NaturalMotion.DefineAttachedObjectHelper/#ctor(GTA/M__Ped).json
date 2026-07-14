@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.NaturalMotion.DefineAttachedObjectHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.DefineAttachedObjectHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the DefineAttachedObjectHelper for sending a DefineAttachedObject",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

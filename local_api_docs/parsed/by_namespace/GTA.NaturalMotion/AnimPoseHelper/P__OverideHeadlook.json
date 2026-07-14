@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.AnimPoseHelper.OverideHeadlook",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "AnimPoseHelper",
+  "memberName": "OverideHeadlook",
+  "summary": "Overide Headlook behavior (if animPose includes the head).",
+  "remarks": "Default value = False."
+}

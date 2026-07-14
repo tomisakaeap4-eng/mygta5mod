@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.ErrorThreshold",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "ErrorThreshold",
+  "summary": "Angular difference between pointing direction and target direction above which feedback will be generated.",
+  "remarks": "Default value = 0.4f.\n            Min value = 0.0f.\n            Max value = 3.1f."
+}

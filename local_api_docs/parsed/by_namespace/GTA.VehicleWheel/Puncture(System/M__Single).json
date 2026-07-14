@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.VehicleWheel.Puncture(System.Single)",
+  "kind": "M",
+  "namespace": "GTA.VehicleWheel",
+  "typeName": "Puncture(System",
+  "memberName": "Single)",
+  "summary": "Punctures this",
+  "params": [
+    {
+      "name": "damage",
+      "description": "How much damage this"
+    }
+  ]
+}

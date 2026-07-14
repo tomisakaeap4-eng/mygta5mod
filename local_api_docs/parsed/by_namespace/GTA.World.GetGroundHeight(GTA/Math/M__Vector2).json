@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.World.GetGroundHeight(GTA.Math.Vector2)",
+  "kind": "M",
+  "namespace": "GTA.World.GetGroundHeight(GTA",
+  "typeName": "Math",
+  "memberName": "Vector2)",
+  "summary": "Gets the height of the ground at a given position.",
+  "returns": "The height measured in meters",
+  "params": [
+    {
+      "name": "position",
+      "description": "The position."
+    }
+  ]
+}

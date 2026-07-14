@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.NaturalMotion.BraceForImpactHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.BraceForImpactHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the BraceForImpactHelper for sending a BraceForImpact",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

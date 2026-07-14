@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SetCharacterDampingHelper.SomersaultThresh",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SetCharacterDampingHelper",
+  "memberName": "SomersaultThresh",
+  "summary": "Somersault AngularMomentum measure above which we start damping - try 34.0.  Falling over straight backwards gives 54 on hitting ground.",
+  "remarks": "Default value = 34.0f.\n            Min value = 0.0f.\n            Max value = 200.0f."
+}

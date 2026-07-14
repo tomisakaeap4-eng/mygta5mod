@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.ConstrainRifle",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "ConstrainRifle",
+  "summary": "Use hard constraint to keep rifle stock against shoulder?.",
+  "remarks": "Default value = True."
+}

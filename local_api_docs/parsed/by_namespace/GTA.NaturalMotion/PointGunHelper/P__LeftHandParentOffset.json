@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.LeftHandParentOffset",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "LeftHandParentOffset",
+  "summary": "Pointing-from offset from parent effector, expressed in spine3's frame, x = back/forward, y = right/left, z = up/down.",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
+}

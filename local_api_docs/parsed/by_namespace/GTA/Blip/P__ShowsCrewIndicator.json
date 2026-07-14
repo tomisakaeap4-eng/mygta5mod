@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Blip.ShowsCrewIndicator",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Blip",
+  "memberName": "ShowsCrewIndicator",
+  "summary": "Gets or sets a value indicating whether this"
+}

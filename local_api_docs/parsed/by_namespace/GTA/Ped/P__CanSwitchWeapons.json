@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Ped.CanSwitchWeapons",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "CanSwitchWeapons",
+  "summary": "Sets if this"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Math.Vector3.WorldUp",
+  "kind": "P",
+  "namespace": "GTA.Math",
+  "typeName": "Vector3",
+  "memberName": "WorldUp",
+  "summary": "Returns the world Up vector. (0,0,1)"
+}

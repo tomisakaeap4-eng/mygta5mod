@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.LeaveVehicleFlags.WaitForEntryPointToBeClear",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "LeaveVehicleFlags",
+  "memberName": "WaitForEntryPointToBeClear",
+  "summary": "Wait for our entry point to be clear of peds before exiting."
+}

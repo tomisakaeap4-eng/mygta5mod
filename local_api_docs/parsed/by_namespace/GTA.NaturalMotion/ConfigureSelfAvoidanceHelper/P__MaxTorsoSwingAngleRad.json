@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureSelfAvoidanceHelper.MaxTorsoSwingAngleRad",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureSelfAvoidanceHelper",
+  "memberName": "MaxTorsoSwingAngleRad",
+  "summary": "Max value on the effector (wrist) to adjusted target offset.",
+  "remarks": "Default value = 0.8f.\n            Min value = 0.0f.\n            Max value = 1.6f."
+}

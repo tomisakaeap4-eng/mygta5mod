@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.GrabHelper.SurfaceGrab",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "GrabHelper",
+  "memberName": "SurfaceGrab",
+  "summary": "Toggle surface grab on. Requires pos1,pos2,pos3 and pos4 to be specified.",
+  "remarks": "Default value = False."
+}

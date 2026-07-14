@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.StepClampScale",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "StepClampScale",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

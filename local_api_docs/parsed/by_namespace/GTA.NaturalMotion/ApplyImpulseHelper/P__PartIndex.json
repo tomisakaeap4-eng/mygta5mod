@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ApplyImpulseHelper.PartIndex",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ApplyImpulseHelper",
+  "memberName": "PartIndex",
+  "summary": "Index of part being hit. -1 apply impulse to COM.",
+  "remarks": "Default value = 0.\n            Min value = -1.\n            Max value = 28."
+}

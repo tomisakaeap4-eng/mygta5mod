@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.Math.Quaternion.Multiply(GTA.Math.Quaternion,GTA.Math.Quaternion)",
+  "kind": "M",
+  "namespace": "GTA.Math.Quaternion.Multiply(GTA.Math.Quaternion,GTA",
+  "typeName": "Math",
+  "memberName": "Quaternion)",
+  "summary": "Multiplies two Quaternions together.",
+  "returns": "The result of the multiplication.",
+  "params": [
+    {
+      "name": "left",
+      "description": "The Quaternion on the left side of the multiplication."
+    },
+    {
+      "name": "right",
+      "description": "The Quaternion on the right side of the multiplication."
+    }
+  ]
+}

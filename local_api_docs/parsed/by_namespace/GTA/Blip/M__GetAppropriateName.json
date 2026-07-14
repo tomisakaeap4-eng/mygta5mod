@@ -1,0 +1,9 @@
+{
+  "name": "M:GTA.Blip.GetAppropriateName",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Blip",
+  "memberName": "GetAppropriateName",
+  "summary": "Gets the appropriate name of this",
+  "value": "The same"
+}

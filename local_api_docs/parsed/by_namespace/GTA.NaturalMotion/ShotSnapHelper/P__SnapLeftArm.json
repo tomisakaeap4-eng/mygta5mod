@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotSnapHelper.SnapLeftArm",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotSnapHelper",
+  "memberName": "SnapLeftArm",
+  "summary": "Snap the leftArm.",
+  "remarks": "Default value = False."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PedalLegsHelper.SpeedAsymmetry",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PedalLegsHelper",
+  "memberName": "SpeedAsymmetry",
+  "summary": "Random offset applied per leg to the angular speed to desynchronize the pedaling - set to 0 to disable, otherwise should be set to less than the angularSpeed value.",
+  "remarks": "Default value = 8.0f.\n            Min value = -10.0f.\n            Max value = 10.0f."
+}

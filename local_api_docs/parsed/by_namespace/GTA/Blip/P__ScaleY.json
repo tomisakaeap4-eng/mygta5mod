@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Blip.ScaleY",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Blip",
+  "memberName": "ScaleY",
+  "summary": "Gets or sets the y-axis scale of this"
+}

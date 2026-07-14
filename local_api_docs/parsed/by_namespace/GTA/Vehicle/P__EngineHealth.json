@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.EngineHealth",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "EngineHealth",
+  "summary": "Gets or sets this"
+}

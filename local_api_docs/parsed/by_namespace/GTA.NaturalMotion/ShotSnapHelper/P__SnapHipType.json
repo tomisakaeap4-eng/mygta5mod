@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotSnapHelper.SnapHipType",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotSnapHelper",
+  "memberName": "SnapHipType",
+  "summary": "Type of hip reaction 0=none, 1=side2side 2=steplike.",
+  "remarks": "Default value = 0.\n            Min value = 0.\n            Max value = 2."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Math.Matrix.Invert",
+  "kind": "M",
+  "namespace": "GTA.Math",
+  "typeName": "Matrix",
+  "memberName": "Invert",
+  "summary": "Inverts the matrix."
+}

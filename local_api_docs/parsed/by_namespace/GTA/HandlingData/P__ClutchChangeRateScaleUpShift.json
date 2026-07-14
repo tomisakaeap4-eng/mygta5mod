@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.HandlingData.ClutchChangeRateScaleUpShift",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "HandlingData",
+  "memberName": "ClutchChangeRateScaleUpShift",
+  "summary": "Gets or sets the clutch speed multiplier on up shifts.",
+  "value": "The clutch speed multiplier on up shifts."
+}

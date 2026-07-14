@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.IsAlarmSet",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "IsAlarmSet",
+  "summary": "Sets a value indicating whether this"
+}

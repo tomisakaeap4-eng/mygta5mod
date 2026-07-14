@@ -1,0 +1,14 @@
+{
+  "name": "P:GTA.EntityBoneCollection.Item(System.Int32)",
+  "kind": "P",
+  "namespace": "GTA.EntityBoneCollection",
+  "typeName": "Item(System",
+  "memberName": "Int32)",
+  "summary": "Gets the",
+  "params": [
+    {
+      "name": "boneIndex",
+      "description": "The bone index."
+    }
+  ]
+}

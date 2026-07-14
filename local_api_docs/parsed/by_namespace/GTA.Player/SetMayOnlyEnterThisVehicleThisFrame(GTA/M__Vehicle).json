@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Player.SetMayOnlyEnterThisVehicleThisFrame(GTA.Vehicle)",
+  "kind": "M",
+  "namespace": "GTA.Player",
+  "typeName": "SetMayOnlyEnterThisVehicleThisFrame(GTA",
+  "memberName": "Vehicle)",
+  "summary": "Only lets this",
+  "params": [
+    {
+      "name": "vehicle",
+      "description": "The"
+    }
+  ]
+}

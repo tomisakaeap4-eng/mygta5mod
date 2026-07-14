@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueFilterMode",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBulletsExtraHelper",
+  "memberName": "TorqueFilterMode",
+  "remarks": "Default value ="
+}

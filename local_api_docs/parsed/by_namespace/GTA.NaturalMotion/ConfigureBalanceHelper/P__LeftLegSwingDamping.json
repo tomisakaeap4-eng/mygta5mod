@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.LeftLegSwingDamping",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "LeftLegSwingDamping",
+  "summary": "Damping of left leg during swing phase (mmmmDrunk used 1.25 to slow legs movement).",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.2f.\n            Max value = 4.0f."
+}

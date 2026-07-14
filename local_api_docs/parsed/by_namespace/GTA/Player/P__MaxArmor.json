@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Player.MaxArmor",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Player",
+  "memberName": "MaxArmor",
+  "summary": "Gets or sets the maximum amount of armor this"
+}

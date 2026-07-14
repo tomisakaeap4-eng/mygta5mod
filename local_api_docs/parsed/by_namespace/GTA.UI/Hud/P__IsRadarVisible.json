@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.UI.Hud.IsRadarVisible",
+  "kind": "P",
+  "namespace": "GTA.UI",
+  "typeName": "Hud",
+  "memberName": "IsRadarVisible",
+  "summary": "Gets or sets a value indicating whether the radar is visible."
+}

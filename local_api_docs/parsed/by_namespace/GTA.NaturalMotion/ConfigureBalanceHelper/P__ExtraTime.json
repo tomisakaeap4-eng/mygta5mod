@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.ExtraTime",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "ExtraTime",
+  "summary": "Allow the balancer to balance for this many more seconds before hitting maxBalanceTime.  If negative nothing happens(safe default).",
+  "remarks": "Default value = -1.0f.\n            Min value = -1.0f."
+}

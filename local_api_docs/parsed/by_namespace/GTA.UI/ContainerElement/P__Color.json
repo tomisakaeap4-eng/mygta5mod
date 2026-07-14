@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.UI.ContainerElement.Color",
+  "kind": "P",
+  "namespace": "GTA.UI",
+  "typeName": "ContainerElement",
+  "memberName": "Color",
+  "summary": "Gets or sets the color of this",
+  "value": "The color."
+}

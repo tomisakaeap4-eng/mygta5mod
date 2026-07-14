@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.HighFallHelper.Arms2LegsSync",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "HighFallHelper",
+  "memberName": "Arms2LegsSync",
+  "summary": "Syncs the arms angle to what the leg angle is.",
+  "remarks": "Default value ="
+}

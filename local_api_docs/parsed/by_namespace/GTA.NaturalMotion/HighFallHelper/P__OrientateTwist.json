@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.HighFallHelper.OrientateTwist",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "HighFallHelper",
+  "memberName": "OrientateTwist",
+  "summary": "If false don't worry about the twist angle of the character when orientating the character.\n            If false this allows the twist axis of the character to be free (You can get a nice twisting highFall like the one in dieHard 4 when the car goes into the helicopter).",
+  "remarks": "Default value = True."
+}

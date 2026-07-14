@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.BlipSprite.DrugPackage",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "BlipSprite",
+  "memberName": "DrugPackage",
+  "summary": "The default English text for this value is \"Drugs Package\"."
+}

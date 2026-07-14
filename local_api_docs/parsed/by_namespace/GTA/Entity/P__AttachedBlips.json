@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Entity.AttachedBlips",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "AttachedBlips",
+  "summary": "Gets an"
+}

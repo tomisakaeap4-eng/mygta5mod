@@ -1,0 +1,23 @@
+{
+  "name": "M:GTA.World.GetClosestProp(GTA.Math.Vector3,System.Single,GTA.Model[])",
+  "kind": "M",
+  "namespace": "GTA.World.GetClosestProp(GTA.Math.Vector3,System",
+  "typeName": "Single,GTA",
+  "memberName": "Model[])",
+  "summary": "Gets the closest",
+  "remarks": "Returns",
+  "params": [
+    {
+      "name": "position",
+      "description": "The position to find the nearest"
+    },
+    {
+      "name": "radius",
+      "description": "The maximum distance from the"
+    },
+    {
+      "name": "models",
+      "description": "The"
+    }
+  ]
+}

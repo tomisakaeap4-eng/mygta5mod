@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Blip.IsHiddenOnLegend",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Blip",
+  "memberName": "IsHiddenOnLegend",
+  "summary": "Gets or sets a value indicating whether this"
+}

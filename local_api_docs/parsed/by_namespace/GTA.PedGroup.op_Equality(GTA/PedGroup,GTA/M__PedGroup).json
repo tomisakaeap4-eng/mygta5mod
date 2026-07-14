@@ -1,0 +1,18 @@
+{
+  "name": "M:GTA.PedGroup.op_Equality(GTA.PedGroup,GTA.PedGroup)",
+  "kind": "M",
+  "namespace": "GTA.PedGroup.op_Equality(GTA",
+  "typeName": "PedGroup,GTA",
+  "memberName": "PedGroup)",
+  "summary": "Determines if two",
+  "params": [
+    {
+      "name": "left",
+      "description": "The left"
+    },
+    {
+      "name": "right",
+      "description": "The right"
+    }
+  ]
+}

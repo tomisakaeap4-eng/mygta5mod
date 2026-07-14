@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.Math.Vector2.Multiply(GTA.Math.Vector2,GTA.Math.Vector2)",
+  "kind": "M",
+  "namespace": "GTA.Math.Vector2.Multiply(GTA.Math.Vector2,GTA",
+  "typeName": "Math",
+  "memberName": "Vector2)",
+  "summary": "Multiplies a vector with another by performing component-wise multiplication.",
+  "returns": "The multiplied vector.",
+  "params": [
+    {
+      "name": "left",
+      "description": "The first vector to multiply."
+    },
+    {
+      "name": "right",
+      "description": "The second vector to multiply."
+    }
+  ]
+}

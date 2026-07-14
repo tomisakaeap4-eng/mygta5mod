@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureSelfAvoidanceHelper.Radius",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureSelfAvoidanceHelper",
+  "memberName": "Radius",
+  "summary": "Self avoidance radius, measured out from the spine axis along the plane perpendicular to that axis. The closer is the proximity of reaching target to that radius, the more polar (curved) motion is used for offsetting the target. WARNING: Parameter only used by the alternative algorithm that is based on linear and polar target blending.",
+  "remarks": "Default value = 0.3f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

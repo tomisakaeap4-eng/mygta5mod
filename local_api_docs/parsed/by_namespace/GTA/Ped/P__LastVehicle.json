@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Ped.LastVehicle",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "LastVehicle",
+  "summary": "Gets the last",
+  "remarks": "returns"
+}

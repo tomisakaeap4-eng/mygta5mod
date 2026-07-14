@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.BraceOffset",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyBalanceHelper",
+  "memberName": "BraceOffset",
+  "summary": "BraceTarget is global headLookPos plus braceOffset m in the up direction.",
+  "remarks": "Default value = 0.0f.\n            Min value = -2.0f.\n            Max value = 2.0f."
+}

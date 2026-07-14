@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.UseVelocityOfObjectBelow",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "RollDownStairsHelper",
+  "memberName": "UseVelocityOfObjectBelow",
+  "summary": "Scale applied cheat forces/torques to (zero) if object underneath character has velocity greater than 1.f.",
+  "remarks": "Default value = False."
+}

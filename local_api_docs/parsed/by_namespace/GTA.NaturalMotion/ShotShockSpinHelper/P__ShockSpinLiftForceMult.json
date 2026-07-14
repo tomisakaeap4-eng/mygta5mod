@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotShockSpinHelper.ShockSpinLiftForceMult",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotShockSpinHelper",
+  "memberName": "ShockSpinLiftForceMult",
+  "summary": "If greater than 0, apply a force to lift the character up while the torque is applied, trying to produce a dramatic spun/twist shotgun-to-the-chest effect. This is a scale of the torque applied, so 8.0 or so would give a reasonable amount of lift.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 2.0f."
+}

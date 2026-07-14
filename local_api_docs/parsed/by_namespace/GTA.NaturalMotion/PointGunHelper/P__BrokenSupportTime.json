@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.BrokenSupportTime",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "BrokenSupportTime",
+  "summary": "Once constraint is broken then do not try to reconnect/support for this amount of time.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 5.0f."
+}

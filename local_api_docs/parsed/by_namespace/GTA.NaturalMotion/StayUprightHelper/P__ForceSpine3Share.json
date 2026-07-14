@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.StayUprightHelper.ForceSpine3Share",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "StayUprightHelper",
+  "memberName": "ForceSpine3Share",
+  "summary": "Share of pelvis force applied to spine3.",
+  "remarks": "Default value = 0.3f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

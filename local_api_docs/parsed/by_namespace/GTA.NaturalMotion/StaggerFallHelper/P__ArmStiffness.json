@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.StaggerFallHelper.ArmStiffness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "StaggerFallHelper",
+  "memberName": "ArmStiffness",
+  "summary": "Stiffness of arms. Catch_fall's stiffness scales with this value, but has default values when this is default.",
+  "remarks": "Default value = 12.0f.\n            Min value = 0.0f.\n            Max value = 16.0f."
+}

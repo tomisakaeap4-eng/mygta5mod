@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotFromBehindHelper.SfbKneesOnset",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotFromBehindHelper",
+  "memberName": "SfbKneesOnset",
+  "summary": "Amount of time before bending knees a bit.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

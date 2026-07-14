@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.ShapeTestResult.DidHit",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "ShapeTestResult",
+  "memberName": "DidHit",
+  "summary": "Gets a value indicating whether this shape test collided with anything."
+}

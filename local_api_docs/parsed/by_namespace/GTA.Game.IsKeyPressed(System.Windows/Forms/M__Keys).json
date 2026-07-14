@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Game.IsKeyPressed(System.Windows.Forms.Keys)",
+  "kind": "M",
+  "namespace": "GTA.Game.IsKeyPressed(System.Windows",
+  "typeName": "Forms",
+  "memberName": "Keys)",
+  "summary": "Gets whether the specified key is currently held down.",
+  "params": [
+    {
+      "name": "key",
+      "description": "The key to check."
+    }
+  ]
+}

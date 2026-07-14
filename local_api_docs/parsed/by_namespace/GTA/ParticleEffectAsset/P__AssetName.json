@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.ParticleEffectAsset.AssetName",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "ParticleEffectAsset",
+  "memberName": "AssetName",
+  "summary": "Gets the name of the this"
+}

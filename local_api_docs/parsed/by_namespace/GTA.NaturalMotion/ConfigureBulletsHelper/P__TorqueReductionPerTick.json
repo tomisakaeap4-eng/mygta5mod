@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBulletsHelper.TorqueReductionPerTick",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBulletsHelper",
+  "memberName": "TorqueReductionPerTick",
+  "summary": "Ratio of torque for next tick (e.g. 1.0: not reducing over time, 0.9: each tick torque is reduced by 10%).",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

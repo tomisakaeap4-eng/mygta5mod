@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.EntityBoneCollection.Core",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "EntityBoneCollection",
+  "memberName": "Core",
+  "summary": "Gets the core bone of this"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Building.Quaternion",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Building",
+  "memberName": "Quaternion",
+  "summary": "Gets the quaternion of this"
+}

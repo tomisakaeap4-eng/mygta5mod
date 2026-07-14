@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BuoyancyHelper.Righting",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BuoyancyHelper",
+  "memberName": "Righting",
+  "summary": "Use righting torque to being character face-up in water?.",
+  "remarks": "Default value = True."
+}

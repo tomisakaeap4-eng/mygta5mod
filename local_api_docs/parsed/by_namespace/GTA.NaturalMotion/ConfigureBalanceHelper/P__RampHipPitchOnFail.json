@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.RampHipPitchOnFail",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "RampHipPitchOnFail",
+  "summary": "Bend over when falling after maxBalanceTime.",
+  "remarks": "Default value = False."
+}

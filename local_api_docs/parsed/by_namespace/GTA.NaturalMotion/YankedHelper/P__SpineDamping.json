@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.YankedHelper.SpineDamping",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "YankedHelper",
+  "memberName": "SpineDamping",
+  "summary": "Spine damping when upright.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 2.0f."
+}

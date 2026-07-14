@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.Damping",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "RollDownStairsHelper",
+  "memberName": "Damping",
+  "summary": "Effector  Damping.",
+  "remarks": "Default value = 1.4f.\n            Min value = 0.0f.\n            Max value = 4.0f."
+}

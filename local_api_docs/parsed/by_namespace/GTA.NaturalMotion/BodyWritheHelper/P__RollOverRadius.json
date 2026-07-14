@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyWritheHelper.RollOverRadius",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyWritheHelper",
+  "memberName": "RollOverRadius",
+  "summary": "Rolling torque is ramped down with distance measured from position where character hit the ground and started rolling. At this distance in meters torque value converges to zero. Use this parameter to restrict distance the character travels due to rolling. Note that onFire has to be set to true for this parameter to take any effect.",
+  "remarks": "Default value = 2.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Entity.Detach",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "Detach",
+  "summary": "Detaches this"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.NaturalMotion.HighFallHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.HighFallHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the HighFallHelper for sending a HighFall",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

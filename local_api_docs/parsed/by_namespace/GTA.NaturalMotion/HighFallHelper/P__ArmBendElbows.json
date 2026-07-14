@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.HighFallHelper.ArmBendElbows",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "HighFallHelper",
+  "memberName": "ArmBendElbows",
+  "summary": "In armWindMillAdaptive bend the elbows as a function of armAngle.\n            For stunt man true otherwise false.",
+  "remarks": "Default value = True."
+}

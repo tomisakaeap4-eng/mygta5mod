@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.YankedHelper.ArmDampingStart",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "YankedHelper",
+  "memberName": "ArmDampingStart",
+  "summary": "Arm damping during the yanked timescale i.e. timeAtStartValues.",
+  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 2.0f."
+}

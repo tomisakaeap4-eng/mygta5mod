@@ -1,0 +1,22 @@
+{
+  "name": "M:GTA.Math.Quaternion.RotateTowards(GTA.Math.Quaternion,GTA.Math.Quaternion,System.Single)",
+  "kind": "M",
+  "namespace": "GTA.Math.Quaternion.RotateTowards(GTA.Math.Quaternion,GTA.Math",
+  "typeName": "Quaternion,System",
+  "memberName": "Single)",
+  "summary": "Rotates a rotation from towards to.",
+  "params": [
+    {
+      "name": "from",
+      "description": "From Quaternion."
+    },
+    {
+      "name": "to",
+      "description": "To Quaternion."
+    },
+    {
+      "name": "maxDegreesDelta",
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.IDeletable",
+  "kind": "T",
+  "namespace": "",
+  "typeName": "GTA",
+  "memberName": "IDeletable",
+  "summary": "An object that can be deleted from the world."
+}

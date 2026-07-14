@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.CheckNeutralPoint",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "CheckNeutralPoint",
+  "summary": "Check the neutral pointing is pointable, if it isn't then choose a neutral pose instead.",
+  "remarks": "Default value = False."
+}

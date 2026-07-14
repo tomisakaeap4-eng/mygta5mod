@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.AnimationFlags.UseKinematicPhysics",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "AnimationFlags",
+  "memberName": "UseKinematicPhysics",
+  "summary": "Use the kinematic physics mode on the entity for the duration of the anim (it should push other entities out of the way, and not be pushed around by players / etc)."
+}

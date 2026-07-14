@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureConstraintsHelper.HandCuffsBehindBack",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureConstraintsHelper",
+  "memberName": "HandCuffsBehindBack",
+  "summary": "Not implemented.",
+  "remarks": "Default value = False."
+}

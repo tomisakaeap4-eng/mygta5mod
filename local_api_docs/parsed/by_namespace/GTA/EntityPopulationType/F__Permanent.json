@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.EntityPopulationType.Permanent",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "EntityPopulationType",
+  "memberName": "Permanent",
+  "summary": "The game does not automatically delete entities when this value is set."
+}

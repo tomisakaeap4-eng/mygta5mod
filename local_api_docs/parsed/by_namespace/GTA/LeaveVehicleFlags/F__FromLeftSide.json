@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.LeaveVehicleFlags.FromLeftSide",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "LeaveVehicleFlags",
+  "memberName": "FromLeftSide",
+  "summary": "Use entry/exit point on the left hand side."
+}

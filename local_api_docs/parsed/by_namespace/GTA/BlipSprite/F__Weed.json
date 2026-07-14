@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.BlipSprite.Weed",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "BlipSprite",
+  "memberName": "Weed",
+  "summary": "The default English text for this value is \"Weed Production\"."
+}

@@ -1,0 +1,18 @@
+{
+  "name": "M:GTA.Checkpoint.op_Inequality(GTA.Checkpoint,GTA.Checkpoint)",
+  "kind": "M",
+  "namespace": "GTA.Checkpoint.op_Inequality(GTA",
+  "typeName": "Checkpoint,GTA",
+  "memberName": "Checkpoint)",
+  "summary": "Determines if two",
+  "params": [
+    {
+      "name": "left",
+      "description": "The left"
+    },
+    {
+      "name": "right",
+      "description": "The right"
+    }
+  ]
+}

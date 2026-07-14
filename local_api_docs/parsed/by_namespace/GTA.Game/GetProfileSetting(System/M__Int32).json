@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.Game.GetProfileSetting(System.Int32)",
+  "kind": "M",
+  "namespace": "GTA.Game",
+  "typeName": "GetProfileSetting(System",
+  "memberName": "Int32)",
+  "summary": "Gets an value associated with the specified index of the profile setting.",
+  "returns": "The integer value associated with the specified index of the profile setting.",
+  "params": [
+    {
+      "name": "index",
+      "description": "The index of the profile setting values."
+    }
+  ]
+}

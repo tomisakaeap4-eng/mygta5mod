@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.NaturalMotion.BodyRelaxHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.BodyRelaxHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the BodyRelaxHelper for sending a BodyRelax",
+  "remarks": "Set the amount of relaxation across the whole body; Used to collapse the character into a rag-doll-like state.",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

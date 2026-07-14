@@ -1,0 +1,23 @@
+{
+  "name": "M:GTA.Audio.PlaySoundAt(GTA.Entity,System.String,System.String)",
+  "kind": "M",
+  "namespace": "GTA.Audio.PlaySoundAt(GTA.Entity,System",
+  "typeName": "String,System",
+  "memberName": "String)",
+  "summary": "Plays a sound from the game's sound files at the specified",
+  "returns": "The identifier of the active sound effect instance.",
+  "params": [
+    {
+      "name": "entity",
+      "description": "The entity to play the sound at."
+    },
+    {
+      "name": "soundFile",
+      "description": "The sound file to play."
+    },
+    {
+      "name": "soundSet",
+      "description": "The name of the sound inside the file."
+    }
+  ]
+}

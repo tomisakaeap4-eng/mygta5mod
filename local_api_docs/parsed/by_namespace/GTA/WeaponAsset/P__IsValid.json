@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.WeaponAsset.IsValid",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "WeaponAsset",
+  "memberName": "IsValid",
+  "summary": "Gets a value indicating whether this"
+}

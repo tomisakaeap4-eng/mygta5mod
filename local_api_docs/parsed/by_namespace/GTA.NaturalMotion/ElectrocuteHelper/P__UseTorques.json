@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ElectrocuteHelper.UseTorques",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ElectrocuteHelper",
+  "memberName": "UseTorques",
+  "summary": "Use torques to make vibration otherwise use a change in the parts angular velocity.",
+  "remarks": "Default value = True."
+}

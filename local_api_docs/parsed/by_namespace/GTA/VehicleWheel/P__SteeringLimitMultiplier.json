@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.VehicleWheel.SteeringLimitMultiplier",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "VehicleWheel",
+  "memberName": "SteeringLimitMultiplier",
+  "summary": "Gets or sets the limit multiplier that affects how much this"
+}

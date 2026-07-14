@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.UI.Screen.FadeIn(System.Int32)",
+  "kind": "M",
+  "namespace": "GTA.UI.Screen",
+  "typeName": "FadeIn(System",
+  "memberName": "Int32)",
+  "summary": "Fades the screen in over a specific time, useful for transitioning",
+  "params": [
+    {
+      "name": "time",
+      "description": "The time for the fade in to take"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.GrabHelper.UseLeft",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "GrabHelper",
+  "memberName": "UseLeft",
+  "summary": "Flag to toggle use of left hand.",
+  "remarks": "Default value = False."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.EntityDamageRecord.Victim",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "EntityDamageRecord",
+  "memberName": "Victim",
+  "summary": "Gets the victim"
+}

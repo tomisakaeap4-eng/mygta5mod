@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.TeeterHelper.LeanAway",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "TeeterHelper",
+  "memberName": "LeanAway",
+  "summary": "Lean away from the edge based on velocity towards the edge (if closer than 2m from edge).",
+  "remarks": "Default value = True."
+}

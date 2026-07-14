@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Blip.CategoryType",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Blip",
+  "memberName": "CategoryType",
+  "summary": "Gets or sets the category type of this"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotHelper.AllowInjuredLeg",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotHelper",
+  "memberName": "AllowInjuredLeg",
+  "summary": "When false injured leg is not bent and character does not bend to reach it.",
+  "remarks": "Default value = True."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotHelper.InitialNeckDamping",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotHelper",
+  "memberName": "InitialNeckDamping",
+  "summary": "Intial damping of neck after being shot.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.1f.\n            Max value = 10.0f."
+}

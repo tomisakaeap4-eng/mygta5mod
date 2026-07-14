@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.ReturningToBalanceArmsOut",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyBalanceHelper",
+  "memberName": "ReturningToBalanceArmsOut",
+  "summary": "Range 0:1 0 = don't raise arms if returning to upright position, 0.x = 0.x*raise arms based on angvel and 'angle' settings, 1 = raise arms based on angvel and 'angle' settings.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

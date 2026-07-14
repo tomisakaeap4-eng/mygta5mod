@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ApplyImpulseHelper.HitPoint",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ApplyImpulseHelper",
+  "memberName": "HitPoint",
+  "summary": "Optional point on part where hit. If not supplied then the impulse is applied at the part center.",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
+}

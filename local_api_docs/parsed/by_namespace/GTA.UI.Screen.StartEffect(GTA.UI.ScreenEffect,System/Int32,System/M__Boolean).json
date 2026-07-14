@@ -1,0 +1,22 @@
+{
+  "name": "M:GTA.UI.Screen.StartEffect(GTA.UI.ScreenEffect,System.Int32,System.Boolean)",
+  "kind": "M",
+  "namespace": "GTA.UI.Screen.StartEffect(GTA.UI.ScreenEffect,System",
+  "typeName": "Int32,System",
+  "memberName": "Boolean)",
+  "summary": "Starts applying the specified effect to the screen.",
+  "params": [
+    {
+      "name": "effectName",
+      "description": "The"
+    },
+    {
+      "name": "duration",
+      "description": "The duration of the effect in milliseconds or zero to use the default length."
+    },
+    {
+      "name": "looped",
+      "description": "If"
+    }
+  ]
+}

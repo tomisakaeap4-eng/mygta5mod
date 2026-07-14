@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.ReduceConstraintLengthVel",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "ReduceConstraintLengthVel",
+  "summary": "For supportConstraint = 1:  Velocity at which to reduce the support hand constraint length.",
+  "remarks": "Default value = 1.5f.\n            Min value = 0.1f.\n            Max value = 10.0f."
+}

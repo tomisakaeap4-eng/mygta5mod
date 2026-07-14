@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureShotInjuredArmHelper.VelStepTurn",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureShotInjuredArmHelper",
+  "memberName": "VelStepTurn",
+  "summary": "Velocity above which a stepTurn is not asked for.",
+  "remarks": "Default value = 0.8f.\n            Min value = 0.0f.\n            Max value = 20.0f."
+}

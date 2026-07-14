@@ -1,0 +1,18 @@
+{
+  "name": "M:GTA.ScriptSettings.GetAllValues``1(System.String,System.String)",
+  "kind": "M",
+  "namespace": "GTA.ScriptSettings.GetAllValues``1(System",
+  "typeName": "String,System",
+  "memberName": "String)",
+  "summary": "Reads all the values at a specified key and section from this",
+  "params": [
+    {
+      "name": "section",
+      "description": "The section where the value is."
+    },
+    {
+      "name": "name",
+      "description": "The name of the key the values are saved at."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.Math.Vector2.DistanceTo(GTA.Math.Vector2)",
+  "kind": "M",
+  "namespace": "GTA.Math.Vector2.DistanceTo(GTA",
+  "typeName": "Math",
+  "memberName": "Vector2)",
+  "summary": "Calculates the distance between two vectors.",
+  "returns": "The distance to the other vector.",
+  "params": [
+    {
+      "name": "position",
+      "description": "The second vector to calculate the distance to."
+    }
+  ]
+}

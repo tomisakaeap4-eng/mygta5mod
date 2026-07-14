@@ -1,0 +1,24 @@
+{
+  "name": "M:GTA.Game.FindPattern(System.String,System.String,System.IntPtr)",
+  "kind": "M",
+  "namespace": "GTA.Game.FindPattern(System.String,System",
+  "typeName": "String,System",
+  "memberName": "IntPtr)",
+  "summary": "Searches the address space of the current process for a memory pattern.",
+  "remarks": "This function takes the classic format (\"\\x48\\x8B\\x0D\\x00\\x00\\x00\\x00\\x44\\x8B\\xC6\\x8B\\xD5\\x8B\\xD8\" as the pattern and \"xxx????xxxxxxx\" as the mask for example, where \\x00 in the pattern and ? In the mask is a wildcard).",
+  "returns": "The address of a region matching the pattern, or",
+  "params": [
+    {
+      "name": "pattern",
+      "description": "The pattern."
+    },
+    {
+      "name": "mask",
+      "description": "The pattern mask."
+    },
+    {
+      "name": "startAddress",
+      "description": "The address to start searching at. If"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "M:GTA.Entity.op_Inequality(GTA.Entity,GTA.Entity)",
+  "kind": "M",
+  "namespace": "GTA.Entity.op_Inequality(GTA",
+  "typeName": "Entity,GTA",
+  "memberName": "Entity)",
+  "summary": "Determines if two",
+  "params": [
+    {
+      "name": "left",
+      "description": "The left"
+    },
+    {
+      "name": "right",
+      "description": "The right"
+    }
+  ]
+}

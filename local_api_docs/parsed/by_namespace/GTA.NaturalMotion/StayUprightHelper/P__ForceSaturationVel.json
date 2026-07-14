@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.StayUprightHelper.ForceSaturationVel",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "StayUprightHelper",
+  "memberName": "ForceSaturationVel",
+  "summary": "When in velocityBased mode, the COM velocity at which constraint reaches maximum strength (forceStrength).",
+  "remarks": "Default value = 4.0f.\n            Min value = 0.1f.\n            Max value = 10.0f."
+}

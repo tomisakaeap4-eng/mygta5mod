@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.LeanRandomHelper.ChangeTimeMin",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "LeanRandomHelper",
+  "memberName": "ChangeTimeMin",
+  "summary": "Minimum time until changing direction.",
+  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 20.0f."
+}

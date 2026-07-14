@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.MoveWhenBracing",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyBalanceHelper",
+  "memberName": "MoveWhenBracing",
+  "summary": "Only move away from pusher when bracing against pusher.",
+  "remarks": "Default value = False."
+}

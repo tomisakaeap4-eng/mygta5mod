@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.UI.TextElement.Scale",
+  "kind": "P",
+  "namespace": "GTA.UI",
+  "typeName": "TextElement",
+  "memberName": "Scale",
+  "summary": "Gets or sets the scale of this",
+  "value": "The scale usually a value between ~0.5 and 3.0, Default = 1.0"
+}

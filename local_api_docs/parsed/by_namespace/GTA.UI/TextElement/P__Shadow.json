@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.UI.TextElement.Shadow",
+  "kind": "P",
+  "namespace": "GTA.UI",
+  "typeName": "TextElement",
+  "memberName": "Shadow",
+  "summary": "Gets or sets a value indicating whether this"
+}

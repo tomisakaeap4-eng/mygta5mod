@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.FallOverWallHelper.DistanceToSendSuccessMessage",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "FallOverWallHelper",
+  "memberName": "DistanceToSendSuccessMessage",
+  "summary": "Minimum distance between the pelvis and the wall to send the success message. If negative doesn't take this parameter into account when sending feedback.",
+  "remarks": "Default value = -1.0f.\n            Min value = -1.0f.\n            Max value = 3.0f."
+}

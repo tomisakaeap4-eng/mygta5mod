@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Math.Quaternion.Equals(GTA.Math.Quaternion)",
+  "kind": "M",
+  "namespace": "GTA.Math.Quaternion.Equals(GTA",
+  "typeName": "Math",
+  "memberName": "Quaternion)",
+  "summary": "Returns a value that indicates whether the current instance is equal to the specified object.",
+  "params": [
+    {
+      "name": "other",
+      "description": "Object to make the comparison with."
+    }
+  ]
+}

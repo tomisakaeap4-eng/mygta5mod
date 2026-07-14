@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.Math.Quaternion.RotationMatrix(GTA.Math.Matrix)",
+  "kind": "M",
+  "namespace": "GTA.Math.Quaternion.RotationMatrix(GTA",
+  "typeName": "Math",
+  "memberName": "Matrix)",
+  "summary": "Creates a quaternion given a rotation matrix.",
+  "returns": "The newly created quaternion.",
+  "params": [
+    {
+      "name": "matrix",
+      "description": "The rotation matrix."
+    }
+  ]
+}

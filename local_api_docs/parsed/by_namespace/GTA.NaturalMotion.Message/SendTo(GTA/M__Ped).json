@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.NaturalMotion.Message.SendTo(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.Message",
+  "typeName": "SendTo(GTA",
+  "memberName": "Ped)",
+  "summary": "Starts this Natural Motion behavior on the",
+  "params": [
+    {
+      "name": "target",
+      "description": "The"
+    }
+  ]
+}

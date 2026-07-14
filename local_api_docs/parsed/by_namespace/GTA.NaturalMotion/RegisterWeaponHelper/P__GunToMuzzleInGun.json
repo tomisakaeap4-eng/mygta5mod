@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.RegisterWeaponHelper.GunToMuzzleInGun",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "RegisterWeaponHelper",
+  "memberName": "GunToMuzzleInGun",
+  "summary": "Gun center to muzzle expressed in gun co-ordinates.  To get the line of sight/barrel of the gun. Assumption: the muzzle direction is always along the same primary axis of the gun.",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
+}

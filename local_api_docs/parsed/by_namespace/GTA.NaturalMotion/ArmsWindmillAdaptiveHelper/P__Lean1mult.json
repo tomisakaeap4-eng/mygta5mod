@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ArmsWindmillAdaptiveHelper.Lean1mult",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ArmsWindmillAdaptiveHelper",
+  "memberName": "Lean1mult",
+  "summary": "0 arms go up and down at the side. 1 circles. 0..1 elipse.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 2.0f."
+}

@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.NaturalMotion.SetCharacterHealthHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.SetCharacterHealthHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the SetCharacterHealthHelper for sending a SetCharacterHealth",
+  "remarks": "Sets character's health on the dead-to-alive scale: [0..1].",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

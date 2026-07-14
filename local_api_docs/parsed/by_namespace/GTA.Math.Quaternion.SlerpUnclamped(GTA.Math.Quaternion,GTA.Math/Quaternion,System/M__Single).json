@@ -1,0 +1,22 @@
+{
+  "name": "M:GTA.Math.Quaternion.SlerpUnclamped(GTA.Math.Quaternion,GTA.Math.Quaternion,System.Single)",
+  "kind": "M",
+  "namespace": "GTA.Math.Quaternion.SlerpUnclamped(GTA.Math.Quaternion,GTA.Math",
+  "typeName": "Quaternion,System",
+  "memberName": "Single)",
+  "summary": "Interpolates between two quaternions, using spherical linear interpolation. The parameter /t/ is not clamped.",
+  "params": [
+    {
+      "name": "a",
+      "description": ""
+    },
+    {
+      "name": "b",
+      "description": ""
+    },
+    {
+      "name": "t",
+      "description": ""
+    }
+  ]
+}

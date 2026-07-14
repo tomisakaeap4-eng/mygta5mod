@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Player.WantedCenterPosition",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Player",
+  "memberName": "WantedCenterPosition",
+  "summary": "Gets or sets the wanted center position for this",
+  "value": "The place in world coordinates where the police think this"
+}

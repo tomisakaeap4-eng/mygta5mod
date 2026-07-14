@@ -1,0 +1,18 @@
+{
+  "name": "M:GTA.World.GetNearbyPickupObjects(GTA.Math.Vector3,System.Single)",
+  "kind": "M",
+  "namespace": "GTA.World.GetNearbyPickupObjects(GTA.Math",
+  "typeName": "Vector3,System",
+  "memberName": "Single)",
+  "summary": "Gets an",
+  "params": [
+    {
+      "name": "position",
+      "description": "The position to check the"
+    },
+    {
+      "name": "radius",
+      "description": "The maximun distance from the"
+    }
+  ]
+}

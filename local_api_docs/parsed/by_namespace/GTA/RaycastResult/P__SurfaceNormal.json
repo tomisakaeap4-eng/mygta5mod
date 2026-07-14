@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.RaycastResult.SurfaceNormal",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "RaycastResult",
+  "memberName": "SurfaceNormal",
+  "summary": "Gets the normal of the surface where this ray cast collided."
+}

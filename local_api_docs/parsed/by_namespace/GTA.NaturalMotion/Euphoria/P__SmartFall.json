@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.SmartFall",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "SmartFall",
+  "summary": "Gets a SmartFall Helper class for sending SmartFall",
+  "remarks": "Clone of High Fall with a wider range of operating conditions."
+}

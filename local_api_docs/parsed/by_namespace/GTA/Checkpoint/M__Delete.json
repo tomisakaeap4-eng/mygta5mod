@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Checkpoint.Delete",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Checkpoint",
+  "memberName": "Delete",
+  "summary": "Removes this"
+}

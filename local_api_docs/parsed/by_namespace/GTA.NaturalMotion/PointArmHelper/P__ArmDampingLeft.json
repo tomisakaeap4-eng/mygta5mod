@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointArmHelper.ArmDampingLeft",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointArmHelper",
+  "memberName": "ArmDampingLeft",
+  "summary": "Damping value for arm used to point.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 2.0f."
+}

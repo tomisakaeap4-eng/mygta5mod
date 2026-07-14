@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.AnimationFlags.DisableForcedPhysicsUpdate",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "AnimationFlags",
+  "memberName": "DisableForcedPhysicsUpdate",
+  "summary": "Prevent adjusting the capsule on the enter state (useful if script is doing a sequence of scripted anims and they are known to more or less stand still)."
+}

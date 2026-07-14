@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.HighFallHelper.ArmPhase",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "HighFallHelper",
+  "memberName": "ArmPhase",
+  "summary": "In armWindMillAdaptive 3.1 opposite for stuntman.\n            1.0 old default. 0.0 in phase.",
+  "remarks": "Default value = 3.1f.\n            Min value = 0.0f.\n            Max value = 6.3f."
+}

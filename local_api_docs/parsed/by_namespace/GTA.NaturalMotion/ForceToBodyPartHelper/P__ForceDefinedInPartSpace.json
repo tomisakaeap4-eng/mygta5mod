@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.ForceToBodyPartHelper.ForceDefinedInPartSpace",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ForceToBodyPartHelper",
+  "memberName": "ForceDefinedInPartSpace",
+  "remarks": "Default value = False."
+}

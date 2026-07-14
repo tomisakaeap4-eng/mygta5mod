@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Script.GetRelativeFilePath(System.String)",
+  "kind": "M",
+  "namespace": "GTA.Script",
+  "typeName": "GetRelativeFilePath(System",
+  "memberName": "String)",
+  "summary": "Gets the full file path for a file relative to this",
+  "params": [
+    {
+      "name": "filePath",
+      "description": "The file path relative to the location of this"
+    }
+  ]
+}

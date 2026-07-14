@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkBalanceTime",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotFallToKneesHelper",
+  "memberName": "FtkBalanceTime",
+  "summary": "How long the balancer runs for before fallToKnees starts.",
+  "remarks": "Default value = 0.7f.\n            Min value = 0.0f.\n            Max value = 5.0f."
+}

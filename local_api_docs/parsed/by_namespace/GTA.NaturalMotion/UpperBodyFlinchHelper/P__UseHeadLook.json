@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.UpperBodyFlinchHelper.UseHeadLook",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "UpperBodyFlinchHelper",
+  "memberName": "UseHeadLook",
+  "summary": "Use headlook.",
+  "remarks": "Default value = True."
+}

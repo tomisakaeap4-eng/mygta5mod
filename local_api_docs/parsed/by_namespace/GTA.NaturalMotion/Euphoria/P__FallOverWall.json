@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.FallOverWall",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "FallOverWall",
+  "summary": "Gets a FallOverWall Helper class for sending FallOverWall"
+}

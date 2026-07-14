@@ -1,0 +1,22 @@
+{
+  "name": "M:GTA.World.GetNearbyBlips(GTA.Math.Vector3,System.Single,GTA.BlipSprite[])",
+  "kind": "M",
+  "namespace": "GTA.World.GetNearbyBlips(GTA.Math.Vector3,System",
+  "typeName": "Single,GTA",
+  "memberName": "BlipSprite[])",
+  "summary": "Gets an",
+  "params": [
+    {
+      "name": "position",
+      "description": "The position to check the"
+    },
+    {
+      "name": "radius",
+      "description": "The maximum distance from the"
+    },
+    {
+      "name": "blipTypes",
+      "description": "The blip types to include, leave blank to get all"
+    }
+  ]
+}

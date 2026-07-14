@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.PoolObject.NativeValue",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "PoolObject",
+  "memberName": "NativeValue",
+  "summary": "The handle of the object translated to a native value."
+}

@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.NaturalMotion.ForceLeanRandomHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.ForceLeanRandomHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the ForceLeanRandomHelper for sending a ForceLeanRandom",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

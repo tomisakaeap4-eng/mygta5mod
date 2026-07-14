@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.World.GetClosest``1(GTA.Math.Vector2,``0[])",
+  "kind": "M",
+  "namespace": "GTA.World.GetClosest``1(GTA",
+  "typeName": "Math",
+  "memberName": "Vector2,``0[])",
+  "summary": "Gets the closest",
+  "returns": "The closest",
+  "params": [
+    {
+      "name": "position",
+      "description": "The position to check against."
+    },
+    {
+      "name": "spatials",
+      "description": "The spatials to check."
+    }
+  ]
+}

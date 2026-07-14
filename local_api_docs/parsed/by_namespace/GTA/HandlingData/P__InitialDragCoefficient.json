@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.HandlingData.InitialDragCoefficient",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "HandlingData",
+  "memberName": "InitialDragCoefficient",
+  "summary": "Gets or sets the drag coefficient.",
+  "value": "The drag coefficient."
+}

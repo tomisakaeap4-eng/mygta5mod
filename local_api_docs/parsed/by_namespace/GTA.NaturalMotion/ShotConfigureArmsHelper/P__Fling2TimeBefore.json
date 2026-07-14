@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2TimeBefore",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotConfigureArmsHelper",
+  "memberName": "Fling2TimeBefore",
+  "summary": "Time after hit that the fling will start (allows for a bit of loose arm movement from bullet impact.snap etc).",
+  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

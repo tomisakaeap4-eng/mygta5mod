@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ElectrocuteHelper.LargeMaxTime",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ElectrocuteHelper",
+  "memberName": "LargeMaxTime",
+  "summary": "Max time to next large random snap (about 28 snaps with stunInterval = 0.07s).",
+  "remarks": "Default value = 2.0f.\n            Min value = 0.0f.\n            Max value = 200.0f."
+}

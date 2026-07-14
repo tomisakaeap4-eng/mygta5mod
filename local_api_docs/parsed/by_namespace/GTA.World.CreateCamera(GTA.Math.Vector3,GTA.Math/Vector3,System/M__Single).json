@@ -1,0 +1,22 @@
+{
+  "name": "M:GTA.World.CreateCamera(GTA.Math.Vector3,GTA.Math.Vector3,System.Single)",
+  "kind": "M",
+  "namespace": "GTA.World.CreateCamera(GTA.Math.Vector3,GTA.Math",
+  "typeName": "Vector3,System",
+  "memberName": "Single)",
+  "summary": "Creates a",
+  "params": [
+    {
+      "name": "position",
+      "description": "The position of the camera."
+    },
+    {
+      "name": "rotation",
+      "description": "The rotation of the camera."
+    },
+    {
+      "name": "fov",
+      "description": "The field of view of the camera."
+    }
+  ]
+}

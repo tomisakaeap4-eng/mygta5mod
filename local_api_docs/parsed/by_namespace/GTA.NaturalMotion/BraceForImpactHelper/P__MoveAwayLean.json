@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.MoveAwayLean",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BraceForImpactHelper",
+  "memberName": "MoveAwayLean",
+  "summary": "Lean away amount (-ve is lean towards).",
+  "remarks": "Default value = 0.1f.\n            Min value = -0.5f.\n            Max value = 0.5f."
+}

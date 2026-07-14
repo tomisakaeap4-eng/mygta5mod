@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.SetCharacterUnderwater",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "SetCharacterUnderwater",
+  "summary": "Gets a SetCharacterUnderwater Helper class for sending SetCharacterUnderwater",
+  "remarks": "Sets viscosity applied to damping limbs"
+}

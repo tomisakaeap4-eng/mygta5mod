@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotHelper.CStrUpperMax",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotHelper",
+  "memberName": "CStrUpperMax",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.1f.\n            Max value = 1.0f."
+}

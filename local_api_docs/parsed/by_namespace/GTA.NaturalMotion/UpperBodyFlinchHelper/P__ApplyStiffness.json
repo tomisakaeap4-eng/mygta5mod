@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.UpperBodyFlinchHelper.ApplyStiffness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "UpperBodyFlinchHelper",
+  "memberName": "ApplyStiffness",
+  "summary": "Turned of by bcr.",
+  "remarks": "Default value = True."
+}

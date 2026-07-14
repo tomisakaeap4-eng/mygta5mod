@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotSnapHelper.SnapMovingMult",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotSnapHelper",
+  "memberName": "SnapMovingMult",
+  "summary": "MovingMult*snapMag = The magnitude of the reaction if moving(comVelMag) faster than movingThresh.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 20.0f."
+}

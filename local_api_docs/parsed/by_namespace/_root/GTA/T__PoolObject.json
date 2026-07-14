@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.PoolObject",
+  "kind": "T",
+  "namespace": "",
+  "typeName": "GTA",
+  "memberName": "PoolObject",
+  "summary": "An object that resides in one of the available object pools."
+}

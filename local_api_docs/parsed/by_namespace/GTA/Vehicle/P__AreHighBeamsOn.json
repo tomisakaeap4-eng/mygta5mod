@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.AreHighBeamsOn",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "AreHighBeamsOn",
+  "summary": "Gets or sets a value indicating whether this"
+}

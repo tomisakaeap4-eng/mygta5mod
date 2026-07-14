@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.HandsDelayMin",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BraceForImpactHelper",
+  "memberName": "HandsDelayMin",
+  "summary": "If bracing with 2 hands delay one hand by at least this amount of time to introduce some asymmetry.",
+  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 3.0f."
+}

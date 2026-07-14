@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Native.InputArgument.#ctor(System.UInt64)",
+  "kind": "M",
+  "namespace": "GTA.Native.InputArgument",
+  "typeName": "#ctor(System",
+  "memberName": "UInt64)",
+  "summary": "Initializes a new instance of the",
+  "params": [
+    {
+      "name": "value",
+      "description": "The pointer value."
+    }
+  ]
+}

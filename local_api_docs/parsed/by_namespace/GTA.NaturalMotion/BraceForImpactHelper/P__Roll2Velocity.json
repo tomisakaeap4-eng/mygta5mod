@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.Roll2Velocity",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BraceForImpactHelper",
+  "memberName": "Roll2Velocity",
+  "summary": "When rollDownStairs is running use roll2Velocity to control the helper torques (this only attempts to roll to the chaarcter's velocity not some default linear velocity mag.",
+  "remarks": "Default value = False."
+}

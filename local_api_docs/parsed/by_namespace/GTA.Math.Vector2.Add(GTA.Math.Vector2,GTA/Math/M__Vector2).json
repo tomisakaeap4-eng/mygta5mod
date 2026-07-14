@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.Math.Vector2.Add(GTA.Math.Vector2,GTA.Math.Vector2)",
+  "kind": "M",
+  "namespace": "GTA.Math.Vector2.Add(GTA.Math.Vector2,GTA",
+  "typeName": "Math",
+  "memberName": "Vector2)",
+  "summary": "Adds two vectors.",
+  "returns": "The sum of the two vectors.",
+  "params": [
+    {
+      "name": "left",
+      "description": "The first vector to add."
+    },
+    {
+      "name": "right",
+      "description": "The second vector to add."
+    }
+  ]
+}

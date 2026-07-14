@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.World.GetZoneDisplayName(GTA.Math.Vector2)",
+  "kind": "M",
+  "namespace": "GTA.World.GetZoneDisplayName(GTA",
+  "typeName": "Math",
+  "memberName": "Vector2)",
+  "summary": "Gets the display name of the a zone in the map.\n            Use",
+  "params": [
+    {
+      "name": "position",
+      "description": "The position on the map."
+    }
+  ]
+}

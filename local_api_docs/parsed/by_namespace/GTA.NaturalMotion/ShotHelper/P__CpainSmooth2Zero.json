@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotHelper.CpainSmooth2Zero",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotHelper",
+  "memberName": "CpainSmooth2Zero",
+  "summary": "Conscious pain ramping to zero after cpainSmooth2Time + cpainDuration (Replaces spinePainTime).",
+  "remarks": "Default value = 1.5f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

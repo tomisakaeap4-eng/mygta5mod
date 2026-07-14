@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.HandlingData.SuspensionUpperLimit",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "HandlingData",
+  "memberName": "SuspensionUpperLimit",
+  "summary": "Gets or sets how far the wheels can move up from their original position.",
+  "value": "The suspension upper limit."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.UseComDirTurnVelThresh",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "UseComDirTurnVelThresh",
+  "summary": "Velocity below which the balancer turns in the direction of the COM forward instead of the ComVel - for use with shot from running with high upright constraint use 1.9.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

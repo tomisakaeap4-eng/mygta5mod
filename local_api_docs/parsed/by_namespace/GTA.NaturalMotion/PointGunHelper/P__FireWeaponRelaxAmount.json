@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.FireWeaponRelaxAmount",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "FireWeaponRelaxAmount",
+  "summary": "Relax multiplier following firing weapon. Recovers over relaxTime.",
+  "remarks": "Default value = 0.5f.\n            Min value = 0.1f.\n            Max value = 1.0f."
+}

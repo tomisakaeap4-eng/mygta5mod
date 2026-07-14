@@ -1,0 +1,8 @@
+{
+  "name": "E:GTA.Script.KeyDown",
+  "kind": "E",
+  "namespace": "GTA",
+  "typeName": "Script",
+  "memberName": "KeyDown",
+  "summary": "An event that is raised when a key is first pressed.\n            The"
+}

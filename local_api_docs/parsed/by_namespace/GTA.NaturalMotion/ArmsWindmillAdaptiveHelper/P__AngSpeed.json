@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ArmsWindmillAdaptiveHelper.AngSpeed",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ArmsWindmillAdaptiveHelper",
+  "memberName": "AngSpeed",
+  "summary": "Controls the speed of the windmilling.",
+  "remarks": "Default value = 6.3f.\n            Min value = 0.1f.\n            Max value = 10.0f."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.ParachuteLandingType.Crashing",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "ParachuteLandingType",
+  "memberName": "Crashing",
+  "summary": "Ped is crashing (ragdolling)."
+}

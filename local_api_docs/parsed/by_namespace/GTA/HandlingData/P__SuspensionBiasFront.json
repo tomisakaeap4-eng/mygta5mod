@@ -1,0 +1,10 @@
+{
+  "name": "P:GTA.HandlingData.SuspensionBiasFront",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "HandlingData",
+  "memberName": "SuspensionBiasFront",
+  "summary": "Gets or sets the damping scale bias between front and rear wheels.\n            This value determines which suspension is stronger, front or rear.\n            This value will be set to the equivalent value in the",
+  "remarks": "if more wheels at back (e.g. trucks), front suspension should be stronger.",
+  "value": "The suspension bias front."
+}

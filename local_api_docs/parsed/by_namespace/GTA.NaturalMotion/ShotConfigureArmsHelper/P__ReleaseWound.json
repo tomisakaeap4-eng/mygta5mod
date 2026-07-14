@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotConfigureArmsHelper.ReleaseWound",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotConfigureArmsHelper",
+  "memberName": "ReleaseWound",
+  "summary": "Release wound if going sideways/forward fast enough.\n            0 = don't.\n            1 = only if bracing.\n            2 = any default arm reaction.",
+  "remarks": "Default value = 1.\n            Min value = 0.\n            Max value = 2."
+}

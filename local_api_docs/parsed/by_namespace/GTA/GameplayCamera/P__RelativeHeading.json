@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.GameplayCamera.RelativeHeading",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "GameplayCamera",
+  "memberName": "RelativeHeading",
+  "summary": "Gets or sets the relative heading of the"
+}

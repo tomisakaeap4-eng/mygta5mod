@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.LeaveVehicleFlags",
+  "kind": "T",
+  "namespace": "",
+  "typeName": "GTA",
+  "memberName": "LeaveVehicleFlags",
+  "summary": "Set of flags to define the behaviour of the enter and exit vehicle tasks.\n            Shares the same flags with"
+}

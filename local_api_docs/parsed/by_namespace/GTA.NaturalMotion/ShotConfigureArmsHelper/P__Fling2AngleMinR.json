@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinR",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotConfigureArmsHelper",
+  "memberName": "Fling2AngleMinR",
+  "summary": "Minimum fling angle for right arm.",
+  "remarks": "Default value = -1.5f.\n            Min value = -1.5f.\n            Max value = 1.0f."
+}

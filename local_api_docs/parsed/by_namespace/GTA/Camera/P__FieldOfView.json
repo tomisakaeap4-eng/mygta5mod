@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Camera.FieldOfView",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Camera",
+  "memberName": "FieldOfView",
+  "summary": "Gets or sets the field of view of this"
+}

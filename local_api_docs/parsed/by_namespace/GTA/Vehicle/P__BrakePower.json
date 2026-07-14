@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.BrakePower",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "BrakePower",
+  "summary": "Gets or sets the current brake power of this"
+}

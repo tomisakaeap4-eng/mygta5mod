@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.AnimPose",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "AnimPose",
+  "summary": "Gets a AnimPose Helper class for sending AnimPose"
+}

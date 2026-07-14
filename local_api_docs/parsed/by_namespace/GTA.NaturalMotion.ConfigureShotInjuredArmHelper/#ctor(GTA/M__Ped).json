@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.NaturalMotion.ConfigureShotInjuredArmHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.ConfigureShotInjuredArmHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the ConfigureShotInjuredArmHelper for sending a ConfigureShotInjuredArm",
+  "remarks": "This single message allows you to configure the injured arm reaction during shot.",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

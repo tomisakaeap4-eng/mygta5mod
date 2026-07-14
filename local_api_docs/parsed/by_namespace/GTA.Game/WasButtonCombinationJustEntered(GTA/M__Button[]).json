@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.Game.WasButtonCombinationJustEntered(GTA.Button[])",
+  "kind": "M",
+  "namespace": "GTA.Game",
+  "typeName": "WasButtonCombinationJustEntered(GTA",
+  "memberName": "Button[])",
+  "summary": "Gets whether a specific sequence of",
+  "remarks": "There must be between 6 and 29 inclusive",
+  "params": [
+    {
+      "name": "buttons",
+      "description": "The sequence of"
+    }
+  ]
+}

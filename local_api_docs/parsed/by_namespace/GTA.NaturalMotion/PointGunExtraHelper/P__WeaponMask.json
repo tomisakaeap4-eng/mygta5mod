@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunExtraHelper.WeaponMask",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunExtraHelper",
+  "memberName": "WeaponMask",
+  "summary": "Currently unused - no intoWorldTest. RAGE bit mask to exclude weapons from ray probe - currently defaults to MP3 weapon flag.",
+  "remarks": "Default value = 1024.\n            Min value = 0."
+}

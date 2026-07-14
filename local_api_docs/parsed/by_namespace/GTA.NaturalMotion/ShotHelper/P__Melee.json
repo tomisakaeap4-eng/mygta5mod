@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotHelper.Melee",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotHelper",
+  "memberName": "Melee",
+  "remarks": "Default value = False."
+}

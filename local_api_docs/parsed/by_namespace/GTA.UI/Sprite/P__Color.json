@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.UI.Sprite.Color",
+  "kind": "P",
+  "namespace": "GTA.UI",
+  "typeName": "Sprite",
+  "memberName": "Color",
+  "summary": "Gets or sets the color of this",
+  "value": "The color."
+}

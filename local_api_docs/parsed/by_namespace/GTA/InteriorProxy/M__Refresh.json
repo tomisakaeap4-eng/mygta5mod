@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.InteriorProxy.Refresh",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "InteriorProxy",
+  "memberName": "Refresh",
+  "summary": "Refreshs the current"
+}

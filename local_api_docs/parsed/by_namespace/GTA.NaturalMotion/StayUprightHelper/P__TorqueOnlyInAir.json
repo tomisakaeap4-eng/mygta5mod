@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.StayUprightHelper.TorqueOnlyInAir",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "StayUprightHelper",
+  "memberName": "TorqueOnlyInAir",
+  "summary": "Only apply torque based constraint when airBorne.",
+  "remarks": "Default value = False."
+}

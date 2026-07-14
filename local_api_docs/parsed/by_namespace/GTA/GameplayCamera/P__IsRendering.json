@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.GameplayCamera.IsRendering",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "GameplayCamera",
+  "memberName": "IsRendering",
+  "summary": "Gets a value indicating whether the"
+}

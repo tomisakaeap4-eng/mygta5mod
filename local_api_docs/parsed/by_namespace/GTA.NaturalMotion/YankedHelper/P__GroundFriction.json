@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.YankedHelper.GroundFriction",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "YankedHelper",
+  "memberName": "GroundFriction",
+  "summary": "Friction multiplier on body parts when on ground.\n            Character can look too slidy with groundFriction = 1.\n            Higher values give a more jerky reaction but this seems timestep dependent especially for dragged by the feet.",
+  "remarks": "Default value = 8.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

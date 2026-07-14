@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.EnterVehicleFlags.ResumeIfInterupted",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "EnterVehicleFlags",
+  "memberName": "ResumeIfInterupted",
+  "summary": "Resume the enter vehicle task even if the task is interupted (bumped, shot)."
+}

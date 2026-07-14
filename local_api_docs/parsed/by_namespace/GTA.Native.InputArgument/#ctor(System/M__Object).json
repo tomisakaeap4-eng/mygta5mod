@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Native.InputArgument.#ctor(System.Object)",
+  "kind": "M",
+  "namespace": "GTA.Native.InputArgument",
+  "typeName": "#ctor(System",
+  "memberName": "Object)",
+  "summary": "Initializes a new instance of the",
+  "params": [
+    {
+      "name": "value",
+      "description": "The object to convert."
+    }
+  ]
+}

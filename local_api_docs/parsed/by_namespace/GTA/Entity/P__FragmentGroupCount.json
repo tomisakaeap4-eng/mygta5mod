@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Entity.FragmentGroupCount",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "FragmentGroupCount",
+  "summary": "Returns the number of fragment group of this"
+}

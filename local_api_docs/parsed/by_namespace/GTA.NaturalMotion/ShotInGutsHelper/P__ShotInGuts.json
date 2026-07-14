@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotInGutsHelper.ShotInGuts",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotInGutsHelper",
+  "memberName": "ShotInGuts",
+  "summary": "Type of reaction.",
+  "remarks": "Default value = False."
+}

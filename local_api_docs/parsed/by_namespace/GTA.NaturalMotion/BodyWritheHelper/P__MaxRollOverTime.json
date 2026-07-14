@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyWritheHelper.MaxRollOverTime",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyWritheHelper",
+  "memberName": "MaxRollOverTime",
+  "summary": "Rolling torque is ramped down over time. At this time in seconds torque value converges to zero. Use this parameter to restrict time the character is rolling. Note that onFire has to be set to true for this parameter to take any effect.",
+  "remarks": "Default value = 8.0f.\n            Min value = 0.0f.\n            Max value = 60.0f."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Game.IsWaypointActive",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Game",
+  "memberName": "IsWaypointActive",
+  "summary": "Gets a value indicating whether there is a waypoint set on the map."
+}

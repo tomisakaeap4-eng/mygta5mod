@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyRollUpHelper.VelocityScale",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyRollUpHelper",
+  "memberName": "VelocityScale",
+  "summary": "Scales perceived body velocity.  The higher this value gets, the more quickly the velocity measure saturates, resulting in a tighter roll at slower speeds. (NB: Set to 1 to match earlier behavior).",
+  "remarks": "Default value = 0.2f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

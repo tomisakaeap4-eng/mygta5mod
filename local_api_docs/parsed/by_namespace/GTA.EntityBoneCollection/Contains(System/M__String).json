@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.EntityBoneCollection.Contains(System.String)",
+  "kind": "M",
+  "namespace": "GTA.EntityBoneCollection",
+  "typeName": "Contains(System",
+  "memberName": "String)",
+  "summary": "Determines whether this",
+  "params": [
+    {
+      "name": "boneName",
+      "description": "Name of the bone."
+    }
+  ]
+}

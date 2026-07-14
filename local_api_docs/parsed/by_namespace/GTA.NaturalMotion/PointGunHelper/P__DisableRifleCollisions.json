@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.DisableRifleCollisions",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "DisableRifleCollisions",
+  "summary": "Disable collisions between right hand/forearm and spine3/spine2 if in rifle mode.",
+  "remarks": "Default value = False."
+}

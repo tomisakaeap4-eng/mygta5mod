@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.NaturalMotion.PointArmHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.PointArmHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the PointArmHelper for sending a PointArm",
+  "remarks": "BEHAVIOURS REFERENCED: AnimPose - allows animPose to override body parts: Arms (useLeftArm, useRightArm).",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

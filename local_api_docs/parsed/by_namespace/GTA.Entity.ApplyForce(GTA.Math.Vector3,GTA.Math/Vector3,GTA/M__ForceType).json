@@ -1,0 +1,22 @@
+{
+  "name": "M:GTA.Entity.ApplyForce(GTA.Math.Vector3,GTA.Math.Vector3,GTA.ForceType)",
+  "kind": "M",
+  "namespace": "GTA.Entity.ApplyForce(GTA.Math.Vector3,GTA.Math",
+  "typeName": "Vector3,GTA",
+  "memberName": "ForceType)",
+  "summary": "Applies a force to this",
+  "params": [
+    {
+      "name": "direction",
+      "description": "The direction to apply the force relative to world coordinates."
+    },
+    {
+      "name": "rotation",
+      "description": "The offset from the root bone of this"
+    },
+    {
+      "name": "forceType",
+      "description": "Type of the force to apply."
+    }
+  ]
+}

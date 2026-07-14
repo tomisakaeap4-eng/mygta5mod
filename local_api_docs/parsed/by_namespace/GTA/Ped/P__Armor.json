@@ -1,0 +1,10 @@
+{
+  "name": "P:GTA.Ped.Armor",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "Armor",
+  "summary": "Gets or sets how much armor this",
+  "remarks": "if you need to get or set the value precisely, use",
+  "value": "The armor as an"
+}

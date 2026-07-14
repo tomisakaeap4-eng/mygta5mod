@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.StayUprightHelper.LastStandSinkRate",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "StayUprightHelper",
+  "memberName": "LastStandSinkRate",
+  "summary": "The sink rate (higher for a faster drop).",
+  "remarks": "Default value = 0.3f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

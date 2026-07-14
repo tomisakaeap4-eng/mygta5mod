@@ -1,0 +1,18 @@
+{
+  "name": "M:GTA.Entity.IsInArea(GTA.Math.Vector3,GTA.Math.Vector3)",
+  "kind": "M",
+  "namespace": "GTA.Entity.IsInArea(GTA.Math.Vector3,GTA",
+  "typeName": "Math",
+  "memberName": "Vector3)",
+  "summary": "Determines whether this",
+  "params": [
+    {
+      "name": "minBounds",
+      "description": "The minimum bounds."
+    },
+    {
+      "name": "maxBounds",
+      "description": "The maximum bounds."
+    }
+  ]
+}

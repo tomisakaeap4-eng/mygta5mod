@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.HandlingData.LowSpeedTractionLossMultiplier",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "HandlingData",
+  "memberName": "LowSpeedTractionLossMultiplier",
+  "summary": "How much traction is reduced at low speed, 0.0 means normal traction. It affects mainly car burnout (spinning wheels when car doesn't move) when pressing gas.\n            Decreasing value will cause less burnout, less sliding at start. However, the higher value, the more burnout car gets.",
+  "value": "How much traction is reduced at low speed."
+}

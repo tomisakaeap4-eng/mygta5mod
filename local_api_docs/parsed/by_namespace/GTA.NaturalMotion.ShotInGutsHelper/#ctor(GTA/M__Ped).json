@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.NaturalMotion.ShotInGutsHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.ShotInGutsHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the ShotInGutsHelper for sending a ShotInGuts",
+  "remarks": "Configure the shot in guts reaction.",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

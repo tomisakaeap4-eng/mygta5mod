@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.ClavicleBlend",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "ClavicleBlend",
+  "summary": "How much of blend should come from incoming transforms 0(all IK) .. 1(all ITMs)   For pointing arms only.  (Support arm uses the IK solution as is for clavicles).",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.AnimatedBuilding.MemoryAddress",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "AnimatedBuilding",
+  "memberName": "MemoryAddress",
+  "summary": "Gets the memory address where the"
+}

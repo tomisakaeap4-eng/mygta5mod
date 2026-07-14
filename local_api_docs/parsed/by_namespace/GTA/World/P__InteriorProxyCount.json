@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.World.InteriorProxyCount",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "InteriorProxyCount",
+  "summary": "A fast way to get the total number of"
+}

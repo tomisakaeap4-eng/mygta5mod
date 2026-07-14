@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Entity.Matrix",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "Matrix",
+  "summary": "Gets this"
+}

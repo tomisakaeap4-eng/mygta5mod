@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Vehicle.ForwardSpeed",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "ForwardSpeed",
+  "summary": "Sets this",
+  "value": "The forward speed in m/s."
+}

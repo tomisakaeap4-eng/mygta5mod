@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SmartFallHelper.FowardRoll",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SmartFallHelper",
+  "memberName": "FowardRoll",
+  "summary": "Try to execute a forward Roll on landing.",
+  "remarks": "Default value = False."
+}

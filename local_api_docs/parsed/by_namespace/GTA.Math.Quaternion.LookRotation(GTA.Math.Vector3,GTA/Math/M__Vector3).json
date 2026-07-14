@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Math.Quaternion.LookRotation(GTA.Math.Vector3,GTA.Math.Vector3)",
+  "kind": "M",
+  "namespace": "GTA.Math.Quaternion.LookRotation(GTA.Math.Vector3,GTA",
+  "typeName": "Math",
+  "memberName": "Vector3)",
+  "summary": "Creates a rotation with the specified"
+}

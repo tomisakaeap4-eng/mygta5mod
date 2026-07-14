@@ -1,0 +1,40 @@
+{
+  "name": "M:GTA.UI.CustomSprite.#ctor(System.String,System.Drawing.SizeF,System.Drawing.PointF,System.Drawing.Color,System.Single,System.Boolean)",
+  "kind": "M",
+  "namespace": "GTA.UI.CustomSprite.#ctor(System.String,System.Drawing.SizeF,System.Drawing.PointF,System.Drawing.Color,System",
+  "typeName": "Single,System",
+  "memberName": "Boolean)",
+  "summary": "Initializes a new instance of the",
+  "params": [
+    {
+      "name": "filename",
+      "description": "Full path to location of the"
+    },
+    {
+      "name": "size",
+      "description": "Set the"
+    },
+    {
+      "name": "position",
+      "description": "Set the"
+    },
+    {
+      "name": "color",
+      "description": "Set the"
+    },
+    {
+      "name": "rotation",
+      "description": "Set the rotation to draw the sprite, measured in degrees, see also"
+    },
+    {
+      "name": "centered",
+      "description": "Position the"
+    }
+  ],
+  "exceptions": [
+    {
+      "cref": "T:System.IO.FileNotFoundException",
+      "description": "Thrown if the specified file doesn't exist"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyRollUpHelper.NoRollTimeBeforeSuccess",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyRollUpHelper",
+  "memberName": "NoRollTimeBeforeSuccess",
+  "summary": "Time that roll velocity has to be lower than rollVelForSuccess, before success message is sent.",
+  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 2.0f."
+}

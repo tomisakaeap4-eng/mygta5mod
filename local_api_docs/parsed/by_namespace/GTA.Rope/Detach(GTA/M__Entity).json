@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Rope.Detach(GTA.Entity)",
+  "kind": "M",
+  "namespace": "GTA.Rope",
+  "typeName": "Detach(GTA",
+  "memberName": "Entity)",
+  "summary": "Detaches a single",
+  "params": [
+    {
+      "name": "entity",
+      "description": "The entity to detach."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.ProvidesCover",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "ProvidesCover",
+  "summary": "Gets or sets a value indicating whether peds can use this"
+}

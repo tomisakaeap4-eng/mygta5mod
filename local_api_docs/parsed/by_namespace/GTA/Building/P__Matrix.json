@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Building.Matrix",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Building",
+  "memberName": "Matrix",
+  "summary": "Gets this"
+}

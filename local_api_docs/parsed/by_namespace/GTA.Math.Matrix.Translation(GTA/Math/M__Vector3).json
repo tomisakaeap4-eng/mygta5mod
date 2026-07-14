@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.Math.Matrix.Translation(GTA.Math.Vector3)",
+  "kind": "M",
+  "namespace": "GTA.Math.Matrix.Translation(GTA",
+  "typeName": "Math",
+  "memberName": "Vector3)",
+  "summary": "Creates a translation matrix using the specified offsets.",
+  "returns": "The created translation matrix.",
+  "params": [
+    {
+      "name": "amount",
+      "description": "The offset for all three coordinate planes."
+    }
+  ]
+}

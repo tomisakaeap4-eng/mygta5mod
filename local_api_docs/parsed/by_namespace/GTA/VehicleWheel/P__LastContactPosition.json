@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.VehicleWheel.LastContactPosition",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "VehicleWheel",
+  "memberName": "LastContactPosition",
+  "summary": "Gets the last contact position."
+}

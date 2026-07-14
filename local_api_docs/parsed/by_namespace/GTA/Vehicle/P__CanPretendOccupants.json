@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.CanPretendOccupants",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "CanPretendOccupants",
+  "summary": "Gets or sets a value indicating whether this"
+}

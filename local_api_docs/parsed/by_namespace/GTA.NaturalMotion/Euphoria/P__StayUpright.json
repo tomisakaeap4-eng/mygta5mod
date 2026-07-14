@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.StayUpright",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "StayUpright",
+  "summary": "Gets a StayUpright Helper class for sending StayUpright"
+}

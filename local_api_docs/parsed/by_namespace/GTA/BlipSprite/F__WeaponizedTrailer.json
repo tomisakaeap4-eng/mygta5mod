@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.BlipSprite.WeaponizedTrailer",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "BlipSprite",
+  "memberName": "WeaponizedTrailer",
+  "summary": "The default English text for this value is \"Anti-Aircraft Trailer\"."
+}

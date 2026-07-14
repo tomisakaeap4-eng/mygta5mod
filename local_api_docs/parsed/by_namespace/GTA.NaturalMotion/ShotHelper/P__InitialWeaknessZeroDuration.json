@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotHelper.InitialWeaknessZeroDuration",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotHelper",
+  "memberName": "InitialWeaknessZeroDuration",
+  "summary": "Duration for which the character's upper body stays at minimum stiffness (not quite zero).",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

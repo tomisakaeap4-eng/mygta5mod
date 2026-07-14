@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.ShapeTestStatus.NonExistent",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "ShapeTestStatus",
+  "memberName": "NonExistent",
+  "summary": "Shapetest requests are discarded if they are ignored for a frame or as soon as the results are returned."
+}

@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.Native.Function.ObjectFromNative(System.Type,System.UInt64*)",
+  "kind": "M",
+  "namespace": "GTA.Native.Function.ObjectFromNative(System",
+  "typeName": "Type,System",
+  "memberName": "UInt64*)",
+  "summary": "Converts a native value to a managed object of a reference type.",
+  "returns": "A managed object representing the input",
+  "params": [
+    {
+      "name": "type",
+      "description": "The type to convert to. The type should be a reference type."
+    },
+    {
+      "name": "value",
+      "description": "The native value to convert."
+    }
+  ]
+}

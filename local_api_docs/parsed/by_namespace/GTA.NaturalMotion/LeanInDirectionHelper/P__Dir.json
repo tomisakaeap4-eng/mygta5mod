@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.LeanInDirectionHelper.Dir",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "LeanInDirectionHelper",
+  "memberName": "Dir",
+  "summary": "Direction to lean in.",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 1.0f).\n            Min value = 0.0f."
+}

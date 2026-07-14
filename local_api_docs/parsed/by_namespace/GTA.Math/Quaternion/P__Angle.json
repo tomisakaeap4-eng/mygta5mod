@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Math.Quaternion.Angle",
+  "kind": "P",
+  "namespace": "GTA.Math",
+  "typeName": "Quaternion",
+  "memberName": "Angle",
+  "summary": "Gets the angle of the quaternion."
+}

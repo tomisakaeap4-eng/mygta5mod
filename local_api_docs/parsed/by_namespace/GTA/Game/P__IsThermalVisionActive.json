@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Game.IsThermalVisionActive",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Game",
+  "memberName": "IsThermalVisionActive",
+  "summary": "Gets or sets a value indicating whether to render the world with a thermal vision filter."
+}

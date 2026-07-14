@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SmartFallHelper.LegL",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SmartFallHelper",
+  "memberName": "LegL",
+  "summary": "Leg Length for ik (Internal)//unused.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 2.0f."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Entity.IsFragmentObject",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "IsFragmentObject",
+  "summary": "Determines if this"
+}

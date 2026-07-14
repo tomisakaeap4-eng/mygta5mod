@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.Buoyancy",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "Buoyancy",
+  "summary": "Gets a Buoyancy Helper class for sending Buoyancy",
+  "remarks": "Simple buoyancy model.  No character movement just fluid forces/torques added to parts."
+}

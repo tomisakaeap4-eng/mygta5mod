@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.VehicleDrivingFlags.DrivingModeAvoidVehicles",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "VehicleDrivingFlags",
+  "memberName": "DrivingModeAvoidVehicles",
+  "summary": "Default \"alerted\" driving mode. Drives around everything, doesn't obey lights."
+}

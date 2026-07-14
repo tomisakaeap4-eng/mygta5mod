@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.PetrolTankVolume",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "PetrolTankVolume",
+  "summary": "Gets the petrol tank volume of this"
+}

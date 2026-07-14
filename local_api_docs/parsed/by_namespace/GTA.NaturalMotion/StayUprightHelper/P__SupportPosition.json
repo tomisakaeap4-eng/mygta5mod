@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.StayUprightHelper.SupportPosition",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "StayUprightHelper",
+  "memberName": "SupportPosition",
+  "summary": "Distance the foot is behind Com projection that is still considered able to generate the support for the upright constraint.",
+  "remarks": "Default value = 2.0f.\n            Min value = -2.0f.\n            Max value = 2.0f."
+}

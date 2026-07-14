@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.RegisterWeaponHelper.GunToHandD",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "RegisterWeaponHelper",
+  "memberName": "GunToHandD",
+  "summary": "D vector of the gunToHand matrix.",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f).\n            Min value = 0.0f."
+}

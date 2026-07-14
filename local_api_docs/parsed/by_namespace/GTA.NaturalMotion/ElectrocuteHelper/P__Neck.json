@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ElectrocuteHelper.Neck",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ElectrocuteHelper",
+  "memberName": "Neck",
+  "summary": "Vibrate the neck.",
+  "remarks": "Default value = True."
+}

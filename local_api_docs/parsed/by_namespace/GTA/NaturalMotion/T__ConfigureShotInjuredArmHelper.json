@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.NaturalMotion.ConfigureShotInjuredArmHelper",
+  "kind": "T",
+  "namespace": "GTA",
+  "typeName": "NaturalMotion",
+  "memberName": "ConfigureShotInjuredArmHelper",
+  "summary": "This single message allows you to configure the injured arm reaction during shot."
+}

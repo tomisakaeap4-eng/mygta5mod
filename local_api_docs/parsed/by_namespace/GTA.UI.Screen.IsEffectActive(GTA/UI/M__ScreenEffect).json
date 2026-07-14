@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.UI.Screen.IsEffectActive(GTA.UI.ScreenEffect)",
+  "kind": "M",
+  "namespace": "GTA.UI.Screen.IsEffectActive(GTA",
+  "typeName": "UI",
+  "memberName": "ScreenEffect)",
+  "summary": "Gets a value indicating whether the specific screen effect is running.",
+  "params": [
+    {
+      "name": "effectName",
+      "description": "The"
+    }
+  ]
+}

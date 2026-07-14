@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.Math.Vector3.op_UnaryNegation(GTA.Math.Vector3)",
+  "kind": "M",
+  "namespace": "GTA.Math.Vector3.op_UnaryNegation(GTA",
+  "typeName": "Math",
+  "memberName": "Vector3)",
+  "summary": "Reverses the direction of a given vector.",
+  "returns": "A vector facing in the opposite direction.",
+  "params": [
+    {
+      "name": "vector",
+      "description": "The vector to negate."
+    }
+  ]
+}

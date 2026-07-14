@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyWritheHelper.ApplyStiffness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyWritheHelper",
+  "memberName": "ApplyStiffness",
+  "summary": "Use writhe stiffnesses if true. If false don't set any stiffnesses.",
+  "remarks": "Default value = True."
+}

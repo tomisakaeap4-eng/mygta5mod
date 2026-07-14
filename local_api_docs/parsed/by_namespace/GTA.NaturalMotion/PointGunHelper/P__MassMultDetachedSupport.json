@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.MassMultDetachedSupport",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "MassMultDetachedSupport",
+  "summary": "Amount of mass of weapon taken into account by gravity opposition on pointing arm when a support arm is detached from a two-handed weapon.  The lower the value the more the character doesn't know about the weapon mass and therefore is more affected by it.",
+  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

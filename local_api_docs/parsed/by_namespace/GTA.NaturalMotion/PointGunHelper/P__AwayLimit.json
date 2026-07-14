@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.AwayLimit",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "AwayLimit",
+  "summary": "Max aiming angle(deg) sideways away from body midline measured from chest forward that the character will try to point.  i.e. for rightHanded gun this is the angle right of the midline.",
+  "remarks": "Default value = 90.0f.\n            Min value = 0.0f.\n            Max value = 180.0f."
+}

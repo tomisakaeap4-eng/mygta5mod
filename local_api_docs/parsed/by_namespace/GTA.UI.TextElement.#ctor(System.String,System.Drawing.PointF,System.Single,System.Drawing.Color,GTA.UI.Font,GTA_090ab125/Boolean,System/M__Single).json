@@ -1,0 +1,46 @@
+{
+  "name": "M:GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color,GTA.UI.Font,GTA.UI.Alignment,System.Boolean,System.Boolean,System.Single)",
+  "kind": "M",
+  "namespace": "GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color,GTA.UI.Font,GTA.UI.Alignment,System.Boolean,System",
+  "typeName": "Boolean,System",
+  "memberName": "Single)",
+  "summary": "Initializes a new instance of the",
+  "params": [
+    {
+      "name": "caption",
+      "description": "The"
+    },
+    {
+      "name": "position",
+      "description": "Set the"
+    },
+    {
+      "name": "scale",
+      "description": "Sets a"
+    },
+    {
+      "name": "color",
+      "description": "Set the"
+    },
+    {
+      "name": "font",
+      "description": "Sets the"
+    },
+    {
+      "name": "alignment",
+      "description": "Sets the"
+    },
+    {
+      "name": "shadow",
+      "description": "Sets whether or not to draw the"
+    },
+    {
+      "name": "outline",
+      "description": "Sets whether or not to draw the"
+    },
+    {
+      "name": "wrapWidth",
+      "description": "Sets how many horizontal pixel to draw before wrapping the"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Entity.ResetOpacity",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "ResetOpacity",
+  "summary": "Resets the"
+}

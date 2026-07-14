@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Entity.IsTouching(GTA.Model)",
+  "kind": "M",
+  "namespace": "GTA.Entity",
+  "typeName": "IsTouching(GTA",
+  "memberName": "Model)",
+  "summary": "Determines whether this",
+  "params": [
+    {
+      "name": "model",
+      "description": "The"
+    }
+  ]
+}

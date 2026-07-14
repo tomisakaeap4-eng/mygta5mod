@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotSnapHelper.UnSnapInterval",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotSnapHelper",
+  "memberName": "UnSnapInterval",
+  "summary": "Interval before applying reverse snap.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 100.0f."
+}

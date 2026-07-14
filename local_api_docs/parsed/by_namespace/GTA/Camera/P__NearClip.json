@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Camera.NearClip",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Camera",
+  "memberName": "NearClip",
+  "summary": "Gets or sets the near clip of this"
+}

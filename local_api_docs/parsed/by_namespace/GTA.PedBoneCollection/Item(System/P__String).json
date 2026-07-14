@@ -1,0 +1,14 @@
+{
+  "name": "P:GTA.PedBoneCollection.Item(System.String)",
+  "kind": "P",
+  "namespace": "GTA.PedBoneCollection",
+  "typeName": "Item(System",
+  "memberName": "String)",
+  "summary": "Gets the",
+  "params": [
+    {
+      "name": "boneName",
+      "description": "Name of the bone."
+    }
+  ]
+}

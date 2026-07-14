@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Building.Exists",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Building",
+  "memberName": "Exists",
+  "summary": "Determines if this"
+}

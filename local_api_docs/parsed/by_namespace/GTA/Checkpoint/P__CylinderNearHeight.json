@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Checkpoint.CylinderNearHeight",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Checkpoint",
+  "memberName": "CylinderNearHeight",
+  "summary": "Gets or sets the near height of the cylinder of this"
+}

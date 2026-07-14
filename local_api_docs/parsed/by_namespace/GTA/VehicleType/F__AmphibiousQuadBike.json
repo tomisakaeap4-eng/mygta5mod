@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.VehicleType.AmphibiousQuadBike",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "VehicleType",
+  "memberName": "AmphibiousQuadBike",
+  "summary": "The amphibious quad bike type."
+}

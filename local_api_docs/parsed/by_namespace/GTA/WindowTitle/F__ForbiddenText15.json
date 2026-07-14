@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.WindowTitle.ForbiddenText15",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "WindowTitle",
+  "memberName": "ForbiddenText15",
+  "summary": "\"Forbidden Text. Try again (MAX 15 characters)\""
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.HighFallHelper.MaxSpeedForRecoverableFall",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "HighFallHelper",
+  "memberName": "MaxSpeedForRecoverableFall",
+  "summary": "Character needs to be moving less than this speed to consider fall as a recoverable one.",
+  "remarks": "Default value = 15.0f.\n            Min value = 0.0f.\n            Max value = 100.0f."
+}

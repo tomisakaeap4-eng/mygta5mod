@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.RegisterWeaponHelper.GunToButtInGun",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "RegisterWeaponHelper",
+  "memberName": "GunToButtInGun",
+  "summary": "Gun center to butt expressed in gun co-ordinates.  The gun pivots around this point when aiming.",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.SnapImpacts",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BraceForImpactHelper",
+  "memberName": "SnapImpacts",
+  "summary": "Exaggerate impacts using snap.",
+  "remarks": "Default value = False."
+}

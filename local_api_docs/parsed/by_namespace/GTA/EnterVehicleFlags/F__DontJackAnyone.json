@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.EnterVehicleFlags.DontJackAnyone",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "EnterVehicleFlags",
+  "memberName": "DontJackAnyone",
+  "summary": "Never jack anyone when entering/exiting.\n            This flag takes precedence over"
+}

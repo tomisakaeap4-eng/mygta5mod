@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkImpactLoosenessTime",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotFallToKneesHelper",
+  "memberName": "FtkImpactLoosenessTime",
+  "summary": "Time that looseness is applied after knee impacts.",
+  "remarks": "Default value = 0.2f.\n            Min value = -0.1f.\n            Max value = 1.0f."
+}

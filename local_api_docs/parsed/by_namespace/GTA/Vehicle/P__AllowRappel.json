@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.AllowRappel",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "AllowRappel",
+  "summary": "Gets a value indicating whether this"
+}

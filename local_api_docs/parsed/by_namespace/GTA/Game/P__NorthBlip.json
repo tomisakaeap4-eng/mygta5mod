@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Game.NorthBlip",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Game",
+  "memberName": "NorthBlip",
+  "summary": "Gets the north blip, which is shown on the radar."
+}

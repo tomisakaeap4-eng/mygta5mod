@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.Electrocute",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "Electrocute",
+  "summary": "Gets a Electrocute Helper class for sending Electrocute"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ArmsWindmillHelper.PhaseOffset",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ArmsWindmillHelper",
+  "memberName": "PhaseOffset",
+  "summary": "Phase offset(degrees) when phase synchronization is turned on.",
+  "remarks": "Default value = 0.0f.\n            Min value = -360.0f.\n            Max value = 360.0f."
+}

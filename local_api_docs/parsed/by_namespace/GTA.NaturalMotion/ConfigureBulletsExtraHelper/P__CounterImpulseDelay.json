@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulseDelay",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBulletsExtraHelper",
+  "memberName": "CounterImpulseDelay",
+  "summary": "Time after impulse is applied that counter impulse is applied.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

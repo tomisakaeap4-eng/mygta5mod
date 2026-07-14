@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkReachForWound",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotFallToKneesHelper",
+  "memberName": "FtkReachForWound",
+  "summary": "True = Keep reaching for wound regardless of fall/onground state.\n            false = respect the shotConfigureArms params: reachFalling, reachFallingWithOneHand, reachOnFloor.",
+  "remarks": "Default value = True."
+}

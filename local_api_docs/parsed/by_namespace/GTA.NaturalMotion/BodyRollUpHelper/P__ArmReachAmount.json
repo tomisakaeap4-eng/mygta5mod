@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyRollUpHelper.ArmReachAmount",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyRollUpHelper",
+  "memberName": "ArmReachAmount",
+  "summary": "The likeliness of the character reaching for the ground with its arms.",
+  "remarks": "Default value = 1.4f.\n            Min value = 0.0f.\n            Max value = 3.0f."
+}

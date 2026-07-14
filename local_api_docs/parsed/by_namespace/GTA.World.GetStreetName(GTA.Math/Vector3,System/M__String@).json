@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.World.GetStreetName(GTA.Math.Vector3,System.String@)",
+  "kind": "M",
+  "namespace": "GTA.World.GetStreetName(GTA.Math",
+  "typeName": "Vector3,System",
+  "memberName": "String@)",
+  "summary": "Determines the name of the street which is the closest to the given coordinates.",
+  "returns": "Returns the name of the street the coordinates are on.",
+  "params": [
+    {
+      "name": "position",
+      "description": "The coordinates of the street"
+    },
+    {
+      "name": "crossingRoadName",
+      "description": "If the coordinates are on an intersection, the name of the crossing road"
+    }
+  ]
+}

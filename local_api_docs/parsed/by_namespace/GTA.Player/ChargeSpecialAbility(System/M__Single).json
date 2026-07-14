@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Player.ChargeSpecialAbility(System.Single)",
+  "kind": "M",
+  "namespace": "GTA.Player",
+  "typeName": "ChargeSpecialAbility(System",
+  "memberName": "Single)",
+  "summary": "Charges the special ability for this",
+  "params": [
+    {
+      "name": "normalizedRatio",
+      "description": "The amount between"
+    }
+  ]
+}

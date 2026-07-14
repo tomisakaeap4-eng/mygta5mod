@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.HipsLeanInDirection",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "HipsLeanInDirection",
+  "summary": "Gets a HipsLeanInDirection Helper class for sending HipsLeanInDirection"
+}

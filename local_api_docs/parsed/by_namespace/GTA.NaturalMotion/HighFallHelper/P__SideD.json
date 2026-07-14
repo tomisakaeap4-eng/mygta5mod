@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.HighFallHelper.SideD",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "HighFallHelper",
+  "memberName": "SideD",
+  "summary": "Side offset for the feet during prepareForLanding. +ve = right.",
+  "remarks": "Default value = 0.2f.\n            Min value = -1.0f.\n            Max value = 1.0f."
+}

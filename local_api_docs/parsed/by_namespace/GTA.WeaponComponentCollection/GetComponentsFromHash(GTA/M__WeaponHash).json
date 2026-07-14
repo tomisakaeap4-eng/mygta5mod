@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.WeaponComponentCollection.GetComponentsFromHash(GTA.WeaponHash)",
+  "kind": "M",
+  "namespace": "GTA.WeaponComponentCollection",
+  "typeName": "GetComponentsFromHash(GTA",
+  "memberName": "WeaponHash)",
+  "summary": "Gets all the compatible weapon component hashes for the speficied weapon hash.",
+  "params": [
+    {
+      "name": "hash",
+      "description": "The weapon hash."
+    }
+  ]
+}

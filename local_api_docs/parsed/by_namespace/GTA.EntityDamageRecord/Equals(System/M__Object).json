@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.EntityDamageRecord.Equals(System.Object)",
+  "kind": "M",
+  "namespace": "GTA.EntityDamageRecord",
+  "typeName": "Equals(System",
+  "memberName": "Object)",
+  "summary": "Determines if an",
+  "params": [
+    {
+      "name": "obj",
+      "description": "The"
+    }
+  ]
+}

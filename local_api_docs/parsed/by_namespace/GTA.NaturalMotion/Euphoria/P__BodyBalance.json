@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.BodyBalance",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "BodyBalance",
+  "summary": "Gets a BodyBalance Helper class for sending BodyBalance"
+}

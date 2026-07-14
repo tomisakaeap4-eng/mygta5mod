@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.IsConsideredDestroyed",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "IsConsideredDestroyed",
+  "remarks": "Many features of"
+}

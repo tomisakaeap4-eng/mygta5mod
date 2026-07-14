@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkReleasePointGun",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotFallToKneesHelper",
+  "memberName": "FtkReleasePointGun",
+  "summary": "Override the pointGun when knees hit.",
+  "remarks": "Default value = False."
+}

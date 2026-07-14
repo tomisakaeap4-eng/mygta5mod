@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SetFallingReactionHelper.RiflePose",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SetFallingReactionHelper",
+  "memberName": "RiflePose",
+  "summary": "Hold rifle in a safe position to reduce complications with collision.  Only applied if holding a rifle.",
+  "remarks": "Default value = False."
+}

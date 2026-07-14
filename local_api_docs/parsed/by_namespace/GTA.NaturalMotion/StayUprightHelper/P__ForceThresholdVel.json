@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.StayUprightHelper.ForceThresholdVel",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "StayUprightHelper",
+  "memberName": "ForceThresholdVel",
+  "summary": "When in velocityBased mode, the COM velocity above which constraint starts applying forces.",
+  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 5.0f."
+}

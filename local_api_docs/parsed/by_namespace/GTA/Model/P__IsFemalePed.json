@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Model.IsFemalePed",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Model",
+  "memberName": "IsFemalePed",
+  "summary": "Gets a value indicating whether this"
+}

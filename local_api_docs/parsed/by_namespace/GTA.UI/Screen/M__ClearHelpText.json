@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.UI.Screen.ClearHelpText",
+  "kind": "M",
+  "namespace": "GTA.UI",
+  "typeName": "Screen",
+  "memberName": "ClearHelpText",
+  "summary": "Clears a help message immediately."
+}

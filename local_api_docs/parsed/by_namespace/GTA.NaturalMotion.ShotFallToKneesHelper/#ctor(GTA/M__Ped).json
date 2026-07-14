@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.NaturalMotion.ShotFallToKneesHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.ShotFallToKneesHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the ShotFallToKneesHelper for sending a ShotFallToKnees",
+  "remarks": "Configure the fall to knees shot.",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Script.Abort",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Script",
+  "memberName": "Abort",
+  "summary": "Aborts execution of this"
+}

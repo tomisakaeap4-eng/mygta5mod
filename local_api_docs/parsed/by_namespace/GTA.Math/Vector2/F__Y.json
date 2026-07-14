@@ -1,0 +1,9 @@
+{
+  "name": "F:GTA.Math.Vector2.Y",
+  "kind": "F",
+  "namespace": "GTA.Math",
+  "typeName": "Vector2",
+  "memberName": "Y",
+  "summary": "Gets or sets the Y component of the vector.",
+  "value": "The Y component of the vector."
+}

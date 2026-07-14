@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureShotInjuredLegHelper.LegLimpBend",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureShotInjuredLegHelper",
+  "memberName": "LegLimpBend",
+  "summary": "Bend the legs via the balancer by this amount if stepping on the injured leg.\n            0.2 seems a good default.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

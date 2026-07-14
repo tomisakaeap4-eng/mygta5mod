@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.ForceToBodyPart",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "ForceToBodyPart",
+  "summary": "Gets a ForceToBodyPart Helper class for sending ForceToBodyPart",
+  "remarks": "Apply an impulse to a named body part"
+}

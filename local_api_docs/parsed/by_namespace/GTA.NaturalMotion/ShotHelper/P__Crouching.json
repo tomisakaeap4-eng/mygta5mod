@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotHelper.Crouching",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotHelper",
+  "memberName": "Crouching",
+  "summary": "Is the guy crouching or not.",
+  "remarks": "Default value = False."
+}

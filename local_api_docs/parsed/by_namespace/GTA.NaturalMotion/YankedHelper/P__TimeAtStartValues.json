@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.YankedHelper.TimeAtStartValues",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "YankedHelper",
+  "memberName": "TimeAtStartValues",
+  "summary": "Time spent with Start values for arms and spine stiffness and damping i.e. for whiplash effect.",
+  "remarks": "Default value = 0.4f.\n            Min value = 0.0f.\n            Max value = 2.0f."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.WindowTitle.EnterCustomTeamName",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "WindowTitle",
+  "memberName": "EnterCustomTeamName",
+  "summary": "\"Enter Custom Team Name (MAX 15 characters)\""
+}

@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.UI.CustomSprite.Draw",
+  "kind": "M",
+  "namespace": "GTA.UI",
+  "typeName": "CustomSprite",
+  "memberName": "Draw",
+  "summary": "Draws this"
+}

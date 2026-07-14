@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Entity.HasBeenDamagedByAnyMeleeWeapon",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "HasBeenDamagedByAnyMeleeWeapon",
+  "summary": "Determines whether this"
+}

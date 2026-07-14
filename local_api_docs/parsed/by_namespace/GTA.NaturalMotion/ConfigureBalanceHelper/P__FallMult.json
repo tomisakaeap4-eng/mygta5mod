@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.FallMult",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "FallMult",
+  "summary": "Multiply the rampDown of stiffness on falling by this amount ( GT 1 fall quicker).",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 100.0f."
+}

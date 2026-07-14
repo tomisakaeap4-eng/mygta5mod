@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.WeaponAsset.Hash",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "WeaponAsset",
+  "memberName": "Hash",
+  "summary": "Gets the hash for this"
+}

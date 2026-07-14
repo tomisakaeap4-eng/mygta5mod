@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotShockSpinHelper.ShockSpinMin",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotShockSpinHelper",
+  "memberName": "ShockSpinMin",
+  "summary": "Minimum amount of torque to add if using shock-spin feature.",
+  "remarks": "Default value = 50.0f.\n            Min value = 0.0f.\n            Max value = 1000.0f."
+}

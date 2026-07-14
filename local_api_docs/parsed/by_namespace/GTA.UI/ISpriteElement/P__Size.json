@@ -1,0 +1,10 @@
+{
+  "name": "P:GTA.UI.ISpriteElement.Size",
+  "kind": "P",
+  "namespace": "GTA.UI",
+  "typeName": "ISpriteElement",
+  "memberName": "Size",
+  "summary": "Gets or sets the size to draw the",
+  "remarks": "If ScaledDraw is called, the size will be scaled by the width returned in",
+  "value": "The size on a 1280*720 pixel base"
+}

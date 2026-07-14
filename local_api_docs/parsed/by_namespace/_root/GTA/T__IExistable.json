@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.IExistable",
+  "kind": "T",
+  "namespace": "",
+  "typeName": "GTA",
+  "memberName": "IExistable",
+  "summary": "An object that can exist in the world."
+}

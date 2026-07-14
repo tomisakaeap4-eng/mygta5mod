@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapMag",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BalancerCollisionsReactionHelper",
+  "memberName": "SnapMag",
+  "summary": "The magnitude of the snap reaction.",
+  "remarks": "Default value = -0.6f.\n            Min value = -10.0f.\n            Max value = 10.0f."
+}

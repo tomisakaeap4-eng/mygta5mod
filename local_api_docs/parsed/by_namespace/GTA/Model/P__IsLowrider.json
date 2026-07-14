@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Model.IsLowrider",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Model",
+  "memberName": "IsLowrider",
+  "summary": "Gets a value indicating whether this"
+}

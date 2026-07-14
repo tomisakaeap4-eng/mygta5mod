@@ -1,0 +1,24 @@
+{
+  "name": "M:GTA.Math.Matrix.#ctor(System.Single[])",
+  "kind": "M",
+  "namespace": "GTA.Math.Matrix",
+  "typeName": "#ctor(System",
+  "memberName": "Single[])",
+  "summary": "Initializes a new instance of the",
+  "params": [
+    {
+      "name": "values",
+      "description": "The values to assign to the components of the matrix. This must be an array with sixteen elements."
+    }
+  ],
+  "exceptions": [
+    {
+      "cref": "T:System.ArgumentNullException",
+      "description": "Thrown when"
+    },
+    {
+      "cref": "T:System.ArgumentOutOfRangeException",
+      "description": "Thrown when"
+    }
+  ]
+}

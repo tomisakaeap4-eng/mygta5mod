@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Entity.HasBeenDamagedBy(GTA.WeaponHash)",
+  "kind": "M",
+  "namespace": "GTA.Entity",
+  "typeName": "HasBeenDamagedBy(GTA",
+  "memberName": "WeaponHash)",
+  "summary": "Determines whether this",
+  "params": [
+    {
+      "name": "weapon",
+      "description": "The weapon to check."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotInGutsHelper.SigKneeAmount",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotInGutsHelper",
+  "memberName": "SigKneeAmount",
+  "summary": "Knee bend.",
+  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

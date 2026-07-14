@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.TurnAwayProb",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyBalanceHelper",
+  "memberName": "TurnAwayProb",
+  "summary": "Weighted probability of turning away from headLook target. This is one of six turn type weights.",
+  "remarks": "Default value = 0.2f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

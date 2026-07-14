@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.UI.Sprite.ScaledDraw",
+  "kind": "M",
+  "namespace": "GTA.UI",
+  "typeName": "Sprite",
+  "memberName": "ScaledDraw",
+  "summary": "Draws this"
+}

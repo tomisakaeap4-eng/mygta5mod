@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ActivePoseHelper.UseGravityCompensation",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ActivePoseHelper",
+  "memberName": "UseGravityCompensation",
+  "summary": "Apply gravity compensation.",
+  "remarks": "Default value = False."
+}

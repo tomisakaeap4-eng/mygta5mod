@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.TeeterHelper.PreTeeterTime",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "TeeterHelper",
+  "memberName": "PreTeeterTime",
+  "summary": "Time-to-edge threshold to start pre-teeter (windmilling, etc).",
+  "remarks": "Default value = 2.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

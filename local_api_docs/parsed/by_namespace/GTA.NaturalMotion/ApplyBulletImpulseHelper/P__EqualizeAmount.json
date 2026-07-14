@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ApplyBulletImpulseHelper.EqualizeAmount",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ApplyBulletImpulseHelper",
+  "memberName": "EqualizeAmount",
+  "summary": "0 means straight impulse, 1 means multiply by the mass (change in velocity).",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

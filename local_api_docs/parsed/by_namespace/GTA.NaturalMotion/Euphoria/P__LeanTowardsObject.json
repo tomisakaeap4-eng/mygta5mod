@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.LeanTowardsObject",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "LeanTowardsObject",
+  "summary": "Gets a LeanTowardsObject Helper class for sending LeanTowardsObject"
+}

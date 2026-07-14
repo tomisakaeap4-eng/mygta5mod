@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.BlipSprite.SteeringWheel",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "BlipSprite",
+  "memberName": "SteeringWheel",
+  "summary": "The default English text for this value is \"Special Vehicle Race Series\"."
+}

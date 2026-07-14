@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.UI.Screen",
+  "kind": "T",
+  "namespace": "GTA",
+  "typeName": "UI",
+  "memberName": "Screen",
+  "summary": "Methods to handle UI actions that affect the whole screen."
+}

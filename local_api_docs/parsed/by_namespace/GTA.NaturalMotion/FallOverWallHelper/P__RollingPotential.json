@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.FallOverWallHelper.RollingPotential",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "FallOverWallHelper",
+  "memberName": "RollingPotential",
+  "summary": "On impact with the wall if the rollingPotential(calculated from the characters linear velocity w.r.t the wall) is greater than this value the character will try to go over the wall otherwise it won't try (fow_Aborted).",
+  "remarks": "Default value = 0.3f.\n            Min value = -1.0f.\n            Max value = 10.0f."
+}

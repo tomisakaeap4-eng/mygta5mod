@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.EnableLeft",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "EnableLeft",
+  "summary": "Allow right hand to point/support?.",
+  "remarks": "Default value = True."
+}

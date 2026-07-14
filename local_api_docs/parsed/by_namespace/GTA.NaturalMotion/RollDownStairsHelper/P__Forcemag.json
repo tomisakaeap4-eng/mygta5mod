@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.Forcemag",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "RollDownStairsHelper",
+  "memberName": "Forcemag",
+  "summary": "Helper force strength.  Do not go above 1 for a rollDownStairs/roll along ground reaction.",
+  "remarks": "Default value = 0.6f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotHeadLookHelper.HeadLook",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotHeadLookHelper",
+  "memberName": "HeadLook",
+  "summary": "Position to look at with headlook flag.",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
+}

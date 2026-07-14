@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ArmsWindmillHelper.DragReduction",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ArmsWindmillHelper",
+  "memberName": "DragReduction",
+  "summary": "How much to compensate for movement of character/target.",
+  "remarks": "Default value = 0.2f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

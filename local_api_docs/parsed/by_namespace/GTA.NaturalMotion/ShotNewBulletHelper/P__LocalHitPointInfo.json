@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotNewBulletHelper.LocalHitPointInfo",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotNewBulletHelper",
+  "memberName": "LocalHitPointInfo",
+  "summary": "If true then normal and hitPoint should be supplied in local coordinates of bodyPart.  If false then normal and hitPoint should be supplied in World coordinates.",
+  "remarks": "Default value = True."
+}

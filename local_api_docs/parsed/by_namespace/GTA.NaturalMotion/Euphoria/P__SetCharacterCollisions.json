@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.SetCharacterCollisions",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "SetCharacterCollisions",
+  "summary": "Gets a SetCharacterCollisions Helper class for sending SetCharacterCollisions",
+  "remarks": "setCharacterCollisions:"
+}

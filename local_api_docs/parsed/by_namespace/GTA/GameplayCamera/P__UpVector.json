@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.GameplayCamera.UpVector",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "GameplayCamera",
+  "memberName": "UpVector",
+  "summary": "Gets the up vector of the"
+}

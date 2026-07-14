@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.HighFallHelper.IgnorWorldCollisions",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "HighFallHelper",
+  "memberName": "IgnorWorldCollisions",
+  "summary": "Never go into bailout (foetal).",
+  "remarks": "Default value = False."
+}

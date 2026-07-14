@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.UI.TextElement.Outline",
+  "kind": "P",
+  "namespace": "GTA.UI",
+  "typeName": "TextElement",
+  "memberName": "Outline",
+  "summary": "Gets or sets a value indicating whether this"
+}

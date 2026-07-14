@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.YankedHelper.HeadLookPos",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "YankedHelper",
+  "memberName": "HeadLookPos",
+  "summary": "Position of thing to look at.",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
+}

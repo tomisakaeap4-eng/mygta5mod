@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotInGutsHelper.SigHipAmount",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotInGutsHelper",
+  "memberName": "SigHipAmount",
+  "summary": "Hip Pitch.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

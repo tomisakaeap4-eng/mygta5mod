@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Ped.MaxDrivingSpeed",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "MaxDrivingSpeed",
+  "summary": "Sets the maximum driving speed this"
+}

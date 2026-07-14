@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.SetFrictionScale",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "SetFrictionScale",
+  "summary": "Gets a SetFrictionScale Helper class for sending SetFrictionScale",
+  "remarks": "setFrictionScale:"
+}

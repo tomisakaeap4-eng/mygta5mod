@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.NaturalMotion.FallOverWallHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.FallOverWallHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the FallOverWallHelper for sending a FallOverWall",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

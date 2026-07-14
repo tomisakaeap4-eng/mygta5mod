@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyRollUpHelper.Stiffness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyRollUpHelper",
+  "memberName": "Stiffness",
+  "summary": "Stiffness of whole body.",
+  "remarks": "Default value = 10.0f.\n            Min value = 6.0f.\n            Max value = 16.0f."
+}

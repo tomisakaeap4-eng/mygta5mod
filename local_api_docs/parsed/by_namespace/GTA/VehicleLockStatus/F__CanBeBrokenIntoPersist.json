@@ -1,0 +1,7 @@
+{
+  "name": "F:GTA.VehicleLockStatus.CanBeBrokenIntoPersist",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "VehicleLockStatus",
+  "memberName": "CanBeBrokenIntoPersist"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.World.EntityColliderCount",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "EntityColliderCount",
+  "summary": "Returns the total number of"
+}

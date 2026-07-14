@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Blip.ShowsDollarSign",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Blip",
+  "memberName": "ShowsDollarSign",
+  "summary": "Gets or sets a value indicating whether this"
+}

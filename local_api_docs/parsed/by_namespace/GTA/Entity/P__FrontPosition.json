@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Entity.FrontPosition",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "FrontPosition",
+  "summary": "Gets a position directly in front of this"
+}

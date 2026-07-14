@@ -1,0 +1,9 @@
+{
+  "name": "M:GTA.Math.Matrix.GetHashCode",
+  "kind": "M",
+  "namespace": "GTA.Math",
+  "typeName": "Matrix",
+  "memberName": "GetHashCode",
+  "summary": "Returns the hash code for this instance.",
+  "returns": "A 32-bit signed integer hash code."
+}

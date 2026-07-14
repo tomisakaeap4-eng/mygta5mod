@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.HighFallHelper.LandingNormal",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "HighFallHelper",
+  "memberName": "LandingNormal",
+  "summary": "Ray-cast normal doted with up direction has to be greater than this number to consider object flat enough to land on it.",
+  "remarks": "Default value = 0.6f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

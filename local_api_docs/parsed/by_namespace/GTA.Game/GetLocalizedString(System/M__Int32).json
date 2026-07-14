@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.Game.GetLocalizedString(System.Int32)",
+  "kind": "M",
+  "namespace": "GTA.Game",
+  "typeName": "GetLocalizedString(System",
+  "memberName": "Int32)",
+  "summary": "Returns a localized",
+  "returns": "The localized",
+  "params": [
+    {
+      "name": "entryLabelHash",
+      "description": "The GXT key hash."
+    }
+  ]
+}

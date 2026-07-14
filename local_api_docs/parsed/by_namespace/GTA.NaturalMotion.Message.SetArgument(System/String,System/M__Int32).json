@@ -1,0 +1,18 @@
+{
+  "name": "M:GTA.NaturalMotion.Message.SetArgument(System.String,System.Int32)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.Message.SetArgument(System",
+  "typeName": "String,System",
+  "memberName": "Int32)",
+  "summary": "Sets a",
+  "params": [
+    {
+      "name": "argName",
+      "description": "The argument name."
+    },
+    {
+      "name": "value",
+      "description": "The value to set the argument to."
+    }
+  ]
+}

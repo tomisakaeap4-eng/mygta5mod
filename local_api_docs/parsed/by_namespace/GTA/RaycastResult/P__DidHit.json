@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.RaycastResult.DidHit",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "RaycastResult",
+  "memberName": "DidHit",
+  "summary": "Gets a value indicating whether this ray cast collided with anything."
+}

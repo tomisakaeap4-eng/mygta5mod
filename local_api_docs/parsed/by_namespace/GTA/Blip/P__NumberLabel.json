@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Blip.NumberLabel",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Blip",
+  "memberName": "NumberLabel",
+  "summary": "Gets or sets this",
+  "remarks": "returns"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SmartFallHelper.Balance",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SmartFallHelper",
+  "memberName": "Balance",
+  "summary": "If true have enough strength to balance.\n            If false not enough strength in legs to balance (even though bodyBlance called).",
+  "remarks": "Default value = True."
+}

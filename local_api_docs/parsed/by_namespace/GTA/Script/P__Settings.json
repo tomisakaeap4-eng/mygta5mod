@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Script.Settings",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Script",
+  "memberName": "Settings",
+  "summary": "Gets an INI file associated with this"
+}

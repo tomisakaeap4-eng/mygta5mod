@@ -1,0 +1,27 @@
+{
+  "name": "M:GTA.World.CreatePropNoOffset(GTA.Model,GTA.Math.Vector3,GTA.Math.Vector3,System.Boolean)",
+  "kind": "M",
+  "namespace": "GTA.World.CreatePropNoOffset(GTA.Model,GTA.Math.Vector3,GTA.Math",
+  "typeName": "Vector3,System",
+  "memberName": "Boolean)",
+  "summary": "Spawns a",
+  "remarks": "returns",
+  "params": [
+    {
+      "name": "model",
+      "description": "The"
+    },
+    {
+      "name": "position",
+      "description": "The position to spawn the"
+    },
+    {
+      "name": "rotation",
+      "description": "The rotation of the"
+    },
+    {
+      "name": "dynamic",
+      "description": "if set to"
+    }
+  ]
+}

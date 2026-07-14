@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Math.Quaternion.Invert",
+  "kind": "M",
+  "namespace": "GTA.Math",
+  "typeName": "Quaternion",
+  "memberName": "Invert",
+  "summary": "Conjugates and renormalizes the quaternion."
+}

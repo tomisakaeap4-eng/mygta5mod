@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.ApplyFoetalToLegs",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "RollDownStairsHelper",
+  "memberName": "ApplyFoetalToLegs",
+  "summary": "If true, use rollup for upper body and a kind of foetal behavior for legs.",
+  "remarks": "Default value = False."
+}

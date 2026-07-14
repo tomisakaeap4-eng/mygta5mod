@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.LeftHandTarget",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "LeftHandTarget",
+  "summary": "Target for the left Hand.",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
+}

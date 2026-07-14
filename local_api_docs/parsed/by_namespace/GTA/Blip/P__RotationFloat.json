@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Blip.RotationFloat",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Blip",
+  "memberName": "RotationFloat",
+  "summary": "Gets or sets the rotation of this",
+  "value": "The rotation as a"
+}

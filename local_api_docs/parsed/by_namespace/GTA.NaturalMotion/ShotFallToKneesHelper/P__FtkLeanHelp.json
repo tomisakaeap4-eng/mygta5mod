@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkLeanHelp",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotFallToKneesHelper",
+  "memberName": "FtkLeanHelp",
+  "summary": "Help balancer lean amount - to help character lean over balance point of line between toes.\n            Half of this is also applied as hipLean.",
+  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 0.3f."
+}

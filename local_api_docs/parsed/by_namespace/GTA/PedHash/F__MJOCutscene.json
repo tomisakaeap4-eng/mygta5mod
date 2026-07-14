@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.PedHash.MJOCutscene",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "PedHash",
+  "memberName": "MJOCutscene",
+  "summary": "The first cutscene model of Mark Jordan, known professionally as DJ Pooh."
+}

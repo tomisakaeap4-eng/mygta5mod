@@ -1,0 +1,18 @@
+{
+  "name": "M:GTA.Blip.op_Equality(GTA.Blip,GTA.Blip)",
+  "kind": "M",
+  "namespace": "GTA.Blip.op_Equality(GTA",
+  "typeName": "Blip,GTA",
+  "memberName": "Blip)",
+  "summary": "Determines if two",
+  "params": [
+    {
+      "name": "left",
+      "description": "The left"
+    },
+    {
+      "name": "right",
+      "description": "The right"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Entity.PopulationType",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "PopulationType",
+  "summary": "Gets or sets the population type of the current"
+}

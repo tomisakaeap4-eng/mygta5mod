@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyWritheHelper.RollTorqueScale",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyWritheHelper",
+  "memberName": "RollTorqueScale",
+  "summary": "Scale rolling torque that is applied to character spine.",
+  "remarks": "Default value = 150.0f.\n            Min value = 0.0f.\n            Max value = 300.0f."
+}

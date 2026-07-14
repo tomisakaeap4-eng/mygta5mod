@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.World.GetNextPositionOnSidewalk(GTA.Math.Vector2)",
+  "kind": "M",
+  "namespace": "GTA.World.GetNextPositionOnSidewalk(GTA",
+  "typeName": "Math",
+  "memberName": "Vector2)",
+  "summary": "Gets the next position on the street where a",
+  "params": [
+    {
+      "name": "position",
+      "description": "The position to check around."
+    }
+  ]
+}

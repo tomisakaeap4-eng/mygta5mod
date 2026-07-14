@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotHelper.NeckDamping",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotHelper",
+  "memberName": "NeckDamping",
+  "summary": "Damping of neck.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.1f.\n            Max value = 2.0f."
+}

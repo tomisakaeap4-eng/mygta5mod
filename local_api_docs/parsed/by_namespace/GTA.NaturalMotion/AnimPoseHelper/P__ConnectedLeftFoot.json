@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.AnimPoseHelper.ConnectedLeftFoot",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "AnimPoseHelper",
+  "memberName": "ConnectedLeftFoot",
+  "summary": "Is the left foot constrained to the world/ an object: -2=do not set in animpose (e.g. let the balancer decide), -1=auto decide by impact info, 0=no, 1=part fully constrained (not implemented:, 2=part point constraint, 3=line constraint).",
+  "remarks": "Default value = -2.\n            Min value = -2.\n            Max value = 2."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.VehicleWheel.Index",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "VehicleWheel",
+  "memberName": "Index",
+  "summary": "Gets the index for native functions.\n            Obsoleted in v3 API because there is no legiminate ways to get value from or modify any of the 4 wheels"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.CanJump",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "CanJump",
+  "summary": "Gets a value indicating whether this"
+}

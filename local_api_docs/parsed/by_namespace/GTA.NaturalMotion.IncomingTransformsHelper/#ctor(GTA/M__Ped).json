@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.NaturalMotion.IncomingTransformsHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.IncomingTransformsHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the IncomingTransformsHelper for sending a IncomingTransforms",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

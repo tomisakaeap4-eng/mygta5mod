@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Native.OutputArgument.Finalize",
+  "kind": "M",
+  "namespace": "GTA.Native",
+  "typeName": "OutputArgument",
+  "memberName": "Finalize",
+  "summary": "Frees the unmanaged resources associated with this"
+}

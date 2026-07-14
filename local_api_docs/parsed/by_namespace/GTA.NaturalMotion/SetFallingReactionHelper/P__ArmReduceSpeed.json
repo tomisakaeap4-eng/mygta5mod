@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SetFallingReactionHelper.ArmReduceSpeed",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SetFallingReactionHelper",
+  "memberName": "ArmReduceSpeed",
+  "summary": "Strength is reduced in the catchFall when the arms contact the ground.  0.2 is good for handsAndKnees.  2.5 is good for normal catchFall, anything lower than 1.0 for normal catchFall may lead to bad catchFall poses.",
+  "remarks": "Default value = 2.5f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

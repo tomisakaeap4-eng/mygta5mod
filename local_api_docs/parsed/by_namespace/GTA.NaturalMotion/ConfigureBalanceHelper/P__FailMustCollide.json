@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.FailMustCollide",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "FailMustCollide",
+  "summary": "The upper body of the character must be colliding and other failure conditions met to fail.",
+  "remarks": "Default value = False."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Ped.CurrentVehicle",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "CurrentVehicle",
+  "summary": "Gets the current",
+  "remarks": "returns"
+}

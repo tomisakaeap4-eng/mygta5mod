@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBulletsHelper.RbTwistAxis",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBulletsHelper",
+  "memberName": "RbTwistAxis",
+  "remarks": "Default value ="
+}

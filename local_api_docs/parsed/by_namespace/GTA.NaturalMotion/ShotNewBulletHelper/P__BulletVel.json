@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotNewBulletHelper.BulletVel",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotNewBulletHelper",
+  "memberName": "BulletVel",
+  "summary": "Bullet velocity in world coordinates.",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f).\n            Min value = -2000.0f.\n            Max value = 2000.0f."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SetFallingReactionHelper.HeadAsWeakAsArms",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SetFallingReactionHelper",
+  "memberName": "HeadAsWeakAsArms",
+  "summary": "Head weakens as arms weaken. If false and antiPropWeak when falls onto back doesn't loosen neck so early (matches bodyStrength instead).",
+  "remarks": "Default value = True."
+}

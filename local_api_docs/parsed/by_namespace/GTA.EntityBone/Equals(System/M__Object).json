@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.EntityBone.Equals(System.Object)",
+  "kind": "M",
+  "namespace": "GTA.EntityBone",
+  "typeName": "Equals(System",
+  "memberName": "Object)",
+  "summary": "Determines if an",
+  "params": [
+    {
+      "name": "obj",
+      "description": "The"
+    }
+  ]
+}

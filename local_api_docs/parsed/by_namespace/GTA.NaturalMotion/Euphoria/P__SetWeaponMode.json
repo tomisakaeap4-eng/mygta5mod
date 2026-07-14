@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.SetWeaponMode",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "SetWeaponMode",
+  "summary": "Gets a SetWeaponMode Helper class for sending SetWeaponMode",
+  "remarks": "Use this message to set the character's weapon mode. This is an alternative to the setWeaponMode public function."
+}

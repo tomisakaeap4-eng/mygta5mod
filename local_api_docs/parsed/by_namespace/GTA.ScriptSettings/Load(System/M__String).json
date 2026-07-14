@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.ScriptSettings.Load(System.String)",
+  "kind": "M",
+  "namespace": "GTA.ScriptSettings",
+  "typeName": "Load(System",
+  "memberName": "String)",
+  "summary": "Loads a",
+  "params": [
+    {
+      "name": "filename",
+      "description": "The filename to load the settings from."
+    }
+  ]
+}

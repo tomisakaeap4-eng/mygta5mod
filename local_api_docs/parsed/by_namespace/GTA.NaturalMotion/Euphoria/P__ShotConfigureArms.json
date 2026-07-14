@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.ShotConfigureArms",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "ShotConfigureArms",
+  "summary": "Gets a ShotConfigureArms Helper class for sending ShotConfigureArms",
+  "remarks": "configure the arm reactions in shot"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.AnimationFlags.ReorientWhenFinished",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "AnimationFlags",
+  "memberName": "ReorientWhenFinished",
+  "summary": "When the animation finishes pop the peds physical reprsentation direction to match the visual representations direction.\n            Note that the animator of the animation must not unwind the animation and must have an independent mover node."
+}

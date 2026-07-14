@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.StayUprightHelper.TorqueThresholdVel",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "StayUprightHelper",
+  "memberName": "TorqueThresholdVel",
+  "summary": "When in velocityBased mode, the COM velocity above which constraint starts applying torques.",
+  "remarks": "Default value = 2.5f.\n            Min value = 0.0f.\n            Max value = 5.0f."
+}

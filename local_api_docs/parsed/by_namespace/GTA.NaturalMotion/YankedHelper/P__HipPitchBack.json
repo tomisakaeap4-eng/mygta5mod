@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.YankedHelper.HipPitchBack",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "YankedHelper",
+  "memberName": "HipPitchBack",
+  "summary": "Amount to bend backwards at the hips (+ve backwards, -ve forwards).\n            Behavior switches between hipPitchForward and hipPitchBack.",
+  "remarks": "Default value = 1.0f.\n            Min value = -1.3f.\n            Max value = 1.3f."
+}

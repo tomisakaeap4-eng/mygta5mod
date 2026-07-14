@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Blip.Name",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Blip",
+  "memberName": "Name",
+  "summary": "Get or sets the custom name of this",
+  "remarks": "Returns"
+}

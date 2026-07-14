@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.ShotNewBullet",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "ShotNewBullet",
+  "summary": "Gets a ShotNewBullet Helper class for sending ShotNewBullet",
+  "remarks": "Send new wound information to the shot.  Can cause shot to restart it's performance in part or in whole."
+}

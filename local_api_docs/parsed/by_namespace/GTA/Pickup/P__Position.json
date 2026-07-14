@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Pickup.Position",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Pickup",
+  "memberName": "Position",
+  "summary": "The position of this"
+}

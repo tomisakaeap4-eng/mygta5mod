@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SetFallingReactionHelper.InhibitRollingTime",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SetFallingReactionHelper",
+  "memberName": "InhibitRollingTime",
+  "summary": "Time after hitting ground that the catchFall can call rds.",
+  "remarks": "Default value = 0.2f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

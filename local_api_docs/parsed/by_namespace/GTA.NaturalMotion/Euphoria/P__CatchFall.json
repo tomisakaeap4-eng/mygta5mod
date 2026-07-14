@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.CatchFall",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "CatchFall",
+  "summary": "Gets a CatchFall Helper class for sending CatchFall"
+}

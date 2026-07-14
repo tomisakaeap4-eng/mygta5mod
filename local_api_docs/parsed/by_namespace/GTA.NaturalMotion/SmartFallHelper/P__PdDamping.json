@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SmartFallHelper.PdDamping",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SmartFallHelper",
+  "memberName": "PdDamping",
+  "summary": "Damping multiplier of the controller to keep the character at angle aimAngleBase from vertical.\n            The actual damping is pdDamping*pdStrength*constant*angVel.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 5.0f."
+}

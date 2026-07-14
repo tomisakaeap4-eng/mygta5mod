@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SetMuscleStiffnessHelper.MuscleStiffness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SetMuscleStiffnessHelper",
+  "memberName": "MuscleStiffness",
+  "summary": "Muscle stiffness of joint/s.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 20.0f."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.WeaponAsset.IsLoaded",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "WeaponAsset",
+  "memberName": "IsLoaded",
+  "summary": "Gets a value indicating whether this"
+}

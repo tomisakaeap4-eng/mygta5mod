@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.ElbowAngleOnContact",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyBalanceHelper",
+  "memberName": "ElbowAngleOnContact",
+  "summary": "On contact with upperbody the desired elbow angle is set to at least this value.",
+  "remarks": "Default value = 1.9f.\n            Min value = 0.0f.\n            Max value = 3.0f."
+}

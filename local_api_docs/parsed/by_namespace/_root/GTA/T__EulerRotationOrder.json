@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.EulerRotationOrder",
+  "kind": "T",
+  "namespace": "",
+  "typeName": "GTA",
+  "memberName": "EulerRotationOrder",
+  "summary": "Enums for the order in which to apply rotations in local space, just like how Rockstar Games define"
+}

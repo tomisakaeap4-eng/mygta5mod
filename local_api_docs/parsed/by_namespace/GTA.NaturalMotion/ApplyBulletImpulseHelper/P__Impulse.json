@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ApplyBulletImpulseHelper.Impulse",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ApplyBulletImpulseHelper",
+  "memberName": "Impulse",
+  "summary": "Impulse vector (impulse is change in momentum).",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f).\n            Min value = -1000.0f.\n            Max value = 1000.0f."
+}

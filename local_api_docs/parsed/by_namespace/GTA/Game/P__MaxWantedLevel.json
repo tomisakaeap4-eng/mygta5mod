@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Game.MaxWantedLevel",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Game",
+  "memberName": "MaxWantedLevel",
+  "summary": "Gets or sets the maximum wanted level a",
+  "value": "The maximum wanted level, only accepts values 0 to 5."
+}

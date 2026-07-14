@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.WindowTitle.OutfitName",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "WindowTitle",
+  "memberName": "OutfitName",
+  "summary": "\"Outfit Name\""
+}

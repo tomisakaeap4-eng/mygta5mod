@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.GrabHelper.HandsCollide",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "GrabHelper",
+  "memberName": "HandsCollide",
+  "summary": "Hand collisions on when grabbing (false turns off hand collisions making grab more stable esp. To grab points slightly inside geometry).",
+  "remarks": "Default value = False."
+}

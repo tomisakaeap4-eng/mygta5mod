@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.World.GetAllCheckpoints",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "GetAllCheckpoints",
+  "summary": "Gets an"
+}

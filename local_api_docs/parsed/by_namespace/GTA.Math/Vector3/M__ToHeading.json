@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Math.Vector3.ToHeading",
+  "kind": "M",
+  "namespace": "GTA.Math",
+  "typeName": "Vector3",
+  "memberName": "ToHeading",
+  "summary": "Converts a vector to a heading."
+}

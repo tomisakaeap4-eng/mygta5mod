@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.VehicleWheel.Fix",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "VehicleWheel",
+  "memberName": "Fix",
+  "summary": "Fixes this"
+}

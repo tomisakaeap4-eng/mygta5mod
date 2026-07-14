@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Ped.ArmorFloat",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "ArmorFloat",
+  "summary": "Gets or sets how much Armor this",
+  "value": "The armor as a"
+}

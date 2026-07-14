@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.WeaponAsset.NativeValue",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "WeaponAsset",
+  "memberName": "NativeValue",
+  "summary": "Gets the native representation of this"
+}

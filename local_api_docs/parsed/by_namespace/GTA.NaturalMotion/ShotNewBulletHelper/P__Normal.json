@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotNewBulletHelper.Normal",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotNewBulletHelper",
+  "memberName": "Normal",
+  "summary": "Normal coming out of impact point on character.  Can be local or global depending on localHitPointInfo.",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, -1.0f).\n            Min value = -1.0f.\n            Max value = 1.0f."
+}

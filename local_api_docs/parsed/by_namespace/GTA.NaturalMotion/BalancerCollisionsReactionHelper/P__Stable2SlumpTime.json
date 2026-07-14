@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.Stable2SlumpTime",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BalancerCollisionsReactionHelper",
+  "memberName": "Stable2SlumpTime",
+  "summary": "Time after becoming stable leaning against a wall that slump starts.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f."
+}

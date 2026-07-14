@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotHelper.SpineBlendExagCPain",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotHelper",
+  "memberName": "SpineBlendExagCPain",
+  "summary": "True: spine is blended with zero pose, false: spine is blended with zero pose if not setting exag or cpain.",
+  "remarks": "Default value = False."
+}

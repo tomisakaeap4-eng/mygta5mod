@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ForceLeanTowardsObjectHelper.InstanceIndex",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ForceLeanTowardsObjectHelper",
+  "memberName": "InstanceIndex",
+  "summary": "LevelIndex of object to move towards.",
+  "remarks": "Default value = -1.\n            Min value = -1."
+}

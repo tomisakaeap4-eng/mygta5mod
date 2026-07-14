@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Script.Interval",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Script",
+  "memberName": "Interval",
+  "summary": "Gets or sets the interval in ms between"
+}

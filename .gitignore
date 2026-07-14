@@ -38,4 +38,15 @@ $RECYCLE.BIN/
 # Mac (Nếu bạn có dùng chung với Mac)
 .DS_Store
 
-./kb
+# inputs/ và output/ do bootstrap_api_docs.ps1 tạo ra; nội dung do script, không commit
+./inputs
+./output
+
+# Thư mục api_docs/ chứa corpus API cho agent (clone bằng bootstrap_api_docs.ps1)
+./api_docs
+
+# Chặn git add -A kéo cả working tree của embedded git repos trong api_docs/
+# (git xử lý thư mục có .git/ như embedded repo, vượt qua pattern ./api_docs ở trên).
+api_docs/gta5-nativedb-data/
+api_docs/scripthookvdotnet/
+api_docs/scripthookvdotnet.wiki/

@@ -1,0 +1,30 @@
+{
+  "name": "M:GTA.Rope.Connect(GTA.Entity,GTA.Math.Vector3,GTA.Entity,GTA.Math.Vector3,System.Single)",
+  "kind": "M",
+  "namespace": "GTA.Rope.Connect(GTA.Entity,GTA.Math.Vector3,GTA.Entity,GTA.Math",
+  "typeName": "Vector3,System",
+  "memberName": "Single)",
+  "summary": "Connects two",
+  "params": [
+    {
+      "name": "entity1",
+      "description": "The first entity to attach."
+    },
+    {
+      "name": "entity2",
+      "description": "The second entity to attach."
+    },
+    {
+      "name": "position1",
+      "description": "The position in world coordinates to attach the first entity to."
+    },
+    {
+      "name": "position2",
+      "description": "The position in world coordinates to attach the second entity to."
+    },
+    {
+      "name": "length",
+      "description": "The rope length."
+    }
+  ]
+}

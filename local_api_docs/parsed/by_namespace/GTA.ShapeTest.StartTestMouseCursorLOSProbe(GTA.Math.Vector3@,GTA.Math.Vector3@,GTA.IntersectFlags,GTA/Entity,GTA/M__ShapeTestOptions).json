@@ -1,0 +1,31 @@
+{
+  "name": "M:GTA.ShapeTest.StartTestMouseCursorLOSProbe(GTA.Math.Vector3@,GTA.Math.Vector3@,GTA.IntersectFlags,GTA.Entity,GTA.ShapeTestOptions)",
+  "kind": "M",
+  "namespace": "GTA.ShapeTest.StartTestMouseCursorLOSProbe(GTA.Math.Vector3@,GTA.Math.Vector3@,GTA.IntersectFlags,GTA",
+  "typeName": "Entity,GTA",
+  "memberName": "ShapeTestOptions)",
+  "summary": "Start a line-of-sight world probe shape test between 2 points calculated based on the mouse cursor position.\n            Works just like",
+  "value": "The shape test handle.\n            If this method fails to create the shape test request because there are too many ongoing requests,",
+  "params": [
+    {
+      "name": "probeStartPosition",
+      "description": "The returned start position of the probe in world space."
+    },
+    {
+      "name": "probeEndPosition",
+      "description": "The returned end position of the probe in world space."
+    },
+    {
+      "name": "intersectFlags",
+      "description": "What type of objects the shape test should intersect with."
+    },
+    {
+      "name": "excludeEntity",
+      "description": "Specify an"
+    },
+    {
+      "name": "options",
+      "description": "Specify options for the spape test."
+    }
+  ]
+}

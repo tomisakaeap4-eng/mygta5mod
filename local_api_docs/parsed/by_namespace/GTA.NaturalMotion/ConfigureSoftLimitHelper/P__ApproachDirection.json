@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureSoftLimitHelper.ApproachDirection",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureSoftLimitHelper",
+  "memberName": "ApproachDirection",
+  "summary": "Limit angle can be measured relatively to joints hard limit minAngle or maxAngle.\n            Set it to +1 to measure soft limit angle relatively to hard limit minAngle that corresponds to the maximum stretch of the elbow.\n            Set it to -1 to measure soft limit angle relatively to hard limit maxAngle that corresponds to the maximum stretch of the knee.",
+  "remarks": "Default value = 1.\n            Min value = -1.\n            Max value = 1."
+}

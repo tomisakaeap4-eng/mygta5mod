@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureSoftLimitHelper.Stiffness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureSoftLimitHelper",
+  "memberName": "Stiffness",
+  "summary": "Stiffness of the soft limit.\n            Parameter is used to calculate spring term that contributes to the desired acceleration.",
+  "remarks": "Default value = 15.0f.\n            Min value = 0.0f.\n            Max value = 30.0f."
+}

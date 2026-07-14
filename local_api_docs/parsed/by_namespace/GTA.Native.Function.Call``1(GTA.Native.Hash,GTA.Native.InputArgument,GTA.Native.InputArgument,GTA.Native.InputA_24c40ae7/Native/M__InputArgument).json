@@ -1,0 +1,75 @@
+{
+  "name": "M:GTA.Native.Function.Call``1(GTA.Native.Hash,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument)",
+  "kind": "M",
+  "namespace": "GTA.Native.Function.Call``1(GTA.Native.Hash,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA.Native.InputArgument,GTA",
+  "typeName": "Native",
+  "memberName": "InputArgument)",
+  "summary": "Calls the specified native script function and ignores its return value.",
+  "returns": "The return value of the native.",
+  "params": [
+    {
+      "name": "hash",
+      "description": "The hashed name of the script function."
+    },
+    {
+      "name": "argument0",
+      "description": "The 1st input or output argument to pass to the native script function."
+    },
+    {
+      "name": "argument1",
+      "description": "The 2nd input or output argument to pass to the native script function."
+    },
+    {
+      "name": "argument2",
+      "description": "The 3rd input or output argument to pass to the native script function."
+    },
+    {
+      "name": "argument3",
+      "description": "The 4th input or output argument to pass to the native script function."
+    },
+    {
+      "name": "argument4",
+      "description": "The 5th input or output argument to pass to the native script function."
+    },
+    {
+      "name": "argument5",
+      "description": "The 6th input or output argument to pass to the native script function."
+    },
+    {
+      "name": "argument6",
+      "description": "The 7th input or output argument to pass to the native script function."
+    },
+    {
+      "name": "argument7",
+      "description": "The 8th input or output argument to pass to the native script function."
+    },
+    {
+      "name": "argument8",
+      "description": "The 9th input or output argument to pass to the native script function."
+    },
+    {
+      "name": "argument9",
+      "description": "The 10th input or output argument to pass to the native script function."
+    },
+    {
+      "name": "argument10",
+      "description": "The 11th input or output argument to pass to the native script function."
+    },
+    {
+      "name": "argument11",
+      "description": "The 12th input or output argument to pass to the native script function."
+    },
+    {
+      "name": "argument12",
+      "description": "The 13th input or output argument to pass to the native script function."
+    },
+    {
+      "name": "argument13",
+      "description": "The 14th input or output argument to pass to the native script function."
+    },
+    {
+      "name": "argument14",
+      "description": "The 15th input or output argument to pass to the native script function."
+    }
+  ]
+}

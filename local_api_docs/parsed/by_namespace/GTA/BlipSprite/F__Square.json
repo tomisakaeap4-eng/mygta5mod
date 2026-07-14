@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.BlipSprite.Square",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "BlipSprite",
+  "memberName": "Square",
+  "summary": "The sprite shape is square and the default English text for this value is \"Objective\"."
+}

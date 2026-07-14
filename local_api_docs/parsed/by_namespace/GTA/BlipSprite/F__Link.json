@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.BlipSprite.Link",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "BlipSprite",
+  "memberName": "Link",
+  "summary": "The default English text for this value is \"Gang Police Partner\"."
+}

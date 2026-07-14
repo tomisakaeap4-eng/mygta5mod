@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Entity.IsRecordingCollisions",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "IsRecordingCollisions",
+  "summary": "Gets or sets a value indicating whether this"
+}

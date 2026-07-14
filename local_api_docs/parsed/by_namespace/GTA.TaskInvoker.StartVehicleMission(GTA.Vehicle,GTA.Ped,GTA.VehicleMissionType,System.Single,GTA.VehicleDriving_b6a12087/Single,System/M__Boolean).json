@@ -1,0 +1,42 @@
+{
+  "name": "M:GTA.TaskInvoker.StartVehicleMission(GTA.Vehicle,GTA.Ped,GTA.VehicleMissionType,System.Single,GTA.VehicleDrivingFlags,System.Single,System.Single,System.Boolean)",
+  "kind": "M",
+  "namespace": "GTA.TaskInvoker.StartVehicleMission(GTA.Vehicle,GTA.Ped,GTA.VehicleMissionType,System.Single,GTA.VehicleDrivingFlags,System.Single,System",
+  "typeName": "Single,System",
+  "memberName": "Boolean)",
+  "summary": "Tells the",
+  "params": [
+    {
+      "name": "vehicle",
+      "description": "The"
+    },
+    {
+      "name": "target",
+      "description": "The target"
+    },
+    {
+      "name": "missionType",
+      "description": "The vehicle mission type."
+    },
+    {
+      "name": "cruiseSpeed",
+      "description": "The cruise speed for the task."
+    },
+    {
+      "name": "drivingFlags",
+      "description": "The driving flags for the task."
+    },
+    {
+      "name": "targetReachedDist",
+      "description": "The distance at which the AI thinks the target has been reached and the car stops. To pick default value, the parameter can be passed in as"
+    },
+    {
+      "name": "straightLineDist",
+      "description": "The distance at which the AI switches to heading for the target directly instead of following the nodes. To pick default value, the parameter can be passed in as"
+    },
+    {
+      "name": "driveAgainstTraffic",
+      "description": "if set to"
+    }
+  ]
+}

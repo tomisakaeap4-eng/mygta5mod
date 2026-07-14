@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PedalLegsHelper.RadiusVariance",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PedalLegsHelper",
+  "memberName": "RadiusVariance",
+  "summary": "0-1 value used to add variance to the radius value while pedalling, to desynchonize the legs' movement and provide some variety.",
+  "remarks": "Default value = 0.4f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

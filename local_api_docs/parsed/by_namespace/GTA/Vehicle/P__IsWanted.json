@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.IsWanted",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "IsWanted",
+  "summary": "Gets or sets a value indicating whether this"
+}

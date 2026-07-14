@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureSelfAvoidanceHelper.OverwriteDragReduction",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureSelfAvoidanceHelper",
+  "memberName": "OverwriteDragReduction",
+  "summary": "Specify whether self avoidance tech should use original IK input target or the target that has been already modified by getStabilisedPos() tech i.e. function that compensates for rotational and linear velocity of shoulder/thigh.",
+  "remarks": "Default value = False."
+}

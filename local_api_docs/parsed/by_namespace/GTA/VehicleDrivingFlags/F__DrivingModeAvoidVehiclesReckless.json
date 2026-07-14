@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.VehicleDrivingFlags.DrivingModeAvoidVehiclesReckless",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "VehicleDrivingFlags",
+  "memberName": "DrivingModeAvoidVehiclesReckless",
+  "summary": "Very erratic driving. difference between this and"
+}

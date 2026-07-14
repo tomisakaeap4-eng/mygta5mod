@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SetCharacterDampingHelper.CartwheelThresh",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SetCharacterDampingHelper",
+  "memberName": "CartwheelThresh",
+  "summary": "Cartwheel AngularMomentum measure above which we start damping - try 27.0.",
+  "remarks": "Default value = 27.0f.\n            Min value = 0.0f.\n            Max value = 200.0f."
+}

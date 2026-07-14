@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.TimeToBackwardsBrace",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyBalanceHelper",
+  "memberName": "TimeToBackwardsBrace",
+  "summary": "Time before arm brace kicks in when hit from behind.",
+  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

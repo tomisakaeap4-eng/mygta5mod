@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.VehicleType.Autogyro",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "VehicleType",
+  "memberName": "Autogyro",
+  "summary": "The autogyro type, which is not used in the stock game."
+}

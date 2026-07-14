@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.UI.ScreenEffect",
+  "kind": "T",
+  "namespace": "GTA",
+  "typeName": "UI",
+  "memberName": "ScreenEffect",
+  "summary": "An enumeration of possible screen effects."
+}

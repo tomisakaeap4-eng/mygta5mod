@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.UnSnapInterval",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BalancerCollisionsReactionHelper",
+  "memberName": "UnSnapInterval",
+  "summary": "Interval before applying reverse snap.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 100.0f."
+}

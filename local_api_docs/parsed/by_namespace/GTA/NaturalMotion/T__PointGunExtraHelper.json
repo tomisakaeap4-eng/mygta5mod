@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.NaturalMotion.PointGunExtraHelper",
+  "kind": "T",
+  "namespace": "GTA",
+  "typeName": "NaturalMotion",
+  "memberName": "PointGunExtraHelper",
+  "summary": "Seldom set parameters for pointGun - just to keep number of parameters in any message less than or equal to 64."
+}

@@ -1,0 +1,38 @@
+{
+  "name": "M:GTA.World.AddExplosion(GTA.Math.Vector3,GTA.ExplosionType,System.Single,System.Single,GTA.Ped,System.Boolean,System.Boolean)",
+  "kind": "M",
+  "namespace": "GTA.World.AddExplosion(GTA.Math.Vector3,GTA.ExplosionType,System.Single,System.Single,GTA.Ped,System",
+  "typeName": "Boolean,System",
+  "memberName": "Boolean)",
+  "summary": "Creates an explosion in the world",
+  "params": [
+    {
+      "name": "position",
+      "description": "The position of the explosion."
+    },
+    {
+      "name": "type",
+      "description": "The type of explosion."
+    },
+    {
+      "name": "radius",
+      "description": "The radius of the explosion."
+    },
+    {
+      "name": "cameraShake",
+      "description": "The amount of camera shake to apply to nearby cameras."
+    },
+    {
+      "name": "owner",
+      "description": "The"
+    },
+    {
+      "name": "aubidble",
+      "description": "if set to"
+    },
+    {
+      "name": "invisible",
+      "description": "if set to"
+    }
+  ]
+}

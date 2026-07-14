@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Ped.Weapons",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "Weapons",
+  "summary": "Gets a collection of all this"
+}

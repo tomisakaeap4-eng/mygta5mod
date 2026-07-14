@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.HipsLeanRandomHelper.ChangeTimeMax",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "HipsLeanRandomHelper",
+  "memberName": "ChangeTimeMax",
+  "summary": "Maximum time until changing direction.",
+  "remarks": "Default value = 4.0f.\n            Min value = 0.0f.\n            Max value = 20.0f."
+}

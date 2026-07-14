@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.Gears",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "Gears",
+  "summary": "Gets or sets the gears value of this"
+}

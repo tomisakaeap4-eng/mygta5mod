@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.ShotInGuts",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "ShotInGuts",
+  "summary": "Gets a ShotInGuts Helper class for sending ShotInGuts",
+  "remarks": "configure the shot in guts reaction"
+}

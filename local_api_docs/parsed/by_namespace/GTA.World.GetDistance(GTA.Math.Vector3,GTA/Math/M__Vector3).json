@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.World.GetDistance(GTA.Math.Vector3,GTA.Math.Vector3)",
+  "kind": "M",
+  "namespace": "GTA.World.GetDistance(GTA.Math.Vector3,GTA",
+  "typeName": "Math",
+  "memberName": "Vector3)",
+  "summary": "Gets the straight line distance between 2 positions.",
+  "returns": "The distance",
+  "params": [
+    {
+      "name": "origin",
+      "description": "The origin."
+    },
+    {
+      "name": "destination",
+      "description": "The destination."
+    }
+  ]
+}

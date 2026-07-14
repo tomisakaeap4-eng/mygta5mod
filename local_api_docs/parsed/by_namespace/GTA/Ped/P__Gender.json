@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Ped.Gender",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "Gender",
+  "summary": "Gets the gender of this"
+}

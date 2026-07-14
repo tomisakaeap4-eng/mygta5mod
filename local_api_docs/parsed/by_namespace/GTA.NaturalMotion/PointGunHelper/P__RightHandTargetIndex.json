@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.RightHandTargetIndex",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "RightHandTargetIndex",
+  "summary": "Index of the object that the right hand target is specified in, -1 is world space.",
+  "remarks": "Default value = -1."
+}

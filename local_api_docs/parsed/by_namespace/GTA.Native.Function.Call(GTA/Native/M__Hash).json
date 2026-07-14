@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Native.Function.Call(GTA.Native.Hash)",
+  "kind": "M",
+  "namespace": "GTA.Native.Function.Call(GTA",
+  "typeName": "Native",
+  "memberName": "Hash)",
+  "summary": "Calls the specified native script function and ignores its return value.",
+  "params": [
+    {
+      "name": "hash",
+      "description": "The hashed name of the script function."
+    }
+  ]
+}

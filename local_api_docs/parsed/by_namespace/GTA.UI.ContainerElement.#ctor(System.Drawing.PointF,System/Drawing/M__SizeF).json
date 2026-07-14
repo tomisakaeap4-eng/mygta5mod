@@ -1,0 +1,18 @@
+{
+  "name": "M:GTA.UI.ContainerElement.#ctor(System.Drawing.PointF,System.Drawing.SizeF)",
+  "kind": "M",
+  "namespace": "GTA.UI.ContainerElement.#ctor(System.Drawing.PointF,System",
+  "typeName": "Drawing",
+  "memberName": "SizeF)",
+  "summary": "Initializes a new instance of the",
+  "params": [
+    {
+      "name": "position",
+      "description": "Set the"
+    },
+    {
+      "name": "size",
+      "description": "Set the"
+    }
+  ]
+}

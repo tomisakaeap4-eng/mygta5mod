@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.GameplayCamera.Zoom",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "GameplayCamera",
+  "memberName": "Zoom",
+  "summary": "Gets the zoom of the"
+}

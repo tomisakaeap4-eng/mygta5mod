@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ArmsWindmillAdaptiveHelper.UseAngMom",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ArmsWindmillAdaptiveHelper",
+  "memberName": "UseAngMom",
+  "summary": "If true, use angular momentum about com to choose arm circling direction. Otherwise use com angular velocity.",
+  "remarks": "Default value = False."
+}

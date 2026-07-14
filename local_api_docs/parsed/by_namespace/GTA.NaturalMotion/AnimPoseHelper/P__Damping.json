@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.AnimPoseHelper.Damping",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "AnimPoseHelper",
+  "memberName": "Damping",
+  "summary": "Damping of masked joints.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 2.0f."
+}

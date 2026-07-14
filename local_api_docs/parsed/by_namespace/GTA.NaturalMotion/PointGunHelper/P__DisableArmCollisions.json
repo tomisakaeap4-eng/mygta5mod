@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.DisableArmCollisions",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "DisableArmCollisions",
+  "summary": "Disable collisions between right hand/forearm and the torso/legs.",
+  "remarks": "Default value = False."
+}

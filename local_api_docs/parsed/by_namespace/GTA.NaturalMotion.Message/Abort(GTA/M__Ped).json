@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.NaturalMotion.Message.Abort(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.Message",
+  "typeName": "Abort(GTA",
+  "memberName": "Ped)",
+  "summary": "Stops this Natural Motion behavior on the given",
+  "params": [
+    {
+      "name": "target",
+      "description": "The"
+    }
+  ]
+}

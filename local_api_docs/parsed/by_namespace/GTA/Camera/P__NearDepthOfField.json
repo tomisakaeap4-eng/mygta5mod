@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Camera.NearDepthOfField",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Camera",
+  "memberName": "NearDepthOfField",
+  "summary": "Sets the near depth of field for this"
+}

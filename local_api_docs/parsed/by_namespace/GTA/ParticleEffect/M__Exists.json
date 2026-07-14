@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.ParticleEffect.Exists",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "ParticleEffect",
+  "memberName": "Exists",
+  "summary": "Determines if this"
+}

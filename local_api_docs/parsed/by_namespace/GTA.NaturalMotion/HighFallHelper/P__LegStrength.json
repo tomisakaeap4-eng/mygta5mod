@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.HighFallHelper.LegStrength",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "HighFallHelper",
+  "memberName": "LegStrength",
+  "summary": "Strength of the legs at landing.",
+  "remarks": "Default value = 12.0f.\n            Min value = 6.0f.\n            Max value = 16.0f."
+}

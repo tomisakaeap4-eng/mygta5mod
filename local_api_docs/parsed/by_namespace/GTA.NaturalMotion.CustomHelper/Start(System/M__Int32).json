@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.NaturalMotion.CustomHelper.Start(System.Int32)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.CustomHelper",
+  "typeName": "Start(System",
+  "memberName": "Int32)",
+  "summary": "Starts this Natural Motion behavior on the",
+  "params": [
+    {
+      "name": "duration",
+      "description": "How long to apply the behavior for (-1 for looped)."
+    }
+  ]
+}

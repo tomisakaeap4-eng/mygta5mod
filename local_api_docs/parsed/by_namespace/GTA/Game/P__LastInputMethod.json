@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Game.LastInputMethod",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Game",
+  "memberName": "LastInputMethod",
+  "summary": "Gets whether the last input was made with a GamePad or keyboard and mouse."
+}

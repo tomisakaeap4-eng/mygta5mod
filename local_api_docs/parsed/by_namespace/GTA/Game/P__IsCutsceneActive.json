@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Game.IsCutsceneActive",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Game",
+  "memberName": "IsCutsceneActive",
+  "summary": "Gets a value indicating whether the cutscene is active."
+}

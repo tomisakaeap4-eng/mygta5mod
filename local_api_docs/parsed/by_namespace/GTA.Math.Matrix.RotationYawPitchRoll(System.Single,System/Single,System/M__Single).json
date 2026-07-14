@@ -1,0 +1,23 @@
+{
+  "name": "M:GTA.Math.Matrix.RotationYawPitchRoll(System.Single,System.Single,System.Single)",
+  "kind": "M",
+  "namespace": "GTA.Math.Matrix.RotationYawPitchRoll(System.Single,System",
+  "typeName": "Single,System",
+  "memberName": "Single)",
+  "summary": "Creates a rotation matrix with a specified yaw, pitch, and roll.",
+  "returns": "The created rotation matrix.",
+  "params": [
+    {
+      "name": "yaw",
+      "description": "Yaw around the y-axis, in radians."
+    },
+    {
+      "name": "pitch",
+      "description": "Pitch around the x-axis, in radians."
+    },
+    {
+      "name": "roll",
+      "description": "Roll around the z-axis, in radians."
+    }
+  ]
+}

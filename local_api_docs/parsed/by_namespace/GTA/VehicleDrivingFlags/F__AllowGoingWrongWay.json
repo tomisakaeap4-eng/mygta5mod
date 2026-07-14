@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.VehicleDrivingFlags.AllowGoingWrongWay",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "VehicleDrivingFlags",
+  "memberName": "AllowGoingWrongWay",
+  "summary": "Allow the"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Rope.Delete",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Rope",
+  "memberName": "Delete",
+  "summary": "Destroys this"
+}

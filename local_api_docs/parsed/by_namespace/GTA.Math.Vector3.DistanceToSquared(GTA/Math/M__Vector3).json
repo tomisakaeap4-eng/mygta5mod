@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.Math.Vector3.DistanceToSquared(GTA.Math.Vector3)",
+  "kind": "M",
+  "namespace": "GTA.Math.Vector3.DistanceToSquared(GTA",
+  "typeName": "Math",
+  "memberName": "Vector3)",
+  "summary": "Calculates the squared distance between two vectors.",
+  "returns": "The distance to the other vector.",
+  "params": [
+    {
+      "name": "position",
+      "description": "The second vector to calculate the distance to."
+    }
+  ]
+}

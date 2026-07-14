@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.AnimationFlags.Loop",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "AnimationFlags",
+  "memberName": "Loop",
+  "summary": "Repeat the animation."
+}

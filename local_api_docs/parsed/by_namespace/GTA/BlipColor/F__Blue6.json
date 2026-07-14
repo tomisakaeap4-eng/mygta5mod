@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.BlipColor.Blue6",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "BlipColor",
+  "memberName": "Blue6",
+  "summary": "This color is always the same as"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.Native.OutputArgument",
+  "kind": "T",
+  "namespace": "GTA",
+  "typeName": "Native",
+  "memberName": "OutputArgument",
+  "summary": "An output argument passed to a script function."
+}

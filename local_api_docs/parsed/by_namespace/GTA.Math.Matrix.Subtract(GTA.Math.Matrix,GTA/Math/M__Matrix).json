@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.Math.Matrix.Subtract(GTA.Math.Matrix,GTA.Math.Matrix)",
+  "kind": "M",
+  "namespace": "GTA.Math.Matrix.Subtract(GTA.Math.Matrix,GTA",
+  "typeName": "Math",
+  "memberName": "Matrix)",
+  "summary": "Determines the difference between two matrices.",
+  "returns": "The difference between the two matrices.",
+  "params": [
+    {
+      "name": "left",
+      "description": "The first matrix to subtract."
+    },
+    {
+      "name": "right",
+      "description": "The second matrix to subtract."
+    }
+  ]
+}

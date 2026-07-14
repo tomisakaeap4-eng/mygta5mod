@@ -1,0 +1,10 @@
+{
+  "name": "P:GTA.Ped.InjuryHealthThreshold",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "InjuryHealthThreshold",
+  "summary": "Gets or sets the injury health threshold for this",
+  "remarks": "Note on player controlled pedestrians: One of the game scripts will consider the player wasted when their health drops below this setting value.",
+  "value": "The injury health threshold. Should be below"
+}

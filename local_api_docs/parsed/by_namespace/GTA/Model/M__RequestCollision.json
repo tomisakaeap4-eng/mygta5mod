@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Model.RequestCollision",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Model",
+  "memberName": "RequestCollision",
+  "summary": "Attempts to load this"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotHelper.CStrLowerMin",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotHelper",
+  "memberName": "CStrLowerMin",
+  "remarks": "Default value = 0.1f.\n            Min value = 0.1f.\n            Max value = 1.0f."
+}

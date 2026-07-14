@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.LeaveVehicleFlags.DontJackAnyone",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "LeaveVehicleFlags",
+  "memberName": "DontJackAnyone",
+  "summary": "Never jack anyone when entering/exiting."
+}

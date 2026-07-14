@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.TeeterHelper.EdgeRight",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "TeeterHelper",
+  "memberName": "EdgeRight",
+  "summary": "Defines the right edge point (right of character facing edge).",
+  "remarks": "Default value = Vector3(39.5f, 39.9f, 21.1f).\n            Min value = 0.0f."
+}

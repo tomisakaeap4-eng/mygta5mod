@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ApplyImpulseHelper.AngularImpulse",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ApplyImpulseHelper",
+  "memberName": "AngularImpulse",
+  "summary": "Impulse should be considered an angular impulse.",
+  "remarks": "Default value = False."
+}

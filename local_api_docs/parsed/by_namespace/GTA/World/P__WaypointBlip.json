@@ -1,0 +1,10 @@
+{
+  "name": "P:GTA.World.WaypointBlip",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "WaypointBlip",
+  "summary": "Gets the waypoint blip.",
+  "remarks": "Returns",
+  "returns": "The"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Ped.CauseOfDeath",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "CauseOfDeath",
+  "summary": "Gets the"
+}

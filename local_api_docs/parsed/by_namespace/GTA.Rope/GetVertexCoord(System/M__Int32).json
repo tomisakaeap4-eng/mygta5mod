@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.Rope.GetVertexCoord(System.Int32)",
+  "kind": "M",
+  "namespace": "GTA.Rope",
+  "typeName": "GetVertexCoord(System",
+  "memberName": "Int32)",
+  "summary": "Gets the world coordinates of a single vertex of this",
+  "returns": "The position of the vertex in world coordinates.",
+  "params": [
+    {
+      "name": "vertex",
+      "description": "The index of the vertex."
+    }
+  ]
+}

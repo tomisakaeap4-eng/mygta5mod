@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.IsRadioEnabled",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "IsRadioEnabled",
+  "summary": "Turns this"
+}

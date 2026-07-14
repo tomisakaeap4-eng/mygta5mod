@@ -1,0 +1,22 @@
+{
+  "name": "P:GTA.Math.Matrix.Item(System.Int32)",
+  "kind": "P",
+  "namespace": "GTA.Math.Matrix",
+  "typeName": "Item(System",
+  "memberName": "Int32)",
+  "summary": "Gets or sets the component at the specified index.",
+  "returns": "The value of the component at the specified index.",
+  "value": "The value of the matrix component, depending on the index.",
+  "params": [
+    {
+      "name": "index",
+      "description": "The zero-based index of the component to access."
+    }
+  ],
+  "exceptions": [
+    {
+      "cref": "T:System.ArgumentOutOfRangeException",
+      "description": "Thrown when the"
+    }
+  ]
+}

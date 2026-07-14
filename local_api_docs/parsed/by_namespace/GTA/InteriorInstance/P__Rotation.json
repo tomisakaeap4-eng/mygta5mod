@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.InteriorInstance.Rotation",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "InteriorInstance",
+  "memberName": "Rotation",
+  "summary": "Gets the rotation of this",
+  "value": "The yaw, pitch, roll rotation values in degree."
+}

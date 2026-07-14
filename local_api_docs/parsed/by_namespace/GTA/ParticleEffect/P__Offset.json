@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.ParticleEffect.Offset",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "ParticleEffect",
+  "memberName": "Offset",
+  "summary": "Gets or sets the offset.\n            If this"
+}

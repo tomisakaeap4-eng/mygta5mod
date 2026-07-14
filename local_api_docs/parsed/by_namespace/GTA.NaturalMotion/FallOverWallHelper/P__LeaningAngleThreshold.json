@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.FallOverWallHelper.LeaningAngleThreshold",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "FallOverWallHelper",
+  "memberName": "LeaningAngleThreshold",
+  "summary": "Maximum angle in degrees (between the vertical vector and a vector from pelvis to lower neck) to start to apply forces and torques to fall over the wall.",
+  "remarks": "Default value = 180.0f.\n            Min value = 0.0f.\n            Max value = 180.0f."
+}

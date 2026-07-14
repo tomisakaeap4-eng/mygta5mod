@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PedalLegsHelper.CentreForwards",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PedalLegsHelper",
+  "memberName": "CentreForwards",
+  "summary": "Move the center of the pedal for both legs forward (or backward -ve).",
+  "remarks": "Default value = 0.0f.\n            Min value = -1.0f.\n            Max value = 1.0f."
+}

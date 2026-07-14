@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.World.InteriorInstanceCapacity",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "InteriorInstanceCapacity",
+  "summary": "The total number of"
+}

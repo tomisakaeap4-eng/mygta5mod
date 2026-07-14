@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.AngVelThreshold",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyBalanceHelper",
+  "memberName": "AngVelThreshold",
+  "summary": "Somersault, twist, sideSomersault) threshold above which angVel is used for arms out (lean2) Unless drunk - DO NOT EXCEED 7.0 for each component.",
+  "remarks": "Default value = Vector3(1.2f, 3.0f, 1.2f).\n            Min value = 0.0f.\n            Max value = 40.0f."
+}

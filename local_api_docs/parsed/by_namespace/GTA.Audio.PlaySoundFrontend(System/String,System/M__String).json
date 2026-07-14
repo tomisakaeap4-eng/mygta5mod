@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.Audio.PlaySoundFrontend(System.String,System.String)",
+  "kind": "M",
+  "namespace": "GTA.Audio.PlaySoundFrontend(System",
+  "typeName": "String,System",
+  "memberName": "String)",
+  "summary": "Plays a sound from the game's sound files without transformation.",
+  "returns": "The identifier of the active sound effect instance.",
+  "params": [
+    {
+      "name": "soundFile",
+      "description": "The sound file to play."
+    },
+    {
+      "name": "soundSet",
+      "description": "The name of the sound inside the file."
+    }
+  ]
+}

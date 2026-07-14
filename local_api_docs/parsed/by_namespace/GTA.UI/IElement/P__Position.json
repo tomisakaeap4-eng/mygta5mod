@@ -1,0 +1,10 @@
+{
+  "name": "P:GTA.UI.IElement.Position",
+  "kind": "P",
+  "namespace": "GTA.UI",
+  "typeName": "IElement",
+  "memberName": "Position",
+  "summary": "Gets or sets the position of this",
+  "remarks": "If ScaledDraw is called, the position will be scaled by the width returned in",
+  "value": "The position scaled on a 1280*720 pixel base."
+}

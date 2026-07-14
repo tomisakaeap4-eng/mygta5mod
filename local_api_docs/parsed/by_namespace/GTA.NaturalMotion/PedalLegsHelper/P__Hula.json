@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PedalLegsHelper.Hula",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PedalLegsHelper",
+  "memberName": "Hula",
+  "summary": "If true circle the legs in a hula motion.",
+  "remarks": "Default value = False."
+}

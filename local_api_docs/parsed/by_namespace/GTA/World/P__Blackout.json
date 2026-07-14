@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.World.Blackout",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "Blackout",
+  "summary": "Sets a value indicating whether lights in the"
+}

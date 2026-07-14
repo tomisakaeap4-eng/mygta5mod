@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SmartFallHelper.Arms2LegsPhase",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SmartFallHelper",
+  "memberName": "Arms2LegsPhase",
+  "summary": "Phase angle between the arms and legs circling angle.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 6.5f."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.StayUprightHelper.TorqueStrength",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "StayUprightHelper",
+  "memberName": "TorqueStrength",
+  "summary": "Strength of torque based constraint.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 16.0f."
+}

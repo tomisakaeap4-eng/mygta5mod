@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFalling",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotConfigureArmsHelper",
+  "memberName": "ReachFalling",
+  "summary": "Reach for wound when falling.\n            0 = false,\n            1 = true,\n            2 = once per shot performance.",
+  "remarks": "Default value = 0.\n            Min value = 0.\n            Max value = 2."
+}

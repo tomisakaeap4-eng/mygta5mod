@@ -1,0 +1,18 @@
+{
+  "name": "M:GTA.Math.Vector2.#ctor(System.Single,System.Single)",
+  "kind": "M",
+  "namespace": "GTA.Math.Vector2.#ctor(System",
+  "typeName": "Single,System",
+  "memberName": "Single)",
+  "summary": "Initializes a new instance of the",
+  "params": [
+    {
+      "name": "x",
+      "description": "Initial value for the X component of the vector."
+    },
+    {
+      "name": "y",
+      "description": "Initial value for the Y component of the vector."
+    }
+  ]
+}

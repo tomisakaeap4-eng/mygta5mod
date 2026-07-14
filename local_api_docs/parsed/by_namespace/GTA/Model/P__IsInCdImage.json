@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Model.IsInCdImage",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Model",
+  "memberName": "IsInCdImage",
+  "summary": "Gets a value indicating whether this"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.StaggerFallHelper.PushOffDist",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "StaggerFallHelper",
+  "memberName": "PushOffDist",
+  "summary": "Amount stance foot is behind com in the direction of velocity before the leg tries to pushOff to increase momentum.\n            Increase to lower the probability of the pushOff making the character bouncy.",
+  "remarks": "Default value = 0.2f.\n            Min value = -1.0f.\n            Max value = 1.0f."
+}

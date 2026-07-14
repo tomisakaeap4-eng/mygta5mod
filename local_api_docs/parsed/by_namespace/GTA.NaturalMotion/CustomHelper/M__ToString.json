@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.NaturalMotion.CustomHelper.ToString",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "CustomHelper",
+  "memberName": "ToString",
+  "summary": "Returns the internal message name."
+}

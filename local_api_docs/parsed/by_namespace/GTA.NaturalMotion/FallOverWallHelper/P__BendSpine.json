@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.FallOverWallHelper.BendSpine",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "FallOverWallHelper",
+  "memberName": "BendSpine",
+  "summary": "Bend spine to help falloverwall if true.  Do nothing with the spine if false.",
+  "remarks": "Default value = True."
+}

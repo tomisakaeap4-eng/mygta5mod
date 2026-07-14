@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.GrabHelper.NormalL2",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "GrabHelper",
+  "memberName": "NormalL2",
+  "summary": "Normal for the 3rd left grab point (if pointsX4grab=true).",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f).\n            Min value = -1.0f.\n            Max value = 1.0f."
+}

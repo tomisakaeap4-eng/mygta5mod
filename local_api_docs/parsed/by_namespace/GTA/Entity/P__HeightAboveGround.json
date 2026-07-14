@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Entity.HeightAboveGround",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "HeightAboveGround",
+  "summary": "Gets how high above ground this"
+}

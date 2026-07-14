@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.UI.Sprite.Draw(System.Drawing.SizeF)",
+  "kind": "M",
+  "namespace": "GTA.UI.Sprite.Draw(System",
+  "typeName": "Drawing",
+  "memberName": "SizeF)",
+  "summary": "Draws the",
+  "params": [
+    {
+      "name": "offset",
+      "description": "The offset."
+    }
+  ]
+}

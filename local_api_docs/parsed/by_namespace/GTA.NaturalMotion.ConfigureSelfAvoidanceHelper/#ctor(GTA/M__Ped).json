@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.NaturalMotion.ConfigureSelfAvoidanceHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.ConfigureSelfAvoidanceHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the ConfigureSelfAvoidanceHelper for sending a ConfigureSelfAvoidance",
+  "remarks": "This single message allows to configure self avoidance for the character.BBDD Self avoidance tech.",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

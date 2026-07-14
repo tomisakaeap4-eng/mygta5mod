@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.UI.Hud.RadarZoom",
+  "kind": "P",
+  "namespace": "GTA.UI",
+  "typeName": "Hud",
+  "memberName": "RadarZoom",
+  "summary": "Sets how far the minimap should be zoomed in.",
+  "value": "The radar zoom; accepts values from 0 to 200."
+}

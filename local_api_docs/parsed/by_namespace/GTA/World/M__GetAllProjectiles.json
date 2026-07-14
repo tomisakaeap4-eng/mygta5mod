@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.World.GetAllProjectiles",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "GetAllProjectiles",
+  "summary": "Gets an"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.VehicleLockStatus.IgnoredByPlayer",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "VehicleLockStatus",
+  "memberName": "IgnoredByPlayer",
+  "summary": "Players cannot attempt to enter the"
+}

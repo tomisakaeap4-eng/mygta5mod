@@ -1,0 +1,7 @@
+{
+  "name": "M:GTA.Ped.ClearCauseOfDeathRecord",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "ClearCauseOfDeathRecord"
+}

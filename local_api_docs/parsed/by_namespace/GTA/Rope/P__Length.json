@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Rope.Length",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Rope",
+  "memberName": "Length",
+  "summary": "Gets or sets the length of this"
+}

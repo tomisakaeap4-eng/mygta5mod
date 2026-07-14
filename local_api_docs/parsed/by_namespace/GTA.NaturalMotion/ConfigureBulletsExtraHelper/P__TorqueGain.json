@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueGain",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBulletsExtraHelper",
+  "memberName": "TorqueGain",
+  "summary": "Multiplies impulse magnitude to arrive at torque that is applied.",
+  "remarks": "Default value = 4.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

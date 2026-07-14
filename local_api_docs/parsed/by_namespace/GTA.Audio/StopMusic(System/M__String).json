@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Audio.StopMusic(System.String)",
+  "kind": "M",
+  "namespace": "GTA.Audio",
+  "typeName": "StopMusic(System",
+  "memberName": "String)",
+  "summary": "Cancels playing a music file.",
+  "params": [
+    {
+      "name": "musicFile",
+      "description": "The music file to stop."
+    }
+  ]
+}

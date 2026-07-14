@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BuoyancyHelper.RightingTime",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BuoyancyHelper",
+  "memberName": "RightingTime",
+  "summary": "How long to wait after chest hits water to begin righting torque.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f."
+}

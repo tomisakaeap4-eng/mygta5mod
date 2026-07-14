@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.NaturalMotion.SetCharacterUnderwaterHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.SetCharacterUnderwaterHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the SetCharacterUnderwaterHelper for sending a SetCharacterUnderwater",
+  "remarks": "Sets viscosity applied to damping limbs.",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

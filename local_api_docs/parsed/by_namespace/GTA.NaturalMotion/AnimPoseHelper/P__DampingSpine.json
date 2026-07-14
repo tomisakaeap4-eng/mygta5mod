@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.AnimPoseHelper.DampingSpine",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "AnimPoseHelper",
+  "memberName": "DampingSpine",
+  "summary": "Damping applied to spine (applied after stiffness). If stiffness-ve then not applied (use current setting).",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 2.0f."
+}

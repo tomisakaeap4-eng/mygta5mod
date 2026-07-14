@@ -1,0 +1,9 @@
+{
+  "name": "M:GTA.InteriorProxy.GetInteriorProxyFromGameplayCam",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "InteriorProxy",
+  "memberName": "GetInteriorProxyFromGameplayCam",
+  "summary": "Gets the",
+  "remarks": "returns"
+}

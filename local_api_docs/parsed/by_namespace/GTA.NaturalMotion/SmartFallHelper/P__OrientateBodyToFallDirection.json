@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SmartFallHelper.OrientateBodyToFallDirection",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SmartFallHelper",
+  "memberName": "OrientateBodyToFallDirection",
+  "summary": "Toggle to orientate to fall direction.  i.e. orientate so that the character faces the horizontal velocity direction.",
+  "remarks": "Default value = False."
+}

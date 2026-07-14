@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.ForceLeanRandom",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "ForceLeanRandom",
+  "summary": "Gets a ForceLeanRandom Helper class for sending ForceLeanRandom"
+}

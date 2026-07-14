@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotHelper.ExagDuration",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotHelper",
+  "memberName": "ExagDuration",
+  "summary": "Exaggerate bullet duration (at exagMag/exagTwistMag).",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

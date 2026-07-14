@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureSoftLimitHelper.Damping",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureSoftLimitHelper",
+  "memberName": "Damping",
+  "summary": "Damping of the soft limit.\n            Parameter is used to calculate damper term that contributes to the desired acceleration.\n            To have the system critically dampened set it to 1.0.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.9f.\n            Max value = 1.1f."
+}

@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.World.CreateBlip(GTA.Math.Vector3)",
+  "kind": "M",
+  "namespace": "GTA.World.CreateBlip(GTA",
+  "typeName": "Math",
+  "memberName": "Vector3)",
+  "summary": "Creates a",
+  "params": [
+    {
+      "name": "position",
+      "description": "The position of the blip on the map."
+    }
+  ]
+}

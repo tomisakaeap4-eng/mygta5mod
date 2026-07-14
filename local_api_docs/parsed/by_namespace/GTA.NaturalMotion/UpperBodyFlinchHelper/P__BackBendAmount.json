@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.UpperBodyFlinchHelper.BackBendAmount",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "UpperBodyFlinchHelper",
+  "memberName": "BackBendAmount",
+  "summary": "Amount to bend the back during the flinch.",
+  "remarks": "Default value = -0.6f.\n            Min value = -1.0f.\n            Max value = 1.0f."
+}

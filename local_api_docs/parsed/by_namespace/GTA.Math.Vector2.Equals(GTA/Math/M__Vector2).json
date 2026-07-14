@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Math.Vector2.Equals(GTA.Math.Vector2)",
+  "kind": "M",
+  "namespace": "GTA.Math.Vector2.Equals(GTA",
+  "typeName": "Math",
+  "memberName": "Vector2)",
+  "summary": "Returns a value that indicates whether the current instance is equal to the specified object.",
+  "params": [
+    {
+      "name": "other",
+      "description": "Object to make the comparison with."
+    }
+  ]
+}

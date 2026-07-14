@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Game.EnableControlThisFrame(GTA.Control)",
+  "kind": "M",
+  "namespace": "GTA.Game",
+  "typeName": "EnableControlThisFrame(GTA",
+  "memberName": "Control)",
+  "summary": "Makes the engine respond to the given",
+  "params": [
+    {
+      "name": "control",
+      "description": "The"
+    }
+  ]
+}

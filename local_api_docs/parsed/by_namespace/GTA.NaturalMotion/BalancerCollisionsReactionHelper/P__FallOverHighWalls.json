@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.FallOverHighWalls",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BalancerCollisionsReactionHelper",
+  "memberName": "FallOverHighWalls",
+  "summary": "Trigger fall over wall if hit up to spine2 else only if hit up to spine1.",
+  "remarks": "Default value = False."
+}

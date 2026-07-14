@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.FallOverWallHelper.MinLegHeight",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "FallOverWallHelper",
+  "memberName": "MinLegHeight",
+  "summary": "Minimum height of pelvis above feet at which fallOverWall is attempted.",
+  "remarks": "Default value = 0.4f.\n            Min value = 0.1f.\n            Max value = 2.0f."
+}

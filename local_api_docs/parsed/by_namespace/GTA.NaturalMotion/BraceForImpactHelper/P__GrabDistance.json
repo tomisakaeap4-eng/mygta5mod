@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.GrabDistance",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BraceForImpactHelper",
+  "memberName": "GrabDistance",
+  "summary": "Relative distance at which the grab starts.",
+  "remarks": "Default value = 2.0f.\n            Min value = 0.0f.\n            Max value = 4.0f."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.EntityBone.ForwardVector",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "EntityBone",
+  "memberName": "ForwardVector",
+  "summary": "Gets the vector that points in front of this"
+}

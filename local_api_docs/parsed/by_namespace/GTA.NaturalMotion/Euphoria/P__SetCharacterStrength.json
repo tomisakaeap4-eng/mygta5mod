@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.SetCharacterStrength",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "SetCharacterStrength",
+  "summary": "Gets a SetCharacterStrength Helper class for sending SetCharacterStrength",
+  "remarks": "Sets character's strength on the dead-granny-to-healthy-terminator scale: [0..1]"
+}

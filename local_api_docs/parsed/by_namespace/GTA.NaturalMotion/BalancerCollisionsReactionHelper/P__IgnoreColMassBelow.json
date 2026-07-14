@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.IgnoreColMassBelow",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BalancerCollisionsReactionHelper",
+  "memberName": "IgnoreColMassBelow",
+  "summary": "Collisions with non-fixed objects with mass below this will not set this behavior off (e.g. ignore guns).",
+  "remarks": "Default value = 20.0f.\n            Min value = -1.0f.\n            Max value = 1000.0f."
+}

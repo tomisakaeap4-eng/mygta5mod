@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.AlwaysStepWithFarthest",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "AlwaysStepWithFarthest",
+  "remarks": "Default value = False."
+}

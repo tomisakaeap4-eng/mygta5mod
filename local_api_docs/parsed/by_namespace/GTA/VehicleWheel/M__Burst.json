@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.VehicleWheel.Burst",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "VehicleWheel",
+  "memberName": "Burst",
+  "summary": "Bursts this"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Model.Request(System.Int32)",
+  "kind": "M",
+  "namespace": "GTA.Model",
+  "typeName": "Request(System",
+  "memberName": "Int32)",
+  "summary": "Attempts to load this",
+  "params": [
+    {
+      "name": "timeout",
+      "description": "The time (in milliseconds) before giving up trying to load this"
+    }
+  ]
+}

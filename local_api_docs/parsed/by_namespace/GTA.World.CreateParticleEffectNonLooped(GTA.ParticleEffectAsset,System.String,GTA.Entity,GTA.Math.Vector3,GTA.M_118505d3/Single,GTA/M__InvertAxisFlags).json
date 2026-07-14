@@ -1,0 +1,38 @@
+{
+  "name": "M:GTA.World.CreateParticleEffectNonLooped(GTA.ParticleEffectAsset,System.String,GTA.Entity,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,GTA.InvertAxisFlags)",
+  "kind": "M",
+  "namespace": "GTA.World.CreateParticleEffectNonLooped(GTA.ParticleEffectAsset,System.String,GTA.Entity,GTA.Math.Vector3,GTA.Math.Vector3,System",
+  "typeName": "Single,GTA",
+  "memberName": "InvertAxisFlags)",
+  "summary": "Starts a Particle Effect on an",
+  "params": [
+    {
+      "name": "asset",
+      "description": "The effect asset to use."
+    },
+    {
+      "name": "effectName",
+      "description": "the name of the effect."
+    },
+    {
+      "name": "entity",
+      "description": "The"
+    },
+    {
+      "name": "off",
+      "description": "The offset from the"
+    },
+    {
+      "name": "rot",
+      "description": "The rotation, relative to the"
+    },
+    {
+      "name": "scale",
+      "description": "How much to scale the size of the effect by."
+    },
+    {
+      "name": "invertAxis",
+      "description": "Which axis to flip the effect in. For a car side exahust you may need to flip in the Y Axis"
+    }
+  ]
+}

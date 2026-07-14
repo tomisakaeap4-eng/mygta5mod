@@ -1,0 +1,34 @@
+{
+  "name": "M:GTA.World.AddRope(GTA.RopeType,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Single,System.Boolean)",
+  "kind": "M",
+  "namespace": "GTA.World.AddRope(GTA.RopeType,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System",
+  "typeName": "Single,System",
+  "memberName": "Boolean)",
+  "summary": "Spawns a",
+  "params": [
+    {
+      "name": "type",
+      "description": "The type of"
+    },
+    {
+      "name": "position",
+      "description": "The position of the"
+    },
+    {
+      "name": "rotation",
+      "description": "The rotation of the"
+    },
+    {
+      "name": "length",
+      "description": "The length of the"
+    },
+    {
+      "name": "minLength",
+      "description": "The minimum length of the"
+    },
+    {
+      "name": "breakable",
+      "description": "if set to"
+    }
+  ]
+}

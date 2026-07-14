@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.Turbo",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "Turbo",
+  "summary": "Gets or sets the current turbo value of this"
+}

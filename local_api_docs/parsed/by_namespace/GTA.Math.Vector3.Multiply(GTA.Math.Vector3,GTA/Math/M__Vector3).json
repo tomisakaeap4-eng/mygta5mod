@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.Math.Vector3.Multiply(GTA.Math.Vector3,GTA.Math.Vector3)",
+  "kind": "M",
+  "namespace": "GTA.Math.Vector3.Multiply(GTA.Math.Vector3,GTA",
+  "typeName": "Math",
+  "memberName": "Vector3)",
+  "summary": "Multiply a vector with another by performing component-wise multiplication.",
+  "returns": "The multiplied vector.",
+  "params": [
+    {
+      "name": "left",
+      "description": "The first vector to multiply."
+    },
+    {
+      "name": "right",
+      "description": "The second vector to multiply."
+    }
+  ]
+}

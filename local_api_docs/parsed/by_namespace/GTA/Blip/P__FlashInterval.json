@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Blip.FlashInterval",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Blip",
+  "memberName": "FlashInterval",
+  "summary": "Gets or sets the interval in ms between each blip flashing.\n            The value is up to 65535."
+}

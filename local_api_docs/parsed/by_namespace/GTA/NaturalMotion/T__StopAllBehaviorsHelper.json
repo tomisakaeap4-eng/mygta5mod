@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.NaturalMotion.StopAllBehaviorsHelper",
+  "kind": "T",
+  "namespace": "GTA",
+  "typeName": "NaturalMotion",
+  "memberName": "StopAllBehaviorsHelper",
+  "summary": "Send this message to immediately stop all behaviors from executing."
+}

@@ -1,0 +1,34 @@
+{
+  "name": "M:GTA.UI.Sprite.#ctor(System.String,System.String,System.Drawing.SizeF,System.Drawing.PointF,System.Drawing.Color,System.Single)",
+  "kind": "M",
+  "namespace": "GTA.UI.Sprite.#ctor(System.String,System.String,System.Drawing.SizeF,System.Drawing.PointF,System.Drawing",
+  "typeName": "Color,System",
+  "memberName": "Single)",
+  "summary": "Initializes a new instance of the",
+  "params": [
+    {
+      "name": "textureDict",
+      "description": "The Texture dictionary where the"
+    },
+    {
+      "name": "textureName",
+      "description": "Name of the"
+    },
+    {
+      "name": "size",
+      "description": "Set the"
+    },
+    {
+      "name": "position",
+      "description": "Set the"
+    },
+    {
+      "name": "color",
+      "description": "Set the"
+    },
+    {
+      "name": "rotation",
+      "description": "Set the rotation to draw the sprite, measured in degrees, see also"
+    }
+  ]
+}

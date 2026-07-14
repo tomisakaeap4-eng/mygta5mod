@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SetFallingReactionHelper.CallRDS",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SetFallingReactionHelper",
+  "memberName": "CallRDS",
+  "summary": "If true catchFall will call rollDownstairs if comVel GT comVelRDSThresh - prevents excessive sliding in catchFall.  Was previously only true for handsAndKnees.",
+  "remarks": "Default value = False."
+}

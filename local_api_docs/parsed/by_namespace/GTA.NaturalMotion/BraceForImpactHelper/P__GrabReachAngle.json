@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.GrabReachAngle",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BraceForImpactHelper",
+  "memberName": "GrabReachAngle",
+  "summary": "Angle from front at which the grab activates. If the point is outside this angle from front will not try to grab.",
+  "remarks": "Default value = 1.5f.\n            Min value = 0.0f.\n            Max value = 3.2f."
+}

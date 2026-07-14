@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.World.MillisecondsPerGameMinute",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "MillisecondsPerGameMinute",
+  "summary": "Gets or sets how many milliseconds in the real world one game minute takes.",
+  "value": "The milliseconds one game minute takes in the real world."
+}

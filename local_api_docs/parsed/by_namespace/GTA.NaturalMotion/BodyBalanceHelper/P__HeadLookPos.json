@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.HeadLookPos",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyBalanceHelper",
+  "memberName": "HeadLookPos",
+  "summary": "Position of thing to look at.",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
+}

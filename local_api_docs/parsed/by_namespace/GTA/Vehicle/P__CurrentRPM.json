@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Vehicle.CurrentRPM",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "CurrentRPM",
+  "summary": "Gets or sets the current RPM of this",
+  "value": "The current RPM between"
+}

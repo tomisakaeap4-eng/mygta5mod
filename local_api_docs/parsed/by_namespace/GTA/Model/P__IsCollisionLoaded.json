@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Model.IsCollisionLoaded",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Model",
+  "memberName": "IsCollisionLoaded",
+  "summary": "Gets a value indicating whether the collision for this"
+}

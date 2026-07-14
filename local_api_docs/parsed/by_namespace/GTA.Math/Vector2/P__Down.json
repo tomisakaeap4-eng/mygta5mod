@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Math.Vector2.Down",
+  "kind": "P",
+  "namespace": "GTA.Math",
+  "typeName": "Vector2",
+  "memberName": "Down",
+  "summary": "Returns the down vector. (0,-1)"
+}

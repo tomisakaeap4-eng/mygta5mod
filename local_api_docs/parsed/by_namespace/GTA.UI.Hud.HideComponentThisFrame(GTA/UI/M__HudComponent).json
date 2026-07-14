@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.UI.Hud.HideComponentThisFrame(GTA.UI.HudComponent)",
+  "kind": "M",
+  "namespace": "GTA.UI.Hud.HideComponentThisFrame(GTA",
+  "typeName": "UI",
+  "memberName": "HudComponent)",
+  "summary": "Hides the specified",
+  "params": [
+    {
+      "name": "component",
+      "description": "The"
+    }
+  ]
+}

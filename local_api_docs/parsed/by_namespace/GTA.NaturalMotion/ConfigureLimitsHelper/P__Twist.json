@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureLimitsHelper.Twist",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureLimitsHelper",
+  "memberName": "Twist",
+  "remarks": "Default value = 1.6f.\n            Min value = 0.0f.\n            Max value = 3.1f."
+}

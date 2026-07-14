@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.OnFireHelper.RollOverFlag",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "OnFireHelper",
+  "memberName": "RollOverFlag",
+  "summary": "Flag to set bodyWrithe trying to rollOver.",
+  "remarks": "Default value = True."
+}

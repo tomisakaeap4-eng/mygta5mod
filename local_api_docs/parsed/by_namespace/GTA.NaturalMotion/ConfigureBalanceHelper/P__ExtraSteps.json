@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.ExtraSteps",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "ExtraSteps",
+  "summary": "Allow the balancer to take this many more steps before hitting maxSteps. If negative nothing happens(safe default).",
+  "remarks": "Default value = -1.\n            Min value = -1."
+}

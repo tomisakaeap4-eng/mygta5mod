@@ -1,0 +1,34 @@
+{
+  "name": "M:GTA.World.ShootBullet(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Ped,GTA.WeaponAsset,System.Int32,System.Single)",
+  "kind": "M",
+  "namespace": "GTA.World.ShootBullet(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Ped,GTA.WeaponAsset,System",
+  "typeName": "Int32,System",
+  "memberName": "Single)",
+  "summary": "Fires a single bullet in the world",
+  "params": [
+    {
+      "name": "sourcePosition",
+      "description": "Where the bullet is fired from."
+    },
+    {
+      "name": "targetPosition",
+      "description": "Where the bullet is fired to."
+    },
+    {
+      "name": "owner",
+      "description": "The"
+    },
+    {
+      "name": "weaponAsset",
+      "description": "The weapon that the bullet is fired from."
+    },
+    {
+      "name": "damage",
+      "description": "The damage the bullet will cause."
+    },
+    {
+      "name": "speed",
+      "description": "The speed, only affects projectile weapons, leave -1 for default."
+    }
+  ]
+}

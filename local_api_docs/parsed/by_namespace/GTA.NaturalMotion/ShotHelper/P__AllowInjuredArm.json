@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotHelper.AllowInjuredArm",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotHelper",
+  "memberName": "AllowInjuredArm",
+  "summary": "Injured arm code runs if arm hit (turns and steps and bends injured arm).",
+  "remarks": "Default value = False."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.NaturalMotion.RegisterWeaponHelper",
+  "kind": "T",
+  "namespace": "GTA",
+  "typeName": "NaturalMotion",
+  "memberName": "RegisterWeaponHelper",
+  "summary": "Use this message to register weapon.  This is an alternativeto the registerWeapon public function."
+}

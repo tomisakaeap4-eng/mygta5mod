@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Blip.ShowsFriendIndicator",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Blip",
+  "memberName": "ShowsFriendIndicator",
+  "summary": "Gets or sets a value indicating whether this"
+}

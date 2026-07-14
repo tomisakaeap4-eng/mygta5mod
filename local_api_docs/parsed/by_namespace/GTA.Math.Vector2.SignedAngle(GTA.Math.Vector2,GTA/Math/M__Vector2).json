@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Math.Vector2.SignedAngle(GTA.Math.Vector2,GTA.Math.Vector2)",
+  "kind": "M",
+  "namespace": "GTA.Math.Vector2.SignedAngle(GTA.Math.Vector2,GTA",
+  "typeName": "Math",
+  "memberName": "Vector2)",
+  "summary": "Returns the signed angle in degrees between from and to."
+}

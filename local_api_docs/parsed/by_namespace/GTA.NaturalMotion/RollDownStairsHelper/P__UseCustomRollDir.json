@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.RollDownStairsHelper.UseCustomRollDir",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "RollDownStairsHelper",
+  "memberName": "UseCustomRollDir",
+  "summary": "Pass in true to use the customRollDir parameter.",
+  "remarks": "Default value = False."
+}

@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.Math.Matrix.op_Multiply(GTA.Math.Matrix,GTA.Math.Matrix)",
+  "kind": "M",
+  "namespace": "GTA.Math.Matrix.op_Multiply(GTA.Math.Matrix,GTA",
+  "typeName": "Math",
+  "memberName": "Matrix)",
+  "summary": "Multiplies two matrices.",
+  "returns": "The product of the two matrices.",
+  "params": [
+    {
+      "name": "left",
+      "description": "The first matrix to multiply."
+    },
+    {
+      "name": "right",
+      "description": "The second matrix to multiply."
+    }
+  ]
+}

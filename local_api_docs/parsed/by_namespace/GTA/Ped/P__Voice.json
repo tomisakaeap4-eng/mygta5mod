@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Ped.Voice",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "Voice",
+  "summary": "Sets the voice to use when this"
+}

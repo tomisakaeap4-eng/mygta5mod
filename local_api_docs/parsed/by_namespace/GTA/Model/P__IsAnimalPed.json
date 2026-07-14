@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Model.IsAnimalPed",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Model",
+  "memberName": "IsAnimalPed",
+  "summary": "Gets a value indicating whether this"
+}

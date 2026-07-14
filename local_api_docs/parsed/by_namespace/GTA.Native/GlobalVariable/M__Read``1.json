@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Native.GlobalVariable.Read``1",
+  "kind": "M",
+  "namespace": "GTA.Native",
+  "typeName": "GlobalVariable",
+  "memberName": "Read``1",
+  "summary": "Gets the value stored in the"
+}

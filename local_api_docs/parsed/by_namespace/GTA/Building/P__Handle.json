@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Building.Handle",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Building",
+  "memberName": "Handle",
+  "summary": "The handle of this"
+}

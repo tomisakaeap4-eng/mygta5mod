@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BuoyancyHelper.RightingStrength",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BuoyancyHelper",
+  "memberName": "RightingStrength",
+  "summary": "Strength of righting torque.",
+  "remarks": "Default value = 25.0f.\n            Min value = 0.0f."
+}

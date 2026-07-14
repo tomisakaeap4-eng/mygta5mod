@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.WindowTitle.CustomTeamName",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "WindowTitle",
+  "memberName": "CustomTeamName",
+  "summary": "\"Custom Team Name\""
+}

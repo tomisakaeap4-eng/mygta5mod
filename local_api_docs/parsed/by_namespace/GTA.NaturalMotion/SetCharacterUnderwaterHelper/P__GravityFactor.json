@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SetCharacterUnderwaterHelper.GravityFactor",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SetCharacterUnderwaterHelper",
+  "memberName": "GravityFactor",
+  "summary": "Gravity factor applied to character.",
+  "remarks": "Default value = 1.0f.\n            Min value = -10.0f.\n            Max value = 10.0f."
+}

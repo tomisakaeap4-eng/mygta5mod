@@ -1,0 +1,7 @@
+{
+  "name": "M:GTA.Entity.Delete",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "Delete"
+}

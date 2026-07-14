@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.MaxAngleAcross",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "MaxAngleAcross",
+  "summary": "Max aiming angle(deg) sideways across body midline measured from chest forward that the character will try to point.",
+  "remarks": "Default value = 90.0f.\n            Min value = 0.0f.\n            Max value = 180.0f."
+}

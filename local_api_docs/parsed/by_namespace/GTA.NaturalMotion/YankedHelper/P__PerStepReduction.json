@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.YankedHelper.PerStepReduction",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "YankedHelper",
+  "memberName": "PerStepReduction",
+  "summary": "LowerBody stiffness will be reduced every step to make the character fallover.",
+  "remarks": "Default value = 1.5f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

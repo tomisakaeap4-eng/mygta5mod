@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotShockSpinHelper.ShockSpinMax",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotShockSpinHelper",
+  "memberName": "ShockSpinMax",
+  "summary": "Maximum amount of torque to add if using shock-spin feature.",
+  "remarks": "Default value = 90.0f.\n            Min value = 0.0f.\n            Max value = 1000.0f."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.StaggerFallHelper.LowerBodyStiffnessEnd",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "StaggerFallHelper",
+  "memberName": "LowerBodyStiffnessEnd",
+  "summary": "LowerBodyStiffness at end.",
+  "remarks": "Default value = 8.0f.\n            Min value = 0.0f.\n            Max value = 16.0f."
+}

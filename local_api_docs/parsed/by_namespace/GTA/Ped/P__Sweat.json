@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Ped.Sweat",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "Sweat",
+  "summary": "Gets or sets the how much sweat should be rendered on this",
+  "value": "The sweat from 0 to 100, 0 being no sweat, 100 being saturated."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.StaggerFallHelper.LeanInDirMaxF",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "StaggerFallHelper",
+  "memberName": "LeanInDirMaxF",
+  "summary": "Max of leanInDirection magnitude when going forwards.",
+  "remarks": "Default value = 0.1f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

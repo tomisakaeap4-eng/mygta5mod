@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ForceLeanRandomHelper.LeanAmountMax",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ForceLeanRandomHelper",
+  "memberName": "LeanAmountMax",
+  "summary": "Maximum amount of lean.",
+  "remarks": "Default value = 0.4f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

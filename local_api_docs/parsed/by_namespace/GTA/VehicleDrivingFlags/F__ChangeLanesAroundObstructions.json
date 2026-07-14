@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.VehicleDrivingFlags.ChangeLanesAroundObstructions",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "VehicleDrivingFlags",
+  "memberName": "ChangeLanesAroundObstructions",
+  "summary": "Make the driver change lanes around obstructions.\n            Without this flag, even small obstacles make the driver completely change lanes."
+}

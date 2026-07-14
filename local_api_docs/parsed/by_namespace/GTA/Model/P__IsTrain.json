@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Model.IsTrain",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Model",
+  "memberName": "IsTrain",
+  "summary": "Gets a value indicating whether this"
+}

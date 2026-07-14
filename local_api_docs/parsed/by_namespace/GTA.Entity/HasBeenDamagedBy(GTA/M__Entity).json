@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Entity.HasBeenDamagedBy(GTA.Entity)",
+  "kind": "M",
+  "namespace": "GTA.Entity",
+  "typeName": "HasBeenDamagedBy(GTA",
+  "memberName": "Entity)",
+  "summary": "Determines whether this",
+  "params": [
+    {
+      "name": "entity",
+      "description": "The"
+    }
+  ]
+}

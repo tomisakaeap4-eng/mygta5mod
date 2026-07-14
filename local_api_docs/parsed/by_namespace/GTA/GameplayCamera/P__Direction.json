@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.GameplayCamera.Direction",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "GameplayCamera",
+  "memberName": "Direction",
+  "summary": "Gets the direction the"
+}

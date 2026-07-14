@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.AnimationFlags.RepositionWhenFinished",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "AnimationFlags",
+  "memberName": "RepositionWhenFinished",
+  "summary": "When the animation finishes pop the peds physical reprsentation position to match the visual representations position.\n            Note that the animator of the animation must not unwind the animation and must have an independent mover node."
+}

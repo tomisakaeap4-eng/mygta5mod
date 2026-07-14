@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.WindowTitle.EnterOutfitName",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "WindowTitle",
+  "memberName": "EnterOutfitName",
+  "summary": "\"Enter Outfit Name (MAX 15 characters)\""
+}

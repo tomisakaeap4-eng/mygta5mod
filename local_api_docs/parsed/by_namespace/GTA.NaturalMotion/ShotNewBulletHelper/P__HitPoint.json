@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotNewBulletHelper.HitPoint",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotNewBulletHelper",
+  "memberName": "HitPoint",
+  "summary": "Position of impact on character. Can be local or global depending on localHitPointInfo.",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
+}

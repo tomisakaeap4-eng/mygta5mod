@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.WeaponComponentCollection.ClipVariationsCount",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "WeaponComponentCollection",
+  "memberName": "ClipVariationsCount",
+  "summary": "Gets the number of compatible clip components."
+}

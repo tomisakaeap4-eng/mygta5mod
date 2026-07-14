@@ -1,0 +1,30 @@
+{
+  "name": "M:GTA.UI.Sprite.#ctor(System.String,System.String,System.Drawing.SizeF,System.Drawing.PointF,System.Drawing.Color)",
+  "kind": "M",
+  "namespace": "GTA.UI.Sprite.#ctor(System.String,System.String,System.Drawing.SizeF,System.Drawing.PointF,System",
+  "typeName": "Drawing",
+  "memberName": "Color)",
+  "summary": "Initializes a new instance of the",
+  "params": [
+    {
+      "name": "textureDict",
+      "description": "The Texture dictionary where the"
+    },
+    {
+      "name": "textureName",
+      "description": "Name of the"
+    },
+    {
+      "name": "size",
+      "description": "Set the"
+    },
+    {
+      "name": "position",
+      "description": "Set the"
+    },
+    {
+      "name": "color",
+      "description": "Set the"
+    }
+  ]
+}

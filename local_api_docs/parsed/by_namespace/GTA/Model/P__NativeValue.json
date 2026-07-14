@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Model.NativeValue",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Model",
+  "memberName": "NativeValue",
+  "summary": "Gets the native representation of this"
+}

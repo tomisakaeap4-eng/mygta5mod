@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Blip.Exists",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Blip",
+  "memberName": "Exists",
+  "summary": "Determines if this"
+}

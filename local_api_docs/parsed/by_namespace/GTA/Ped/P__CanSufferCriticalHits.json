@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Ped.CanSufferCriticalHits",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "CanSufferCriticalHits",
+  "summary": "Gets or Sets whether this"
+}

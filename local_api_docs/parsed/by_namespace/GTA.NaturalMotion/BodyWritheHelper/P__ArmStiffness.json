@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyWritheHelper.ArmStiffness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyWritheHelper",
+  "memberName": "ArmStiffness",
+  "remarks": "Default value = 13.0f.\n            Min value = 6.0f.\n            Max value = 16.0f."
+}

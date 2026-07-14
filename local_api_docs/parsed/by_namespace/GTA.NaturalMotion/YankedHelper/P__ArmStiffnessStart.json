@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.YankedHelper.ArmStiffnessStart",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "YankedHelper",
+  "memberName": "ArmStiffnessStart",
+  "summary": "Arm stiffness during the yanked timescale i.e. timeAtStartValues.",
+  "remarks": "Default value = 3.0f.\n            Min value = 0.0f.\n            Max value = 16.0f."
+}

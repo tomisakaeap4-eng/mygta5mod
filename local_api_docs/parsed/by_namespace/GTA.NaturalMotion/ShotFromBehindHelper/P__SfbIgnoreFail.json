@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotFromBehindHelper.SfbIgnoreFail",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotFromBehindHelper",
+  "memberName": "SfbIgnoreFail",
+  "summary": "0 = balancer fails as normal,\n            1 = ignore backArchedBack and leanedTooFarBack balancer failures,\n            2 = ignore backArchedBack balancer failure only,\n            3 = ignore leanedTooFarBack balancer failure only.",
+  "remarks": "Default value = 0.\n            Min value = 0.\n            Max value = 3."
+}

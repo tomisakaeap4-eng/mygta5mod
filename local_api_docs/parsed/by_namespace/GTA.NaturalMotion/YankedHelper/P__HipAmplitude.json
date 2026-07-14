@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.YankedHelper.HipAmplitude",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "YankedHelper",
+  "memberName": "HipAmplitude",
+  "summary": "Amount of hip movement.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 4.0f."
+}

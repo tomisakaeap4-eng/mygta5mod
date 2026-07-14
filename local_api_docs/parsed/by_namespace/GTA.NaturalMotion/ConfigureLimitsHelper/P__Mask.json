@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureLimitsHelper.Mask",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureLimitsHelper",
+  "memberName": "Mask",
+  "summary": "Two character body-masking value, bitwise joint mask or bitwise logic string of two character body-masking value  for joint limits to configure. Ignored if index != -1.",
+  "remarks": "Default value = \"fb\"."
+}

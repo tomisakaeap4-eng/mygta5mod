@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.BraceDistance",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyBalanceHelper",
+  "memberName": "BraceDistance",
+  "summary": "If -ve then do not brace.  distance from object at which to raise hands to brace 0.5 good if newBrace=true - otherwise 0.65.",
+  "remarks": "Default value = -1.0f.\n            Min value = -1.0f.\n            Max value = 1.0f."
+}

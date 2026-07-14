@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.VehicleDrivingFlags.DrivingModeAvoidVehiclesStopForPedsObeyLights",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "VehicleDrivingFlags",
+  "memberName": "DrivingModeAvoidVehiclesStopForPedsObeyLights",
+  "summary": "Swerve around cars, be careful around peds, and stop for lights."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.InstanceIndex",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BraceForImpactHelper",
+  "memberName": "InstanceIndex",
+  "summary": "LevelIndex of object to brace.",
+  "remarks": "Default value = -1.\n            Min value = -1."
+}

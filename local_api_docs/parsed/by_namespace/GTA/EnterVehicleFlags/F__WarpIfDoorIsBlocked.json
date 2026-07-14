@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.EnterVehicleFlags.WarpIfDoorIsBlocked",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "EnterVehicleFlags",
+  "memberName": "WarpIfDoorIsBlocked",
+  "summary": "Allow ped to warp to the seat if entry is blocked.\n            If the shuffle link to that seat is blocked by someone but the entry point for the shuffle link is not directly blocked, the"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.GameplayCamera.StopShaking",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "GameplayCamera",
+  "memberName": "StopShaking",
+  "summary": "Stops shaking the"
+}

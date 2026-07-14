@@ -1,0 +1,18 @@
+{
+  "name": "M:GTA.Math.Vector3.op_Inequality(GTA.Math.Vector3,GTA.Math.Vector3)",
+  "kind": "M",
+  "namespace": "GTA.Math.Vector3.op_Inequality(GTA.Math.Vector3,GTA",
+  "typeName": "Math",
+  "memberName": "Vector3)",
+  "summary": "Tests for inequality between two objects.",
+  "params": [
+    {
+      "name": "left",
+      "description": "The first value to compare."
+    },
+    {
+      "name": "right",
+      "description": "The second value to compare."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Entity.IsAttachedTo(GTA.Entity)",
+  "kind": "M",
+  "namespace": "GTA.Entity",
+  "typeName": "IsAttachedTo(GTA",
+  "memberName": "Entity)",
+  "summary": "Determines whether this",
+  "params": [
+    {
+      "name": "entity",
+      "description": "The"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.UnSnapRatio",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BalancerCollisionsReactionHelper",
+  "memberName": "UnSnapRatio",
+  "summary": "The magnitude of the reverse snap.",
+  "remarks": "Default value = 0.7f.\n            Min value = 0.0f.\n            Max value = 100.0f."
+}

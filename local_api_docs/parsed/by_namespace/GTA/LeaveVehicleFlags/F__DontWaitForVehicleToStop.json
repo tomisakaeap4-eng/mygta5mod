@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.LeaveVehicleFlags.DontWaitForVehicleToStop",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "LeaveVehicleFlags",
+  "memberName": "DontWaitForVehicleToStop",
+  "summary": "Don't wait for the vehicle to stop before exiting."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.ShotShockSpin",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "ShotShockSpin",
+  "summary": "Gets a ShotShockSpin Helper class for sending ShotShockSpin",
+  "remarks": "configure the shockSpin effect in shot.  Spin/Lift the character using cheat torques/forces"
+}

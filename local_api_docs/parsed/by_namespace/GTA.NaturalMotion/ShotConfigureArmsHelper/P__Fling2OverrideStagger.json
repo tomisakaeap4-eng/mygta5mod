@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2OverrideStagger",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotConfigureArmsHelper",
+  "memberName": "Fling2OverrideStagger",
+  "summary": "Override stagger arms even if staggerFall:m_upperBodyReaction = true.",
+  "remarks": "Default value = False."
+}

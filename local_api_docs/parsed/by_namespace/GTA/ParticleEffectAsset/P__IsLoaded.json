@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.ParticleEffectAsset.IsLoaded",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "ParticleEffectAsset",
+  "memberName": "IsLoaded",
+  "summary": "Gets a value indicating whether this",
+  "remarks": "Use"
+}

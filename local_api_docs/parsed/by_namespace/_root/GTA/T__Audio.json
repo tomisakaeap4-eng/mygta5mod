@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.Audio",
+  "kind": "T",
+  "namespace": "",
+  "typeName": "GTA",
+  "memberName": "Audio",
+  "summary": "Methods to manipulate audio."
+}

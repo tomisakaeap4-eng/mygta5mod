@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Game.IsEnabledControlPressed(GTA.Control)",
+  "kind": "M",
+  "namespace": "GTA.Game",
+  "typeName": "IsEnabledControlPressed(GTA",
+  "memberName": "Control)",
+  "summary": "Gets whether a",
+  "params": [
+    {
+      "name": "control",
+      "description": "The"
+    }
+  ]
+}

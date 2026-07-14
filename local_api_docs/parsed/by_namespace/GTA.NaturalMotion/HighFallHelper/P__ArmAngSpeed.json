@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.HighFallHelper.ArmAngSpeed",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "HighFallHelper",
+  "memberName": "ArmAngSpeed",
+  "summary": "Arm circling speed in armWindMillAdaptive.",
+  "remarks": "Default value = 7.9f.\n            Min value = 0.0f.\n            Max value = 20.0f."
+}

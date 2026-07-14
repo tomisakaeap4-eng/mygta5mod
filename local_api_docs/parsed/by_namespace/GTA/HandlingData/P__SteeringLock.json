@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.HandlingData.SteeringLock",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "HandlingData",
+  "memberName": "SteeringLock",
+  "value": "The value that multiplies the game's calculation of the angle of the steer wheel in radians, between 0.01 and above."
+}

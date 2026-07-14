@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.IsSirenSilent",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "IsSirenSilent",
+  "summary": "Sets a value indicating whether the siren on this"
+}

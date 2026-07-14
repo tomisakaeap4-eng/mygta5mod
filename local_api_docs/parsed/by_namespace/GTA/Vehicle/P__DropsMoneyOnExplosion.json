@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.DropsMoneyOnExplosion",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "DropsMoneyOnExplosion",
+  "summary": "Gets or sets a value indicating whether this"
+}

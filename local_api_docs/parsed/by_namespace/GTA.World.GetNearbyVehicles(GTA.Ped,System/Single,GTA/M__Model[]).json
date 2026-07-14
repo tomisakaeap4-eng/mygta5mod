@@ -1,0 +1,23 @@
+{
+  "name": "M:GTA.World.GetNearbyVehicles(GTA.Ped,System.Single,GTA.Model[])",
+  "kind": "M",
+  "namespace": "GTA.World.GetNearbyVehicles(GTA.Ped,System",
+  "typeName": "Single,GTA",
+  "memberName": "Model[])",
+  "summary": "Gets an",
+  "remarks": "Doesnt include the",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The ped to check."
+    },
+    {
+      "name": "radius",
+      "description": "The maximun distance from the"
+    },
+    {
+      "name": "models",
+      "description": "The"
+    }
+  ]
+}

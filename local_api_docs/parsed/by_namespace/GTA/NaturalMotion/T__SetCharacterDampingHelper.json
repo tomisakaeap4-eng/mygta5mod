@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.NaturalMotion.SetCharacterDampingHelper",
+  "kind": "T",
+  "namespace": "GTA",
+  "typeName": "NaturalMotion",
+  "memberName": "SetCharacterDampingHelper",
+  "summary": "Damp out cartwheeling and somersaulting above a certain threshold."
+}

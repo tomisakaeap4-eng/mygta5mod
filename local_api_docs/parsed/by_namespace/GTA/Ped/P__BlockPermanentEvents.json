@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Ped.BlockPermanentEvents",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "BlockPermanentEvents",
+  "summary": "Sets whether permanent events are blocked for this"
+}

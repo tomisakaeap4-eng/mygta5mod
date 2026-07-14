@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.AnimPoseHelper.UseZMPGravityCompensation",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "AnimPoseHelper",
+  "memberName": "UseZMPGravityCompensation",
+  "summary": "If true then modify gravity compensation based on stance (can reduce gravity compensation to zero if cofm is outside of balance area).",
+  "remarks": "Default value = True."
+}

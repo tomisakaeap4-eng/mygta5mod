@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Entity.IsAlive",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "IsAlive",
+  "summary": "Gets a value indicating whether this"
+}

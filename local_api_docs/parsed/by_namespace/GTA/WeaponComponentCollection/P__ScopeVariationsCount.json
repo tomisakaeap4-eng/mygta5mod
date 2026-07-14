@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.WeaponComponentCollection.ScopeVariationsCount",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "WeaponComponentCollection",
+  "memberName": "ScopeVariationsCount",
+  "summary": "Gets the number of compatible scope components."
+}

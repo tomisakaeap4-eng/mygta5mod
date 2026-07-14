@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SetFrictionScaleHelper.GlobalMin",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SetFrictionScaleHelper",
+  "memberName": "GlobalMin",
+  "summary": "Character-wide minimum impact friction. Affects all parts (not just those in mask).",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 1000000.0f."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Player.IsSpecialAbilityActive",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Player",
+  "memberName": "IsSpecialAbilityActive",
+  "summary": "Gets a value indicating whether this"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.NaturalMotion.ShotInGutsHelper",
+  "kind": "T",
+  "namespace": "GTA",
+  "typeName": "NaturalMotion",
+  "memberName": "ShotInGutsHelper",
+  "summary": "Configure the shot in guts reaction."
+}

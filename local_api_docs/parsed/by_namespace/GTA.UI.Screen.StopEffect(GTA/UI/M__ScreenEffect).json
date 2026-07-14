@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.UI.Screen.StopEffect(GTA.UI.ScreenEffect)",
+  "kind": "M",
+  "namespace": "GTA.UI.Screen.StopEffect(GTA",
+  "typeName": "UI",
+  "memberName": "ScreenEffect)",
+  "summary": "Stops applying the specified effect to the screen.",
+  "params": [
+    {
+      "name": "effectName",
+      "description": "The"
+    }
+  ]
+}

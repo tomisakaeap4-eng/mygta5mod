@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.Math.Quaternion.op_Multiply(GTA.Math.Quaternion,GTA.Math.Quaternion)",
+  "kind": "M",
+  "namespace": "GTA.Math.Quaternion.op_Multiply(GTA.Math.Quaternion,GTA",
+  "typeName": "Math",
+  "memberName": "Quaternion)",
+  "summary": "Multiplies a quaternion by another.",
+  "returns": "The multiplied quaternion.",
+  "params": [
+    {
+      "name": "left",
+      "description": "The first quaternion to multiply."
+    },
+    {
+      "name": "right",
+      "description": "The second quaternion to multiply."
+    }
+  ]
+}

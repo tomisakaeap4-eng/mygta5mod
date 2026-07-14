@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.InjuredOnGround",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "InjuredOnGround",
+  "summary": "Gets a InjuredOnGround Helper class for sending InjuredOnGround",
+  "remarks": "InjuredOnGround"
+}

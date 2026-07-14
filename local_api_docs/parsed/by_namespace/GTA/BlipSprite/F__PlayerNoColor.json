@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.BlipSprite.PlayerNoColor",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "BlipSprite",
+  "memberName": "PlayerNoColor",
+  "summary": "This enum is wrongly named. The sprite doesn't have outline, but you can change the color."
+}

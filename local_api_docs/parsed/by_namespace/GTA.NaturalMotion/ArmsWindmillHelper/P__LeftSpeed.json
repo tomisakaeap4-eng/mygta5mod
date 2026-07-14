@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ArmsWindmillHelper.LeftSpeed",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ArmsWindmillHelper",
+  "memberName": "LeftSpeed",
+  "summary": "Speed of target around the circle.",
+  "remarks": "Default value = 1.0f.\n            Min value = -2.0f.\n            Max value = 2.0f."
+}

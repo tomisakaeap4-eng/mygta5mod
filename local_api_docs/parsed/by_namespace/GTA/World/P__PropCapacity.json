@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.World.PropCapacity",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "PropCapacity",
+  "summary": "The total number of",
+  "remarks": "The game will crash when the number of"
+}

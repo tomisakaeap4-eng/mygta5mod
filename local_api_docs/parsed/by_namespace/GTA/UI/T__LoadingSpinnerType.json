@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.UI.LoadingSpinnerType",
+  "kind": "T",
+  "namespace": "GTA",
+  "typeName": "UI",
+  "memberName": "LoadingSpinnerType",
+  "summary": "An enumeration of possible loading spinner styles."
+}

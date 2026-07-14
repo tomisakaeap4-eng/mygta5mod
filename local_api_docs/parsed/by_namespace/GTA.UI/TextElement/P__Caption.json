@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.UI.TextElement.Caption",
+  "kind": "P",
+  "namespace": "GTA.UI",
+  "typeName": "TextElement",
+  "memberName": "Caption",
+  "summary": "Gets or sets the text to draw in this",
+  "value": "The caption."
+}

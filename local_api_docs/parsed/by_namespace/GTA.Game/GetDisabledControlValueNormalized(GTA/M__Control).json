@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.Game.GetDisabledControlValueNormalized(GTA.Control)",
+  "kind": "M",
+  "namespace": "GTA.Game",
+  "typeName": "GetDisabledControlValueNormalized(GTA",
+  "memberName": "Control)",
+  "summary": "Gets an analog value of a disabled",
+  "returns": "The normalized",
+  "params": [
+    {
+      "name": "control",
+      "description": "The"
+    }
+  ]
+}

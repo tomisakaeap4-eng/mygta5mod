@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.World.PropCount",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "PropCount",
+  "summary": "A fast way to get the total number of"
+}

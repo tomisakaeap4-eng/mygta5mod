@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Audio.HasSoundFinished(System.Int32)",
+  "kind": "M",
+  "namespace": "GTA.Audio",
+  "typeName": "HasSoundFinished(System",
+  "memberName": "Int32)",
+  "summary": "Gets a boolean indicating whether the specified sound instance has completed playing.",
+  "params": [
+    {
+      "name": "id",
+      "description": "The identifier of the active sound effect instance."
+    }
+  ]
+}

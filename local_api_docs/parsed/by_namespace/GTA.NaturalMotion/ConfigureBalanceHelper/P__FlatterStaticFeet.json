@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.FlatterStaticFeet",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "FlatterStaticFeet",
+  "remarks": "Default value = False."
+}

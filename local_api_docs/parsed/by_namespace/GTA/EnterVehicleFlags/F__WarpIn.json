@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.EnterVehicleFlags.WarpIn",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "EnterVehicleFlags",
+  "memberName": "WarpIn",
+  "summary": "Warp the"
+}

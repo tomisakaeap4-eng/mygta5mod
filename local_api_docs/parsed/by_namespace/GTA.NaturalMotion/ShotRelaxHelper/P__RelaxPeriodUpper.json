@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotRelaxHelper.RelaxPeriodUpper",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotRelaxHelper",
+  "memberName": "RelaxPeriodUpper",
+  "summary": "Time over which to relax to full relaxation for upper body.",
+  "remarks": "Default value = 2.0f.\n            Min value = 0.0f.\n            Max value = 40.0f."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.BlipSprite.PersonalVehicleCar",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "BlipSprite",
+  "memberName": "PersonalVehicleCar",
+  "summary": "The default English text for this value is \"Gang Vehicle\"."
+}

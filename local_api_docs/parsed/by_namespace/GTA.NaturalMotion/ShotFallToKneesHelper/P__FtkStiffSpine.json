@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkStiffSpine",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotFallToKneesHelper",
+  "memberName": "FtkStiffSpine",
+  "summary": "Stiffen spine when falling from knees (only if rds called).",
+  "remarks": "Default value = False."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Ped.SeatIndex",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "SeatIndex",
+  "summary": "Gets the",
+  "value": "The"
+}

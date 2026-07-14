@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.UI.Hud.ShowComponentThisFrame(GTA.UI.HudComponent)",
+  "kind": "M",
+  "namespace": "GTA.UI.Hud.ShowComponentThisFrame(GTA",
+  "typeName": "UI",
+  "memberName": "HudComponent)",
+  "summary": "Draws the specified",
+  "remarks": "This will only draw the",
+  "params": [
+    {
+      "name": "component",
+      "description": "The"
+    }
+  ]
+}

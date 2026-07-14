@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SmartFallHelper.Teeter",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SmartFallHelper",
+  "memberName": "Teeter",
+  "summary": "Set up an immediate teeter in the direction of trave if initial state is SF_Balance.",
+  "remarks": "Default value = False."
+}

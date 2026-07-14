@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.UI.Screen.Width",
+  "kind": "F",
+  "namespace": "GTA.UI",
+  "typeName": "Screen",
+  "memberName": "Width",
+  "summary": "The base width of the screen used for all UI Calculations, unless ScaledDraw is used"
+}

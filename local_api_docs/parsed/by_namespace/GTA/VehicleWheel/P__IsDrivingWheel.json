@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.VehicleWheel.IsDrivingWheel",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "VehicleWheel",
+  "memberName": "IsDrivingWheel",
+  "summary": "Gets or sets a value indicating whether this"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.InteriorProxy.IsCapped",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "InteriorProxy",
+  "memberName": "IsCapped",
+  "summary": "Gets a value indicating whether this"
+}

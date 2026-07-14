@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.UseBodyTurn",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyBalanceHelper",
+  "memberName": "UseBodyTurn",
+  "remarks": "Default value = True."
+}

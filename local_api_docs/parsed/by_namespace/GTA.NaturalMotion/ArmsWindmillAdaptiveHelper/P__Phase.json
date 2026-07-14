@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ArmsWindmillAdaptiveHelper.Phase",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ArmsWindmillAdaptiveHelper",
+  "memberName": "Phase",
+  "summary": "Set to a non-zero value to desynchronize the left and right arms motion.",
+  "remarks": "Default value = 0.0f.\n            Min value = -4.0f.\n            Max value = 8.0f."
+}

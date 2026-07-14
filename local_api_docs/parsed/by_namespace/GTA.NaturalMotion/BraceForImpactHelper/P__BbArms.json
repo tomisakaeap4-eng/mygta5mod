@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.BbArms",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BraceForImpactHelper",
+  "memberName": "BbArms",
+  "summary": "Use bodyBalance arms for the default (non bracing) behavior if bodyBalance is active.",
+  "remarks": "Default value = False."
+}

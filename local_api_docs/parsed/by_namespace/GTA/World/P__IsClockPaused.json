@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.World.IsClockPaused",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "IsClockPaused",
+  "summary": "Gets or sets a value indicating whether the in-game clock is paused."
+}

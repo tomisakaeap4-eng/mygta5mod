@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.ParticleEffect.Range",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "ParticleEffect",
+  "memberName": "Range",
+  "summary": "Gets or sets the range of this"
+}

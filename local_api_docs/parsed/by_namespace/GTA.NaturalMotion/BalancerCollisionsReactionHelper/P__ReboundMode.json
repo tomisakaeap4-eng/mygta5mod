@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.ReboundMode",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BalancerCollisionsReactionHelper",
+  "memberName": "ReboundMode",
+  "summary": "0=fall2knees/slump if shot not running, 1=stumble, 2=slump, 3=restart.",
+  "remarks": "Default value = 0.\n            Min value = 0.\n            Max value = 3."
+}

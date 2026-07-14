@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.NaturalMotion.SetStiffnessHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.SetStiffnessHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the SetStiffnessHelper for sending a SetStiffness",
+  "remarks": "Use this message to manually set the body stiffness values -before using Active Pose to drive to an animated pose, for example.",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

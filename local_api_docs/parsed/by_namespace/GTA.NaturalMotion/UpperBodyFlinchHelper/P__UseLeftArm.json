@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.UpperBodyFlinchHelper.UseLeftArm",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "UpperBodyFlinchHelper",
+  "memberName": "UseLeftArm",
+  "summary": "Toggle to Use the Left arm.",
+  "remarks": "Default value = True."
+}

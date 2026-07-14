@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.GameplayCamera.Rotation",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "GameplayCamera",
+  "memberName": "Rotation",
+  "summary": "Gets the rotation of the",
+  "value": "The yaw, pitch and roll rotations measured in degrees."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Math.Quaternion.Conjugate",
+  "kind": "M",
+  "namespace": "GTA.Math",
+  "typeName": "Quaternion",
+  "memberName": "Conjugate",
+  "summary": "Conjugates the quaternion."
+}

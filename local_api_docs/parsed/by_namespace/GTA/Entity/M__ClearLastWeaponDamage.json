@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Entity.ClearLastWeaponDamage",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "ClearLastWeaponDamage",
+  "summary": "Clears the last weapon damage this"
+}

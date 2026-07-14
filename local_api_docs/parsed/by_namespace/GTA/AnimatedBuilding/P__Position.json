@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.AnimatedBuilding.Position",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "AnimatedBuilding",
+  "memberName": "Position",
+  "summary": "Gets or sets the position of this",
+  "value": "The position in world space."
+}

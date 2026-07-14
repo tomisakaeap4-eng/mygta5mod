@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Game.FrameCount",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Game",
+  "memberName": "FrameCount",
+  "summary": "Gets the total number of frames that have been rendered in this session."
+}

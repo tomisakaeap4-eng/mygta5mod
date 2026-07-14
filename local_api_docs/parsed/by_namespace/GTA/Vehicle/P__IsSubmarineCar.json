@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.IsSubmarineCar",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "IsSubmarineCar",
+  "summary": "Gets a value indicating whether this"
+}

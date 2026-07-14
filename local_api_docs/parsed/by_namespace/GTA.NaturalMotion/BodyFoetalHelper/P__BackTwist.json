@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyFoetalHelper.BackTwist",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyFoetalHelper",
+  "memberName": "BackTwist",
+  "summary": "Amount of random back twist to add.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

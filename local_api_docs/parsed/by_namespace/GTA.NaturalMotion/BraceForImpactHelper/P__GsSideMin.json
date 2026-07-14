@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.GsSideMin",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BraceForImpactHelper",
+  "memberName": "GsSideMin",
+  "summary": "ID for glancing spin. Min depth to be considered on the side of a car (-ve is inside the car area).",
+  "remarks": "Default value = -0.2f.\n            Min value = -10.0f.\n            Max value = 1.0f."
+}

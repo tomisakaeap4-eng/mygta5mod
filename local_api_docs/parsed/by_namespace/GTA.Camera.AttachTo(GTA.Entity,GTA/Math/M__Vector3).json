@@ -1,0 +1,18 @@
+{
+  "name": "M:GTA.Camera.AttachTo(GTA.Entity,GTA.Math.Vector3)",
+  "kind": "M",
+  "namespace": "GTA.Camera.AttachTo(GTA.Entity,GTA",
+  "typeName": "Math",
+  "memberName": "Vector3)",
+  "summary": "Attaches this",
+  "params": [
+    {
+      "name": "entity",
+      "description": "The"
+    },
+    {
+      "name": "offset",
+      "description": "The offset from the"
+    }
+  ]
+}

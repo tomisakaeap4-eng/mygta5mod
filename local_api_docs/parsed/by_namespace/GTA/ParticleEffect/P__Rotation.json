@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.ParticleEffect.Rotation",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "ParticleEffect",
+  "memberName": "Rotation",
+  "summary": "Sets the rotation of this"
+}

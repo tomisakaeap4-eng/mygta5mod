@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.UI.LoadingPrompt.Hide",
+  "kind": "M",
+  "namespace": "GTA.UI",
+  "typeName": "LoadingPrompt",
+  "memberName": "Hide",
+  "summary": "Remove the loading prompt at the bottom right of the screen"
+}

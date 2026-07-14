@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ArmsWindmillAdaptiveHelper.ArmStiffness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ArmsWindmillAdaptiveHelper",
+  "memberName": "ArmStiffness",
+  "summary": "How stiff the arms are controls how pronounced the windmilling motion appears.",
+  "remarks": "Default value = 14.1f.\n            Min value = 6.0f.\n            Max value = 16.0f."
+}

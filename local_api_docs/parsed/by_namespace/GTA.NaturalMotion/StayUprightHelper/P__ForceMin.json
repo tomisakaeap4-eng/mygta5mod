@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.StayUprightHelper.ForceMin",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "StayUprightHelper",
+  "memberName": "ForceMin",
+  "summary": "When min and max are greater than 0 the constraint strength is determined from character strength, scaled into the range given by min and max.",
+  "remarks": "Default value = -1.0f.\n            Min value = -1.0f.\n            Max value = 16.0f."
+}

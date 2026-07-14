@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBulletsHelper.ImpulseSpineAngStart",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBulletsHelper",
+  "memberName": "ImpulseSpineAngStart",
+  "summary": "100% GE Start to impulseSpineAngMult*100% LT End. NB: Start GT End.  This the dot of hip2Head with up.",
+  "remarks": "Default value = 0.7f.\n            Min value = -1.0f.\n            Max value = 1.0f."
+}

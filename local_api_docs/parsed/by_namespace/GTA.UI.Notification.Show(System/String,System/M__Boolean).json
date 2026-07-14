@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.UI.Notification.Show(System.String,System.Boolean)",
+  "kind": "M",
+  "namespace": "GTA.UI.Notification.Show(System",
+  "typeName": "String,System",
+  "memberName": "Boolean)",
+  "summary": "Creates a",
+  "returns": "The handle of the",
+  "params": [
+    {
+      "name": "message",
+      "description": "The message in the notification."
+    },
+    {
+      "name": "blinking",
+      "description": "if set to"
+    }
+  ]
+}

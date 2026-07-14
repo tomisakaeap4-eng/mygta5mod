@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.HandlingData.MemoryAddress",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "HandlingData",
+  "memberName": "MemoryAddress",
+  "summary": "Gets the memory address where the"
+}

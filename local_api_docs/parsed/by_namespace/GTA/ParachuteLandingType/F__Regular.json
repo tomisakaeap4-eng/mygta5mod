@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.ParachuteLandingType.Regular",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "ParachuteLandingType",
+  "memberName": "Regular",
+  "summary": "Ped is landing at regular speed (they are stumbling)."
+}

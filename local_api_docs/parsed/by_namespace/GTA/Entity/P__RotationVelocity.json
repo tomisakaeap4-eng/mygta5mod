@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Entity.RotationVelocity",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "RotationVelocity",
+  "summary": "Gets or sets the rotation velocity of this"
+}

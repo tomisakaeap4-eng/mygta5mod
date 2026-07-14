@@ -1,0 +1,22 @@
+{
+  "name": "M:GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single)",
+  "kind": "M",
+  "namespace": "GTA.UI.TextElement.#ctor(System.String,System.Drawing",
+  "typeName": "PointF,System",
+  "memberName": "Single)",
+  "summary": "Initializes a new instance of the",
+  "params": [
+    {
+      "name": "caption",
+      "description": "The"
+    },
+    {
+      "name": "position",
+      "description": "Set the"
+    },
+    {
+      "name": "scale",
+      "description": "Sets a"
+    }
+  ]
+}

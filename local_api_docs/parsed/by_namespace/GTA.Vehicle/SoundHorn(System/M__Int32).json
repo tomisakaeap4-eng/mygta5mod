@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Vehicle.SoundHorn(System.Int32)",
+  "kind": "M",
+  "namespace": "GTA.Vehicle",
+  "typeName": "SoundHorn(System",
+  "memberName": "Int32)",
+  "summary": "Sounds the horn on this",
+  "params": [
+    {
+      "name": "duration",
+      "description": "The duration in milliseconds to sound the horn for."
+    }
+  ]
+}

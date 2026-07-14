@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.InteriorProxy.op_Implicit(GTA.InteriorProxy)~GTA.Native.InputArgument",
+  "kind": "M",
+  "namespace": "GTA.InteriorProxy.op_Implicit(GTA.InteriorProxy)~GTA",
+  "typeName": "Native",
+  "memberName": "InputArgument",
+  "summary": "Converts an"
+}

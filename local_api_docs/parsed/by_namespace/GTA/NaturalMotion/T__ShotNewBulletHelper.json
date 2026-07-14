@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.NaturalMotion.ShotNewBulletHelper",
+  "kind": "T",
+  "namespace": "GTA",
+  "typeName": "NaturalMotion",
+  "memberName": "ShotNewBulletHelper",
+  "summary": "Send new wound information to the shot.  Can cause shot to restart it's performance in part or in whole."
+}

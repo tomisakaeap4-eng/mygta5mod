@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.HipsLeanTowardsObjectHelper.BoundIndex",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "HipsLeanTowardsObjectHelper",
+  "memberName": "BoundIndex",
+  "summary": "BoundIndex of object to lean hips towards (0 = just use instance coordinates).",
+  "remarks": "Default value = 0.\n            Min value = 0."
+}

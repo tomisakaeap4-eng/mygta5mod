@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.GrabHoldTimer",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BraceForImpactHelper",
+  "memberName": "GrabHoldTimer",
+  "summary": "Amount of time, in seconds, before grab automatically bails.",
+  "remarks": "Default value = 2.5f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Math.Vector2.Up",
+  "kind": "P",
+  "namespace": "GTA.Math",
+  "typeName": "Vector2",
+  "memberName": "Up",
+  "summary": "Returns the up vector. (0,1)"
+}

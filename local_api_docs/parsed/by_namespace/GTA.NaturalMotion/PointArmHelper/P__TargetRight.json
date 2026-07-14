@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointArmHelper.TargetRight",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointArmHelper",
+  "memberName": "TargetRight",
+  "summary": "Point to point to (in world space).",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
+}

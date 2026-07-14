@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Entity.Exists",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "Exists",
+  "summary": "Determines if this"
+}

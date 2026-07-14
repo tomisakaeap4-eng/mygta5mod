@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.ParticleEffect.Scale",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "ParticleEffect",
+  "memberName": "Scale",
+  "summary": "Gets or sets the size scaling factor of this",
+  "value": "The scale, default = 1.0f;\n            To Decrease the size use a value less than 1.0f;\n            To Increase the size use a value greater than 1.0f;"
+}

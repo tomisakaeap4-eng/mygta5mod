@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.InteriorProxy.IsDisabled",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "InteriorProxy",
+  "memberName": "IsDisabled",
+  "summary": "Gets a value indicating whether this"
+}

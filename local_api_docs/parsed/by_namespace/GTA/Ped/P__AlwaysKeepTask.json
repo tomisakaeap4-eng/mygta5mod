@@ -1,0 +1,7 @@
+{
+  "name": "P:GTA.Ped.AlwaysKeepTask",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "AlwaysKeepTask"
+}

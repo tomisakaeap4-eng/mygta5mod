@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.AudioFlags",
+  "kind": "T",
+  "namespace": "",
+  "typeName": "GTA",
+  "memberName": "AudioFlags",
+  "summary": "An enumeration of all possible audio flags."
+}

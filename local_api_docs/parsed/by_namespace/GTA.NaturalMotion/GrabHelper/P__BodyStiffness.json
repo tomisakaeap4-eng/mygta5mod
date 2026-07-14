@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.GrabHelper.BodyStiffness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "GrabHelper",
+  "memberName": "BodyStiffness",
+  "summary": "Stiffness of upper body. Scales the arm grab such that the armStiffness is default when this is at default value.",
+  "remarks": "Default value = 11.0f.\n            Min value = 6.0f.\n            Max value = 16.0f."
+}

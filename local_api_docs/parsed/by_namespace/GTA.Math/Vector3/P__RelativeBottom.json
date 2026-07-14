@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Math.Vector3.RelativeBottom",
+  "kind": "P",
+  "namespace": "GTA.Math",
+  "typeName": "Vector3",
+  "memberName": "RelativeBottom",
+  "summary": "Returns the relative Bottom vector as used. (0,0,-1)"
+}

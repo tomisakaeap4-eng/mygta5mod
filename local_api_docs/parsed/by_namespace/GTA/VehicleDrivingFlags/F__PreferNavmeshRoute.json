@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.VehicleDrivingFlags.PreferNavmeshRoute",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "VehicleDrivingFlags",
+  "memberName": "PreferNavmeshRoute",
+  "summary": "Make"
+}

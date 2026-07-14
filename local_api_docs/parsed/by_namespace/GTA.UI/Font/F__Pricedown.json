@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.UI.Font.Pricedown",
+  "kind": "F",
+  "namespace": "GTA.UI",
+  "typeName": "Font",
+  "memberName": "Pricedown",
+  "summary": "Pricedown will be used when the game language is set to a non-CJK language.\n            The standard font, which is the same as"
+}

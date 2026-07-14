@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.BlipSprite.Invisible",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "BlipSprite",
+  "memberName": "Invisible",
+  "summary": "This blip sprite is invisible and the default English text for this value is \"Invisible\"."
+}

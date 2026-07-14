@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.BlipSprite.Loading",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "BlipSprite",
+  "memberName": "Loading",
+  "summary": "The default English text for this value is \"Zoned\"."
+}

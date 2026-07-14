@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.GameplayCamera.Position",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "GameplayCamera",
+  "memberName": "Position",
+  "summary": "Gets the position of the"
+}

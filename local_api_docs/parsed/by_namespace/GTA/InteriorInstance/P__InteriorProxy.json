@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.InteriorInstance.InteriorProxy",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "InteriorInstance",
+  "memberName": "InteriorProxy",
+  "summary": "Gets the",
+  "remarks": "returns"
+}

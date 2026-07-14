@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Checkpoint.Exists",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Checkpoint",
+  "memberName": "Exists",
+  "summary": "Determines if this"
+}

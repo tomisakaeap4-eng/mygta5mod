@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.EntityPopulationType.Unknown",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "EntityPopulationType",
+  "memberName": "Unknown",
+  "summary": "The game does not automatically delete entities when this value is set."
+}

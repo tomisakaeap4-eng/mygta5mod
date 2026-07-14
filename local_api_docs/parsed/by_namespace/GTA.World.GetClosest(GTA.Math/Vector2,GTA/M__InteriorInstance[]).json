@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.World.GetClosest(GTA.Math.Vector2,GTA.InteriorInstance[])",
+  "kind": "M",
+  "namespace": "GTA.World.GetClosest(GTA.Math",
+  "typeName": "Vector2,GTA",
+  "memberName": "InteriorInstance[])",
+  "summary": "Gets the closest",
+  "returns": "The closest",
+  "params": [
+    {
+      "name": "position",
+      "description": "The position to check against."
+    },
+    {
+      "name": "interiorInstances",
+      "description": "The interior instances to check."
+    }
+  ]
+}

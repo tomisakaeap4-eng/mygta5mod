@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMax",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBulletsExtraHelper",
+  "memberName": "ImpulseAirMax",
+  "summary": "Amount to clamp impulse to if character is airborne  and dynamicBalance is OK.",
+  "remarks": "Default value = 100.0f.\n            Min value = 0.0f."
+}

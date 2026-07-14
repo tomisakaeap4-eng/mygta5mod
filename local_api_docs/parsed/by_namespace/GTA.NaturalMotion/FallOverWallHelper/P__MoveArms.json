@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.FallOverWallHelper.MoveArms",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "FallOverWallHelper",
+  "memberName": "MoveArms",
+  "summary": "Lift the arms up if true.  Do nothing with the arms if false (eg when using catchfall arms or brace etc).",
+  "remarks": "Default value = True."
+}

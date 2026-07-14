@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.GameplayCamera.ForwardVector",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "GameplayCamera",
+  "memberName": "ForwardVector",
+  "summary": "Gets the forward vector of the"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "M:GTA.ParticleEffect.SetParameter(System.String,System.Single)",
+  "kind": "M",
+  "namespace": "GTA.ParticleEffect.SetParameter(System",
+  "typeName": "String,System",
+  "memberName": "Single)",
+  "summary": "Modifys parameters of this",
+  "params": [
+    {
+      "name": "parameterName",
+      "description": "Name of the parameter you want to modify, these are stored inside the effect files."
+    },
+    {
+      "name": "value",
+      "description": "The new value for the parameter."
+    }
+  ]
+}

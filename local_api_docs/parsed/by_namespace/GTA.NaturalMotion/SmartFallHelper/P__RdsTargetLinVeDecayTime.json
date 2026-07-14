@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SmartFallHelper.RdsTargetLinVeDecayTime",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SmartFallHelper",
+  "memberName": "RdsTargetLinVeDecayTime",
+  "summary": "RDS: Time for the targetlinearVelocity to decay to zero.",
+  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

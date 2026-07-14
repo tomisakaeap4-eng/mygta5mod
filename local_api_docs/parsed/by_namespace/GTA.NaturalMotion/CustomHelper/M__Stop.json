@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.NaturalMotion.CustomHelper.Stop",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "CustomHelper",
+  "memberName": "Stop",
+  "summary": "Stops this Natural Motion behavior on the"
+}

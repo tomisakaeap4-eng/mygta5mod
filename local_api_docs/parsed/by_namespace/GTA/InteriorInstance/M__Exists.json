@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.InteriorInstance.Exists",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "InteriorInstance",
+  "memberName": "Exists",
+  "summary": "Determines if this"
+}

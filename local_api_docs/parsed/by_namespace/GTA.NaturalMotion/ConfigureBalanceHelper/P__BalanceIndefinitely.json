@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.BalanceIndefinitely",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "BalanceIndefinitely",
+  "summary": "Ignore maxSteps and maxBalanceTime and try to balance forever.",
+  "remarks": "Default value = False."
+}

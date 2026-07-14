@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotFromBehindHelper.SfbNeckAmount",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotFromBehindHelper",
+  "memberName": "SfbNeckAmount",
+  "summary": "Neck Bend.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

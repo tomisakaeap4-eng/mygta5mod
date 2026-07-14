@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.BackwardsAutoTurn",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyBalanceHelper",
+  "memberName": "BackwardsAutoTurn",
+  "summary": "Automatically turn around if moving backwards.",
+  "remarks": "Default value = False."
+}

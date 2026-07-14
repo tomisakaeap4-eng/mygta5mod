@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.VehicleWheel.TireHealth",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "VehicleWheel",
+  "memberName": "TireHealth",
+  "summary": "Gets or sets the tire health.\n            If"
+}

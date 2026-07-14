@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.UI.Sprite.Enabled",
+  "kind": "P",
+  "namespace": "GTA.UI",
+  "typeName": "Sprite",
+  "memberName": "Enabled",
+  "summary": "Gets or sets a value indicating whether this"
+}

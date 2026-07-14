@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.MaxBalanceTime",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "MaxBalanceTime",
+  "summary": "Maximum time(seconds) that the balancer will balance for.",
+  "remarks": "Default value = 50.0f.\n            Min value = 1.0f."
+}

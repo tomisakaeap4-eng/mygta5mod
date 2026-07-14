@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Entity.Health",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "Health",
+  "summary": "Gets or sets the health of this",
+  "value": "The health as an"
+}

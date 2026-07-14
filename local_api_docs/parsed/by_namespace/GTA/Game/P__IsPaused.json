@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Game.IsPaused",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Game",
+  "memberName": "IsPaused",
+  "summary": "Gets or sets a value indicating whether the pause menu is active."
+}

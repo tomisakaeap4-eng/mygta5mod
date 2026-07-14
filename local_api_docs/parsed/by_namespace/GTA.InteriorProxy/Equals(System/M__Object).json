@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.InteriorProxy.Equals(System.Object)",
+  "kind": "M",
+  "namespace": "GTA.InteriorProxy",
+  "typeName": "Equals(System",
+  "memberName": "Object)",
+  "summary": "Determines if an",
+  "params": [
+    {
+      "name": "obj",
+      "description": "The"
+    }
+  ]
+}

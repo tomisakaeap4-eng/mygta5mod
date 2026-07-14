@@ -1,0 +1,23 @@
+{
+  "name": "M:GTA.World.CreateVehicle(GTA.Model,GTA.Math.Vector3,System.Single)",
+  "kind": "M",
+  "namespace": "GTA.World.CreateVehicle(GTA.Model,GTA.Math",
+  "typeName": "Vector3,System",
+  "memberName": "Single)",
+  "summary": "Spawns a",
+  "remarks": "returns",
+  "params": [
+    {
+      "name": "model",
+      "description": "The"
+    },
+    {
+      "name": "position",
+      "description": "The position to spawn the"
+    },
+    {
+      "name": "heading",
+      "description": "The heading of the"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointArmHelper.ArmStiffnessRight",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointArmHelper",
+  "memberName": "ArmStiffnessRight",
+  "summary": "Stiffness of arm.",
+  "remarks": "Default value = 15.0f.\n            Min value = 6.0f.\n            Max value = 16.0f."
+}

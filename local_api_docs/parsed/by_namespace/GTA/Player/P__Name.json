@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Player.Name",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Player",
+  "memberName": "Name",
+  "summary": "Gets the Social Club name of this"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.Math.Vector2.op_Multiply(System.Single,GTA.Math.Vector2)",
+  "kind": "M",
+  "namespace": "GTA.Math.Vector2.op_Multiply(System.Single,GTA",
+  "typeName": "Math",
+  "memberName": "Vector2)",
+  "summary": "Scales a vector by the given value.",
+  "returns": "The scaled vector.",
+  "params": [
+    {
+      "name": "vector",
+      "description": "The vector to scale."
+    },
+    {
+      "name": "scale",
+      "description": "The amount by which to scale the vector."
+    }
+  ]
+}

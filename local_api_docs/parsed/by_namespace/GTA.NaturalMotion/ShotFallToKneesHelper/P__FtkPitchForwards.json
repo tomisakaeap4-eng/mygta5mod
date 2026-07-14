@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotFallToKneesHelper.FtkPitchForwards",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotFallToKneesHelper",
+  "memberName": "FtkPitchForwards",
+  "summary": "Hip pitch applied (+ve forward, -ve backwards) if character is falling forwards on way down to it's knees.",
+  "remarks": "Default value = 0.1f.\n            Min value = -0.5f.\n            Max value = 0.5f."
+}

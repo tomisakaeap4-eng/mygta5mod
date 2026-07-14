@@ -1,0 +1,26 @@
+{
+  "name": "M:GTA.World.DrawLightWithRange(GTA.Math.Vector3,System.Drawing.Color,System.Single,System.Single)",
+  "kind": "M",
+  "namespace": "GTA.World.DrawLightWithRange(GTA.Math.Vector3,System.Drawing.Color,System",
+  "typeName": "Single,System",
+  "memberName": "Single)",
+  "summary": "Draws light around a region.",
+  "params": [
+    {
+      "name": "position",
+      "description": "The position to center the light around."
+    },
+    {
+      "name": "color",
+      "description": "The color of the light."
+    },
+    {
+      "name": "range",
+      "description": "How far the light should extend to."
+    },
+    {
+      "name": "intensity",
+      "description": "The intensity:"
+    }
+  ]
+}

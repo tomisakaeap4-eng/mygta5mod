@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.LeanInDirection",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "LeanInDirection",
+  "summary": "Gets a LeanInDirection Helper class for sending LeanInDirection"
+}

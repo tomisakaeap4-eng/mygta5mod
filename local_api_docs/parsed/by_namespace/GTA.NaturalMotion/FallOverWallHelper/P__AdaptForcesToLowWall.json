@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.FallOverWallHelper.AdaptForcesToLowWall",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "FallOverWallHelper",
+  "memberName": "AdaptForcesToLowWall",
+  "summary": "Will reduce the magnitude of the forces applied to the character to help him to fall over wall.",
+  "remarks": "Default value = False."
+}

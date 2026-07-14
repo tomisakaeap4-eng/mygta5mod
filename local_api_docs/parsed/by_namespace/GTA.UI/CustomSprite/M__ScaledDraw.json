@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.UI.CustomSprite.ScaledDraw",
+  "kind": "M",
+  "namespace": "GTA.UI",
+  "typeName": "CustomSprite",
+  "memberName": "ScaledDraw",
+  "summary": "Draws this"
+}

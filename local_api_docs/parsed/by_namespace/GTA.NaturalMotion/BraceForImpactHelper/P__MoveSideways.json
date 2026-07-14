@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.MoveSideways",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BraceForImpactHelper",
+  "memberName": "MoveSideways",
+  "summary": "Amount of sideways movement if at the front or back of the car to add to the move away from car.",
+  "remarks": "Default value = 0.3f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

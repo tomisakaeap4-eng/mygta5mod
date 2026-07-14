@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ElectrocuteHelper.RightArm",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ElectrocuteHelper",
+  "memberName": "RightArm",
+  "summary": "Vibrate the rightArm.",
+  "remarks": "Default value = True."
+}

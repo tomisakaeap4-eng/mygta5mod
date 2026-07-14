@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.GsFricScale1",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BraceForImpactHelper",
+  "memberName": "GsFricScale1",
+  "summary": "Glancing spin help. Friction scale applied when to the side of the car.  e.g. make the character spin more by upping the friction against the car.",
+  "remarks": "Default value = 8.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

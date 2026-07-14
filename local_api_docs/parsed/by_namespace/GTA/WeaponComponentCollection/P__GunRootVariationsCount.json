@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.WeaponComponentCollection.GunRootVariationsCount",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "WeaponComponentCollection",
+  "memberName": "GunRootVariationsCount",
+  "summary": "Gets the number of compatible components for"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.UI.IElement.Draw",
+  "kind": "M",
+  "namespace": "GTA.UI",
+  "typeName": "IElement",
+  "memberName": "Draw",
+  "summary": "Draws this"
+}

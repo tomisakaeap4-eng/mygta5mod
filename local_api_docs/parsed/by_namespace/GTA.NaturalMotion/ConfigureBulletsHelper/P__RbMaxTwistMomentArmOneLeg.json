@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBulletsHelper.RbMaxTwistMomentArmOneLeg",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBulletsHelper",
+  "memberName": "RbMaxTwistMomentArmOneLeg",
+  "summary": "If only one leg in contact: Maximum twist arm moment of bullet applied.",
+  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 2.0f."
+}

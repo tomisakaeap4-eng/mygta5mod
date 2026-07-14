@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Game.DoAutoSave",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Game",
+  "memberName": "DoAutoSave",
+  "summary": "Performs an automatic game save."
+}

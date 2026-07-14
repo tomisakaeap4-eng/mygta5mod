@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.WheelSpeed",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "WheelSpeed",
+  "summary": "Gets the speed the drive wheels are turning at, This is the value used for the dashboard speedometers(after being converted to mph)."
+}

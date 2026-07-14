@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureConstraintsHelper.PassiveMode",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureConstraintsHelper",
+  "memberName": "PassiveMode",
+  "summary": "0 setCurrent, 1= IK to dominant, (2=pointGunLikeIK //not implemented).",
+  "remarks": "Default value = 0.\n            Min value = 0.\n            Max value = 5."
+}

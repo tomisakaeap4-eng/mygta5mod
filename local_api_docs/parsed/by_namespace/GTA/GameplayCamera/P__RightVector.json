@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.GameplayCamera.RightVector",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "GameplayCamera",
+  "memberName": "RightVector",
+  "summary": "Gets the right vector of the"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.HipsLeanToPositionHelper.LeanAmount",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "HipsLeanToPositionHelper",
+  "memberName": "LeanAmount",
+  "summary": "Amount of lean, 0 to about 0.5. -ve will move away from the target.",
+  "remarks": "Default value = 0.2f.\n            Min value = -0.5f.\n            Max value = 0.5f."
+}

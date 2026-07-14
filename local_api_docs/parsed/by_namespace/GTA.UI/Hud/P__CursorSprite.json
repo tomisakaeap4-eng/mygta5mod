@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.UI.Hud.CursorSprite",
+  "kind": "P",
+  "namespace": "GTA.UI",
+  "typeName": "Hud",
+  "memberName": "CursorSprite",
+  "summary": "Gets or sets the sprite the cursor should used when drawn"
+}

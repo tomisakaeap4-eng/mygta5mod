@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.YankedHelper.GroundArmStiffness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "YankedHelper",
+  "memberName": "GroundArmStiffness",
+  "summary": "Arm Stiffness when on the ground.",
+  "remarks": "Default value = 11.0f.\n            Min value = 0.0f.\n            Max value = 16.0f."
+}

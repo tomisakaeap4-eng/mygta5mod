@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.AnimPoseHelper.GravCompSpine",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "AnimPoseHelper",
+  "memberName": "GravCompSpine",
+  "summary": "Gravity compensation applied to spine (applied after gravityCompensation). If -ve then not applied (use current setting).",
+  "remarks": "Default value = -1.0f.\n            Min value = -1.0f.\n            Max value = 14.0f."
+}

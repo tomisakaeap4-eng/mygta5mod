@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapPhasedLegs",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BalancerCollisionsReactionHelper",
+  "memberName": "SnapPhasedLegs",
+  "summary": "Legs are either in phase with each other or not.",
+  "remarks": "Default value = True."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Player.TargetedEntity",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Player",
+  "memberName": "TargetedEntity",
+  "summary": "Gets the",
+  "returns": "The"
+}

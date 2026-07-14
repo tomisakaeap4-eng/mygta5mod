@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.HandlingData.PopUpLightRotation",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "HandlingData",
+  "memberName": "PopUpLightRotation",
+  "summary": "Gets or sets the rotation values in degree the parts pop-up headlights needs to be rotated when headlights are on.",
+  "value": "The rotation values in degree. Can be negative."
+}

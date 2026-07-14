@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.World.GetAllEntities",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "GetAllEntities",
+  "summary": "Gets an"
+}

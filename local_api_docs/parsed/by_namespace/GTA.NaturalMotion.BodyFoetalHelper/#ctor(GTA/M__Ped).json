@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.NaturalMotion.BodyFoetalHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.BodyFoetalHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the BodyFoetalHelper for sending a BodyFoetal",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

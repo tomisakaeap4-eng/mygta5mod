@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.NaturalMotion.ShotFallToKneesHelper",
+  "kind": "T",
+  "namespace": "GTA",
+  "typeName": "NaturalMotion",
+  "memberName": "ShotFallToKneesHelper",
+  "summary": "Configure the fall to knees shot."
+}

@@ -1,0 +1,18 @@
+{
+  "name": "M:GTA.UI.Screen.ShowHelpTextThisFrame(System.String,System.Boolean)",
+  "kind": "M",
+  "namespace": "GTA.UI.Screen.ShowHelpTextThisFrame(System",
+  "typeName": "String,System",
+  "memberName": "Boolean)",
+  "summary": "Displays a help message in the top corner of the screen this frame. Specify whether beeping sound plays.",
+  "params": [
+    {
+      "name": "helpText",
+      "description": "The text to display."
+    },
+    {
+      "name": "beep",
+      "description": "Whether to play beeping sound"
+    }
+  ]
+}

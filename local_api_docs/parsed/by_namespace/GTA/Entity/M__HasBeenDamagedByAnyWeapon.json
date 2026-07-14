@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Entity.HasBeenDamagedByAnyWeapon",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "HasBeenDamagedByAnyWeapon",
+  "summary": "Determines whether this"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SetCharacterCollisionsHelper.MaxVelocity",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SetCharacterCollisionsHelper",
+  "memberName": "MaxVelocity",
+  "summary": "Torque = spin*(relative velocity) up to this maximum for relative velocity.",
+  "remarks": "Default value = 8.0f.\n            Min value = 0.0f.\n            Max value = 100.0f."
+}

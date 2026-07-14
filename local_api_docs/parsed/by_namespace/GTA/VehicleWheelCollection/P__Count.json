@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.VehicleWheelCollection.Count",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "VehicleWheelCollection",
+  "memberName": "Count",
+  "summary": "Gets the number of"
+}

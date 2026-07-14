@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.GrabHelper.GrabStrength",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "GrabHelper",
+  "memberName": "GrabStrength",
+  "summary": "Strength in hands for grabbing (kg m/s), -1 to ignore/disable.",
+  "remarks": "Default value = -1.0f.\n            Min value = -1.0f.\n            Max value = 10000.0f."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.NaturalMotion.BuoyancyHelper",
+  "kind": "T",
+  "namespace": "GTA",
+  "typeName": "NaturalMotion",
+  "memberName": "BuoyancyHelper",
+  "summary": "Simple buoyancy model.  No character movement just fluid forces/torques added to parts."
+}

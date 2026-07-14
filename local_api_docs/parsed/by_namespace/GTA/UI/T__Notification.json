@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.UI.Notification",
+  "kind": "T",
+  "namespace": "GTA",
+  "typeName": "UI",
+  "memberName": "Notification",
+  "summary": "Methods to manage the display of notifications above the minimap."
+}

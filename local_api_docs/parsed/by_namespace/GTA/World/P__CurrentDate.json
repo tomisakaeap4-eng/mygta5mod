@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.World.CurrentDate",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "CurrentDate",
+  "summary": "Gets or sets the current date and time in the GTA World.",
+  "value": "The current date and time."
+}

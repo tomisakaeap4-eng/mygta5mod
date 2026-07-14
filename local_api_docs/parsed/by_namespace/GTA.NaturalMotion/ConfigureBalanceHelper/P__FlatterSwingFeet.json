@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.FlatterSwingFeet",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "FlatterSwingFeet",
+  "remarks": "Default value = False."
+}

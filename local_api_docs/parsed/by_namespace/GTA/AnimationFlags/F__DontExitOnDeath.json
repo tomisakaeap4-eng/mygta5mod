@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.AnimationFlags.DontExitOnDeath",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "AnimationFlags",
+  "memberName": "DontExitOnDeath",
+  "summary": "Currently used only on secondary anim tasks. Secondary anim tasks will end automatically when the ped dies. Setting this flag stops that from happening."
+}

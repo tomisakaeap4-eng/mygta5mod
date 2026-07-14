@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotHelper.InitialNeckDuration",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotHelper",
+  "memberName": "InitialNeckDuration",
+  "summary": "Duration for which the neck stays at intial stiffness/damping.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

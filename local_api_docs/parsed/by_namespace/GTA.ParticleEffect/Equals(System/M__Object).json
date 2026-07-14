@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.ParticleEffect.Equals(System.Object)",
+  "kind": "M",
+  "namespace": "GTA.ParticleEffect",
+  "typeName": "Equals(System",
+  "memberName": "Object)",
+  "summary": "Determines if an",
+  "params": [
+    {
+      "name": "obj",
+      "description": "The"
+    }
+  ]
+}

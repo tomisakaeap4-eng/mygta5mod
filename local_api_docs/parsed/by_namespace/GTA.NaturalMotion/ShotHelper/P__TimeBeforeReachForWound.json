@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotHelper.TimeBeforeReachForWound",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotHelper",
+  "memberName": "TimeBeforeReachForWound",
+  "summary": "Time, in seconds, before the character begins to grab for the wound on the first hit.",
+  "remarks": "Default value = 0.2f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

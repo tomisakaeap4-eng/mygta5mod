@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.UpperBodyFlinchHelper.DontBraceHead",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "UpperBodyFlinchHelper",
+  "memberName": "DontBraceHead",
+  "summary": "Don't protect head only brace from front. Turned on by bcr.",
+  "remarks": "Default value = False."
+}

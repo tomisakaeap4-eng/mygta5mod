@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.World.VehicleCount",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "VehicleCount",
+  "summary": "A fast way to get the total number of"
+}

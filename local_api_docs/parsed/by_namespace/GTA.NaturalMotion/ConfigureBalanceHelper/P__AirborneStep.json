@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.AirborneStep",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "AirborneStep",
+  "summary": "When airborne try to step.  Set to false for e.g. shotGun reaction.",
+  "remarks": "Default value = True."
+}

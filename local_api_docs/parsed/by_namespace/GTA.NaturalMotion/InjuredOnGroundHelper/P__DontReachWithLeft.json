@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.InjuredOnGroundHelper.DontReachWithLeft",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "InjuredOnGroundHelper",
+  "memberName": "DontReachWithLeft",
+  "remarks": "Default value = False."
+}

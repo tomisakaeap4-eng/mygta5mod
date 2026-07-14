@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.World.AnimatedBuildingCapacity",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "AnimatedBuildingCapacity",
+  "summary": "The total number of"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.NaturalMotion.Message.ToString",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Message",
+  "memberName": "ToString",
+  "summary": "Returns the internal message name."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.BlipSprite.Cup",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "BlipSprite",
+  "memberName": "Cup",
+  "summary": "The default English text for this value is \"Challenge Series\"."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SmartFallHelper.RdsStartingFrictionMin",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SmartFallHelper",
+  "memberName": "RdsStartingFrictionMin",
+  "summary": "Catch Fall/RDS starting friction minimum.\n            Catch fall will overwrite based on setFallingReaction.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

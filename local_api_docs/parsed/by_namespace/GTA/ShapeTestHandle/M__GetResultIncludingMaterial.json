@@ -1,0 +1,9 @@
+{
+  "name": "M:GTA.ShapeTestHandle.GetResultIncludingMaterial",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "ShapeTestHandle",
+  "memberName": "GetResultIncludingMaterial",
+  "summary": "If status returned is",
+  "remarks": "The shape test request is destroyed by this call if"
+}

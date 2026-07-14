@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.InteriorProxy.Position",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "InteriorProxy",
+  "memberName": "Position",
+  "summary": "Gets or sets the position of this",
+  "value": "The position in world space."
+}

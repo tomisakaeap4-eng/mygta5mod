@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.RegisterWeaponHelper.LevelIndex",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "RegisterWeaponHelper",
+  "memberName": "LevelIndex",
+  "summary": "Level index of the weapon.",
+  "remarks": "Default value = -1.\n            Min value = -1."
+}

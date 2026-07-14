@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Native.GlobalVariable.Write``1(``0)",
+  "kind": "M",
+  "namespace": "GTA.Native",
+  "typeName": "GlobalVariable",
+  "memberName": "Write``1",
+  "summary": "Set the value stored in the",
+  "params": [
+    {
+      "name": "value",
+      "description": "The new value to assign to the"
+    }
+  ]
+}

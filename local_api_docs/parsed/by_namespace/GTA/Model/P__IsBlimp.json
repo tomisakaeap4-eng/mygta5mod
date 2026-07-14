@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Model.IsBlimp",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Model",
+  "memberName": "IsBlimp",
+  "summary": "Gets a value indicating whether this"
+}

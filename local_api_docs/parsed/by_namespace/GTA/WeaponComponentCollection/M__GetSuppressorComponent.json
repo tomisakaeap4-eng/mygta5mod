@@ -1,0 +1,9 @@
+{
+  "name": "M:GTA.WeaponComponentCollection.GetSuppressorComponent",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "WeaponComponentCollection",
+  "memberName": "GetSuppressorComponent",
+  "summary": "Gets the suppressor component.",
+  "returns": "The"
+}

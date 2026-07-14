@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.HeadLookInstanceIndex",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyBalanceHelper",
+  "memberName": "HeadLookInstanceIndex",
+  "summary": "Level index of thing to look at.",
+  "remarks": "Default value = -1.\n            Min value = -1."
+}

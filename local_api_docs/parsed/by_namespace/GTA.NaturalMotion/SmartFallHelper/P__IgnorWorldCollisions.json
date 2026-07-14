@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SmartFallHelper.IgnorWorldCollisions",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SmartFallHelper",
+  "memberName": "IgnorWorldCollisions",
+  "summary": "Never go into bailout (foetal).",
+  "remarks": "Default value = False."
+}

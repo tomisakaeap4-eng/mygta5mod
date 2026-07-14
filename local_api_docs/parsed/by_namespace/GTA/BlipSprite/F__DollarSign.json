@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.BlipSprite.DollarSign",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "BlipSprite",
+  "memberName": "DollarSign",
+  "summary": "The default English text for this value is \"Devin\"."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ArmsWindmillHelper.IKtwist",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ArmsWindmillHelper",
+  "memberName": "IKtwist",
+  "summary": "Angle of elbow around twist axis ?.",
+  "remarks": "Default value = 0.0f.\n            Min value = -3.1f.\n            Max value = 3.1f."
+}

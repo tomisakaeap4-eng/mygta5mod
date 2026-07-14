@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Vehicle.Exists",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "Exists",
+  "summary": "Determines if this"
+}

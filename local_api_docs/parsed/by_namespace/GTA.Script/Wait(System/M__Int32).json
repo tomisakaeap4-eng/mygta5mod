@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Script.Wait(System.Int32)",
+  "kind": "M",
+  "namespace": "GTA.Script",
+  "typeName": "Wait(System",
+  "memberName": "Int32)",
+  "summary": "Pauses execution of the",
+  "params": [
+    {
+      "name": "ms",
+      "description": "The time in milliseconds to pause for."
+    }
+  ]
+}

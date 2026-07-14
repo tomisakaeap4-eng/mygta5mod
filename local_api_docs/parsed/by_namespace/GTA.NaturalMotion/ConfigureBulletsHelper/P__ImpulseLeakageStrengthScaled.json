@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBulletsHelper.ImpulseLeakageStrengthScaled",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBulletsHelper",
+  "memberName": "ImpulseLeakageStrengthScaled",
+  "summary": "For weaker characters subsequent impulses remain strong.",
+  "remarks": "Default value = False."
+}

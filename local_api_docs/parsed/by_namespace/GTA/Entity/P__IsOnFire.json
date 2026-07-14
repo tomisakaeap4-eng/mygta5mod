@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Entity.IsOnFire",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "IsOnFire",
+  "summary": "Gets a value indicating whether this"
+}

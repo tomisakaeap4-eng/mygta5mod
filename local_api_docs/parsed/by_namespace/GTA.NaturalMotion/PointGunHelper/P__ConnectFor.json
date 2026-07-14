@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.ConnectFor",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "ConnectFor",
+  "summary": "Time to try to reconnect for.",
+  "remarks": "Default value = 0.6f.\n            Min value = 0.0f.\n            Max value = 5.0f."
+}

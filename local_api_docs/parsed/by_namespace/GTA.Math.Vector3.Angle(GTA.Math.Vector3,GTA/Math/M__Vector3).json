@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Math.Vector3.Angle(GTA.Math.Vector3,GTA.Math.Vector3)",
+  "kind": "M",
+  "namespace": "GTA.Math.Vector3.Angle(GTA.Math.Vector3,GTA",
+  "typeName": "Math",
+  "memberName": "Vector3)",
+  "summary": "Returns the angle in degrees between from and to.\n            The angle returned is always the acute angle between the two vectors."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.HeadLookHelper.Pos",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "HeadLookHelper",
+  "memberName": "Pos",
+  "summary": "The point being looked at.",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
+}

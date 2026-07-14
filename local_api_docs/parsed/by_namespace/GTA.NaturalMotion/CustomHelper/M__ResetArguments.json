@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.NaturalMotion.CustomHelper.ResetArguments",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "CustomHelper",
+  "memberName": "ResetArguments",
+  "summary": "Resets all arguments to their default values."
+}

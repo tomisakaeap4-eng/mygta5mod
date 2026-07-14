@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Ped.Style",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "Style",
+  "summary": "Opens a list of clothing and prop configurations that this"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Rope.UnpinVertex(System.Int32)",
+  "kind": "M",
+  "namespace": "GTA.Rope",
+  "typeName": "UnpinVertex(System",
+  "memberName": "Int32)",
+  "summary": "Unpin a vertex of this",
+  "params": [
+    {
+      "name": "vertex",
+      "description": "The index of the vertex."
+    }
+  ]
+}

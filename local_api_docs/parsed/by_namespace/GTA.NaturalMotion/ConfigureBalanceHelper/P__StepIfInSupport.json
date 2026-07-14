@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.StepIfInSupport",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "StepIfInSupport",
+  "summary": "The balancer sometimes decides to step even if balanced.",
+  "remarks": "Default value = True."
+}

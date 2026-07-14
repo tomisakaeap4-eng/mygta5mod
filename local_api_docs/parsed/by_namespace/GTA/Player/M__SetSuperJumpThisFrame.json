@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Player.SetSuperJumpThisFrame",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Player",
+  "memberName": "SetSuperJumpThisFrame",
+  "summary": "Lets this"
+}

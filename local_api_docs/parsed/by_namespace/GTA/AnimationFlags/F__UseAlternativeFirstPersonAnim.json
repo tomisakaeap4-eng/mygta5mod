@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.AnimationFlags.UseAlternativeFirstPersonAnim",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "AnimationFlags",
+  "memberName": "UseAlternativeFirstPersonAnim",
+  "summary": "Plays an alternative first person version of the clip on the player when in first person mode.\n            The first person clip must be in the same dictionary, and be named the same as the anim you're playing, but with"
+}

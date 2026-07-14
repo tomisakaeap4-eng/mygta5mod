@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.ShapeTestStatus.Ready",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "ShapeTestStatus",
+  "memberName": "Ready",
+  "summary": "The result is ready and the results have been returned to you.\n            The shape test request has also just been destroyed."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.PoseUnusedSupportArm",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "PoseUnusedSupportArm",
+  "summary": "Apply neutral pose when a support arm isn't in use.",
+  "remarks": "Default value = False."
+}

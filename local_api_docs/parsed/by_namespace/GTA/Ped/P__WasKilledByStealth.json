@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Ped.WasKilledByStealth",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "WasKilledByStealth",
+  "summary": "Gets a value indicating whether this"
+}

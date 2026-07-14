@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.GameplayCamera.MemoryAddress",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "GameplayCamera",
+  "memberName": "MemoryAddress",
+  "summary": "Gets the memory address of the"
+}

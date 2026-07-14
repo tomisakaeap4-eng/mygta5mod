@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.VehicleType.Plane",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "VehicleType",
+  "memberName": "Plane",
+  "summary": "The airplane type."
+}

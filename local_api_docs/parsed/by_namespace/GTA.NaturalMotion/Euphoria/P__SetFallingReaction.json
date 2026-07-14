@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.SetFallingReaction",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "SetFallingReaction",
+  "summary": "Gets a SetFallingReaction Helper class for sending SetFallingReaction",
+  "remarks": "Sets the type of reaction if catchFall is called"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.InteriorProxy.UnpinFromMemory",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "InteriorProxy",
+  "memberName": "UnpinFromMemory",
+  "summary": "Lets this"
+}

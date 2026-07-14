@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.NaturalMotion.ForceToBodyPartHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.ForceToBodyPartHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the ForceToBodyPartHelper for sending a ForceToBodyPart",
+  "remarks": "Apply an impulse to a named body part.",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

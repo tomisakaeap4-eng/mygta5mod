@@ -1,0 +1,26 @@
+{
+  "name": "P:GTA.Math.Matrix.Item(System.Int32,System.Int32)",
+  "kind": "P",
+  "namespace": "GTA.Math.Matrix.Item(System",
+  "typeName": "Int32,System",
+  "memberName": "Int32)",
+  "summary": "Gets or sets the component at the specified index.",
+  "returns": "The value of the component at the specified index.",
+  "value": "The value of the matrix component, depending on the index.",
+  "params": [
+    {
+      "name": "row",
+      "description": "The row of the matrix to access."
+    },
+    {
+      "name": "column",
+      "description": "The column of the matrix to access."
+    }
+  ],
+  "exceptions": [
+    {
+      "cref": "T:System.ArgumentOutOfRangeException",
+      "description": "Thrown when the"
+    }
+  ]
+}

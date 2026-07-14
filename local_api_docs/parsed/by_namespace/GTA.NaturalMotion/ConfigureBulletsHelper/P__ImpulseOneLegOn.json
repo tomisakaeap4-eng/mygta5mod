@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBulletsHelper.ImpulseOneLegOn",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBulletsHelper",
+  "memberName": "ImpulseOneLegOn",
+  "summary": "Scale and/or clamp impulse if the character is contacting with one leg only and dynamicBalance is OK.",
+  "remarks": "Default value = False."
+}

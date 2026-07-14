@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.NaturalMotion.LeanToPositionHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.LeanToPositionHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the LeanToPositionHelper for sending a LeanToPosition",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

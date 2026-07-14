@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotHelper.ExagZeroTime",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotHelper",
+  "memberName": "ExagZeroTime",
+  "summary": "Exaggerate bullet time spent at 0 spine lean/twist after exagDuration + exagSmooth2Zero.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.NaturalMotion.YankedHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.YankedHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the YankedHelper for sending a Yanked",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.Math.Matrix.Scaling(GTA.Math.Vector3)",
+  "kind": "M",
+  "namespace": "GTA.Math.Matrix.Scaling(GTA",
+  "typeName": "Math",
+  "memberName": "Vector3)",
+  "summary": "Creates a matrix that scales along the x-axis, y-axis, and y-axis.",
+  "returns": "The created scaling matrix.",
+  "params": [
+    {
+      "name": "scale",
+      "description": "Scaling factor for all three axes."
+    }
+  ]
+}

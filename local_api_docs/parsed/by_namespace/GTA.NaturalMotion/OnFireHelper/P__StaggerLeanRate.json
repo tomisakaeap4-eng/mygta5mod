@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.OnFireHelper.StaggerLeanRate",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "OnFireHelper",
+  "memberName": "StaggerLeanRate",
+  "summary": "How quickly the character leans hips when staggering.",
+  "remarks": "Default value = 0.9f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

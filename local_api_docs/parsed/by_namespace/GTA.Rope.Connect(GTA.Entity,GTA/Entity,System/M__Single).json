@@ -1,0 +1,22 @@
+{
+  "name": "M:GTA.Rope.Connect(GTA.Entity,GTA.Entity,System.Single)",
+  "kind": "M",
+  "namespace": "GTA.Rope.Connect(GTA.Entity,GTA",
+  "typeName": "Entity,System",
+  "memberName": "Single)",
+  "summary": "Connects two",
+  "params": [
+    {
+      "name": "entity1",
+      "description": "The first entity to attach."
+    },
+    {
+      "name": "entity2",
+      "description": "The second entity to attach."
+    },
+    {
+      "name": "length",
+      "description": "The rope length."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.HandlingData.AntiRollBarBiasFront",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "HandlingData",
+  "memberName": "AntiRollBarBiasFront",
+  "summary": "Gets or sets the bias between front and rear for the anti-roll bar.\n            This value will be set to the equivalent value in the",
+  "value": "The anti roll bar bias front. 0.0f is fully front, 2.0f is fully rear."
+}

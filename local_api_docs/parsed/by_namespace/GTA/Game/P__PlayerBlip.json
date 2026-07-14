@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Game.PlayerBlip",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Game",
+  "memberName": "PlayerBlip",
+  "summary": "Gets the blip of the"
+}

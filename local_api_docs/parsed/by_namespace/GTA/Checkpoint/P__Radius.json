@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Checkpoint.Radius",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Checkpoint",
+  "memberName": "Radius",
+  "summary": "Gets or sets the radius of this"
+}

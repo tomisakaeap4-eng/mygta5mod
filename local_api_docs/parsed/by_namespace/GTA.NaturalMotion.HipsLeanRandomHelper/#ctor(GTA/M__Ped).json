@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.NaturalMotion.HipsLeanRandomHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.HipsLeanRandomHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the HipsLeanRandomHelper for sending a HipsLeanRandom",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

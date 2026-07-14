@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.HandlingData.Mass",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "HandlingData",
+  "memberName": "Mass",
+  "summary": "Gets or sets the weight.",
+  "value": "The weight in Kilograms."
+}

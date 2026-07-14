@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.TeeterHelper.LeanAwayTime",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "TeeterHelper",
+  "memberName": "LeanAwayTime",
+  "summary": "Time-to-edge threshold to start leaning away from a potential fall.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

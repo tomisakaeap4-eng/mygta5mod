@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ElectrocuteHelper.ApplyStiffness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ElectrocuteHelper",
+  "memberName": "ApplyStiffness",
+  "summary": "Let electrocute apply a (higher generally) stiffness to the character whilst being vibrated.",
+  "remarks": "Default value = True."
+}

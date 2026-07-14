@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.HighFallHelper.ArmAmplitude",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "HighFallHelper",
+  "memberName": "ArmAmplitude",
+  "summary": "In armWindMillAdaptive.",
+  "remarks": "Default value = 2.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Player.SetRunSpeedMultThisFrame(System.Single)",
+  "kind": "M",
+  "namespace": "GTA.Player",
+  "typeName": "SetRunSpeedMultThisFrame(System",
+  "memberName": "Single)",
+  "summary": "Sets the run speed multiplier for this",
+  "params": [
+    {
+      "name": "mult",
+      "description": "The factor - min:"
+    }
+  ]
+}

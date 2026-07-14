@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.InteriorProxy.MemoryAddress",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "InteriorProxy",
+  "memberName": "MemoryAddress",
+  "summary": "Gets the memory address where the"
+}

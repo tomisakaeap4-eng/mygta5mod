@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.NaturalMotion.AnimPoseHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.AnimPoseHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the AnimPoseHelper for sending a AnimPose",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

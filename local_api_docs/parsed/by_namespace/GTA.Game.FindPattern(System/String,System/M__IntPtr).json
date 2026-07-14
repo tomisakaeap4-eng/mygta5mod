@@ -1,0 +1,20 @@
+{
+  "name": "M:GTA.Game.FindPattern(System.String,System.IntPtr)",
+  "kind": "M",
+  "namespace": "GTA.Game.FindPattern(System",
+  "typeName": "String,System",
+  "memberName": "IntPtr)",
+  "summary": "Searches the address space of the current process for a memory pattern.",
+  "remarks": "This function takes the Cheat Engine/IDA format (\"48 8B 0D ?? ?? ? ? 44 8B C6 8B D5 8B D8\" for example, where ?? and ? are wildcards).",
+  "returns": "The address of a region matching the pattern, or",
+  "params": [
+    {
+      "name": "pattern",
+      "description": "The pattern."
+    },
+    {
+      "name": "startAddress",
+      "description": "The address to start searching at. If"
+    }
+  ]
+}

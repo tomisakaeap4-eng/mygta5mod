@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapUseTorques",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BalancerCollisionsReactionHelper",
+  "memberName": "SnapUseTorques",
+  "summary": "Use torques to make the snap otherwise use a change in the parts angular velocity.",
+  "remarks": "Default value = True."
+}

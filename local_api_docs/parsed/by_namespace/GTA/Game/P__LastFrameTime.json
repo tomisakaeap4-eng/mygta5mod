@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Game.LastFrameTime",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Game",
+  "memberName": "LastFrameTime",
+  "summary": "Gets the time in seconds it took for the last frame to render."
+}

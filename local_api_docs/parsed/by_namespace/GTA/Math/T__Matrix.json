@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.Math.Matrix",
+  "kind": "T",
+  "namespace": "GTA",
+  "typeName": "Math",
+  "memberName": "Matrix",
+  "summary": "Defines a 4x4 matrix."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Entity.Quaternion",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "Quaternion",
+  "summary": "Gets or sets the quaternion of this"
+}

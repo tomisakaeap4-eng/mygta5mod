@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.World.GetClosest(GTA.Math.Vector2,GTA.AnimatedBuilding[])",
+  "kind": "M",
+  "namespace": "GTA.World.GetClosest(GTA.Math",
+  "typeName": "Vector2,GTA",
+  "memberName": "AnimatedBuilding[])",
+  "summary": "Gets the closest",
+  "returns": "The closest",
+  "params": [
+    {
+      "name": "position",
+      "description": "The position to check against."
+    },
+    {
+      "name": "animatedBuildings",
+      "description": "The animated building to check."
+    }
+  ]
+}

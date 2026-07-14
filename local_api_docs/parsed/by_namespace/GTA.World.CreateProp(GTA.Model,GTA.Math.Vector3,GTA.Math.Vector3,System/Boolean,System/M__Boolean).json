@@ -1,0 +1,31 @@
+{
+  "name": "M:GTA.World.CreateProp(GTA.Model,GTA.Math.Vector3,GTA.Math.Vector3,System.Boolean,System.Boolean)",
+  "kind": "M",
+  "namespace": "GTA.World.CreateProp(GTA.Model,GTA.Math.Vector3,GTA.Math.Vector3,System",
+  "typeName": "Boolean,System",
+  "memberName": "Boolean)",
+  "summary": "Spawns a",
+  "remarks": "returns",
+  "params": [
+    {
+      "name": "model",
+      "description": "The"
+    },
+    {
+      "name": "position",
+      "description": "The position to spawn the"
+    },
+    {
+      "name": "rotation",
+      "description": "The rotation of the"
+    },
+    {
+      "name": "dynamic",
+      "description": "if set to"
+    },
+    {
+      "name": "placeOnGround",
+      "description": "if set to"
+    }
+  ]
+}

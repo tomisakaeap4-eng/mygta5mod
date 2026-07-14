@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureShotInjuredArmHelper.InjuredArmTime",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureShotInjuredArmHelper",
+  "memberName": "InjuredArmTime",
+  "summary": "Length of the reaction.",
+  "remarks": "Default value = 0.3f.\n            Min value = 0.0f.\n            Max value = 2.0f."
+}

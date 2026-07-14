@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.UI.TextElement.Alignment",
+  "kind": "P",
+  "namespace": "GTA.UI",
+  "typeName": "TextElement",
+  "memberName": "Alignment",
+  "summary": "Gets or sets the alignment of this",
+  "value": "The alignment:"
+}

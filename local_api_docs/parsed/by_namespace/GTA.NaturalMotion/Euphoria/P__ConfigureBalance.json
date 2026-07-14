@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.ConfigureBalance",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "ConfigureBalance",
+  "summary": "Gets a ConfigureBalance Helper class for sending ConfigureBalance",
+  "remarks": "This single message allows you to configure various parameters used on any behavior that uses the dynamic balance."
+}

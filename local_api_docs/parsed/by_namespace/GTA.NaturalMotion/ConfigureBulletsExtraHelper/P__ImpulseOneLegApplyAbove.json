@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegApplyAbove",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBulletsExtraHelper",
+  "memberName": "ImpulseOneLegApplyAbove",
+  "summary": "If impulse is above this amount then do not scale/clamp just let it through as is - it's a shotgun or cannon.",
+  "remarks": "Default value = 399.0f.\n            Min value = 0.0f."
+}

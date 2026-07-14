@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.AnimPoseHelper.StiffnessRightArm",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "AnimPoseHelper",
+  "memberName": "StiffnessRightArm",
+  "summary": "Stiffness applied to right arm (applied after stiffness). If -ve then not applied (use current setting).",
+  "remarks": "Default value = -1.0f.\n            Min value = -1.0f.\n            Max value = 16.0f."
+}

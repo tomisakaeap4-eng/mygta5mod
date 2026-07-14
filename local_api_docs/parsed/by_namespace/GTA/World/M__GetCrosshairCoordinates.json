@@ -1,0 +1,9 @@
+{
+  "name": "M:GTA.World.GetCrosshairCoordinates",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "GetCrosshairCoordinates",
+  "summary": "Determines where the crosshair intersects with the world.",
+  "returns": "A"
+}

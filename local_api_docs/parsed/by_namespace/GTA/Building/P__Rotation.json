@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Building.Rotation",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Building",
+  "memberName": "Rotation",
+  "summary": "Gets or sets the rotation of this",
+  "value": "The yaw, pitch, roll rotation values in degree."
+}

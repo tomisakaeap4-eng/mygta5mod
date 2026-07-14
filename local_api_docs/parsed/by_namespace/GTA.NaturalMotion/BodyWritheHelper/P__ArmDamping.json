@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyWritheHelper.ArmDamping",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyWritheHelper",
+  "memberName": "ArmDamping",
+  "summary": "Damping amount, less is underdamped.",
+  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 3.0f."
+}

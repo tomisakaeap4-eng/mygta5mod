@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.FootFriction",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "FootFriction",
+  "summary": "Foot friction multiplier is multiplied by this amount if balancer is running.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 40.0f."
+}

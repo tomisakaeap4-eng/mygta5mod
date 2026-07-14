@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Math.Vector3.RelativeBack",
+  "kind": "P",
+  "namespace": "GTA.Math",
+  "typeName": "Vector3",
+  "memberName": "RelativeBack",
+  "summary": "Returns the relative Back vector. (0,-1,0)"
+}

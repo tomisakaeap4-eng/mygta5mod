@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.AnimatedBuilding.Handle",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "AnimatedBuilding",
+  "memberName": "Handle",
+  "summary": "The handle of this"
+}

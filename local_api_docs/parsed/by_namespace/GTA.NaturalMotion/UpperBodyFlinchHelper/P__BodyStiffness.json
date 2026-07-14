@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.UpperBodyFlinchHelper.BodyStiffness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "UpperBodyFlinchHelper",
+  "memberName": "BodyStiffness",
+  "summary": "Stiffness of body. Value carries over to head look, spine twist.",
+  "remarks": "Default value = 11.0f.\n            Min value = 6.0f.\n            Max value = 16.0f."
+}

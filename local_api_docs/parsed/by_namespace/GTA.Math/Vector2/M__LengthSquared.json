@@ -1,0 +1,9 @@
+{
+  "name": "M:GTA.Math.Vector2.LengthSquared",
+  "kind": "M",
+  "namespace": "GTA.Math",
+  "typeName": "Vector2",
+  "memberName": "LengthSquared",
+  "summary": "Calculates the squared length of the vector.",
+  "returns": "The squared length of the vector."
+}

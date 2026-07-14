@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Blip.DisplayType",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Blip",
+  "memberName": "DisplayType",
+  "summary": "Gets or sets the display type of this"
+}

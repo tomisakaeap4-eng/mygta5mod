@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ArmsWindmillAdaptiveHelper.Lean1offset",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ArmsWindmillAdaptiveHelper",
+  "memberName": "Lean1offset",
+  "summary": "0.f center of circle at side.",
+  "remarks": "Default value = 0.0f.\n            Min value = -6.0f.\n            Max value = 6.0f."
+}

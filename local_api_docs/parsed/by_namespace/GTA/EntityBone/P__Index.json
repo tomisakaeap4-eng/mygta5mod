@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.EntityBone.Index",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "EntityBone",
+  "memberName": "Index",
+  "summary": "Gets the bone index of this"
+}

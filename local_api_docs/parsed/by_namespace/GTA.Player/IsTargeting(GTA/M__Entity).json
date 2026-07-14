@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Player.IsTargeting(GTA.Entity)",
+  "kind": "M",
+  "namespace": "GTA.Player",
+  "typeName": "IsTargeting(GTA",
+  "memberName": "Entity)",
+  "summary": "Determines whether this",
+  "params": [
+    {
+      "name": "entity",
+      "description": "The"
+    }
+  ]
+}

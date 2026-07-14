@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.AnimatedBuilding.Equals(System.Object)",
+  "kind": "M",
+  "namespace": "GTA.AnimatedBuilding",
+  "typeName": "Equals(System",
+  "memberName": "Object)",
+  "summary": "Determines if an",
+  "params": [
+    {
+      "name": "obj",
+      "description": "The"
+    }
+  ]
+}

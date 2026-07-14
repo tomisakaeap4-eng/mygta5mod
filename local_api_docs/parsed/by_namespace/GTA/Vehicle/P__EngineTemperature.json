@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.EngineTemperature",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "EngineTemperature",
+  "summary": "Gets the engine temperature of this"
+}

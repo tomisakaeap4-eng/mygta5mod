@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.ShotSnap",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "ShotSnap",
+  "summary": "Gets a ShotSnap Helper class for sending ShotSnap"
+}

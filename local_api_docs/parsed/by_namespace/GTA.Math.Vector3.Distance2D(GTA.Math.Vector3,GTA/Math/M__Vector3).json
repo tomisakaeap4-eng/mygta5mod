@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.Math.Vector3.Distance2D(GTA.Math.Vector3,GTA.Math.Vector3)",
+  "kind": "M",
+  "namespace": "GTA.Math.Vector3.Distance2D(GTA.Math.Vector3,GTA",
+  "typeName": "Math",
+  "memberName": "Vector3)",
+  "summary": "Calculates the distance between two vectors, ignoring the Z-component.",
+  "returns": "The distance between the two vectors.",
+  "params": [
+    {
+      "name": "position1",
+      "description": "The first vector to calculate the distance to the second vector."
+    },
+    {
+      "name": "position2",
+      "description": "The second vector to calculate the distance to the first vector."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.Math.Quaternion.Invert(GTA.Math.Quaternion)",
+  "kind": "M",
+  "namespace": "GTA.Math.Quaternion.Invert(GTA",
+  "typeName": "Math",
+  "memberName": "Quaternion)",
+  "summary": "Conjugates and renormalizes the quaternion.",
+  "returns": "The conjugated and renormalized quaternion.",
+  "params": [
+    {
+      "name": "quaternion",
+      "description": "The quaternion to conjugate and re-normalize."
+    }
+  ]
+}

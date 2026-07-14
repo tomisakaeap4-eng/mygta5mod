@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.StayUprightHelper.TurnTowardsBullets",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "StayUprightHelper",
+  "memberName": "TurnTowardsBullets",
+  "summary": "Use cheat torques to face the direction of bullets if not facing too far away.",
+  "remarks": "Default value = False."
+}

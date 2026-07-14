@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyBalanceHelper.TurnWithBumpRadius",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyBalanceHelper",
+  "memberName": "TurnWithBumpRadius",
+  "summary": "0.9 is a sensible value.  If pusher within this distance then turn to get out of the way of the pusher.",
+  "remarks": "Default value = -1.0f.\n            Min value = -1.0f.\n            Max value = 10.0f."
+}

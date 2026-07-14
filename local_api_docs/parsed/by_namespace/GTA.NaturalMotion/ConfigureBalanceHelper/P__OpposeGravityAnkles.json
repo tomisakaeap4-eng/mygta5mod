@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.OpposeGravityAnkles",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "OpposeGravityAnkles",
+  "summary": "Gravity opposition applied to ankles.  General balancer likes 1.0.  StaggerFall likes 0.1.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 4.0f."
+}

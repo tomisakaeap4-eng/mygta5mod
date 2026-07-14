@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.HeliEngineHealth",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "HeliEngineHealth",
+  "summary": "Gets or sets the engine health for this heli."
+}

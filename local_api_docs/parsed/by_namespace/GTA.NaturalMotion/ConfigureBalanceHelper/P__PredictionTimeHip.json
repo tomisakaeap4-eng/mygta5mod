@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.PredictionTimeHip",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "PredictionTimeHip",
+  "summary": "Amount of time (seconds) into the future that the character tries to move hip to (kind of).  Will be controlled by balancer in future but can help recover spine quicker from bending forwards to much.",
+  "remarks": "Default value = 0.3f.\n            Min value = -1.0f.\n            Max value = 1.0f."
+}

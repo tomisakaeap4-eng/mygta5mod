@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.FallOverWallHelper.FallOverWallEndB",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "FallOverWallHelper",
+  "memberName": "FallOverWallEndB",
+  "summary": "One end of the wall over which we are trying to fall over.",
+  "remarks": "Default value = Vector3(0.0f, 0.0f, 0.0f)."
+}

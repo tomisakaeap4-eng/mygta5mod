@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Entity.Rotation",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "Rotation",
+  "summary": "Gets or sets the rotation of this",
+  "value": "The yaw, pitch, roll rotation values."
+}

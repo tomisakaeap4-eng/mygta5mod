@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Math.Vector3.ToArray",
+  "kind": "M",
+  "namespace": "GTA.Math",
+  "typeName": "Vector3",
+  "memberName": "ToArray",
+  "summary": "Converts the matrix to an array of floats."
+}

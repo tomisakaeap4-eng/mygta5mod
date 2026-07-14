@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.PedGroup.Delete",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "PedGroup",
+  "memberName": "Delete",
+  "summary": "Removes this"
+}

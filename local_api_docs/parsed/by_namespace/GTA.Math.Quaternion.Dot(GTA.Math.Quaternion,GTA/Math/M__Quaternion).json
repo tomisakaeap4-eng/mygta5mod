@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.Math.Quaternion.Dot(GTA.Math.Quaternion,GTA.Math.Quaternion)",
+  "kind": "M",
+  "namespace": "GTA.Math.Quaternion.Dot(GTA.Math.Quaternion,GTA",
+  "typeName": "Math",
+  "memberName": "Quaternion)",
+  "summary": "Calculates the dot product of two quaternions.",
+  "returns": "The dot product of the two quaternions.",
+  "params": [
+    {
+      "name": "left",
+      "description": "First source quaternion."
+    },
+    {
+      "name": "right",
+      "description": "Second source quaternion."
+    }
+  ]
+}

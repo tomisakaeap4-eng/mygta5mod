@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.StaggerFallHelper.Lean2multF",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "StaggerFallHelper",
+  "memberName": "Lean2multF",
+  "summary": "Lean of spine to side in side velocity direction when going forwards.",
+  "remarks": "Default value = -1.0f.\n            Min value = -5.0f.\n            Max value = 5.0f."
+}

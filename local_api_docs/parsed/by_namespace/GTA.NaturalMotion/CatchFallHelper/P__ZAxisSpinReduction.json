@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.CatchFallHelper.ZAxisSpinReduction",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "CatchFallHelper",
+  "memberName": "ZAxisSpinReduction",
+  "summary": "Tries to reduce the spin around the Z axis. Scale 0 - 1.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 1.0f."
+}

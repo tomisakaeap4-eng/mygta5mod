@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.UI.Sprite.Centered",
+  "kind": "P",
+  "namespace": "GTA.UI",
+  "typeName": "Sprite",
+  "memberName": "Centered",
+  "summary": "Gets or sets a value indicating whether this"
+}

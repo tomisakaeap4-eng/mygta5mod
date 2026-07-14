@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.Math.Matrix.ToString(System.String)",
+  "kind": "M",
+  "namespace": "GTA.Math.Matrix",
+  "typeName": "ToString(System",
+  "memberName": "String)",
+  "summary": "Converts the value of the object to its equivalent string representation.",
+  "returns": "The string representation of the value of this instance.",
+  "params": [
+    {
+      "name": "format",
+      "description": "The format."
+    }
+  ]
+}

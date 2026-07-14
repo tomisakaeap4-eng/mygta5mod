@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Blip.DisplayNameHash",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Blip",
+  "memberName": "DisplayNameHash",
+  "summary": "Get or sets this",
+  "remarks": "Setting"
+}

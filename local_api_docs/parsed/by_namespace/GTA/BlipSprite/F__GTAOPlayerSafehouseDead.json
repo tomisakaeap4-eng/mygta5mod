@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.BlipSprite.GTAOPlayerSafehouseDead",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "BlipSprite",
+  "memberName": "GTAOPlayerSafehouseDead",
+  "summary": "In GTA Online, when some player is a bounty and is in a safehouse, a blip with this sprite will be attached."
+}

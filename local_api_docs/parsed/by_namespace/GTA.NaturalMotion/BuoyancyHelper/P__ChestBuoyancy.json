@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BuoyancyHelper.ChestBuoyancy",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BuoyancyHelper",
+  "memberName": "ChestBuoyancy",
+  "summary": "Buoyancy multiplier for spine2/3. Helps character float upright.",
+  "remarks": "Default value = 8.0f.\n            Min value = 0.0f."
+}

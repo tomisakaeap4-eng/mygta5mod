@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotHeadLookHelper.UseHeadLook",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotHeadLookHelper",
+  "memberName": "UseHeadLook",
+  "summary": "Use head look.\n            Default: looks at provided target or if this is zero - looks forward or in velocity direction.\n            If reachForWound is enabled, switches between looking at the wound and at the default target.",
+  "remarks": "Default value = False."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Vehicle.StartAlarm",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "StartAlarm",
+  "summary": "Starts sounding the alarm on this"
+}

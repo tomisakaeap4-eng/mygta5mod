@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.Math.Matrix.op_Division(GTA.Math.Matrix,GTA.Math.Matrix)",
+  "kind": "M",
+  "namespace": "GTA.Math.Matrix.op_Division(GTA.Math.Matrix,GTA",
+  "typeName": "Math",
+  "memberName": "Matrix)",
+  "summary": "Divides two matrices.",
+  "returns": "The quotient of the two matrices.",
+  "params": [
+    {
+      "name": "left",
+      "description": "The first matrix to divide."
+    },
+    {
+      "name": "right",
+      "description": "The second matrix to divide."
+    }
+  ]
+}

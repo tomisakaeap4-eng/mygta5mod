@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.Scaleform",
+  "kind": "T",
+  "namespace": "",
+  "typeName": "GTA",
+  "memberName": "Scaleform",
+  "summary": "A class which handles rendering of Scaleform elements."
+}

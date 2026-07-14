@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.InteriorInstance.Quaternion",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "InteriorInstance",
+  "memberName": "Quaternion",
+  "summary": "Gets the quaternion of this"
+}

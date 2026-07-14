@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunExtraHelper.PosStiff",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunExtraHelper",
+  "memberName": "PosStiff",
+  "summary": "Hand stabilization controller stiffness.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 100.0f."
+}

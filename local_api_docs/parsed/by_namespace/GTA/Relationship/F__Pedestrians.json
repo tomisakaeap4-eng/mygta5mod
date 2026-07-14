@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.Relationship.Pedestrians",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "Relationship",
+  "memberName": "Pedestrians",
+  "summary": "The correct relationship name for this enum would be"
+}

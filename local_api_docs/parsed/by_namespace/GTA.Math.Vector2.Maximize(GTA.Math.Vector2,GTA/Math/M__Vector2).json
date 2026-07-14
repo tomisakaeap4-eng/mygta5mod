@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.Math.Vector2.Maximize(GTA.Math.Vector2,GTA.Math.Vector2)",
+  "kind": "M",
+  "namespace": "GTA.Math.Vector2.Maximize(GTA.Math.Vector2,GTA",
+  "typeName": "Math",
+  "memberName": "Vector2)",
+  "summary": "Returns a vector containing the largest components of the specified vectors.",
+  "returns": "A vector containing the largest components of the source vectors.",
+  "params": [
+    {
+      "name": "left",
+      "description": "The first source vector."
+    },
+    {
+      "name": "right",
+      "description": "The second source vector."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.GrabHelper.StickyHands",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "GrabHelper",
+  "memberName": "StickyHands",
+  "summary": "Strength of cheat force on hands to pull towards target and stick to target (\"cleverHandIK\" strength).",
+  "remarks": "Default value = 4.0f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

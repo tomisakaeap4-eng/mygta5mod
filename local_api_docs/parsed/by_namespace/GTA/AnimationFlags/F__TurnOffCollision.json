@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.AnimationFlags.TurnOffCollision",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "AnimationFlags",
+  "memberName": "TurnOffCollision",
+  "summary": "Do not react to collision detection whilst this anim is playing."
+}

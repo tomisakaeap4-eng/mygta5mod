@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SetCharacterCollisionsHelper.FootSlip",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SetCharacterCollisionsHelper",
+  "memberName": "FootSlip",
+  "summary": "Allow foot slipping if collided.",
+  "remarks": "Default value = True."
+}

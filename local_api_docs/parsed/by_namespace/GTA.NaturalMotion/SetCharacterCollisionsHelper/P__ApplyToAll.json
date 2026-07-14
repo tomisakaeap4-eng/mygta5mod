@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.SetCharacterCollisionsHelper.ApplyToAll",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SetCharacterCollisionsHelper",
+  "memberName": "ApplyToAll",
+  "remarks": "Default value = False."
+}

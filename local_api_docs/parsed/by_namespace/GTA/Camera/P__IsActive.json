@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Camera.IsActive",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Camera",
+  "memberName": "IsActive",
+  "summary": "Gets or sets a value indicating whether this"
+}

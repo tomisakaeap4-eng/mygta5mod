@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ArmsWindmillHelper.ShoulderStiffness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ArmsWindmillHelper",
+  "memberName": "ShoulderStiffness",
+  "summary": "Stiffness applied to the shoulders.",
+  "remarks": "Default value = 12.0f.\n            Min value = 1.0f.\n            Max value = 16.0f."
+}

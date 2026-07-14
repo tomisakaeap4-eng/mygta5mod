@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotFromBehindHelper.ShotFromBehind",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotFromBehindHelper",
+  "memberName": "ShotFromBehind",
+  "summary": "Type of reaction.",
+  "remarks": "Default value = False."
+}

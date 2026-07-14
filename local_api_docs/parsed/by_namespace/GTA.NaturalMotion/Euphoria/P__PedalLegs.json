@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.PedalLegs",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "PedalLegs",
+  "summary": "Gets a PedalLegs Helper class for sending PedalLegs"
+}

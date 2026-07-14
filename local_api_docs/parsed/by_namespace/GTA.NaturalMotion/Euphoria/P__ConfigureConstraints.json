@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.ConfigureConstraints",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "ConfigureConstraints",
+  "summary": "Gets a ConfigureConstraints Helper class for sending ConfigureConstraints",
+  "remarks": "One shot to give state of constraints on character and response to constraints"
+}

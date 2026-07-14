@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.Math.Quaternion.RotateTransform(GTA.Math.Vector3,GTA.Math.Vector3)",
+  "kind": "M",
+  "namespace": "GTA.Math.Quaternion.RotateTransform(GTA.Math.Vector3,GTA",
+  "typeName": "Math",
+  "memberName": "Vector3)",
+  "summary": "Rotates the point with rotation.",
+  "returns": "The vector after rotation in the original coordinate system.",
+  "params": [
+    {
+      "name": "point",
+      "description": "The vector to be rotated."
+    },
+    {
+      "name": "center",
+      "description": "The vector representing the origin of the new coordinate system."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.DontStepTime",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "DontStepTime",
+  "summary": "Amount of time at the start of a balance before the character is allowed to start stepping.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f."
+}

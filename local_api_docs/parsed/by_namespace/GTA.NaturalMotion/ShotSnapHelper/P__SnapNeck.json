@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotSnapHelper.SnapNeck",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotSnapHelper",
+  "memberName": "SnapNeck",
+  "summary": "Snap the neck.",
+  "remarks": "Default value = True."
+}

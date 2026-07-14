@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.NaturalMotion.InjuredOnGroundHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.InjuredOnGroundHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the InjuredOnGroundHelper for sending a InjuredOnGround",
+  "remarks": "InjuredOnGround.",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

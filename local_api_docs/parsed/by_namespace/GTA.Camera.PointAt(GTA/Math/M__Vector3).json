@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Camera.PointAt(GTA.Math.Vector3)",
+  "kind": "M",
+  "namespace": "GTA.Camera.PointAt(GTA",
+  "typeName": "Math",
+  "memberName": "Vector3)",
+  "summary": "Points this",
+  "params": [
+    {
+      "name": "target",
+      "description": "The position to point at."
+    }
+  ]
+}

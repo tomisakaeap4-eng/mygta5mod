@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.Math.Quaternion.RotationAxis(GTA.Math.Vector3,System.Single)",
+  "kind": "M",
+  "namespace": "GTA.Math.Quaternion.RotationAxis(GTA.Math",
+  "typeName": "Vector3,System",
+  "memberName": "Single)",
+  "summary": "Creates a quaternion given a rotation and an axis.",
+  "returns": "The newly created quaternion.",
+  "params": [
+    {
+      "name": "axis",
+      "description": "The axis of rotation."
+    },
+    {
+      "name": "angle",
+      "description": "The angle of rotation in radians."
+    }
+  ]
+}

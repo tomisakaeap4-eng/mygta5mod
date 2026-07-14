@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.BraceWall",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BalancerCollisionsReactionHelper",
+  "memberName": "BraceWall",
+  "summary": "Brace against wall if forwards impact(at the moment only if bodyBalance is running/in charge of arms).",
+  "remarks": "Default value = True."
+}

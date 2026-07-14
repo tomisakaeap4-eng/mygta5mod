@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Ped.IsInjured",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Ped",
+  "memberName": "IsInjured",
+  "summary": "Gets a value indicating whether this"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.AnimPoseHelper.MuscleStiffnessLeftLeg",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "AnimPoseHelper",
+  "memberName": "MuscleStiffnessLeftLeg",
+  "summary": "Muscle stiffness applied to left leg (applied after stiffness). If -ve then not applied (use current setting).",
+  "remarks": "Default value = -1.0f.\n            Min value = -1.0f.\n            Max value = 10.0f."
+}

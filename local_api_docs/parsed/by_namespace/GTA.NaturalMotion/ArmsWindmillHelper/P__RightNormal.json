@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ArmsWindmillHelper.RightNormal",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ArmsWindmillHelper",
+  "memberName": "RightNormal",
+  "summary": "Euler Angles orientation of circle in space of part with part ID.",
+  "remarks": "Default value = Vector3(0.0f, -0.2f, -0.2f)."
+}

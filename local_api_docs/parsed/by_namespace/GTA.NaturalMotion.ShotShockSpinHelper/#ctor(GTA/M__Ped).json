@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.NaturalMotion.ShotShockSpinHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.ShotShockSpinHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the ShotShockSpinHelper for sending a ShotShockSpin",
+  "remarks": "Configure the shockSpin effect in shot.  Spin/Lift the character using cheat torques/forces.",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

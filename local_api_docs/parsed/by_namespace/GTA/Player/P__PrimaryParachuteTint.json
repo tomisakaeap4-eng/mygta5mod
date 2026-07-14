@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Player.PrimaryParachuteTint",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Player",
+  "memberName": "PrimaryParachuteTint",
+  "summary": "Gets or sets the primary parachute tint for this"
+}

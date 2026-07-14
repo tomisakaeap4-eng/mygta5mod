@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.FallOverWallDrape",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BalancerCollisionsReactionHelper",
+  "memberName": "FallOverWallDrape",
+  "summary": "Use fallOverWall as the main drape reaction.",
+  "remarks": "Default value = True."
+}

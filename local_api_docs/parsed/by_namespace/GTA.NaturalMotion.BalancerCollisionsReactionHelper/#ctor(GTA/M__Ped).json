@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.NaturalMotion.BalancerCollisionsReactionHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.BalancerCollisionsReactionHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the BalancerCollisionsReactionHelper for sending a BalancerCollisionsReaction",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

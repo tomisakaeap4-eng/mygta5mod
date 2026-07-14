@@ -1,0 +1,19 @@
+{
+  "name": "M:GTA.Math.Matrix.op_Addition(GTA.Math.Matrix,GTA.Math.Matrix)",
+  "kind": "M",
+  "namespace": "GTA.Math.Matrix.op_Addition(GTA.Math.Matrix,GTA",
+  "typeName": "Math",
+  "memberName": "Matrix)",
+  "summary": "Adds two matrices.",
+  "returns": "The sum of the two matrices.",
+  "params": [
+    {
+      "name": "left",
+      "description": "The first matrix to add."
+    },
+    {
+      "name": "right",
+      "description": "The second matrix to add."
+    }
+  ]
+}

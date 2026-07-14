@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.World.GravityLevel",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "World",
+  "memberName": "GravityLevel",
+  "summary": "Sets the gravity level for all",
+  "value": "The gravity level:\n            9.8f - Default gravity.\n            2.4f - Moon gravity.\n            0.1f - Very low gravity.\n            0.0f - No gravity."
+}

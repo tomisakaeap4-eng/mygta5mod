@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SmartFallHelper.InitialState",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SmartFallHelper",
+  "memberName": "InitialState",
+  "summary": "Force initial state (used in vehicle bail out to start SF_CatchFall (6) earlier.",
+  "remarks": "Default value = 0.\n            Min value = 0.\n            Max value = 7."
+}

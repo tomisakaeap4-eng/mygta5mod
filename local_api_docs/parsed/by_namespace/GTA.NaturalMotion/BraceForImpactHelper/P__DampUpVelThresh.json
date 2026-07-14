@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BraceForImpactHelper.DampUpVelThresh",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BraceForImpactHelper",
+  "memberName": "DampUpVelThresh",
+  "summary": "Upward velocity above which we start damping.",
+  "remarks": "Default value = 2.0f.\n            Min value = 0.0f.\n            Max value = 20.0f."
+}

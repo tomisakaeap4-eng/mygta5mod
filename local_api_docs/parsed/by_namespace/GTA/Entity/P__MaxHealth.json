@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.Entity.MaxHealth",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "MaxHealth",
+  "summary": "Gets or sets the maximum health of this",
+  "value": "The maximum health as a"
+}

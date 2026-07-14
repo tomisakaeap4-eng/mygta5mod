@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotShockSpinHelper.ShockSpinScaleByLeverArm",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotShockSpinHelper",
+  "memberName": "ShockSpinScaleByLeverArm",
+  "summary": "Shock spin scales by lever arm of bullet i.e. bullet impact point to center line.",
+  "remarks": "Default value = True."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.UI.Screen.IsHelpTextDisplayed",
+  "kind": "P",
+  "namespace": "GTA.UI",
+  "typeName": "Screen",
+  "memberName": "IsHelpTextDisplayed",
+  "summary": "Gets a value indicating whether a help message is currently displayed."
+}

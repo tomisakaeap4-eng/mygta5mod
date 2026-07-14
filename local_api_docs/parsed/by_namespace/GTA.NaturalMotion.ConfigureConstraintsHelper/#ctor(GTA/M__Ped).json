@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.NaturalMotion.ConfigureConstraintsHelper.#ctor(GTA.Ped)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.ConfigureConstraintsHelper",
+  "typeName": "#ctor(GTA",
+  "memberName": "Ped)",
+  "summary": "Creates a new Instance of the ConfigureConstraintsHelper for sending a ConfigureConstraints",
+  "remarks": "One shot to give state of constraints on character and response to constraints.",
+  "params": [
+    {
+      "name": "ped",
+      "description": "The"
+    }
+  ]
+}

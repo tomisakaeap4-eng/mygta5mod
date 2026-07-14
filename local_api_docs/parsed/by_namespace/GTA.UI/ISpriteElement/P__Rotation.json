@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.UI.ISpriteElement.Rotation",
+  "kind": "P",
+  "namespace": "GTA.UI",
+  "typeName": "ISpriteElement",
+  "memberName": "Rotation",
+  "summary": "Gets or sets the rotation to draw thie",
+  "value": "The rotation measured in degrees, clockwise increasing, 0.0 at vertical"
+}

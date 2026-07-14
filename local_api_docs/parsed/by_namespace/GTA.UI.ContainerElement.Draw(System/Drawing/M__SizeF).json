@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.UI.ContainerElement.Draw(System.Drawing.SizeF)",
+  "kind": "M",
+  "namespace": "GTA.UI.ContainerElement.Draw(System",
+  "typeName": "Drawing",
+  "memberName": "SizeF)",
+  "summary": "Draws this",
+  "params": [
+    {
+      "name": "offset",
+      "description": "The offset to shift the draw position of this"
+    }
+  ]
+}

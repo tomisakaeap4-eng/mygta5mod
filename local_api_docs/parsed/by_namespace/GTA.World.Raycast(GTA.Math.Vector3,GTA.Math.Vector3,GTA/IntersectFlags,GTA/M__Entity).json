@@ -1,0 +1,26 @@
+{
+  "name": "M:GTA.World.Raycast(GTA.Math.Vector3,GTA.Math.Vector3,GTA.IntersectFlags,GTA.Entity)",
+  "kind": "M",
+  "namespace": "GTA.World.Raycast(GTA.Math.Vector3,GTA.Math.Vector3,GTA",
+  "typeName": "IntersectFlags,GTA",
+  "memberName": "Entity)",
+  "summary": "Creates a raycast between 2 points.",
+  "params": [
+    {
+      "name": "source",
+      "description": "The source of the raycast."
+    },
+    {
+      "name": "target",
+      "description": "The target of the raycast."
+    },
+    {
+      "name": "options",
+      "description": "What type of objects the raycast should intersect with."
+    },
+    {
+      "name": "ignoreEntity",
+      "description": "Specify an"
+    }
+  ]
+}

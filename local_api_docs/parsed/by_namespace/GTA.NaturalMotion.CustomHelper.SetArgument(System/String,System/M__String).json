@@ -1,0 +1,18 @@
+{
+  "name": "M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)",
+  "kind": "M",
+  "namespace": "GTA.NaturalMotion.CustomHelper.SetArgument(System",
+  "typeName": "String,System",
+  "memberName": "String)",
+  "summary": "Sets a",
+  "params": [
+    {
+      "name": "argName",
+      "description": "The argument name."
+    },
+    {
+      "name": "value",
+      "description": "The value to set the argument to."
+    }
+  ]
+}

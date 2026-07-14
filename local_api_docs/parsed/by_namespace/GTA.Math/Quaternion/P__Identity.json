@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Math.Quaternion.Identity",
+  "kind": "P",
+  "namespace": "GTA.Math",
+  "typeName": "Quaternion",
+  "memberName": "Identity",
+  "summary": "The identity"
+}

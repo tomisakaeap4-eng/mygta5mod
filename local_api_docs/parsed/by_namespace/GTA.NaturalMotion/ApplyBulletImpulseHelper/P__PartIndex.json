@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ApplyBulletImpulseHelper.PartIndex",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ApplyBulletImpulseHelper",
+  "memberName": "PartIndex",
+  "summary": "Index of part being hit.",
+  "remarks": "Default value = 0.\n            Min value = 0.\n            Max value = 28."
+}

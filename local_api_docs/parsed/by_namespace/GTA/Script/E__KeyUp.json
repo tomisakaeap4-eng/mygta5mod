@@ -1,0 +1,8 @@
+{
+  "name": "E:GTA.Script.KeyUp",
+  "kind": "E",
+  "namespace": "GTA",
+  "typeName": "Script",
+  "memberName": "KeyUp",
+  "summary": "An event that is raised when a key is lifted.\n            The"
+}

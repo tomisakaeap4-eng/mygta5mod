@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.RelationshipGroup.NativeValue",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "RelationshipGroup",
+  "memberName": "NativeValue",
+  "summary": "Gets the native representation of this"
+}

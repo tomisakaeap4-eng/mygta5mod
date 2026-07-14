@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.Dangle",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "Dangle",
+  "summary": "Gets a Dangle Helper class for sending Dangle",
+  "remarks": "Dangle"
+}

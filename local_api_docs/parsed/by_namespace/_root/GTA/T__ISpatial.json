@@ -1,0 +1,8 @@
+{
+  "name": "T:GTA.ISpatial",
+  "kind": "T",
+  "namespace": "",
+  "typeName": "GTA",
+  "memberName": "ISpatial",
+  "summary": "An object with position and rotation information."
+}

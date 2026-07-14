@@ -1,0 +1,9 @@
+{
+  "name": "M:GTA.WeaponComponentCollection.GetFlashLightComponent",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "WeaponComponentCollection",
+  "memberName": "GetFlashLightComponent",
+  "summary": "Gets the flashlight component.",
+  "returns": "The"
+}

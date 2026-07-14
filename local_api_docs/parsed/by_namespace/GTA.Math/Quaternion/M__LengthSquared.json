@@ -1,0 +1,9 @@
+{
+  "name": "M:GTA.Math.Quaternion.LengthSquared",
+  "kind": "M",
+  "namespace": "GTA.Math",
+  "typeName": "Quaternion",
+  "memberName": "LengthSquared",
+  "summary": "Calculates the squared length of the quaternion.",
+  "returns": "The squared length of the quaternion."
+}

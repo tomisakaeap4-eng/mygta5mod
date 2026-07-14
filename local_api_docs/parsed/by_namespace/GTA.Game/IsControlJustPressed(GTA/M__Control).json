@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.Game.IsControlJustPressed(GTA.Control)",
+  "kind": "M",
+  "namespace": "GTA.Game",
+  "typeName": "IsControlJustPressed(GTA",
+  "memberName": "Control)",
+  "summary": "Gets whether a",
+  "params": [
+    {
+      "name": "control",
+      "description": "The"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "M:GTA.Game.GetUserInput(System.String)",
+  "kind": "M",
+  "namespace": "GTA.Game",
+  "typeName": "GetUserInput(System",
+  "memberName": "String)",
+  "summary": "Creates an input box for the user to input text using the keyboard.",
+  "returns": "The",
+  "params": [
+    {
+      "name": "defaultText",
+      "description": "The default text."
+    }
+  ]
+}

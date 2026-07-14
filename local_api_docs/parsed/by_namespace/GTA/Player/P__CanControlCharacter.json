@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Player.CanControlCharacter",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Player",
+  "memberName": "CanControlCharacter",
+  "summary": "Gets or sets a value indicating whether this"
+}

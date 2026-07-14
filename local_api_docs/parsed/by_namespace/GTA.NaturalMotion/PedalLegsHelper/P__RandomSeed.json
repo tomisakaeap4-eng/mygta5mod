@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PedalLegsHelper.RandomSeed",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PedalLegsHelper",
+  "memberName": "RandomSeed",
+  "summary": "Random seed used to generate speed changes.",
+  "remarks": "Default value = 100.\n            Min value = 0."
+}

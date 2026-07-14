@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.InteriorProxy.Handle",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "InteriorProxy",
+  "memberName": "Handle",
+  "summary": "The handle of this"
+}

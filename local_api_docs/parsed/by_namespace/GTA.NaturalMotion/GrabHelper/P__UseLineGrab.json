@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.GrabHelper.UseLineGrab",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "GrabHelper",
+  "memberName": "UseLineGrab",
+  "summary": "Use the line grab, Grab along the line (x-x2).",
+  "remarks": "Default value = False."
+}

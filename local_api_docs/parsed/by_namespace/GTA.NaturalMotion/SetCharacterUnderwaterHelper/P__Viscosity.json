@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.SetCharacterUnderwaterHelper.Viscosity",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "SetCharacterUnderwaterHelper",
+  "memberName": "Viscosity",
+  "summary": "Viscosity applied to character's parts.",
+  "remarks": "Default value = -1.0f.\n            Min value = -1.0f.\n            Max value = 100.0f."
+}

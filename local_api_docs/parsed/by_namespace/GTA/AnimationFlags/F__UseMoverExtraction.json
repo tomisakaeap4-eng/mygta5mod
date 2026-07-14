@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.AnimationFlags.UseMoverExtraction",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "AnimationFlags",
+  "memberName": "UseMoverExtraction",
+  "summary": "Updates the peds capsule position every frame based on the animation.\n            Use in conjunction with"
+}

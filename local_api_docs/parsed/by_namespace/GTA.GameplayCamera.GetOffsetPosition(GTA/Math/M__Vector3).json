@@ -1,0 +1,14 @@
+{
+  "name": "M:GTA.GameplayCamera.GetOffsetPosition(GTA.Math.Vector3)",
+  "kind": "M",
+  "namespace": "GTA.GameplayCamera.GetOffsetPosition(GTA",
+  "typeName": "Math",
+  "memberName": "Vector3)",
+  "summary": "Gets the position in world coordinates of an offset relative to the",
+  "params": [
+    {
+      "name": "offset",
+      "description": "The offset from the"
+    }
+  ]
+}

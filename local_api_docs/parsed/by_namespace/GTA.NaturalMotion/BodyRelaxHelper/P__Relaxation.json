@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyRelaxHelper.Relaxation",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyRelaxHelper",
+  "memberName": "Relaxation",
+  "summary": "How relaxed the body becomes, in percentage relaxed. 100 being totally rag-dolled, 0 being very stiff and rigid.",
+  "remarks": "Default value = 50.0f.\n            Min value = 0.0f.\n            Max value = 100.0f."
+}

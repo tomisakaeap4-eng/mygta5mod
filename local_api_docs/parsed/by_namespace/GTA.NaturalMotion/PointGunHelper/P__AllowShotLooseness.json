@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.AllowShotLooseness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "AllowShotLooseness",
+  "summary": "Allow shot to set a lower arm muscleStiffness than pointGun normally would.",
+  "remarks": "Default value = False."
+}

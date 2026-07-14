@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BalancerCollisionsReactionHelper.IgnoreColVolumeBelow",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BalancerCollisionsReactionHelper",
+  "memberName": "IgnoreColVolumeBelow",
+  "summary": "Collisions with non-fixed objects with volume below this will not set this behavior off.",
+  "remarks": "Default value = 0.1f.\n            Min value = -1.0f.\n            Max value = 1000.0f."
+}

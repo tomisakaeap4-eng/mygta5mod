@@ -1,0 +1,23 @@
+{
+  "name": "M:GTA.UI.TextElement.GetScaledStringWidth(System.String,GTA.UI.Font,System.Single)",
+  "kind": "M",
+  "namespace": "GTA.UI.TextElement.GetScaledStringWidth(System.String,GTA.UI",
+  "typeName": "Font,System",
+  "memberName": "Single)",
+  "summary": "Measures how many pixels in the horizontal axis the string will use when drawn",
+  "returns": "The amount of pixels scaled by the pixel width base return in",
+  "params": [
+    {
+      "name": "text",
+      "description": "The string of text to measure."
+    },
+    {
+      "name": "font",
+      "description": "The"
+    },
+    {
+      "name": "scale",
+      "description": "Sets a sclae value for increasing or decreasing the size of the text, default value 1.0f - no scaling."
+    }
+  ]
+}

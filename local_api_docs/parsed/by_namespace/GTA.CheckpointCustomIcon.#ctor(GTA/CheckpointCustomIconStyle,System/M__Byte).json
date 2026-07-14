@@ -1,0 +1,18 @@
+{
+  "name": "M:GTA.CheckpointCustomIcon.#ctor(GTA.CheckpointCustomIconStyle,System.Byte)",
+  "kind": "M",
+  "namespace": "GTA.CheckpointCustomIcon.#ctor(GTA",
+  "typeName": "CheckpointCustomIconStyle,System",
+  "memberName": "Byte)",
+  "summary": "Initializes a new instance of the",
+  "params": [
+    {
+      "name": "iconStyle",
+      "description": "The icon style."
+    },
+    {
+      "name": "iconNumber",
+      "description": "The icon number,\n            if"
+    }
+  ]
+}

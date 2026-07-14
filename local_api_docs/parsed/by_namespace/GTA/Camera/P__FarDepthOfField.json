@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Camera.FarDepthOfField",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Camera",
+  "memberName": "FarDepthOfField",
+  "summary": "Gets or sets the far depth of field of this"
+}

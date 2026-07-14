@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.HipsLeanTowardsObjectHelper.InstanceIndex",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "HipsLeanTowardsObjectHelper",
+  "memberName": "InstanceIndex",
+  "summary": "LevelIndex of object to lean hips towards.",
+  "remarks": "Default value = -1.\n            Min value = -1."
+}

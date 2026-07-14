@@ -1,0 +1,18 @@
+{
+  "name": "M:GTA.Math.Quaternion.op_Equality(GTA.Math.Quaternion,GTA.Math.Quaternion)",
+  "kind": "M",
+  "namespace": "GTA.Math.Quaternion.op_Equality(GTA.Math.Quaternion,GTA",
+  "typeName": "Math",
+  "memberName": "Quaternion)",
+  "summary": "Tests for equality between two objects.",
+  "params": [
+    {
+      "name": "left",
+      "description": "The first value to compare."
+    },
+    {
+      "name": "right",
+      "description": "The second value to compare."
+    }
+  ]
+}

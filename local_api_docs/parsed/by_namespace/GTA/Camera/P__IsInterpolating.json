@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Camera.IsInterpolating",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Camera",
+  "memberName": "IsInterpolating",
+  "summary": "Gets a value indicating whether this"
+}

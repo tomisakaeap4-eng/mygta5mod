@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.EntityBone.UpVector",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "EntityBone",
+  "memberName": "UpVector",
+  "summary": "Gets the vector that points above this"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Camera.ShakeAmplitude",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Camera",
+  "memberName": "ShakeAmplitude",
+  "summary": "Sets the shake amplitude for this"
+}

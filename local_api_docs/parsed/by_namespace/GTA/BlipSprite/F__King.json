@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.BlipSprite.King",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "BlipSprite",
+  "memberName": "King",
+  "summary": "The default English text for this value is \"Player King\"."
+}

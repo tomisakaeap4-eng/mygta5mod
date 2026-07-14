@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.CatchFallHelper.Mask",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "CatchFallHelper",
+  "memberName": "Mask",
+  "summary": "Two character body-masking value, bitwise joint mask or bitwise logic string of two character body-masking value  (see Active Pose notes for possible values).",
+  "remarks": "Default value = \"fb\"."
+}

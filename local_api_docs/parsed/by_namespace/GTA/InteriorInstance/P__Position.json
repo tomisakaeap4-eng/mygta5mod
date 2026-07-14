@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.InteriorInstance.Position",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "InteriorInstance",
+  "memberName": "Position",
+  "summary": "Gets or sets the position of this",
+  "value": "The position in world space."
+}

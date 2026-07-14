@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunHelper.Add2WeaponDistConnect",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunHelper",
+  "memberName": "Add2WeaponDistConnect",
+  "summary": "Add to weaponDistance for point2Connect neutral pointing (to straighten the arm).",
+  "remarks": "Default value = 0.0f.\n            Min value = -1.0f.\n            Max value = 1000.0f."
+}

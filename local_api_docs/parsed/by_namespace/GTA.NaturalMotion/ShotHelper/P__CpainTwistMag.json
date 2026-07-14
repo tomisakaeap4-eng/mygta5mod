@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotHelper.CpainTwistMag",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotHelper",
+  "memberName": "CpainTwistMag",
+  "summary": "Conscious pain spine Twist/Lean2Side magnitude Replaces spinePainTwistMultiplier).",
+  "remarks": "Default value = 0.5f.\n            Min value = 0.0f.\n            Max value = 10.0f."
+}

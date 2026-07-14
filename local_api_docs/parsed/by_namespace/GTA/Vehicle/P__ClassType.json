@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Vehicle.ClassType",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Vehicle",
+  "memberName": "ClassType",
+  "summary": "Gets the class of this"
+}

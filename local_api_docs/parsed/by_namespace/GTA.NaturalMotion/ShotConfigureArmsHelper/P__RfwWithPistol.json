@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotConfigureArmsHelper.RfwWithPistol",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotConfigureArmsHelper",
+  "memberName": "RfwWithPistol",
+  "summary": "Override pointGun and reachForWound if desired if holding a pistol.\n            It never will for a rifle.",
+  "remarks": "Default value = False."
+}

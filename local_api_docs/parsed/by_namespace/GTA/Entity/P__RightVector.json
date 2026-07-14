@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Entity.RightVector",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Entity",
+  "memberName": "RightVector",
+  "summary": "Gets the vector that points to the right of this"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ConfigureBalanceHelper.LegStiffness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ConfigureBalanceHelper",
+  "memberName": "LegStiffness",
+  "summary": "Stiffness of legs.",
+  "remarks": "Default value = 12.0f.\n            Min value = 6.0f.\n            Max value = 16.0f."
+}

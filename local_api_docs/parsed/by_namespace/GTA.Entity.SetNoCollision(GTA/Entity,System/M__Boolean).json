@@ -1,0 +1,18 @@
+{
+  "name": "M:GTA.Entity.SetNoCollision(GTA.Entity,System.Boolean)",
+  "kind": "M",
+  "namespace": "GTA.Entity.SetNoCollision(GTA",
+  "typeName": "Entity,System",
+  "memberName": "Boolean)",
+  "summary": "Sets the collision between this",
+  "params": [
+    {
+      "name": "entity",
+      "description": "The"
+    },
+    {
+      "name": "toggle",
+      "description": "if set to"
+    }
+  ]
+}

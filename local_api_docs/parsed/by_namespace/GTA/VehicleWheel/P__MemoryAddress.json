@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.VehicleWheel.MemoryAddress",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "VehicleWheel",
+  "memberName": "MemoryAddress",
+  "summary": "Gets the memory address where this"
+}

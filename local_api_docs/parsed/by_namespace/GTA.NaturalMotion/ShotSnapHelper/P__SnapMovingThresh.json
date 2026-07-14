@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.ShotSnapHelper.SnapMovingThresh",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "ShotSnapHelper",
+  "memberName": "SnapMovingThresh",
+  "summary": "If moving(comVelMag) faster than movingThresh then mvingMult applied to stunMag.",
+  "remarks": "Default value = 1.0f.\n            Min value = 0.0f.\n            Max value = 20.0f."
+}

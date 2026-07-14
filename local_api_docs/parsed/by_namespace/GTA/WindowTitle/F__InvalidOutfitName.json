@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.WindowTitle.InvalidOutfitName",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "WindowTitle",
+  "memberName": "InvalidOutfitName",
+  "summary": "\"Invalid Outfit Name. Try again (MAX 15 characters)\""
+}

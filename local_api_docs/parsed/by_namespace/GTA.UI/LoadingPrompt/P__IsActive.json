@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.UI.LoadingPrompt.IsActive",
+  "kind": "P",
+  "namespace": "GTA.UI",
+  "typeName": "LoadingPrompt",
+  "memberName": "IsActive",
+  "summary": "Gets a value indicating whether the Loading Prompt is currently being displayed"
+}

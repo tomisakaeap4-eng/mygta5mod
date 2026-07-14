@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.BodyWritheHelper.ShoulderLean2",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "BodyWritheHelper",
+  "memberName": "ShoulderLean2",
+  "summary": "Blend writhe shoulder desired lean2 with this angle in RAD. Note that onFire has to be set to true for this parameter to take any effect.",
+  "remarks": "Default value = 0.4f.\n            Min value = 0.0f.\n            Max value = 6.3f."
+}

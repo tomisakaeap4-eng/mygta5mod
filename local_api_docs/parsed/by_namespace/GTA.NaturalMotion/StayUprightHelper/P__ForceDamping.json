@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.StayUprightHelper.ForceDamping",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "StayUprightHelper",
+  "memberName": "ForceDamping",
+  "summary": "Damping in constraint: -1 makes it scale automagically with forceStrength.  Other negative values will scale this automagic damping.",
+  "remarks": "Default value = -1.0f.\n            Min value = -1.0f.\n            Max value = 50.0f."
+}

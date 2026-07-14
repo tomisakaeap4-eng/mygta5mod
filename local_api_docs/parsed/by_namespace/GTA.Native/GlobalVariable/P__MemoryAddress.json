@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Native.GlobalVariable.MemoryAddress",
+  "kind": "P",
+  "namespace": "GTA.Native",
+  "typeName": "GlobalVariable",
+  "memberName": "MemoryAddress",
+  "summary": "Gets the native memory address of the"
+}

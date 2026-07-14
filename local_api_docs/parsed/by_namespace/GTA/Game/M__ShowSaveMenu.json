@@ -1,0 +1,8 @@
+{
+  "name": "M:GTA.Game.ShowSaveMenu",
+  "kind": "M",
+  "namespace": "GTA",
+  "typeName": "Game",
+  "memberName": "ShowSaveMenu",
+  "summary": "Shows the save menu enabling the user to perform a manual game save."
+}

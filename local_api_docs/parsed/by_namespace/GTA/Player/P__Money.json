@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Player.Money",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Player",
+  "memberName": "Money",
+  "summary": "Gets or sets how much money this"
+}

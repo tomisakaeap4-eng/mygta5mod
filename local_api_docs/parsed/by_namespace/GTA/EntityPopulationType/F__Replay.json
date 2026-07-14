@@ -1,0 +1,8 @@
+{
+  "name": "F:GTA.EntityPopulationType.Replay",
+  "kind": "F",
+  "namespace": "GTA",
+  "typeName": "EntityPopulationType",
+  "memberName": "Replay",
+  "summary": "The game does not automatically delete entities when this value is set."
+}

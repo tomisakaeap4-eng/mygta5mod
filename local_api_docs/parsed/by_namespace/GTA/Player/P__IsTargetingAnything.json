@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Player.IsTargetingAnything",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Player",
+  "memberName": "IsTargetingAnything",
+  "summary": "Gets a value indicating whether this"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Math.Vector3.WorldNorth",
+  "kind": "P",
+  "namespace": "GTA.Math",
+  "typeName": "Vector3",
+  "memberName": "WorldNorth",
+  "summary": "Returns the world North vector. (0,1,0)"
+}

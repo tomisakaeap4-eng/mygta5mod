@@ -1,0 +1,8 @@
+{
+  "name": "P:GTA.Checkpoint.CylinderRadius",
+  "kind": "P",
+  "namespace": "GTA",
+  "typeName": "Checkpoint",
+  "memberName": "CylinderRadius",
+  "summary": "Gets or sets the radius of the cylinder in this"
+}

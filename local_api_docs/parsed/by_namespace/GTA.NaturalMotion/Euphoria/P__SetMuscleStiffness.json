@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.Euphoria.SetMuscleStiffness",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "Euphoria",
+  "memberName": "SetMuscleStiffness",
+  "summary": "Gets a SetMuscleStiffness Helper class for sending SetMuscleStiffness",
+  "remarks": "Use this message to manually set the muscle stiffness values -before using Active Pose to drive to an animated pose, for example."
+}

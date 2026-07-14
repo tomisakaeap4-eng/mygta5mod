@@ -1,0 +1,9 @@
+{
+  "name": "P:GTA.NaturalMotion.PointGunExtraHelper.PosDamp",
+  "kind": "P",
+  "namespace": "GTA.NaturalMotion",
+  "typeName": "PointGunExtraHelper",
+  "memberName": "PosDamp",
+  "summary": "Hand stabilization controller damping.",
+  "remarks": "Default value = 0.0f.\n            Min value = 0.0f.\n            Max value = 2.0f."
+}
