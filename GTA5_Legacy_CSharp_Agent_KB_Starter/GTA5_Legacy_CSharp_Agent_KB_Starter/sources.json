@@ -1,0 +1,69 @@
+{
+  "target": {
+    "game": "Grand Theft Auto V Legacy",
+    "mode": "Story Mode only",
+    "language": "C#",
+    "runtime": ".NET Framework 4.8",
+    "api": "ScriptHookVDotNet v3"
+  },
+  "repositories": [
+    {
+      "id": "shvdn",
+      "url": "https://github.com/scripthookvdotnet/scripthookvdotnet.git",
+      "branch": "main",
+      "priority": 20,
+      "include": [
+        "README.md",
+        "ScriptHookVDotNet.ini",
+        "examples",
+        "source/scripting_v3/GTA",
+        "source/core"
+      ],
+      "exclude": [
+        ".git",
+        "bin",
+        "obj",
+        "source/scripting_v2"
+      ]
+    },
+    {
+      "id": "shvdn_wiki",
+      "url": "https://github.com/scripthookvdotnet/scripthookvdotnet.wiki.git",
+      "branch": "master",
+      "priority": 30,
+      "include": [
+        "*.md"
+      ]
+    },
+    {
+      "id": "native_db_legacy",
+      "url": "https://github.com/alloc8or/gta5-nativedb-data.git",
+      "branch": "master",
+      "priority": 40,
+      "include": [
+        "natives.json",
+        "schema.json"
+      ],
+      "exclude": [
+        "natives_gen9.json"
+      ]
+    }
+  ],
+  "local_inputs": [
+    {
+      "path": "inputs/local_api_docs",
+      "description": "ScriptHookVDotNet3.xml matching the compile-reference DLL",
+      "priority": 10
+    },
+    {
+      "path": "inputs/project",
+      "description": "Current mod solution and source code",
+      "priority": 0
+    },
+    {
+      "path": "inputs/logs",
+      "description": "Current ScriptHookVDotNet.log and ScriptHookV.log",
+      "priority": 0
+    }
+  ]
+}

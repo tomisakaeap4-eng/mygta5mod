@@ -1,0 +1,1 @@
+Copy your .sln, .csproj, .cs and related project files here before building the corpus.

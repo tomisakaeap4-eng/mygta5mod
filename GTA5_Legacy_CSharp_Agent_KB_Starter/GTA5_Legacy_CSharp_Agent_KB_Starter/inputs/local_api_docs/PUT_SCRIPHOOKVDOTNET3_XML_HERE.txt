@@ -1,0 +1,1 @@
+Copy ScriptHookVDotNet3.xml matching your compile-reference DLL into this folder.

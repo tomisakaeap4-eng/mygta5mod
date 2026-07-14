@@ -1,0 +1,1 @@
+Copy ScriptHookVDotNet.log and ScriptHookV.log here when debugging runtime problems.
