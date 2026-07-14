@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<member name="F:GTA.VehicleDrivingFlags.DrivingModeStopForVehicles">
-    
-            
-    <summary>Standard driving mode. stops for cars, peds, and lights, goes around stationary obstructions, and obey lights.</summary>
-    
-        
-</member>

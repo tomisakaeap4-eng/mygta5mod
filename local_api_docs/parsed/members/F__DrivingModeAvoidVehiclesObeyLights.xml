@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<member name="F:GTA.VehicleDrivingFlags.DrivingModeAvoidVehiclesObeyLights">
-    
-            
-    <summary>Try to swerve around everything, but stop for lights if necessary.</summary>
-    
-        
-</member>
