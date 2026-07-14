@@ -30,7 +30,7 @@ under `api_docs/` and `local_api_docs/`.
 ├── scripts/                     # PowerShell + Bash utility scripts (see below)
 ├── api_docs/                    # Cloned corpus, gitignored (see below)
 ├── local_api_docs/              # Offline SHVDN XML doc + parsed tree (gitignored)
-├── inputs/, output/             # Working dirs, created by bootstrap scripts
+├── inputs/                      # Created on demand by scripts/copy_gta_logs.ps1
 ```
 
 The compiled `FirstGtaMod.dll` is automatically copied to

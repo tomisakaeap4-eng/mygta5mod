@@ -31,12 +31,8 @@ ProjectRoot="$(cd "$(dirname "$0")/.." && pwd)"
 # --- Pre-flight -----------------------------------------------------------
 command -v git >/dev/null 2>&1 || die "không tìm thấy 'git'; cài git rồi chạy lại"
 
-# Chuẩn bị thư mục: corpus + inputs/* + output
+# Chuẩn bị thư mục: corpus
 mkdir -p "$ApiDocsRoot"
-mkdir -p "$ProjectRoot/inputs/local_api_docs" \
-         "$ProjectRoot/inputs/project" \
-         "$ProjectRoot/inputs/logs" \
-         "$ProjectRoot/output"
 
 # --- Clone-or-update helper ----------------------------------------------
 clone_or_update() {

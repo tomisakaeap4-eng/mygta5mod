@@ -38,9 +38,8 @@ $RECYCLE.BIN/
 # Mac (Nếu bạn có dùng chung với Mac)
 .DS_Store
 
-# inputs/ và output/ do bootstrap_api_docs.ps1 tạo ra; nội dung do script, không commit
+# inputs/ được tạo bởi copy_gta_logs.ps1 khi copy logs. Không commit.
 ./inputs
-./output
 
 # Thư mục api_docs/ chứa corpus API cho agent (clone bằng bootstrap_api_docs.ps1)
 ./api_docs

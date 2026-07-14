@@ -27,10 +27,6 @@ Require-Command "git"
 Require-Command "python"
 
 New-Item -ItemType Directory -Force -Path $ApiDocsRoot | Out-Null
-New-Item -ItemType Directory -Force -Path (Join-Path $PSScriptRoot "inputs\local_api_docs") | Out-Null
-New-Item -ItemType Directory -Force -Path (Join-Path $PSScriptRoot "inputs\project") | Out-Null
-New-Item -ItemType Directory -Force -Path (Join-Path $PSScriptRoot "inputs\logs") | Out-Null
-New-Item -ItemType Directory -Force -Path (Join-Path $PSScriptRoot "output") | Out-Null
 
 Clone-Or-Update `
   "https://github.com/scripthookvdotnet/scripthookvdotnet.git" `
