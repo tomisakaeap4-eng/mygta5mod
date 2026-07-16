@@ -31,6 +31,7 @@ namespace FirstLegacyMod
         private const string BaseUrl = "https://integrate.api.nvidia.com/v1";
         private const string Model = "google/diffusiongemma-26b-a4b-it";
         private const string IniPath = "scripts\\FirstGtaMod.ini";
+        private const string LogPath = "scripts\\FirstGtaMod.log";
 
         // ── Instance state ────────────────────────────────────────────
         private static readonly object _lock = new object();
@@ -68,12 +69,11 @@ namespace FirstLegacyMod
                 if (_initialized) return;
 
                 // Log file: scripts/FirstGtaMod.log — truncated on every game start
-                _logPath = Path.Combine(
-                    Path.GetDirectoryName(typeof(AIChatService).Assembly.Location),
-                    "FirstGtaMod.log");
+                // Uses relative path (like IniPath) which is reliable in GTA V
+                _logPath = LogPath;
 
                 // Start fresh log for this session
-                StartLog($"=== FirstGtaMod AI Log — {DateTime.Now:yyyy-MM-dd HH:mm:ss} ===");
+                StartLog("=== FirstGtaMod AI Log — session start ===");
 
                 string apiKey = ReadApiKeyFromIni();
 
@@ -198,7 +198,7 @@ namespace FirstLegacyMod
                 // Collect full exception chain for diagnosis
                 string detail = FlattenException(ex);
                 WriteLog($"[AIChatService] API call failed: {detail}");
-                return $"[AI Lỗi] {ex.Message}\n(Check scripts/{Path.GetFileName(_logPath)})";
+                return $"[AI Lỗi] {ex.Message}\n(Check scripts/FirstGtaMod.log)";
             }
         }
 
