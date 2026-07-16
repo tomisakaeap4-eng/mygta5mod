@@ -10,8 +10,7 @@ namespace FirstLegacyMod
 {
     /// <summary>
     /// Lightweight AI communication service for chat bubble responses.
-    /// Sends a prompt to the OpenAI-compatible API (NVIDIA NIM) and returns a
-    /// Vietnamese response.
+    /// Uses OpenAI-compatible API (local DeepSeek by default, overridable via .ini).
     /// </summary>
     public static class AIChatService
     {
@@ -26,11 +25,11 @@ namespace FirstLegacyMod
         private const string UserPrompt =
             "Cho tôi một câu trả lời ngẫu nhiên bằng tiếng Việt.";
 
-        // ── Configuration ────────────────────────────────────────────
-        // API key read from scripts/FirstGtaMod.ini → [NVIDIA] → NVIDIA_API_KEY.
-        // Falls back to NVIDIA_API_KEY environment variable if .ini is missing.
-        private const string BaseUrl = "https://integrate.api.nvidia.com/v1";
-        private const string Model = "google/diffusiongemma-26b-a4b-it";
+        // ── Default configuration (local DeepSeek) ──────────────────────
+        private const string DefaultApiKey = "sk-95a1ecf324105598-e8n9c5-8221cc03";
+        private const string DefaultBaseUrl = "http://localhost:20128/v1";
+        private const string DefaultModel = "oc/deepseek-v4-flash-free";
+
         private const string IniPath = "scripts\\FirstGtaMod.ini";
         private const string LogPath = "scripts\\FirstGtaMod.log";
 
@@ -40,7 +39,7 @@ namespace FirstLegacyMod
         private static bool _initialized;
         private static string _lastResponse = string.Empty;
         private static string _logPath;
-        private static bool _logStarted;  // true after first WriteAllText truncates old log
+        private static bool _logStarted;
         private static readonly object _logLock = new object();
 
         /// <summary>
@@ -58,7 +57,8 @@ namespace FirstLegacyMod
         // ── Public API ────────────────────────────────────────────────
 
         /// <summary>
-        /// Initialize the ChatClient with hardcoded API key + local base URL.
+        /// Initialize the ChatClient.  Uses hardcoded local defaults;
+        /// overridable via scripts/FirstGtaMod.ini [AI] → API_KEY.
         /// Safe to call multiple times.
         /// </summary>
         public static void Initialize()
@@ -69,37 +69,35 @@ namespace FirstLegacyMod
             {
                 if (_initialized) return;
 
-                // Log file: scripts/FirstGtaMod.log — truncated on every game start
-                // Uses relative path (like IniPath) which is reliable in GTA V
                 _logPath = LogPath;
-
-                // Start fresh log for this session
                 StartLog("=== FirstGtaMod AI Log — session start ===");
 
-                string apiKey = ReadApiKeyFromIni();
+                // Resolve effective config (ini overrides only if user provided a real key)
+                string apiKey = ResolveApiKey();
+                string baseUrl = ResolveBaseUrl();
+                string model = ResolveModel();
 
                 if (string.IsNullOrEmpty(apiKey))
                 {
-                    WriteLog("[AIChatService] No NVIDIA_API_KEY found in .ini or env. AI disabled.");
+                    WriteLog("[AIChatService] No API key available. AI disabled.");
                     _initialized = true;
                     return;
                 }
 
-                // ★ .NET Framework 4.8 defaults to TLS 1.0 — NVIDIA requires TLS 1.2
-                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
-
-                // Mask key for safe logging: show last 4 chars only
                 string masked = apiKey.Length > 8
                     ? "..." + apiKey.Substring(apiKey.Length - 4)
                     : "***";
-                WriteLog($"[AIChatService] Loaded API key ending in {masked}, endpoint={BaseUrl}, model={Model}");
+                WriteLog($"[AIChatService] Using API key ending in {masked}, endpoint={baseUrl}, model={model}");
+
+                // Enable TLS 1.2 for HTTPS endpoints (NVIDIA etc.) — harmless for HTTP localhost
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 
                 _client = new ChatClient(
-                    model: Model,
+                    model: model,
                     credential: new ApiKeyCredential(apiKey),
                     options: new OpenAIClientOptions
                     {
-                        Endpoint = new Uri(BaseUrl)
+                        Endpoint = new Uri(baseUrl)
                     });
 
                 _initialized = true;
@@ -107,35 +105,10 @@ namespace FirstLegacyMod
         }
 
         /// <summary>
-        /// Reads NVIDIA_API_KEY from scripts/FirstGtaMod.ini [NVIDIA] section.
-        /// Falls back to environment variable NVIDIA_API_KEY if .ini is missing.
-        /// </summary>
-        private static string ReadApiKeyFromIni()
-        {
-            try
-            {
-                if (File.Exists(IniPath))
-                {
-                    var settings = ScriptSettings.Load(IniPath);
-                    string key = settings.GetValue<string>("NVIDIA", "NVIDIA_API_KEY", string.Empty);
-                    if (!string.IsNullOrEmpty(key))
-                        return key;
-                }
-            }
-            catch
-            {
-                // .ini corrupted or unreadable — fall through to env var
-            }
-
-            return Environment.GetEnvironmentVariable("NVIDIA_API_KEY") ?? string.Empty;
-        }
-
-        /// <summary>
         /// Sends a request to the AI and returns a random Vietnamese response.
         /// This method is synchronous and will block the calling thread.
         /// Call from a background thread via <c>Task.Run</c>.
         /// </summary>
-        /// <returns>The AI response text, or an error message.</returns>
         public static string GetVietnameseResponse()
         {
             return GetSituationalResponse(SystemPrompt, UserPrompt);
@@ -146,13 +119,6 @@ namespace FirstLegacyMod
         /// This method is synchronous and will block the calling thread.
         /// Call from a background thread via <c>Task.Run</c>.
         /// </summary>
-        /// <param name="systemPrompt">
-        /// Custom system prompt describing the NPC's role and the situation.
-        /// </param>
-        /// <param name="userPrompt">
-        /// Custom user prompt describing what the NPC should react to.
-        /// </param>
-        /// <returns>The AI response text, or an error message.</returns>
         public static string GetSituationalResponse(
             string systemPrompt, string userPrompt)
         {
@@ -160,7 +126,9 @@ namespace FirstLegacyMod
 
             if (_client == null)
             {
-                return "[AI] Chưa có NVIDIA_API_KEY.\nTạo file scripts\\FirstGtaMod.ini với:\n[NVIDIA]\nNVIDIA_API_KEY=your-key";
+                return "[AI] Chưa có API key.\n" +
+                       "Tạo file scripts\\FirstGtaMod.ini với:\n" +
+                       "[AI]\nAPI_KEY=your-key-here";
             }
 
             try
@@ -174,16 +142,14 @@ namespace FirstLegacyMod
                 ChatCompletionOptions options = new ChatCompletionOptions
                 {
                     MaxOutputTokenCount = 150,
-                    Temperature = 1.2f, // High randomness for varied responses
+                    Temperature = 1.2f,
                 };
 
                 ChatCompletion completion = _client.CompleteChat(messages, options);
 
                 string response = completion.Content[0]?.Text?.Trim() ?? string.Empty;
 
-                // If response is same as last, retry once with higher temperature.
-                // NOTE: This incurs an extra API call; acceptable for a game mod
-                // where variety matters more than cost.
+                // Avoid repeating the same response
                 if (!string.IsNullOrEmpty(response) &&
                     response == _lastResponse)
                 {
@@ -199,11 +165,77 @@ namespace FirstLegacyMod
             }
             catch (Exception ex)
             {
-                // Collect full exception chain for diagnosis
                 string detail = FlattenException(ex);
                 WriteLog($"[AIChatService] API call failed: {detail}");
                 return $"[AI Lỗi] {ex.Message}\n(Check scripts/FirstGtaMod.log)";
             }
+        }
+
+        // ── Config resolution ─────────────────────────────────────────
+
+        /// <summary>
+        /// Reads API_KEY from .ini [AI] section.
+        /// If missing, empty, or looks like a placeholder, returns hardcoded default.
+        /// </summary>
+        private static string ResolveApiKey()
+        {
+            string iniKey = ReadIniValue("AI", "API_KEY");
+
+            // Reject obvious placeholders / template values
+            if (string.IsNullOrEmpty(iniKey) ||
+                iniKey.StartsWith("your-", StringComparison.OrdinalIgnoreCase) ||
+                iniKey.Length < 16)
+            {
+                WriteLog("[AIChatService] .ini key is empty/template — using hardcoded default.");
+                return DefaultApiKey;
+            }
+
+            WriteLog("[AIChatService] Using API key from .ini override.");
+            return iniKey;
+        }
+
+        private static string ResolveBaseUrl()
+        {
+            string iniVal = ReadIniValue("AI", "BASE_URL");
+            if (!string.IsNullOrEmpty(iniVal) && Uri.TryCreate(iniVal, UriKind.Absolute, out _))
+            {
+                WriteLog($"[AIChatService] Using BASE_URL from .ini: {iniVal}");
+                return iniVal;
+            }
+            return DefaultBaseUrl;
+        }
+
+        private static string ResolveModel()
+        {
+            string iniVal = ReadIniValue("AI", "MODEL");
+            if (!string.IsNullOrEmpty(iniVal))
+            {
+                WriteLog($"[AIChatService] Using MODEL from .ini: {iniVal}");
+                return iniVal;
+            }
+            return DefaultModel;
+        }
+
+        /// <summary>
+        /// Reads a value from scripts/FirstGtaMod.ini.  Returns empty string if
+        /// the file is missing, section/key not found, or file is corrupt.
+        /// </summary>
+        private static string ReadIniValue(string section, string key)
+        {
+            try
+            {
+                if (File.Exists(IniPath))
+                {
+                    var settings = ScriptSettings.Load(IniPath);
+                    return settings.GetValue<string>(section, key, string.Empty) ?? string.Empty;
+                }
+            }
+            catch
+            {
+                // .ini corrupted or unreadable — ignore
+            }
+
+            return string.Empty;
         }
 
         // ── Internal ──────────────────────────────────────────────────
@@ -216,10 +248,6 @@ namespace FirstLegacyMod
             }
         }
 
-        /// <summary>
-        /// Recursively collects all exception messages (including inner exceptions)
-        /// for diagnostic logging.
-        /// </summary>
         private static string FlattenException(Exception ex)
         {
             var parts = new System.Collections.Generic.List<string>();
@@ -231,9 +259,6 @@ namespace FirstLegacyMod
             return string.Join(" <- ", parts);
         }
 
-        /// <summary>
-        /// Overwrites the log file with the first line of a new session.
-        /// </summary>
         private static void StartLog(string message)
         {
             try
@@ -246,16 +271,9 @@ namespace FirstLegacyMod
                     _logStarted = true;
                 }
             }
-            catch
-            {
-                // Log file may be locked or path invalid — silently ignore
-            }
+            catch { }
         }
 
-        /// <summary>
-        /// Appends a line to FirstGtaMod.log (same folder as the .dll).
-        /// Thread-safe, fails silently if log is unavailable.
-        /// </summary>
         private static void WriteLog(string message)
         {
             try
@@ -274,10 +292,7 @@ namespace FirstLegacyMod
                     File.AppendAllText(_logPath, line);
                 }
             }
-            catch
-            {
-                // Log file may be locked or path invalid — silently ignore
-            }
+            catch { }
         }
     }
 }
