@@ -4,6 +4,7 @@ using OpenAI.Chat;
 using System;
 using System.ClientModel;
 using System.IO;
+using System.Net;
 
 namespace FirstLegacyMod
 {
@@ -83,6 +84,9 @@ namespace FirstLegacyMod
                     _initialized = true;
                     return;
                 }
+
+                // ★ .NET Framework 4.8 defaults to TLS 1.0 — NVIDIA requires TLS 1.2
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 
                 // Mask key for safe logging: show last 4 chars only
                 string masked = apiKey.Length > 8
