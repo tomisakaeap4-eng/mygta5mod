@@ -38,11 +38,11 @@ namespace FirstLegacyMod
             = new Dictionary<int, NpcEntry>();
 
         // ── Timing constants ────────────────────────────────────────
-        private const int GlobalCooldownMs  = 2000;
+        private const int GlobalCooldownMs  = 500;   // 0.5 s — fast enough to feel instant
         private const int ReleaseDelayMs    = 2500;
-        private const int DebugLogFrames    = 90;  // Log every ~1.5 s while aiming
+        private const int DebugLogFrames    = 90;   // Log every ~1.5 s while aiming
 
-        private int _lastActivationTick = -2000;  // skip first cooldown (avoids int.MinValue overflow)
+        private int _lastActivationTick = -GlobalCooldownMs;  // skip first cooldown
         private int _debugFrameCounter;
 
         // ════════════════════════════════════════════════════════════
@@ -197,8 +197,8 @@ namespace FirstLegacyMod
                 // Dot product: 1.0 = dead centre, 0.0 = 90° off
                 float dot = Vector3.Dot(aimDir, dirToNpc);
 
-                // Need at least ~10° cone (cos 10° ≈ 0.985)
-                if (dot < 0.985f) continue;
+                // Need at least ~15° cone (cos 15° ≈ 0.966)
+                if (dot < 0.965f) continue;
 
                 // Prefer the closest among those in the cone
                 if (dist < bestDist)

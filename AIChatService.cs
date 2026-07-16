@@ -27,11 +27,12 @@ namespace FirstLegacyMod
             "Cho tôi một câu trả lời ngẫu nhiên bằng tiếng Việt.";
 
         // ── Configuration ────────────────────────────────────────────
-        // NOTE: API key hardcoded for local dev mod.
-        // For production, use Environment.GetEnvironmentVariable("OPENAI_API_KEY").
-        private const string ApiKey = "sk-95a1ecf324105598-e8n9c5-8221cc03";
-        private const string BaseUrl = "http://localhost:20128/v1";
-        private const string Model = "oc/deepseek-v4-flash-free(max)";
+        // API key from NVIDIA_API_KEY environment variable.
+        // NVIDIA NIM endpoint: https://integrate.api.nvidia.com/v1
+        private static readonly string ApiKey =
+            Environment.GetEnvironmentVariable("NVIDIA_API_KEY") ?? string.Empty;
+        private const string BaseUrl = "https://integrate.api.nvidia.com/v1";
+        private const string Model = "google/diffusiongemma-26b-a4b-it";
 
         // ── Instance state ────────────────────────────────────────────
         private static readonly object _lock = new object();
@@ -64,6 +65,12 @@ namespace FirstLegacyMod
             lock (_lock)
             {
                 if (_initialized) return;
+
+                if (string.IsNullOrEmpty(ApiKey))
+                {
+                    _initialized = true;  // Mark as initialized so we don't retry
+                    return;               // _client stays null → IsAvailable = false
+                }
 
                 _client = new ChatClient(
                     model: Model,
@@ -107,7 +114,7 @@ namespace FirstLegacyMod
 
             if (_client == null)
             {
-                return "[AI] Chưa khởi tạo AIChatService. Kiểm tra kết nối localhost:20128.";
+                return "[AI] Chưa có NVIDIA_API_KEY. Đặt biến môi trường NVIDIA_API_KEY.";
             }
 
             try
