@@ -50,6 +50,21 @@ namespace FirstLegacyMod
         private int _lastActivationTick = -GlobalCooldownMs;
         private int _debugFrameCounter;
 
+        /// <summary>
+        /// Returns true if any NPC is currently active (waiting for AI
+        /// or showing a response).  Used to enforce 1-at-a-time limit.
+        /// </summary>
+        private bool HasActiveEntry()
+        {
+            foreach (var kvp in _entries)
+            {
+                NpcState s = kvp.Value.State;
+                if (s == NpcState.WaitingAi || s == NpcState.ShowingResponse)
+                    return true;
+            }
+            return false;
+        }
+
         // ════════════════════════════════════════════════════════════
         //  Public API
         // ════════════════════════════════════════════════════════════
@@ -285,6 +300,14 @@ namespace FirstLegacyMod
             }
 
             if (bestNpc == null) return;
+
+            // Only one NPC at a time
+            if (HasActiveEntry())
+            {
+                if (shouldLog)
+                    Notification.Show($"~y~[NPC DEBUG]~w~ already busy with another NPC -> skip");
+                return;
+            }
 
             if (now - _lastActivationTick < GlobalCooldownMs)
             {
