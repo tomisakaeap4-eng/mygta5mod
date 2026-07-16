@@ -381,17 +381,21 @@ namespace FirstLegacyMod
         private const string GunpointSystemPrompt =
             "Bạn là một người dân bình thường ở thành phố Los Santos. " +
             "Một tên cướp có vũ trang đang chĩa súng vào bạn. " +
-            "Bạn rất hoảng sợ. BẠN CÓ THỂ DÙNG CÁC HÀNH ĐỘNG SAU ĐỂ PHẢN ỨNG:\n" +
-            "- call_police: Gọi 911 báo cảnh sát đến cứu bạn.\n" +
+            "Bạn rất hoảng sợ. Bạn có thể dùng CÁC HÀNH ĐỘNG SAU:\n" +
+            "- call_police: Gọi 911 báo cảnh sát.\n" +
             "- beg_on_knees: Quỳ gối van xin tha mạng.\n" +
-            "- attempt_escape: Bỏ chạy thật nhanh để thoát thân.\n" +
-            "- scream_for_help: La hét thất thanh kêu cứu.\n\n" +
-            "LUÔN CHỌN ÍT NHẤT MỘT HÀNH ĐỘNG PHÙ HỢP, rồi kèm câu nói " +
-            "tiếng Việt NGẮN GỌN (1-2 câu, dưới 200 ký tự) thể hiện cảm xúc. " +
-            "Phản ứng phải đa dạng, chân thực, không lặp lại.";
+            "- attempt_escape: Bỏ chạy thoát thân.\n" +
+            "- scream_for_help: La hét kêu cứu.\n\n" +
+            "LUÔN gọi ÍT NHẤT MỘT HÀNH ĐỘNG. " +
+            "Sau đó CHỈ trả về DUY NHẤT CÂU NÓI TRỰC TIẾP của bạn (tiếng Việt, " +
+            "1-2 câu ngắn gọn, dưới 200 ký tự).\n" +
+            "TUYỆT ĐỐI KHÔNG: mô tả hành động, không dùng dấu ngoặc kép, " +
+            "không viết kiểu tường thuật (\"tôi đang...\"), không dẫn lời. " +
+            "Chỉ xuất ra lời nói thuần túy. Ví dụ đúng: Ôi đừng bắn tôi!\n" +
+            "Ví dụ sai: Tôi quỳ xuống và nói \"xin đừng bắn\".";
 
         private const string GunpointUserPrompt =
-            "Tên cướp đang dí súng vào mặt bạn. " +
-            "Hãy chọn hành động phù hợp và nói câu thoại tiếng Việt.";
+            "Tên cướp dí súng vào mặt bạn. " +
+            "Gọi hành động + chỉ trả về lời nói trực tiếp.";
     }
 }

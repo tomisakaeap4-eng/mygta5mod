@@ -183,20 +183,25 @@ namespace FirstLegacyMod
                 Function.Call(Hash.CLEAR_PED_TASKS_IMMEDIATELY, npc.Handle);
                 npc.BlockPermanentEvents = true;
 
-                // Load & play kneel animation (GTA V arrest anims)
-                string kneelDict = "random@arrests";
-                string kneelAnim = "kneeling_arrest_idle";
+                // Load & play kneel animation (verified GTA V arrest dict)
+                string kneelDict = "mp_arresting";
+                string kneelAnim = "idle";
                 if (!Function.Call<bool>(Hash.HAS_ANIM_DICT_LOADED, kneelDict))
                     Function.Call<bool>(Hash.REQUEST_ANIM_DICT, kneelDict);
 
+                // Correct TASK_PLAY_ANIM signature:
+                // (ped, dict, name, blendIn, blendOut, duration, flag, rate, lockX, lockY, lockZ)
                 Function.Call(Hash.TASK_PLAY_ANIM,
                     npc.Handle,
                     kneelDict, kneelAnim,
-                    8.0f,   // blend in speed
-                    -1,     // duration (-1 = loop)
-                    1,      // playback flag: 1 = loop
-                    0f,     // blend out
-                    false, false, false);
+                    8.0f,    // blendInSpeed
+                    -8.0f,   // blendOutSpeed
+                    -1,      // duration (-1 = loop forever)
+                    1,       // flag (1 = loop)
+                    1.0f,    // playbackRate
+                    true,    // lockX — khoá cứng vị trí X
+                    true,    // lockY — khoá cứng vị trí Y
+                    false);  // lockZ
 
                 // Still look at player
                 if (player != null && player.Exists())
@@ -249,20 +254,13 @@ namespace FirstLegacyMod
             {
                 if (npc == null || !npc.Exists()) return;
 
-                // Stop current animation, play panic
+                // Stop current animation, play panic reaction
                 Function.Call(Hash.CLEAR_PED_TASKS_IMMEDIATELY, npc.Handle);
                 npc.BlockPermanentEvents = true;
 
-                // Use a verified vanilla animation
-                string panicDict = "random@mugging4";
-                string panicAnim = "agitated_idle_a";
-                if (!Function.Call<bool>(Hash.HAS_ANIM_DICT_LOADED, panicDict))
-                    Function.Call<bool>(Hash.REQUEST_ANIM_DICT, panicDict);
-
-                Function.Call(Hash.TASK_PLAY_ANIM,
-                    npc.Handle,
-                    panicDict, panicAnim,
-                    8.0f, -1, 1, 0f, false, false, false);
+                // TASK_SHOCKING_EVENT_REACT: NPC tự động phản ứng sợ hãi,
+                // la hét, giãy giụa — tự nhiên và đáng tin cậy hơn anim cứng
+                Function.Call((Hash)0xE26BDA5CA9E985EB, npc.Handle, 1);
 
                 // Make nearby peds look at the screaming NPC
                 Vector3 pos = npc.Position;
