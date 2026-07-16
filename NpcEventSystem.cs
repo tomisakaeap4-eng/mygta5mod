@@ -259,6 +259,10 @@ namespace FirstLegacyMod
 
         private void DetectGunpoint(Ped playerPed, int now)
         {
+            // Short-circuit: don't scan if already processing another NPC
+            if (HasActiveEntry() || now - _lastActivationTick < GlobalCooldownMs)
+                return;
+
             bool shouldLog = ++_debugFrameCounter % DebugLogFrames == 0;
 
             Vector3 aimDir = GameplayCamera.Direction;
@@ -300,21 +304,6 @@ namespace FirstLegacyMod
             }
 
             if (bestNpc == null) return;
-
-            // Only one NPC at a time
-            if (HasActiveEntry())
-            {
-                if (shouldLog)
-                    Notification.Show($"~y~[NPC DEBUG]~w~ already busy with another NPC -> skip");
-                return;
-            }
-
-            if (now - _lastActivationTick < GlobalCooldownMs)
-            {
-                if (shouldLog)
-                    Notification.Show($"~y~[NPC DEBUG]~w~ cooldown {now - _lastActivationTick}ms -> skip");
-                return;
-            }
 
             _lastActivationTick = now;
             int handle = bestNpc.Handle;
