@@ -65,6 +65,23 @@ namespace FirstLegacyMod
             return false;
         }
 
+        // ── Ped type constants (from ePedType enum) ────────────────
+        private const int PedTypeCop   = 6;
+        private const int PedTypeSwat  = 27;
+        private const int PedTypeArmy  = 29;
+
+        /// <summary>
+        /// Returns true if the ped is law enforcement (cop, SWAT, army).
+        /// Uses native GET_PED_TYPE (0xFF059E1E4C01E63C).
+        /// </summary>
+        private static bool IsLawEnforcement(Ped npc)
+        {
+            int pedType = Function.Call<int>((Hash)0xFF059E1E4C01E63C, npc.Handle);
+            return pedType == PedTypeCop
+                || pedType == PedTypeSwat
+                || pedType == PedTypeArmy;
+        }
+
         // ════════════════════════════════════════════════════════════
         //  Public API
         // ════════════════════════════════════════════════════════════
@@ -278,6 +295,7 @@ namespace FirstLegacyMod
                 if (npc.Handle == playerPed.Handle) continue;
                 if (!npc.Exists() || npc.IsDead) continue;
                 if (!npc.IsHuman) continue;
+                if (IsLawEnforcement(npc)) continue;
                 if (npc.IsInVehicle()) continue;
                 if (_entries.ContainsKey(npc.Handle)) continue;
 
