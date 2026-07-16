@@ -45,8 +45,10 @@ namespace FirstLegacyMod
         // ── Timing constants ────────────────────────────────────────
         private const int GlobalCooldownMs  = 2000;   // Min time between NPC activations
         private const int ReleaseDelayMs    = 2500;   // Extra wait after bubble fades
+        private const int FreeAimScanFrames = 10;     // Only run free-aim fallback every N frames
 
         private int _lastActivationTick = int.MinValue;
+        private int _frameCounter;
 
         // ════════════════════════════════════════════════════════════
         //  Public API
@@ -165,12 +167,25 @@ namespace FirstLegacyMod
         /// <summary>
         /// Detect player aiming a weapon at a human NPC.
         /// Triggers surrender + AI response for the targeted NPC.
+        ///
+        /// Two-stage detection:
+        /// 1. <see cref="Player.TargetedEntity"/> — lock-on target (auto-aim)
+        /// 2. <c>GET_ENTITY_PLAYER_IS_FREE_AIMING_AT</c> — free-aim crosshair
+        ///    Fallback when the player is aiming without a lock-on.
         /// </summary>
         private void DetectGunpoint(Ped playerPed, int now)
         {
             if (!Game.Player.IsAiming) return;
 
+            // Stage 1: Lock-on target (auto-aim)
             Entity target = Game.Player.TargetedEntity;
+
+            // Stage 2: Free-aim crosshair fallback (throttled to every N frames)
+            if (target == null && ++_frameCounter % FreeAimScanFrames == 0)
+            {
+                target = GetFreeAimTarget(Game.Player, playerPed.Position);
+            }
+
             if (target == null || !(target is Ped)) return;
 
             Ped npc = (Ped)target;
@@ -203,6 +218,41 @@ namespace FirstLegacyMod
             entry.Bubble.StartWaiting();
 
             _entries[handle] = entry;
+        }
+
+        /// <summary>
+        /// Uses <c>GET_ENTITY_PLAYER_IS_FREE_AIMING_AT</c> to find what
+        /// entity is under the player's crosshair when free-aiming
+        /// (no lock-on).  Searches nearby peds to wrap the raw handle
+        /// into a <see cref="Ped"/> reference.
+        /// </summary>
+        /// <returns>The targeted <see cref="Ped"/>, or <c>null</c>.</returns>
+        private static Ped GetFreeAimTarget(Player player, Vector3 playerPos)
+        {
+            // GET_ENTITY_PLAYER_IS_FREE_AIMING_AT(player, entity*)
+            // Hash not in SHVDN enum – use raw value
+            using (var outEntity = new OutputArgument())
+            {
+                bool found = Function.Call<bool>(
+                    (Hash)0x2975C866E6713290,
+                    player.Handle, outEntity);
+
+                if (!found) return null;
+
+                int handle = outEntity.GetResult<int>();
+                if (handle == 0) return null;
+
+                // Resolve handle → Ped wrapper via nearby ped search
+                // Radius 120 m covers everything in aiming range
+                Ped[] nearby = World.GetNearbyPeds(playerPos, 120f);
+                for (int i = 0; i < nearby.Length; i++)
+                {
+                    if (nearby[i].Handle == handle)
+                        return nearby[i];
+                }
+
+                return null;
+            }
         }
 
         // ════════════════════════════════════════════════════════════
