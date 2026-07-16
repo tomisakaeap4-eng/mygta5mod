@@ -85,6 +85,24 @@ namespace FirstLegacyMod
         /// <returns>The AI response text, or an error message.</returns>
         public static string GetVietnameseResponse()
         {
+            return GetSituationalResponse(SystemPrompt, UserPrompt);
+        }
+
+        /// <summary>
+        /// Sends a request to the AI with a custom situation-specific prompt.
+        /// This method is synchronous and will block the calling thread.
+        /// Call from a background thread via <c>Task.Run</c>.
+        /// </summary>
+        /// <param name="systemPrompt">
+        /// Custom system prompt describing the NPC's role and the situation.
+        /// </param>
+        /// <param name="userPrompt">
+        /// Custom user prompt describing what the NPC should react to.
+        /// </param>
+        /// <returns>The AI response text, or an error message.</returns>
+        public static string GetSituationalResponse(
+            string systemPrompt, string userPrompt)
+        {
             EnsureInitialized();
 
             if (_client == null)
@@ -96,8 +114,8 @@ namespace FirstLegacyMod
             {
                 ChatMessage[] messages =
                 {
-                    new SystemChatMessage(SystemPrompt),
-                    new UserChatMessage(UserPrompt),
+                    new SystemChatMessage(systemPrompt),
+                    new UserChatMessage(userPrompt),
                 };
 
                 ChatCompletionOptions options = new ChatCompletionOptions

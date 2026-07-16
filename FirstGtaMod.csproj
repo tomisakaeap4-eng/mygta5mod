@@ -55,6 +55,7 @@
     <Compile Include="ChatBubble.cs" />
     <Compile Include="ChatBubbleController.cs" />
     <Compile Include="AIChatService.cs" />
+    <Compile Include="NpcEventSystem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -9,6 +9,7 @@ namespace FirstLegacyMod
     public sealed class MainScript : Script
     {
         private readonly ChatBubbleController _playerBubble = new ChatBubbleController();
+        private readonly NpcEventSystem _npcEvents = new NpcEventSystem();
 
         // ── AI state ──────────────────────────────────────────────
         private Task<string> _pendingAiTask;
@@ -44,20 +45,19 @@ namespace FirstLegacyMod
                 _pendingAiTask = null;
             }
 
-            // ── Render bubble if active ───────────────────────────
-            if (!_playerBubble.IsActive)
+            // ── Render player bubble if active ────────────────────
+            if (_playerBubble.IsActive)
             {
-                return;
+                Ped player = Game.Player.Character;
+                if (player != null && player.Exists())
+                {
+                    Vector3 headWorld = player.Position + new Vector3(0f, 0f, _playerBubble.HeightOffset);
+                    _playerBubble.Update(headWorld);
+                }
             }
 
-            Ped player = Game.Player.Character;
-            if (player == null || !player.Exists())
-            {
-                return;
-            }
-
-            Vector3 headWorld = player.Position + new Vector3(0f, 0f, _playerBubble.HeightOffset);
-            _playerBubble.Update(headWorld);
+            // ── NPC event system ───────────────────────────────────
+            _npcEvents.Update();
         }
 
         private void OnKeyDown(object sender, KeyEventArgs e)
@@ -100,6 +100,7 @@ namespace FirstLegacyMod
         private void OnAborted(object sender, EventArgs e)
         {
             _playerBubble.Reset();
+            _npcEvents.Reset();
             _isAiRequestPending = false;
             _pendingAiTask = null;
         }
