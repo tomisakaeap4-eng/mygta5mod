@@ -1,17 +1,16 @@
+using GTA;
 using OpenAI;
 using OpenAI.Chat;
 using System;
 using System.ClientModel;
+using System.IO;
 
 namespace FirstLegacyMod
 {
     /// <summary>
     /// Lightweight AI communication service for chat bubble responses.
-    /// Sends a prompt to the OpenAI-compatible API and returns a random
+    /// Sends a prompt to the OpenAI-compatible API (NVIDIA NIM) and returns a
     /// Vietnamese response.
-    ///
-    /// Uses <see cref="ChatClient"/> with hardcoded API key + local base URL
-    /// for local dev mod. See <c>ApiKey</c>, <c>BaseUrl</c>, <c>Model</c> constants.
     /// </summary>
     public static class AIChatService
     {
@@ -27,12 +26,11 @@ namespace FirstLegacyMod
             "Cho tôi một câu trả lời ngẫu nhiên bằng tiếng Việt.";
 
         // ── Configuration ────────────────────────────────────────────
-        // API key from NVIDIA_API_KEY environment variable.
-        // NVIDIA NIM endpoint: https://integrate.api.nvidia.com/v1
-        private static readonly string ApiKey =
-            Environment.GetEnvironmentVariable("NVIDIA_API_KEY") ?? string.Empty;
+        // API key read from scripts/FirstGtaMod.ini → [NVIDIA] → NVIDIA_API_KEY.
+        // Falls back to NVIDIA_API_KEY environment variable if .ini is missing.
         private const string BaseUrl = "https://integrate.api.nvidia.com/v1";
         private const string Model = "google/diffusiongemma-26b-a4b-it";
+        private const string IniPath = "scripts\\FirstGtaMod.ini";
 
         // ── Instance state ────────────────────────────────────────────
         private static readonly object _lock = new object();
@@ -66,7 +64,9 @@ namespace FirstLegacyMod
             {
                 if (_initialized) return;
 
-                if (string.IsNullOrEmpty(ApiKey))
+                string apiKey = ReadApiKeyFromIni();
+
+                if (string.IsNullOrEmpty(apiKey))
                 {
                     _initialized = true;  // Mark as initialized so we don't retry
                     return;               // _client stays null → IsAvailable = false
@@ -74,7 +74,7 @@ namespace FirstLegacyMod
 
                 _client = new ChatClient(
                     model: Model,
-                    credential: new ApiKeyCredential(ApiKey),
+                    credential: new ApiKeyCredential(apiKey),
                     options: new OpenAIClientOptions
                     {
                         Endpoint = new Uri(BaseUrl)
@@ -82,6 +82,30 @@ namespace FirstLegacyMod
 
                 _initialized = true;
             }
+        }
+
+        /// <summary>
+        /// Reads NVIDIA_API_KEY from scripts/FirstGtaMod.ini [NVIDIA] section.
+        /// Falls back to environment variable NVIDIA_API_KEY if .ini is missing.
+        /// </summary>
+        private static string ReadApiKeyFromIni()
+        {
+            try
+            {
+                if (File.Exists(IniPath))
+                {
+                    var settings = ScriptSettings.Load(IniPath);
+                    string key = settings.GetValue<string>("NVIDIA", "NVIDIA_API_KEY", string.Empty);
+                    if (!string.IsNullOrEmpty(key))
+                        return key;
+                }
+            }
+            catch
+            {
+                // .ini corrupted or unreadable — fall through to env var
+            }
+
+            return Environment.GetEnvironmentVariable("NVIDIA_API_KEY") ?? string.Empty;
         }
 
         /// <summary>
@@ -114,7 +138,7 @@ namespace FirstLegacyMod
 
             if (_client == null)
             {
-                return "[AI] Chưa có NVIDIA_API_KEY. Đặt biến môi trường NVIDIA_API_KEY.";
+                return "[AI] Chưa có NVIDIA_API_KEY.\nTạo file scripts\\FirstGtaMod.ini với:\n[NVIDIA]\nNVIDIA_API_KEY=your-key";
             }
 
             try
