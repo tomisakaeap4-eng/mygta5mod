@@ -51,6 +51,8 @@ namespace FirstLegacyMod
         private readonly Random _rng = new Random();
         private int _lastChangeTick;
         private int _messageIntervalMs = 5000;
+        private int _autoHideTick;      // GameTime when auto-hide should fire
+        private bool _autoHideEnabled;  // Whether auto-hide is active for this bubble
 
         /// <summary>Whether the bubble is currently visible.</summary>
         public bool IsActive { get; set; }
@@ -84,6 +86,26 @@ namespace FirstLegacyMod
         }
 
         /// <summary>
+        /// Set a fixed custom message and activate the bubble.
+        /// Rotation is disabled. The bubble auto-hides after a duration
+        /// proportional to the number of words (min 3s, max 10s).
+        /// </summary>
+        /// <param name="message">The text to display in the bubble.</param>
+        public void SetFixedMessage(string message)
+        {
+            CurrentMessage = message;
+            IsActive = true;
+            _lastChangeTick = int.MaxValue; // disable rotation
+
+            // Duration: min 3s, +0.5s per word, max 30s (AI-friendly long text)
+            int wordCount = message.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Length;
+            int durationMs = Math.Min(30000, 3000 + Math.Max(0, wordCount - 1) * 500);
+
+            _autoHideTick = Game.GameTime + durationMs;
+            _autoHideEnabled = true;
+        }
+
+        /// <summary>
         /// Call once per frame from <c>Script.Tick</c>.
         /// Projects the world position to screen and draws the bubble.
         /// </summary>
@@ -98,7 +120,14 @@ namespace FirstLegacyMod
                 return;
             }
 
-            // Rotate message
+            // Auto-hide on timeout
+            if (_autoHideEnabled && Game.GameTime >= _autoHideTick)
+            {
+                Reset();
+                return;
+            }
+
+            // Rotate message (only when not in fixed-message mode)
             if (Game.GameTime - _lastChangeTick > _messageIntervalMs)
             {
                 PickNewMessage();
@@ -125,6 +154,7 @@ namespace FirstLegacyMod
         {
             IsActive = false;
             CurrentMessage = string.Empty;
+            _autoHideEnabled = false;
         }
 
         // ── Internal ───────────────────────────────────────────────────

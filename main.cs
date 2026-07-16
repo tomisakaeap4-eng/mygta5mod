@@ -1,6 +1,7 @@
-﻿using GTA;
+using GTA;
 using GTA.Math;
 using System;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace FirstLegacyMod
@@ -35,10 +36,43 @@ namespace FirstLegacyMod
 
         private void OnKeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.F5)
+            if (e.KeyCode == Keys.T)
             {
-                _playerBubble.Toggle();
+                string input = ReadClipboardUnicode();
+                if (!string.IsNullOrWhiteSpace(input))
+                {
+                    _playerBubble.SetFixedMessage(input.Trim());
+                }
             }
+
+            if (e.KeyCode == Keys.Escape)
+            {
+                _playerBubble.Reset();
+            }
+        }
+
+        /// <summary>
+        /// Reads clipboard text on an STA thread (required by Windows Forms
+        /// <see cref="Clipboard"/>). Returns the clipboard string or empty.
+        /// </summary>
+        private static string ReadClipboardUnicode()
+        {
+            string result = string.Empty;
+            var thread = new Thread(() =>
+            {
+                try
+                {
+                    result = Clipboard.GetText();
+                }
+                catch
+                {
+                    // Clipboard may be locked; ignore
+                }
+            });
+            thread.SetApartmentState(ApartmentState.STA);
+            thread.Start();
+            thread.Join(1000); // 1s timeout to avoid hanging
+            return result;
         }
 
         private void OnAborted(object sender, EventArgs e)
