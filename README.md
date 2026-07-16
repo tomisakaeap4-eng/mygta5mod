@@ -1,8 +1,8 @@
 # FirstGtaMod
 
 Mod C# tối giản cho **Grand Theft Auto V Legacy, Story Mode**, dùng
-ScriptHookVDotNet v3 (SHVDN), LemonUI.SHVDN3 và .NET Framework 4.8. `main.cs`
-hiện dùng F5 để mở menu LemonUI. Dự án đi kèm một corpus tài liệu cục bộ và bộ công cụ tạo
+ScriptHookVDotNet v3 (SHVDN), LemonUI.SHVDN3, OpenAI .NET SDK và .NET Framework 4.8.
+`main.cs` hiện dùng F5 để mở menu LemonUI. Dự án đi kèm một corpus tài liệu cục bộ và bộ công cụ tạo
 lookup tree đã kiểm chứng, để mọi thay đổi mod đều bám vào API thực tế.
 
 > Không dùng dự án, ScriptHookVDotNet hoặc quy trình này cho GTA Online.
@@ -26,6 +26,9 @@ lookup tree đã kiểm chứng, để mọi thay đổi mod đều bám vào AP
 - Python 3.8+ để chạy hai parser (cả PowerShell lẫn Bash gọi chung một parser
   chuẩn thư viện).
 - PowerShell 5.1+ trên Windows; hoặc Bash 4+ trên Linux/WSL/macOS.
+- (Tùy chọn) NuGet package `OpenAI` cho tính năng AI. Dùng `ChatClient`
+  với API key + custom base URL qua `OpenAIClientOptions.Endpoint`.
+  Cài bằng `nuget install OpenAI -OutputDirectory packages`.
 
 Đặt DLL SHVDN và LemonUI mà project tham chiếu tại
 `..\ScriptHookVDotNet\ScriptHookVDotNet3.dll` và `..\LemonUI.SHVDN3.dll`, hoặc
@@ -48,21 +51,23 @@ runtime phải nằm đúng vị trí ScriptHookVDotNet/LemonUI yêu cầu trong
 │   └── parsed/                      # Lookup tree sinh bởi parser, gitignored
 │       ├── scripthookvdotnet3/
 │       └── lemonui-shvdn3/
-├── api_docs/                        # 6 repository nguồn, gitignored
+├── api_docs/                        # 7 repository nguồn, gitignored
 │   ├── scripthookvdotnet/
 │   ├── scripthookvdotnet.wiki/
 │   ├── gta5-nativedb-data/
 │   ├── lemonui/
 │   ├── lemonui-examples/
-│   └── lemonui-wiki/
+│   ├── lemonui-wiki/
+│   └── openai-dotnet/              # OpenAI .NET SDK source + examples
 └── logs/                            # Bản copy runtime logs, gitignored
 ```
 
 ## Khởi tạo và cập nhật corpus
 
 Tất cả script mặc định ghi vào **`<project root>/api_docs`**; không ghi vào
-`scripts/api_docs`. Bootstrap/update quản lý 6 repo: SHVDN source/wiki,
-NativeDB Legacy, LemonUI source, LemonUI examples và LemonUI wiki.
+`scripts/api_docs`. Bootstrap/update quản lý 7 repo: SHVDN source/wiki,
+NativeDB Legacy, LemonUI source, LemonUI examples, LemonUI wiki và
+OpenAI .NET SDK.
 
 ### Windows PowerShell
 
@@ -159,6 +164,24 @@ Parser tạo output ở staging, kiểm tra số file/parse lại XML rồi mớ
 đang dùng. Khi `parse-report.json.validation.status` không phải `passed`, hoặc
 SHA-256 nguồn khác file raw hiện tại, hãy parse lại trước khi code.
 
+## Tích hợp AI với OpenAI .NET SDK
+
+Dự án hỗ trợ tích hợp AI qua NuGet package `OpenAI` (openai-dotnet, .NET Standard 2.0,
+tương thích .NET Framework 4.8). Pattern duy nhất: `ChatClient` với API key + custom
+base URL.
+
+Cài đặt:
+
+```cmd
+nuget install OpenAI -OutputDirectory packages
+```
+
+API key lấy từ biến môi trường (`OPENAI_API_KEY`), không hardcode. Base URL set
+qua `OpenAIClientOptions.Endpoint`.
+
+Tham khảo: `api_docs/openai-dotnet/README.md` (mục "Using a custom base URL and API key")
+và `api_docs/openai-dotnet/api/OpenAI.netstandard2.0.cs`.
+
 ## Build và deploy
 
 Chỉ compile, không chạy post-build copy vào GTA V:
@@ -181,7 +204,7 @@ Sửa đường dẫn trong `FirstGtaMod.csproj` trước khi build đầy đủ
 
 1. Đọc `AGENTS.md`, `FirstGtaMod.csproj`, toàn bộ `.cs`, `README.md`,
    `local_api_docs/ScriptHookVDotNet3.xml` và `local_api_docs/LemonUI.SHVDN3.xml`.
-2. Kiểm tra sáu repository corpus và các `parse-report.json` cần dùng. Nếu SHA
+2. Kiểm tra bảy repository corpus và các `parse-report.json` cần dùng. Nếu SHA
    hoặc count không khớp, chạy update/bootstrap rồi parse lại.
 3. Tra đúng document root trước: `local_api_docs/parsed/scripthookvdotnet3/index.json`
    cho SHVDN hoặc `local_api_docs/parsed/lemonui-shvdn3/index.json` cho LemonUI.
@@ -192,12 +215,14 @@ Sửa đường dẫn trong `FirstGtaMod.csproj` trước khi build đầy đủ
 5. Với UI/menu, dùng LemonUI (`LemonUI.ObjectPool`, `LemonUI.Menus.NativeMenu`
    và control LemonUI phù hợp). Không dùng UI gốc của ScriptHookVDotNet/GTA.UI
    để xây UI mod.
-6. Sửa code theo lifecycle của SHVDN: event trong constructor, entity do mod tạo
+6. Với tính năng AI, dùng `ChatClient` với API key + custom base URL.
+7. Sửa code theo lifecycle của SHVDN: event trong constructor, entity do mod tạo
    phải được track/cleanup ở `Aborted`, model phải có timeout và được release,
-   không spawn liên tục trong `Tick`.
-7. Chạy compile-only, sau đó smoke test trong Story Mode. Nhấn đúng hotkey một
+   không spawn liên tục trong `Tick`. Với AI, ưu tiên async pattern để không
+   block game thread.
+8. Chạy compile-only, sau đó smoke test trong Story Mode. Nhấn đúng hotkey một
    lần, thử reload script và kiểm tra entity cleanup/error handling.
-8. Copy log mới để điều tra lỗi runtime:
+9. Copy log mới để điều tra lỗi runtime:
 
    ```powershell
    pwsh -File scripts/copy_gta_logs.ps1 -Force

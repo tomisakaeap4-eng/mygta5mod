@@ -18,11 +18,14 @@ chiếu version.
   cao không có khả năng tương đương đã xác minh.
 - Khi mod cần UI/menu tương tác, dùng **LemonUI.SHVDN3**. Không dùng UI gốc của
   ScriptHookVDotNet/GTA.UI để xây UI mod, trừ khi user yêu cầu rõ.
+- Khi mod cần tích hợp AI, dùng NuGet package `OpenAI` (openai-dotnet, .NET Standard 2.0,
+  tương thích .NET Framework 4.8). Pattern: `ChatClient` với API key + custom base URL.
+  API key lấy từ biến môi trường, không hardcode.
 - Không code mù khi corpus hoặc parse manifest không hợp lệ.
 
 ## Corpus và định dạng lookup ưu tiên
 
-`api_docs/` bị gitignore và chứa sáu repository nguồn:
+`api_docs/` bị gitignore và chứa bảy repository nguồn:
 
 ```text
 api_docs/
@@ -31,7 +34,8 @@ api_docs/
 ├── gta5-nativedb-data/      # natives.json Legacy
 ├── lemonui/                 # source LemonUI
 ├── lemonui-examples/        # ví dụ LemonUI
-└── lemonui-wiki/            # wiki LemonUI
+├── lemonui-wiki/            # wiki LemonUI
+└── openai-dotnet/           # source + examples openai-dotnet
 ```
 
 Các lookup tree parse là **điểm vào ưu tiên để tra cứu**:
@@ -112,7 +116,9 @@ tự chọn API thuận tiện:
    LemonUI source trong `api_docs/lemonui/` cùng version với DLL.
 5. Official wiki/source examples trong `api_docs/scripthookvdotnet.wiki/`,
    `api_docs/lemonui-wiki/` và `api_docs/lemonui-examples/` cho pattern/ví dụ.
-6. Chỉ khi cần mới dùng issue/discussion cùng game và version.
+6. Với tính năng AI, đọc `api_docs/openai-dotnet/README.md` (mục "Using a custom base
+   URL and API key") và `api_docs/openai-dotnet/api/OpenAI.netstandard2.0.cs`.
+7. Chỉ khi cần mới dùng issue/discussion cùng game và version.
 
 `api_docs/scripthookvdotnet/` có thể mới hơn DLL project. Nếu version khác,
 source hiện hành chỉ dùng để phát hiện migration/deprecation hoặc tham khảo sau
@@ -123,7 +129,7 @@ khi ghi rõ mismatch; không dùng member mới để compile DLL cũ.
 1. Đọc `FirstGtaMod.csproj`, `FirstGtaMod.slnx`, mọi `.cs`,
    `Properties/AssemblyInfo.cs`, `README.md`, `AGENTS.md` và XML local.
    Kiểm tra `git status` để không đè thay đổi của user.
-2. Kiểm tra đủ sáu repo trong `api_docs/` có `.git`. Nếu thiếu hoặc rỗng, chạy
+2. Kiểm tra đủ bảy repo trong `api_docs/` có `.git`. Nếu thiếu hoặc rỗng, chạy
    hoặc yêu cầu user chạy `scripts/bootstrap_api_docs.ps1` hoặc `.sh`; không code
    tiếp khi corpus vẫn thiếu.
 3. Đọc `index.json`/`parse-report.json` trong document root cần dùng: SHVDN ở
@@ -143,9 +149,12 @@ khi ghi rõ mismatch; không dùng member mới để compile DLL cũ.
    `api_docs/lemonui-wiki/`.
 6. Nếu cần native, tra `byQualifiedName` hoặc `byHash`, mở native entry, xác
    nhận object raw và đối chiếu enum `GTA.Native.Hash` cùng version.
-7. Nếu sửa lỗi runtime, đọc `ScriptHookVDotNet.log` và `ScriptHookV.log`, đối
+7. Nếu cần tính năng AI, tra `api_docs/openai-dotnet/README.md` (mục custom base URL +
+   API key) và `api/OpenAI.netstandard2.0.cs` cho API surface. Dùng `ChatClient`
+   với `OpenAIClientOptions.Endpoint` cho custom base URL.
+8. Nếu sửa lỗi runtime, đọc `ScriptHookVDotNet.log` và `ScriptHookV.log`, đối
    chiếu stack trace với source exact version trước khi patch.
-8. Chỉ sau các bước trên mới viết patch.
+9. Chỉ sau các bước trên mới viết patch.
 
 ## Chuẩn implementation
 
@@ -163,6 +172,8 @@ khi ghi rõ mismatch; không dùng member mới để compile DLL cũ.
   và các control LemonUI phù hợp. Không dùng UI/menu gốc của SHVDN/GTA.UI để xây
   UI mod; `ObjectPool.Process()` phải chạy trong `Tick`, và menu/resource phải
   được ẩn/dọn ở `Aborted`.
+- Với tính năng AI, dùng `ChatClient` với API key + custom base URL qua
+  `OpenAIClientOptions`. API key lấy từ biến môi trường, không hardcode.
 - Không đưa API chỉ có ở nightly/current corpus vào DLL local cũ. Build phải
   sạch lỗi; xử lý warning kiến trúc/API có chủ đích.
 - Build `/t:Compile` để kiểm tra an toàn. Chỉ chạy Build đầy đủ khi user cho
@@ -175,6 +186,8 @@ khi ghi rõ mismatch; không dùng member mới để compile DLL cũ.
 3. Smoke test đúng hotkey một lần, thử giữ hotkey, thử vị trí không hợp lệ và
    thử reload/abort để kiểm tra cleanup.
 4. Copy và đọc log mới bằng `scripts/copy_gta_logs.ps1 -Force` nếu có lỗi.
+5. Với tính năng AI, kiểm tra API key đã được set trong biến môi trường và
+   xác nhận kết nối thành công trước khi smoke test đầy đủ.
 
 ## Định dạng response khi sửa/viết mod
 
@@ -185,10 +198,25 @@ Mỗi response implementation phải có:
 2. `Files changed` — add/modify/delete rõ ràng.
 3. `Implementation` — patch/code hoàn chỉnh, không chỉ pseudocode.
 4. `Why this API is valid` — canonical member/native đã tra, path parsed/raw và
-   source/version đã xác nhận.
+   source/version đã xác nhận. Với AI, trích dẫn example file cụ thể trong
+   `api_docs/openai-dotnet/examples/`.
 5. `Build and test` — lệnh compile, ảnh hưởng deploy và smoke test trong game.
 6. `Failure checks` — log/manifest nào cần đọc khi không hoạt động.
 
 Với task chỉ review/phân tích, không tự sửa code; trả findings có path và bằng
 chứng. Với task thay đổi tool/docs, vẫn giữ nguyên source mod nếu user không
 yêu cầu đổi hành vi mod.
+
+## Agent skills
+
+### Issue tracker
+
+Issues are tracked as local markdown files under `.scratch/<feature-slug>/`. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Triage uses the default five-label vocabulary. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Domain docs use a single-context layout with root `CONTEXT.md` and `docs/adr/`. See `docs/agents/domain.md`.

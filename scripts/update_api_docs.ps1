@@ -51,6 +51,7 @@ $Repositories = @(
     [pscustomobject]@{ Url = 'https://github.com/LemonUIbyLemon/LemonUI.git'; Name = 'lemonui'; Branch = 'master' }
     [pscustomobject]@{ Url = 'https://github.com/LemonUIbyLemon/Examples.git'; Name = 'lemonui-examples'; Branch = 'master' }
     [pscustomobject]@{ Url = 'https://github.com/LemonUIbyLemon/LemonUI.wiki.git'; Name = 'lemonui-wiki'; Branch = 'master' }
+    [pscustomobject]@{ Url = 'https://github.com/openai/openai-dotnet.git'; Name = 'openai-dotnet'; Branch = 'main' }
 )
 
 foreach ($Repository in $Repositories) {

@@ -41,4 +41,5 @@ sync_repository 'https://github.com/alloc8or/gta5-nativedb-data.git' "$api_docs_
 sync_repository 'https://github.com/LemonUIbyLemon/LemonUI.git' "$api_docs_root/lemonui" master
 sync_repository 'https://github.com/LemonUIbyLemon/Examples.git' "$api_docs_root/lemonui-examples" master
 sync_repository 'https://github.com/LemonUIbyLemon/LemonUI.wiki.git' "$api_docs_root/lemonui-wiki" master
+sync_repository 'https://github.com/openai/openai-dotnet.git' "$api_docs_root/openai-dotnet" main
 note "Corpus is ready at: $api_docs_root"
