@@ -3,6 +3,7 @@ using OpenAI;
 using OpenAI.Chat;
 using System;
 using System.ClientModel;
+using System.Collections.Generic;
 using System.IO;
 using System.Net;
 
@@ -171,6 +172,164 @@ namespace FirstLegacyMod
             }
         }
 
+        /// <summary>
+        /// Sends a request to the AI with function-calling tools enabled.
+        /// Follows the OpenAI Example03 pattern: loop until the AI stops
+        /// requesting tool calls, executing each tool via
+        /// <see cref="NpcToolSystem.ExecuteToolCall"/>.
+        ///
+        /// This method is synchronous and will block the calling thread.
+        /// Call from a background thread via <c>Task.Run</c>.
+        /// </summary>
+        /// <param name="systemPrompt">System message setting NPC persona.</param>
+        /// <param name="userPrompt">User message describing the situation.</param>
+        /// <param name="tools">Tool definitions the AI may call.</param>
+        /// <param name="npc">The NPC ped (for tool context, captured in closure).</param>
+        /// <param name="player">The player ped.</param>
+        /// <returns>
+        /// An <see cref="AiToolResult"/> with the final Vietnamese text and
+        /// the list of tool names that were executed.
+        /// </returns>
+        public static AiToolResult GetResponseWithTools(
+            string systemPrompt,
+            string userPrompt,
+            IList<ChatTool> tools,
+            Ped npc,
+            Ped player)
+        {
+            EnsureInitialized();
+
+            if (_client == null)
+            {
+                return new AiToolResult
+                {
+                    Response = "[AI] Chưa có API key.\n" +
+                               "Tạo file scripts\\FirstGtaMod.ini với:\n" +
+                               "[AI]\nAPI_KEY=your-key-here",
+                };
+            }
+
+            var executedTools = new List<string>();
+            const int maxIterations = 5;
+
+            try
+            {
+                var messages = new List<ChatMessage>
+                {
+                    new SystemChatMessage(systemPrompt),
+                    new UserChatMessage(userPrompt),
+                };
+
+                ChatCompletionOptions options = new ChatCompletionOptions
+                {
+                    MaxOutputTokenCount = 150,
+                    Temperature = 1.2f,
+                };
+
+                // Register all tools
+                foreach (ChatTool tool in tools)
+                {
+                    options.Tools.Add(tool);
+                }
+
+                // ── Tool-calling loop (pattern: Example03_FunctionCalling.cs) ──
+                bool requiresAction;
+                int iteration = 0;
+                do
+                {
+                    if (++iteration > maxIterations)
+                    {
+                        WriteLog("[AIChatService] Tool-call loop exceeded max iterations — breaking.");
+                        break;
+                    }
+
+                    requiresAction = false;
+                    ChatCompletion completion = _client.CompleteChat(messages, options);
+
+                    switch (completion.FinishReason)
+                    {
+                        case ChatFinishReason.Stop:
+                            // Assistant gave final text — add to history
+                            messages.Add(new AssistantChatMessage(completion));
+                            break;
+
+                        case ChatFinishReason.ToolCalls:
+                            // Assistant wants to call tools
+                            messages.Add(new AssistantChatMessage(completion));
+
+                            foreach (ChatToolCall toolCall in completion.ToolCalls)
+                            {
+                                string toolResult = NpcToolSystem.ExecuteToolCall(
+                                    toolCall, npc, player);
+                                executedTools.Add(toolCall.FunctionName);
+                                messages.Add(new ToolChatMessage(toolCall.Id, toolResult));
+
+                                WriteLog($"[AIChatService] Tool called: {toolCall.FunctionName}");
+                            }
+
+                            requiresAction = true;
+                            break;
+
+                        case ChatFinishReason.Length:
+                            return new AiToolResult
+                            {
+                                Response = "[AI] Phản hồi bị cắt ngắn. Thử lại sau.",
+                                ExecutedTools = executedTools,
+                            };
+
+                        case ChatFinishReason.ContentFilter:
+                            return new AiToolResult
+                            {
+                                Response = "[AI] Nội dung bị lọc. Thử lại sau.",
+                                ExecutedTools = executedTools,
+                            };
+
+                        default:
+                            return new AiToolResult
+                            {
+                                Response = $"[AI] Lỗi: {completion.FinishReason}",
+                                ExecutedTools = executedTools,
+                            };
+                    }
+                } while (requiresAction);
+
+                // ── Extract final assistant message text ─────────
+                string finalResponse = string.Empty;
+                for (int i = messages.Count - 1; i >= 0; i--)
+                {
+                    if (messages[i] is AssistantChatMessage assistantMsg
+                        && assistantMsg.Content.Count > 0)
+                    {
+                        finalResponse = assistantMsg.Content[0].Text?.Trim() ?? string.Empty;
+                        break;
+                    }
+                }
+
+                _lastResponse = finalResponse;
+
+                if (string.IsNullOrEmpty(finalResponse))
+                {
+                    finalResponse = "[AI] Không nhận được phản hồi. Thử lại sau.";
+                }
+
+                return new AiToolResult
+                {
+                    Response = finalResponse,
+                    ExecutedTools = executedTools,
+                };
+            }
+            catch (Exception ex)
+            {
+                string detail = FlattenException(ex);
+                WriteLog($"[AIChatService] Tool-calling API failed: {detail}");
+                return new AiToolResult
+                {
+                    Response = $"[AI Lỗi] {ex.Message}\n(Check scripts/FirstGtaMod.log)",
+                    ExecutedTools = executedTools,
+                };
+            }
+        }
+
         // ── Config resolution ─────────────────────────────────────────
 
         /// <summary>
@@ -250,7 +409,7 @@ namespace FirstLegacyMod
 
         private static string FlattenException(Exception ex)
         {
-            var parts = new System.Collections.Generic.List<string>();
+            var parts = new List<string>();
             while (ex != null)
             {
                 parts.Add($"[{ex.GetType().Name}] {ex.Message}");

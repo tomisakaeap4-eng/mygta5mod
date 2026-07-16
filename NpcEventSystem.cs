@@ -34,7 +34,7 @@ namespace FirstLegacyMod
             public NpcState State;
             public ChatBubbleController Bubble = new ChatBubbleController();
             public int StateEnteredTick;
-            public Task<string> PendingAiTask;
+            public Task<AiToolResult> PendingAiTask;
             public bool Cancelled;  // true = player stopped aiming / NPC wandered off
         }
 
@@ -100,6 +100,9 @@ namespace FirstLegacyMod
                 Function.Call((Hash)0x9911F4A24485F653, true);
             }
 
+            // ── 0. Process any queued tool side-effects on game thread ─
+            NpcToolSystem.ProcessEffects();
+
             // ── 1. Process completed AI tasks ──────────────────────
             var completedEntries = new List<NpcEntry>();
             foreach (var kvp in _entries)
@@ -116,10 +119,10 @@ namespace FirstLegacyMod
 
             foreach (var entry in completedEntries)
             {
-                string response;
-                try { response = entry.PendingAiTask.Result; }
+                AiToolResult result;
+                try { result = entry.PendingAiTask.Result; }
                 catch (AggregateException ex)
-                { response = $"[AI] {ex.InnerException?.Message ?? ex.Message}"; }
+                { result = new AiToolResult { Response = $"[AI] {ex.InnerException?.Message ?? ex.Message}", ExecutedTools = new List<string>() }; }
 
                 entry.PendingAiTask = null;
 
@@ -135,7 +138,7 @@ namespace FirstLegacyMod
                 }
                 else
                 {
-                    entry.Bubble.SetFixedMessage(response);
+                    entry.Bubble.SetFixedMessage(result.Response);
                     entry.State = NpcState.ShowingResponse;
                     entry.StateEnteredTick = now;
                 }
@@ -227,6 +230,7 @@ namespace FirstLegacyMod
                 entry.Bubble.Reset();
             }
             _entries.Clear();
+            NpcToolSystem.ClearPendingEffects();
         }
 
         // ════════════════════════════════════════════════════════════
@@ -252,6 +256,9 @@ namespace FirstLegacyMod
 
             foreach (int h in removals)
                 _entries.Remove(h);
+
+            // Discard any tool effects queued for cancelled NPCs
+            NpcToolSystem.ClearPendingEffects();
         }
 
         /// <summary>
@@ -334,9 +341,12 @@ namespace FirstLegacyMod
                 State = NpcState.WaitingAi,
                 StateEnteredTick = now,
                 PendingAiTask = Task.Run(() =>
-                    AIChatService.GetSituationalResponse(
+                    AIChatService.GetResponseWithTools(
                         GunpointSystemPrompt,
-                        GunpointUserPrompt)),
+                        GunpointUserPrompt,
+                        NpcToolSystem.AllTools,
+                        bestNpc,
+                        playerPed)),
             };
 
             SurrenderNpc(bestNpc, playerPed);
@@ -371,13 +381,17 @@ namespace FirstLegacyMod
         private const string GunpointSystemPrompt =
             "Bạn là một người dân bình thường ở thành phố Los Santos. " +
             "Một tên cướp có vũ trang đang chĩa súng vào bạn. " +
-            "Bạn rất hoảng sợ và đã giơ tay đầu hàng. " +
-            "Hãy trả lời bằng tiếng Việt, NGẮN GỌN (1-2 câu, dưới 200 ký tự), " +
-            "thể hiện sự sợ hãi tột độ, van xin tha mạng, hoặc hoảng loạn. " +
-            "Phản ứng phải chân thực như một con người thật trước tình huống " +
-            "sinh tử. Không lặp lại câu đã nói trước đó.";
+            "Bạn rất hoảng sợ. BẠN CÓ THỂ DÙNG CÁC HÀNH ĐỘNG SAU ĐỂ PHẢN ỨNG:\n" +
+            "- call_police: Gọi 911 báo cảnh sát đến cứu bạn.\n" +
+            "- beg_on_knees: Quỳ gối van xin tha mạng.\n" +
+            "- attempt_escape: Bỏ chạy thật nhanh để thoát thân.\n" +
+            "- scream_for_help: La hét thất thanh kêu cứu.\n\n" +
+            "LUÔN CHỌN ÍT NHẤT MỘT HÀNH ĐỘNG PHÙ HỢP, rồi kèm câu nói " +
+            "tiếng Việt NGẮN GỌN (1-2 câu, dưới 200 ký tự) thể hiện cảm xúc. " +
+            "Phản ứng phải đa dạng, chân thực, không lặp lại.";
 
         private const string GunpointUserPrompt =
-            "Tên cướp đang dí súng vào mặt bạn. Bạn sẽ nói gì?";
+            "Tên cướp đang dí súng vào mặt bạn. " +
+            "Hãy chọn hành động phù hợp và nói câu thoại tiếng Việt.";
     }
 }

@@ -186,15 +186,20 @@ dotnet restore && mkdir -p bin/Debug
 
 OPENAI_DLL=$(find ~/.nuget/packages -name "OpenAI.dll" -path "*/netstandard2.0/*" | head -1)
 CLIENTMODEL_DLL=$(find ~/.nuget/packages -name "System.ClientModel.dll" -path "*/netstandard2.0/*" | head -1)
+MEMORY_DLL=$(find ~/.nuget/packages -name "System.Memory.dll" -path "*/netstandard2.0/*" | head -1)
+MEMDATA_DLL=$(find ~/.nuget/packages -name "System.Memory.Data.dll" -path "*/netstandard2.0/*" | head -1)
 
 mcs -target:library -out:bin/Debug/FirstGtaMod.dll \
+  -nowarn:1685 \
   -r:/usr/lib/mono/4.5/System.dll \
   -r:/usr/lib/mono/4.5/System.Windows.Forms.dll \
   -r:/usr/lib/mono/4.5/System.Net.Http.dll \
   -r:/usr/lib/mono/4.5/Facades/netstandard.dll \
   -r:"$OPENAI_DLL" -r:"$CLIENTMODEL_DLL" \
+  -r:"$MEMORY_DLL" -r:"$MEMDATA_DLL" \
   -r:libs/ScriptHookVDotNet3.dll \
-  main.cs ChatBubble.cs ChatBubbleController.cs AIChatService.cs
+  main.cs ChatBubble.cs ChatBubbleController.cs AIChatService.cs \
+  NpcEventSystem.cs NpcToolSystem.cs
 ```
 
 > `Facades/netstandard.dll` là **bắt buộc** khi link thư viện .NET Standard 2.0 (OpenAI.dll).
