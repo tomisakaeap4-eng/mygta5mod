@@ -61,6 +61,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>if not exist "C:\Games\Grand Theft Auto V\scripts" mkdir "C:\Games\Grand Theft Auto V\scripts"
-copy /Y "$(TargetDir)*.dll" "C:\Games\Grand Theft Auto V\scripts\"</PostBuildEvent>
+copy /Y "$(TargetDir)*.dll" "C:\Games\Grand Theft Auto V\scripts\"
+copy /Y "$(ProjectDir)FirstGtaMod.ini" "C:\Games\Grand Theft Auto V\scripts\"</PostBuildEvent>
   </PropertyGroup>
 </Project>
