@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="OpenAI" Version="2.*" />
+    <PackageReference Include="Costura.Fody" Version="5.*" PrivateAssets="all" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="main.cs" />
@@ -59,8 +60,6 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>if not exist "C:\Games\Grand Theft Auto V\scripts" mkdir "C:\Games\Grand Theft Auto V\scripts"
-copy /Y "$(TargetPath)" "C:\Games\Grand Theft Auto V\scripts\"
-copy /Y "$(TargetDir)OpenAI.dll" "C:\Games\Grand Theft Auto V\scripts\"
-copy /Y "$(TargetDir)System.ClientModel.dll" "C:\Games\Grand Theft Auto V\scripts\"</PostBuildEvent>
+copy /Y "$(TargetDir)*.dll" "C:\Games\Grand Theft Auto V\scripts\"</PostBuildEvent>
   </PropertyGroup>
 </Project>
