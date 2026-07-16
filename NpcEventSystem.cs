@@ -13,9 +13,6 @@ namespace FirstLegacyMod
     /// a gun at an NPC), triggers NPC behaviors (e.g. hands-up surrender),
     /// sends context-aware AI prompts, and displays AI responses in chat
     /// bubbles above affected NPCs.
-    ///
-    /// Designed to be extensible: new event types can be added by creating
-    /// additional detection methods and response handlers in this class.
     /// </summary>
     public sealed class NpcEventSystem
     {
@@ -23,20 +20,17 @@ namespace FirstLegacyMod
 
         private enum NpcState
         {
-            /// <summary>NPC is surrendering, waiting for AI response.</summary>
             WaitingAi,
-            /// <summary>AI has responded; bubble is showing the reply.</summary>
             ShowingResponse,
-            /// <summary>Response bubble faded; counting down to release.</summary>
             Releasing,
         }
 
         private sealed class NpcEntry
         {
-            public Ped NpcPed;              // Direct Ped reference from TargetedEntity
+            public Ped NpcPed;
             public NpcState State;
             public ChatBubbleController Bubble = new ChatBubbleController();
-            public int StateEnteredTick;    // GameTime when we entered current state
+            public int StateEnteredTick;
             public Task<string> PendingAiTask;
         }
 
@@ -44,30 +38,33 @@ namespace FirstLegacyMod
             = new Dictionary<int, NpcEntry>();
 
         // ── Timing constants ────────────────────────────────────────
-        private const int GlobalCooldownMs  = 2000;   // Min time between NPC activations
-        private const int ReleaseDelayMs    = 2500;   // Extra wait after bubble fades
-        private const int FreeAimScanFrames = 10;     // Only run free-aim fallback every N frames
-        private const int DebugLogFrames    = 60;     // Log debug info every N frames while aiming
+        private const int GlobalCooldownMs  = 2000;
+        private const int ReleaseDelayMs    = 2500;
+        private const int DebugLogFrames    = 90;  // Log every ~1.5 s while aiming
 
         private int _lastActivationTick = int.MinValue;
-        private int _frameCounter;
         private int _debugFrameCounter;
 
         // ════════════════════════════════════════════════════════════
         //  Public API
         // ════════════════════════════════════════════════════════════
 
-        /// <summary>
-        /// Call once per frame from <c>Script.Tick</c>.
-        /// Checks completed AI tasks, detects new events, updates
-        /// state machines, and renders active bubbles.
-        /// </summary>
         public void Update()
         {
             int now = Game.GameTime;
 
             Ped playerPed = Game.Player.Character;
             if (playerPed == null || !playerPed.Exists()) return;
+
+            bool isAiming = Game.Player.IsAiming;
+
+            // ★ PREEMPTIVE: freeze ambient NPC AI this frame so they
+            //    don't flee before our detection runs.
+            if (isAiming)
+            {
+                // SET_BLOCKING_OF_NON_TEMPORARY_EVENTS_FOR_AMBIENT_PEDS_THIS_FRAME
+                Function.Call((Hash)0x9911F4A24485F653, true);
+            }
 
             // ── 1. Process completed AI tasks ──────────────────────
             foreach (var kvp in _entries)
@@ -90,7 +87,10 @@ namespace FirstLegacyMod
             }
 
             // ── 2. Detect gunpoint events ──────────────────────────
-            DetectGunpoint(playerPed, now);
+            if (isAiming)
+            {
+                DetectGunpoint(playerPed, now);
+            }
 
             // ── 3. Update bubbles & state transitions ──────────────
             var removals = new List<int>();
@@ -101,7 +101,6 @@ namespace FirstLegacyMod
                 NpcEntry entry = kvp.Value;
                 Ped npc = entry.NpcPed;
 
-                // NPC died or despawned → cleanup immediately
                 if (npc == null || !npc.Exists() || npc.IsDead)
                 {
                     entry.Bubble.Reset();
@@ -114,12 +113,10 @@ namespace FirstLegacyMod
                     case NpcState.WaitingAi:
                     case NpcState.ShowingResponse:
                     {
-                        // Keep rendering bubble above NPC
                         Vector3 headPos = npc.Position
                             + new Vector3(0f, 0f, entry.Bubble.HeightOffset);
                         entry.Bubble.Update(headPos);
 
-                        // If bubble auto-hid (timeout), move to releasing
                         if (!entry.Bubble.IsActive)
                         {
                             entry.State = NpcState.Releasing;
@@ -130,8 +127,6 @@ namespace FirstLegacyMod
 
                     case NpcState.Releasing:
                     {
-                        // Keep NPC in surrender for a bit longer,
-                        // then release and remove
                         if (now - entry.StateEnteredTick >= ReleaseDelayMs)
                         {
                             ReleaseNpc(npc);
@@ -146,10 +141,6 @@ namespace FirstLegacyMod
                 _entries.Remove(h);
         }
 
-        /// <summary>
-        /// Release all tracked NPCs and reset state.
-        /// Call from <c>Script.Aborted</c>.
-        /// </summary>
         public void Reset()
         {
             foreach (var kvp in _entries)
@@ -164,101 +155,80 @@ namespace FirstLegacyMod
         }
 
         // ════════════════════════════════════════════════════════════
-        //  Event Detectors
+        //  Detection — angle-based crosshair search
         // ════════════════════════════════════════════════════════════
 
         /// <summary>
-        /// Detect player aiming a weapon at a human NPC.
-        /// Triggers surrender + AI response for the targeted NPC.
-        ///
-        /// Two-stage detection:
-        /// 1. <see cref="Player.TargetedEntity"/> — lock-on target (auto-aim)
-        /// 2. <c>GET_ENTITY_PLAYER_IS_FREE_AIMING_AT</c> — free-aim crosshair
-        ///    Fallback when the player is aiming without a lock-on.
+        /// Find the human NPC closest to the player's aim direction
+        /// (within a narrow cone).  Does NOT rely on lock-on or
+        /// <c>GET_ENTITY_PLAYER_IS_FREE_AIMING_AT</c> — works purely
+        /// from camera direction + nearby ped geometry.
         /// </summary>
         private void DetectGunpoint(Ped playerPed, int now)
         {
-            // ★ Debug: log once per second while aiming
-            bool shouldLog = false;
-            if (Game.Player.IsAiming && ++_debugFrameCounter % DebugLogFrames == 0)
+            bool shouldLog = ++_debugFrameCounter % DebugLogFrames == 0;
+
+            // ── Get aim direction from gameplay camera ─────────────
+            Vector3 aimDir = GameplayCamera.Direction;
+
+            Vector3 playerPos = playerPed.Position;
+
+            // ── Search nearby NPCs ─────────────────────────────────
+            Ped[] nearby = World.GetNearbyPeds(playerPos, 40f);
+
+            Ped bestNpc = null;
+            float bestDist = float.MaxValue;
+
+            for (int i = 0; i < nearby.Length; i++)
             {
-                shouldLog = true;
-                Notification.Show("~y~[NPC DEBUG]~w~ IsAiming=TRUE");
+                Ped npc = nearby[i];
+                if (npc.Handle == playerPed.Handle) continue;
+                if (!npc.Exists() || npc.IsDead) continue;
+                if (!npc.IsHuman) continue;
+                if (npc.IsInVehicle()) continue;
+                if (_entries.ContainsKey(npc.Handle)) continue;
+
+                Vector3 toNpc = npc.Position - playerPos;
+                float dist = toNpc.Length();
+                if (dist > 35f) continue; // too far for pistol/SMG range
+
+                Vector3 dirToNpc = toNpc / dist; // normalized
+
+                // Dot product: 1.0 = dead centre, 0.0 = 90° off
+                float dot = Vector3.Dot(aimDir, dirToNpc);
+
+                // Need at least ~10° cone (cos 10° ≈ 0.985)
+                if (dot < 0.985f) continue;
+
+                // Prefer the closest among those in the cone
+                if (dist < bestDist)
+                {
+                    bestDist = dist;
+                    bestNpc = npc;
+                }
             }
 
-            if (!Game.Player.IsAiming) return;
-
-            // Stage 1: Lock-on target (auto-aim)
-            Entity target = Game.Player.TargetedEntity;
             if (shouldLog)
             {
-                Notification.Show(target != null
-                    ? $"~y~[NPC DEBUG]~w~ TargetedEntity={target.GetType().Name} h={target.Handle}"
-                    : "~y~[NPC DEBUG]~w~ TargetedEntity=NULL");
+                Notification.Show(bestNpc != null
+                    ? $"~y~[NPC DEBUG]~w~ Found NPC h={bestNpc.Handle} dist={bestDist:F1}m"
+                    : $"~y~[NPC DEBUG]~w~ nearby={nearby.Length} no NPC in crosshair cone");
             }
 
-            // Stage 2: Free-aim crosshair fallback (throttled to every N frames)
-            if (target == null && ++_frameCounter % FreeAimScanFrames == 0)
-            {
-                target = GetFreeAimTarget(Game.Player, playerPed.Position, shouldLog);
-            }
+            if (bestNpc == null) return;
 
-            if (target == null)
-            {
-                if (shouldLog) Notification.Show("~y~[NPC DEBUG]~w~ target=NULL -> return");
-                return;
-            }
-            if (!(target is Ped))
-            {
-                if (shouldLog) Notification.Show($"~y~[NPC DEBUG]~w~ target is {target.GetType().Name} (not Ped) -> return");
-                return;
-            }
-
-            Ped npc = (Ped)target;
-            if (npc.Handle == playerPed.Handle)
-            {
-                if (shouldLog) Notification.Show("~y~[NPC DEBUG]~w~ npc == player -> return");
-                return;
-            }
-            if (!npc.Exists() || npc.IsDead)
-            {
-                if (shouldLog) Notification.Show($"~y~[NPC DEBUG]~w~ npc !Exists or dead -> return");
-                return;
-            }
-            if (!npc.IsHuman)
-            {
-                if (shouldLog) Notification.Show($"~y~[NPC DEBUG]~w~ npc !IsHuman -> return");
-                return;
-            }
-            if (npc.IsInVehicle())
-            {
-                if (shouldLog) Notification.Show($"~y~[NPC DEBUG]~w~ npc in vehicle -> return");
-                return;
-            }
-
-            int handle = npc.Handle;
-            if (_entries.ContainsKey(handle))
-            {
-                if (shouldLog) Notification.Show($"~y~[NPC DEBUG]~w~ npc already tracked -> return");
-                return;
-            }
-
-            // Global cooldown to avoid spam when player sweeps aim
-            if (now - _lastActivationTick < GlobalCooldownMs)
-            {
-                if (shouldLog) Notification.Show($"~y~[NPC DEBUG]~w~ cooldown {now - _lastActivationTick}ms < {GlobalCooldownMs}ms -> return");
-                return;
-            }
+            // ── Global cooldown ────────────────────────────────────
+            if (now - _lastActivationTick < GlobalCooldownMs) return;
 
             _lastActivationTick = now;
 
-            // ★ SUCCESS!
-            Notification.Show($"~g~[NPC EVENT]~w~ NPC #{handle} surrendering + AI request...");
+            int handle = bestNpc.Handle;
 
-            // ── Create entry & trigger surrender ───────────────────
+            Notification.Show($"~g~[NPC EVENT]~w~ NPC #{handle} surrendering...");
+
             var entry = new NpcEntry
             {
-                NpcPed = npc,
+                NpcPed = bestNpc,
                 State = NpcState.WaitingAi,
                 StateEnteredTick = now,
                 PendingAiTask = Task.Run(() =>
@@ -267,91 +237,27 @@ namespace FirstLegacyMod
                         GunpointUserPrompt)),
             };
 
-            SurrenderNpc(npc, playerPed);
+            SurrenderNpc(bestNpc, playerPed);
             entry.Bubble.StartWaiting();
 
             _entries[handle] = entry;
-        }
-
-        /// <summary>
-        /// Uses <c>GET_ENTITY_PLAYER_IS_FREE_AIMING_AT</c> to find what
-        /// entity is under the player's crosshair when free-aiming
-        /// (no lock-on).  Searches nearby peds to wrap the raw handle
-        /// into a <see cref="Ped"/> reference.
-        /// </summary>
-        /// <returns>The targeted <see cref="Ped"/>, or <c>null</c>.</returns>
-        private static Ped GetFreeAimTarget(Player player, Vector3 playerPos, bool shouldLog)
-        {
-            // GET_ENTITY_PLAYER_IS_FREE_AIMING_AT(player, entity*)
-            // Hash not in SHVDN enum – use raw value
-            using (var outEntity = new OutputArgument())
-            {
-                bool found = Function.Call<bool>(
-                    (Hash)0x2975C866E6713290,
-                    player.Handle, outEntity);
-
-                if (shouldLog)
-                {
-                    Notification.Show($"~y~[NPC DEBUG]~w~ FreeAim native returned={found}");
-                }
-
-                if (!found) return null;
-
-                int handle = outEntity.GetResult<int>();
-                if (shouldLog)
-                {
-                    Notification.Show($"~y~[NPC DEBUG]~w~ FreeAim entity handle={handle}");
-                }
-
-                if (handle == 0) return null;
-
-                // Resolve handle → Ped wrapper via nearby ped search
-                Ped[] nearby = World.GetNearbyPeds(playerPos, 120f);
-                if (shouldLog)
-                {
-                    Notification.Show($"~y~[NPC DEBUG]~w~ GetNearbyPeds count={nearby.Length}");
-                }
-
-                for (int i = 0; i < nearby.Length; i++)
-                {
-                    if (nearby[i].Handle == handle)
-                        return nearby[i];
-                }
-
-                if (shouldLog)
-                {
-                    Notification.Show($"~y~[NPC DEBUG]~w~ handle {handle} not found in nearby peds");
-                }
-
-                return null;
-            }
         }
 
         // ════════════════════════════════════════════════════════════
         //  NPC Behavior Helpers
         // ════════════════════════════════════════════════════════════
 
-        /// <summary>
-        /// Force the NPC into a hands-up surrender pose facing the player,
-        /// and block the NPC's default flee/combat AI.
-        /// </summary>
         private static void SurrenderNpc(Ped npc, Ped playerPed)
         {
             npc.BlockPermanentEvents = true;
 
-            // TASK_HANDS_UP(ped, duration, facingPed, timeToFacePed, flags)
-            // duration -1 = hold forever, timeToFacePed -1 = instant
             Function.Call(Hash.TASK_HANDS_UP,
                 npc.Handle, -1, playerPed.Handle, -1, 0);
 
-            // TASK_LOOK_AT_ENTITY(ped, lookAt, duration, flags, priority)
             Function.Call(Hash.TASK_LOOK_AT_ENTITY,
                 npc.Handle, playerPed.Handle, -1, 2048, 2);
         }
 
-        /// <summary>
-        /// Restore the NPC to normal game AI.
-        /// </summary>
         private static void ReleaseNpc(Ped npc)
         {
             npc.BlockPermanentEvents = false;
@@ -359,7 +265,7 @@ namespace FirstLegacyMod
         }
 
         // ════════════════════════════════════════════════════════════
-        //  AI Prompts — Gunpoint event
+        //  AI Prompts
         // ════════════════════════════════════════════════════════════
 
         private const string GunpointSystemPrompt =
