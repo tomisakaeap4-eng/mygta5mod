@@ -81,6 +81,9 @@ namespace FirstLegacyMod
 
                 _isAiRequestPending = true;
 
+                // Show waiting bubble immediately with live elapsed-time counter
+                _playerBubble.StartWaiting();
+
                 // Fire-and-forget: run API call on background thread
                 _pendingAiTask = Task.Run(() => AIChatService.GetVietnameseResponse());
             }
