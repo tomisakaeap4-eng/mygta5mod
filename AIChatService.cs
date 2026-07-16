@@ -37,7 +37,8 @@ namespace FirstLegacyMod
         private static ChatClient _client;
         private static bool _initialized;
         private static string _lastResponse = string.Empty;
-        private static string _logPath;  // path to ScriptHookVDotNet.log for diagnostics
+        private static string _logPath;
+        private static bool _logStarted;  // true after first WriteAllText truncates old log
         private static readonly object _logLock = new object();
 
         /// <summary>
@@ -66,10 +67,13 @@ namespace FirstLegacyMod
             {
                 if (_initialized) return;
 
-                // Log file: scripts/FirstGtaMod.log (same folder as this .dll)
+                // Log file: scripts/FirstGtaMod.log — truncated on every game start
                 _logPath = Path.Combine(
                     Path.GetDirectoryName(typeof(AIChatService).Assembly.Location),
                     "FirstGtaMod.log");
+
+                // Start fresh log for this session
+                StartLog($"=== FirstGtaMod AI Log — {DateTime.Now:yyyy-MM-dd HH:mm:ss} ===");
 
                 string apiKey = ReadApiKeyFromIni();
 
@@ -224,6 +228,27 @@ namespace FirstLegacyMod
         }
 
         /// <summary>
+        /// Overwrites the log file with the first line of a new session.
+        /// </summary>
+        private static void StartLog(string message)
+        {
+            try
+            {
+                string timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+                lock (_logLock)
+                {
+                    File.WriteAllText(_logPath,
+                        $"[{timestamp}] {message}{Environment.NewLine}");
+                    _logStarted = true;
+                }
+            }
+            catch
+            {
+                // Log file may be locked or path invalid — silently ignore
+            }
+        }
+
+        /// <summary>
         /// Appends a line to FirstGtaMod.log (same folder as the .dll).
         /// Thread-safe, fails silently if log is unavailable.
         /// </summary>
@@ -232,10 +257,17 @@ namespace FirstLegacyMod
             try
             {
                 string timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+                string line = $"[{timestamp}] {message}{Environment.NewLine}";
                 lock (_logLock)
                 {
-                    File.AppendAllText(_logPath,
-                        $"[{timestamp}] {message}{Environment.NewLine}");
+                    if (!_logStarted)
+                    {
+                        string header = $"[{timestamp}] === FirstGtaMod AI Log (late init) — {DateTime.Now:yyyy-MM-dd HH:mm:ss} ==={Environment.NewLine}";
+                        File.WriteAllText(_logPath, header);
+                        _logStarted = true;
+                    }
+
+                    File.AppendAllText(_logPath, line);
                 }
             }
             catch
