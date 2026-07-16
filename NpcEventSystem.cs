@@ -1,6 +1,7 @@
 using GTA;
 using GTA.Math;
 using GTA.Native;
+using GTA.UI;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -46,9 +47,11 @@ namespace FirstLegacyMod
         private const int GlobalCooldownMs  = 2000;   // Min time between NPC activations
         private const int ReleaseDelayMs    = 2500;   // Extra wait after bubble fades
         private const int FreeAimScanFrames = 10;     // Only run free-aim fallback every N frames
+        private const int DebugLogFrames    = 60;     // Log debug info every N frames while aiming
 
         private int _lastActivationTick = int.MinValue;
         private int _frameCounter;
+        private int _debugFrameCounter;
 
         // ════════════════════════════════════════════════════════════
         //  Public API
@@ -175,32 +178,82 @@ namespace FirstLegacyMod
         /// </summary>
         private void DetectGunpoint(Ped playerPed, int now)
         {
+            // ★ Debug: log once per second while aiming
+            bool shouldLog = false;
+            if (Game.Player.IsAiming && ++_debugFrameCounter % DebugLogFrames == 0)
+            {
+                shouldLog = true;
+                Notification.Show("~y~[NPC DEBUG]~w~ IsAiming=TRUE");
+            }
+
             if (!Game.Player.IsAiming) return;
 
             // Stage 1: Lock-on target (auto-aim)
             Entity target = Game.Player.TargetedEntity;
+            if (shouldLog)
+            {
+                Notification.Show(target != null
+                    ? $"~y~[NPC DEBUG]~w~ TargetedEntity={target.GetType().Name} h={target.Handle}"
+                    : "~y~[NPC DEBUG]~w~ TargetedEntity=NULL");
+            }
 
             // Stage 2: Free-aim crosshair fallback (throttled to every N frames)
             if (target == null && ++_frameCounter % FreeAimScanFrames == 0)
             {
-                target = GetFreeAimTarget(Game.Player, playerPed.Position);
+                target = GetFreeAimTarget(Game.Player, playerPed.Position, shouldLog);
             }
 
-            if (target == null || !(target is Ped)) return;
+            if (target == null)
+            {
+                if (shouldLog) Notification.Show("~y~[NPC DEBUG]~w~ target=NULL -> return");
+                return;
+            }
+            if (!(target is Ped))
+            {
+                if (shouldLog) Notification.Show($"~y~[NPC DEBUG]~w~ target is {target.GetType().Name} (not Ped) -> return");
+                return;
+            }
 
             Ped npc = (Ped)target;
-            if (npc.Handle == playerPed.Handle) return;
-            if (!npc.Exists() || npc.IsDead) return;
-            if (!npc.IsHuman) return;
-            if (npc.IsInVehicle()) return;
+            if (npc.Handle == playerPed.Handle)
+            {
+                if (shouldLog) Notification.Show("~y~[NPC DEBUG]~w~ npc == player -> return");
+                return;
+            }
+            if (!npc.Exists() || npc.IsDead)
+            {
+                if (shouldLog) Notification.Show($"~y~[NPC DEBUG]~w~ npc !Exists or dead -> return");
+                return;
+            }
+            if (!npc.IsHuman)
+            {
+                if (shouldLog) Notification.Show($"~y~[NPC DEBUG]~w~ npc !IsHuman -> return");
+                return;
+            }
+            if (npc.IsInVehicle())
+            {
+                if (shouldLog) Notification.Show($"~y~[NPC DEBUG]~w~ npc in vehicle -> return");
+                return;
+            }
 
             int handle = npc.Handle;
-            if (_entries.ContainsKey(handle)) return;
+            if (_entries.ContainsKey(handle))
+            {
+                if (shouldLog) Notification.Show($"~y~[NPC DEBUG]~w~ npc already tracked -> return");
+                return;
+            }
 
             // Global cooldown to avoid spam when player sweeps aim
-            if (now - _lastActivationTick < GlobalCooldownMs) return;
+            if (now - _lastActivationTick < GlobalCooldownMs)
+            {
+                if (shouldLog) Notification.Show($"~y~[NPC DEBUG]~w~ cooldown {now - _lastActivationTick}ms < {GlobalCooldownMs}ms -> return");
+                return;
+            }
 
             _lastActivationTick = now;
+
+            // ★ SUCCESS!
+            Notification.Show($"~g~[NPC EVENT]~w~ NPC #{handle} surrendering + AI request...");
 
             // ── Create entry & trigger surrender ───────────────────
             var entry = new NpcEntry
@@ -227,7 +280,7 @@ namespace FirstLegacyMod
         /// into a <see cref="Ped"/> reference.
         /// </summary>
         /// <returns>The targeted <see cref="Ped"/>, or <c>null</c>.</returns>
-        private static Ped GetFreeAimTarget(Player player, Vector3 playerPos)
+        private static Ped GetFreeAimTarget(Player player, Vector3 playerPos, bool shouldLog)
         {
             // GET_ENTITY_PLAYER_IS_FREE_AIMING_AT(player, entity*)
             // Hash not in SHVDN enum – use raw value
@@ -237,18 +290,37 @@ namespace FirstLegacyMod
                     (Hash)0x2975C866E6713290,
                     player.Handle, outEntity);
 
+                if (shouldLog)
+                {
+                    Notification.Show($"~y~[NPC DEBUG]~w~ FreeAim native returned={found}");
+                }
+
                 if (!found) return null;
 
                 int handle = outEntity.GetResult<int>();
+                if (shouldLog)
+                {
+                    Notification.Show($"~y~[NPC DEBUG]~w~ FreeAim entity handle={handle}");
+                }
+
                 if (handle == 0) return null;
 
                 // Resolve handle → Ped wrapper via nearby ped search
-                // Radius 120 m covers everything in aiming range
                 Ped[] nearby = World.GetNearbyPeds(playerPos, 120f);
+                if (shouldLog)
+                {
+                    Notification.Show($"~y~[NPC DEBUG]~w~ GetNearbyPeds count={nearby.Length}");
+                }
+
                 for (int i = 0; i < nearby.Length; i++)
                 {
                     if (nearby[i].Handle == handle)
                         return nearby[i];
+                }
+
+                if (shouldLog)
+                {
+                    Notification.Show($"~y~[NPC DEBUG]~w~ handle {handle} not found in nearby peds");
                 }
 
                 return null;
