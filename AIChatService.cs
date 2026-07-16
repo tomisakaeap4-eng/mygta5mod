@@ -66,10 +66,10 @@ namespace FirstLegacyMod
             {
                 if (_initialized) return;
 
-                // Determine log path: ScriptHookVDotNet.log is in GTA V root
+                // Log file: scripts/FirstGtaMod.log (same folder as this .dll)
                 _logPath = Path.Combine(
-                    AppDomain.CurrentDomain.BaseDirectory,
-                    "ScriptHookVDotNet.log");
+                    Path.GetDirectoryName(typeof(AIChatService).Assembly.Location),
+                    "FirstGtaMod.log");
 
                 string apiKey = ReadApiKeyFromIni();
 
@@ -194,7 +194,7 @@ namespace FirstLegacyMod
                 // Collect full exception chain for diagnosis
                 string detail = FlattenException(ex);
                 WriteLog($"[AIChatService] API call failed: {detail}");
-                return $"[AI Lỗi] {ex.Message}\n(Check ScriptHookVDotNet.log)";
+                return $"[AI Lỗi] {ex.Message}\n(Check scripts/{Path.GetFileName(_logPath)})";
             }
         }
 
@@ -224,7 +224,7 @@ namespace FirstLegacyMod
         }
 
         /// <summary>
-        /// Appends a line to ScriptHookVDotNet.log for diagnostics.
+        /// Appends a line to FirstGtaMod.log (same folder as the .dll).
         /// Thread-safe, fails silently if log is unavailable.
         /// </summary>
         private static void WriteLog(string message)
