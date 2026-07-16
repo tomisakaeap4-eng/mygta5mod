@@ -42,7 +42,7 @@ namespace FirstLegacyMod
         private const int ReleaseDelayMs    = 2500;
         private const int DebugLogFrames    = 90;  // Log every ~1.5 s while aiming
 
-        private int _lastActivationTick = int.MinValue;
+        private int _lastActivationTick = -2000;  // skip first cooldown (avoids int.MinValue overflow)
         private int _debugFrameCounter;
 
         // ════════════════════════════════════════════════════════════
@@ -218,7 +218,12 @@ namespace FirstLegacyMod
             if (bestNpc == null) return;
 
             // ── Global cooldown ────────────────────────────────────
-            if (now - _lastActivationTick < GlobalCooldownMs) return;
+            if (now - _lastActivationTick < GlobalCooldownMs)
+            {
+                if (shouldLog)
+                    Notification.Show($"~y~[NPC DEBUG]~w~ cooldown {now - _lastActivationTick}ms -> skip");
+                return;
+            }
 
             _lastActivationTick = now;
 
@@ -249,6 +254,9 @@ namespace FirstLegacyMod
 
         private static void SurrenderNpc(Ped npc, Ped playerPed)
         {
+            // Cancel any existing flee/combat task before applying surrender
+            Function.Call(Hash.CLEAR_PED_TASKS_IMMEDIATELY, npc.Handle);
+
             npc.BlockPermanentEvents = true;
 
             Function.Call(Hash.TASK_HANDS_UP,
