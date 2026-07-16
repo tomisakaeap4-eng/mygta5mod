@@ -37,6 +37,8 @@ namespace FirstLegacyMod
         private static ChatClient _client;
         private static bool _initialized;
         private static string _lastResponse = string.Empty;
+        private static string _logPath;  // path to ScriptHookVDotNet.log for diagnostics
+        private static readonly object _logLock = new object();
 
         /// <summary>
         /// Whether the service has been successfully initialized with an API key.
@@ -64,13 +66,25 @@ namespace FirstLegacyMod
             {
                 if (_initialized) return;
 
+                // Determine log path: ScriptHookVDotNet.log is in GTA V root
+                _logPath = Path.Combine(
+                    AppDomain.CurrentDomain.BaseDirectory,
+                    "ScriptHookVDotNet.log");
+
                 string apiKey = ReadApiKeyFromIni();
 
                 if (string.IsNullOrEmpty(apiKey))
                 {
-                    _initialized = true;  // Mark as initialized so we don't retry
-                    return;               // _client stays null → IsAvailable = false
+                    WriteLog("[AIChatService] No NVIDIA_API_KEY found in .ini or env. AI disabled.");
+                    _initialized = true;
+                    return;
                 }
+
+                // Mask key for safe logging: show last 4 chars only
+                string masked = apiKey.Length > 8
+                    ? "..." + apiKey.Substring(apiKey.Length - 4)
+                    : "***";
+                WriteLog($"[AIChatService] Loaded API key ending in {masked}, endpoint={BaseUrl}, model={Model}");
 
                 _client = new ChatClient(
                     model: Model,
@@ -177,7 +191,10 @@ namespace FirstLegacyMod
             }
             catch (Exception ex)
             {
-                return $"[AI Lỗi] {ex.Message}";
+                // Collect full exception chain for diagnosis
+                string detail = FlattenException(ex);
+                WriteLog($"[AIChatService] API call failed: {detail}");
+                return $"[AI Lỗi] {ex.Message}\n(Check ScriptHookVDotNet.log)";
             }
         }
 
@@ -188,6 +205,42 @@ namespace FirstLegacyMod
             if (!_initialized)
             {
                 Initialize();
+            }
+        }
+
+        /// <summary>
+        /// Recursively collects all exception messages (including inner exceptions)
+        /// for diagnostic logging.
+        /// </summary>
+        private static string FlattenException(Exception ex)
+        {
+            var parts = new System.Collections.Generic.List<string>();
+            while (ex != null)
+            {
+                parts.Add($"[{ex.GetType().Name}] {ex.Message}");
+                ex = ex.InnerException;
+            }
+            return string.Join(" <- ", parts);
+        }
+
+        /// <summary>
+        /// Appends a line to ScriptHookVDotNet.log for diagnostics.
+        /// Thread-safe, fails silently if log is unavailable.
+        /// </summary>
+        private static void WriteLog(string message)
+        {
+            try
+            {
+                string timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+                lock (_logLock)
+                {
+                    File.AppendAllText(_logPath,
+                        $"[{timestamp}] {message}{Environment.NewLine}");
+                }
+            }
+            catch
+            {
+                // Log file may be locked or path invalid — silently ignore
             }
         }
     }
