@@ -2,7 +2,8 @@
 
 Mod C# tối giản cho **Grand Theft Auto V Legacy, Story Mode**, dùng
 ScriptHookVDotNet v3 (SHVDN), LemonUI.SHVDN3, OpenAI .NET SDK và .NET Framework 4.8.
-`main.cs` hiện dùng F5 để mở menu LemonUI. Dự án đi kèm một corpus tài liệu cục bộ và bộ công cụ tạo
+`main.cs` hiện dùng phím **T** để gửi request AI và hiển thị phản hồi tiếng Việt
+ngẫu nhiên trong chat bubble 3D. Dự án đi kèm một corpus tài liệu cục bộ và bộ công cụ tạo
 lookup tree đã kiểm chứng, để mọi thay đổi mod đều bám vào API thực tế.
 
 > Không dùng dự án, ScriptHookVDotNet hoặc quy trình này cho GTA Online.
@@ -10,13 +11,15 @@ lookup tree đã kiểm chứng, để mọi thay đổi mod đều bám vào AP
 ## Trạng thái kỹ thuật hiện tại
 
 - `FirstGtaMod.csproj` là **Class Library**, nhắm `.NET Framework 4.8`.
-- Reference hiện tại là `..\ScriptHookVDotNet\ScriptHookVDotNet3.dll` và
-  `..\LemonUI.SHVDN3.dll`.
+- Reference hiện tại là `libs\ScriptHookVDotNet3.dll` và
+  `libs\LemonUI.SHVDN3.dll`.
   Trên máy này DLL có version `3.6.0.0`; runtime trong log đang là `3.7.0` và
   đang nạp mod tương thích. Khi nâng DLL, hãy re-parse tài liệu, build lại và
   smoke test trước khi dùng API mới.
 - GTA V là tiến trình x64. Project đang là `AnyCPU`; nên đổi cấu hình build
   sang `x64` trước khi phát hành để loại bỏ cảnh báo MSBuild về SHVDN AMD64.
+- NuGet: dùng `PackageReference` cho package `OpenAI` (cần VS 2019+ hoặc
+  MSBuild 16+). Nếu build thất bại, chạy `nuget restore` trước.
 
 ## Yêu cầu
 
@@ -164,20 +167,43 @@ Parser tạo output ở staging, kiểm tra số file/parse lại XML rồi mớ
 đang dùng. Khi `parse-report.json.validation.status` không phải `passed`, hoặc
 SHA-256 nguồn khác file raw hiện tại, hãy parse lại trước khi code.
 
-## Tích hợp AI với OpenAI .NET SDK
+## Tính năng AI — Chat Bubble tiếng Việt
 
-Dự án hỗ trợ tích hợp AI qua NuGet package `OpenAI` (openai-dotnet, .NET Standard 2.0,
-tương thích .NET Framework 4.8). Pattern duy nhất: `ChatClient` với API key + custom
-base URL.
+Nhấn **T** để gửi request AI và hiển thị phản hồi tiếng Việt ngẫu nhiên.
+Nhấn **Esc** để tắt bubble.
 
-Cài đặt:
+### Cấu hình
+
+Đặt biến môi trường:
+
+| Biến | Mô tả | Bắt buộc |
+|------|-------|----------|
+| `OPENAI_API_KEY` | API key OpenAI hoặc key tương thích | Có |
+| `OPENAI_BASE_URL` | Custom base URL (VD: `https://api.openai.com/v1`) | Không |
+
+### Cài đặt NuGet
+
+Dự án dùng `PackageReference` cho package `OpenAI` (openai-dotnet, .NET Standard 2.0,
+tương thích .NET Framework 4.8).
+
+```cmd
+nuget restore FirstGtaMod.csproj
+```
+
+Nếu build thất bại, cài package thủ công:
 
 ```cmd
 nuget install OpenAI -OutputDirectory packages
 ```
 
-API key lấy từ biến môi trường (`OPENAI_API_KEY`), không hardcode. Base URL set
-qua `OpenAIClientOptions.Endpoint`.
+Rồi thêm `HintPath` vào `FirstGtaMod.csproj`.
+
+### Kiến trúc AI
+
+- `AIChatService` (static): Khởi tạo `ChatClient`, gửi prompt yêu cầu phản hồi
+  tiếng Việt ngẫu nhiên. Dùng model `gpt-4o-mini` mặc định.
+- API call chạy trên background thread qua `Task.Run`, không block game loop.
+- Kết quả hiển thị qua `ChatBubbleController.SetFixedMessage()` với auto-hide.
 
 Tham khảo: `api_docs/openai-dotnet/README.md` (mục "Using a custom base URL and API key")
 và `api_docs/openai-dotnet/api/OpenAI.netstandard2.0.cs`.

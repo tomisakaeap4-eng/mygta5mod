@@ -1,7 +1,7 @@
 using GTA;
 using GTA.Math;
 using System;
-using System.Threading;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace FirstLegacyMod
@@ -10,8 +10,15 @@ namespace FirstLegacyMod
     {
         private readonly ChatBubbleController _playerBubble = new ChatBubbleController();
 
+        // ── AI state ──────────────────────────────────────────────
+        private Task<string> _pendingAiTask;
+        private volatile bool _isAiRequestPending;
+
         public MainScript()
         {
+            // Initialize AI service (reads OPENAI_API_KEY + OPENAI_BASE_URL)
+            AIChatService.Initialize();
+
             Tick += OnTick;
             KeyDown += OnKeyDown;
             Aborted += OnAborted;
@@ -19,6 +26,25 @@ namespace FirstLegacyMod
 
         private void OnTick(object sender, EventArgs e)
         {
+            // ── Check for completed AI response ──────────────────
+            if (_isAiRequestPending && _pendingAiTask != null && _pendingAiTask.IsCompleted)
+            {
+                string response;
+                try
+                {
+                    response = _pendingAiTask.Result;
+                }
+                catch (AggregateException ex)
+                {
+                    response = $"[AI Lỗi] {ex.InnerException?.Message ?? ex.Message}";
+                }
+
+                _playerBubble.SetFixedMessage(response);
+                _isAiRequestPending = false;
+                _pendingAiTask = null;
+            }
+
+            // ── Render bubble if active ───────────────────────────
             if (!_playerBubble.IsActive)
             {
                 return;
@@ -36,48 +62,43 @@ namespace FirstLegacyMod
 
         private void OnKeyDown(object sender, KeyEventArgs e)
         {
+            // ── T: Request AI Vietnamese response ─────────────────
             if (e.KeyCode == Keys.T)
             {
-                string input = ReadClipboardUnicode();
-                if (!string.IsNullOrWhiteSpace(input))
+                if (_isAiRequestPending)
                 {
-                    _playerBubble.SetFixedMessage(input.Trim());
+                    return; // Already waiting for a response
                 }
+
+                if (!AIChatService.IsAvailable)
+                {
+                    // Show error message if AI not available
+                    _playerBubble.SetFixedMessage(
+                        "[AI] Chưa cấu hình API Key.\n" +
+                        "Đặt biến môi trường OPENAI_API_KEY.");
+                    return;
+                }
+
+                _isAiRequestPending = true;
+
+                // Fire-and-forget: run API call on background thread
+                _pendingAiTask = Task.Run(() => AIChatService.GetVietnameseResponse());
             }
 
+            // ── Esc: Dismiss bubble ───────────────────────────────
             if (e.KeyCode == Keys.Escape)
             {
                 _playerBubble.Reset();
+                _isAiRequestPending = false;
+                _pendingAiTask = null;
             }
-        }
-
-        /// <summary>
-        /// Reads clipboard text on an STA thread (required by Windows Forms
-        /// <see cref="Clipboard"/>). Returns the clipboard string or empty.
-        /// </summary>
-        private static string ReadClipboardUnicode()
-        {
-            string result = string.Empty;
-            var thread = new Thread(() =>
-            {
-                try
-                {
-                    result = Clipboard.GetText();
-                }
-                catch
-                {
-                    // Clipboard may be locked; ignore
-                }
-            });
-            thread.SetApartmentState(ApartmentState.STA);
-            thread.Start();
-            thread.Join(1000); // 1s timeout to avoid hanging
-            return result;
         }
 
         private void OnAborted(object sender, EventArgs e)
         {
             _playerBubble.Reset();
+            _isAiRequestPending = false;
+            _pendingAiTask = null;
         }
     }
 }

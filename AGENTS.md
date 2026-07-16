@@ -179,6 +179,28 @@ khi ghi rõ mismatch; không dùng member mới để compile DLL cũ.
 - Build `/t:Compile` để kiểm tra an toàn. Chỉ chạy Build đầy đủ khi user cho
   phép deploy vì `PostBuildEvent` copy DLL vào thư mục GTA V.
 
+## Build trên Linux/macOS với Mono
+
+```bash
+dotnet restore && mkdir -p bin/Debug
+
+OPENAI_DLL=$(find ~/.nuget/packages -name "OpenAI.dll" -path "*/netstandard2.0/*" | head -1)
+CLIENTMODEL_DLL=$(find ~/.nuget/packages -name "System.ClientModel.dll" -path "*/netstandard2.0/*" | head -1)
+
+mcs -target:library -out:bin/Debug/FirstGtaMod.dll \
+  -r:/usr/lib/mono/4.5/System.dll \
+  -r:/usr/lib/mono/4.5/System.Windows.Forms.dll \
+  -r:/usr/lib/mono/4.5/System.Net.Http.dll \
+  -r:/usr/lib/mono/4.5/Facades/netstandard.dll \
+  -r:"$OPENAI_DLL" -r:"$CLIENTMODEL_DLL" \
+  -r:libs/ScriptHookVDotNet3.dll \
+  main.cs ChatBubble.cs ChatBubbleController.cs AIChatService.cs
+```
+
+> `Facades/netstandard.dll` là **bắt buộc** khi link thư viện .NET Standard 2.0 (OpenAI.dll).
+> Thiếu sẽ báo `CS0012: System.Object ... netstandard`.
+> Thêm file `.cs` mới thì thêm vào cuối dòng `mcs`.
+
 ## Kiểm thử tối thiểu
 
 1. Compile-only với configuration phù hợp; kiểm tra warning/error.
